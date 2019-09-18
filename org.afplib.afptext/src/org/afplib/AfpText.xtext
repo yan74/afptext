@@ -23,155 +23,155 @@ structuredField:
     (LineData | BAG | BBC | BCA | BCF | BCP | BDA | BDD | BDG | BDI | BDM | BDT | BDX | BFG | BFM | BFN | BGR | BII | BIM | BMM | BMO | BNG | BOC | BOG | BPF | BPG | BPM | BPS | BPT | BRG | BRS | BSG | CAT | CDD | CFC | CFI | CPC | CPD | CPI | CTC | DXD | EAG | EBC | ECA | ECF | ECP | EDG | EDI | EDM | EDT | EDX | EFG | EFM | EFN | EGR | EII | EIM | EMM | EMO | ENG | EOC | EOG | EPF | EPG | EPM | EPS | EPT | ERG | ERS | ESG | FNC | FND | FNG | FNI | FNN | FNM | FNO | FNP | GAD | GDD | ICP | IDD | IEL | IID | IMM | IOB | IOC | IPD | IPG | IPO | IPS | IRD | LLE | LNC | LND | MBC | MCA | MCC | MCD | MCF | MCF1 | MDD | MDR | MFC | MGO | MIO | MMC | MMD | MMO | MMT | MPG | MPO | MPS | MSU | NOP | OBD | OBP | OCD | PEC | PFC | PGD | PGP | PGP1 | PMC | PPO | PTD | PTD1 | PTX | TLE | FGD
 ) '\n';
 LineData:
-    {LineData} 'LineData' ('linedata=' (linedata=MODCASTRING))?;
+    {LineData} 'LineData' (('linedata=' (linedata=MODCASTRING))?);
 BAG:
-    {BAG} 'BAG' ('AEGName=' (AEGName=MODCASTRING))? (triplets+=triplet)*;
+    {BAG} 'BAG' (('AEGName=' (AEGName=MODCASTRING))?) (triplets+=triplet)*;
 BBC:
-    {BBC} 'BBC' ('BCdoName=' (BCdoName=MODCASTRING))? (triplets+=triplet)*;
+    {BBC} 'BBC' (('BCdoName=' (BCdoName=MODCASTRING))?) (triplets+=triplet)*;
 BCA:
-    {BCA} 'BCA' ('CATName=' (CATName=MODCASTRING))? (triplets+=triplet)*;
+    {BCA} 'BCA' (('CATName=' (CATName=MODCASTRING))?) (triplets+=triplet)*;
 BCF:
-    {BCF} 'BCF' ('RSName=' (RSName=MODCASTRING))?;
+    {BCF} 'BCF' (('RSName=' (RSName=MODCASTRING))?);
 BCP:
-    {BCP} 'BCP' ('RSName=' (RSName=MODCASTRING))? (triplets+=triplet)*;
+    {BCP} 'BCP' (('RSName=' (RSName=MODCASTRING))?) (triplets+=triplet)*;
 BDA:
-    {BDA} 'BDA' ('Flags=' (Flags=EINTEGEROBJECT))? ('Xoffset=' (Xoffset=EINTEGEROBJECT))? ('Yoffset=' (Yoffset=EINTEGEROBJECT))? ('Data=' (Data=EBYTEARRAY))?;
+    {BDA} 'BDA' (('Flags=' (Flags=EINTEGEROBJECT))? & ('Xoffset=' (Xoffset=EINTEGEROBJECT))? & ('Yoffset=' (Yoffset=EINTEGEROBJECT))? & ('Data=' (Data=EBYTEARRAY))?);
 BDD:
-    {BDD} 'BDD' ('UBASE=' (UBASE=EINTEGEROBJECT))? ('Reserved=' (Reserved=EINTEGEROBJECT))? ('XUPUB=' (XUPUB=EINTEGEROBJECT))? ('YUPUB=' (YUPUB=EINTEGEROBJECT))? ('XEXTENT=' (XEXTENT=EINTEGEROBJECT))? ('YEXTENT=' (YEXTENT=EINTEGEROBJECT))? ('Reserved2=' (Reserved2=EINTEGEROBJECT))? ('TYPE=' (TYPE=EINTEGEROBJECT))? ('MOD=' (MOD=EINTEGEROBJECT))? ('LID=' (LID=EINTEGEROBJECT))? ('COLOR=' (COLOR=EINTEGEROBJECT))? ('MODULEWIDTH=' (MODULEWIDTH=EINTEGEROBJECT))? ('ELEMENTHEIGHT=' (ELEMENTHEIGHT=EINTEGEROBJECT))? ('MULT=' (MULT=EINTEGEROBJECT))? ('WENE=' (WENE=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {BDD} 'BDD' (('UBASE=' (UBASE=EINTEGEROBJECT))? & ('Reserved=' (Reserved=EINTEGEROBJECT))? & ('XUPUB=' (XUPUB=EINTEGEROBJECT))? & ('YUPUB=' (YUPUB=EINTEGEROBJECT))? & ('XEXTENT=' (XEXTENT=EINTEGEROBJECT))? & ('YEXTENT=' (YEXTENT=EINTEGEROBJECT))? & ('Reserved2=' (Reserved2=EINTEGEROBJECT))? & ('TYPE=' (TYPE=EINTEGEROBJECT))? & ('MOD=' (MOD=EINTEGEROBJECT))? & ('LID=' (LID=EINTEGEROBJECT))? & ('COLOR=' (COLOR=EINTEGEROBJECT))? & ('MODULEWIDTH=' (MODULEWIDTH=EINTEGEROBJECT))? & ('ELEMENTHEIGHT=' (ELEMENTHEIGHT=EINTEGEROBJECT))? & ('MULT=' (MULT=EINTEGEROBJECT))? & ('WENE=' (WENE=EINTEGEROBJECT))?) (triplets+=triplet)*;
 BDG:
-    {BDG} 'BDG' ('DEGName=' (DEGName=MODCASTRING))? (triplets+=triplet)*;
+    {BDG} 'BDG' (('DEGName=' (DEGName=MODCASTRING))?) (triplets+=triplet)*;
 BDI:
-    {BDI} 'BDI' ('IndxName=' (IndxName=MODCASTRING))? (triplets+=triplet)*;
+    {BDI} 'BDI' (('IndxName=' (IndxName=MODCASTRING))?) (triplets+=triplet)*;
 BDM:
-    {BDM} 'BDM' ('DMName=' (DMName=MODCASTRING))? ('DatFmt=' (DatFmt=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {BDM} 'BDM' (('DMName=' (DMName=MODCASTRING))? & ('DatFmt=' (DatFmt=EINTEGEROBJECT))?) (triplets+=triplet)*;
 BDT:
-    {BDT} 'BDT' ('DocName=' (DocName=MODCASTRING))? ('Reserved=' (Reserved=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {BDT} 'BDT' (('DocName=' (DocName=MODCASTRING))? & ('Reserved=' (Reserved=EINTEGEROBJECT))?) (triplets+=triplet)*;
 BDX:
-    {BDX} 'BDX' ('DMXName=' (DMXName=MODCASTRING))?;
+    {BDX} 'BDX' (('DMXName=' (DMXName=MODCASTRING))?);
 BFG:
-    {BFG} 'BFG' ('FEGName=' (FEGName=MODCASTRING))?;
+    {BFG} 'BFG' (('FEGName=' (FEGName=MODCASTRING))?);
 BFM:
-    {BFM} 'BFM' ('FMName=' (FMName=MODCASTRING))? (triplets+=triplet)*;
+    {BFM} 'BFM' (('FMName=' (FMName=MODCASTRING))?) (triplets+=triplet)*;
 BFN:
-    {BFN} 'BFN' ('RSName=' (RSName=MODCASTRING))? (triplets+=triplet)*;
+    {BFN} 'BFN' (('RSName=' (RSName=MODCASTRING))?) (triplets+=triplet)*;
 BGR:
-    {BGR} 'BGR' ('GdoName=' (GdoName=MODCASTRING))? (triplets+=triplet)*;
+    {BGR} 'BGR' (('GdoName=' (GdoName=MODCASTRING))?) (triplets+=triplet)*;
 BII:
-    {BII} 'BII' ('ImoName=' (ImoName=MODCASTRING))?;
+    {BII} 'BII' (('ImoName=' (ImoName=MODCASTRING))?);
 BIM:
-    {BIM} 'BIM' ('IdoName=' (IdoName=MODCASTRING))? (triplets+=triplet)*;
+    {BIM} 'BIM' (('IdoName=' (IdoName=MODCASTRING))?) (triplets+=triplet)*;
 BMM:
-    {BMM} 'BMM' ('MMName=' (MMName=MODCASTRING))? (triplets+=triplet)*;
+    {BMM} 'BMM' (('MMName=' (MMName=MODCASTRING))?) (triplets+=triplet)*;
 BMO:
-    {BMO} 'BMO' ('OvlyName=' (OvlyName=MODCASTRING))? (triplets+=triplet)*;
+    {BMO} 'BMO' (('OvlyName=' (OvlyName=MODCASTRING))?) (triplets+=triplet)*;
 BNG:
-    {BNG} 'BNG' ('PGrpName=' (PGrpName=MODCASTRING))? (triplets+=triplet)*;
+    {BNG} 'BNG' (('PGrpName=' (PGrpName=MODCASTRING))?) (triplets+=triplet)*;
 BOC:
-    {BOC} 'BOC' ('ObjCName=' (ObjCName=MODCASTRING))? (triplets+=triplet)*;
+    {BOC} 'BOC' (('ObjCName=' (ObjCName=MODCASTRING))?) (triplets+=triplet)*;
 BOG:
-    {BOG} 'BOG' ('OEGName=' (OEGName=MODCASTRING))? (triplets+=triplet)*;
+    {BOG} 'BOG' (('OEGName=' (OEGName=MODCASTRING))?) (triplets+=triplet)*;
 BPF:
-    {BPF} 'BPF' ('PFName=' (PFName=MODCASTRING))? (triplets+=triplet)*;
+    {BPF} 'BPF' (('PFName=' (PFName=MODCASTRING))?) (triplets+=triplet)*;
 BPG:
-    {BPG} 'BPG' ('PageName=' (PageName=MODCASTRING))? (triplets+=triplet)*;
+    {BPG} 'BPG' (('PageName=' (PageName=MODCASTRING))?) (triplets+=triplet)*;
 BPM:
-    {BPM} 'BPM' ('PMName=' (PMName=MODCASTRING))?;
+    {BPM} 'BPM' (('PMName=' (PMName=MODCASTRING))?);
 BPS:
-    {BPS} 'BPS' ('PsegName=' (PsegName=MODCASTRING))? (triplets+=triplet)*;
+    {BPS} 'BPS' (('PsegName=' (PsegName=MODCASTRING))?) (triplets+=triplet)*;
 BPT:
-    {BPT} 'BPT' ('PTdoName=' (PTdoName=MODCASTRING))? (triplets+=triplet)*;
+    {BPT} 'BPT' (('PTdoName=' (PTdoName=MODCASTRING))?) (triplets+=triplet)*;
 BRG:
-    {BRG} 'BRG' ('RGrpName=' (RGrpName=MODCASTRING))? (triplets+=triplet)*;
+    {BRG} 'BRG' (('RGrpName=' (RGrpName=MODCASTRING))?) (triplets+=triplet)*;
 BRS:
-    {BRS} 'BRS' ('RSName=' (RSName=MODCASTRING))? (triplets+=triplet)*;
+    {BRS} 'BRS' (('RSName=' (RSName=MODCASTRING))?) (triplets+=triplet)*;
 BSG:
-    {BSG} 'BSG' ('REGName=' (REGName=MODCASTRING))? (triplets+=triplet)*;
+    {BSG} 'BSG' (('REGName=' (REGName=MODCASTRING))?) (triplets+=triplet)*;
 CAT:
-    {CAT} 'CAT' ('CATData=' (CATData=EBYTEARRAY))?;
+    {CAT} 'CAT' (('CATData=' (CATData=EBYTEARRAY))?);
 CDD:
-    {CDD} 'CDD' ('XocBase=' (XocBase=EINTEGEROBJECT))? ('YocBase=' (YocBase=EINTEGEROBJECT))? ('XocUnits=' (XocUnits=EINTEGEROBJECT))? ('YocUnits=' (YocUnits=EINTEGEROBJECT))? ('XocSize=' (XocSize=EINTEGEROBJECT))? ('YocSize=' (YocSize=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {CDD} 'CDD' (('XocBase=' (XocBase=EINTEGEROBJECT))? & ('YocBase=' (YocBase=EINTEGEROBJECT))? & ('XocUnits=' (XocUnits=EINTEGEROBJECT))? & ('YocUnits=' (YocUnits=EINTEGEROBJECT))? & ('XocSize=' (XocSize=EINTEGEROBJECT))? & ('YocSize=' (YocSize=EINTEGEROBJECT))?) (triplets+=triplet)*;
 CFC:
-    {CFC} 'CFC' ('CFIRGLen=' (CFIRGLen=EINTEGEROBJECT))? ('Retired1=' (Retired1=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {CFC} 'CFC' (('CFIRGLen=' (CFIRGLen=EINTEGEROBJECT))? & ('Retired1=' (Retired1=EINTEGEROBJECT))?) (triplets+=triplet)*;
 CFI:
     {CFI} 'CFI';
 CPC:
-    {CPC} 'CPC' ('DefCharID=' (DefCharID=MODCASTRING))? ('PrtFlags=' (PrtFlags=EINTEGEROBJECT))? ('CPIRGLen=' (CPIRGLen=EINTEGEROBJECT))? ('VSCharSN=' (VSCharSN=EINTEGEROBJECT))? ('VSChar=' (VSChar=EINTEGEROBJECT))? ('VSFlags=' (VSFlags=EINTEGEROBJECT))?;
+    {CPC} 'CPC' (('DefCharID=' (DefCharID=MODCASTRING))? & ('PrtFlags=' (PrtFlags=EINTEGEROBJECT))? & ('CPIRGLen=' (CPIRGLen=EINTEGEROBJECT))? & ('VSCharSN=' (VSCharSN=EINTEGEROBJECT))? & ('VSChar=' (VSChar=EINTEGEROBJECT))? & ('VSFlags=' (VSFlags=EINTEGEROBJECT))?);
 CPD:
-    {CPD} 'CPD' ('CPDesc=' (CPDesc=MODCASTRING))? ('GCGIDLen=' (GCGIDLen=EINTEGEROBJECT))? ('NumCdPts=' (NumCdPts=EINTEGEROBJECT))? ('GCSGID=' (GCSGID=EINTEGEROBJECT))? ('CPGID=' (CPGID=EINTEGEROBJECT))? ('EncScheme=' (EncScheme=EINTEGEROBJECT))?;
+    {CPD} 'CPD' (('CPDesc=' (CPDesc=MODCASTRING))? & ('GCGIDLen=' (GCGIDLen=EINTEGEROBJECT))? & ('NumCdPts=' (NumCdPts=EINTEGEROBJECT))? & ('GCSGID=' (GCSGID=EINTEGEROBJECT))? & ('CPGID=' (CPGID=EINTEGEROBJECT))? & ('EncScheme=' (EncScheme=EINTEGEROBJECT))?);
 CPI:
     {CPI} 'CPI' (rg+=CPIRG)*;
 CTC:
-    {CTC} 'CTC' ('ConData=' (ConData=EBYTEARRAY))?;
+    {CTC} 'CTC' (('ConData=' (ConData=EBYTEARRAY))?);
 DXD:
     {DXD} 'DXD';
 EAG:
-    {EAG} 'EAG' ('AEGName=' (AEGName=MODCASTRING))?;
+    {EAG} 'EAG' (('AEGName=' (AEGName=MODCASTRING))?);
 EBC:
-    {EBC} 'EBC' ('BCdoName=' (BCdoName=MODCASTRING))? (triplets+=triplet)*;
+    {EBC} 'EBC' (('BCdoName=' (BCdoName=MODCASTRING))?) (triplets+=triplet)*;
 ECA:
-    {ECA} 'ECA' ('CATName=' (CATName=MODCASTRING))? (triplets+=triplet)*;
+    {ECA} 'ECA' (('CATName=' (CATName=MODCASTRING))?) (triplets+=triplet)*;
 ECF:
-    {ECF} 'ECF' ('RSName=' (RSName=MODCASTRING))?;
+    {ECF} 'ECF' (('RSName=' (RSName=MODCASTRING))?);
 ECP:
-    {ECP} 'ECP' ('RSName=' (RSName=MODCASTRING))?;
+    {ECP} 'ECP' (('RSName=' (RSName=MODCASTRING))?);
 EDG:
-    {EDG} 'EDG' ('DEGName=' (DEGName=MODCASTRING))?;
+    {EDG} 'EDG' (('DEGName=' (DEGName=MODCASTRING))?);
 EDI:
-    {EDI} 'EDI' ('IndxName=' (IndxName=MODCASTRING))? (triplets+=triplet)*;
+    {EDI} 'EDI' (('IndxName=' (IndxName=MODCASTRING))?) (triplets+=triplet)*;
 EDM:
-    {EDM} 'EDM' ('DMName=' (DMName=MODCASTRING))?;
+    {EDM} 'EDM' (('DMName=' (DMName=MODCASTRING))?);
 EDT:
-    {EDT} 'EDT' ('DocName=' (DocName=MODCASTRING))? (triplets+=triplet)*;
+    {EDT} 'EDT' (('DocName=' (DocName=MODCASTRING))?) (triplets+=triplet)*;
 EDX:
-    {EDX} 'EDX' ('DMXName=' (DMXName=MODCASTRING))?;
+    {EDX} 'EDX' (('DMXName=' (DMXName=MODCASTRING))?);
 EFG:
-    {EFG} 'EFG' ('FEGName=' (FEGName=MODCASTRING))?;
+    {EFG} 'EFG' (('FEGName=' (FEGName=MODCASTRING))?);
 EFM:
-    {EFM} 'EFM' ('FMName=' (FMName=MODCASTRING))?;
+    {EFM} 'EFM' (('FMName=' (FMName=MODCASTRING))?);
 EFN:
-    {EFN} 'EFN' ('RSName=' (RSName=MODCASTRING))?;
+    {EFN} 'EFN' (('RSName=' (RSName=MODCASTRING))?);
 EGR:
-    {EGR} 'EGR' ('GdoName=' (GdoName=MODCASTRING))? (triplets+=triplet)*;
+    {EGR} 'EGR' (('GdoName=' (GdoName=MODCASTRING))?) (triplets+=triplet)*;
 EII:
-    {EII} 'EII' ('ImoName=' (ImoName=MODCASTRING))?;
+    {EII} 'EII' (('ImoName=' (ImoName=MODCASTRING))?);
 EIM:
-    {EIM} 'EIM' ('IdoName=' (IdoName=MODCASTRING))? (triplets+=triplet)*;
+    {EIM} 'EIM' (('IdoName=' (IdoName=MODCASTRING))?) (triplets+=triplet)*;
 EMM:
-    {EMM} 'EMM' ('MMName=' (MMName=MODCASTRING))?;
+    {EMM} 'EMM' (('MMName=' (MMName=MODCASTRING))?);
 EMO:
-    {EMO} 'EMO' ('OvlyName=' (OvlyName=MODCASTRING))? (triplets+=triplet)*;
+    {EMO} 'EMO' (('OvlyName=' (OvlyName=MODCASTRING))?) (triplets+=triplet)*;
 ENG:
-    {ENG} 'ENG' ('PGrpName=' (PGrpName=MODCASTRING))? (triplets+=triplet)*;
+    {ENG} 'ENG' (('PGrpName=' (PGrpName=MODCASTRING))?) (triplets+=triplet)*;
 EOC:
-    {EOC} 'EOC' ('ObjCName=' (ObjCName=MODCASTRING))? (triplets+=triplet)*;
+    {EOC} 'EOC' (('ObjCName=' (ObjCName=MODCASTRING))?) (triplets+=triplet)*;
 EOG:
-    {EOG} 'EOG' ('OEGName=' (OEGName=MODCASTRING))?;
+    {EOG} 'EOG' (('OEGName=' (OEGName=MODCASTRING))?);
 EPF:
-    {EPF} 'EPF' ('PFName=' (PFName=MODCASTRING))? (triplets+=triplet)*;
+    {EPF} 'EPF' (('PFName=' (PFName=MODCASTRING))?) (triplets+=triplet)*;
 EPG:
-    {EPG} 'EPG' ('PageName=' (PageName=MODCASTRING))? (triplets+=triplet)*;
+    {EPG} 'EPG' (('PageName=' (PageName=MODCASTRING))?) (triplets+=triplet)*;
 EPM:
-    {EPM} 'EPM' ('PMName=' (PMName=MODCASTRING))?;
+    {EPM} 'EPM' (('PMName=' (PMName=MODCASTRING))?);
 EPS:
-    {EPS} 'EPS' ('PsegName=' (PsegName=MODCASTRING))?;
+    {EPS} 'EPS' (('PsegName=' (PsegName=MODCASTRING))?);
 EPT:
-    {EPT} 'EPT' ('PTdoName=' (PTdoName=MODCASTRING))? (triplets+=triplet)*;
+    {EPT} 'EPT' (('PTdoName=' (PTdoName=MODCASTRING))?) (triplets+=triplet)*;
 ERG:
-    {ERG} 'ERG' ('RGrpName=' (RGrpName=MODCASTRING))? (triplets+=triplet)*;
+    {ERG} 'ERG' (('RGrpName=' (RGrpName=MODCASTRING))?) (triplets+=triplet)*;
 ERS:
-    {ERS} 'ERS' ('RSName=' (RSName=MODCASTRING))?;
+    {ERS} 'ERS' (('RSName=' (RSName=MODCASTRING))?);
 ESG:
-    {ESG} 'ESG' ('REGName=' (REGName=MODCASTRING))?;
+    {ESG} 'ESG' (('REGName=' (REGName=MODCASTRING))?);
 FNC:
-    {FNC} 'FNC' ('Retired=' (Retired=EINTEGEROBJECT))? ('PatTech=' (PatTech=EINTEGEROBJECT))? ('Reserved1=' (Reserved1=EBYTEARRAY))? ('FntFlags=' (FntFlags=EINTEGEROBJECT))? ('XUnitBase=' (XUnitBase=EINTEGEROBJECT))? ('YUnitBase=' (YUnitBase=EINTEGEROBJECT))? ('XftUnits=' (XftUnits=EINTEGEROBJECT))? ('YftUnits=' (YftUnits=EINTEGEROBJECT))? ('MaxBoxWd=' (MaxBoxWd=EINTEGEROBJECT))? ('MaxBoxHt=' (MaxBoxHt=EINTEGEROBJECT))? ('FNORGLen=' (FNORGLen=EINTEGEROBJECT))? ('FNIRGLen=' (FNIRGLen=EINTEGEROBJECT))? ('PatAlign=' (PatAlign=EINTEGEROBJECT))? ('RPatDCnt=' (RPatDCnt=EINTEGEROBJECT))? ('FNPRGLen=' (FNPRGLen=EINTEGEROBJECT))? ('FNMRGLen=' (FNMRGLen=EINTEGEROBJECT))? ('ResXUBase=' (ResXUBase=EINTEGEROBJECT))? ('ResYUBase=' (ResYUBase=EINTEGEROBJECT))? ('XfrUnits=' (XfrUnits=EINTEGEROBJECT))? ('YfrUnits=' (YfrUnits=EINTEGEROBJECT))? ('OPatDCnt=' (OPatDCnt=EINTEGEROBJECT))? ('Reserved2=' (Reserved2=EBYTEARRAY))? ('FNNRGLen=' (FNNRGLen=EINTEGEROBJECT))? ('FNNDCnt=' (FNNDCnt=EINTEGEROBJECT))? ('FNNMapCnt=' (FNNMapCnt=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {FNC} 'FNC' (('Retired=' (Retired=EINTEGEROBJECT))? & ('PatTech=' (PatTech=EINTEGEROBJECT))? & ('Reserved1=' (Reserved1=EBYTEARRAY))? & ('FntFlags=' (FntFlags=EINTEGEROBJECT))? & ('XUnitBase=' (XUnitBase=EINTEGEROBJECT))? & ('YUnitBase=' (YUnitBase=EINTEGEROBJECT))? & ('XftUnits=' (XftUnits=EINTEGEROBJECT))? & ('YftUnits=' (YftUnits=EINTEGEROBJECT))? & ('MaxBoxWd=' (MaxBoxWd=EINTEGEROBJECT))? & ('MaxBoxHt=' (MaxBoxHt=EINTEGEROBJECT))? & ('FNORGLen=' (FNORGLen=EINTEGEROBJECT))? & ('FNIRGLen=' (FNIRGLen=EINTEGEROBJECT))? & ('PatAlign=' (PatAlign=EINTEGEROBJECT))? & ('RPatDCnt=' (RPatDCnt=EINTEGEROBJECT))? & ('FNPRGLen=' (FNPRGLen=EINTEGEROBJECT))? & ('FNMRGLen=' (FNMRGLen=EINTEGEROBJECT))? & ('ResXUBase=' (ResXUBase=EINTEGEROBJECT))? & ('ResYUBase=' (ResYUBase=EINTEGEROBJECT))? & ('XfrUnits=' (XfrUnits=EINTEGEROBJECT))? & ('YfrUnits=' (YfrUnits=EINTEGEROBJECT))? & ('OPatDCnt=' (OPatDCnt=EINTEGEROBJECT))? & ('Reserved2=' (Reserved2=EBYTEARRAY))? & ('FNNRGLen=' (FNNRGLen=EINTEGEROBJECT))? & ('FNNDCnt=' (FNNDCnt=EINTEGEROBJECT))? & ('FNNMapCnt=' (FNNMapCnt=EINTEGEROBJECT))?) (triplets+=triplet)*;
 FND:
-    {FND} 'FND' ('TypeFcDesc=' (TypeFcDesc=MODCASTRING))? ('FtWtClass=' (FtWtClass=EINTEGEROBJECT))? ('FtWdClass=' (FtWdClass=EINTEGEROBJECT))? ('MaxPtSize=' (MaxPtSize=EINTEGEROBJECT))? ('NomPtSize=' (NomPtSize=EINTEGEROBJECT))? ('MinPtSize=' (MinPtSize=EINTEGEROBJECT))? ('MaxHSize=' (MaxHSize=EINTEGEROBJECT))? ('NomHSize=' (NomHSize=EINTEGEROBJECT))? ('MinHSize=' (MinHSize=EINTEGEROBJECT))? ('DsnGenCls=' (DsnGenCls=EINTEGEROBJECT))? ('DsnSubCls=' (DsnSubCls=EINTEGEROBJECT))? ('DsnSpcGrp=' (DsnSpcGrp=EINTEGEROBJECT))? ('Reserved1=' (Reserved1=EBYTEARRAY))? ('FtDsFlags=' (FtDsFlags=EINTEGEROBJECT))? ('Reserved2=' (Reserved2=EBYTEARRAY))? ('GCSID=' (GCSID=EINTEGEROBJECT))? ('FGID=' (FGID=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {FND} 'FND' (('TypeFcDesc=' (TypeFcDesc=MODCASTRING))? & ('FtWtClass=' (FtWtClass=EINTEGEROBJECT))? & ('FtWdClass=' (FtWdClass=EINTEGEROBJECT))? & ('MaxPtSize=' (MaxPtSize=EINTEGEROBJECT))? & ('NomPtSize=' (NomPtSize=EINTEGEROBJECT))? & ('MinPtSize=' (MinPtSize=EINTEGEROBJECT))? & ('MaxHSize=' (MaxHSize=EINTEGEROBJECT))? & ('NomHSize=' (NomHSize=EINTEGEROBJECT))? & ('MinHSize=' (MinHSize=EINTEGEROBJECT))? & ('DsnGenCls=' (DsnGenCls=EINTEGEROBJECT))? & ('DsnSubCls=' (DsnSubCls=EINTEGEROBJECT))? & ('DsnSpcGrp=' (DsnSpcGrp=EINTEGEROBJECT))? & ('Reserved1=' (Reserved1=EBYTEARRAY))? & ('FtDsFlags=' (FtDsFlags=EINTEGEROBJECT))? & ('Reserved2=' (Reserved2=EBYTEARRAY))? & ('GCSID=' (GCSID=EINTEGEROBJECT))? & ('FGID=' (FGID=EINTEGEROBJECT))?) (triplets+=triplet)*;
 FNG:
-    {FNG} 'FNG' ('PatData=' (PatData=EBYTEARRAY))?;
+    {FNG} 'FNG' (('PatData=' (PatData=EBYTEARRAY))?);
 FNI:
     {FNI} 'FNI' (rg+=FNIRG)*;
 FNN:
-    {FNN} 'FNN' ('FNNData=' (FNNData=EBYTEARRAY))?;
+    {FNN} 'FNN' (('FNNData=' (FNNData=EBYTEARRAY))?);
 FNM:
     {FNM} 'FNM' (rg+=FNMRG)*;
 FNO:
@@ -179,39 +179,39 @@ FNO:
 FNP:
     {FNP} 'FNP' (rg+=FNPRG)*;
 GAD:
-    {GAD} 'GAD' ('GOCAdat=' (GOCAdat=EBYTEARRAY))?;
+    {GAD} 'GAD' (('GOCAdat=' (GOCAdat=EBYTEARRAY))?);
 GDD:
-    {GDD} 'GDD' ('GOCAdes=' (GOCAdes=EBYTEARRAY))?;
+    {GDD} 'GDD' (('GOCAdes=' (GOCAdes=EBYTEARRAY))?);
 ICP:
-    {ICP} 'ICP' ('XCOset=' (XCOset=EINTEGEROBJECT))? ('YCOset=' (YCOset=EINTEGEROBJECT))? ('XCSize=' (XCSize=EINTEGEROBJECT))? ('YCSize=' (YCSize=EINTEGEROBJECT))? ('XFilSize=' (XFilSize=EINTEGEROBJECT))? ('YFilSize=' (YFilSize=EINTEGEROBJECT))?;
+    {ICP} 'ICP' (('XCOset=' (XCOset=EINTEGEROBJECT))? & ('YCOset=' (YCOset=EINTEGEROBJECT))? & ('XCSize=' (XCSize=EINTEGEROBJECT))? & ('YCSize=' (YCSize=EINTEGEROBJECT))? & ('XFilSize=' (XFilSize=EINTEGEROBJECT))? & ('YFilSize=' (YFilSize=EINTEGEROBJECT))?);
 IDD:
-    {IDD} 'IDD' ('UNITBASE=' (UNITBASE=EINTEGEROBJECT))? ('XRESOL=' (XRESOL=EINTEGEROBJECT))? ('YRESOL=' (YRESOL=EINTEGEROBJECT))? ('XSIZE=' (XSIZE=EINTEGEROBJECT))? ('YSIZE=' (YSIZE=EINTEGEROBJECT))?;
+    {IDD} 'IDD' (('UNITBASE=' (UNITBASE=EINTEGEROBJECT))? & ('XRESOL=' (XRESOL=EINTEGEROBJECT))? & ('YRESOL=' (YRESOL=EINTEGEROBJECT))? & ('XSIZE=' (XSIZE=EINTEGEROBJECT))? & ('YSIZE=' (YSIZE=EINTEGEROBJECT))?);
 IEL:
     {IEL} 'IEL' (triplets+=triplet)*;
 IID:
-    {IID} 'IID' ('ConData1=' (ConData1=EBYTEARRAY))? ('XBase=' (XBase=EINTEGEROBJECT))? ('YBase=' (YBase=EINTEGEROBJECT))? ('XUnits=' (XUnits=EINTEGEROBJECT))? ('YUnits=' (YUnits=EINTEGEROBJECT))? ('XSize=' (XSize=EINTEGEROBJECT))? ('YSize=' (YSize=EINTEGEROBJECT))? ('ConData2=' (ConData2=EBYTEARRAY))? ('XCSizeD=' (XCSizeD=EINTEGEROBJECT))? ('YCSizeD=' (YCSizeD=EINTEGEROBJECT))? ('ConData3=' (ConData3=EBYTEARRAY))? ('Color=' (Color=EINTEGEROBJECT))?;
+    {IID} 'IID' (('ConData1=' (ConData1=EBYTEARRAY))? & ('XBase=' (XBase=EINTEGEROBJECT))? & ('YBase=' (YBase=EINTEGEROBJECT))? & ('XUnits=' (XUnits=EINTEGEROBJECT))? & ('YUnits=' (YUnits=EINTEGEROBJECT))? & ('XSize=' (XSize=EINTEGEROBJECT))? & ('YSize=' (YSize=EINTEGEROBJECT))? & ('ConData2=' (ConData2=EBYTEARRAY))? & ('XCSizeD=' (XCSizeD=EINTEGEROBJECT))? & ('YCSizeD=' (YCSizeD=EINTEGEROBJECT))? & ('ConData3=' (ConData3=EBYTEARRAY))? & ('Color=' (Color=EINTEGEROBJECT))?);
 IMM:
-    {IMM} 'IMM' ('MMPName=' (MMPName=MODCASTRING))? (triplets+=triplet)*;
+    {IMM} 'IMM' (('MMPName=' (MMPName=MODCASTRING))?) (triplets+=triplet)*;
 IOB:
-    {IOB} 'IOB' ('ObjName=' (ObjName=MODCASTRING))? ('ObjType=' (ObjType=EINTEGEROBJECT))? ('XoaOset=' (XoaOset=EINTEGEROBJECT))? ('YoaOset=' (YoaOset=EINTEGEROBJECT))? ('XoaOrent=' (XoaOrent=EINTEGEROBJECT))? ('YoaOrent=' (YoaOrent=EINTEGEROBJECT))? ('XocaOset=' (XocaOset=EINTEGEROBJECT))? ('YocaOset=' (YocaOset=EINTEGEROBJECT))? ('RefCSys=' (RefCSys=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {IOB} 'IOB' (('ObjName=' (ObjName=MODCASTRING))? & ('ObjType=' (ObjType=EINTEGEROBJECT))? & ('XoaOset=' (XoaOset=EINTEGEROBJECT))? & ('YoaOset=' (YoaOset=EINTEGEROBJECT))? & ('XoaOrent=' (XoaOrent=EINTEGEROBJECT))? & ('YoaOrent=' (YoaOrent=EINTEGEROBJECT))? & ('XocaOset=' (XocaOset=EINTEGEROBJECT))? & ('YocaOset=' (YocaOset=EINTEGEROBJECT))? & ('RefCSys=' (RefCSys=EINTEGEROBJECT))?) (triplets+=triplet)*;
 IOC:
-    {IOC} 'IOC' ('XoaOset=' (XoaOset=EINTEGEROBJECT))? ('YoaOset=' (YoaOset=EINTEGEROBJECT))? ('XoaOrent=' (XoaOrent=EINTEGEROBJECT))? ('YoaOrent=' (YoaOrent=EINTEGEROBJECT))? ('ConData1=' (ConData1=EBYTEARRAY))? ('XMap=' (XMap=EINTEGEROBJECT))? ('YMap=' (YMap=EINTEGEROBJECT))? ('ConData2=' (ConData2=EBYTEARRAY))?;
+    {IOC} 'IOC' (('XoaOset=' (XoaOset=EINTEGEROBJECT))? & ('YoaOset=' (YoaOset=EINTEGEROBJECT))? & ('XoaOrent=' (XoaOrent=EINTEGEROBJECT))? & ('YoaOrent=' (YoaOrent=EINTEGEROBJECT))? & ('ConData1=' (ConData1=EBYTEARRAY))? & ('XMap=' (XMap=EINTEGEROBJECT))? & ('YMap=' (YMap=EINTEGEROBJECT))? & ('ConData2=' (ConData2=EBYTEARRAY))?);
 IPD:
-    {IPD} 'IPD' ('IOCAdat=' (IOCAdat=EBYTEARRAY))? ('imageData=' (imageData=EBYTEARRAY))?;
+    {IPD} 'IPD' (('IOCAdat=' (IOCAdat=EBYTEARRAY))? & ('imageData=' (imageData=EBYTEARRAY))?);
 IPG:
-    {IPG} 'IPG' ('PgName=' (PgName=MODCASTRING))? ('IPgFlgs=' (IPgFlgs=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {IPG} 'IPG' (('PgName=' (PgName=MODCASTRING))? & ('IPgFlgs=' (IPgFlgs=EINTEGEROBJECT))?) (triplets+=triplet)*;
 IPO:
-    {IPO} 'IPO' ('OvlyName=' (OvlyName=MODCASTRING))? ('XolOset=' (XolOset=EINTEGEROBJECT))? ('YolOset=' (YolOset=EINTEGEROBJECT))? ('OvlyOrent=' (OvlyOrent=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {IPO} 'IPO' (('OvlyName=' (OvlyName=MODCASTRING))? & ('XolOset=' (XolOset=EINTEGEROBJECT))? & ('YolOset=' (YolOset=EINTEGEROBJECT))? & ('OvlyOrent=' (OvlyOrent=EINTEGEROBJECT))?) (triplets+=triplet)*;
 IPS:
-    {IPS} 'IPS' ('PsegName=' (PsegName=MODCASTRING))? ('XpsOset=' (XpsOset=EINTEGEROBJECT))? ('YpsOset=' (YpsOset=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {IPS} 'IPS' (('PsegName=' (PsegName=MODCASTRING))? & ('XpsOset=' (XpsOset=EINTEGEROBJECT))? & ('YpsOset=' (YpsOset=EINTEGEROBJECT))?) (triplets+=triplet)*;
 IRD:
-    {IRD} 'IRD' ('IMdata=' (IMdata=EBYTEARRAY))?;
+    {IRD} 'IRD' (('IMdata=' (IMdata=EBYTEARRAY))?);
 LLE:
-    {LLE} 'LLE' ('LnkType=' (LnkType=EINTEGEROBJECT))? (rg+=LLERG)*;
+    {LLE} 'LLE' (('LnkType=' (LnkType=EINTEGEROBJECT))?) (rg+=LLERG)*;
 LNC:
-    {LNC} 'LNC' ('NumDSC=' (NumDSC=EINTEGEROBJECT))?;
+    {LNC} 'LNC' (('NumDSC=' (NumDSC=EINTEGEROBJECT))?);
 LND:
-    {LND} 'LND' ('LNDFlgs=' (LNDFlgs=EINTEGEROBJECT))? ('IPos=' (IPos=EINTEGEROBJECT))? ('BPos=' (BPos=EINTEGEROBJECT))? ('TxtOrent=' (TxtOrent=EINTEGEROBJECT))? ('FntLID=' (FntLID=EINTEGEROBJECT))? ('ChnlCde=' (ChnlCde=EINTEGEROBJECT))? ('NLNDskp=' (NLNDskp=EINTEGEROBJECT))? ('NLNDsp=' (NLNDsp=EINTEGEROBJECT))? ('NLNDreu=' (NLNDreu=EINTEGEROBJECT))? ('SupName=' (SupName=MODCASTRING))? ('SOLid=' (SOLid=EINTEGEROBJECT))? ('DataStrt=' (DataStrt=EINTEGEROBJECT))? ('DataLgth=' (DataLgth=EINTEGEROBJECT))? ('TxtColor=' (TxtColor=EINTEGEROBJECT))? ('NLNDccp=' (NLNDccp=EINTEGEROBJECT))? ('SubpgID=' (SubpgID=EINTEGEROBJECT))? ('CCPID=' (CCPID=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {LND} 'LND' (('LNDFlgs=' (LNDFlgs=EINTEGEROBJECT))? & ('IPos=' (IPos=EINTEGEROBJECT))? & ('BPos=' (BPos=EINTEGEROBJECT))? & ('TxtOrent=' (TxtOrent=EINTEGEROBJECT))? & ('FntLID=' (FntLID=EINTEGEROBJECT))? & ('ChnlCde=' (ChnlCde=EINTEGEROBJECT))? & ('NLNDskp=' (NLNDskp=EINTEGEROBJECT))? & ('NLNDsp=' (NLNDsp=EINTEGEROBJECT))? & ('NLNDreu=' (NLNDreu=EINTEGEROBJECT))? & ('SupName=' (SupName=MODCASTRING))? & ('SOLid=' (SOLid=EINTEGEROBJECT))? & ('DataStrt=' (DataStrt=EINTEGEROBJECT))? & ('DataLgth=' (DataLgth=EINTEGEROBJECT))? & ('TxtColor=' (TxtColor=EINTEGEROBJECT))? & ('NLNDccp=' (NLNDccp=EINTEGEROBJECT))? & ('SubpgID=' (SubpgID=EINTEGEROBJECT))? & ('CCPID=' (CCPID=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MBC:
     {MBC} 'MBC' (rg+=MBCRG)*;
 MCA:
@@ -223,23 +223,23 @@ MCD:
 MCF:
     {MCF} 'MCF' (rg+=MCFRG)*;
 MCF1:
-    {MCF1} 'MCF1' ('RGLength=' (RGLength=EINTEGEROBJECT))? (rg+=MCF1RG)*;
+    {MCF1} 'MCF1' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (rg+=MCF1RG)*;
 MDD:
-    {MDD} 'MDD' ('XmBase=' (XmBase=EINTEGEROBJECT))? ('YmBase=' (YmBase=EINTEGEROBJECT))? ('XmUnits=' (XmUnits=EINTEGEROBJECT))? ('YmUnits=' (YmUnits=EINTEGEROBJECT))? ('XmSize=' (XmSize=EINTEGEROBJECT))? ('YmSize=' (YmSize=EINTEGEROBJECT))? ('MDDFlgs=' (MDDFlgs=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MDD} 'MDD' (('XmBase=' (XmBase=EINTEGEROBJECT))? & ('YmBase=' (YmBase=EINTEGEROBJECT))? & ('XmUnits=' (XmUnits=EINTEGEROBJECT))? & ('YmUnits=' (YmUnits=EINTEGEROBJECT))? & ('XmSize=' (XmSize=EINTEGEROBJECT))? & ('YmSize=' (YmSize=EINTEGEROBJECT))? & ('MDDFlgs=' (MDDFlgs=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MDR:
     {MDR} 'MDR' (rg+=MDRRG)*;
 MFC:
-    {MFC} 'MFC' ('MFCFlgs=' (MFCFlgs=EINTEGEROBJECT))? ('MedColl=' (MedColl=EINTEGEROBJECT))? ('MFCScpe=' (MFCScpe=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MFC} 'MFC' (('MFCFlgs=' (MFCFlgs=EINTEGEROBJECT))? & ('MedColl=' (MedColl=EINTEGEROBJECT))? & ('MFCScpe=' (MFCScpe=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MGO:
     {MGO} 'MGO' (rg+=MGORG)*;
 MIO:
     {MIO} 'MIO' (rg+=MIORG)*;
 MMC:
-    {MMC} 'MMC' ('MMCid=' (MMCid=EINTEGEROBJECT))? ('PARAMETER1=' (PARAMETER1=EINTEGEROBJECT))? (rg+=MMCRG)*;
+    {MMC} 'MMC' (('MMCid=' (MMCid=EINTEGEROBJECT))? & ('PARAMETER1=' (PARAMETER1=EINTEGEROBJECT))?) (rg+=MMCRG)*;
 MMD:
     {MMD} 'MMD' (rg+=MMDRG)*;
 MMO:
-    {MMO} 'MMO' ('RGLength=' (RGLength=EINTEGEROBJECT))? (rg+=MMORG)*;
+    {MMO} 'MMO' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (rg+=MMORG)*;
 MMT:
     {MMT} 'MMT' (rg+=MMTRG)*;
 MPG:
@@ -247,242 +247,242 @@ MPG:
 MPO:
     {MPO} 'MPO' (rg+=MPORG)*;
 MPS:
-    {MPS} 'MPS' ('RGLength=' (RGLength=EINTEGEROBJECT))? ('Reserved=' (Reserved=EBYTEARRAY))?;
+    {MPS} 'MPS' (('RGLength=' (RGLength=EINTEGEROBJECT))? & ('Reserved=' (Reserved=EBYTEARRAY))?);
 MSU:
     {MSU} 'MSU' (rg+=MSURG)*;
 NOP:
-    {NOP} 'NOP' ('UndfData=' (UndfData=EBYTEARRAY))?;
+    {NOP} 'NOP' (('UndfData=' (UndfData=EBYTEARRAY))?);
 OBD:
     {OBD} 'OBD' (triplets+=triplet)*;
 OBP:
-    {OBP} 'OBP' ('OAPosID=' (OAPosID=EINTEGEROBJECT))? ('RGLength=' (RGLength=EINTEGEROBJECT))? ('XoaOset=' (XoaOset=EINTEGEROBJECT))? ('YoaOset=' (YoaOset=EINTEGEROBJECT))? ('XoaOrent=' (XoaOrent=EINTEGEROBJECT))? ('YoaOrent=' (YoaOrent=EINTEGEROBJECT))? ('XocaOset=' (XocaOset=EINTEGEROBJECT))? ('YocaOset=' (YocaOset=EINTEGEROBJECT))? ('XocaOrent=' (XocaOrent=EINTEGEROBJECT))? ('YocaOrent=' (YocaOrent=EINTEGEROBJECT))? ('RefCSys=' (RefCSys=EINTEGEROBJECT))?;
+    {OBP} 'OBP' (('OAPosID=' (OAPosID=EINTEGEROBJECT))? & ('RGLength=' (RGLength=EINTEGEROBJECT))? & ('XoaOset=' (XoaOset=EINTEGEROBJECT))? & ('YoaOset=' (YoaOset=EINTEGEROBJECT))? & ('XoaOrent=' (XoaOrent=EINTEGEROBJECT))? & ('YoaOrent=' (YoaOrent=EINTEGEROBJECT))? & ('XocaOset=' (XocaOset=EINTEGEROBJECT))? & ('YocaOset=' (YocaOset=EINTEGEROBJECT))? & ('XocaOrent=' (XocaOrent=EINTEGEROBJECT))? & ('YocaOrent=' (YocaOrent=EINTEGEROBJECT))? & ('RefCSys=' (RefCSys=EINTEGEROBJECT))?);
 OCD:
-    {OCD} 'OCD' ('ObjCdat=' (ObjCdat=EBYTEARRAY))?;
+    {OCD} 'OCD' (('ObjCdat=' (ObjCdat=EBYTEARRAY))?);
 PEC:
     {PEC} 'PEC' (triplets+=triplet)*;
 PFC:
-    {PFC} 'PFC' ('PFCFlgs=' (PFCFlgs=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {PFC} 'PFC' (('PFCFlgs=' (PFCFlgs=EINTEGEROBJECT))?) (triplets+=triplet)*;
 PGD:
-    {PGD} 'PGD' ('XpgBase=' (XpgBase=EINTEGEROBJECT))? ('YpgBase=' (YpgBase=EINTEGEROBJECT))? ('XpgUnits=' (XpgUnits=EINTEGEROBJECT))? ('YpgUnits=' (YpgUnits=EINTEGEROBJECT))? ('XpgSize=' (XpgSize=EINTEGEROBJECT))? ('YpgSize=' (YpgSize=EINTEGEROBJECT))? ('Reserved=' (Reserved=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {PGD} 'PGD' (('XpgBase=' (XpgBase=EINTEGEROBJECT))? & ('YpgBase=' (YpgBase=EINTEGEROBJECT))? & ('XpgUnits=' (XpgUnits=EINTEGEROBJECT))? & ('YpgUnits=' (YpgUnits=EINTEGEROBJECT))? & ('XpgSize=' (XpgSize=EINTEGEROBJECT))? & ('YpgSize=' (YpgSize=EINTEGEROBJECT))? & ('Reserved=' (Reserved=EINTEGEROBJECT))?) (triplets+=triplet)*;
 PGP:
-    {PGP} 'PGP' ('Constant=' (Constant=EINTEGEROBJECT))? (rg+=PGPRG)*;
+    {PGP} 'PGP' (('Constant=' (Constant=EINTEGEROBJECT))?) (rg+=PGPRG)*;
 PGP1:
-    {PGP1} 'PGP1' ('XOset=' (XOset=EINTEGEROBJECT))? ('YOset=' (YOset=EINTEGEROBJECT))?;
+    {PGP1} 'PGP1' (('XOset=' (XOset=EINTEGEROBJECT))? & ('YOset=' (YOset=EINTEGEROBJECT))?);
 PMC:
-    {PMC} 'PMC' ('PMCid=' (PMCid=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {PMC} 'PMC' (('PMCid=' (PMCid=EINTEGEROBJECT))?) (triplets+=triplet)*;
 PPO:
     {PPO} 'PPO' (rg+=PPORG)*;
 PTD:
-    {PTD} 'PTD' ('XPBASE=' (XPBASE=EINTEGEROBJECT))? ('YPBASE=' (YPBASE=EINTEGEROBJECT))? ('XPUNITVL=' (XPUNITVL=EINTEGEROBJECT))? ('YPUNITVL=' (YPUNITVL=EINTEGEROBJECT))? ('XPEXTENT=' (XPEXTENT=EINTEGEROBJECT))? ('YPEXTENT=' (YPEXTENT=EINTEGEROBJECT))? ('RESERVED=' (RESERVED=EINTEGEROBJECT))?;
+    {PTD} 'PTD' (('XPBASE=' (XPBASE=EINTEGEROBJECT))? & ('YPBASE=' (YPBASE=EINTEGEROBJECT))? & ('XPUNITVL=' (XPUNITVL=EINTEGEROBJECT))? & ('YPUNITVL=' (YPUNITVL=EINTEGEROBJECT))? & ('XPEXTENT=' (XPEXTENT=EINTEGEROBJECT))? & ('YPEXTENT=' (YPEXTENT=EINTEGEROBJECT))? & ('RESERVED=' (RESERVED=EINTEGEROBJECT))?);
 PTD1:
-    {PTD1} 'PTD1' ('XPBASE=' (XPBASE=EINTEGEROBJECT))? ('YPBASE=' (YPBASE=EINTEGEROBJECT))? ('XPUNITVL=' (XPUNITVL=EINTEGEROBJECT))? ('YPUNITVL=' (YPUNITVL=EINTEGEROBJECT))? ('XPEXTENT=' (XPEXTENT=EINTEGEROBJECT))? ('YPEXTENT=' (YPEXTENT=EINTEGEROBJECT))? ('RESERVED=' (RESERVED=EINTEGEROBJECT))?;
+    {PTD1} 'PTD1' (('XPBASE=' (XPBASE=EINTEGEROBJECT))? & ('YPBASE=' (YPBASE=EINTEGEROBJECT))? & ('XPUNITVL=' (XPUNITVL=EINTEGEROBJECT))? & ('YPUNITVL=' (YPUNITVL=EINTEGEROBJECT))? & ('XPEXTENT=' (XPEXTENT=EINTEGEROBJECT))? & ('YPEXTENT=' (YPEXTENT=EINTEGEROBJECT))? & ('RESERVED=' (RESERVED=EINTEGEROBJECT))?);
 PTX:
     {PTX} 'PTX';
 TLE:
     {TLE} 'TLE' (triplets+=triplet)*;
 FGD:
-    {FGD} 'FGD' ('ConData=' (ConData=EBYTEARRAY))?;
+    {FGD} 'FGD' (('ConData=' (ConData=EBYTEARRAY))?);
 CPIRG:
-    {CPIRG} '\n.rg' ('GCGID=' (GCGID=MODCASTRING))? ('PrtFlags=' (PrtFlags=EINTEGEROBJECT))? ('CodePoint=' (CodePoint=EINTEGEROBJECT))? ('Count=' (Count=EINTEGEROBJECT))?;
+    {CPIRG} '\n.rg' (('GCGID=' (GCGID=MODCASTRING))? & ('PrtFlags=' (PrtFlags=EINTEGEROBJECT))? & ('CodePoint=' (CodePoint=EINTEGEROBJECT))? & ('Count=' (Count=EINTEGEROBJECT))?);
 CFIRG:
-    {CFIRG} '\n.rg' ('FCSName=' (FCSName=MODCASTRING))? ('CPName=' (CPName=MODCASTRING))? ('SVSize=' (SVSize=EINTEGEROBJECT))? ('SHScale=' (SHScale=EINTEGEROBJECT))? ('Reserved=' (Reserved=EBYTEARRAY))? ('Section=' (Section=EINTEGEROBJECT))?;
+    {CFIRG} '\n.rg' (('FCSName=' (FCSName=MODCASTRING))? & ('CPName=' (CPName=MODCASTRING))? & ('SVSize=' (SVSize=EINTEGEROBJECT))? & ('SHScale=' (SHScale=EINTEGEROBJECT))? & ('Reserved=' (Reserved=EBYTEARRAY))? & ('Section=' (Section=EINTEGEROBJECT))?);
 FNIRG:
-    {FNIRG} '\n.rg' ('GCGID=' (GCGID=MODCASTRING))? ('CharInc=' (CharInc=EINTEGEROBJECT))? ('AscendHt=' (AscendHt=EINTEGEROBJECT))? ('DescendDp=' (DescendDp=EINTEGEROBJECT))? ('Reserved=' (Reserved=EINTEGEROBJECT))? ('FNMCnt=' (FNMCnt=EINTEGEROBJECT))? ('ASpace=' (ASpace=EINTEGEROBJECT))? ('BSpace=' (BSpace=EINTEGEROBJECT))? ('CSpace=' (CSpace=EINTEGEROBJECT))? ('Reserved2=' (Reserved2=EINTEGEROBJECT))? ('BaseOset=' (BaseOset=EINTEGEROBJECT))?;
+    {FNIRG} '\n.rg' (('GCGID=' (GCGID=MODCASTRING))? & ('CharInc=' (CharInc=EINTEGEROBJECT))? & ('AscendHt=' (AscendHt=EINTEGEROBJECT))? & ('DescendDp=' (DescendDp=EINTEGEROBJECT))? & ('Reserved=' (Reserved=EINTEGEROBJECT))? & ('FNMCnt=' (FNMCnt=EINTEGEROBJECT))? & ('ASpace=' (ASpace=EINTEGEROBJECT))? & ('BSpace=' (BSpace=EINTEGEROBJECT))? & ('CSpace=' (CSpace=EINTEGEROBJECT))? & ('Reserved2=' (Reserved2=EINTEGEROBJECT))? & ('BaseOset=' (BaseOset=EINTEGEROBJECT))?);
 FNMRG:
-    {FNMRG} '\n.rg' ('CharBoxWd=' (CharBoxWd=EINTEGEROBJECT))? ('CharBoxHt=' (CharBoxHt=EINTEGEROBJECT))? ('PatDOset=' (PatDOset=EINTEGEROBJECT))?;
+    {FNMRG} '\n.rg' (('CharBoxWd=' (CharBoxWd=EINTEGEROBJECT))? & ('CharBoxHt=' (CharBoxHt=EINTEGEROBJECT))? & ('PatDOset=' (PatDOset=EINTEGEROBJECT))?);
 LLERG:
-    {LLERG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? ('RGFunct=' (RGFunct=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {LLERG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))? & ('RGFunct=' (RGFunct=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MPSRG:
-    {MPSRG} '\n.rg' ('Reserved=' (Reserved=EINTEGEROBJECT))? ('PsegName=' (PsegName=MODCASTRING))?;
+    {MPSRG} '\n.rg' (('Reserved=' (Reserved=EINTEGEROBJECT))? & ('PsegName=' (PsegName=MODCASTRING))?);
 MCFRG:
-    {MCFRG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MCFRG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MBCRG:
-    {MBCRG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MBCRG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MCARG:
-    {MCARG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MCARG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MCDRG:
-    {MCDRG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MCDRG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MDRRG:
-    {MDRRG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MDRRG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MGORG:
-    {MGORG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MGORG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MIORG:
-    {MIORG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MIORG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MMDRG:
-    {MMDRG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MMDRG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MMTRG:
-    {MMTRG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MMTRG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MPGRG:
-    {MPGRG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MPGRG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 MPORG:
-    {MPORG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {MPORG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))?) (triplets+=triplet)*;
 PPORG:
-    {PPORG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? ('ObjType=' (ObjType=EINTEGEROBJECT))? ('ProcFlgs=' (ProcFlgs=EINTEGEROBJECT))? ('XocaOset=' (XocaOset=EINTEGEROBJECT))? ('YocaOset=' (YocaOset=EINTEGEROBJECT))? (triplets+=triplet)*;
+    {PPORG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))? & ('ObjType=' (ObjType=EINTEGEROBJECT))? & ('ProcFlgs=' (ProcFlgs=EINTEGEROBJECT))? & ('XocaOset=' (XocaOset=EINTEGEROBJECT))? & ('YocaOset=' (YocaOset=EINTEGEROBJECT))?) (triplets+=triplet)*;
 PGPRG:
-    {PGPRG} '\n.rg' ('RGLength=' (RGLength=EINTEGEROBJECT))? ('XmOset=' (XmOset=EINTEGEROBJECT))? ('YmOset=' (YmOset=EINTEGEROBJECT))? ('PGorient=' (PGorient=EINTEGEROBJECT))? ('SHside=' (SHside=EINTEGEROBJECT))? ('PgFlgs=' (PgFlgs=EINTEGEROBJECT))? ('PMCid=' (PMCid=EINTEGEROBJECT))?;
+    {PGPRG} '\n.rg' (('RGLength=' (RGLength=EINTEGEROBJECT))? & ('XmOset=' (XmOset=EINTEGEROBJECT))? & ('YmOset=' (YmOset=EINTEGEROBJECT))? & ('PGorient=' (PGorient=EINTEGEROBJECT))? & ('SHside=' (SHside=EINTEGEROBJECT))? & ('PgFlgs=' (PgFlgs=EINTEGEROBJECT))? & ('PMCid=' (PMCid=EINTEGEROBJECT))?);
 MCCRG:
-    {MCCRG} '\n.rg' ('Startnum=' (Startnum=EINTEGEROBJECT))? ('Stopnum=' (Stopnum=EINTEGEROBJECT))? ('MMCid=' (MMCid=EINTEGEROBJECT))?;
+    {MCCRG} '\n.rg' (('Startnum=' (Startnum=EINTEGEROBJECT))? & ('Stopnum=' (Stopnum=EINTEGEROBJECT))? & ('MMCid=' (MMCid=EINTEGEROBJECT))?);
 MMORG:
-    {MMORG} '\n.rg' ('OVLid=' (OVLid=EINTEGEROBJECT))? ('Flags=' (Flags=EINTEGEROBJECT))? ('OVLname=' (OVLname=MODCASTRING))?;
+    {MMORG} '\n.rg' (('OVLid=' (OVLid=EINTEGEROBJECT))? & ('Flags=' (Flags=EINTEGEROBJECT))? & ('OVLname=' (OVLname=MODCASTRING))?);
 BandImageRG:
-    {BandImageRG} '\n.rg' ('BITCNT=' (BITCNT=EINTEGEROBJECT))?;
+    {BandImageRG} '\n.rg' (('BITCNT=' (BITCNT=EINTEGEROBJECT))?);
 MCF1RG:
-    {MCF1RG} '\n.rg' ('CFLid=' (CFLid=EINTEGEROBJECT))? ('Sectid=' (Sectid=EINTEGEROBJECT))? ('CFName=' (CFName=MODCASTRING))? ('CPName=' (CPName=MODCASTRING))? ('FCSName=' (FCSName=MODCASTRING))? ('CharRot=' (CharRot=EINTEGEROBJECT))?;
+    {MCF1RG} '\n.rg' (('CFLid=' (CFLid=EINTEGEROBJECT))? & ('Sectid=' (Sectid=EINTEGEROBJECT))? & ('CFName=' (CFName=MODCASTRING))? & ('CPName=' (CPName=MODCASTRING))? & ('FCSName=' (FCSName=MODCASTRING))? & ('CharRot=' (CharRot=EINTEGEROBJECT))?);
 MMCRG:
-    {MMCRG} '\n.rg' ('key=' (key=EINTEGEROBJECT))? ('value=' (value=EINTEGEROBJECT))?;
+    {MMCRG} '\n.rg' (('key=' (key=EINTEGEROBJECT))? & ('value=' (value=EINTEGEROBJECT))?);
 FNORG:
-    {FNORG} '\n.rg' ('Reserved=' (Reserved=EINTEGEROBJECT))? ('CharRot=' (CharRot=EINTEGEROBJECT))? ('MaxBOset=' (MaxBOset=EINTEGEROBJECT))? ('MaxCharInc=' (MaxCharInc=EINTEGEROBJECT))? ('SpCharInc=' (SpCharInc=EINTEGEROBJECT))? ('MaxBExt=' (MaxBExt=EINTEGEROBJECT))? ('OrntFlgs=' (OrntFlgs=EINTEGEROBJECT))? ('Reserved2=' (Reserved2=EINTEGEROBJECT))? ('EmSpInc=' (EmSpInc=EINTEGEROBJECT))? ('Reserved3=' (Reserved3=EINTEGEROBJECT))? ('FigSpInc=' (FigSpInc=EINTEGEROBJECT))? ('NomCharInc=' (NomCharInc=EINTEGEROBJECT))? ('DefBInc=' (DefBInc=EINTEGEROBJECT))? ('MinASp=' (MinASp=EINTEGEROBJECT))?;
+    {FNORG} '\n.rg' (('Reserved=' (Reserved=EINTEGEROBJECT))? & ('CharRot=' (CharRot=EINTEGEROBJECT))? & ('MaxBOset=' (MaxBOset=EINTEGEROBJECT))? & ('MaxCharInc=' (MaxCharInc=EINTEGEROBJECT))? & ('SpCharInc=' (SpCharInc=EINTEGEROBJECT))? & ('MaxBExt=' (MaxBExt=EINTEGEROBJECT))? & ('OrntFlgs=' (OrntFlgs=EINTEGEROBJECT))? & ('Reserved2=' (Reserved2=EINTEGEROBJECT))? & ('EmSpInc=' (EmSpInc=EINTEGEROBJECT))? & ('Reserved3=' (Reserved3=EINTEGEROBJECT))? & ('FigSpInc=' (FigSpInc=EINTEGEROBJECT))? & ('NomCharInc=' (NomCharInc=EINTEGEROBJECT))? & ('DefBInc=' (DefBInc=EINTEGEROBJECT))? & ('MinASp=' (MinASp=EINTEGEROBJECT))?);
 FNPRG:
-    {FNPRG} '\n.rg' ('Reserved=' (Reserved=EINTEGEROBJECT))? ('LcHeight=' (LcHeight=EINTEGEROBJECT))? ('CapMHt=' (CapMHt=EINTEGEROBJECT))? ('MaxAscHt=' (MaxAscHt=EINTEGEROBJECT))? ('MaxDesDp=' (MaxDesDp=EINTEGEROBJECT))? ('Reserved2=' (Reserved2=EBYTEARRAY))? ('Retired=' (Retired=EINTEGEROBJECT))? ('Reserved3=' (Reserved3=EINTEGEROBJECT))? ('UscoreWd=' (UscoreWd=EINTEGEROBJECT))? ('UscoreWdf=' (UscoreWdf=EINTEGEROBJECT))? ('UscorePos=' (UscorePos=EINTEGEROBJECT))?;
+    {FNPRG} '\n.rg' (('Reserved=' (Reserved=EINTEGEROBJECT))? & ('LcHeight=' (LcHeight=EINTEGEROBJECT))? & ('CapMHt=' (CapMHt=EINTEGEROBJECT))? & ('MaxAscHt=' (MaxAscHt=EINTEGEROBJECT))? & ('MaxDesDp=' (MaxDesDp=EINTEGEROBJECT))? & ('Reserved2=' (Reserved2=EBYTEARRAY))? & ('Retired=' (Retired=EINTEGEROBJECT))? & ('Reserved3=' (Reserved3=EINTEGEROBJECT))? & ('UscoreWd=' (UscoreWd=EINTEGEROBJECT))? & ('UscoreWdf=' (UscoreWdf=EINTEGEROBJECT))? & ('UscorePos=' (UscorePos=EINTEGEROBJECT))?);
 TileTOCRG:
-    {TileTOCRG} '\n.rg' ('XOFFSET=' (XOFFSET=EINTEGEROBJECT))? ('YOFFSET=' (YOFFSET=EINTEGEROBJECT))? ('THSIZE=' (THSIZE=EINTEGEROBJECT))? ('TVSIZE=' (TVSIZE=EINTEGEROBJECT))? ('RELRES=' (RELRES=EINTEGEROBJECT))? ('COMPR=' (COMPR=EINTEGEROBJECT))? ('DATAPOS=' (DATAPOS=EINTEGEROBJECT))?;
+    {TileTOCRG} '\n.rg' (('XOFFSET=' (XOFFSET=EINTEGEROBJECT))? & ('YOFFSET=' (YOFFSET=EINTEGEROBJECT))? & ('THSIZE=' (THSIZE=EINTEGEROBJECT))? & ('TVSIZE=' (TVSIZE=EINTEGEROBJECT))? & ('RELRES=' (RELRES=EINTEGEROBJECT))? & ('COMPR=' (COMPR=EINTEGEROBJECT))? & ('DATAPOS=' (DATAPOS=EINTEGEROBJECT))?);
 SamplingRatiosRG:
-    {SamplingRatiosRG} '\n.rg' ('HSAMPLE=' (HSAMPLE=EINTEGEROBJECT))? ('VSAMPLE=' (VSAMPLE=EINTEGEROBJECT))?;
+    {SamplingRatiosRG} '\n.rg' (('HSAMPLE=' (HSAMPLE=EINTEGEROBJECT))? & ('VSAMPLE=' (VSAMPLE=EINTEGEROBJECT))?);
 ExternalAlgorithmRG:
-    {ExternalAlgorithmRG} '\n.rg' ('DIRCTN=' (DIRCTN=EINTEGEROBJECT))? ('PADBDRY=' (PADBDRY=EINTEGEROBJECT))? ('PADALMT=' (PADALMT=EINTEGEROBJECT))?;
+    {ExternalAlgorithmRG} '\n.rg' (('DIRCTN=' (DIRCTN=EINTEGEROBJECT))? & ('PADBDRY=' (PADBDRY=EINTEGEROBJECT))? & ('PADALMT=' (PADALMT=EINTEGEROBJECT))?);
 FNNRG:
-    {FNNRG} '\n.rg' ('GCGID=' (GCGID=MODCASTRING))? ('TSOffset=' (TSOffset=EINTEGEROBJECT))?;
+    {FNNRG} '\n.rg' (('GCGID=' (GCGID=MODCASTRING))? & ('TSOffset=' (TSOffset=EINTEGEROBJECT))?);
 GCBEZRG:
-    {GCBEZRG} '\n.rg' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GCBEZRG} '\n.rg' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GCCBEZRG:
-    {GCCBEZRG} '\n.rg' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GCCBEZRG} '\n.rg' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GFLTRG:
-    {GFLTRG} '\n.rg' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GFLTRG} '\n.rg' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GCFLTRG:
-    {GCFLTRG} '\n.rg' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GCFLTRG} '\n.rg' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GLINERG:
-    {GLINERG} '\n.rg' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GLINERG} '\n.rg' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GCLINERG:
-    {GCLINERG} '\n.rg' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GCLINERG} '\n.rg' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GMRKRG:
-    {GMRKRG} '\n.rg' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GMRKRG} '\n.rg' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GCMRKRG:
-    {GCMRKRG} '\n.rg' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GCMRKRG} '\n.rg' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GRLINERG:
-    {GRLINERG} '\n.rg' ('XOSSF=' (XOSSF=EINTEGEROBJECT))? ('YOFFS=' (YOFFS=EINTEGEROBJECT))?;
+    {GRLINERG} '\n.rg' (('XOSSF=' (XOSSF=EINTEGEROBJECT))? & ('YOFFS=' (YOFFS=EINTEGEROBJECT))?);
 GCRLINERG:
-    {GCRLINERG} '\n.rg' ('XOSSF=' (XOSSF=EINTEGEROBJECT))? ('YOFFS=' (YOFFS=EINTEGEROBJECT))?;
+    {GCRLINERG} '\n.rg' (('XOSSF=' (XOSSF=EINTEGEROBJECT))? & ('YOFFS=' (YOFFS=EINTEGEROBJECT))?);
 MSURG:
-    {MSURG} '\n.rg' ('SUPname=' (SUPname=MODCASTRING))? ('Reserved=' (Reserved=EBYTEARRAY))? ('SUPid=' (SUPid=EINTEGEROBJECT))?;
+    {MSURG} '\n.rg' (('SUPname=' (SUPname=MODCASTRING))? & ('Reserved=' (Reserved=EBYTEARRAY))? & ('SUPid=' (SUPid=EINTEGEROBJECT))?);
 triplet:
     '\n.' (AMB | AMI | BLN | BSU | DBR | DIR | ESU | NOPCS | OVS | RMB | RMI | RPS | SBI | SCFL | SEC | SIA | SIM | STC | STO | SVI | TBM | TRN | USC | AttributeQualifier | AttributeValue | CGCSGID | CRCResourceManagement | CharacterRotation | ColorSpecification | Comment | DataObjectFontDescriptor | DescriptorPosition | EncodingSchemeID | FontResolution | FullyQualifiedName | LocalDateAndTimeStamp | UniversalDateAndTimeStamp | MappingOption | MediaEjectControl | MediumMapPageNumber | MediumOrientation | MeasurementUnits | MODCAInterchangeSet | ObjectAreaSize | ObjectClassification | ObjectFunctionSetSpecification | ObjectOffset | ResourceObjectType | PagePositionInformation | PresentationControl | PresentationSpaceResetMixing | PresentationSpaceMixingRules | ResourceLocalIdentifier | ResourceSectionNumber | TextOrientation | FontHorizontalScaleFactor | FontDescriptorSpecification | BeginSegment | EndSegment | BeginTile | EndTile | BeginTransparencyMask | EndTransparencyMask | BeginImage | EndImage | ImageSize | ImageEncoding | IDESize | ImageLUTID | BandImage | IDEStructure | ExternalAlgorithm | TilePosition | TileSize | TileSetColor | SetBiLevelImageColor | IOCAFunctionSetIdentification | ImageData | BandImageData | IncludeTile | ImageSubsampling | SamplingRatios | TileTOC | FNNRG2 | BeginSegmentCommand | EndSegmentCommand | GBAR | GBIMG | GCBIMG | GBOX | GCBOX | GCHST | GCCHST | GCOMT | GEAR | GEIMG | GEPROL | GFLT | GCFLT | GFARC | GCFARC | GIMD | GLINE | GCLINE | GMRK | GCMRK | GNOP1 | GPARC | GCPARC | GRLINE | GCRLINE | GSGCH | GSAP | GSBMX | GSCA | GSCC | GSCD | GSCR | GSCS | GSCH | GSCOL | GSCP | GSECOL | GSFLW | GSLT | GSLW | GSMC | GSMP | GSMS | GSMT | GSMX | GSPS | GSPT | GSPCOL | GSLE | GSLJ | GCBEZ | GCCBEZ | WindowSpecification | DrawingOrderSubset | TonerSaver | ColorFidelity | FontFidelity | TextFidelity | MediaFidelity | FinishingFidelity | CMRFidelity | ObjectByteExtent | ObjectByteOffset | ObjectStructuredFieldExtent | ObjectStructuredFieldOffset | ObjectCount | ObjectOriginIdentifier | LineDataObjectPositionMigration | ColorManagementResourceDescriptor | ImageResolution | ObjectContainerPresentationSpaceSize | ExtendedResourceLocalIdentifier | MetricAdjustment | ExtensionFont | RenderingIntent | FontCodedGraphicCharacterSetGlobalIdentifier | LocaleSelector | FinishingOperation | UP3iFinishingOperation | DeviceAppearance | ResourceObjectInclude | PageOverlayConditionalProcessing | ResourceUsageAttribute
 );
 AMB:
-    {AMB} 'AMB' ('DSPLCMNT=' (DSPLCMNT=EINTEGEROBJECT))?;
+    {AMB} 'AMB' (('DSPLCMNT=' (DSPLCMNT=EINTEGEROBJECT))?);
 AMI:
-    {AMI} 'AMI' ('DSPLCMNT=' (DSPLCMNT=EINTEGEROBJECT))?;
+    {AMI} 'AMI' (('DSPLCMNT=' (DSPLCMNT=EINTEGEROBJECT))?);
 BLN:
     {BLN} 'BLN';
 BSU:
-    {BSU} 'BSU' ('LID=' (LID=EINTEGEROBJECT))?;
+    {BSU} 'BSU' (('LID=' (LID=EINTEGEROBJECT))?);
 DBR:
-    {DBR} 'DBR' ('RLENGTH=' (RLENGTH=EINTEGEROBJECT))? ('RWIDTH=' (RWIDTH=EINTEGEROBJECT))? ('RWIDTHFRACTION=' (RWIDTHFRACTION=EINTEGEROBJECT))?;
+    {DBR} 'DBR' (('RLENGTH=' (RLENGTH=EINTEGEROBJECT))? & ('RWIDTH=' (RWIDTH=EINTEGEROBJECT))? & ('RWIDTHFRACTION=' (RWIDTHFRACTION=EINTEGEROBJECT))?);
 DIR:
-    {DIR} 'DIR' ('RLENGTH=' (RLENGTH=EINTEGEROBJECT))? ('RWIDTH=' (RWIDTH=EINTEGEROBJECT))? ('RWIDTHFRACTION=' (RWIDTHFRACTION=EINTEGEROBJECT))?;
+    {DIR} 'DIR' (('RLENGTH=' (RLENGTH=EINTEGEROBJECT))? & ('RWIDTH=' (RWIDTH=EINTEGEROBJECT))? & ('RWIDTHFRACTION=' (RWIDTHFRACTION=EINTEGEROBJECT))?);
 ESU:
-    {ESU} 'ESU' ('LID=' (LID=EINTEGEROBJECT))?;
+    {ESU} 'ESU' (('LID=' (LID=EINTEGEROBJECT))?);
 NOPCS:
-    {NOPCS} 'NOPCS' ('IGNDATA=' (IGNDATA=EBYTEARRAY))?;
+    {NOPCS} 'NOPCS' (('IGNDATA=' (IGNDATA=EBYTEARRAY))?);
 OVS:
-    {OVS} 'OVS' ('BYPSIDEN=' (BYPSIDEN=EINTEGEROBJECT))? ('OVERCHAR=' (OVERCHAR=EINTEGEROBJECT))?;
+    {OVS} 'OVS' (('BYPSIDEN=' (BYPSIDEN=EINTEGEROBJECT))? & ('OVERCHAR=' (OVERCHAR=EINTEGEROBJECT))?);
 RMB:
-    {RMB} 'RMB' ('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?;
+    {RMB} 'RMB' (('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?);
 RMI:
-    {RMI} 'RMI' ('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?;
+    {RMI} 'RMI' (('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?);
 RPS:
-    {RPS} 'RPS' ('RLENGTH=' (RLENGTH=EINTEGEROBJECT))? ('RPTDATA=' (RPTDATA=MODCASTRING))?;
+    {RPS} 'RPS' (('RLENGTH=' (RLENGTH=EINTEGEROBJECT))? & ('RPTDATA=' (RPTDATA=MODCASTRING))?);
 SBI:
-    {SBI} 'SBI' ('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?;
+    {SBI} 'SBI' (('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?);
 SCFL:
-    {SCFL} 'SCFL' ('LID=' (LID=EINTEGEROBJECT))?;
+    {SCFL} 'SCFL' (('LID=' (LID=EINTEGEROBJECT))?);
 SEC:
-    {SEC} 'SEC' ('RESERVED=' (RESERVED=EINTEGEROBJECT))? ('COLSPCE=' (COLSPCE=EINTEGEROBJECT))? ('COLSIZE1=' (COLSIZE1=EINTEGEROBJECT))? ('COLSIZE2=' (COLSIZE2=EINTEGEROBJECT))? ('COLSIZE3=' (COLSIZE3=EINTEGEROBJECT))? ('COLSIZE4=' (COLSIZE4=EINTEGEROBJECT))? ('COLVALUE=' (COLVALUE=EBYTEARRAY))?;
+    {SEC} 'SEC' (('RESERVED=' (RESERVED=EINTEGEROBJECT))? & ('COLSPCE=' (COLSPCE=EINTEGEROBJECT))? & ('COLSIZE1=' (COLSIZE1=EINTEGEROBJECT))? & ('COLSIZE2=' (COLSIZE2=EINTEGEROBJECT))? & ('COLSIZE3=' (COLSIZE3=EINTEGEROBJECT))? & ('COLSIZE4=' (COLSIZE4=EINTEGEROBJECT))? & ('COLVALUE=' (COLVALUE=EBYTEARRAY))?);
 SIA:
-    {SIA} 'SIA' ('ADJSTMNT=' (ADJSTMNT=EINTEGEROBJECT))? ('DIRCTION=' (DIRCTION=EINTEGEROBJECT))?;
+    {SIA} 'SIA' (('ADJSTMNT=' (ADJSTMNT=EINTEGEROBJECT))? & ('DIRCTION=' (DIRCTION=EINTEGEROBJECT))?);
 SIM:
-    {SIM} 'SIM' ('DSPLCMNT=' (DSPLCMNT=EINTEGEROBJECT))?;
+    {SIM} 'SIM' (('DSPLCMNT=' (DSPLCMNT=EINTEGEROBJECT))?);
 STC:
-    {STC} 'STC' ('FRGCOLOR=' (FRGCOLOR=EINTEGEROBJECT))? ('PRECSION=' (PRECSION=EINTEGEROBJECT))?;
+    {STC} 'STC' (('FRGCOLOR=' (FRGCOLOR=EINTEGEROBJECT))? & ('PRECSION=' (PRECSION=EINTEGEROBJECT))?);
 STO:
-    {STO} 'STO' ('IORNTION=' (IORNTION=EINTEGEROBJECT))? ('BORNTION=' (BORNTION=EINTEGEROBJECT))?;
+    {STO} 'STO' (('IORNTION=' (IORNTION=EINTEGEROBJECT))? & ('BORNTION=' (BORNTION=EINTEGEROBJECT))?);
 SVI:
-    {SVI} 'SVI' ('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?;
+    {SVI} 'SVI' (('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?);
 TBM:
-    {TBM} 'TBM' ('DIRCTION=' (DIRCTION=EINTEGEROBJECT))? ('PRECSION=' (PRECSION=EINTEGEROBJECT))? ('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?;
+    {TBM} 'TBM' (('DIRCTION=' (DIRCTION=EINTEGEROBJECT))? & ('PRECSION=' (PRECSION=EINTEGEROBJECT))? & ('INCRMENT=' (INCRMENT=EINTEGEROBJECT))?);
 TRN:
-    {TRN} 'TRN' ('TRNDATA=' (TRNDATA=EBYTEARRAY))?;
+    {TRN} 'TRN' (('TRNDATA=' (TRNDATA=EBYTEARRAY))?);
 USC:
-    {USC} 'USC' ('BYPSIDEN=' (BYPSIDEN=EINTEGEROBJECT))?;
+    {USC} 'USC' (('BYPSIDEN=' (BYPSIDEN=EINTEGEROBJECT))?);
 AttributeQualifier:
-    {AttributeQualifier} 'AttributeQualifier' ('SeqNum=' (SeqNum=EINTEGEROBJECT))? ('LevNum=' (LevNum=EINTEGEROBJECT))?;
+    {AttributeQualifier} 'AttributeQualifier' (('SeqNum=' (SeqNum=EINTEGEROBJECT))? & ('LevNum=' (LevNum=EINTEGEROBJECT))?);
 AttributeValue:
-    {AttributeValue} 'AttributeValue' ('Reserved0=' (Reserved0=EINTEGEROBJECT))? ('AttVal=' (AttVal=MODCASTRING))?;
+    {AttributeValue} 'AttributeValue' (('Reserved0=' (Reserved0=EINTEGEROBJECT))? & ('AttVal=' (AttVal=MODCASTRING))?);
 CGCSGID:
-    {CGCSGID} 'CGCSGID' ('GCSGID=' (GCSGID=EINTEGEROBJECT))? ('CPGID=' (CPGID=EINTEGEROBJECT))?;
+    {CGCSGID} 'CGCSGID' (('GCSGID=' (GCSGID=EINTEGEROBJECT))? & ('CPGID=' (CPGID=EINTEGEROBJECT))?);
 CRCResourceManagement:
-    {CRCResourceManagement} 'CRCResourceManagement' ('FmtQual=' (FmtQual=EINTEGEROBJECT))? ('RMValue=' (RMValue=EINTEGEROBJECT))? ('ResClassFlg=' (ResClassFlg=EINTEGEROBJECT))?;
+    {CRCResourceManagement} 'CRCResourceManagement' (('FmtQual=' (FmtQual=EINTEGEROBJECT))? & ('RMValue=' (RMValue=EINTEGEROBJECT))? & ('ResClassFlg=' (ResClassFlg=EINTEGEROBJECT))?);
 CharacterRotation:
-    {CharacterRotation} 'CharacterRotation' ('CharRot=' (CharRot=EINTEGEROBJECT))?;
+    {CharacterRotation} 'CharacterRotation' (('CharRot=' (CharRot=EINTEGEROBJECT))?);
 ColorSpecification:
-    {ColorSpecification} 'ColorSpecification' ('ColSpce=' (ColSpce=EINTEGEROBJECT))? ('ColSize1=' (ColSize1=EINTEGEROBJECT))? ('ColSize2=' (ColSize2=EINTEGEROBJECT))? ('ColSize3=' (ColSize3=EINTEGEROBJECT))? ('ColSize4=' (ColSize4=EINTEGEROBJECT))? ('Color=' (Color=EBYTEARRAY))?;
+    {ColorSpecification} 'ColorSpecification' (('ColSpce=' (ColSpce=EINTEGEROBJECT))? & ('ColSize1=' (ColSize1=EINTEGEROBJECT))? & ('ColSize2=' (ColSize2=EINTEGEROBJECT))? & ('ColSize3=' (ColSize3=EINTEGEROBJECT))? & ('ColSize4=' (ColSize4=EINTEGEROBJECT))? & ('Color=' (Color=EBYTEARRAY))?);
 Comment:
-    {Comment} 'Comment' ('Comment=' (Comment=MODCASTRING))?;
+    {Comment} 'Comment' (('Comment=' (Comment=MODCASTRING))?);
 DataObjectFontDescriptor:
-    {DataObjectFontDescriptor} 'DataObjectFontDescriptor' ('DOFtFlgs=' (DOFtFlgs=EINTEGEROBJECT))? ('FontTech=' (FontTech=EINTEGEROBJECT))? ('VFS=' (VFS=EINTEGEROBJECT))? ('HFS=' (HFS=EINTEGEROBJECT))? ('CharRot=' (CharRot=EINTEGEROBJECT))? ('EncEnv=' (EncEnv=EINTEGEROBJECT))? ('EncID=' (EncID=EINTEGEROBJECT))? ('Reserved=' (Reserved=EBYTEARRAY))?;
+    {DataObjectFontDescriptor} 'DataObjectFontDescriptor' (('DOFtFlgs=' (DOFtFlgs=EINTEGEROBJECT))? & ('FontTech=' (FontTech=EINTEGEROBJECT))? & ('VFS=' (VFS=EINTEGEROBJECT))? & ('HFS=' (HFS=EINTEGEROBJECT))? & ('CharRot=' (CharRot=EINTEGEROBJECT))? & ('EncEnv=' (EncEnv=EINTEGEROBJECT))? & ('EncID=' (EncID=EINTEGEROBJECT))? & ('Reserved=' (Reserved=EBYTEARRAY))?);
 DescriptorPosition:
-    {DescriptorPosition} 'DescriptorPosition' ('DesPosID=' (DesPosID=EINTEGEROBJECT))?;
+    {DescriptorPosition} 'DescriptorPosition' (('DesPosID=' (DesPosID=EINTEGEROBJECT))?);
 EncodingSchemeID:
-    {EncodingSchemeID} 'EncodingSchemeID' ('ESidCP=' (ESidCP=EINTEGEROBJECT))? ('ESidUD=' (ESidUD=EINTEGEROBJECT))?;
+    {EncodingSchemeID} 'EncodingSchemeID' (('ESidCP=' (ESidCP=EINTEGEROBJECT))? & ('ESidUD=' (ESidUD=EINTEGEROBJECT))?);
 FontResolution:
-    {FontResolution} 'FontResolution' ('MetTech=' (MetTech=EINTEGEROBJECT))? ('RPuBase=' (RPuBase=EINTEGEROBJECT))? ('RPUnits=' (RPUnits=EINTEGEROBJECT))?;
+    {FontResolution} 'FontResolution' (('MetTech=' (MetTech=EINTEGEROBJECT))? & ('RPuBase=' (RPuBase=EINTEGEROBJECT))? & ('RPUnits=' (RPUnits=EINTEGEROBJECT))?);
 FullyQualifiedName:
     {FullyQualifiedName} 'FullyQualifiedName' (('FQNType=' (FQNType=EINTEGEROBJECT))? & ('FQNFormat=' (FQNFormat=EINTEGEROBJECT))? & ('FQName=' (FQName=MODCASTRING))?);
 LocalDateAndTimeStamp:
-    {LocalDateAndTimeStamp} 'LocalDateAndTimeStamp' ('StampType=' (StampType=EINTEGEROBJECT))? ('THunYear=' (THunYear=EINTEGEROBJECT))? ('TenYear=' (TenYear=EINTEGEROBJECT))? ('Day=' (Day=EINTEGEROBJECT))? ('Hour=' (Hour=EINTEGEROBJECT))? ('Minute=' (Minute=EINTEGEROBJECT))? ('Second=' (Second=EINTEGEROBJECT))? ('HundSec=' (HundSec=EINTEGEROBJECT))?;
+    {LocalDateAndTimeStamp} 'LocalDateAndTimeStamp' (('StampType=' (StampType=EINTEGEROBJECT))? & ('THunYear=' (THunYear=EINTEGEROBJECT))? & ('TenYear=' (TenYear=EINTEGEROBJECT))? & ('Day=' (Day=EINTEGEROBJECT))? & ('Hour=' (Hour=EINTEGEROBJECT))? & ('Minute=' (Minute=EINTEGEROBJECT))? & ('Second=' (Second=EINTEGEROBJECT))? & ('HundSec=' (HundSec=EINTEGEROBJECT))?);
 UniversalDateAndTimeStamp:
-    {UniversalDateAndTimeStamp} 'UniversalDateAndTimeStamp' ('Reserved=' (Reserved=EINTEGEROBJECT))? ('YearAD=' (YearAD=EINTEGEROBJECT))? ('Month=' (Month=EINTEGEROBJECT))? ('Day=' (Day=EINTEGEROBJECT))? ('Hour=' (Hour=EINTEGEROBJECT))? ('Minute=' (Minute=EINTEGEROBJECT))? ('Second=' (Second=EINTEGEROBJECT))? ('TimeZone=' (TimeZone=EINTEGEROBJECT))? ('UTCDiffH=' (UTCDiffH=EINTEGEROBJECT))? ('UTCDiffM=' (UTCDiffM=EINTEGEROBJECT))?;
+    {UniversalDateAndTimeStamp} 'UniversalDateAndTimeStamp' (('Reserved=' (Reserved=EINTEGEROBJECT))? & ('YearAD=' (YearAD=EINTEGEROBJECT))? & ('Month=' (Month=EINTEGEROBJECT))? & ('Day=' (Day=EINTEGEROBJECT))? & ('Hour=' (Hour=EINTEGEROBJECT))? & ('Minute=' (Minute=EINTEGEROBJECT))? & ('Second=' (Second=EINTEGEROBJECT))? & ('TimeZone=' (TimeZone=EINTEGEROBJECT))? & ('UTCDiffH=' (UTCDiffH=EINTEGEROBJECT))? & ('UTCDiffM=' (UTCDiffM=EINTEGEROBJECT))?);
 MappingOption:
-    {MappingOption} 'MappingOption' ('MapValue=' (MapValue=EINTEGEROBJECT))?;
+    {MappingOption} 'MappingOption' (('MapValue=' (MapValue=EINTEGEROBJECT))?);
 MediaEjectControl:
-    {MediaEjectControl} 'MediaEjectControl' ('Reserved=' (Reserved=EINTEGEROBJECT))? ('EjCtrl=' (EjCtrl=EINTEGEROBJECT))?;
+    {MediaEjectControl} 'MediaEjectControl' (('Reserved=' (Reserved=EINTEGEROBJECT))? & ('EjCtrl=' (EjCtrl=EINTEGEROBJECT))?);
 MediumMapPageNumber:
-    {MediumMapPageNumber} 'MediumMapPageNumber' ('PageNum=' (PageNum=EINTEGEROBJECT))?;
+    {MediumMapPageNumber} 'MediumMapPageNumber' (('PageNum=' (PageNum=EINTEGEROBJECT))?);
 MediumOrientation:
-    {MediumOrientation} 'MediumOrientation' ('MedOrient=' (MedOrient=EINTEGEROBJECT))?;
+    {MediumOrientation} 'MediumOrientation' (('MedOrient=' (MedOrient=EINTEGEROBJECT))?);
 MeasurementUnits:
-    {MeasurementUnits} 'MeasurementUnits' ('XoaBase=' (XoaBase=EINTEGEROBJECT))? ('YoaBase=' (YoaBase=EINTEGEROBJECT))? ('XoaUnits=' (XoaUnits=EINTEGEROBJECT))? ('YoaUnits=' (YoaUnits=EINTEGEROBJECT))?;
+    {MeasurementUnits} 'MeasurementUnits' (('XoaBase=' (XoaBase=EINTEGEROBJECT))? & ('YoaBase=' (YoaBase=EINTEGEROBJECT))? & ('XoaUnits=' (XoaUnits=EINTEGEROBJECT))? & ('YoaUnits=' (YoaUnits=EINTEGEROBJECT))?);
 MODCAInterchangeSet:
-    {MODCAInterchangeSet} 'MODCAInterchangeSet' ('IStype=' (IStype=EINTEGEROBJECT))? ('ISid=' (ISid=EINTEGEROBJECT))?;
+    {MODCAInterchangeSet} 'MODCAInterchangeSet' (('IStype=' (IStype=EINTEGEROBJECT))? & ('ISid=' (ISid=EINTEGEROBJECT))?);
 ObjectAreaSize:
-    {ObjectAreaSize} 'ObjectAreaSize' ('SizeType=' (SizeType=EINTEGEROBJECT))? ('XoaSize=' (XoaSize=EINTEGEROBJECT))? ('YoaSize=' (YoaSize=EINTEGEROBJECT))?;
+    {ObjectAreaSize} 'ObjectAreaSize' (('SizeType=' (SizeType=EINTEGEROBJECT))? & ('XoaSize=' (XoaSize=EINTEGEROBJECT))? & ('YoaSize=' (YoaSize=EINTEGEROBJECT))?);
 ObjectClassification:
-    {ObjectClassification} 'ObjectClassification' ('ObjClass=' (ObjClass=EINTEGEROBJECT))? ('StrucFlgs=' (StrucFlgs=EINTEGEROBJECT))? ('RegObjId=' (RegObjId=EBYTEARRAY))? ('ObjTpName=' (ObjTpName=MODCASTRING))? ('ObjLev=' (ObjLev=MODCASTRING))? ('CompName=' (CompName=MODCASTRING))?;
+    {ObjectClassification} 'ObjectClassification' (('ObjClass=' (ObjClass=EINTEGEROBJECT))? & ('StrucFlgs=' (StrucFlgs=EINTEGEROBJECT))? & ('RegObjId=' (RegObjId=EBYTEARRAY))? & ('ObjTpName=' (ObjTpName=MODCASTRING))? & ('ObjLev=' (ObjLev=MODCASTRING))? & ('CompName=' (CompName=MODCASTRING))?);
 ObjectFunctionSetSpecification:
-    {ObjectFunctionSetSpecification} 'ObjectFunctionSetSpecification' ('ObjType=' (ObjType=EINTEGEROBJECT))? ('ArchVrsn=' (ArchVrsn=EINTEGEROBJECT))? ('DCAFnSet=' (DCAFnSet=EINTEGEROBJECT))? ('OCAFnSet=' (OCAFnSet=EINTEGEROBJECT))?;
+    {ObjectFunctionSetSpecification} 'ObjectFunctionSetSpecification' (('ObjType=' (ObjType=EINTEGEROBJECT))? & ('ArchVrsn=' (ArchVrsn=EINTEGEROBJECT))? & ('DCAFnSet=' (DCAFnSet=EINTEGEROBJECT))? & ('OCAFnSet=' (OCAFnSet=EINTEGEROBJECT))?);
 ObjectOffset:
-    {ObjectOffset} 'ObjectOffset' ('ObjTpe=' (ObjTpe=EINTEGEROBJECT))? ('ObjOset=' (ObjOset=EINTEGEROBJECT))? ('ObjOstHi=' (ObjOstHi=EINTEGEROBJECT))?;
+    {ObjectOffset} 'ObjectOffset' (('ObjTpe=' (ObjTpe=EINTEGEROBJECT))? & ('ObjOset=' (ObjOset=EINTEGEROBJECT))? & ('ObjOstHi=' (ObjOstHi=EINTEGEROBJECT))?);
 ResourceObjectType:
-    {ResourceObjectType} 'ResourceObjectType' ('ObjType=' (ObjType=EINTEGEROBJECT))? ('ConData=' (ConData=EBYTEARRAY))?;
+    {ResourceObjectType} 'ResourceObjectType' (('ObjType=' (ObjType=EINTEGEROBJECT))? & ('ConData=' (ConData=EBYTEARRAY))?);
 PagePositionInformation:
-    {PagePositionInformation} 'PagePositionInformation' ('PGPRG=' (PGPRG=EINTEGEROBJECT))?;
+    {PagePositionInformation} 'PagePositionInformation' (('PGPRG=' (PGPRG=EINTEGEROBJECT))?);
 PresentationControl:
-    {PresentationControl} 'PresentationControl' ('PRSFlg=' (PRSFlg=EINTEGEROBJECT))?;
+    {PresentationControl} 'PresentationControl' (('PRSFlg=' (PRSFlg=EINTEGEROBJECT))?);
 PresentationSpaceResetMixing:
-    {PresentationSpaceResetMixing} 'PresentationSpaceResetMixing' ('BgMxFlag=' (BgMxFlag=EINTEGEROBJECT))?;
+    {PresentationSpaceResetMixing} 'PresentationSpaceResetMixing' (('BgMxFlag=' (BgMxFlag=EINTEGEROBJECT))?);
 PresentationSpaceMixingRules:
     {PresentationSpaceMixingRules} 'PresentationSpaceMixingRules';
 ResourceLocalIdentifier:
-    {ResourceLocalIdentifier} 'ResourceLocalIdentifier' ('ResType=' (ResType=EINTEGEROBJECT))? ('ResLID=' (ResLID=EINTEGEROBJECT))?;
+    {ResourceLocalIdentifier} 'ResourceLocalIdentifier' (('ResType=' (ResType=EINTEGEROBJECT))? & ('ResLID=' (ResLID=EINTEGEROBJECT))?);
 ResourceSectionNumber:
-    {ResourceSectionNumber} 'ResourceSectionNumber' ('ResSNum=' (ResSNum=EINTEGEROBJECT))?;
+    {ResourceSectionNumber} 'ResourceSectionNumber' (('ResSNum=' (ResSNum=EINTEGEROBJECT))?);
 TextOrientation:
-    {TextOrientation} 'TextOrientation' ('IAxis=' (IAxis=EINTEGEROBJECT))? ('BAxis=' (BAxis=EINTEGEROBJECT))?;
+    {TextOrientation} 'TextOrientation' (('IAxis=' (IAxis=EINTEGEROBJECT))? & ('BAxis=' (BAxis=EINTEGEROBJECT))?);
 FontHorizontalScaleFactor:
-    {FontHorizontalScaleFactor} 'FontHorizontalScaleFactor' ('Hscale=' (Hscale=EINTEGEROBJECT))?;
+    {FontHorizontalScaleFactor} 'FontHorizontalScaleFactor' (('Hscale=' (Hscale=EINTEGEROBJECT))?);
 FontDescriptorSpecification:
-    {FontDescriptorSpecification} 'FontDescriptorSpecification' ('FtWtClass=' (FtWtClass=EINTEGEROBJECT))? ('FtWdClass=' (FtWdClass=EINTEGEROBJECT))? ('FtHeight=' (FtHeight=EINTEGEROBJECT))? ('FtWidth=' (FtWidth=EINTEGEROBJECT))? ('FtDsFlags=' (FtDsFlags=EINTEGEROBJECT))? ('FtUsFlags=' (FtUsFlags=EINTEGEROBJECT))?;
+    {FontDescriptorSpecification} 'FontDescriptorSpecification' (('FtWtClass=' (FtWtClass=EINTEGEROBJECT))? & ('FtWdClass=' (FtWdClass=EINTEGEROBJECT))? & ('FtHeight=' (FtHeight=EINTEGEROBJECT))? & ('FtWidth=' (FtWidth=EINTEGEROBJECT))? & ('FtDsFlags=' (FtDsFlags=EINTEGEROBJECT))? & ('FtUsFlags=' (FtUsFlags=EINTEGEROBJECT))?);
 BeginSegment:
-    {BeginSegment} 'BeginSegment' ('SEGNAME=' (SEGNAME=EINTEGEROBJECT))?;
+    {BeginSegment} 'BeginSegment' (('SEGNAME=' (SEGNAME=EINTEGEROBJECT))?);
 EndSegment:
     {EndSegment} 'EndSegment';
 BeginTile:
@@ -494,83 +494,83 @@ BeginTransparencyMask:
 EndTransparencyMask:
     {EndTransparencyMask} 'EndTransparencyMask';
 BeginImage:
-    {BeginImage} 'BeginImage' ('OBJTYPE=' (OBJTYPE=EINTEGEROBJECT))?;
+    {BeginImage} 'BeginImage' (('OBJTYPE=' (OBJTYPE=EINTEGEROBJECT))?);
 EndImage:
     {EndImage} 'EndImage';
 ImageSize:
-    {ImageSize} 'ImageSize' ('UNITBASE=' (UNITBASE=EINTEGEROBJECT))? ('HRESOL=' (HRESOL=EINTEGEROBJECT))? ('VRESOL=' (VRESOL=EINTEGEROBJECT))? ('HSIZE=' (HSIZE=EINTEGEROBJECT))? ('VSIZE=' (VSIZE=EINTEGEROBJECT))?;
+    {ImageSize} 'ImageSize' (('UNITBASE=' (UNITBASE=EINTEGEROBJECT))? & ('HRESOL=' (HRESOL=EINTEGEROBJECT))? & ('VRESOL=' (VRESOL=EINTEGEROBJECT))? & ('HSIZE=' (HSIZE=EINTEGEROBJECT))? & ('VSIZE=' (VSIZE=EINTEGEROBJECT))?);
 ImageEncoding:
-    {ImageEncoding} 'ImageEncoding' ('COMPRID=' (COMPRID=EINTEGEROBJECT))? ('RECID=' (RECID=EINTEGEROBJECT))? ('BITORDR=' (BITORDR=EINTEGEROBJECT))?;
+    {ImageEncoding} 'ImageEncoding' (('COMPRID=' (COMPRID=EINTEGEROBJECT))? & ('RECID=' (RECID=EINTEGEROBJECT))? & ('BITORDR=' (BITORDR=EINTEGEROBJECT))?);
 IDESize:
-    {IDESize} 'IDESize' ('IDESZ=' (IDESZ=EINTEGEROBJECT))?;
+    {IDESize} 'IDESize' (('IDESZ=' (IDESZ=EINTEGEROBJECT))?);
 ImageLUTID:
-    {ImageLUTID} 'ImageLUTID' ('LUTID=' (LUTID=EINTEGEROBJECT))?;
+    {ImageLUTID} 'ImageLUTID' (('LUTID=' (LUTID=EINTEGEROBJECT))?);
 BandImage:
-    {BandImage} 'BandImage' ('BCOUNT=' (BCOUNT=EINTEGEROBJECT))?;
+    {BandImage} 'BandImage' (('BCOUNT=' (BCOUNT=EINTEGEROBJECT))?);
 IDEStructure:
-    {IDEStructure} 'IDEStructure' ('FLAGS=' (FLAGS=EINTEGEROBJECT))? ('FORMAT=' (FORMAT=EINTEGEROBJECT))? ('SIZE1=' (SIZE1=EINTEGEROBJECT))? ('SIZE2=' (SIZE2=EINTEGEROBJECT))? ('SIZE3=' (SIZE3=EINTEGEROBJECT))? ('SIZE4=' (SIZE4=EINTEGEROBJECT))?;
+    {IDEStructure} 'IDEStructure' (('FLAGS=' (FLAGS=EINTEGEROBJECT))? & ('FORMAT=' (FORMAT=EINTEGEROBJECT))? & ('SIZE1=' (SIZE1=EINTEGEROBJECT))? & ('SIZE2=' (SIZE2=EINTEGEROBJECT))? & ('SIZE3=' (SIZE3=EINTEGEROBJECT))? & ('SIZE4=' (SIZE4=EINTEGEROBJECT))?);
 ExternalAlgorithm:
-    {ExternalAlgorithm} 'ExternalAlgorithm' ('ALGTYPE=' (ALGTYPE=EINTEGEROBJECT))?;
+    {ExternalAlgorithm} 'ExternalAlgorithm' (('ALGTYPE=' (ALGTYPE=EINTEGEROBJECT))?);
 TilePosition:
-    {TilePosition} 'TilePosition' ('XOFFSET=' (XOFFSET=EINTEGEROBJECT))? ('YOFFSET=' (YOFFSET=EINTEGEROBJECT))?;
+    {TilePosition} 'TilePosition' (('XOFFSET=' (XOFFSET=EINTEGEROBJECT))? & ('YOFFSET=' (YOFFSET=EINTEGEROBJECT))?);
 TileSize:
-    {TileSize} 'TileSize' ('THSIZE=' (THSIZE=EINTEGEROBJECT))? ('TVSIZE=' (TVSIZE=EINTEGEROBJECT))? ('RELRES=' (RELRES=EINTEGEROBJECT))?;
+    {TileSize} 'TileSize' (('THSIZE=' (THSIZE=EINTEGEROBJECT))? & ('TVSIZE=' (TVSIZE=EINTEGEROBJECT))? & ('RELRES=' (RELRES=EINTEGEROBJECT))?);
 TileSetColor:
-    {TileSetColor} 'TileSetColor' ('CSPACE=' (CSPACE=EINTEGEROBJECT))? ('RESERVED=' (RESERVED=EINTEGEROBJECT))? ('SIZE1=' (SIZE1=EINTEGEROBJECT))? ('SIZE2=' (SIZE2=EINTEGEROBJECT))? ('SIZE3=' (SIZE3=EINTEGEROBJECT))? ('SIZE4=' (SIZE4=EINTEGEROBJECT))? ('CVAL1=' (CVAL1=EINTEGEROBJECT))? ('CVAL2=' (CVAL2=EINTEGEROBJECT))? ('CVAL3=' (CVAL3=EINTEGEROBJECT))? ('CVAL4=' (CVAL4=EINTEGEROBJECT))?;
+    {TileSetColor} 'TileSetColor' (('CSPACE=' (CSPACE=EINTEGEROBJECT))? & ('RESERVED=' (RESERVED=EINTEGEROBJECT))? & ('SIZE1=' (SIZE1=EINTEGEROBJECT))? & ('SIZE2=' (SIZE2=EINTEGEROBJECT))? & ('SIZE3=' (SIZE3=EINTEGEROBJECT))? & ('SIZE4=' (SIZE4=EINTEGEROBJECT))? & ('CVAL1=' (CVAL1=EINTEGEROBJECT))? & ('CVAL2=' (CVAL2=EINTEGEROBJECT))? & ('CVAL3=' (CVAL3=EINTEGEROBJECT))? & ('CVAL4=' (CVAL4=EINTEGEROBJECT))?);
 SetBiLevelImageColor:
-    {SetBiLevelImageColor} 'SetBiLevelImageColor' ('AREA=' (AREA=EINTEGEROBJECT))? ('Reserved=' (Reserved=EBYTEARRAY))? ('NAMECOLR=' (NAMECOLR=EINTEGEROBJECT))?;
+    {SetBiLevelImageColor} 'SetBiLevelImageColor' (('AREA=' (AREA=EINTEGEROBJECT))? & ('Reserved=' (Reserved=EBYTEARRAY))? & ('NAMECOLR=' (NAMECOLR=EINTEGEROBJECT))?);
 IOCAFunctionSetIdentification:
-    {IOCAFunctionSetIdentification} 'IOCAFunctionSetIdentification' ('CATEGORY=' (CATEGORY=EINTEGEROBJECT))? ('FCNSET=' (FCNSET=EINTEGEROBJECT))?;
+    {IOCAFunctionSetIdentification} 'IOCAFunctionSetIdentification' (('CATEGORY=' (CATEGORY=EINTEGEROBJECT))? & ('FCNSET=' (FCNSET=EINTEGEROBJECT))?);
 ImageData:
-    {ImageData} 'ImageData' ('DATA=' (DATA=EBYTEARRAY))?;
+    {ImageData} 'ImageData' (('DATA=' (DATA=EBYTEARRAY))?);
 BandImageData:
-    {BandImageData} 'BandImageData' ('BANDNUM=' (BANDNUM=EINTEGEROBJECT))? ('RESERVED=' (RESERVED=EINTEGEROBJECT))? ('DATA=' (DATA=EBYTEARRAY))?;
+    {BandImageData} 'BandImageData' (('BANDNUM=' (BANDNUM=EINTEGEROBJECT))? & ('RESERVED=' (RESERVED=EINTEGEROBJECT))? & ('DATA=' (DATA=EBYTEARRAY))?);
 IncludeTile:
-    {IncludeTile} 'IncludeTile' ('TIRID=' (TIRID=EINTEGEROBJECT))?;
+    {IncludeTile} 'IncludeTile' (('TIRID=' (TIRID=EINTEGEROBJECT))?);
 ImageSubsampling:
     {ImageSubsampling} 'ImageSubsampling';
 SamplingRatios:
     {SamplingRatios} 'SamplingRatios';
 TileTOC:
-    {TileTOC} 'TileTOC' ('Reserved=' (Reserved=EINTEGEROBJECT))?;
+    {TileTOC} 'TileTOC' (('Reserved=' (Reserved=EINTEGEROBJECT))?);
 FNNRG2:
-    {FNNRG2} 'FNNRG2' ('TSIDLen=' (TSIDLen=EINTEGEROBJECT))? ('TSID=' (TSID=EBYTEARRAY))?;
+    {FNNRG2} 'FNNRG2' (('TSIDLen=' (TSIDLen=EINTEGEROBJECT))? & ('TSID=' (TSID=EBYTEARRAY))?);
 BeginSegmentCommand:
-    {BeginSegmentCommand} 'BeginSegmentCommand' ('LENGTH=' (LENGTH=EINTEGEROBJECT))? ('NAME=' (NAME=EINTEGEROBJECT))? ('FLAG1=' (FLAG1=EINTEGEROBJECT))? ('FLAG2=' (FLAG2=EINTEGEROBJECT))? ('SEGL=' (SEGL=EINTEGEROBJECT))? ('PSNAME=' (PSNAME=MODCASTRING))?;
+    {BeginSegmentCommand} 'BeginSegmentCommand' (('LENGTH=' (LENGTH=EINTEGEROBJECT))? & ('NAME=' (NAME=EINTEGEROBJECT))? & ('FLAG1=' (FLAG1=EINTEGEROBJECT))? & ('FLAG2=' (FLAG2=EINTEGEROBJECT))? & ('SEGL=' (SEGL=EINTEGEROBJECT))? & ('PSNAME=' (PSNAME=MODCASTRING))?);
 EndSegmentCommand:
     {EndSegmentCommand} 'EndSegmentCommand';
 GBAR:
-    {GBAR} 'GBAR' ('FLAGS=' (FLAGS=EINTEGEROBJECT))?;
+    {GBAR} 'GBAR' (('FLAGS=' (FLAGS=EINTEGEROBJECT))?);
 GBIMG:
-    {GBIMG} 'GBIMG' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))? ('FORMAT=' (FORMAT=EINTEGEROBJECT))? ('RES=' (RES=EINTEGEROBJECT))? ('WIDTH=' (WIDTH=EINTEGEROBJECT))? ('HEIGHT=' (HEIGHT=EINTEGEROBJECT))?;
+    {GBIMG} 'GBIMG' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))? & ('FORMAT=' (FORMAT=EINTEGEROBJECT))? & ('RES=' (RES=EINTEGEROBJECT))? & ('WIDTH=' (WIDTH=EINTEGEROBJECT))? & ('HEIGHT=' (HEIGHT=EINTEGEROBJECT))?);
 GCBIMG:
-    {GCBIMG} 'GCBIMG' ('FORMAT=' (FORMAT=EINTEGEROBJECT))? ('RES=' (RES=EINTEGEROBJECT))? ('WIDTH=' (WIDTH=EINTEGEROBJECT))? ('HEIGHT=' (HEIGHT=EINTEGEROBJECT))?;
+    {GCBIMG} 'GCBIMG' (('FORMAT=' (FORMAT=EINTEGEROBJECT))? & ('RES=' (RES=EINTEGEROBJECT))? & ('WIDTH=' (WIDTH=EINTEGEROBJECT))? & ('HEIGHT=' (HEIGHT=EINTEGEROBJECT))?);
 GBOX:
-    {GBOX} 'GBOX' ('RES=' (RES=EINTEGEROBJECT))? ('XPOS0=' (XPOS0=EINTEGEROBJECT))? ('YPOS0=' (YPOS0=EINTEGEROBJECT))? ('XPOS1=' (XPOS1=EINTEGEROBJECT))? ('YPOS1=' (YPOS1=EINTEGEROBJECT))? ('HAXIS=' (HAXIS=EINTEGEROBJECT))? ('VAXIS=' (VAXIS=EINTEGEROBJECT))?;
+    {GBOX} 'GBOX' (('RES=' (RES=EINTEGEROBJECT))? & ('XPOS0=' (XPOS0=EINTEGEROBJECT))? & ('YPOS0=' (YPOS0=EINTEGEROBJECT))? & ('XPOS1=' (XPOS1=EINTEGEROBJECT))? & ('YPOS1=' (YPOS1=EINTEGEROBJECT))? & ('HAXIS=' (HAXIS=EINTEGEROBJECT))? & ('VAXIS=' (VAXIS=EINTEGEROBJECT))?);
 GCBOX:
-    {GCBOX} 'GCBOX' ('RES=' (RES=EINTEGEROBJECT))? ('XPOS1=' (XPOS1=EINTEGEROBJECT))? ('YPOS1=' (YPOS1=EINTEGEROBJECT))? ('HAXIS=' (HAXIS=EINTEGEROBJECT))? ('VAXIS=' (VAXIS=EINTEGEROBJECT))?;
+    {GCBOX} 'GCBOX' (('RES=' (RES=EINTEGEROBJECT))? & ('XPOS1=' (XPOS1=EINTEGEROBJECT))? & ('YPOS1=' (YPOS1=EINTEGEROBJECT))? & ('HAXIS=' (HAXIS=EINTEGEROBJECT))? & ('VAXIS=' (VAXIS=EINTEGEROBJECT))?);
 GCHST:
-    {GCHST} 'GCHST' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))? ('CP=' (CP=MODCASTRING))?;
+    {GCHST} 'GCHST' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))? & ('CP=' (CP=MODCASTRING))?);
 GCCHST:
-    {GCCHST} 'GCCHST' ('CP=' (CP=MODCASTRING))?;
+    {GCCHST} 'GCCHST' (('CP=' (CP=MODCASTRING))?);
 GCOMT:
-    {GCOMT} 'GCOMT' ('DATA=' (DATA=EBYTEARRAY))?;
+    {GCOMT} 'GCOMT' (('DATA=' (DATA=EBYTEARRAY))?);
 GEAR:
-    {GEAR} 'GEAR' ('DATA=' (DATA=EBYTEARRAY))?;
+    {GEAR} 'GEAR' (('DATA=' (DATA=EBYTEARRAY))?);
 GEIMG:
-    {GEIMG} 'GEIMG' ('DATA=' (DATA=EBYTEARRAY))?;
+    {GEIMG} 'GEIMG' (('DATA=' (DATA=EBYTEARRAY))?);
 GEPROL:
-    {GEPROL} 'GEPROL' ('RES=' (RES=EINTEGEROBJECT))?;
+    {GEPROL} 'GEPROL' (('RES=' (RES=EINTEGEROBJECT))?);
 GFLT:
     {GFLT} 'GFLT';
 GCFLT:
     {GCFLT} 'GCFLT';
 GFARC:
-    {GFARC} 'GFARC' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))? ('MH=' (MH=EINTEGEROBJECT))? ('MFR=' (MFR=EINTEGEROBJECT))?;
+    {GFARC} 'GFARC' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))? & ('MH=' (MH=EINTEGEROBJECT))? & ('MFR=' (MFR=EINTEGEROBJECT))?);
 GCFARC:
-    {GCFARC} 'GCFARC' ('MH=' (MH=EINTEGEROBJECT))? ('MFR=' (MFR=EINTEGEROBJECT))?;
+    {GCFARC} 'GCFARC' (('MH=' (MH=EINTEGEROBJECT))? & ('MFR=' (MFR=EINTEGEROBJECT))?);
 GIMD:
-    {GIMD} 'GIMD' ('DATA=' (DATA=EBYTEARRAY))?;
+    {GIMD} 'GIMD' (('DATA=' (DATA=EBYTEARRAY))?);
 GLINE:
     {GLINE} 'GLINE';
 GCLINE:
@@ -582,126 +582,126 @@ GCMRK:
 GNOP1:
     {GNOP1} 'GNOP1';
 GPARC:
-    {GPARC} 'GPARC' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))? ('XCENT=' (XCENT=EINTEGEROBJECT))? ('YCENT=' (YCENT=EINTEGEROBJECT))? ('MH=' (MH=EINTEGEROBJECT))? ('MFR=' (MFR=EINTEGEROBJECT))? ('START=' (START=EINTEGEROBJECT))? ('SWEEP=' (SWEEP=EINTEGEROBJECT))?;
+    {GPARC} 'GPARC' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))? & ('XCENT=' (XCENT=EINTEGEROBJECT))? & ('YCENT=' (YCENT=EINTEGEROBJECT))? & ('MH=' (MH=EINTEGEROBJECT))? & ('MFR=' (MFR=EINTEGEROBJECT))? & ('START=' (START=EINTEGEROBJECT))? & ('SWEEP=' (SWEEP=EINTEGEROBJECT))?);
 GCPARC:
-    {GCPARC} 'GCPARC' ('XCENT=' (XCENT=EINTEGEROBJECT))? ('YCENT=' (YCENT=EINTEGEROBJECT))? ('MH=' (MH=EINTEGEROBJECT))? ('MFR=' (MFR=EINTEGEROBJECT))? ('START=' (START=EINTEGEROBJECT))? ('SWEEP=' (SWEEP=EINTEGEROBJECT))?;
+    {GCPARC} 'GCPARC' (('XCENT=' (XCENT=EINTEGEROBJECT))? & ('YCENT=' (YCENT=EINTEGEROBJECT))? & ('MH=' (MH=EINTEGEROBJECT))? & ('MFR=' (MFR=EINTEGEROBJECT))? & ('START=' (START=EINTEGEROBJECT))? & ('SWEEP=' (SWEEP=EINTEGEROBJECT))?);
 GRLINE:
-    {GRLINE} 'GRLINE' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GRLINE} 'GRLINE' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GCRLINE:
     {GCRLINE} 'GCRLINE';
 GSGCH:
     {GSGCH} 'GSGCH';
 GSAP:
-    {GSAP} 'GSAP' ('P=' (P=EINTEGEROBJECT))? ('Q=' (Q=EINTEGEROBJECT))? ('R=' (R=EINTEGEROBJECT))? ('S=' (S=EINTEGEROBJECT))?;
+    {GSAP} 'GSAP' (('P=' (P=EINTEGEROBJECT))? & ('Q=' (Q=EINTEGEROBJECT))? & ('R=' (R=EINTEGEROBJECT))? & ('S=' (S=EINTEGEROBJECT))?);
 GSBMX:
-    {GSBMX} 'GSBMX' ('MODE=' (MODE=EINTEGEROBJECT))?;
+    {GSBMX} 'GSBMX' (('MODE=' (MODE=EINTEGEROBJECT))?);
 GSCA:
-    {GSCA} 'GSCA' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GSCA} 'GSCA' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GSCC:
-    {GSCC} 'GSCC' ('CELLWI=' (CELLWI=EINTEGEROBJECT))? ('CELLHI=' (CELLHI=EINTEGEROBJECT))? ('CELLWFR=' (CELLWFR=EINTEGEROBJECT))? ('CELLHFR=' (CELLHFR=EINTEGEROBJECT))?;
+    {GSCC} 'GSCC' (('CELLWI=' (CELLWI=EINTEGEROBJECT))? & ('CELLHI=' (CELLHI=EINTEGEROBJECT))? & ('CELLWFR=' (CELLWFR=EINTEGEROBJECT))? & ('CELLHFR=' (CELLHFR=EINTEGEROBJECT))?);
 GSCD:
-    {GSCD} 'GSCD' ('DIRECTION=' (DIRECTION=EINTEGEROBJECT))?;
+    {GSCD} 'GSCD' (('DIRECTION=' (DIRECTION=EINTEGEROBJECT))?);
 GSCR:
-    {GSCR} 'GSCR' ('PREC=' (PREC=EINTEGEROBJECT))?;
+    {GSCR} 'GSCR' (('PREC=' (PREC=EINTEGEROBJECT))?);
 GSCS:
-    {GSCS} 'GSCS' ('LCID=' (LCID=EINTEGEROBJECT))?;
+    {GSCS} 'GSCS' (('LCID=' (LCID=EINTEGEROBJECT))?);
 GSCH:
-    {GSCH} 'GSCH' ('HX=' (HX=EINTEGEROBJECT))? ('HY=' (HY=EINTEGEROBJECT))?;
+    {GSCH} 'GSCH' (('HX=' (HX=EINTEGEROBJECT))? & ('HY=' (HY=EINTEGEROBJECT))?);
 GSCOL:
-    {GSCOL} 'GSCOL' ('COL=' (COL=EINTEGEROBJECT))?;
+    {GSCOL} 'GSCOL' (('COL=' (COL=EINTEGEROBJECT))?);
 GSCP:
-    {GSCP} 'GSCP' ('XPOS=' (XPOS=EINTEGEROBJECT))? ('YPOS=' (YPOS=EINTEGEROBJECT))?;
+    {GSCP} 'GSCP' (('XPOS=' (XPOS=EINTEGEROBJECT))? & ('YPOS=' (YPOS=EINTEGEROBJECT))?);
 GSECOL:
-    {GSECOL} 'GSECOL' ('COLOR=' (COLOR=EINTEGEROBJECT))?;
+    {GSECOL} 'GSECOL' (('COLOR=' (COLOR=EINTEGEROBJECT))?);
 GSFLW:
-    {GSFLW} 'GSFLW' ('MH=' (MH=EINTEGEROBJECT))? ('MFR=' (MFR=EINTEGEROBJECT))?;
+    {GSFLW} 'GSFLW' (('MH=' (MH=EINTEGEROBJECT))? & ('MFR=' (MFR=EINTEGEROBJECT))?);
 GSLT:
-    {GSLT} 'GSLT' ('LINETYPE=' (LINETYPE=EINTEGEROBJECT))?;
+    {GSLT} 'GSLT' (('LINETYPE=' (LINETYPE=EINTEGEROBJECT))?);
 GSLW:
-    {GSLW} 'GSLW' ('MH=' (MH=EINTEGEROBJECT))?;
+    {GSLW} 'GSLW' (('MH=' (MH=EINTEGEROBJECT))?);
 GSMC:
-    {GSMC} 'GSMC' ('CELLWI=' (CELLWI=EINTEGEROBJECT))? ('CELLHI=' (CELLHI=EINTEGEROBJECT))?;
+    {GSMC} 'GSMC' (('CELLWI=' (CELLWI=EINTEGEROBJECT))? & ('CELLHI=' (CELLHI=EINTEGEROBJECT))?);
 GSMP:
-    {GSMP} 'GSMP' ('PREC=' (PREC=EINTEGEROBJECT))?;
+    {GSMP} 'GSMP' (('PREC=' (PREC=EINTEGEROBJECT))?);
 GSMS:
-    {GSMS} 'GSMS' ('LCID=' (LCID=EINTEGEROBJECT))?;
+    {GSMS} 'GSMS' (('LCID=' (LCID=EINTEGEROBJECT))?);
 GSMT:
-    {GSMT} 'GSMT' ('MCPT=' (MCPT=EINTEGEROBJECT))?;
+    {GSMT} 'GSMT' (('MCPT=' (MCPT=EINTEGEROBJECT))?);
 GSMX:
-    {GSMX} 'GSMX' ('MODE=' (MODE=EINTEGEROBJECT))?;
+    {GSMX} 'GSMX' (('MODE=' (MODE=EINTEGEROBJECT))?);
 GSPS:
-    {GSPS} 'GSPS' ('LCID=' (LCID=EINTEGEROBJECT))?;
+    {GSPS} 'GSPS' (('LCID=' (LCID=EINTEGEROBJECT))?);
 GSPT:
-    {GSPT} 'GSPT' ('PATT=' (PATT=EINTEGEROBJECT))?;
+    {GSPT} 'GSPT' (('PATT=' (PATT=EINTEGEROBJECT))?);
 GSPCOL:
-    {GSPCOL} 'GSPCOL' ('RES1=' (RES1=EINTEGEROBJECT))? ('COLSPCE=' (COLSPCE=EINTEGEROBJECT))? ('RES2=' (RES2=EINTEGEROBJECT))? ('COLSIZE1=' (COLSIZE1=EINTEGEROBJECT))? ('COLSIZE2=' (COLSIZE2=EINTEGEROBJECT))? ('COLSIZE3=' (COLSIZE3=EINTEGEROBJECT))? ('COLSIZE4=' (COLSIZE4=EINTEGEROBJECT))? ('COLVALUE=' (COLVALUE=EBYTEARRAY))?;
+    {GSPCOL} 'GSPCOL' (('RES1=' (RES1=EINTEGEROBJECT))? & ('COLSPCE=' (COLSPCE=EINTEGEROBJECT))? & ('RES2=' (RES2=EINTEGEROBJECT))? & ('COLSIZE1=' (COLSIZE1=EINTEGEROBJECT))? & ('COLSIZE2=' (COLSIZE2=EINTEGEROBJECT))? & ('COLSIZE3=' (COLSIZE3=EINTEGEROBJECT))? & ('COLSIZE4=' (COLSIZE4=EINTEGEROBJECT))? & ('COLVALUE=' (COLVALUE=EBYTEARRAY))?);
 GSLE:
-    {GSLE} 'GSLE' ('LINEEND=' (LINEEND=EINTEGEROBJECT))?;
+    {GSLE} 'GSLE' (('LINEEND=' (LINEEND=EINTEGEROBJECT))?);
 GSLJ:
-    {GSLJ} 'GSLJ' ('LINEJOIN=' (LINEJOIN=EINTEGEROBJECT))?;
+    {GSLJ} 'GSLJ' (('LINEJOIN=' (LINEJOIN=EINTEGEROBJECT))?);
 GCBEZ:
     {GCBEZ} 'GCBEZ';
 GCCBEZ:
     {GCCBEZ} 'GCCBEZ';
 WindowSpecification:
-    {WindowSpecification} 'WindowSpecification' ('FLAGS=' (FLAGS=EINTEGEROBJECT))? ('RES3=' (RES3=EINTEGEROBJECT))? ('CFORMAT=' (CFORMAT=EINTEGEROBJECT))? ('UBASE=' (UBASE=EINTEGEROBJECT))? ('XRESOL=' (XRESOL=EINTEGEROBJECT))? ('YRESOL=' (YRESOL=EINTEGEROBJECT))? ('IMGXYRES=' (IMGXYRES=EINTEGEROBJECT))? ('XLWIND=' (XLWIND=EINTEGEROBJECT))? ('XRWIND=' (XRWIND=EINTEGEROBJECT))? ('YBWIND=' (YBWIND=EINTEGEROBJECT))? ('YTWIND=' (YTWIND=EINTEGEROBJECT))?;
+    {WindowSpecification} 'WindowSpecification' (('FLAGS=' (FLAGS=EINTEGEROBJECT))? & ('RES3=' (RES3=EINTEGEROBJECT))? & ('CFORMAT=' (CFORMAT=EINTEGEROBJECT))? & ('UBASE=' (UBASE=EINTEGEROBJECT))? & ('XRESOL=' (XRESOL=EINTEGEROBJECT))? & ('YRESOL=' (YRESOL=EINTEGEROBJECT))? & ('IMGXYRES=' (IMGXYRES=EINTEGEROBJECT))? & ('XLWIND=' (XLWIND=EINTEGEROBJECT))? & ('XRWIND=' (XRWIND=EINTEGEROBJECT))? & ('YBWIND=' (YBWIND=EINTEGEROBJECT))? & ('YTWIND=' (YTWIND=EINTEGEROBJECT))?);
 DrawingOrderSubset:
     {DrawingOrderSubset} 'DrawingOrderSubset';
 TonerSaver:
-    {TonerSaver} 'TonerSaver' ('TSvCtrl=' (TSvCtrl=EINTEGEROBJECT))?;
+    {TonerSaver} 'TonerSaver' (('TSvCtrl=' (TSvCtrl=EINTEGEROBJECT))?);
 ColorFidelity:
-    {ColorFidelity} 'ColorFidelity' ('StpCoEx=' (StpCoEx=EINTEGEROBJECT))? ('RepCoEx=' (RepCoEx=EINTEGEROBJECT))? ('ColSub=' (ColSub=EINTEGEROBJECT))?;
+    {ColorFidelity} 'ColorFidelity' (('StpCoEx=' (StpCoEx=EINTEGEROBJECT))? & ('RepCoEx=' (RepCoEx=EINTEGEROBJECT))? & ('ColSub=' (ColSub=EINTEGEROBJECT))?);
 FontFidelity:
-    {FontFidelity} 'FontFidelity' ('StpFntEx=' (StpFntEx=EINTEGEROBJECT))?;
+    {FontFidelity} 'FontFidelity' (('StpFntEx=' (StpFntEx=EINTEGEROBJECT))?);
 TextFidelity:
-    {TextFidelity} 'TextFidelity' ('StpTxtEx=' (StpTxtEx=EINTEGEROBJECT))? ('RepTxtEx=' (RepTxtEx=EINTEGEROBJECT))?;
+    {TextFidelity} 'TextFidelity' (('StpTxtEx=' (StpTxtEx=EINTEGEROBJECT))? & ('RepTxtEx=' (RepTxtEx=EINTEGEROBJECT))?);
 MediaFidelity:
-    {MediaFidelity} 'MediaFidelity' ('StpMedEx=' (StpMedEx=EINTEGEROBJECT))? ('Reserved=' (Reserved=EBYTEARRAY))?;
+    {MediaFidelity} 'MediaFidelity' (('StpMedEx=' (StpMedEx=EINTEGEROBJECT))? & ('Reserved=' (Reserved=EBYTEARRAY))?);
 FinishingFidelity:
-    {FinishingFidelity} 'FinishingFidelity' ('StpFinEx=' (StpFinEx=EINTEGEROBJECT))? ('RepFinEx=' (RepFinEx=EINTEGEROBJECT))?;
+    {FinishingFidelity} 'FinishingFidelity' (('StpFinEx=' (StpFinEx=EINTEGEROBJECT))? & ('RepFinEx=' (RepFinEx=EINTEGEROBJECT))?);
 CMRFidelity:
-    {CMRFidelity} 'CMRFidelity' ('StpCMREx=' (StpCMREx=EINTEGEROBJECT))? ('RepCMREx=' (RepCMREx=EINTEGEROBJECT))?;
+    {CMRFidelity} 'CMRFidelity' (('StpCMREx=' (StpCMREx=EINTEGEROBJECT))? & ('RepCMREx=' (RepCMREx=EINTEGEROBJECT))?);
 ObjectByteExtent:
-    {ObjectByteExtent} 'ObjectByteExtent' ('ByteExt=' (ByteExt=EINTEGEROBJECT))? ('ByteExtHi=' (ByteExtHi=EINTEGEROBJECT))?;
+    {ObjectByteExtent} 'ObjectByteExtent' (('ByteExt=' (ByteExt=EINTEGEROBJECT))? & ('ByteExtHi=' (ByteExtHi=EINTEGEROBJECT))?);
 ObjectByteOffset:
-    {ObjectByteOffset} 'ObjectByteOffset' ('DirByOff=' (DirByOff=EINTEGEROBJECT))? ('DirByHi=' (DirByHi=EINTEGEROBJECT))?;
+    {ObjectByteOffset} 'ObjectByteOffset' (('DirByOff=' (DirByOff=EINTEGEROBJECT))? & ('DirByHi=' (DirByHi=EINTEGEROBJECT))?);
 ObjectStructuredFieldExtent:
-    {ObjectStructuredFieldExtent} 'ObjectStructuredFieldExtent' ('SFExt=' (SFExt=EINTEGEROBJECT))? ('SFExtHi=' (SFExtHi=EINTEGEROBJECT))?;
+    {ObjectStructuredFieldExtent} 'ObjectStructuredFieldExtent' (('SFExt=' (SFExt=EINTEGEROBJECT))? & ('SFExtHi=' (SFExtHi=EINTEGEROBJECT))?);
 ObjectStructuredFieldOffset:
-    {ObjectStructuredFieldOffset} 'ObjectStructuredFieldOffset' ('SFOff=' (SFOff=EINTEGEROBJECT))? ('SFOffHi=' (SFOffHi=EINTEGEROBJECT))?;
+    {ObjectStructuredFieldOffset} 'ObjectStructuredFieldOffset' (('SFOff=' (SFOff=EINTEGEROBJECT))? & ('SFOffHi=' (SFOffHi=EINTEGEROBJECT))?);
 ObjectCount:
-    {ObjectCount} 'ObjectCount' ('SubObj=' (SubObj=EINTEGEROBJECT))? ('SObjNum=' (SObjNum=EINTEGEROBJECT))? ('SobjNmHi=' (SobjNmHi=EINTEGEROBJECT))?;
+    {ObjectCount} 'ObjectCount' (('SubObj=' (SubObj=EINTEGEROBJECT))? & ('SObjNum=' (SObjNum=EINTEGEROBJECT))? & ('SobjNmHi=' (SobjNmHi=EINTEGEROBJECT))?);
 ObjectOriginIdentifier:
-    {ObjectOriginIdentifier} 'ObjectOriginIdentifier' ('System=' (System=EINTEGEROBJECT))? ('SysID=' (SysID=EBYTEARRAY))? ('MedID=' (MedID=EBYTEARRAY))? ('DSID=' (DSID=EBYTEARRAY))?;
+    {ObjectOriginIdentifier} 'ObjectOriginIdentifier' (('System=' (System=EINTEGEROBJECT))? & ('SysID=' (SysID=EBYTEARRAY))? & ('MedID=' (MedID=EBYTEARRAY))? & ('DSID=' (DSID=EBYTEARRAY))?);
 LineDataObjectPositionMigration:
-    {LineDataObjectPositionMigration} 'LineDataObjectPositionMigration' ('TempOrient=' (TempOrient=EINTEGEROBJECT))?;
+    {LineDataObjectPositionMigration} 'LineDataObjectPositionMigration' (('TempOrient=' (TempOrient=EINTEGEROBJECT))?);
 ColorManagementResourceDescriptor:
-    {ColorManagementResourceDescriptor} 'ColorManagementResourceDescriptor' ('ProcMode=' (ProcMode=EINTEGEROBJECT))? ('CMRScpe=' (CMRScpe=EINTEGEROBJECT))?;
+    {ColorManagementResourceDescriptor} 'ColorManagementResourceDescriptor' (('ProcMode=' (ProcMode=EINTEGEROBJECT))? & ('CMRScpe=' (CMRScpe=EINTEGEROBJECT))?);
 ImageResolution:
-    {ImageResolution} 'ImageResolution' ('XBase=' (XBase=EINTEGEROBJECT))? ('YBase=' (YBase=EINTEGEROBJECT))? ('XResol=' (XResol=EINTEGEROBJECT))? ('YResol=' (YResol=EINTEGEROBJECT))?;
+    {ImageResolution} 'ImageResolution' (('XBase=' (XBase=EINTEGEROBJECT))? & ('YBase=' (YBase=EINTEGEROBJECT))? & ('XResol=' (XResol=EINTEGEROBJECT))? & ('YResol=' (YResol=EINTEGEROBJECT))?);
 ObjectContainerPresentationSpaceSize:
-    {ObjectContainerPresentationSpaceSize} 'ObjectContainerPresentationSpaceSize' ('PDFSize=' (PDFSize=EINTEGEROBJECT))?;
+    {ObjectContainerPresentationSpaceSize} 'ObjectContainerPresentationSpaceSize' (('PDFSize=' (PDFSize=EINTEGEROBJECT))?);
 ExtendedResourceLocalIdentifier:
-    {ExtendedResourceLocalIdentifier} 'ExtendedResourceLocalIdentifier' ('ResType=' (ResType=EINTEGEROBJECT))? ('ResLID=' (ResLID=EINTEGEROBJECT))?;
+    {ExtendedResourceLocalIdentifier} 'ExtendedResourceLocalIdentifier' (('ResType=' (ResType=EINTEGEROBJECT))? & ('ResLID=' (ResLID=EINTEGEROBJECT))?);
 MetricAdjustment:
-    {MetricAdjustment} 'MetricAdjustment' ('UnitBase=' (UnitBase=EINTEGEROBJECT))? ('XUPUB=' (XUPUB=EINTEGEROBJECT))? ('YUPUB=' (YUPUB=EINTEGEROBJECT))? ('HUniformIncrement=' (HUniformIncrement=EINTEGEROBJECT))? ('VUniformIncrement=' (VUniformIncrement=EINTEGEROBJECT))? ('HBaselineIncrement=' (HBaselineIncrement=EINTEGEROBJECT))? ('VBaselineIncrement=' (VBaselineIncrement=EINTEGEROBJECT))?;
+    {MetricAdjustment} 'MetricAdjustment' (('UnitBase=' (UnitBase=EINTEGEROBJECT))? & ('XUPUB=' (XUPUB=EINTEGEROBJECT))? & ('YUPUB=' (YUPUB=EINTEGEROBJECT))? & ('HUniformIncrement=' (HUniformIncrement=EINTEGEROBJECT))? & ('VUniformIncrement=' (VUniformIncrement=EINTEGEROBJECT))? & ('HBaselineIncrement=' (HBaselineIncrement=EINTEGEROBJECT))? & ('VBaselineIncrement=' (VBaselineIncrement=EINTEGEROBJECT))?);
 ExtensionFont:
-    {ExtensionFont} 'ExtensionFont' ('GCSGID=' (GCSGID=EINTEGEROBJECT))?;
+    {ExtensionFont} 'ExtensionFont' (('GCSGID=' (GCSGID=EINTEGEROBJECT))?);
 RenderingIntent:
-    {RenderingIntent} 'RenderingIntent' ('Reserved=' (Reserved=EINTEGEROBJECT))? ('IOCARI=' (IOCARI=EINTEGEROBJECT))? ('OCRI=' (OCRI=EINTEGEROBJECT))? ('PTOCRI=' (PTOCRI=EINTEGEROBJECT))? ('GOCARI=' (GOCARI=EINTEGEROBJECT))? ('Reserved2=' (Reserved2=EINTEGEROBJECT))?;
+    {RenderingIntent} 'RenderingIntent' (('Reserved=' (Reserved=EINTEGEROBJECT))? & ('IOCARI=' (IOCARI=EINTEGEROBJECT))? & ('OCRI=' (OCRI=EINTEGEROBJECT))? & ('PTOCRI=' (PTOCRI=EINTEGEROBJECT))? & ('GOCARI=' (GOCARI=EINTEGEROBJECT))? & ('Reserved2=' (Reserved2=EINTEGEROBJECT))?);
 FontCodedGraphicCharacterSetGlobalIdentifier:
-    {FontCodedGraphicCharacterSetGlobalIdentifier} 'FontCodedGraphicCharacterSetGlobalIdentifier' ('GCSGID=' (GCSGID=EINTEGEROBJECT))? ('CPGID=' (CPGID=EINTEGEROBJECT))?;
+    {FontCodedGraphicCharacterSetGlobalIdentifier} 'FontCodedGraphicCharacterSetGlobalIdentifier' (('GCSGID=' (GCSGID=EINTEGEROBJECT))? & ('CPGID=' (CPGID=EINTEGEROBJECT))?);
 LocaleSelector:
-    {LocaleSelector} 'LocaleSelector' ('LocFlgs=' (LocFlgs=EINTEGEROBJECT))? ('LangCode=' (LangCode=MODCASTRING))? ('ScrptCde=' (ScrptCde=MODCASTRING))? ('RegCde=' (RegCde=MODCASTRING))? ('Reserved=' (Reserved=EBYTEARRAY))? ('VarCde=' (VarCde=MODCASTRING))?;
+    {LocaleSelector} 'LocaleSelector' (('LocFlgs=' (LocFlgs=EINTEGEROBJECT))? & ('LangCode=' (LangCode=MODCASTRING))? & ('ScrptCde=' (ScrptCde=MODCASTRING))? & ('RegCde=' (RegCde=MODCASTRING))? & ('Reserved=' (Reserved=EBYTEARRAY))? & ('VarCde=' (VarCde=MODCASTRING))?);
 FinishingOperation:
-    {FinishingOperation} 'FinishingOperation' ('FOpType=' (FOpType=EINTEGEROBJECT))? ('RefEdge=' (RefEdge=EINTEGEROBJECT))? ('FOpCnt=' (FOpCnt=EINTEGEROBJECT))? ('AxOffst=' (AxOffst=EINTEGEROBJECT))? ('OpPos=' (OpPos=EBYTEARRAY))?;
+    {FinishingOperation} 'FinishingOperation' (('FOpType=' (FOpType=EINTEGEROBJECT))? & ('RefEdge=' (RefEdge=EINTEGEROBJECT))? & ('FOpCnt=' (FOpCnt=EINTEGEROBJECT))? & ('AxOffst=' (AxOffst=EINTEGEROBJECT))? & ('OpPos=' (OpPos=EBYTEARRAY))?);
 UP3iFinishingOperation:
-    {UP3iFinishingOperation} 'UP3iFinishingOperation' ('Seqnum=' (Seqnum=EINTEGEROBJECT))? ('UP3iDat=' (UP3iDat=EBYTEARRAY))?;
+    {UP3iFinishingOperation} 'UP3iFinishingOperation' (('Seqnum=' (Seqnum=EINTEGEROBJECT))? & ('UP3iDat=' (UP3iDat=EBYTEARRAY))?);
 DeviceAppearance:
-    {DeviceAppearance} 'DeviceAppearance' ('DevApp=' (DevApp=EINTEGEROBJECT))? ('Reserved=' (Reserved=EBYTEARRAY))?;
+    {DeviceAppearance} 'DeviceAppearance' (('DevApp=' (DevApp=EINTEGEROBJECT))? & ('Reserved=' (Reserved=EBYTEARRAY))?);
 ResourceObjectInclude:
-    {ResourceObjectInclude} 'ResourceObjectInclude' ('ObjType=' (ObjType=EINTEGEROBJECT))? ('ObjName=' (ObjName=MODCASTRING))? ('XobjOset=' (XobjOset=EINTEGEROBJECT))? ('YobjOset=' (YobjOset=EINTEGEROBJECT))? ('ObOrent=' (ObOrent=EINTEGEROBJECT))?;
+    {ResourceObjectInclude} 'ResourceObjectInclude' (('ObjType=' (ObjType=EINTEGEROBJECT))? & ('ObjName=' (ObjName=MODCASTRING))? & ('XobjOset=' (XobjOset=EINTEGEROBJECT))? & ('YobjOset=' (YobjOset=EINTEGEROBJECT))? & ('ObOrent=' (ObOrent=EINTEGEROBJECT))?);
 PageOverlayConditionalProcessing:
-    {PageOverlayConditionalProcessing} 'PageOverlayConditionalProcessing' ('PgOvType=' (PgOvType=EINTEGEROBJECT))? ('Level=' (Level=EINTEGEROBJECT))?;
+    {PageOverlayConditionalProcessing} 'PageOverlayConditionalProcessing' (('PgOvType=' (PgOvType=EINTEGEROBJECT))? & ('Level=' (Level=EINTEGEROBJECT))?);
 ResourceUsageAttribute:
-    {ResourceUsageAttribute} 'ResourceUsageAttribute' ('Frequency=' (Frequency=EINTEGEROBJECT))?;
+    {ResourceUsageAttribute} 'ResourceUsageAttribute' (('Frequency=' (Frequency=EINTEGEROBJECT))?);

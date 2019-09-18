@@ -54,7 +54,7 @@ public class Model2Grammar {
 		.forEach(clazz -> {
 			System.out.println(clazz.getName()+":");
 			System.out.print("    {"+clazz.getName()+"} '"+clazz.getName()+"'");
-			clazz.getEAllAttributes().stream()
+			String params = clazz.getEAllAttributes().stream()
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Id()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Charset()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Children()))
@@ -62,14 +62,18 @@ public class Model2Grammar {
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Number()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Offset()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_RawData()))
-			.forEach(a -> {
-				System.out.print(" ('"+a.getName()+"=' ("+a.getName()+"=");
+			.map(a -> {
+				String res = "('"+a.getName()+"=' ("+a.getName()+"=";
 				String typeName = a.getEType().getName().toUpperCase();
 				if("MODCASTRING4".equals(typeName)) typeName="MODCASTRING";
 				if("MODCASTRING8".equals(typeName)) typeName="MODCASTRING";
 				if("MODCASTRING32".equals(typeName)) typeName="MODCASTRING";
-				System.out.print(typeName+"))?");
-			});
+				res += typeName+"))?";
+				return res;
+			}).collect(Collectors.joining(" & "));
+			if(params!=null && params.length() > 0) {
+				System.out.print(" ("+params+")");
+			}
 			clazz.getEAllContainments().stream()
 			.filter(c -> c.getName().equalsIgnoreCase("triplets"))
 			.forEach(c -> {
@@ -91,21 +95,25 @@ public class Model2Grammar {
 		.forEach(clazz -> {
 			System.out.println(clazz.getName()+":");
 			System.out.print("    {"+clazz.getName()+"} '\\n.rg'");
-			clazz.getEAllAttributes().stream()
+			String params = clazz.getEAllAttributes().stream()
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_Charset()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_FileOffset()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_Label()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_TripletId()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_TripletLength()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_TripletNumber()))
-			.forEach(a -> {
-				System.out.print(" ('"+a.getName()+"=' ("+a.getName()+"=");
+			.map(a -> {
+				String res = "('"+a.getName()+"=' ("+a.getName()+"=";
 				String typeName = a.getEType().getName().toUpperCase();
 				if("MODCASTRING4".equals(typeName)) typeName="MODCASTRING";
 				if("MODCASTRING8".equals(typeName)) typeName="MODCASTRING";
 				if("MODCASTRING32".equals(typeName)) typeName="MODCASTRING";
-				System.out.print(typeName+"))?");
-			});
+				res += typeName+"))?";
+				return res;
+			}).collect(Collectors.joining(" & "));
+			if(params!=null && params.length() > 0) {
+				System.out.print(" ("+params+")");
+			}
 			clazz.getEAllContainments().stream()
 			.filter(c -> c.getName().equalsIgnoreCase("triplets"))
 			.forEach(c -> {
@@ -135,21 +143,25 @@ public class Model2Grammar {
 		.forEach(clazz -> {
 			System.out.println(clazz.getName()+":");
 			System.out.print("    {"+clazz.getName()+"} '"+clazz.getName()+"'");
-			clazz.getEAllAttributes().stream()
+			String params = clazz.getEAllAttributes().stream()
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_Charset()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_FileOffset()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_Label()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_TripletId()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_TripletLength()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_TripletNumber()))
-			.forEach(a -> {
-				System.out.print(" ('"+a.getName()+"=' ("+a.getName()+"=");
+			.map(a -> {
+				String res = "('"+a.getName()+"=' ("+a.getName()+"=";
 				String typeName = a.getEType().getName().toUpperCase();
 				if("MODCASTRING4".equals(typeName)) typeName="MODCASTRING";
 				if("MODCASTRING8".equals(typeName)) typeName="MODCASTRING";
 				if("MODCASTRING32".equals(typeName)) typeName="MODCASTRING";
-				System.out.print(typeName+"))?");
-			});
+				res += typeName+"))?";
+				return res;
+			}).collect(Collectors.joining(" & "));
+			if(params!=null && params.length() > 0) {
+				System.out.print(" ("+params+")");
+			}
 			System.out.println(";");
 		});
 		

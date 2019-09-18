@@ -18059,10 +18059,10 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_MODCASTRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102047:18: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // InternalAfpText.g:102047:20: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalAfpText.g:109047:18: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // InternalAfpText.g:109047:20: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // InternalAfpText.g:102047:20: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalAfpText.g:109047:20: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -18080,10 +18080,10 @@ public class InternalAfpTextLexer extends Lexer {
             }
             switch (alt3) {
                 case 1 :
-                    // InternalAfpText.g:102047:21: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // InternalAfpText.g:109047:21: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // InternalAfpText.g:102047:25: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // InternalAfpText.g:109047:25: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop1:
                     do {
                         int alt1=3;
@@ -18099,7 +18099,7 @@ public class InternalAfpTextLexer extends Lexer {
 
                         switch (alt1) {
                     	case 1 :
-                    	    // InternalAfpText.g:102047:26: '\\\\' .
+                    	    // InternalAfpText.g:109047:26: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -18107,7 +18107,7 @@ public class InternalAfpTextLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalAfpText.g:102047:33: ~ ( ( '\\\\' | '\"' ) )
+                    	    // InternalAfpText.g:109047:33: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -18132,10 +18132,10 @@ public class InternalAfpTextLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // InternalAfpText.g:102047:53: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // InternalAfpText.g:109047:53: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // InternalAfpText.g:102047:58: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // InternalAfpText.g:109047:58: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop2:
                     do {
                         int alt2=3;
@@ -18151,7 +18151,7 @@ public class InternalAfpTextLexer extends Lexer {
 
                         switch (alt2) {
                     	case 1 :
-                    	    // InternalAfpText.g:102047:59: '\\\\' .
+                    	    // InternalAfpText.g:109047:59: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -18159,7 +18159,7 @@ public class InternalAfpTextLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalAfpText.g:102047:66: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // InternalAfpText.g:109047:66: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -18202,10 +18202,10 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_EINTEGEROBJECT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102049:21: ( ( '0' .. '9' )+ )
-            // InternalAfpText.g:102049:23: ( '0' .. '9' )+
+            // InternalAfpText.g:109049:21: ( ( '0' .. '9' )+ )
+            // InternalAfpText.g:109049:23: ( '0' .. '9' )+
             {
-            // InternalAfpText.g:102049:23: ( '0' .. '9' )+
+            // InternalAfpText.g:109049:23: ( '0' .. '9' )+
             int cnt4=0;
             loop4:
             do {
@@ -18219,7 +18219,7 @@ public class InternalAfpTextLexer extends Lexer {
 
                 switch (alt4) {
             	case 1 :
-            	    // InternalAfpText.g:102049:24: '0' .. '9'
+            	    // InternalAfpText.g:109049:24: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -18251,10 +18251,10 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_EBYTEARRAY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102051:17: ( ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' )* )
-            // InternalAfpText.g:102051:19: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' )*
+            // InternalAfpText.g:109051:17: ( ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' )* )
+            // InternalAfpText.g:109051:19: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' )*
             {
-            // InternalAfpText.g:102051:19: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' )*
+            // InternalAfpText.g:109051:19: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' )*
             loop5:
             do {
                 int alt5=2;
@@ -18303,10 +18303,10 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102053:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // InternalAfpText.g:102053:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalAfpText.g:109053:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // InternalAfpText.g:109053:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
-            // InternalAfpText.g:102053:11: ( '^' )?
+            // InternalAfpText.g:109053:11: ( '^' )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -18315,7 +18315,7 @@ public class InternalAfpTextLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // InternalAfpText.g:102053:11: '^'
+                    // InternalAfpText.g:109053:11: '^'
                     {
                     match('^'); 
 
@@ -18333,7 +18333,7 @@ public class InternalAfpTextLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // InternalAfpText.g:102053:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalAfpText.g:109053:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop7:
             do {
                 int alt7=2;
@@ -18382,10 +18382,10 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102055:10: ( ( '0' .. '9' )+ )
-            // InternalAfpText.g:102055:12: ( '0' .. '9' )+
+            // InternalAfpText.g:109055:10: ( ( '0' .. '9' )+ )
+            // InternalAfpText.g:109055:12: ( '0' .. '9' )+
             {
-            // InternalAfpText.g:102055:12: ( '0' .. '9' )+
+            // InternalAfpText.g:109055:12: ( '0' .. '9' )+
             int cnt8=0;
             loop8:
             do {
@@ -18399,7 +18399,7 @@ public class InternalAfpTextLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // InternalAfpText.g:102055:13: '0' .. '9'
+            	    // InternalAfpText.g:109055:13: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -18431,10 +18431,10 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102057:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // InternalAfpText.g:102057:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalAfpText.g:109057:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // InternalAfpText.g:109057:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // InternalAfpText.g:102057:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalAfpText.g:109057:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt11=2;
             int LA11_0 = input.LA(1);
 
@@ -18452,10 +18452,10 @@ public class InternalAfpTextLexer extends Lexer {
             }
             switch (alt11) {
                 case 1 :
-                    // InternalAfpText.g:102057:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // InternalAfpText.g:109057:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // InternalAfpText.g:102057:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // InternalAfpText.g:109057:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop9:
                     do {
                         int alt9=3;
@@ -18471,7 +18471,7 @@ public class InternalAfpTextLexer extends Lexer {
 
                         switch (alt9) {
                     	case 1 :
-                    	    // InternalAfpText.g:102057:21: '\\\\' .
+                    	    // InternalAfpText.g:109057:21: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -18479,7 +18479,7 @@ public class InternalAfpTextLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalAfpText.g:102057:28: ~ ( ( '\\\\' | '\"' ) )
+                    	    // InternalAfpText.g:109057:28: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -18504,10 +18504,10 @@ public class InternalAfpTextLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // InternalAfpText.g:102057:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // InternalAfpText.g:109057:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // InternalAfpText.g:102057:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // InternalAfpText.g:109057:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop10:
                     do {
                         int alt10=3;
@@ -18523,7 +18523,7 @@ public class InternalAfpTextLexer extends Lexer {
 
                         switch (alt10) {
                     	case 1 :
-                    	    // InternalAfpText.g:102057:54: '\\\\' .
+                    	    // InternalAfpText.g:109057:54: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -18531,7 +18531,7 @@ public class InternalAfpTextLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalAfpText.g:102057:61: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // InternalAfpText.g:109057:61: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -18574,12 +18574,12 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102059:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // InternalAfpText.g:102059:19: '/*' ( options {greedy=false; } : . )* '*/'
+            // InternalAfpText.g:109059:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // InternalAfpText.g:109059:19: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // InternalAfpText.g:102059:24: ( options {greedy=false; } : . )*
+            // InternalAfpText.g:109059:24: ( options {greedy=false; } : . )*
             loop12:
             do {
                 int alt12=2;
@@ -18604,7 +18604,7 @@ public class InternalAfpTextLexer extends Lexer {
 
                 switch (alt12) {
             	case 1 :
-            	    // InternalAfpText.g:102059:52: .
+            	    // InternalAfpText.g:109059:52: .
             	    {
             	    matchAny(); 
 
@@ -18634,12 +18634,12 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102061:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-            // InternalAfpText.g:102061:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
+            // InternalAfpText.g:109061:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
+            // InternalAfpText.g:109061:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
             {
             match("//"); 
 
-            // InternalAfpText.g:102061:24: (~ ( ( '\\n' | '\\r' ) ) )*
+            // InternalAfpText.g:109061:24: (~ ( ( '\\n' | '\\r' ) ) )*
             loop13:
             do {
                 int alt13=2;
@@ -18652,7 +18652,7 @@ public class InternalAfpTextLexer extends Lexer {
 
                 switch (alt13) {
             	case 1 :
-            	    // InternalAfpText.g:102061:24: ~ ( ( '\\n' | '\\r' ) )
+            	    // InternalAfpText.g:109061:24: ~ ( ( '\\n' | '\\r' ) )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -18672,7 +18672,7 @@ public class InternalAfpTextLexer extends Lexer {
                 }
             } while (true);
 
-            // InternalAfpText.g:102061:40: ( ( '\\r' )? '\\n' )?
+            // InternalAfpText.g:109061:40: ( ( '\\r' )? '\\n' )?
             int alt15=2;
             int LA15_0 = input.LA(1);
 
@@ -18681,9 +18681,9 @@ public class InternalAfpTextLexer extends Lexer {
             }
             switch (alt15) {
                 case 1 :
-                    // InternalAfpText.g:102061:41: ( '\\r' )? '\\n'
+                    // InternalAfpText.g:109061:41: ( '\\r' )? '\\n'
                     {
-                    // InternalAfpText.g:102061:41: ( '\\r' )?
+                    // InternalAfpText.g:109061:41: ( '\\r' )?
                     int alt14=2;
                     int LA14_0 = input.LA(1);
 
@@ -18692,7 +18692,7 @@ public class InternalAfpTextLexer extends Lexer {
                     }
                     switch (alt14) {
                         case 1 :
-                            // InternalAfpText.g:102061:41: '\\r'
+                            // InternalAfpText.g:109061:41: '\\r'
                             {
                             match('\r'); 
 
@@ -18724,10 +18724,10 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102063:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // InternalAfpText.g:102063:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalAfpText.g:109063:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // InternalAfpText.g:109063:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // InternalAfpText.g:102063:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalAfpText.g:109063:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt16=0;
             loop16:
             do {
@@ -18781,8 +18781,8 @@ public class InternalAfpTextLexer extends Lexer {
         try {
             int _type = RULE_ANY_OTHER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAfpText.g:102065:16: ( . )
-            // InternalAfpText.g:102065:18: .
+            // InternalAfpText.g:109065:16: ( . )
+            // InternalAfpText.g:109065:18: .
             {
             matchAny(); 
 

@@ -28,12 +28,12 @@ public interface MediaFidelity extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Stp Med Ex</em>' attribute.
-   * @see #setStpMedEx(int)
+   * @see #setStpMedEx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMediaFidelity_StpMedEx()
    * @model
    * @generated
    */
-  int getStpMedEx();
+  Integer getStpMedEx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MediaFidelity#getStpMedEx <em>Stp Med Ex</em>}' attribute.
@@ -43,7 +43,7 @@ public interface MediaFidelity extends triplet
    * @see #getStpMedEx()
    * @generated
    */
-  void setStpMedEx(int value);
+  void setStpMedEx(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved</b></em>' attribute.

@@ -35,7 +35,7 @@ public class MappingOptionImpl extends tripletImpl implements MappingOption
    * @generated
    * @ordered
    */
-  protected static final int MAP_VALUE_EDEFAULT = 0;
+  protected static final Integer MAP_VALUE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMapValue() <em>Map Value</em>}' attribute.
@@ -45,7 +45,7 @@ public class MappingOptionImpl extends tripletImpl implements MappingOption
    * @generated
    * @ordered
    */
-  protected int mapValue = MAP_VALUE_EDEFAULT;
+  protected Integer mapValue = MAP_VALUE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class MappingOptionImpl extends tripletImpl implements MappingOption
    * @generated
    */
   @Override
-  public int getMapValue()
+  public Integer getMapValue()
   {
     return mapValue;
   }
@@ -85,9 +85,9 @@ public class MappingOptionImpl extends tripletImpl implements MappingOption
    * @generated
    */
   @Override
-  public void setMapValue(int newMapValue)
+  public void setMapValue(Integer newMapValue)
   {
-    int oldMapValue = mapValue;
+    Integer oldMapValue = mapValue;
     mapValue = newMapValue;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MAPPING_OPTION__MAP_VALUE, oldMapValue, mapValue));
@@ -154,7 +154,7 @@ public class MappingOptionImpl extends tripletImpl implements MappingOption
     switch (featureID)
     {
       case AfpTextPackage.MAPPING_OPTION__MAP_VALUE:
-        return mapValue != MAP_VALUE_EDEFAULT;
+        return MAP_VALUE_EDEFAULT == null ? mapValue != null : !MAP_VALUE_EDEFAULT.equals(mapValue);
     }
     return super.eIsSet(featureID);
   }

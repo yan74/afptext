@@ -36,7 +36,7 @@ public class DeviceAppearanceImpl extends tripletImpl implements DeviceAppearanc
    * @generated
    * @ordered
    */
-  protected static final int DEV_APP_EDEFAULT = 0;
+  protected static final Integer DEV_APP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDevApp() <em>Dev App</em>}' attribute.
@@ -46,7 +46,7 @@ public class DeviceAppearanceImpl extends tripletImpl implements DeviceAppearanc
    * @generated
    * @ordered
    */
-  protected int devApp = DEV_APP_EDEFAULT;
+  protected Integer devApp = DEV_APP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -95,7 +95,7 @@ public class DeviceAppearanceImpl extends tripletImpl implements DeviceAppearanc
    * @generated
    */
   @Override
-  public int getDevApp()
+  public Integer getDevApp()
   {
     return devApp;
   }
@@ -106,9 +106,9 @@ public class DeviceAppearanceImpl extends tripletImpl implements DeviceAppearanc
    * @generated
    */
   @Override
-  public void setDevApp(int newDevApp)
+  public void setDevApp(Integer newDevApp)
   {
-    int oldDevApp = devApp;
+    Integer oldDevApp = devApp;
     devApp = newDevApp;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DEVICE_APPEARANCE__DEV_APP, oldDevApp, devApp));
@@ -208,7 +208,7 @@ public class DeviceAppearanceImpl extends tripletImpl implements DeviceAppearanc
     switch (featureID)
     {
       case AfpTextPackage.DEVICE_APPEARANCE__DEV_APP:
-        return devApp != DEV_APP_EDEFAULT;
+        return DEV_APP_EDEFAULT == null ? devApp != null : !DEV_APP_EDEFAULT.equals(devApp);
       case AfpTextPackage.DEVICE_APPEARANCE__RESERVED:
         return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
     }

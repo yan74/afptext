@@ -27,7 +27,7 @@ public class Model2Grammar {
 				"	\"'\" ( '\\\\' . /* 'b'|'t'|'n'|'f'|'r'|'u'|'\"'|\"'\"|'\\\\' */ | !('\\\\'|\"'\") )* \"'\"\n" + 
 				";\n" + 
 				"\n" + 
-				"terminal EINTEGEROBJECT returns ecore::EInt: '-'? ('0'..'9')+;\n" + 
+				"terminal EINTEGEROBJECT returns ecore::EIntegerObject: '-'? ('0'..'9')+;\n" + 
 				"\n" + 
 				"terminal EBYTEARRAY:\n" + 
 				"	'[' ('a'..'z'|'A'..'Z'|'0'..'9')* ']'\n" + 

@@ -35,7 +35,7 @@ public class GSPTImpl extends tripletImpl implements GSPT
    * @generated
    * @ordered
    */
-  protected static final int PATT_EDEFAULT = 0;
+  protected static final Integer PATT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPATT() <em>PATT</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSPTImpl extends tripletImpl implements GSPT
    * @generated
    * @ordered
    */
-  protected int patt = PATT_EDEFAULT;
+  protected Integer patt = PATT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSPTImpl extends tripletImpl implements GSPT
    * @generated
    */
   @Override
-  public int getPATT()
+  public Integer getPATT()
   {
     return patt;
   }
@@ -85,9 +85,9 @@ public class GSPTImpl extends tripletImpl implements GSPT
    * @generated
    */
   @Override
-  public void setPATT(int newPATT)
+  public void setPATT(Integer newPATT)
   {
-    int oldPATT = patt;
+    Integer oldPATT = patt;
     patt = newPATT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSPT__PATT, oldPATT, patt));
@@ -154,7 +154,7 @@ public class GSPTImpl extends tripletImpl implements GSPT
     switch (featureID)
     {
       case AfpTextPackage.GSPT__PATT:
-        return patt != PATT_EDEFAULT;
+        return PATT_EDEFAULT == null ? patt != null : !PATT_EDEFAULT.equals(patt);
     }
     return super.eIsSet(featureID);
   }

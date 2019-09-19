@@ -32,12 +32,12 @@ public interface ICP extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XC Oset</em>' attribute.
-   * @see #setXCOset(int)
+   * @see #setXCOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getICP_XCOset()
    * @model
    * @generated
    */
-  int getXCOset();
+  Integer getXCOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ICP#getXCOset <em>XC Oset</em>}' attribute.
@@ -47,19 +47,19 @@ public interface ICP extends structuredField
    * @see #getXCOset()
    * @generated
    */
-  void setXCOset(int value);
+  void setXCOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>YC Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YC Oset</em>' attribute.
-   * @see #setYCOset(int)
+   * @see #setYCOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getICP_YCOset()
    * @model
    * @generated
    */
-  int getYCOset();
+  Integer getYCOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ICP#getYCOset <em>YC Oset</em>}' attribute.
@@ -69,19 +69,19 @@ public interface ICP extends structuredField
    * @see #getYCOset()
    * @generated
    */
-  void setYCOset(int value);
+  void setYCOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>XC Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XC Size</em>' attribute.
-   * @see #setXCSize(int)
+   * @see #setXCSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getICP_XCSize()
    * @model
    * @generated
    */
-  int getXCSize();
+  Integer getXCSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ICP#getXCSize <em>XC Size</em>}' attribute.
@@ -91,19 +91,19 @@ public interface ICP extends structuredField
    * @see #getXCSize()
    * @generated
    */
-  void setXCSize(int value);
+  void setXCSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>YC Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YC Size</em>' attribute.
-   * @see #setYCSize(int)
+   * @see #setYCSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getICP_YCSize()
    * @model
    * @generated
    */
-  int getYCSize();
+  Integer getYCSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ICP#getYCSize <em>YC Size</em>}' attribute.
@@ -113,19 +113,19 @@ public interface ICP extends structuredField
    * @see #getYCSize()
    * @generated
    */
-  void setYCSize(int value);
+  void setYCSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>XFil Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XFil Size</em>' attribute.
-   * @see #setXFilSize(int)
+   * @see #setXFilSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getICP_XFilSize()
    * @model
    * @generated
    */
-  int getXFilSize();
+  Integer getXFilSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ICP#getXFilSize <em>XFil Size</em>}' attribute.
@@ -135,19 +135,19 @@ public interface ICP extends structuredField
    * @see #getXFilSize()
    * @generated
    */
-  void setXFilSize(int value);
+  void setXFilSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>YFil Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YFil Size</em>' attribute.
-   * @see #setYFilSize(int)
+   * @see #setYFilSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getICP_YFilSize()
    * @model
    * @generated
    */
-  int getYFilSize();
+  Integer getYFilSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ICP#getYFilSize <em>YFil Size</em>}' attribute.
@@ -157,6 +157,6 @@ public interface ICP extends structuredField
    * @see #getYFilSize()
    * @generated
    */
-  void setYFilSize(int value);
+  void setYFilSize(Integer value);
 
 } // ICP

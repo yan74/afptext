@@ -34,12 +34,12 @@ public interface TileTOCRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XOFFSET</em>' attribute.
-   * @see #setXOFFSET(int)
+   * @see #setXOFFSET(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileTOCRG_XOFFSET()
    * @model
    * @generated
    */
-  int getXOFFSET();
+  Integer getXOFFSET();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileTOCRG#getXOFFSET <em>XOFFSET</em>}' attribute.
@@ -49,19 +49,19 @@ public interface TileTOCRG extends EObject
    * @see #getXOFFSET()
    * @generated
    */
-  void setXOFFSET(int value);
+  void setXOFFSET(Integer value);
 
   /**
    * Returns the value of the '<em><b>YOFFSET</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YOFFSET</em>' attribute.
-   * @see #setYOFFSET(int)
+   * @see #setYOFFSET(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileTOCRG_YOFFSET()
    * @model
    * @generated
    */
-  int getYOFFSET();
+  Integer getYOFFSET();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileTOCRG#getYOFFSET <em>YOFFSET</em>}' attribute.
@@ -71,19 +71,19 @@ public interface TileTOCRG extends EObject
    * @see #getYOFFSET()
    * @generated
    */
-  void setYOFFSET(int value);
+  void setYOFFSET(Integer value);
 
   /**
    * Returns the value of the '<em><b>THSIZE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>THSIZE</em>' attribute.
-   * @see #setTHSIZE(int)
+   * @see #setTHSIZE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileTOCRG_THSIZE()
    * @model
    * @generated
    */
-  int getTHSIZE();
+  Integer getTHSIZE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileTOCRG#getTHSIZE <em>THSIZE</em>}' attribute.
@@ -93,19 +93,19 @@ public interface TileTOCRG extends EObject
    * @see #getTHSIZE()
    * @generated
    */
-  void setTHSIZE(int value);
+  void setTHSIZE(Integer value);
 
   /**
    * Returns the value of the '<em><b>TVSIZE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>TVSIZE</em>' attribute.
-   * @see #setTVSIZE(int)
+   * @see #setTVSIZE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileTOCRG_TVSIZE()
    * @model
    * @generated
    */
-  int getTVSIZE();
+  Integer getTVSIZE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileTOCRG#getTVSIZE <em>TVSIZE</em>}' attribute.
@@ -115,19 +115,19 @@ public interface TileTOCRG extends EObject
    * @see #getTVSIZE()
    * @generated
    */
-  void setTVSIZE(int value);
+  void setTVSIZE(Integer value);
 
   /**
    * Returns the value of the '<em><b>RELRES</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RELRES</em>' attribute.
-   * @see #setRELRES(int)
+   * @see #setRELRES(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileTOCRG_RELRES()
    * @model
    * @generated
    */
-  int getRELRES();
+  Integer getRELRES();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileTOCRG#getRELRES <em>RELRES</em>}' attribute.
@@ -137,19 +137,19 @@ public interface TileTOCRG extends EObject
    * @see #getRELRES()
    * @generated
    */
-  void setRELRES(int value);
+  void setRELRES(Integer value);
 
   /**
    * Returns the value of the '<em><b>COMPR</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COMPR</em>' attribute.
-   * @see #setCOMPR(int)
+   * @see #setCOMPR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileTOCRG_COMPR()
    * @model
    * @generated
    */
-  int getCOMPR();
+  Integer getCOMPR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileTOCRG#getCOMPR <em>COMPR</em>}' attribute.
@@ -159,19 +159,19 @@ public interface TileTOCRG extends EObject
    * @see #getCOMPR()
    * @generated
    */
-  void setCOMPR(int value);
+  void setCOMPR(Integer value);
 
   /**
    * Returns the value of the '<em><b>DATAPOS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>DATAPOS</em>' attribute.
-   * @see #setDATAPOS(int)
+   * @see #setDATAPOS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileTOCRG_DATAPOS()
    * @model
    * @generated
    */
-  int getDATAPOS();
+  Integer getDATAPOS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileTOCRG#getDATAPOS <em>DATAPOS</em>}' attribute.
@@ -181,6 +181,6 @@ public interface TileTOCRG extends EObject
    * @see #getDATAPOS()
    * @generated
    */
-  void setDATAPOS(int value);
+  void setDATAPOS(Integer value);
 
 } // TileTOCRG

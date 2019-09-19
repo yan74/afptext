@@ -29,12 +29,12 @@ public interface ObjectCount extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Sub Obj</em>' attribute.
-   * @see #setSubObj(int)
+   * @see #setSubObj(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectCount_SubObj()
    * @model
    * @generated
    */
-  int getSubObj();
+  Integer getSubObj();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectCount#getSubObj <em>Sub Obj</em>}' attribute.
@@ -44,19 +44,19 @@ public interface ObjectCount extends triplet
    * @see #getSubObj()
    * @generated
    */
-  void setSubObj(int value);
+  void setSubObj(Integer value);
 
   /**
    * Returns the value of the '<em><b>SObj Num</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SObj Num</em>' attribute.
-   * @see #setSObjNum(int)
+   * @see #setSObjNum(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectCount_SObjNum()
    * @model
    * @generated
    */
-  int getSObjNum();
+  Integer getSObjNum();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectCount#getSObjNum <em>SObj Num</em>}' attribute.
@@ -66,19 +66,19 @@ public interface ObjectCount extends triplet
    * @see #getSObjNum()
    * @generated
    */
-  void setSObjNum(int value);
+  void setSObjNum(Integer value);
 
   /**
    * Returns the value of the '<em><b>Sobj Nm Hi</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Sobj Nm Hi</em>' attribute.
-   * @see #setSobjNmHi(int)
+   * @see #setSobjNmHi(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectCount_SobjNmHi()
    * @model
    * @generated
    */
-  int getSobjNmHi();
+  Integer getSobjNmHi();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectCount#getSobjNmHi <em>Sobj Nm Hi</em>}' attribute.
@@ -88,6 +88,6 @@ public interface ObjectCount extends triplet
    * @see #getSobjNmHi()
    * @generated
    */
-  void setSobjNmHi(int value);
+  void setSobjNmHi(Integer value);
 
 } // ObjectCount

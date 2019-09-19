@@ -78,7 +78,7 @@ public class MSURGImpl extends MinimalEObjectImpl.Container implements MSURG
    * @generated
    * @ordered
    */
-  protected static final int SU_PID_EDEFAULT = 0;
+  protected static final Integer SU_PID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSUPid() <em>SU Pid</em>}' attribute.
@@ -88,7 +88,7 @@ public class MSURGImpl extends MinimalEObjectImpl.Container implements MSURG
    * @generated
    * @ordered
    */
-  protected int suPid = SU_PID_EDEFAULT;
+  protected Integer suPid = SU_PID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -167,7 +167,7 @@ public class MSURGImpl extends MinimalEObjectImpl.Container implements MSURG
    * @generated
    */
   @Override
-  public int getSUPid()
+  public Integer getSUPid()
   {
     return suPid;
   }
@@ -178,9 +178,9 @@ public class MSURGImpl extends MinimalEObjectImpl.Container implements MSURG
    * @generated
    */
   @Override
-  public void setSUPid(int newSUPid)
+  public void setSUPid(Integer newSUPid)
   {
-    int oldSUPid = suPid;
+    Integer oldSUPid = suPid;
     suPid = newSUPid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MSURG__SU_PID, oldSUPid, suPid));
@@ -267,7 +267,7 @@ public class MSURGImpl extends MinimalEObjectImpl.Container implements MSURG
       case AfpTextPackage.MSURG__RESERVED:
         return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.MSURG__SU_PID:
-        return suPid != SU_PID_EDEFAULT;
+        return SU_PID_EDEFAULT == null ? suPid != null : !SU_PID_EDEFAULT.equals(suPid);
     }
     return super.eIsSet(featureID);
   }

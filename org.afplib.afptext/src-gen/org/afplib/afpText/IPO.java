@@ -54,12 +54,12 @@ public interface IPO extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xol Oset</em>' attribute.
-   * @see #setXolOset(int)
+   * @see #setXolOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIPO_XolOset()
    * @model
    * @generated
    */
-  int getXolOset();
+  Integer getXolOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IPO#getXolOset <em>Xol Oset</em>}' attribute.
@@ -69,19 +69,19 @@ public interface IPO extends structuredField
    * @see #getXolOset()
    * @generated
    */
-  void setXolOset(int value);
+  void setXolOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yol Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yol Oset</em>' attribute.
-   * @see #setYolOset(int)
+   * @see #setYolOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIPO_YolOset()
    * @model
    * @generated
    */
-  int getYolOset();
+  Integer getYolOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IPO#getYolOset <em>Yol Oset</em>}' attribute.
@@ -91,19 +91,19 @@ public interface IPO extends structuredField
    * @see #getYolOset()
    * @generated
    */
-  void setYolOset(int value);
+  void setYolOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ovly Orent</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ovly Orent</em>' attribute.
-   * @see #setOvlyOrent(int)
+   * @see #setOvlyOrent(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIPO_OvlyOrent()
    * @model
    * @generated
    */
-  int getOvlyOrent();
+  Integer getOvlyOrent();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IPO#getOvlyOrent <em>Ovly Orent</em>}' attribute.
@@ -113,7 +113,7 @@ public interface IPO extends structuredField
    * @see #getOvlyOrent()
    * @generated
    */
-  void setOvlyOrent(int value);
+  void setOvlyOrent(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

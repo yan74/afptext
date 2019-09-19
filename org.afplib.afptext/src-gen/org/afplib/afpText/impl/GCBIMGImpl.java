@@ -38,7 +38,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    * @ordered
    */
-  protected static final int FORMAT_EDEFAULT = 0;
+  protected static final Integer FORMAT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFORMAT() <em>FORMAT</em>}' attribute.
@@ -48,7 +48,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    * @ordered
    */
-  protected int format = FORMAT_EDEFAULT;
+  protected Integer format = FORMAT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRES() <em>RES</em>}' attribute.
@@ -58,7 +58,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    * @ordered
    */
-  protected static final int RES_EDEFAULT = 0;
+  protected static final Integer RES_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRES() <em>RES</em>}' attribute.
@@ -68,7 +68,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    * @ordered
    */
-  protected int res = RES_EDEFAULT;
+  protected Integer res = RES_EDEFAULT;
 
   /**
    * The default value of the '{@link #getWIDTH() <em>WIDTH</em>}' attribute.
@@ -78,7 +78,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    * @ordered
    */
-  protected static final int WIDTH_EDEFAULT = 0;
+  protected static final Integer WIDTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getWIDTH() <em>WIDTH</em>}' attribute.
@@ -88,7 +88,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    * @ordered
    */
-  protected int width = WIDTH_EDEFAULT;
+  protected Integer width = WIDTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHEIGHT() <em>HEIGHT</em>}' attribute.
@@ -98,7 +98,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    * @ordered
    */
-  protected static final int HEIGHT_EDEFAULT = 0;
+  protected static final Integer HEIGHT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHEIGHT() <em>HEIGHT</em>}' attribute.
@@ -108,7 +108,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    * @ordered
    */
-  protected int height = HEIGHT_EDEFAULT;
+  protected Integer height = HEIGHT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -137,7 +137,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    */
   @Override
-  public int getFORMAT()
+  public Integer getFORMAT()
   {
     return format;
   }
@@ -148,9 +148,9 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    */
   @Override
-  public void setFORMAT(int newFORMAT)
+  public void setFORMAT(Integer newFORMAT)
   {
-    int oldFORMAT = format;
+    Integer oldFORMAT = format;
     format = newFORMAT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCBIMG__FORMAT, oldFORMAT, format));
@@ -162,7 +162,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    */
   @Override
-  public int getRES()
+  public Integer getRES()
   {
     return res;
   }
@@ -173,9 +173,9 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    */
   @Override
-  public void setRES(int newRES)
+  public void setRES(Integer newRES)
   {
-    int oldRES = res;
+    Integer oldRES = res;
     res = newRES;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCBIMG__RES, oldRES, res));
@@ -187,7 +187,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    */
   @Override
-  public int getWIDTH()
+  public Integer getWIDTH()
   {
     return width;
   }
@@ -198,9 +198,9 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    */
   @Override
-  public void setWIDTH(int newWIDTH)
+  public void setWIDTH(Integer newWIDTH)
   {
-    int oldWIDTH = width;
+    Integer oldWIDTH = width;
     width = newWIDTH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCBIMG__WIDTH, oldWIDTH, width));
@@ -212,7 +212,7 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    */
   @Override
-  public int getHEIGHT()
+  public Integer getHEIGHT()
   {
     return height;
   }
@@ -223,9 +223,9 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
    * @generated
    */
   @Override
-  public void setHEIGHT(int newHEIGHT)
+  public void setHEIGHT(Integer newHEIGHT)
   {
-    int oldHEIGHT = height;
+    Integer oldHEIGHT = height;
     height = newHEIGHT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCBIMG__HEIGHT, oldHEIGHT, height));
@@ -316,13 +316,13 @@ public class GCBIMGImpl extends tripletImpl implements GCBIMG
     switch (featureID)
     {
       case AfpTextPackage.GCBIMG__FORMAT:
-        return format != FORMAT_EDEFAULT;
+        return FORMAT_EDEFAULT == null ? format != null : !FORMAT_EDEFAULT.equals(format);
       case AfpTextPackage.GCBIMG__RES:
-        return res != RES_EDEFAULT;
+        return RES_EDEFAULT == null ? res != null : !RES_EDEFAULT.equals(res);
       case AfpTextPackage.GCBIMG__WIDTH:
-        return width != WIDTH_EDEFAULT;
+        return WIDTH_EDEFAULT == null ? width != null : !WIDTH_EDEFAULT.equals(width);
       case AfpTextPackage.GCBIMG__HEIGHT:
-        return height != HEIGHT_EDEFAULT;
+        return HEIGHT_EDEFAULT == null ? height != null : !HEIGHT_EDEFAULT.equals(height);
     }
     return super.eIsSet(featureID);
   }

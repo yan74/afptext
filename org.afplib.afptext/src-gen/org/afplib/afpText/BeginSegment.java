@@ -27,12 +27,12 @@ public interface BeginSegment extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SEGNAME</em>' attribute.
-   * @see #setSEGNAME(int)
+   * @see #setSEGNAME(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBeginSegment_SEGNAME()
    * @model
    * @generated
    */
-  int getSEGNAME();
+  Integer getSEGNAME();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BeginSegment#getSEGNAME <em>SEGNAME</em>}' attribute.
@@ -42,6 +42,6 @@ public interface BeginSegment extends triplet
    * @see #getSEGNAME()
    * @generated
    */
-  void setSEGNAME(int value);
+  void setSEGNAME(Integer value);
 
 } // BeginSegment

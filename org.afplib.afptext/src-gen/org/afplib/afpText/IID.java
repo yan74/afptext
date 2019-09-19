@@ -60,12 +60,12 @@ public interface IID extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XBase</em>' attribute.
-   * @see #setXBase(int)
+   * @see #setXBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIID_XBase()
    * @model
    * @generated
    */
-  int getXBase();
+  Integer getXBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IID#getXBase <em>XBase</em>}' attribute.
@@ -75,19 +75,19 @@ public interface IID extends structuredField
    * @see #getXBase()
    * @generated
    */
-  void setXBase(int value);
+  void setXBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>YBase</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YBase</em>' attribute.
-   * @see #setYBase(int)
+   * @see #setYBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIID_YBase()
    * @model
    * @generated
    */
-  int getYBase();
+  Integer getYBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IID#getYBase <em>YBase</em>}' attribute.
@@ -97,19 +97,19 @@ public interface IID extends structuredField
    * @see #getYBase()
    * @generated
    */
-  void setYBase(int value);
+  void setYBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>XUnits</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XUnits</em>' attribute.
-   * @see #setXUnits(int)
+   * @see #setXUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIID_XUnits()
    * @model
    * @generated
    */
-  int getXUnits();
+  Integer getXUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IID#getXUnits <em>XUnits</em>}' attribute.
@@ -119,19 +119,19 @@ public interface IID extends structuredField
    * @see #getXUnits()
    * @generated
    */
-  void setXUnits(int value);
+  void setXUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>YUnits</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YUnits</em>' attribute.
-   * @see #setYUnits(int)
+   * @see #setYUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIID_YUnits()
    * @model
    * @generated
    */
-  int getYUnits();
+  Integer getYUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IID#getYUnits <em>YUnits</em>}' attribute.
@@ -141,19 +141,19 @@ public interface IID extends structuredField
    * @see #getYUnits()
    * @generated
    */
-  void setYUnits(int value);
+  void setYUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>XSize</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XSize</em>' attribute.
-   * @see #setXSize(int)
+   * @see #setXSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIID_XSize()
    * @model
    * @generated
    */
-  int getXSize();
+  Integer getXSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IID#getXSize <em>XSize</em>}' attribute.
@@ -163,19 +163,19 @@ public interface IID extends structuredField
    * @see #getXSize()
    * @generated
    */
-  void setXSize(int value);
+  void setXSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>YSize</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YSize</em>' attribute.
-   * @see #setYSize(int)
+   * @see #setYSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIID_YSize()
    * @model
    * @generated
    */
-  int getYSize();
+  Integer getYSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IID#getYSize <em>YSize</em>}' attribute.
@@ -185,7 +185,7 @@ public interface IID extends structuredField
    * @see #getYSize()
    * @generated
    */
-  void setYSize(int value);
+  void setYSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Con Data2</b></em>' attribute.
@@ -214,12 +214,12 @@ public interface IID extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XC Size D</em>' attribute.
-   * @see #setXCSizeD(int)
+   * @see #setXCSizeD(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIID_XCSizeD()
    * @model
    * @generated
    */
-  int getXCSizeD();
+  Integer getXCSizeD();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IID#getXCSizeD <em>XC Size D</em>}' attribute.
@@ -229,19 +229,19 @@ public interface IID extends structuredField
    * @see #getXCSizeD()
    * @generated
    */
-  void setXCSizeD(int value);
+  void setXCSizeD(Integer value);
 
   /**
    * Returns the value of the '<em><b>YC Size D</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YC Size D</em>' attribute.
-   * @see #setYCSizeD(int)
+   * @see #setYCSizeD(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIID_YCSizeD()
    * @model
    * @generated
    */
-  int getYCSizeD();
+  Integer getYCSizeD();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IID#getYCSizeD <em>YC Size D</em>}' attribute.
@@ -251,7 +251,7 @@ public interface IID extends structuredField
    * @see #getYCSizeD()
    * @generated
    */
-  void setYCSizeD(int value);
+  void setYCSizeD(Integer value);
 
   /**
    * Returns the value of the '<em><b>Con Data3</b></em>' attribute.
@@ -280,12 +280,12 @@ public interface IID extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Color</em>' attribute.
-   * @see #setColor(int)
+   * @see #setColor(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIID_Color()
    * @model
    * @generated
    */
-  int getColor();
+  Integer getColor();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IID#getColor <em>Color</em>}' attribute.
@@ -295,6 +295,6 @@ public interface IID extends structuredField
    * @see #getColor()
    * @generated
    */
-  void setColor(int value);
+  void setColor(Integer value);
 
 } // IID

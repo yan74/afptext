@@ -35,7 +35,7 @@ public class GSMTImpl extends tripletImpl implements GSMT
    * @generated
    * @ordered
    */
-  protected static final int MCPT_EDEFAULT = 0;
+  protected static final Integer MCPT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMCPT() <em>MCPT</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSMTImpl extends tripletImpl implements GSMT
    * @generated
    * @ordered
    */
-  protected int mcpt = MCPT_EDEFAULT;
+  protected Integer mcpt = MCPT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSMTImpl extends tripletImpl implements GSMT
    * @generated
    */
   @Override
-  public int getMCPT()
+  public Integer getMCPT()
   {
     return mcpt;
   }
@@ -85,9 +85,9 @@ public class GSMTImpl extends tripletImpl implements GSMT
    * @generated
    */
   @Override
-  public void setMCPT(int newMCPT)
+  public void setMCPT(Integer newMCPT)
   {
-    int oldMCPT = mcpt;
+    Integer oldMCPT = mcpt;
     mcpt = newMCPT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSMT__MCPT, oldMCPT, mcpt));
@@ -154,7 +154,7 @@ public class GSMTImpl extends tripletImpl implements GSMT
     switch (featureID)
     {
       case AfpTextPackage.GSMT__MCPT:
-        return mcpt != MCPT_EDEFAULT;
+        return MCPT_EDEFAULT == null ? mcpt != null : !MCPT_EDEFAULT.equals(mcpt);
     }
     return super.eIsSet(featureID);
   }

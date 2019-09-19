@@ -35,7 +35,7 @@ public class GSLJImpl extends tripletImpl implements GSLJ
    * @generated
    * @ordered
    */
-  protected static final int LINEJOIN_EDEFAULT = 0;
+  protected static final Integer LINEJOIN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLINEJOIN() <em>LINEJOIN</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSLJImpl extends tripletImpl implements GSLJ
    * @generated
    * @ordered
    */
-  protected int linejoin = LINEJOIN_EDEFAULT;
+  protected Integer linejoin = LINEJOIN_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSLJImpl extends tripletImpl implements GSLJ
    * @generated
    */
   @Override
-  public int getLINEJOIN()
+  public Integer getLINEJOIN()
   {
     return linejoin;
   }
@@ -85,9 +85,9 @@ public class GSLJImpl extends tripletImpl implements GSLJ
    * @generated
    */
   @Override
-  public void setLINEJOIN(int newLINEJOIN)
+  public void setLINEJOIN(Integer newLINEJOIN)
   {
-    int oldLINEJOIN = linejoin;
+    Integer oldLINEJOIN = linejoin;
     linejoin = newLINEJOIN;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSLJ__LINEJOIN, oldLINEJOIN, linejoin));
@@ -154,7 +154,7 @@ public class GSLJImpl extends tripletImpl implements GSLJ
     switch (featureID)
     {
       case AfpTextPackage.GSLJ__LINEJOIN:
-        return linejoin != LINEJOIN_EDEFAULT;
+        return LINEJOIN_EDEFAULT == null ? linejoin != null : !LINEJOIN_EDEFAULT.equals(linejoin);
     }
     return super.eIsSet(featureID);
   }

@@ -38,12 +38,12 @@ public interface FNPRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved</em>' attribute.
-   * @see #setReserved(int)
+   * @see #setReserved(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_Reserved()
    * @model
    * @generated
    */
-  int getReserved();
+  Integer getReserved();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getReserved <em>Reserved</em>}' attribute.
@@ -53,19 +53,19 @@ public interface FNPRG extends EObject
    * @see #getReserved()
    * @generated
    */
-  void setReserved(int value);
+  void setReserved(Integer value);
 
   /**
    * Returns the value of the '<em><b>Lc Height</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Lc Height</em>' attribute.
-   * @see #setLcHeight(int)
+   * @see #setLcHeight(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_LcHeight()
    * @model
    * @generated
    */
-  int getLcHeight();
+  Integer getLcHeight();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getLcHeight <em>Lc Height</em>}' attribute.
@@ -75,19 +75,19 @@ public interface FNPRG extends EObject
    * @see #getLcHeight()
    * @generated
    */
-  void setLcHeight(int value);
+  void setLcHeight(Integer value);
 
   /**
    * Returns the value of the '<em><b>Cap MHt</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Cap MHt</em>' attribute.
-   * @see #setCapMHt(int)
+   * @see #setCapMHt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_CapMHt()
    * @model
    * @generated
    */
-  int getCapMHt();
+  Integer getCapMHt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getCapMHt <em>Cap MHt</em>}' attribute.
@@ -97,19 +97,19 @@ public interface FNPRG extends EObject
    * @see #getCapMHt()
    * @generated
    */
-  void setCapMHt(int value);
+  void setCapMHt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Max Asc Ht</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Max Asc Ht</em>' attribute.
-   * @see #setMaxAscHt(int)
+   * @see #setMaxAscHt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_MaxAscHt()
    * @model
    * @generated
    */
-  int getMaxAscHt();
+  Integer getMaxAscHt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getMaxAscHt <em>Max Asc Ht</em>}' attribute.
@@ -119,19 +119,19 @@ public interface FNPRG extends EObject
    * @see #getMaxAscHt()
    * @generated
    */
-  void setMaxAscHt(int value);
+  void setMaxAscHt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Max Des Dp</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Max Des Dp</em>' attribute.
-   * @see #setMaxDesDp(int)
+   * @see #setMaxDesDp(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_MaxDesDp()
    * @model
    * @generated
    */
-  int getMaxDesDp();
+  Integer getMaxDesDp();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getMaxDesDp <em>Max Des Dp</em>}' attribute.
@@ -141,7 +141,7 @@ public interface FNPRG extends EObject
    * @see #getMaxDesDp()
    * @generated
    */
-  void setMaxDesDp(int value);
+  void setMaxDesDp(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved2</b></em>' attribute.
@@ -170,12 +170,12 @@ public interface FNPRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Retired</em>' attribute.
-   * @see #setRetired(int)
+   * @see #setRetired(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_Retired()
    * @model
    * @generated
    */
-  int getRetired();
+  Integer getRetired();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getRetired <em>Retired</em>}' attribute.
@@ -185,19 +185,19 @@ public interface FNPRG extends EObject
    * @see #getRetired()
    * @generated
    */
-  void setRetired(int value);
+  void setRetired(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved3</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved3</em>' attribute.
-   * @see #setReserved3(int)
+   * @see #setReserved3(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_Reserved3()
    * @model
    * @generated
    */
-  int getReserved3();
+  Integer getReserved3();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getReserved3 <em>Reserved3</em>}' attribute.
@@ -207,19 +207,19 @@ public interface FNPRG extends EObject
    * @see #getReserved3()
    * @generated
    */
-  void setReserved3(int value);
+  void setReserved3(Integer value);
 
   /**
    * Returns the value of the '<em><b>Uscore Wd</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Uscore Wd</em>' attribute.
-   * @see #setUscoreWd(int)
+   * @see #setUscoreWd(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_UscoreWd()
    * @model
    * @generated
    */
-  int getUscoreWd();
+  Integer getUscoreWd();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getUscoreWd <em>Uscore Wd</em>}' attribute.
@@ -229,19 +229,19 @@ public interface FNPRG extends EObject
    * @see #getUscoreWd()
    * @generated
    */
-  void setUscoreWd(int value);
+  void setUscoreWd(Integer value);
 
   /**
    * Returns the value of the '<em><b>Uscore Wdf</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Uscore Wdf</em>' attribute.
-   * @see #setUscoreWdf(int)
+   * @see #setUscoreWdf(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_UscoreWdf()
    * @model
    * @generated
    */
-  int getUscoreWdf();
+  Integer getUscoreWdf();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getUscoreWdf <em>Uscore Wdf</em>}' attribute.
@@ -251,19 +251,19 @@ public interface FNPRG extends EObject
    * @see #getUscoreWdf()
    * @generated
    */
-  void setUscoreWdf(int value);
+  void setUscoreWdf(Integer value);
 
   /**
    * Returns the value of the '<em><b>Uscore Pos</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Uscore Pos</em>' attribute.
-   * @see #setUscorePos(int)
+   * @see #setUscorePos(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNPRG_UscorePos()
    * @model
    * @generated
    */
-  int getUscorePos();
+  Integer getUscorePos();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNPRG#getUscorePos <em>Uscore Pos</em>}' attribute.
@@ -273,6 +273,6 @@ public interface FNPRG extends EObject
    * @see #getUscorePos()
    * @generated
    */
-  void setUscorePos(int value);
+  void setUscorePos(Integer value);
 
 } // FNPRG

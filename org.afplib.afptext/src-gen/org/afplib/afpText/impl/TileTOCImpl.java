@@ -46,7 +46,7 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -56,7 +56,7 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
@@ -95,7 +95,7 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -106,9 +106,9 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_TOC__RESERVED, oldReserved, reserved));
@@ -216,7 +216,7 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
     switch (featureID)
     {
       case AfpTextPackage.TILE_TOC__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.TILE_TOC__RG:
         return rg != null && !rg.isEmpty();
     }

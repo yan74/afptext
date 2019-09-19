@@ -37,7 +37,7 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    * @ordered
    */
-  protected static final int SIZE_TYPE_EDEFAULT = 0;
+  protected static final Integer SIZE_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSizeType() <em>Size Type</em>}' attribute.
@@ -47,7 +47,7 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    * @ordered
    */
-  protected int sizeType = SIZE_TYPE_EDEFAULT;
+  protected Integer sizeType = SIZE_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXoaSize() <em>Xoa Size</em>}' attribute.
@@ -57,7 +57,7 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    * @ordered
    */
-  protected static final int XOA_SIZE_EDEFAULT = 0;
+  protected static final Integer XOA_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXoaSize() <em>Xoa Size</em>}' attribute.
@@ -67,7 +67,7 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    * @ordered
    */
-  protected int xoaSize = XOA_SIZE_EDEFAULT;
+  protected Integer xoaSize = XOA_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYoaSize() <em>Yoa Size</em>}' attribute.
@@ -77,7 +77,7 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    * @ordered
    */
-  protected static final int YOA_SIZE_EDEFAULT = 0;
+  protected static final Integer YOA_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYoaSize() <em>Yoa Size</em>}' attribute.
@@ -87,7 +87,7 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    * @ordered
    */
-  protected int yoaSize = YOA_SIZE_EDEFAULT;
+  protected Integer yoaSize = YOA_SIZE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    */
   @Override
-  public int getSizeType()
+  public Integer getSizeType()
   {
     return sizeType;
   }
@@ -127,9 +127,9 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    */
   @Override
-  public void setSizeType(int newSizeType)
+  public void setSizeType(Integer newSizeType)
   {
-    int oldSizeType = sizeType;
+    Integer oldSizeType = sizeType;
     sizeType = newSizeType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_AREA_SIZE__SIZE_TYPE, oldSizeType, sizeType));
@@ -141,7 +141,7 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    */
   @Override
-  public int getXoaSize()
+  public Integer getXoaSize()
   {
     return xoaSize;
   }
@@ -152,9 +152,9 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    */
   @Override
-  public void setXoaSize(int newXoaSize)
+  public void setXoaSize(Integer newXoaSize)
   {
-    int oldXoaSize = xoaSize;
+    Integer oldXoaSize = xoaSize;
     xoaSize = newXoaSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_AREA_SIZE__XOA_SIZE, oldXoaSize, xoaSize));
@@ -166,7 +166,7 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    */
   @Override
-  public int getYoaSize()
+  public Integer getYoaSize()
   {
     return yoaSize;
   }
@@ -177,9 +177,9 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
    * @generated
    */
   @Override
-  public void setYoaSize(int newYoaSize)
+  public void setYoaSize(Integer newYoaSize)
   {
-    int oldYoaSize = yoaSize;
+    Integer oldYoaSize = yoaSize;
     yoaSize = newYoaSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_AREA_SIZE__YOA_SIZE, oldYoaSize, yoaSize));
@@ -262,11 +262,11 @@ public class ObjectAreaSizeImpl extends tripletImpl implements ObjectAreaSize
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_AREA_SIZE__SIZE_TYPE:
-        return sizeType != SIZE_TYPE_EDEFAULT;
+        return SIZE_TYPE_EDEFAULT == null ? sizeType != null : !SIZE_TYPE_EDEFAULT.equals(sizeType);
       case AfpTextPackage.OBJECT_AREA_SIZE__XOA_SIZE:
-        return xoaSize != XOA_SIZE_EDEFAULT;
+        return XOA_SIZE_EDEFAULT == null ? xoaSize != null : !XOA_SIZE_EDEFAULT.equals(xoaSize);
       case AfpTextPackage.OBJECT_AREA_SIZE__YOA_SIZE:
-        return yoaSize != YOA_SIZE_EDEFAULT;
+        return YOA_SIZE_EDEFAULT == null ? yoaSize != null : !YOA_SIZE_EDEFAULT.equals(yoaSize);
     }
     return super.eIsSet(featureID);
   }

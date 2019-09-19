@@ -29,12 +29,12 @@ public interface ImageEncoding extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COMPRID</em>' attribute.
-   * @see #setCOMPRID(int)
+   * @see #setCOMPRID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageEncoding_COMPRID()
    * @model
    * @generated
    */
-  int getCOMPRID();
+  Integer getCOMPRID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageEncoding#getCOMPRID <em>COMPRID</em>}' attribute.
@@ -44,19 +44,19 @@ public interface ImageEncoding extends triplet
    * @see #getCOMPRID()
    * @generated
    */
-  void setCOMPRID(int value);
+  void setCOMPRID(Integer value);
 
   /**
    * Returns the value of the '<em><b>RECID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RECID</em>' attribute.
-   * @see #setRECID(int)
+   * @see #setRECID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageEncoding_RECID()
    * @model
    * @generated
    */
-  int getRECID();
+  Integer getRECID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageEncoding#getRECID <em>RECID</em>}' attribute.
@@ -66,19 +66,19 @@ public interface ImageEncoding extends triplet
    * @see #getRECID()
    * @generated
    */
-  void setRECID(int value);
+  void setRECID(Integer value);
 
   /**
    * Returns the value of the '<em><b>BITORDR</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BITORDR</em>' attribute.
-   * @see #setBITORDR(int)
+   * @see #setBITORDR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageEncoding_BITORDR()
    * @model
    * @generated
    */
-  int getBITORDR();
+  Integer getBITORDR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageEncoding#getBITORDR <em>BITORDR</em>}' attribute.
@@ -88,6 +88,6 @@ public interface ImageEncoding extends triplet
    * @see #getBITORDR()
    * @generated
    */
-  void setBITORDR(int value);
+  void setBITORDR(Integer value);
 
 } // ImageEncoding

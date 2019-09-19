@@ -36,7 +36,7 @@ public class IOCAFunctionSetIdentificationImpl extends tripletImpl implements IO
    * @generated
    * @ordered
    */
-  protected static final int CATEGORY_EDEFAULT = 0;
+  protected static final Integer CATEGORY_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCATEGORY() <em>CATEGORY</em>}' attribute.
@@ -46,7 +46,7 @@ public class IOCAFunctionSetIdentificationImpl extends tripletImpl implements IO
    * @generated
    * @ordered
    */
-  protected int category = CATEGORY_EDEFAULT;
+  protected Integer category = CATEGORY_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFCNSET() <em>FCNSET</em>}' attribute.
@@ -56,7 +56,7 @@ public class IOCAFunctionSetIdentificationImpl extends tripletImpl implements IO
    * @generated
    * @ordered
    */
-  protected static final int FCNSET_EDEFAULT = 0;
+  protected static final Integer FCNSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFCNSET() <em>FCNSET</em>}' attribute.
@@ -66,7 +66,7 @@ public class IOCAFunctionSetIdentificationImpl extends tripletImpl implements IO
    * @generated
    * @ordered
    */
-  protected int fcnset = FCNSET_EDEFAULT;
+  protected Integer fcnset = FCNSET_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class IOCAFunctionSetIdentificationImpl extends tripletImpl implements IO
    * @generated
    */
   @Override
-  public int getCATEGORY()
+  public Integer getCATEGORY()
   {
     return category;
   }
@@ -106,9 +106,9 @@ public class IOCAFunctionSetIdentificationImpl extends tripletImpl implements IO
    * @generated
    */
   @Override
-  public void setCATEGORY(int newCATEGORY)
+  public void setCATEGORY(Integer newCATEGORY)
   {
-    int oldCATEGORY = category;
+    Integer oldCATEGORY = category;
     category = newCATEGORY;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOCA_FUNCTION_SET_IDENTIFICATION__CATEGORY, oldCATEGORY, category));
@@ -120,7 +120,7 @@ public class IOCAFunctionSetIdentificationImpl extends tripletImpl implements IO
    * @generated
    */
   @Override
-  public int getFCNSET()
+  public Integer getFCNSET()
   {
     return fcnset;
   }
@@ -131,9 +131,9 @@ public class IOCAFunctionSetIdentificationImpl extends tripletImpl implements IO
    * @generated
    */
   @Override
-  public void setFCNSET(int newFCNSET)
+  public void setFCNSET(Integer newFCNSET)
   {
-    int oldFCNSET = fcnset;
+    Integer oldFCNSET = fcnset;
     fcnset = newFCNSET;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOCA_FUNCTION_SET_IDENTIFICATION__FCNSET, oldFCNSET, fcnset));
@@ -208,9 +208,9 @@ public class IOCAFunctionSetIdentificationImpl extends tripletImpl implements IO
     switch (featureID)
     {
       case AfpTextPackage.IOCA_FUNCTION_SET_IDENTIFICATION__CATEGORY:
-        return category != CATEGORY_EDEFAULT;
+        return CATEGORY_EDEFAULT == null ? category != null : !CATEGORY_EDEFAULT.equals(category);
       case AfpTextPackage.IOCA_FUNCTION_SET_IDENTIFICATION__FCNSET:
-        return fcnset != FCNSET_EDEFAULT;
+        return FCNSET_EDEFAULT == null ? fcnset != null : !FCNSET_EDEFAULT.equals(fcnset);
     }
     return super.eIsSet(featureID);
   }

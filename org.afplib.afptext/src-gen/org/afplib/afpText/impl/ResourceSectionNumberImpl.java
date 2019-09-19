@@ -35,7 +35,7 @@ public class ResourceSectionNumberImpl extends tripletImpl implements ResourceSe
    * @generated
    * @ordered
    */
-  protected static final int RES_SNUM_EDEFAULT = 0;
+  protected static final Integer RES_SNUM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getResSNum() <em>Res SNum</em>}' attribute.
@@ -45,7 +45,7 @@ public class ResourceSectionNumberImpl extends tripletImpl implements ResourceSe
    * @generated
    * @ordered
    */
-  protected int resSNum = RES_SNUM_EDEFAULT;
+  protected Integer resSNum = RES_SNUM_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class ResourceSectionNumberImpl extends tripletImpl implements ResourceSe
    * @generated
    */
   @Override
-  public int getResSNum()
+  public Integer getResSNum()
   {
     return resSNum;
   }
@@ -85,9 +85,9 @@ public class ResourceSectionNumberImpl extends tripletImpl implements ResourceSe
    * @generated
    */
   @Override
-  public void setResSNum(int newResSNum)
+  public void setResSNum(Integer newResSNum)
   {
-    int oldResSNum = resSNum;
+    Integer oldResSNum = resSNum;
     resSNum = newResSNum;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RESOURCE_SECTION_NUMBER__RES_SNUM, oldResSNum, resSNum));
@@ -154,7 +154,7 @@ public class ResourceSectionNumberImpl extends tripletImpl implements ResourceSe
     switch (featureID)
     {
       case AfpTextPackage.RESOURCE_SECTION_NUMBER__RES_SNUM:
-        return resSNum != RES_SNUM_EDEFAULT;
+        return RES_SNUM_EDEFAULT == null ? resSNum != null : !RES_SNUM_EDEFAULT.equals(resSNum);
     }
     return super.eIsSet(featureID);
   }

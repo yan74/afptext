@@ -28,12 +28,12 @@ public interface MediaEjectControl extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved</em>' attribute.
-   * @see #setReserved(int)
+   * @see #setReserved(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMediaEjectControl_Reserved()
    * @model
    * @generated
    */
-  int getReserved();
+  Integer getReserved();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MediaEjectControl#getReserved <em>Reserved</em>}' attribute.
@@ -43,19 +43,19 @@ public interface MediaEjectControl extends triplet
    * @see #getReserved()
    * @generated
    */
-  void setReserved(int value);
+  void setReserved(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ej Ctrl</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ej Ctrl</em>' attribute.
-   * @see #setEjCtrl(int)
+   * @see #setEjCtrl(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMediaEjectControl_EjCtrl()
    * @model
    * @generated
    */
-  int getEjCtrl();
+  Integer getEjCtrl();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MediaEjectControl#getEjCtrl <em>Ej Ctrl</em>}' attribute.
@@ -65,6 +65,6 @@ public interface MediaEjectControl extends triplet
    * @see #getEjCtrl()
    * @generated
    */
-  void setEjCtrl(int value);
+  void setEjCtrl(Integer value);
 
 } // MediaEjectControl

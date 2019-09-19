@@ -51,7 +51,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected static final int RG_LENGTH_EDEFAULT = 0;
+  protected static final Integer RG_LENGTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRGLength() <em>RG Length</em>}' attribute.
@@ -61,7 +61,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected int rgLength = RG_LENGTH_EDEFAULT;
+  protected Integer rgLength = RG_LENGTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getObjType() <em>Obj Type</em>}' attribute.
@@ -71,7 +71,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected static final int OBJ_TYPE_EDEFAULT = 0;
+  protected static final Integer OBJ_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObjType() <em>Obj Type</em>}' attribute.
@@ -81,7 +81,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected int objType = OBJ_TYPE_EDEFAULT;
+  protected Integer objType = OBJ_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getProcFlgs() <em>Proc Flgs</em>}' attribute.
@@ -91,7 +91,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected static final int PROC_FLGS_EDEFAULT = 0;
+  protected static final Integer PROC_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getProcFlgs() <em>Proc Flgs</em>}' attribute.
@@ -101,7 +101,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected int procFlgs = PROC_FLGS_EDEFAULT;
+  protected Integer procFlgs = PROC_FLGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXocaOset() <em>Xoca Oset</em>}' attribute.
@@ -111,7 +111,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected static final int XOCA_OSET_EDEFAULT = 0;
+  protected static final Integer XOCA_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXocaOset() <em>Xoca Oset</em>}' attribute.
@@ -121,7 +121,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected int xocaOset = XOCA_OSET_EDEFAULT;
+  protected Integer xocaOset = XOCA_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYocaOset() <em>Yoca Oset</em>}' attribute.
@@ -131,7 +131,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected static final int YOCA_OSET_EDEFAULT = 0;
+  protected static final Integer YOCA_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYocaOset() <em>Yoca Oset</em>}' attribute.
@@ -141,7 +141,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    * @ordered
    */
-  protected int yocaOset = YOCA_OSET_EDEFAULT;
+  protected Integer yocaOset = YOCA_OSET_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -180,7 +180,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public int getRGLength()
+  public Integer getRGLength()
   {
     return rgLength;
   }
@@ -191,9 +191,9 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public void setRGLength(int newRGLength)
+  public void setRGLength(Integer newRGLength)
   {
-    int oldRGLength = rgLength;
+    Integer oldRGLength = rgLength;
     rgLength = newRGLength;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PPORG__RG_LENGTH, oldRGLength, rgLength));
@@ -205,7 +205,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public int getObjType()
+  public Integer getObjType()
   {
     return objType;
   }
@@ -216,9 +216,9 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public void setObjType(int newObjType)
+  public void setObjType(Integer newObjType)
   {
-    int oldObjType = objType;
+    Integer oldObjType = objType;
     objType = newObjType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PPORG__OBJ_TYPE, oldObjType, objType));
@@ -230,7 +230,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public int getProcFlgs()
+  public Integer getProcFlgs()
   {
     return procFlgs;
   }
@@ -241,9 +241,9 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public void setProcFlgs(int newProcFlgs)
+  public void setProcFlgs(Integer newProcFlgs)
   {
-    int oldProcFlgs = procFlgs;
+    Integer oldProcFlgs = procFlgs;
     procFlgs = newProcFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PPORG__PROC_FLGS, oldProcFlgs, procFlgs));
@@ -255,7 +255,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public int getXocaOset()
+  public Integer getXocaOset()
   {
     return xocaOset;
   }
@@ -266,9 +266,9 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public void setXocaOset(int newXocaOset)
+  public void setXocaOset(Integer newXocaOset)
   {
-    int oldXocaOset = xocaOset;
+    Integer oldXocaOset = xocaOset;
     xocaOset = newXocaOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PPORG__XOCA_OSET, oldXocaOset, xocaOset));
@@ -280,7 +280,7 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public int getYocaOset()
+  public Integer getYocaOset()
   {
     return yocaOset;
   }
@@ -291,9 +291,9 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
    * @generated
    */
   @Override
-  public void setYocaOset(int newYocaOset)
+  public void setYocaOset(Integer newYocaOset)
   {
-    int oldYocaOset = yocaOset;
+    Integer oldYocaOset = yocaOset;
     yocaOset = newYocaOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PPORG__YOCA_OSET, oldYocaOset, yocaOset));
@@ -433,15 +433,15 @@ public class PPORGImpl extends MinimalEObjectImpl.Container implements PPORG
     switch (featureID)
     {
       case AfpTextPackage.PPORG__RG_LENGTH:
-        return rgLength != RG_LENGTH_EDEFAULT;
+        return RG_LENGTH_EDEFAULT == null ? rgLength != null : !RG_LENGTH_EDEFAULT.equals(rgLength);
       case AfpTextPackage.PPORG__OBJ_TYPE:
-        return objType != OBJ_TYPE_EDEFAULT;
+        return OBJ_TYPE_EDEFAULT == null ? objType != null : !OBJ_TYPE_EDEFAULT.equals(objType);
       case AfpTextPackage.PPORG__PROC_FLGS:
-        return procFlgs != PROC_FLGS_EDEFAULT;
+        return PROC_FLGS_EDEFAULT == null ? procFlgs != null : !PROC_FLGS_EDEFAULT.equals(procFlgs);
       case AfpTextPackage.PPORG__XOCA_OSET:
-        return xocaOset != XOCA_OSET_EDEFAULT;
+        return XOCA_OSET_EDEFAULT == null ? xocaOset != null : !XOCA_OSET_EDEFAULT.equals(xocaOset);
       case AfpTextPackage.PPORG__YOCA_OSET:
-        return yocaOset != YOCA_OSET_EDEFAULT;
+        return YOCA_OSET_EDEFAULT == null ? yocaOset != null : !YOCA_OSET_EDEFAULT.equals(yocaOset);
       case AfpTextPackage.PPORG__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

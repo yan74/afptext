@@ -66,7 +66,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected static final int XBASE_EDEFAULT = 0;
+  protected static final Integer XBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXBase() <em>XBase</em>}' attribute.
@@ -76,7 +76,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected int xBase = XBASE_EDEFAULT;
+  protected Integer xBase = XBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYBase() <em>YBase</em>}' attribute.
@@ -86,7 +86,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected static final int YBASE_EDEFAULT = 0;
+  protected static final Integer YBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYBase() <em>YBase</em>}' attribute.
@@ -96,7 +96,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected int yBase = YBASE_EDEFAULT;
+  protected Integer yBase = YBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXUnits() <em>XUnits</em>}' attribute.
@@ -106,7 +106,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected static final int XUNITS_EDEFAULT = 0;
+  protected static final Integer XUNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXUnits() <em>XUnits</em>}' attribute.
@@ -116,7 +116,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected int xUnits = XUNITS_EDEFAULT;
+  protected Integer xUnits = XUNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYUnits() <em>YUnits</em>}' attribute.
@@ -126,7 +126,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected static final int YUNITS_EDEFAULT = 0;
+  protected static final Integer YUNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYUnits() <em>YUnits</em>}' attribute.
@@ -136,7 +136,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected int yUnits = YUNITS_EDEFAULT;
+  protected Integer yUnits = YUNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXSize() <em>XSize</em>}' attribute.
@@ -146,7 +146,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected static final int XSIZE_EDEFAULT = 0;
+  protected static final Integer XSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXSize() <em>XSize</em>}' attribute.
@@ -156,7 +156,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected int xSize = XSIZE_EDEFAULT;
+  protected Integer xSize = XSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYSize() <em>YSize</em>}' attribute.
@@ -166,7 +166,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected static final int YSIZE_EDEFAULT = 0;
+  protected static final Integer YSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYSize() <em>YSize</em>}' attribute.
@@ -176,7 +176,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected int ySize = YSIZE_EDEFAULT;
+  protected Integer ySize = YSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getConData2() <em>Con Data2</em>}' attribute.
@@ -206,7 +206,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected static final int XC_SIZE_D_EDEFAULT = 0;
+  protected static final Integer XC_SIZE_D_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXCSizeD() <em>XC Size D</em>}' attribute.
@@ -216,7 +216,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected int xcSizeD = XC_SIZE_D_EDEFAULT;
+  protected Integer xcSizeD = XC_SIZE_D_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYCSizeD() <em>YC Size D</em>}' attribute.
@@ -226,7 +226,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected static final int YC_SIZE_D_EDEFAULT = 0;
+  protected static final Integer YC_SIZE_D_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYCSizeD() <em>YC Size D</em>}' attribute.
@@ -236,7 +236,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected int ycSizeD = YC_SIZE_D_EDEFAULT;
+  protected Integer ycSizeD = YC_SIZE_D_EDEFAULT;
 
   /**
    * The default value of the '{@link #getConData3() <em>Con Data3</em>}' attribute.
@@ -266,7 +266,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected static final int COLOR_EDEFAULT = 0;
+  protected static final Integer COLOR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getColor() <em>Color</em>}' attribute.
@@ -276,7 +276,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    * @ordered
    */
-  protected int color = COLOR_EDEFAULT;
+  protected Integer color = COLOR_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -330,7 +330,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public int getXBase()
+  public Integer getXBase()
   {
     return xBase;
   }
@@ -341,9 +341,9 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public void setXBase(int newXBase)
+  public void setXBase(Integer newXBase)
   {
-    int oldXBase = xBase;
+    Integer oldXBase = xBase;
     xBase = newXBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IID__XBASE, oldXBase, xBase));
@@ -355,7 +355,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public int getYBase()
+  public Integer getYBase()
   {
     return yBase;
   }
@@ -366,9 +366,9 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public void setYBase(int newYBase)
+  public void setYBase(Integer newYBase)
   {
-    int oldYBase = yBase;
+    Integer oldYBase = yBase;
     yBase = newYBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IID__YBASE, oldYBase, yBase));
@@ -380,7 +380,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public int getXUnits()
+  public Integer getXUnits()
   {
     return xUnits;
   }
@@ -391,9 +391,9 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public void setXUnits(int newXUnits)
+  public void setXUnits(Integer newXUnits)
   {
-    int oldXUnits = xUnits;
+    Integer oldXUnits = xUnits;
     xUnits = newXUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IID__XUNITS, oldXUnits, xUnits));
@@ -405,7 +405,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public int getYUnits()
+  public Integer getYUnits()
   {
     return yUnits;
   }
@@ -416,9 +416,9 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public void setYUnits(int newYUnits)
+  public void setYUnits(Integer newYUnits)
   {
-    int oldYUnits = yUnits;
+    Integer oldYUnits = yUnits;
     yUnits = newYUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IID__YUNITS, oldYUnits, yUnits));
@@ -430,7 +430,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public int getXSize()
+  public Integer getXSize()
   {
     return xSize;
   }
@@ -441,9 +441,9 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public void setXSize(int newXSize)
+  public void setXSize(Integer newXSize)
   {
-    int oldXSize = xSize;
+    Integer oldXSize = xSize;
     xSize = newXSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IID__XSIZE, oldXSize, xSize));
@@ -455,7 +455,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public int getYSize()
+  public Integer getYSize()
   {
     return ySize;
   }
@@ -466,9 +466,9 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public void setYSize(int newYSize)
+  public void setYSize(Integer newYSize)
   {
-    int oldYSize = ySize;
+    Integer oldYSize = ySize;
     ySize = newYSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IID__YSIZE, oldYSize, ySize));
@@ -505,7 +505,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public int getXCSizeD()
+  public Integer getXCSizeD()
   {
     return xcSizeD;
   }
@@ -516,9 +516,9 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public void setXCSizeD(int newXCSizeD)
+  public void setXCSizeD(Integer newXCSizeD)
   {
-    int oldXCSizeD = xcSizeD;
+    Integer oldXCSizeD = xcSizeD;
     xcSizeD = newXCSizeD;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IID__XC_SIZE_D, oldXCSizeD, xcSizeD));
@@ -530,7 +530,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public int getYCSizeD()
+  public Integer getYCSizeD()
   {
     return ycSizeD;
   }
@@ -541,9 +541,9 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public void setYCSizeD(int newYCSizeD)
+  public void setYCSizeD(Integer newYCSizeD)
   {
-    int oldYCSizeD = ycSizeD;
+    Integer oldYCSizeD = ycSizeD;
     ycSizeD = newYCSizeD;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IID__YC_SIZE_D, oldYCSizeD, ycSizeD));
@@ -580,7 +580,7 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public int getColor()
+  public Integer getColor()
   {
     return color;
   }
@@ -591,9 +591,9 @@ public class IIDImpl extends structuredFieldImpl implements IID
    * @generated
    */
   @Override
-  public void setColor(int newColor)
+  public void setColor(Integer newColor)
   {
-    int oldColor = color;
+    Integer oldColor = color;
     color = newColor;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IID__COLOR, oldColor, color));
@@ -750,27 +750,27 @@ public class IIDImpl extends structuredFieldImpl implements IID
       case AfpTextPackage.IID__CON_DATA1:
         return CON_DATA1_EDEFAULT == null ? conData1 != null : !CON_DATA1_EDEFAULT.equals(conData1);
       case AfpTextPackage.IID__XBASE:
-        return xBase != XBASE_EDEFAULT;
+        return XBASE_EDEFAULT == null ? xBase != null : !XBASE_EDEFAULT.equals(xBase);
       case AfpTextPackage.IID__YBASE:
-        return yBase != YBASE_EDEFAULT;
+        return YBASE_EDEFAULT == null ? yBase != null : !YBASE_EDEFAULT.equals(yBase);
       case AfpTextPackage.IID__XUNITS:
-        return xUnits != XUNITS_EDEFAULT;
+        return XUNITS_EDEFAULT == null ? xUnits != null : !XUNITS_EDEFAULT.equals(xUnits);
       case AfpTextPackage.IID__YUNITS:
-        return yUnits != YUNITS_EDEFAULT;
+        return YUNITS_EDEFAULT == null ? yUnits != null : !YUNITS_EDEFAULT.equals(yUnits);
       case AfpTextPackage.IID__XSIZE:
-        return xSize != XSIZE_EDEFAULT;
+        return XSIZE_EDEFAULT == null ? xSize != null : !XSIZE_EDEFAULT.equals(xSize);
       case AfpTextPackage.IID__YSIZE:
-        return ySize != YSIZE_EDEFAULT;
+        return YSIZE_EDEFAULT == null ? ySize != null : !YSIZE_EDEFAULT.equals(ySize);
       case AfpTextPackage.IID__CON_DATA2:
         return CON_DATA2_EDEFAULT == null ? conData2 != null : !CON_DATA2_EDEFAULT.equals(conData2);
       case AfpTextPackage.IID__XC_SIZE_D:
-        return xcSizeD != XC_SIZE_D_EDEFAULT;
+        return XC_SIZE_D_EDEFAULT == null ? xcSizeD != null : !XC_SIZE_D_EDEFAULT.equals(xcSizeD);
       case AfpTextPackage.IID__YC_SIZE_D:
-        return ycSizeD != YC_SIZE_D_EDEFAULT;
+        return YC_SIZE_D_EDEFAULT == null ? ycSizeD != null : !YC_SIZE_D_EDEFAULT.equals(ycSizeD);
       case AfpTextPackage.IID__CON_DATA3:
         return CON_DATA3_EDEFAULT == null ? conData3 != null : !CON_DATA3_EDEFAULT.equals(conData3);
       case AfpTextPackage.IID__COLOR:
-        return color != COLOR_EDEFAULT;
+        return COLOR_EDEFAULT == null ? color != null : !COLOR_EDEFAULT.equals(color);
     }
     return super.eIsSet(featureID);
   }

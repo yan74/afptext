@@ -29,12 +29,12 @@ public interface SamplingRatiosRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HSAMPLE</em>' attribute.
-   * @see #setHSAMPLE(int)
+   * @see #setHSAMPLE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSamplingRatiosRG_HSAMPLE()
    * @model
    * @generated
    */
-  int getHSAMPLE();
+  Integer getHSAMPLE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SamplingRatiosRG#getHSAMPLE <em>HSAMPLE</em>}' attribute.
@@ -44,19 +44,19 @@ public interface SamplingRatiosRG extends EObject
    * @see #getHSAMPLE()
    * @generated
    */
-  void setHSAMPLE(int value);
+  void setHSAMPLE(Integer value);
 
   /**
    * Returns the value of the '<em><b>VSAMPLE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VSAMPLE</em>' attribute.
-   * @see #setVSAMPLE(int)
+   * @see #setVSAMPLE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSamplingRatiosRG_VSAMPLE()
    * @model
    * @generated
    */
-  int getVSAMPLE();
+  Integer getVSAMPLE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SamplingRatiosRG#getVSAMPLE <em>VSAMPLE</em>}' attribute.
@@ -66,6 +66,6 @@ public interface SamplingRatiosRG extends EObject
    * @see #getVSAMPLE()
    * @generated
    */
-  void setVSAMPLE(int value);
+  void setVSAMPLE(Integer value);
 
 } // SamplingRatiosRG

@@ -28,12 +28,12 @@ public interface ObjectByteOffset extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Dir By Off</em>' attribute.
-   * @see #setDirByOff(int)
+   * @see #setDirByOff(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectByteOffset_DirByOff()
    * @model
    * @generated
    */
-  int getDirByOff();
+  Integer getDirByOff();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectByteOffset#getDirByOff <em>Dir By Off</em>}' attribute.
@@ -43,19 +43,19 @@ public interface ObjectByteOffset extends triplet
    * @see #getDirByOff()
    * @generated
    */
-  void setDirByOff(int value);
+  void setDirByOff(Integer value);
 
   /**
    * Returns the value of the '<em><b>Dir By Hi</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Dir By Hi</em>' attribute.
-   * @see #setDirByHi(int)
+   * @see #setDirByHi(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectByteOffset_DirByHi()
    * @model
    * @generated
    */
-  int getDirByHi();
+  Integer getDirByHi();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectByteOffset#getDirByHi <em>Dir By Hi</em>}' attribute.
@@ -65,6 +65,6 @@ public interface ObjectByteOffset extends triplet
    * @see #getDirByHi()
    * @generated
    */
-  void setDirByHi(int value);
+  void setDirByHi(Integer value);
 
 } // ObjectByteOffset

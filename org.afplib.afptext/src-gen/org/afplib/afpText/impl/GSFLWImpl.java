@@ -36,7 +36,7 @@ public class GSFLWImpl extends tripletImpl implements GSFLW
    * @generated
    * @ordered
    */
-  protected static final int MH_EDEFAULT = 0;
+  protected static final Integer MH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMH() <em>MH</em>}' attribute.
@@ -46,7 +46,7 @@ public class GSFLWImpl extends tripletImpl implements GSFLW
    * @generated
    * @ordered
    */
-  protected int mh = MH_EDEFAULT;
+  protected Integer mh = MH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMFR() <em>MFR</em>}' attribute.
@@ -56,7 +56,7 @@ public class GSFLWImpl extends tripletImpl implements GSFLW
    * @generated
    * @ordered
    */
-  protected static final int MFR_EDEFAULT = 0;
+  protected static final Integer MFR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMFR() <em>MFR</em>}' attribute.
@@ -66,7 +66,7 @@ public class GSFLWImpl extends tripletImpl implements GSFLW
    * @generated
    * @ordered
    */
-  protected int mfr = MFR_EDEFAULT;
+  protected Integer mfr = MFR_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class GSFLWImpl extends tripletImpl implements GSFLW
    * @generated
    */
   @Override
-  public int getMH()
+  public Integer getMH()
   {
     return mh;
   }
@@ -106,9 +106,9 @@ public class GSFLWImpl extends tripletImpl implements GSFLW
    * @generated
    */
   @Override
-  public void setMH(int newMH)
+  public void setMH(Integer newMH)
   {
-    int oldMH = mh;
+    Integer oldMH = mh;
     mh = newMH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSFLW__MH, oldMH, mh));
@@ -120,7 +120,7 @@ public class GSFLWImpl extends tripletImpl implements GSFLW
    * @generated
    */
   @Override
-  public int getMFR()
+  public Integer getMFR()
   {
     return mfr;
   }
@@ -131,9 +131,9 @@ public class GSFLWImpl extends tripletImpl implements GSFLW
    * @generated
    */
   @Override
-  public void setMFR(int newMFR)
+  public void setMFR(Integer newMFR)
   {
-    int oldMFR = mfr;
+    Integer oldMFR = mfr;
     mfr = newMFR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSFLW__MFR, oldMFR, mfr));
@@ -208,9 +208,9 @@ public class GSFLWImpl extends tripletImpl implements GSFLW
     switch (featureID)
     {
       case AfpTextPackage.GSFLW__MH:
-        return mh != MH_EDEFAULT;
+        return MH_EDEFAULT == null ? mh != null : !MH_EDEFAULT.equals(mh);
       case AfpTextPackage.GSFLW__MFR:
-        return mfr != MFR_EDEFAULT;
+        return MFR_EDEFAULT == null ? mfr != null : !MFR_EDEFAULT.equals(mfr);
     }
     return super.eIsSet(featureID);
   }

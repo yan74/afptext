@@ -35,12 +35,12 @@ public interface PGD extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xpg Base</em>' attribute.
-   * @see #setXpgBase(int)
+   * @see #setXpgBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGD_XpgBase()
    * @model
    * @generated
    */
-  int getXpgBase();
+  Integer getXpgBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGD#getXpgBase <em>Xpg Base</em>}' attribute.
@@ -50,19 +50,19 @@ public interface PGD extends structuredField
    * @see #getXpgBase()
    * @generated
    */
-  void setXpgBase(int value);
+  void setXpgBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ypg Base</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ypg Base</em>' attribute.
-   * @see #setYpgBase(int)
+   * @see #setYpgBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGD_YpgBase()
    * @model
    * @generated
    */
-  int getYpgBase();
+  Integer getYpgBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGD#getYpgBase <em>Ypg Base</em>}' attribute.
@@ -72,19 +72,19 @@ public interface PGD extends structuredField
    * @see #getYpgBase()
    * @generated
    */
-  void setYpgBase(int value);
+  void setYpgBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xpg Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xpg Units</em>' attribute.
-   * @see #setXpgUnits(int)
+   * @see #setXpgUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGD_XpgUnits()
    * @model
    * @generated
    */
-  int getXpgUnits();
+  Integer getXpgUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGD#getXpgUnits <em>Xpg Units</em>}' attribute.
@@ -94,19 +94,19 @@ public interface PGD extends structuredField
    * @see #getXpgUnits()
    * @generated
    */
-  void setXpgUnits(int value);
+  void setXpgUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ypg Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ypg Units</em>' attribute.
-   * @see #setYpgUnits(int)
+   * @see #setYpgUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGD_YpgUnits()
    * @model
    * @generated
    */
-  int getYpgUnits();
+  Integer getYpgUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGD#getYpgUnits <em>Ypg Units</em>}' attribute.
@@ -116,19 +116,19 @@ public interface PGD extends structuredField
    * @see #getYpgUnits()
    * @generated
    */
-  void setYpgUnits(int value);
+  void setYpgUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xpg Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xpg Size</em>' attribute.
-   * @see #setXpgSize(int)
+   * @see #setXpgSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGD_XpgSize()
    * @model
    * @generated
    */
-  int getXpgSize();
+  Integer getXpgSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGD#getXpgSize <em>Xpg Size</em>}' attribute.
@@ -138,19 +138,19 @@ public interface PGD extends structuredField
    * @see #getXpgSize()
    * @generated
    */
-  void setXpgSize(int value);
+  void setXpgSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ypg Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ypg Size</em>' attribute.
-   * @see #setYpgSize(int)
+   * @see #setYpgSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGD_YpgSize()
    * @model
    * @generated
    */
-  int getYpgSize();
+  Integer getYpgSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGD#getYpgSize <em>Ypg Size</em>}' attribute.
@@ -160,19 +160,19 @@ public interface PGD extends structuredField
    * @see #getYpgSize()
    * @generated
    */
-  void setYpgSize(int value);
+  void setYpgSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved</em>' attribute.
-   * @see #setReserved(int)
+   * @see #setReserved(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGD_Reserved()
    * @model
    * @generated
    */
-  int getReserved();
+  Integer getReserved();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGD#getReserved <em>Reserved</em>}' attribute.
@@ -182,7 +182,7 @@ public interface PGD extends structuredField
    * @see #getReserved()
    * @generated
    */
-  void setReserved(int value);
+  void setReserved(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

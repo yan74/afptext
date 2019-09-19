@@ -53,12 +53,12 @@ public interface FNC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Retired</em>' attribute.
-   * @see #setRetired(int)
+   * @see #setRetired(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_Retired()
    * @model
    * @generated
    */
-  int getRetired();
+  Integer getRetired();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getRetired <em>Retired</em>}' attribute.
@@ -68,19 +68,19 @@ public interface FNC extends structuredField
    * @see #getRetired()
    * @generated
    */
-  void setRetired(int value);
+  void setRetired(Integer value);
 
   /**
    * Returns the value of the '<em><b>Pat Tech</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Pat Tech</em>' attribute.
-   * @see #setPatTech(int)
+   * @see #setPatTech(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_PatTech()
    * @model
    * @generated
    */
-  int getPatTech();
+  Integer getPatTech();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getPatTech <em>Pat Tech</em>}' attribute.
@@ -90,7 +90,7 @@ public interface FNC extends structuredField
    * @see #getPatTech()
    * @generated
    */
-  void setPatTech(int value);
+  void setPatTech(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved1</b></em>' attribute.
@@ -119,12 +119,12 @@ public interface FNC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Fnt Flags</em>' attribute.
-   * @see #setFntFlags(int)
+   * @see #setFntFlags(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_FntFlags()
    * @model
    * @generated
    */
-  int getFntFlags();
+  Integer getFntFlags();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getFntFlags <em>Fnt Flags</em>}' attribute.
@@ -134,19 +134,19 @@ public interface FNC extends structuredField
    * @see #getFntFlags()
    * @generated
    */
-  void setFntFlags(int value);
+  void setFntFlags(Integer value);
 
   /**
    * Returns the value of the '<em><b>XUnit Base</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XUnit Base</em>' attribute.
-   * @see #setXUnitBase(int)
+   * @see #setXUnitBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_XUnitBase()
    * @model
    * @generated
    */
-  int getXUnitBase();
+  Integer getXUnitBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getXUnitBase <em>XUnit Base</em>}' attribute.
@@ -156,19 +156,19 @@ public interface FNC extends structuredField
    * @see #getXUnitBase()
    * @generated
    */
-  void setXUnitBase(int value);
+  void setXUnitBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>YUnit Base</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YUnit Base</em>' attribute.
-   * @see #setYUnitBase(int)
+   * @see #setYUnitBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_YUnitBase()
    * @model
    * @generated
    */
-  int getYUnitBase();
+  Integer getYUnitBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getYUnitBase <em>YUnit Base</em>}' attribute.
@@ -178,19 +178,19 @@ public interface FNC extends structuredField
    * @see #getYUnitBase()
    * @generated
    */
-  void setYUnitBase(int value);
+  void setYUnitBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xft Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xft Units</em>' attribute.
-   * @see #setXftUnits(int)
+   * @see #setXftUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_XftUnits()
    * @model
    * @generated
    */
-  int getXftUnits();
+  Integer getXftUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getXftUnits <em>Xft Units</em>}' attribute.
@@ -200,19 +200,19 @@ public interface FNC extends structuredField
    * @see #getXftUnits()
    * @generated
    */
-  void setXftUnits(int value);
+  void setXftUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yft Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yft Units</em>' attribute.
-   * @see #setYftUnits(int)
+   * @see #setYftUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_YftUnits()
    * @model
    * @generated
    */
-  int getYftUnits();
+  Integer getYftUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getYftUnits <em>Yft Units</em>}' attribute.
@@ -222,19 +222,19 @@ public interface FNC extends structuredField
    * @see #getYftUnits()
    * @generated
    */
-  void setYftUnits(int value);
+  void setYftUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Max Box Wd</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Max Box Wd</em>' attribute.
-   * @see #setMaxBoxWd(int)
+   * @see #setMaxBoxWd(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_MaxBoxWd()
    * @model
    * @generated
    */
-  int getMaxBoxWd();
+  Integer getMaxBoxWd();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getMaxBoxWd <em>Max Box Wd</em>}' attribute.
@@ -244,19 +244,19 @@ public interface FNC extends structuredField
    * @see #getMaxBoxWd()
    * @generated
    */
-  void setMaxBoxWd(int value);
+  void setMaxBoxWd(Integer value);
 
   /**
    * Returns the value of the '<em><b>Max Box Ht</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Max Box Ht</em>' attribute.
-   * @see #setMaxBoxHt(int)
+   * @see #setMaxBoxHt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_MaxBoxHt()
    * @model
    * @generated
    */
-  int getMaxBoxHt();
+  Integer getMaxBoxHt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getMaxBoxHt <em>Max Box Ht</em>}' attribute.
@@ -266,19 +266,19 @@ public interface FNC extends structuredField
    * @see #getMaxBoxHt()
    * @generated
    */
-  void setMaxBoxHt(int value);
+  void setMaxBoxHt(Integer value);
 
   /**
    * Returns the value of the '<em><b>FNORG Len</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FNORG Len</em>' attribute.
-   * @see #setFNORGLen(int)
+   * @see #setFNORGLen(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_FNORGLen()
    * @model
    * @generated
    */
-  int getFNORGLen();
+  Integer getFNORGLen();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getFNORGLen <em>FNORG Len</em>}' attribute.
@@ -288,19 +288,19 @@ public interface FNC extends structuredField
    * @see #getFNORGLen()
    * @generated
    */
-  void setFNORGLen(int value);
+  void setFNORGLen(Integer value);
 
   /**
    * Returns the value of the '<em><b>FNIRG Len</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FNIRG Len</em>' attribute.
-   * @see #setFNIRGLen(int)
+   * @see #setFNIRGLen(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_FNIRGLen()
    * @model
    * @generated
    */
-  int getFNIRGLen();
+  Integer getFNIRGLen();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getFNIRGLen <em>FNIRG Len</em>}' attribute.
@@ -310,19 +310,19 @@ public interface FNC extends structuredField
    * @see #getFNIRGLen()
    * @generated
    */
-  void setFNIRGLen(int value);
+  void setFNIRGLen(Integer value);
 
   /**
    * Returns the value of the '<em><b>Pat Align</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Pat Align</em>' attribute.
-   * @see #setPatAlign(int)
+   * @see #setPatAlign(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_PatAlign()
    * @model
    * @generated
    */
-  int getPatAlign();
+  Integer getPatAlign();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getPatAlign <em>Pat Align</em>}' attribute.
@@ -332,19 +332,19 @@ public interface FNC extends structuredField
    * @see #getPatAlign()
    * @generated
    */
-  void setPatAlign(int value);
+  void setPatAlign(Integer value);
 
   /**
    * Returns the value of the '<em><b>RPat DCnt</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RPat DCnt</em>' attribute.
-   * @see #setRPatDCnt(int)
+   * @see #setRPatDCnt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_RPatDCnt()
    * @model
    * @generated
    */
-  int getRPatDCnt();
+  Integer getRPatDCnt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getRPatDCnt <em>RPat DCnt</em>}' attribute.
@@ -354,19 +354,19 @@ public interface FNC extends structuredField
    * @see #getRPatDCnt()
    * @generated
    */
-  void setRPatDCnt(int value);
+  void setRPatDCnt(Integer value);
 
   /**
    * Returns the value of the '<em><b>FNPRG Len</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FNPRG Len</em>' attribute.
-   * @see #setFNPRGLen(int)
+   * @see #setFNPRGLen(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_FNPRGLen()
    * @model
    * @generated
    */
-  int getFNPRGLen();
+  Integer getFNPRGLen();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getFNPRGLen <em>FNPRG Len</em>}' attribute.
@@ -376,19 +376,19 @@ public interface FNC extends structuredField
    * @see #getFNPRGLen()
    * @generated
    */
-  void setFNPRGLen(int value);
+  void setFNPRGLen(Integer value);
 
   /**
    * Returns the value of the '<em><b>FNMRG Len</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FNMRG Len</em>' attribute.
-   * @see #setFNMRGLen(int)
+   * @see #setFNMRGLen(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_FNMRGLen()
    * @model
    * @generated
    */
-  int getFNMRGLen();
+  Integer getFNMRGLen();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getFNMRGLen <em>FNMRG Len</em>}' attribute.
@@ -398,19 +398,19 @@ public interface FNC extends structuredField
    * @see #getFNMRGLen()
    * @generated
    */
-  void setFNMRGLen(int value);
+  void setFNMRGLen(Integer value);
 
   /**
    * Returns the value of the '<em><b>Res XU Base</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Res XU Base</em>' attribute.
-   * @see #setResXUBase(int)
+   * @see #setResXUBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_ResXUBase()
    * @model
    * @generated
    */
-  int getResXUBase();
+  Integer getResXUBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getResXUBase <em>Res XU Base</em>}' attribute.
@@ -420,19 +420,19 @@ public interface FNC extends structuredField
    * @see #getResXUBase()
    * @generated
    */
-  void setResXUBase(int value);
+  void setResXUBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Res YU Base</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Res YU Base</em>' attribute.
-   * @see #setResYUBase(int)
+   * @see #setResYUBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_ResYUBase()
    * @model
    * @generated
    */
-  int getResYUBase();
+  Integer getResYUBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getResYUBase <em>Res YU Base</em>}' attribute.
@@ -442,19 +442,19 @@ public interface FNC extends structuredField
    * @see #getResYUBase()
    * @generated
    */
-  void setResYUBase(int value);
+  void setResYUBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xfr Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xfr Units</em>' attribute.
-   * @see #setXfrUnits(int)
+   * @see #setXfrUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_XfrUnits()
    * @model
    * @generated
    */
-  int getXfrUnits();
+  Integer getXfrUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getXfrUnits <em>Xfr Units</em>}' attribute.
@@ -464,19 +464,19 @@ public interface FNC extends structuredField
    * @see #getXfrUnits()
    * @generated
    */
-  void setXfrUnits(int value);
+  void setXfrUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yfr Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yfr Units</em>' attribute.
-   * @see #setYfrUnits(int)
+   * @see #setYfrUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_YfrUnits()
    * @model
    * @generated
    */
-  int getYfrUnits();
+  Integer getYfrUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getYfrUnits <em>Yfr Units</em>}' attribute.
@@ -486,19 +486,19 @@ public interface FNC extends structuredField
    * @see #getYfrUnits()
    * @generated
    */
-  void setYfrUnits(int value);
+  void setYfrUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>OPat DCnt</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>OPat DCnt</em>' attribute.
-   * @see #setOPatDCnt(int)
+   * @see #setOPatDCnt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_OPatDCnt()
    * @model
    * @generated
    */
-  int getOPatDCnt();
+  Integer getOPatDCnt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getOPatDCnt <em>OPat DCnt</em>}' attribute.
@@ -508,7 +508,7 @@ public interface FNC extends structuredField
    * @see #getOPatDCnt()
    * @generated
    */
-  void setOPatDCnt(int value);
+  void setOPatDCnt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved2</b></em>' attribute.
@@ -537,12 +537,12 @@ public interface FNC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FNNRG Len</em>' attribute.
-   * @see #setFNNRGLen(int)
+   * @see #setFNNRGLen(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_FNNRGLen()
    * @model
    * @generated
    */
-  int getFNNRGLen();
+  Integer getFNNRGLen();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getFNNRGLen <em>FNNRG Len</em>}' attribute.
@@ -552,19 +552,19 @@ public interface FNC extends structuredField
    * @see #getFNNRGLen()
    * @generated
    */
-  void setFNNRGLen(int value);
+  void setFNNRGLen(Integer value);
 
   /**
    * Returns the value of the '<em><b>FNND Cnt</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FNND Cnt</em>' attribute.
-   * @see #setFNNDCnt(int)
+   * @see #setFNNDCnt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_FNNDCnt()
    * @model
    * @generated
    */
-  int getFNNDCnt();
+  Integer getFNNDCnt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getFNNDCnt <em>FNND Cnt</em>}' attribute.
@@ -574,19 +574,19 @@ public interface FNC extends structuredField
    * @see #getFNNDCnt()
    * @generated
    */
-  void setFNNDCnt(int value);
+  void setFNNDCnt(Integer value);
 
   /**
    * Returns the value of the '<em><b>FNN Map Cnt</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FNN Map Cnt</em>' attribute.
-   * @see #setFNNMapCnt(int)
+   * @see #setFNNMapCnt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNC_FNNMapCnt()
    * @model
    * @generated
    */
-  int getFNNMapCnt();
+  Integer getFNNMapCnt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNC#getFNNMapCnt <em>FNN Map Cnt</em>}' attribute.
@@ -596,7 +596,7 @@ public interface FNC extends structuredField
    * @see #getFNNMapCnt()
    * @generated
    */
-  void setFNNMapCnt(int value);
+  void setFNNMapCnt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

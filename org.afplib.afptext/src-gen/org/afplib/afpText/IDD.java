@@ -33,12 +33,12 @@ public interface IDD extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>UNITBASE</em>' attribute.
-   * @see #setUNITBASE(int)
+   * @see #setUNITBASE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDD_UNITBASE()
    * @model
    * @generated
    */
-  int getUNITBASE();
+  Integer getUNITBASE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDD#getUNITBASE <em>UNITBASE</em>}' attribute.
@@ -48,19 +48,19 @@ public interface IDD extends structuredField
    * @see #getUNITBASE()
    * @generated
    */
-  void setUNITBASE(int value);
+  void setUNITBASE(Integer value);
 
   /**
    * Returns the value of the '<em><b>XRESOL</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XRESOL</em>' attribute.
-   * @see #setXRESOL(int)
+   * @see #setXRESOL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDD_XRESOL()
    * @model
    * @generated
    */
-  int getXRESOL();
+  Integer getXRESOL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDD#getXRESOL <em>XRESOL</em>}' attribute.
@@ -70,19 +70,19 @@ public interface IDD extends structuredField
    * @see #getXRESOL()
    * @generated
    */
-  void setXRESOL(int value);
+  void setXRESOL(Integer value);
 
   /**
    * Returns the value of the '<em><b>YRESOL</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YRESOL</em>' attribute.
-   * @see #setYRESOL(int)
+   * @see #setYRESOL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDD_YRESOL()
    * @model
    * @generated
    */
-  int getYRESOL();
+  Integer getYRESOL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDD#getYRESOL <em>YRESOL</em>}' attribute.
@@ -92,19 +92,19 @@ public interface IDD extends structuredField
    * @see #getYRESOL()
    * @generated
    */
-  void setYRESOL(int value);
+  void setYRESOL(Integer value);
 
   /**
    * Returns the value of the '<em><b>XSIZE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XSIZE</em>' attribute.
-   * @see #setXSIZE(int)
+   * @see #setXSIZE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDD_XSIZE()
    * @model
    * @generated
    */
-  int getXSIZE();
+  Integer getXSIZE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDD#getXSIZE <em>XSIZE</em>}' attribute.
@@ -114,19 +114,19 @@ public interface IDD extends structuredField
    * @see #getXSIZE()
    * @generated
    */
-  void setXSIZE(int value);
+  void setXSIZE(Integer value);
 
   /**
    * Returns the value of the '<em><b>YSIZE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YSIZE</em>' attribute.
-   * @see #setYSIZE(int)
+   * @see #setYSIZE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDD_YSIZE()
    * @model
    * @generated
    */
-  int getYSIZE();
+  Integer getYSIZE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDD#getYSIZE <em>YSIZE</em>}' attribute.
@@ -136,7 +136,7 @@ public interface IDD extends structuredField
    * @see #getYSIZE()
    * @generated
    */
-  void setYSIZE(int value);
+  void setYSIZE(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

@@ -33,12 +33,12 @@ public interface MCF1RG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CF Lid</em>' attribute.
-   * @see #setCFLid(int)
+   * @see #setCFLid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMCF1RG_CFLid()
    * @model
    * @generated
    */
-  int getCFLid();
+  Integer getCFLid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MCF1RG#getCFLid <em>CF Lid</em>}' attribute.
@@ -48,19 +48,19 @@ public interface MCF1RG extends EObject
    * @see #getCFLid()
    * @generated
    */
-  void setCFLid(int value);
+  void setCFLid(Integer value);
 
   /**
    * Returns the value of the '<em><b>Sectid</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Sectid</em>' attribute.
-   * @see #setSectid(int)
+   * @see #setSectid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMCF1RG_Sectid()
    * @model
    * @generated
    */
-  int getSectid();
+  Integer getSectid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MCF1RG#getSectid <em>Sectid</em>}' attribute.
@@ -70,7 +70,7 @@ public interface MCF1RG extends EObject
    * @see #getSectid()
    * @generated
    */
-  void setSectid(int value);
+  void setSectid(Integer value);
 
   /**
    * Returns the value of the '<em><b>CF Name</b></em>' attribute.
@@ -143,12 +143,12 @@ public interface MCF1RG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Char Rot</em>' attribute.
-   * @see #setCharRot(int)
+   * @see #setCharRot(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMCF1RG_CharRot()
    * @model
    * @generated
    */
-  int getCharRot();
+  Integer getCharRot();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MCF1RG#getCharRot <em>Char Rot</em>}' attribute.
@@ -158,6 +158,6 @@ public interface MCF1RG extends EObject
    * @see #getCharRot()
    * @generated
    */
-  void setCharRot(int value);
+  void setCharRot(Integer value);
 
 } // MCF1RG

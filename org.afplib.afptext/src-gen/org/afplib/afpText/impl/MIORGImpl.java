@@ -47,7 +47,7 @@ public class MIORGImpl extends MinimalEObjectImpl.Container implements MIORG
    * @generated
    * @ordered
    */
-  protected static final int RG_LENGTH_EDEFAULT = 0;
+  protected static final Integer RG_LENGTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRGLength() <em>RG Length</em>}' attribute.
@@ -57,7 +57,7 @@ public class MIORGImpl extends MinimalEObjectImpl.Container implements MIORG
    * @generated
    * @ordered
    */
-  protected int rgLength = RG_LENGTH_EDEFAULT;
+  protected Integer rgLength = RG_LENGTH_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -96,7 +96,7 @@ public class MIORGImpl extends MinimalEObjectImpl.Container implements MIORG
    * @generated
    */
   @Override
-  public int getRGLength()
+  public Integer getRGLength()
   {
     return rgLength;
   }
@@ -107,9 +107,9 @@ public class MIORGImpl extends MinimalEObjectImpl.Container implements MIORG
    * @generated
    */
   @Override
-  public void setRGLength(int newRGLength)
+  public void setRGLength(Integer newRGLength)
   {
-    int oldRGLength = rgLength;
+    Integer oldRGLength = rgLength;
     rgLength = newRGLength;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MIORG__RG_LENGTH, oldRGLength, rgLength));
@@ -217,7 +217,7 @@ public class MIORGImpl extends MinimalEObjectImpl.Container implements MIORG
     switch (featureID)
     {
       case AfpTextPackage.MIORG__RG_LENGTH:
-        return rgLength != RG_LENGTH_EDEFAULT;
+        return RG_LENGTH_EDEFAULT == null ? rgLength != null : !RG_LENGTH_EDEFAULT.equals(rgLength);
       case AfpTextPackage.MIORG__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

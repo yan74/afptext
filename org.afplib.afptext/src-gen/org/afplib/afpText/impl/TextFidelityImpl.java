@@ -36,7 +36,7 @@ public class TextFidelityImpl extends tripletImpl implements TextFidelity
    * @generated
    * @ordered
    */
-  protected static final int STP_TXT_EX_EDEFAULT = 0;
+  protected static final Integer STP_TXT_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStpTxtEx() <em>Stp Txt Ex</em>}' attribute.
@@ -46,7 +46,7 @@ public class TextFidelityImpl extends tripletImpl implements TextFidelity
    * @generated
    * @ordered
    */
-  protected int stpTxtEx = STP_TXT_EX_EDEFAULT;
+  protected Integer stpTxtEx = STP_TXT_EX_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRepTxtEx() <em>Rep Txt Ex</em>}' attribute.
@@ -56,7 +56,7 @@ public class TextFidelityImpl extends tripletImpl implements TextFidelity
    * @generated
    * @ordered
    */
-  protected static final int REP_TXT_EX_EDEFAULT = 0;
+  protected static final Integer REP_TXT_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRepTxtEx() <em>Rep Txt Ex</em>}' attribute.
@@ -66,7 +66,7 @@ public class TextFidelityImpl extends tripletImpl implements TextFidelity
    * @generated
    * @ordered
    */
-  protected int repTxtEx = REP_TXT_EX_EDEFAULT;
+  protected Integer repTxtEx = REP_TXT_EX_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class TextFidelityImpl extends tripletImpl implements TextFidelity
    * @generated
    */
   @Override
-  public int getStpTxtEx()
+  public Integer getStpTxtEx()
   {
     return stpTxtEx;
   }
@@ -106,9 +106,9 @@ public class TextFidelityImpl extends tripletImpl implements TextFidelity
    * @generated
    */
   @Override
-  public void setStpTxtEx(int newStpTxtEx)
+  public void setStpTxtEx(Integer newStpTxtEx)
   {
-    int oldStpTxtEx = stpTxtEx;
+    Integer oldStpTxtEx = stpTxtEx;
     stpTxtEx = newStpTxtEx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TEXT_FIDELITY__STP_TXT_EX, oldStpTxtEx, stpTxtEx));
@@ -120,7 +120,7 @@ public class TextFidelityImpl extends tripletImpl implements TextFidelity
    * @generated
    */
   @Override
-  public int getRepTxtEx()
+  public Integer getRepTxtEx()
   {
     return repTxtEx;
   }
@@ -131,9 +131,9 @@ public class TextFidelityImpl extends tripletImpl implements TextFidelity
    * @generated
    */
   @Override
-  public void setRepTxtEx(int newRepTxtEx)
+  public void setRepTxtEx(Integer newRepTxtEx)
   {
-    int oldRepTxtEx = repTxtEx;
+    Integer oldRepTxtEx = repTxtEx;
     repTxtEx = newRepTxtEx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TEXT_FIDELITY__REP_TXT_EX, oldRepTxtEx, repTxtEx));
@@ -208,9 +208,9 @@ public class TextFidelityImpl extends tripletImpl implements TextFidelity
     switch (featureID)
     {
       case AfpTextPackage.TEXT_FIDELITY__STP_TXT_EX:
-        return stpTxtEx != STP_TXT_EX_EDEFAULT;
+        return STP_TXT_EX_EDEFAULT == null ? stpTxtEx != null : !STP_TXT_EX_EDEFAULT.equals(stpTxtEx);
       case AfpTextPackage.TEXT_FIDELITY__REP_TXT_EX:
-        return repTxtEx != REP_TXT_EX_EDEFAULT;
+        return REP_TXT_EX_EDEFAULT == null ? repTxtEx != null : !REP_TXT_EX_EDEFAULT.equals(repTxtEx);
     }
     return super.eIsSet(featureID);
   }

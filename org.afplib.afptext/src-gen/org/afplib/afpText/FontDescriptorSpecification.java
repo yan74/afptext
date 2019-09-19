@@ -32,12 +32,12 @@ public interface FontDescriptorSpecification extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ft Wt Class</em>' attribute.
-   * @see #setFtWtClass(int)
+   * @see #setFtWtClass(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontDescriptorSpecification_FtWtClass()
    * @model
    * @generated
    */
-  int getFtWtClass();
+  Integer getFtWtClass();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontDescriptorSpecification#getFtWtClass <em>Ft Wt Class</em>}' attribute.
@@ -47,19 +47,19 @@ public interface FontDescriptorSpecification extends triplet
    * @see #getFtWtClass()
    * @generated
    */
-  void setFtWtClass(int value);
+  void setFtWtClass(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ft Wd Class</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ft Wd Class</em>' attribute.
-   * @see #setFtWdClass(int)
+   * @see #setFtWdClass(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontDescriptorSpecification_FtWdClass()
    * @model
    * @generated
    */
-  int getFtWdClass();
+  Integer getFtWdClass();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontDescriptorSpecification#getFtWdClass <em>Ft Wd Class</em>}' attribute.
@@ -69,19 +69,19 @@ public interface FontDescriptorSpecification extends triplet
    * @see #getFtWdClass()
    * @generated
    */
-  void setFtWdClass(int value);
+  void setFtWdClass(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ft Height</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ft Height</em>' attribute.
-   * @see #setFtHeight(int)
+   * @see #setFtHeight(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontDescriptorSpecification_FtHeight()
    * @model
    * @generated
    */
-  int getFtHeight();
+  Integer getFtHeight();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontDescriptorSpecification#getFtHeight <em>Ft Height</em>}' attribute.
@@ -91,19 +91,19 @@ public interface FontDescriptorSpecification extends triplet
    * @see #getFtHeight()
    * @generated
    */
-  void setFtHeight(int value);
+  void setFtHeight(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ft Width</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ft Width</em>' attribute.
-   * @see #setFtWidth(int)
+   * @see #setFtWidth(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontDescriptorSpecification_FtWidth()
    * @model
    * @generated
    */
-  int getFtWidth();
+  Integer getFtWidth();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontDescriptorSpecification#getFtWidth <em>Ft Width</em>}' attribute.
@@ -113,19 +113,19 @@ public interface FontDescriptorSpecification extends triplet
    * @see #getFtWidth()
    * @generated
    */
-  void setFtWidth(int value);
+  void setFtWidth(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ft Ds Flags</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ft Ds Flags</em>' attribute.
-   * @see #setFtDsFlags(int)
+   * @see #setFtDsFlags(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontDescriptorSpecification_FtDsFlags()
    * @model
    * @generated
    */
-  int getFtDsFlags();
+  Integer getFtDsFlags();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontDescriptorSpecification#getFtDsFlags <em>Ft Ds Flags</em>}' attribute.
@@ -135,19 +135,19 @@ public interface FontDescriptorSpecification extends triplet
    * @see #getFtDsFlags()
    * @generated
    */
-  void setFtDsFlags(int value);
+  void setFtDsFlags(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ft Us Flags</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ft Us Flags</em>' attribute.
-   * @see #setFtUsFlags(int)
+   * @see #setFtUsFlags(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontDescriptorSpecification_FtUsFlags()
    * @model
    * @generated
    */
-  int getFtUsFlags();
+  Integer getFtUsFlags();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontDescriptorSpecification#getFtUsFlags <em>Ft Us Flags</em>}' attribute.
@@ -157,6 +157,6 @@ public interface FontDescriptorSpecification extends triplet
    * @see #getFtUsFlags()
    * @generated
    */
-  void setFtUsFlags(int value);
+  void setFtUsFlags(Integer value);
 
 } // FontDescriptorSpecification

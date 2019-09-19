@@ -27,12 +27,12 @@ public interface GSCR extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PREC</em>' attribute.
-   * @see #setPREC(int)
+   * @see #setPREC(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSCR_PREC()
    * @model
    * @generated
    */
-  int getPREC();
+  Integer getPREC();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSCR#getPREC <em>PREC</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSCR extends triplet
    * @see #getPREC()
    * @generated
    */
-  void setPREC(int value);
+  void setPREC(Integer value);
 
 } // GSCR

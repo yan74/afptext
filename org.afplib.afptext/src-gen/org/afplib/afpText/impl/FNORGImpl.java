@@ -49,7 +49,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -59,7 +59,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCharRot() <em>Char Rot</em>}' attribute.
@@ -69,7 +69,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int CHAR_ROT_EDEFAULT = 0;
+  protected static final Integer CHAR_ROT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCharRot() <em>Char Rot</em>}' attribute.
@@ -79,7 +79,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int charRot = CHAR_ROT_EDEFAULT;
+  protected Integer charRot = CHAR_ROT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMaxBOset() <em>Max BOset</em>}' attribute.
@@ -89,7 +89,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int MAX_BOSET_EDEFAULT = 0;
+  protected static final Integer MAX_BOSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMaxBOset() <em>Max BOset</em>}' attribute.
@@ -99,7 +99,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int maxBOset = MAX_BOSET_EDEFAULT;
+  protected Integer maxBOset = MAX_BOSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMaxCharInc() <em>Max Char Inc</em>}' attribute.
@@ -109,7 +109,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int MAX_CHAR_INC_EDEFAULT = 0;
+  protected static final Integer MAX_CHAR_INC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMaxCharInc() <em>Max Char Inc</em>}' attribute.
@@ -119,7 +119,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int maxCharInc = MAX_CHAR_INC_EDEFAULT;
+  protected Integer maxCharInc = MAX_CHAR_INC_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSpCharInc() <em>Sp Char Inc</em>}' attribute.
@@ -129,7 +129,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int SP_CHAR_INC_EDEFAULT = 0;
+  protected static final Integer SP_CHAR_INC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSpCharInc() <em>Sp Char Inc</em>}' attribute.
@@ -139,7 +139,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int spCharInc = SP_CHAR_INC_EDEFAULT;
+  protected Integer spCharInc = SP_CHAR_INC_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMaxBExt() <em>Max BExt</em>}' attribute.
@@ -149,7 +149,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int MAX_BEXT_EDEFAULT = 0;
+  protected static final Integer MAX_BEXT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMaxBExt() <em>Max BExt</em>}' attribute.
@@ -159,7 +159,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int maxBExt = MAX_BEXT_EDEFAULT;
+  protected Integer maxBExt = MAX_BEXT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getOrntFlgs() <em>Ornt Flgs</em>}' attribute.
@@ -169,7 +169,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int ORNT_FLGS_EDEFAULT = 0;
+  protected static final Integer ORNT_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getOrntFlgs() <em>Ornt Flgs</em>}' attribute.
@@ -179,7 +179,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int orntFlgs = ORNT_FLGS_EDEFAULT;
+  protected Integer orntFlgs = ORNT_FLGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -189,7 +189,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int RESERVED2_EDEFAULT = 0;
+  protected static final Integer RESERVED2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -199,7 +199,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int reserved2 = RESERVED2_EDEFAULT;
+  protected Integer reserved2 = RESERVED2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getEmSpInc() <em>Em Sp Inc</em>}' attribute.
@@ -209,7 +209,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int EM_SP_INC_EDEFAULT = 0;
+  protected static final Integer EM_SP_INC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getEmSpInc() <em>Em Sp Inc</em>}' attribute.
@@ -219,7 +219,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int emSpInc = EM_SP_INC_EDEFAULT;
+  protected Integer emSpInc = EM_SP_INC_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved3() <em>Reserved3</em>}' attribute.
@@ -229,7 +229,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int RESERVED3_EDEFAULT = 0;
+  protected static final Integer RESERVED3_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved3() <em>Reserved3</em>}' attribute.
@@ -239,7 +239,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int reserved3 = RESERVED3_EDEFAULT;
+  protected Integer reserved3 = RESERVED3_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFigSpInc() <em>Fig Sp Inc</em>}' attribute.
@@ -249,7 +249,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int FIG_SP_INC_EDEFAULT = 0;
+  protected static final Integer FIG_SP_INC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFigSpInc() <em>Fig Sp Inc</em>}' attribute.
@@ -259,7 +259,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int figSpInc = FIG_SP_INC_EDEFAULT;
+  protected Integer figSpInc = FIG_SP_INC_EDEFAULT;
 
   /**
    * The default value of the '{@link #getNomCharInc() <em>Nom Char Inc</em>}' attribute.
@@ -269,7 +269,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int NOM_CHAR_INC_EDEFAULT = 0;
+  protected static final Integer NOM_CHAR_INC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNomCharInc() <em>Nom Char Inc</em>}' attribute.
@@ -279,7 +279,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int nomCharInc = NOM_CHAR_INC_EDEFAULT;
+  protected Integer nomCharInc = NOM_CHAR_INC_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDefBInc() <em>Def BInc</em>}' attribute.
@@ -289,7 +289,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int DEF_BINC_EDEFAULT = 0;
+  protected static final Integer DEF_BINC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDefBInc() <em>Def BInc</em>}' attribute.
@@ -299,7 +299,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int defBInc = DEF_BINC_EDEFAULT;
+  protected Integer defBInc = DEF_BINC_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMinASp() <em>Min ASp</em>}' attribute.
@@ -309,7 +309,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected static final int MIN_ASP_EDEFAULT = 0;
+  protected static final Integer MIN_ASP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMinASp() <em>Min ASp</em>}' attribute.
@@ -319,7 +319,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    * @ordered
    */
-  protected int minASp = MIN_ASP_EDEFAULT;
+  protected Integer minASp = MIN_ASP_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -348,7 +348,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -359,9 +359,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__RESERVED, oldReserved, reserved));
@@ -373,7 +373,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getCharRot()
+  public Integer getCharRot()
   {
     return charRot;
   }
@@ -384,9 +384,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setCharRot(int newCharRot)
+  public void setCharRot(Integer newCharRot)
   {
-    int oldCharRot = charRot;
+    Integer oldCharRot = charRot;
     charRot = newCharRot;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__CHAR_ROT, oldCharRot, charRot));
@@ -398,7 +398,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getMaxBOset()
+  public Integer getMaxBOset()
   {
     return maxBOset;
   }
@@ -409,9 +409,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setMaxBOset(int newMaxBOset)
+  public void setMaxBOset(Integer newMaxBOset)
   {
-    int oldMaxBOset = maxBOset;
+    Integer oldMaxBOset = maxBOset;
     maxBOset = newMaxBOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__MAX_BOSET, oldMaxBOset, maxBOset));
@@ -423,7 +423,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getMaxCharInc()
+  public Integer getMaxCharInc()
   {
     return maxCharInc;
   }
@@ -434,9 +434,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setMaxCharInc(int newMaxCharInc)
+  public void setMaxCharInc(Integer newMaxCharInc)
   {
-    int oldMaxCharInc = maxCharInc;
+    Integer oldMaxCharInc = maxCharInc;
     maxCharInc = newMaxCharInc;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__MAX_CHAR_INC, oldMaxCharInc, maxCharInc));
@@ -448,7 +448,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getSpCharInc()
+  public Integer getSpCharInc()
   {
     return spCharInc;
   }
@@ -459,9 +459,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setSpCharInc(int newSpCharInc)
+  public void setSpCharInc(Integer newSpCharInc)
   {
-    int oldSpCharInc = spCharInc;
+    Integer oldSpCharInc = spCharInc;
     spCharInc = newSpCharInc;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__SP_CHAR_INC, oldSpCharInc, spCharInc));
@@ -473,7 +473,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getMaxBExt()
+  public Integer getMaxBExt()
   {
     return maxBExt;
   }
@@ -484,9 +484,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setMaxBExt(int newMaxBExt)
+  public void setMaxBExt(Integer newMaxBExt)
   {
-    int oldMaxBExt = maxBExt;
+    Integer oldMaxBExt = maxBExt;
     maxBExt = newMaxBExt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__MAX_BEXT, oldMaxBExt, maxBExt));
@@ -498,7 +498,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getOrntFlgs()
+  public Integer getOrntFlgs()
   {
     return orntFlgs;
   }
@@ -509,9 +509,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setOrntFlgs(int newOrntFlgs)
+  public void setOrntFlgs(Integer newOrntFlgs)
   {
-    int oldOrntFlgs = orntFlgs;
+    Integer oldOrntFlgs = orntFlgs;
     orntFlgs = newOrntFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__ORNT_FLGS, oldOrntFlgs, orntFlgs));
@@ -523,7 +523,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getReserved2()
+  public Integer getReserved2()
   {
     return reserved2;
   }
@@ -534,9 +534,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setReserved2(int newReserved2)
+  public void setReserved2(Integer newReserved2)
   {
-    int oldReserved2 = reserved2;
+    Integer oldReserved2 = reserved2;
     reserved2 = newReserved2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__RESERVED2, oldReserved2, reserved2));
@@ -548,7 +548,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getEmSpInc()
+  public Integer getEmSpInc()
   {
     return emSpInc;
   }
@@ -559,9 +559,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setEmSpInc(int newEmSpInc)
+  public void setEmSpInc(Integer newEmSpInc)
   {
-    int oldEmSpInc = emSpInc;
+    Integer oldEmSpInc = emSpInc;
     emSpInc = newEmSpInc;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__EM_SP_INC, oldEmSpInc, emSpInc));
@@ -573,7 +573,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getReserved3()
+  public Integer getReserved3()
   {
     return reserved3;
   }
@@ -584,9 +584,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setReserved3(int newReserved3)
+  public void setReserved3(Integer newReserved3)
   {
-    int oldReserved3 = reserved3;
+    Integer oldReserved3 = reserved3;
     reserved3 = newReserved3;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__RESERVED3, oldReserved3, reserved3));
@@ -598,7 +598,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getFigSpInc()
+  public Integer getFigSpInc()
   {
     return figSpInc;
   }
@@ -609,9 +609,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setFigSpInc(int newFigSpInc)
+  public void setFigSpInc(Integer newFigSpInc)
   {
-    int oldFigSpInc = figSpInc;
+    Integer oldFigSpInc = figSpInc;
     figSpInc = newFigSpInc;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__FIG_SP_INC, oldFigSpInc, figSpInc));
@@ -623,7 +623,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getNomCharInc()
+  public Integer getNomCharInc()
   {
     return nomCharInc;
   }
@@ -634,9 +634,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setNomCharInc(int newNomCharInc)
+  public void setNomCharInc(Integer newNomCharInc)
   {
-    int oldNomCharInc = nomCharInc;
+    Integer oldNomCharInc = nomCharInc;
     nomCharInc = newNomCharInc;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__NOM_CHAR_INC, oldNomCharInc, nomCharInc));
@@ -648,7 +648,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getDefBInc()
+  public Integer getDefBInc()
   {
     return defBInc;
   }
@@ -659,9 +659,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setDefBInc(int newDefBInc)
+  public void setDefBInc(Integer newDefBInc)
   {
-    int oldDefBInc = defBInc;
+    Integer oldDefBInc = defBInc;
     defBInc = newDefBInc;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__DEF_BINC, oldDefBInc, defBInc));
@@ -673,7 +673,7 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public int getMinASp()
+  public Integer getMinASp()
   {
     return minASp;
   }
@@ -684,9 +684,9 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
    * @generated
    */
   @Override
-  public void setMinASp(int newMinASp)
+  public void setMinASp(Integer newMinASp)
   {
-    int oldMinASp = minASp;
+    Integer oldMinASp = minASp;
     minASp = newMinASp;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNORG__MIN_ASP, oldMinASp, minASp));
@@ -857,33 +857,33 @@ public class FNORGImpl extends MinimalEObjectImpl.Container implements FNORG
     switch (featureID)
     {
       case AfpTextPackage.FNORG__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.FNORG__CHAR_ROT:
-        return charRot != CHAR_ROT_EDEFAULT;
+        return CHAR_ROT_EDEFAULT == null ? charRot != null : !CHAR_ROT_EDEFAULT.equals(charRot);
       case AfpTextPackage.FNORG__MAX_BOSET:
-        return maxBOset != MAX_BOSET_EDEFAULT;
+        return MAX_BOSET_EDEFAULT == null ? maxBOset != null : !MAX_BOSET_EDEFAULT.equals(maxBOset);
       case AfpTextPackage.FNORG__MAX_CHAR_INC:
-        return maxCharInc != MAX_CHAR_INC_EDEFAULT;
+        return MAX_CHAR_INC_EDEFAULT == null ? maxCharInc != null : !MAX_CHAR_INC_EDEFAULT.equals(maxCharInc);
       case AfpTextPackage.FNORG__SP_CHAR_INC:
-        return spCharInc != SP_CHAR_INC_EDEFAULT;
+        return SP_CHAR_INC_EDEFAULT == null ? spCharInc != null : !SP_CHAR_INC_EDEFAULT.equals(spCharInc);
       case AfpTextPackage.FNORG__MAX_BEXT:
-        return maxBExt != MAX_BEXT_EDEFAULT;
+        return MAX_BEXT_EDEFAULT == null ? maxBExt != null : !MAX_BEXT_EDEFAULT.equals(maxBExt);
       case AfpTextPackage.FNORG__ORNT_FLGS:
-        return orntFlgs != ORNT_FLGS_EDEFAULT;
+        return ORNT_FLGS_EDEFAULT == null ? orntFlgs != null : !ORNT_FLGS_EDEFAULT.equals(orntFlgs);
       case AfpTextPackage.FNORG__RESERVED2:
-        return reserved2 != RESERVED2_EDEFAULT;
+        return RESERVED2_EDEFAULT == null ? reserved2 != null : !RESERVED2_EDEFAULT.equals(reserved2);
       case AfpTextPackage.FNORG__EM_SP_INC:
-        return emSpInc != EM_SP_INC_EDEFAULT;
+        return EM_SP_INC_EDEFAULT == null ? emSpInc != null : !EM_SP_INC_EDEFAULT.equals(emSpInc);
       case AfpTextPackage.FNORG__RESERVED3:
-        return reserved3 != RESERVED3_EDEFAULT;
+        return RESERVED3_EDEFAULT == null ? reserved3 != null : !RESERVED3_EDEFAULT.equals(reserved3);
       case AfpTextPackage.FNORG__FIG_SP_INC:
-        return figSpInc != FIG_SP_INC_EDEFAULT;
+        return FIG_SP_INC_EDEFAULT == null ? figSpInc != null : !FIG_SP_INC_EDEFAULT.equals(figSpInc);
       case AfpTextPackage.FNORG__NOM_CHAR_INC:
-        return nomCharInc != NOM_CHAR_INC_EDEFAULT;
+        return NOM_CHAR_INC_EDEFAULT == null ? nomCharInc != null : !NOM_CHAR_INC_EDEFAULT.equals(nomCharInc);
       case AfpTextPackage.FNORG__DEF_BINC:
-        return defBInc != DEF_BINC_EDEFAULT;
+        return DEF_BINC_EDEFAULT == null ? defBInc != null : !DEF_BINC_EDEFAULT.equals(defBInc);
       case AfpTextPackage.FNORG__MIN_ASP:
-        return minASp != MIN_ASP_EDEFAULT;
+        return MIN_ASP_EDEFAULT == null ? minASp != null : !MIN_ASP_EDEFAULT.equals(minASp);
     }
     return super.eIsSet(featureID);
   }

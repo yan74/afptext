@@ -35,7 +35,7 @@ public class GSBMXImpl extends tripletImpl implements GSBMX
    * @generated
    * @ordered
    */
-  protected static final int MODE_EDEFAULT = 0;
+  protected static final Integer MODE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMODE() <em>MODE</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSBMXImpl extends tripletImpl implements GSBMX
    * @generated
    * @ordered
    */
-  protected int mode = MODE_EDEFAULT;
+  protected Integer mode = MODE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSBMXImpl extends tripletImpl implements GSBMX
    * @generated
    */
   @Override
-  public int getMODE()
+  public Integer getMODE()
   {
     return mode;
   }
@@ -85,9 +85,9 @@ public class GSBMXImpl extends tripletImpl implements GSBMX
    * @generated
    */
   @Override
-  public void setMODE(int newMODE)
+  public void setMODE(Integer newMODE)
   {
-    int oldMODE = mode;
+    Integer oldMODE = mode;
     mode = newMODE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSBMX__MODE, oldMODE, mode));
@@ -154,7 +154,7 @@ public class GSBMXImpl extends tripletImpl implements GSBMX
     switch (featureID)
     {
       case AfpTextPackage.GSBMX__MODE:
-        return mode != MODE_EDEFAULT;
+        return MODE_EDEFAULT == null ? mode != null : !MODE_EDEFAULT.equals(mode);
     }
     return super.eIsSet(featureID);
   }

@@ -46,7 +46,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -56,7 +56,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getLcHeight() <em>Lc Height</em>}' attribute.
@@ -66,7 +66,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int LC_HEIGHT_EDEFAULT = 0;
+  protected static final Integer LC_HEIGHT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLcHeight() <em>Lc Height</em>}' attribute.
@@ -76,7 +76,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int lcHeight = LC_HEIGHT_EDEFAULT;
+  protected Integer lcHeight = LC_HEIGHT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCapMHt() <em>Cap MHt</em>}' attribute.
@@ -86,7 +86,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int CAP_MHT_EDEFAULT = 0;
+  protected static final Integer CAP_MHT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCapMHt() <em>Cap MHt</em>}' attribute.
@@ -96,7 +96,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int capMHt = CAP_MHT_EDEFAULT;
+  protected Integer capMHt = CAP_MHT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMaxAscHt() <em>Max Asc Ht</em>}' attribute.
@@ -106,7 +106,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int MAX_ASC_HT_EDEFAULT = 0;
+  protected static final Integer MAX_ASC_HT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMaxAscHt() <em>Max Asc Ht</em>}' attribute.
@@ -116,7 +116,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int maxAscHt = MAX_ASC_HT_EDEFAULT;
+  protected Integer maxAscHt = MAX_ASC_HT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMaxDesDp() <em>Max Des Dp</em>}' attribute.
@@ -126,7 +126,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int MAX_DES_DP_EDEFAULT = 0;
+  protected static final Integer MAX_DES_DP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMaxDesDp() <em>Max Des Dp</em>}' attribute.
@@ -136,7 +136,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int maxDesDp = MAX_DES_DP_EDEFAULT;
+  protected Integer maxDesDp = MAX_DES_DP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -166,7 +166,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int RETIRED_EDEFAULT = 0;
+  protected static final Integer RETIRED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRetired() <em>Retired</em>}' attribute.
@@ -176,7 +176,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int retired = RETIRED_EDEFAULT;
+  protected Integer retired = RETIRED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved3() <em>Reserved3</em>}' attribute.
@@ -186,7 +186,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int RESERVED3_EDEFAULT = 0;
+  protected static final Integer RESERVED3_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved3() <em>Reserved3</em>}' attribute.
@@ -196,7 +196,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int reserved3 = RESERVED3_EDEFAULT;
+  protected Integer reserved3 = RESERVED3_EDEFAULT;
 
   /**
    * The default value of the '{@link #getUscoreWd() <em>Uscore Wd</em>}' attribute.
@@ -206,7 +206,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int USCORE_WD_EDEFAULT = 0;
+  protected static final Integer USCORE_WD_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUscoreWd() <em>Uscore Wd</em>}' attribute.
@@ -216,7 +216,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int uscoreWd = USCORE_WD_EDEFAULT;
+  protected Integer uscoreWd = USCORE_WD_EDEFAULT;
 
   /**
    * The default value of the '{@link #getUscoreWdf() <em>Uscore Wdf</em>}' attribute.
@@ -226,7 +226,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int USCORE_WDF_EDEFAULT = 0;
+  protected static final Integer USCORE_WDF_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUscoreWdf() <em>Uscore Wdf</em>}' attribute.
@@ -236,7 +236,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int uscoreWdf = USCORE_WDF_EDEFAULT;
+  protected Integer uscoreWdf = USCORE_WDF_EDEFAULT;
 
   /**
    * The default value of the '{@link #getUscorePos() <em>Uscore Pos</em>}' attribute.
@@ -246,7 +246,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected static final int USCORE_POS_EDEFAULT = 0;
+  protected static final Integer USCORE_POS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUscorePos() <em>Uscore Pos</em>}' attribute.
@@ -256,7 +256,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    * @ordered
    */
-  protected int uscorePos = USCORE_POS_EDEFAULT;
+  protected Integer uscorePos = USCORE_POS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -285,7 +285,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -296,9 +296,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__RESERVED, oldReserved, reserved));
@@ -310,7 +310,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getLcHeight()
+  public Integer getLcHeight()
   {
     return lcHeight;
   }
@@ -321,9 +321,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setLcHeight(int newLcHeight)
+  public void setLcHeight(Integer newLcHeight)
   {
-    int oldLcHeight = lcHeight;
+    Integer oldLcHeight = lcHeight;
     lcHeight = newLcHeight;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__LC_HEIGHT, oldLcHeight, lcHeight));
@@ -335,7 +335,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getCapMHt()
+  public Integer getCapMHt()
   {
     return capMHt;
   }
@@ -346,9 +346,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setCapMHt(int newCapMHt)
+  public void setCapMHt(Integer newCapMHt)
   {
-    int oldCapMHt = capMHt;
+    Integer oldCapMHt = capMHt;
     capMHt = newCapMHt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__CAP_MHT, oldCapMHt, capMHt));
@@ -360,7 +360,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getMaxAscHt()
+  public Integer getMaxAscHt()
   {
     return maxAscHt;
   }
@@ -371,9 +371,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setMaxAscHt(int newMaxAscHt)
+  public void setMaxAscHt(Integer newMaxAscHt)
   {
-    int oldMaxAscHt = maxAscHt;
+    Integer oldMaxAscHt = maxAscHt;
     maxAscHt = newMaxAscHt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__MAX_ASC_HT, oldMaxAscHt, maxAscHt));
@@ -385,7 +385,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getMaxDesDp()
+  public Integer getMaxDesDp()
   {
     return maxDesDp;
   }
@@ -396,9 +396,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setMaxDesDp(int newMaxDesDp)
+  public void setMaxDesDp(Integer newMaxDesDp)
   {
-    int oldMaxDesDp = maxDesDp;
+    Integer oldMaxDesDp = maxDesDp;
     maxDesDp = newMaxDesDp;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__MAX_DES_DP, oldMaxDesDp, maxDesDp));
@@ -435,7 +435,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getRetired()
+  public Integer getRetired()
   {
     return retired;
   }
@@ -446,9 +446,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setRetired(int newRetired)
+  public void setRetired(Integer newRetired)
   {
-    int oldRetired = retired;
+    Integer oldRetired = retired;
     retired = newRetired;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__RETIRED, oldRetired, retired));
@@ -460,7 +460,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getReserved3()
+  public Integer getReserved3()
   {
     return reserved3;
   }
@@ -471,9 +471,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setReserved3(int newReserved3)
+  public void setReserved3(Integer newReserved3)
   {
-    int oldReserved3 = reserved3;
+    Integer oldReserved3 = reserved3;
     reserved3 = newReserved3;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__RESERVED3, oldReserved3, reserved3));
@@ -485,7 +485,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getUscoreWd()
+  public Integer getUscoreWd()
   {
     return uscoreWd;
   }
@@ -496,9 +496,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setUscoreWd(int newUscoreWd)
+  public void setUscoreWd(Integer newUscoreWd)
   {
-    int oldUscoreWd = uscoreWd;
+    Integer oldUscoreWd = uscoreWd;
     uscoreWd = newUscoreWd;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__USCORE_WD, oldUscoreWd, uscoreWd));
@@ -510,7 +510,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getUscoreWdf()
+  public Integer getUscoreWdf()
   {
     return uscoreWdf;
   }
@@ -521,9 +521,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setUscoreWdf(int newUscoreWdf)
+  public void setUscoreWdf(Integer newUscoreWdf)
   {
-    int oldUscoreWdf = uscoreWdf;
+    Integer oldUscoreWdf = uscoreWdf;
     uscoreWdf = newUscoreWdf;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__USCORE_WDF, oldUscoreWdf, uscoreWdf));
@@ -535,7 +535,7 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public int getUscorePos()
+  public Integer getUscorePos()
   {
     return uscorePos;
   }
@@ -546,9 +546,9 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
    * @generated
    */
   @Override
-  public void setUscorePos(int newUscorePos)
+  public void setUscorePos(Integer newUscorePos)
   {
-    int oldUscorePos = uscorePos;
+    Integer oldUscorePos = uscorePos;
     uscorePos = newUscorePos;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNPRG__USCORE_POS, oldUscorePos, uscorePos));
@@ -695,27 +695,27 @@ public class FNPRGImpl extends MinimalEObjectImpl.Container implements FNPRG
     switch (featureID)
     {
       case AfpTextPackage.FNPRG__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.FNPRG__LC_HEIGHT:
-        return lcHeight != LC_HEIGHT_EDEFAULT;
+        return LC_HEIGHT_EDEFAULT == null ? lcHeight != null : !LC_HEIGHT_EDEFAULT.equals(lcHeight);
       case AfpTextPackage.FNPRG__CAP_MHT:
-        return capMHt != CAP_MHT_EDEFAULT;
+        return CAP_MHT_EDEFAULT == null ? capMHt != null : !CAP_MHT_EDEFAULT.equals(capMHt);
       case AfpTextPackage.FNPRG__MAX_ASC_HT:
-        return maxAscHt != MAX_ASC_HT_EDEFAULT;
+        return MAX_ASC_HT_EDEFAULT == null ? maxAscHt != null : !MAX_ASC_HT_EDEFAULT.equals(maxAscHt);
       case AfpTextPackage.FNPRG__MAX_DES_DP:
-        return maxDesDp != MAX_DES_DP_EDEFAULT;
+        return MAX_DES_DP_EDEFAULT == null ? maxDesDp != null : !MAX_DES_DP_EDEFAULT.equals(maxDesDp);
       case AfpTextPackage.FNPRG__RESERVED2:
         return RESERVED2_EDEFAULT == null ? reserved2 != null : !RESERVED2_EDEFAULT.equals(reserved2);
       case AfpTextPackage.FNPRG__RETIRED:
-        return retired != RETIRED_EDEFAULT;
+        return RETIRED_EDEFAULT == null ? retired != null : !RETIRED_EDEFAULT.equals(retired);
       case AfpTextPackage.FNPRG__RESERVED3:
-        return reserved3 != RESERVED3_EDEFAULT;
+        return RESERVED3_EDEFAULT == null ? reserved3 != null : !RESERVED3_EDEFAULT.equals(reserved3);
       case AfpTextPackage.FNPRG__USCORE_WD:
-        return uscoreWd != USCORE_WD_EDEFAULT;
+        return USCORE_WD_EDEFAULT == null ? uscoreWd != null : !USCORE_WD_EDEFAULT.equals(uscoreWd);
       case AfpTextPackage.FNPRG__USCORE_WDF:
-        return uscoreWdf != USCORE_WDF_EDEFAULT;
+        return USCORE_WDF_EDEFAULT == null ? uscoreWdf != null : !USCORE_WDF_EDEFAULT.equals(uscoreWdf);
       case AfpTextPackage.FNPRG__USCORE_POS:
-        return uscorePos != USCORE_POS_EDEFAULT;
+        return USCORE_POS_EDEFAULT == null ? uscorePos != null : !USCORE_POS_EDEFAULT.equals(uscorePos);
     }
     return super.eIsSet(featureID);
   }

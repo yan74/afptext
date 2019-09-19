@@ -27,12 +27,12 @@ public interface GSCD extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>DIRECTION</em>' attribute.
-   * @see #setDIRECTION(int)
+   * @see #setDIRECTION(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSCD_DIRECTION()
    * @model
    * @generated
    */
-  int getDIRECTION();
+  Integer getDIRECTION();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSCD#getDIRECTION <em>DIRECTION</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSCD extends triplet
    * @see #getDIRECTION()
    * @generated
    */
-  void setDIRECTION(int value);
+  void setDIRECTION(Integer value);
 
 } // GSCD

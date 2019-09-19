@@ -28,12 +28,12 @@ public interface BandImageRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BITCNT</em>' attribute.
-   * @see #setBITCNT(int)
+   * @see #setBITCNT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBandImageRG_BITCNT()
    * @model
    * @generated
    */
-  int getBITCNT();
+  Integer getBITCNT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BandImageRG#getBITCNT <em>BITCNT</em>}' attribute.
@@ -43,6 +43,6 @@ public interface BandImageRG extends EObject
    * @see #getBITCNT()
    * @generated
    */
-  void setBITCNT(int value);
+  void setBITCNT(Integer value);
 
 } // BandImageRG

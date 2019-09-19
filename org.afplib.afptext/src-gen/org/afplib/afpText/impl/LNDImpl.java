@@ -62,7 +62,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int LND_FLGS_EDEFAULT = 0;
+  protected static final Integer LND_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLNDFlgs() <em>LND Flgs</em>}' attribute.
@@ -72,7 +72,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int lndFlgs = LND_FLGS_EDEFAULT;
+  protected Integer lndFlgs = LND_FLGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getIPos() <em>IPos</em>}' attribute.
@@ -82,7 +82,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int IPOS_EDEFAULT = 0;
+  protected static final Integer IPOS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getIPos() <em>IPos</em>}' attribute.
@@ -92,7 +92,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int iPos = IPOS_EDEFAULT;
+  protected Integer iPos = IPOS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getBPos() <em>BPos</em>}' attribute.
@@ -102,7 +102,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int BPOS_EDEFAULT = 0;
+  protected static final Integer BPOS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBPos() <em>BPos</em>}' attribute.
@@ -112,7 +112,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int bPos = BPOS_EDEFAULT;
+  protected Integer bPos = BPOS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTxtOrent() <em>Txt Orent</em>}' attribute.
@@ -122,7 +122,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int TXT_ORENT_EDEFAULT = 0;
+  protected static final Integer TXT_ORENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTxtOrent() <em>Txt Orent</em>}' attribute.
@@ -132,7 +132,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int txtOrent = TXT_ORENT_EDEFAULT;
+  protected Integer txtOrent = TXT_ORENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFntLID() <em>Fnt LID</em>}' attribute.
@@ -142,7 +142,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int FNT_LID_EDEFAULT = 0;
+  protected static final Integer FNT_LID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFntLID() <em>Fnt LID</em>}' attribute.
@@ -152,7 +152,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int fntLID = FNT_LID_EDEFAULT;
+  protected Integer fntLID = FNT_LID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getChnlCde() <em>Chnl Cde</em>}' attribute.
@@ -162,7 +162,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int CHNL_CDE_EDEFAULT = 0;
+  protected static final Integer CHNL_CDE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getChnlCde() <em>Chnl Cde</em>}' attribute.
@@ -172,7 +172,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int chnlCde = CHNL_CDE_EDEFAULT;
+  protected Integer chnlCde = CHNL_CDE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getNLNDskp() <em>NLN Dskp</em>}' attribute.
@@ -182,7 +182,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int NLN_DSKP_EDEFAULT = 0;
+  protected static final Integer NLN_DSKP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNLNDskp() <em>NLN Dskp</em>}' attribute.
@@ -192,7 +192,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int nlnDskp = NLN_DSKP_EDEFAULT;
+  protected Integer nlnDskp = NLN_DSKP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getNLNDsp() <em>NLN Dsp</em>}' attribute.
@@ -202,7 +202,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int NLN_DSP_EDEFAULT = 0;
+  protected static final Integer NLN_DSP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNLNDsp() <em>NLN Dsp</em>}' attribute.
@@ -212,7 +212,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int nlnDsp = NLN_DSP_EDEFAULT;
+  protected Integer nlnDsp = NLN_DSP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getNLNDreu() <em>NLN Dreu</em>}' attribute.
@@ -222,7 +222,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int NLN_DREU_EDEFAULT = 0;
+  protected static final Integer NLN_DREU_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNLNDreu() <em>NLN Dreu</em>}' attribute.
@@ -232,7 +232,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int nlnDreu = NLN_DREU_EDEFAULT;
+  protected Integer nlnDreu = NLN_DREU_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSupName() <em>Sup Name</em>}' attribute.
@@ -262,7 +262,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int SO_LID_EDEFAULT = 0;
+  protected static final Integer SO_LID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSOLid() <em>SO Lid</em>}' attribute.
@@ -272,7 +272,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int soLid = SO_LID_EDEFAULT;
+  protected Integer soLid = SO_LID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDataStrt() <em>Data Strt</em>}' attribute.
@@ -282,7 +282,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int DATA_STRT_EDEFAULT = 0;
+  protected static final Integer DATA_STRT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDataStrt() <em>Data Strt</em>}' attribute.
@@ -292,7 +292,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int dataStrt = DATA_STRT_EDEFAULT;
+  protected Integer dataStrt = DATA_STRT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDataLgth() <em>Data Lgth</em>}' attribute.
@@ -302,7 +302,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int DATA_LGTH_EDEFAULT = 0;
+  protected static final Integer DATA_LGTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDataLgth() <em>Data Lgth</em>}' attribute.
@@ -312,7 +312,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int dataLgth = DATA_LGTH_EDEFAULT;
+  protected Integer dataLgth = DATA_LGTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTxtColor() <em>Txt Color</em>}' attribute.
@@ -322,7 +322,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int TXT_COLOR_EDEFAULT = 0;
+  protected static final Integer TXT_COLOR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTxtColor() <em>Txt Color</em>}' attribute.
@@ -332,7 +332,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int txtColor = TXT_COLOR_EDEFAULT;
+  protected Integer txtColor = TXT_COLOR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getNLNDccp() <em>NLN Dccp</em>}' attribute.
@@ -342,7 +342,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int NLN_DCCP_EDEFAULT = 0;
+  protected static final Integer NLN_DCCP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNLNDccp() <em>NLN Dccp</em>}' attribute.
@@ -352,7 +352,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int nlnDccp = NLN_DCCP_EDEFAULT;
+  protected Integer nlnDccp = NLN_DCCP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSubpgID() <em>Subpg ID</em>}' attribute.
@@ -362,7 +362,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int SUBPG_ID_EDEFAULT = 0;
+  protected static final Integer SUBPG_ID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSubpgID() <em>Subpg ID</em>}' attribute.
@@ -372,7 +372,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int subpgID = SUBPG_ID_EDEFAULT;
+  protected Integer subpgID = SUBPG_ID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCCPID() <em>CCPID</em>}' attribute.
@@ -382,7 +382,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected static final int CCPID_EDEFAULT = 0;
+  protected static final Integer CCPID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCCPID() <em>CCPID</em>}' attribute.
@@ -392,7 +392,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    * @ordered
    */
-  protected int ccpid = CCPID_EDEFAULT;
+  protected Integer ccpid = CCPID_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -431,7 +431,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getLNDFlgs()
+  public Integer getLNDFlgs()
   {
     return lndFlgs;
   }
@@ -442,9 +442,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setLNDFlgs(int newLNDFlgs)
+  public void setLNDFlgs(Integer newLNDFlgs)
   {
-    int oldLNDFlgs = lndFlgs;
+    Integer oldLNDFlgs = lndFlgs;
     lndFlgs = newLNDFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__LND_FLGS, oldLNDFlgs, lndFlgs));
@@ -456,7 +456,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getIPos()
+  public Integer getIPos()
   {
     return iPos;
   }
@@ -467,9 +467,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setIPos(int newIPos)
+  public void setIPos(Integer newIPos)
   {
-    int oldIPos = iPos;
+    Integer oldIPos = iPos;
     iPos = newIPos;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__IPOS, oldIPos, iPos));
@@ -481,7 +481,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getBPos()
+  public Integer getBPos()
   {
     return bPos;
   }
@@ -492,9 +492,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setBPos(int newBPos)
+  public void setBPos(Integer newBPos)
   {
-    int oldBPos = bPos;
+    Integer oldBPos = bPos;
     bPos = newBPos;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__BPOS, oldBPos, bPos));
@@ -506,7 +506,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getTxtOrent()
+  public Integer getTxtOrent()
   {
     return txtOrent;
   }
@@ -517,9 +517,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setTxtOrent(int newTxtOrent)
+  public void setTxtOrent(Integer newTxtOrent)
   {
-    int oldTxtOrent = txtOrent;
+    Integer oldTxtOrent = txtOrent;
     txtOrent = newTxtOrent;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__TXT_ORENT, oldTxtOrent, txtOrent));
@@ -531,7 +531,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getFntLID()
+  public Integer getFntLID()
   {
     return fntLID;
   }
@@ -542,9 +542,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setFntLID(int newFntLID)
+  public void setFntLID(Integer newFntLID)
   {
-    int oldFntLID = fntLID;
+    Integer oldFntLID = fntLID;
     fntLID = newFntLID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__FNT_LID, oldFntLID, fntLID));
@@ -556,7 +556,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getChnlCde()
+  public Integer getChnlCde()
   {
     return chnlCde;
   }
@@ -567,9 +567,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setChnlCde(int newChnlCde)
+  public void setChnlCde(Integer newChnlCde)
   {
-    int oldChnlCde = chnlCde;
+    Integer oldChnlCde = chnlCde;
     chnlCde = newChnlCde;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__CHNL_CDE, oldChnlCde, chnlCde));
@@ -581,7 +581,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getNLNDskp()
+  public Integer getNLNDskp()
   {
     return nlnDskp;
   }
@@ -592,9 +592,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setNLNDskp(int newNLNDskp)
+  public void setNLNDskp(Integer newNLNDskp)
   {
-    int oldNLNDskp = nlnDskp;
+    Integer oldNLNDskp = nlnDskp;
     nlnDskp = newNLNDskp;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__NLN_DSKP, oldNLNDskp, nlnDskp));
@@ -606,7 +606,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getNLNDsp()
+  public Integer getNLNDsp()
   {
     return nlnDsp;
   }
@@ -617,9 +617,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setNLNDsp(int newNLNDsp)
+  public void setNLNDsp(Integer newNLNDsp)
   {
-    int oldNLNDsp = nlnDsp;
+    Integer oldNLNDsp = nlnDsp;
     nlnDsp = newNLNDsp;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__NLN_DSP, oldNLNDsp, nlnDsp));
@@ -631,7 +631,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getNLNDreu()
+  public Integer getNLNDreu()
   {
     return nlnDreu;
   }
@@ -642,9 +642,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setNLNDreu(int newNLNDreu)
+  public void setNLNDreu(Integer newNLNDreu)
   {
-    int oldNLNDreu = nlnDreu;
+    Integer oldNLNDreu = nlnDreu;
     nlnDreu = newNLNDreu;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__NLN_DREU, oldNLNDreu, nlnDreu));
@@ -681,7 +681,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getSOLid()
+  public Integer getSOLid()
   {
     return soLid;
   }
@@ -692,9 +692,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setSOLid(int newSOLid)
+  public void setSOLid(Integer newSOLid)
   {
-    int oldSOLid = soLid;
+    Integer oldSOLid = soLid;
     soLid = newSOLid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__SO_LID, oldSOLid, soLid));
@@ -706,7 +706,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getDataStrt()
+  public Integer getDataStrt()
   {
     return dataStrt;
   }
@@ -717,9 +717,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setDataStrt(int newDataStrt)
+  public void setDataStrt(Integer newDataStrt)
   {
-    int oldDataStrt = dataStrt;
+    Integer oldDataStrt = dataStrt;
     dataStrt = newDataStrt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__DATA_STRT, oldDataStrt, dataStrt));
@@ -731,7 +731,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getDataLgth()
+  public Integer getDataLgth()
   {
     return dataLgth;
   }
@@ -742,9 +742,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setDataLgth(int newDataLgth)
+  public void setDataLgth(Integer newDataLgth)
   {
-    int oldDataLgth = dataLgth;
+    Integer oldDataLgth = dataLgth;
     dataLgth = newDataLgth;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__DATA_LGTH, oldDataLgth, dataLgth));
@@ -756,7 +756,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getTxtColor()
+  public Integer getTxtColor()
   {
     return txtColor;
   }
@@ -767,9 +767,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setTxtColor(int newTxtColor)
+  public void setTxtColor(Integer newTxtColor)
   {
-    int oldTxtColor = txtColor;
+    Integer oldTxtColor = txtColor;
     txtColor = newTxtColor;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__TXT_COLOR, oldTxtColor, txtColor));
@@ -781,7 +781,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getNLNDccp()
+  public Integer getNLNDccp()
   {
     return nlnDccp;
   }
@@ -792,9 +792,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setNLNDccp(int newNLNDccp)
+  public void setNLNDccp(Integer newNLNDccp)
   {
-    int oldNLNDccp = nlnDccp;
+    Integer oldNLNDccp = nlnDccp;
     nlnDccp = newNLNDccp;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__NLN_DCCP, oldNLNDccp, nlnDccp));
@@ -806,7 +806,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getSubpgID()
+  public Integer getSubpgID()
   {
     return subpgID;
   }
@@ -817,9 +817,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setSubpgID(int newSubpgID)
+  public void setSubpgID(Integer newSubpgID)
   {
-    int oldSubpgID = subpgID;
+    Integer oldSubpgID = subpgID;
     subpgID = newSubpgID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__SUBPG_ID, oldSubpgID, subpgID));
@@ -831,7 +831,7 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public int getCCPID()
+  public Integer getCCPID()
   {
     return ccpid;
   }
@@ -842,9 +842,9 @@ public class LNDImpl extends structuredFieldImpl implements LND
    * @generated
    */
   @Override
-  public void setCCPID(int newCCPID)
+  public void setCCPID(Integer newCCPID)
   {
-    int oldCCPID = ccpid;
+    Integer oldCCPID = ccpid;
     ccpid = newCCPID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LND__CCPID, oldCCPID, ccpid));
@@ -1080,39 +1080,39 @@ public class LNDImpl extends structuredFieldImpl implements LND
     switch (featureID)
     {
       case AfpTextPackage.LND__LND_FLGS:
-        return lndFlgs != LND_FLGS_EDEFAULT;
+        return LND_FLGS_EDEFAULT == null ? lndFlgs != null : !LND_FLGS_EDEFAULT.equals(lndFlgs);
       case AfpTextPackage.LND__IPOS:
-        return iPos != IPOS_EDEFAULT;
+        return IPOS_EDEFAULT == null ? iPos != null : !IPOS_EDEFAULT.equals(iPos);
       case AfpTextPackage.LND__BPOS:
-        return bPos != BPOS_EDEFAULT;
+        return BPOS_EDEFAULT == null ? bPos != null : !BPOS_EDEFAULT.equals(bPos);
       case AfpTextPackage.LND__TXT_ORENT:
-        return txtOrent != TXT_ORENT_EDEFAULT;
+        return TXT_ORENT_EDEFAULT == null ? txtOrent != null : !TXT_ORENT_EDEFAULT.equals(txtOrent);
       case AfpTextPackage.LND__FNT_LID:
-        return fntLID != FNT_LID_EDEFAULT;
+        return FNT_LID_EDEFAULT == null ? fntLID != null : !FNT_LID_EDEFAULT.equals(fntLID);
       case AfpTextPackage.LND__CHNL_CDE:
-        return chnlCde != CHNL_CDE_EDEFAULT;
+        return CHNL_CDE_EDEFAULT == null ? chnlCde != null : !CHNL_CDE_EDEFAULT.equals(chnlCde);
       case AfpTextPackage.LND__NLN_DSKP:
-        return nlnDskp != NLN_DSKP_EDEFAULT;
+        return NLN_DSKP_EDEFAULT == null ? nlnDskp != null : !NLN_DSKP_EDEFAULT.equals(nlnDskp);
       case AfpTextPackage.LND__NLN_DSP:
-        return nlnDsp != NLN_DSP_EDEFAULT;
+        return NLN_DSP_EDEFAULT == null ? nlnDsp != null : !NLN_DSP_EDEFAULT.equals(nlnDsp);
       case AfpTextPackage.LND__NLN_DREU:
-        return nlnDreu != NLN_DREU_EDEFAULT;
+        return NLN_DREU_EDEFAULT == null ? nlnDreu != null : !NLN_DREU_EDEFAULT.equals(nlnDreu);
       case AfpTextPackage.LND__SUP_NAME:
         return SUP_NAME_EDEFAULT == null ? supName != null : !SUP_NAME_EDEFAULT.equals(supName);
       case AfpTextPackage.LND__SO_LID:
-        return soLid != SO_LID_EDEFAULT;
+        return SO_LID_EDEFAULT == null ? soLid != null : !SO_LID_EDEFAULT.equals(soLid);
       case AfpTextPackage.LND__DATA_STRT:
-        return dataStrt != DATA_STRT_EDEFAULT;
+        return DATA_STRT_EDEFAULT == null ? dataStrt != null : !DATA_STRT_EDEFAULT.equals(dataStrt);
       case AfpTextPackage.LND__DATA_LGTH:
-        return dataLgth != DATA_LGTH_EDEFAULT;
+        return DATA_LGTH_EDEFAULT == null ? dataLgth != null : !DATA_LGTH_EDEFAULT.equals(dataLgth);
       case AfpTextPackage.LND__TXT_COLOR:
-        return txtColor != TXT_COLOR_EDEFAULT;
+        return TXT_COLOR_EDEFAULT == null ? txtColor != null : !TXT_COLOR_EDEFAULT.equals(txtColor);
       case AfpTextPackage.LND__NLN_DCCP:
-        return nlnDccp != NLN_DCCP_EDEFAULT;
+        return NLN_DCCP_EDEFAULT == null ? nlnDccp != null : !NLN_DCCP_EDEFAULT.equals(nlnDccp);
       case AfpTextPackage.LND__SUBPG_ID:
-        return subpgID != SUBPG_ID_EDEFAULT;
+        return SUBPG_ID_EDEFAULT == null ? subpgID != null : !SUBPG_ID_EDEFAULT.equals(subpgID);
       case AfpTextPackage.LND__CCPID:
-        return ccpid != CCPID_EDEFAULT;
+        return CCPID_EDEFAULT == null ? ccpid != null : !CCPID_EDEFAULT.equals(ccpid);
       case AfpTextPackage.LND__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

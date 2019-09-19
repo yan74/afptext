@@ -27,12 +27,12 @@ public interface IDESize extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>IDESZ</em>' attribute.
-   * @see #setIDESZ(int)
+   * @see #setIDESZ(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDESize_IDESZ()
    * @model
    * @generated
    */
-  int getIDESZ();
+  Integer getIDESZ();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDESize#getIDESZ <em>IDESZ</em>}' attribute.
@@ -42,6 +42,6 @@ public interface IDESize extends triplet
    * @see #getIDESZ()
    * @generated
    */
-  void setIDESZ(int value);
+  void setIDESZ(Integer value);
 
 } // IDESize

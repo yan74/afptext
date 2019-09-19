@@ -38,7 +38,7 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    * @ordered
    */
-  protected static final int STARTNUM_EDEFAULT = 0;
+  protected static final Integer STARTNUM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStartnum() <em>Startnum</em>}' attribute.
@@ -48,7 +48,7 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    * @ordered
    */
-  protected int startnum = STARTNUM_EDEFAULT;
+  protected Integer startnum = STARTNUM_EDEFAULT;
 
   /**
    * The default value of the '{@link #getStopnum() <em>Stopnum</em>}' attribute.
@@ -58,7 +58,7 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    * @ordered
    */
-  protected static final int STOPNUM_EDEFAULT = 0;
+  protected static final Integer STOPNUM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStopnum() <em>Stopnum</em>}' attribute.
@@ -68,7 +68,7 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    * @ordered
    */
-  protected int stopnum = STOPNUM_EDEFAULT;
+  protected Integer stopnum = STOPNUM_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMMCid() <em>MM Cid</em>}' attribute.
@@ -78,7 +78,7 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    * @ordered
    */
-  protected static final int MM_CID_EDEFAULT = 0;
+  protected static final Integer MM_CID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMMCid() <em>MM Cid</em>}' attribute.
@@ -88,7 +88,7 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    * @ordered
    */
-  protected int mmCid = MM_CID_EDEFAULT;
+  protected Integer mmCid = MM_CID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -117,7 +117,7 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    */
   @Override
-  public int getStartnum()
+  public Integer getStartnum()
   {
     return startnum;
   }
@@ -128,9 +128,9 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    */
   @Override
-  public void setStartnum(int newStartnum)
+  public void setStartnum(Integer newStartnum)
   {
-    int oldStartnum = startnum;
+    Integer oldStartnum = startnum;
     startnum = newStartnum;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MCCRG__STARTNUM, oldStartnum, startnum));
@@ -142,7 +142,7 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    */
   @Override
-  public int getStopnum()
+  public Integer getStopnum()
   {
     return stopnum;
   }
@@ -153,9 +153,9 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    */
   @Override
-  public void setStopnum(int newStopnum)
+  public void setStopnum(Integer newStopnum)
   {
-    int oldStopnum = stopnum;
+    Integer oldStopnum = stopnum;
     stopnum = newStopnum;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MCCRG__STOPNUM, oldStopnum, stopnum));
@@ -167,7 +167,7 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    */
   @Override
-  public int getMMCid()
+  public Integer getMMCid()
   {
     return mmCid;
   }
@@ -178,9 +178,9 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
    * @generated
    */
   @Override
-  public void setMMCid(int newMMCid)
+  public void setMMCid(Integer newMMCid)
   {
-    int oldMMCid = mmCid;
+    Integer oldMMCid = mmCid;
     mmCid = newMMCid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MCCRG__MM_CID, oldMMCid, mmCid));
@@ -263,11 +263,11 @@ public class MCCRGImpl extends MinimalEObjectImpl.Container implements MCCRG
     switch (featureID)
     {
       case AfpTextPackage.MCCRG__STARTNUM:
-        return startnum != STARTNUM_EDEFAULT;
+        return STARTNUM_EDEFAULT == null ? startnum != null : !STARTNUM_EDEFAULT.equals(startnum);
       case AfpTextPackage.MCCRG__STOPNUM:
-        return stopnum != STOPNUM_EDEFAULT;
+        return STOPNUM_EDEFAULT == null ? stopnum != null : !STOPNUM_EDEFAULT.equals(stopnum);
       case AfpTextPackage.MCCRG__MM_CID:
-        return mmCid != MM_CID_EDEFAULT;
+        return MM_CID_EDEFAULT == null ? mmCid != null : !MM_CID_EDEFAULT.equals(mmCid);
     }
     return super.eIsSet(featureID);
   }

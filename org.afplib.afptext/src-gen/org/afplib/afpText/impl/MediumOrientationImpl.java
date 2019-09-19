@@ -35,7 +35,7 @@ public class MediumOrientationImpl extends tripletImpl implements MediumOrientat
    * @generated
    * @ordered
    */
-  protected static final int MED_ORIENT_EDEFAULT = 0;
+  protected static final Integer MED_ORIENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMedOrient() <em>Med Orient</em>}' attribute.
@@ -45,7 +45,7 @@ public class MediumOrientationImpl extends tripletImpl implements MediumOrientat
    * @generated
    * @ordered
    */
-  protected int medOrient = MED_ORIENT_EDEFAULT;
+  protected Integer medOrient = MED_ORIENT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class MediumOrientationImpl extends tripletImpl implements MediumOrientat
    * @generated
    */
   @Override
-  public int getMedOrient()
+  public Integer getMedOrient()
   {
     return medOrient;
   }
@@ -85,9 +85,9 @@ public class MediumOrientationImpl extends tripletImpl implements MediumOrientat
    * @generated
    */
   @Override
-  public void setMedOrient(int newMedOrient)
+  public void setMedOrient(Integer newMedOrient)
   {
-    int oldMedOrient = medOrient;
+    Integer oldMedOrient = medOrient;
     medOrient = newMedOrient;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MEDIUM_ORIENTATION__MED_ORIENT, oldMedOrient, medOrient));
@@ -154,7 +154,7 @@ public class MediumOrientationImpl extends tripletImpl implements MediumOrientat
     switch (featureID)
     {
       case AfpTextPackage.MEDIUM_ORIENTATION__MED_ORIENT:
-        return medOrient != MED_ORIENT_EDEFAULT;
+        return MED_ORIENT_EDEFAULT == null ? medOrient != null : !MED_ORIENT_EDEFAULT.equals(medOrient);
     }
     return super.eIsSet(featureID);
   }

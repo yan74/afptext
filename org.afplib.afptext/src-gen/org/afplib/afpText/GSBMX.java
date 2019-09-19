@@ -27,12 +27,12 @@ public interface GSBMX extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MODE</em>' attribute.
-   * @see #setMODE(int)
+   * @see #setMODE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSBMX_MODE()
    * @model
    * @generated
    */
-  int getMODE();
+  Integer getMODE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSBMX#getMODE <em>MODE</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSBMX extends triplet
    * @see #getMODE()
    * @generated
    */
-  void setMODE(int value);
+  void setMODE(Integer value);
 
 } // GSBMX

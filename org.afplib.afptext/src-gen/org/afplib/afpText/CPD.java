@@ -54,12 +54,12 @@ public interface CPD extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>GCGID Len</em>' attribute.
-   * @see #setGCGIDLen(int)
+   * @see #setGCGIDLen(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPD_GCGIDLen()
    * @model
    * @generated
    */
-  int getGCGIDLen();
+  Integer getGCGIDLen();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPD#getGCGIDLen <em>GCGID Len</em>}' attribute.
@@ -69,19 +69,19 @@ public interface CPD extends structuredField
    * @see #getGCGIDLen()
    * @generated
    */
-  void setGCGIDLen(int value);
+  void setGCGIDLen(Integer value);
 
   /**
    * Returns the value of the '<em><b>Num Cd Pts</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Num Cd Pts</em>' attribute.
-   * @see #setNumCdPts(int)
+   * @see #setNumCdPts(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPD_NumCdPts()
    * @model
    * @generated
    */
-  int getNumCdPts();
+  Integer getNumCdPts();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPD#getNumCdPts <em>Num Cd Pts</em>}' attribute.
@@ -91,19 +91,19 @@ public interface CPD extends structuredField
    * @see #getNumCdPts()
    * @generated
    */
-  void setNumCdPts(int value);
+  void setNumCdPts(Integer value);
 
   /**
    * Returns the value of the '<em><b>GCSGID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>GCSGID</em>' attribute.
-   * @see #setGCSGID(int)
+   * @see #setGCSGID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPD_GCSGID()
    * @model
    * @generated
    */
-  int getGCSGID();
+  Integer getGCSGID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPD#getGCSGID <em>GCSGID</em>}' attribute.
@@ -113,19 +113,19 @@ public interface CPD extends structuredField
    * @see #getGCSGID()
    * @generated
    */
-  void setGCSGID(int value);
+  void setGCSGID(Integer value);
 
   /**
    * Returns the value of the '<em><b>CPGID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CPGID</em>' attribute.
-   * @see #setCPGID(int)
+   * @see #setCPGID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPD_CPGID()
    * @model
    * @generated
    */
-  int getCPGID();
+  Integer getCPGID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPD#getCPGID <em>CPGID</em>}' attribute.
@@ -135,19 +135,19 @@ public interface CPD extends structuredField
    * @see #getCPGID()
    * @generated
    */
-  void setCPGID(int value);
+  void setCPGID(Integer value);
 
   /**
    * Returns the value of the '<em><b>Enc Scheme</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Enc Scheme</em>' attribute.
-   * @see #setEncScheme(int)
+   * @see #setEncScheme(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPD_EncScheme()
    * @model
    * @generated
    */
-  int getEncScheme();
+  Integer getEncScheme();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPD#getEncScheme <em>Enc Scheme</em>}' attribute.
@@ -157,6 +157,6 @@ public interface CPD extends structuredField
    * @see #getEncScheme()
    * @generated
    */
-  void setEncScheme(int value);
+  void setEncScheme(Integer value);
 
 } // CPD

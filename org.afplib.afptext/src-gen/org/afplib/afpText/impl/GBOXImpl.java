@@ -41,7 +41,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected static final int RES_EDEFAULT = 0;
+  protected static final Integer RES_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRES() <em>RES</em>}' attribute.
@@ -51,7 +51,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected int res = RES_EDEFAULT;
+  protected Integer res = RES_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXPOS0() <em>XPOS0</em>}' attribute.
@@ -61,7 +61,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected static final int XPOS0_EDEFAULT = 0;
+  protected static final Integer XPOS0_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXPOS0() <em>XPOS0</em>}' attribute.
@@ -71,7 +71,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected int xpos0 = XPOS0_EDEFAULT;
+  protected Integer xpos0 = XPOS0_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYPOS0() <em>YPOS0</em>}' attribute.
@@ -81,7 +81,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected static final int YPOS0_EDEFAULT = 0;
+  protected static final Integer YPOS0_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYPOS0() <em>YPOS0</em>}' attribute.
@@ -91,7 +91,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected int ypos0 = YPOS0_EDEFAULT;
+  protected Integer ypos0 = YPOS0_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXPOS1() <em>XPOS1</em>}' attribute.
@@ -101,7 +101,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected static final int XPOS1_EDEFAULT = 0;
+  protected static final Integer XPOS1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXPOS1() <em>XPOS1</em>}' attribute.
@@ -111,7 +111,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected int xpos1 = XPOS1_EDEFAULT;
+  protected Integer xpos1 = XPOS1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYPOS1() <em>YPOS1</em>}' attribute.
@@ -121,7 +121,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected static final int YPOS1_EDEFAULT = 0;
+  protected static final Integer YPOS1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYPOS1() <em>YPOS1</em>}' attribute.
@@ -131,7 +131,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected int ypos1 = YPOS1_EDEFAULT;
+  protected Integer ypos1 = YPOS1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHAXIS() <em>HAXIS</em>}' attribute.
@@ -141,7 +141,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected static final int HAXIS_EDEFAULT = 0;
+  protected static final Integer HAXIS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHAXIS() <em>HAXIS</em>}' attribute.
@@ -151,7 +151,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected int haxis = HAXIS_EDEFAULT;
+  protected Integer haxis = HAXIS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVAXIS() <em>VAXIS</em>}' attribute.
@@ -161,7 +161,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected static final int VAXIS_EDEFAULT = 0;
+  protected static final Integer VAXIS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVAXIS() <em>VAXIS</em>}' attribute.
@@ -171,7 +171,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    * @ordered
    */
-  protected int vaxis = VAXIS_EDEFAULT;
+  protected Integer vaxis = VAXIS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -200,7 +200,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public int getRES()
+  public Integer getRES()
   {
     return res;
   }
@@ -211,9 +211,9 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public void setRES(int newRES)
+  public void setRES(Integer newRES)
   {
-    int oldRES = res;
+    Integer oldRES = res;
     res = newRES;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBOX__RES, oldRES, res));
@@ -225,7 +225,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public int getXPOS0()
+  public Integer getXPOS0()
   {
     return xpos0;
   }
@@ -236,9 +236,9 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public void setXPOS0(int newXPOS0)
+  public void setXPOS0(Integer newXPOS0)
   {
-    int oldXPOS0 = xpos0;
+    Integer oldXPOS0 = xpos0;
     xpos0 = newXPOS0;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBOX__XPOS0, oldXPOS0, xpos0));
@@ -250,7 +250,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public int getYPOS0()
+  public Integer getYPOS0()
   {
     return ypos0;
   }
@@ -261,9 +261,9 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public void setYPOS0(int newYPOS0)
+  public void setYPOS0(Integer newYPOS0)
   {
-    int oldYPOS0 = ypos0;
+    Integer oldYPOS0 = ypos0;
     ypos0 = newYPOS0;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBOX__YPOS0, oldYPOS0, ypos0));
@@ -275,7 +275,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public int getXPOS1()
+  public Integer getXPOS1()
   {
     return xpos1;
   }
@@ -286,9 +286,9 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public void setXPOS1(int newXPOS1)
+  public void setXPOS1(Integer newXPOS1)
   {
-    int oldXPOS1 = xpos1;
+    Integer oldXPOS1 = xpos1;
     xpos1 = newXPOS1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBOX__XPOS1, oldXPOS1, xpos1));
@@ -300,7 +300,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public int getYPOS1()
+  public Integer getYPOS1()
   {
     return ypos1;
   }
@@ -311,9 +311,9 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public void setYPOS1(int newYPOS1)
+  public void setYPOS1(Integer newYPOS1)
   {
-    int oldYPOS1 = ypos1;
+    Integer oldYPOS1 = ypos1;
     ypos1 = newYPOS1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBOX__YPOS1, oldYPOS1, ypos1));
@@ -325,7 +325,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public int getHAXIS()
+  public Integer getHAXIS()
   {
     return haxis;
   }
@@ -336,9 +336,9 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public void setHAXIS(int newHAXIS)
+  public void setHAXIS(Integer newHAXIS)
   {
-    int oldHAXIS = haxis;
+    Integer oldHAXIS = haxis;
     haxis = newHAXIS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBOX__HAXIS, oldHAXIS, haxis));
@@ -350,7 +350,7 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public int getVAXIS()
+  public Integer getVAXIS()
   {
     return vaxis;
   }
@@ -361,9 +361,9 @@ public class GBOXImpl extends tripletImpl implements GBOX
    * @generated
    */
   @Override
-  public void setVAXIS(int newVAXIS)
+  public void setVAXIS(Integer newVAXIS)
   {
-    int oldVAXIS = vaxis;
+    Integer oldVAXIS = vaxis;
     vaxis = newVAXIS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBOX__VAXIS, oldVAXIS, vaxis));
@@ -478,19 +478,19 @@ public class GBOXImpl extends tripletImpl implements GBOX
     switch (featureID)
     {
       case AfpTextPackage.GBOX__RES:
-        return res != RES_EDEFAULT;
+        return RES_EDEFAULT == null ? res != null : !RES_EDEFAULT.equals(res);
       case AfpTextPackage.GBOX__XPOS0:
-        return xpos0 != XPOS0_EDEFAULT;
+        return XPOS0_EDEFAULT == null ? xpos0 != null : !XPOS0_EDEFAULT.equals(xpos0);
       case AfpTextPackage.GBOX__YPOS0:
-        return ypos0 != YPOS0_EDEFAULT;
+        return YPOS0_EDEFAULT == null ? ypos0 != null : !YPOS0_EDEFAULT.equals(ypos0);
       case AfpTextPackage.GBOX__XPOS1:
-        return xpos1 != XPOS1_EDEFAULT;
+        return XPOS1_EDEFAULT == null ? xpos1 != null : !XPOS1_EDEFAULT.equals(xpos1);
       case AfpTextPackage.GBOX__YPOS1:
-        return ypos1 != YPOS1_EDEFAULT;
+        return YPOS1_EDEFAULT == null ? ypos1 != null : !YPOS1_EDEFAULT.equals(ypos1);
       case AfpTextPackage.GBOX__HAXIS:
-        return haxis != HAXIS_EDEFAULT;
+        return HAXIS_EDEFAULT == null ? haxis != null : !HAXIS_EDEFAULT.equals(haxis);
       case AfpTextPackage.GBOX__VAXIS:
-        return vaxis != VAXIS_EDEFAULT;
+        return VAXIS_EDEFAULT == null ? vaxis != null : !VAXIS_EDEFAULT.equals(vaxis);
     }
     return super.eIsSet(featureID);
   }

@@ -35,7 +35,7 @@ public class DescriptorPositionImpl extends tripletImpl implements DescriptorPos
    * @generated
    * @ordered
    */
-  protected static final int DES_POS_ID_EDEFAULT = 0;
+  protected static final Integer DES_POS_ID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDesPosID() <em>Des Pos ID</em>}' attribute.
@@ -45,7 +45,7 @@ public class DescriptorPositionImpl extends tripletImpl implements DescriptorPos
    * @generated
    * @ordered
    */
-  protected int desPosID = DES_POS_ID_EDEFAULT;
+  protected Integer desPosID = DES_POS_ID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class DescriptorPositionImpl extends tripletImpl implements DescriptorPos
    * @generated
    */
   @Override
-  public int getDesPosID()
+  public Integer getDesPosID()
   {
     return desPosID;
   }
@@ -85,9 +85,9 @@ public class DescriptorPositionImpl extends tripletImpl implements DescriptorPos
    * @generated
    */
   @Override
-  public void setDesPosID(int newDesPosID)
+  public void setDesPosID(Integer newDesPosID)
   {
-    int oldDesPosID = desPosID;
+    Integer oldDesPosID = desPosID;
     desPosID = newDesPosID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DESCRIPTOR_POSITION__DES_POS_ID, oldDesPosID, desPosID));
@@ -154,7 +154,7 @@ public class DescriptorPositionImpl extends tripletImpl implements DescriptorPos
     switch (featureID)
     {
       case AfpTextPackage.DESCRIPTOR_POSITION__DES_POS_ID:
-        return desPosID != DES_POS_ID_EDEFAULT;
+        return DES_POS_ID_EDEFAULT == null ? desPosID != null : !DES_POS_ID_EDEFAULT.equals(desPosID);
     }
     return super.eIsSet(featureID);
   }

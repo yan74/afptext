@@ -28,12 +28,12 @@ public interface PGP1 extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XOset</em>' attribute.
-   * @see #setXOset(int)
+   * @see #setXOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGP1_XOset()
    * @model
    * @generated
    */
-  int getXOset();
+  Integer getXOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGP1#getXOset <em>XOset</em>}' attribute.
@@ -43,19 +43,19 @@ public interface PGP1 extends structuredField
    * @see #getXOset()
    * @generated
    */
-  void setXOset(int value);
+  void setXOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>YOset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YOset</em>' attribute.
-   * @see #setYOset(int)
+   * @see #setYOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGP1_YOset()
    * @model
    * @generated
    */
-  int getYOset();
+  Integer getYOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGP1#getYOset <em>YOset</em>}' attribute.
@@ -65,6 +65,6 @@ public interface PGP1 extends structuredField
    * @see #getYOset()
    * @generated
    */
-  void setYOset(int value);
+  void setYOset(Integer value);
 
 } // PGP1

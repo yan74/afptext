@@ -48,7 +48,7 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    * @ordered
    */
-  protected static final int MFC_FLGS_EDEFAULT = 0;
+  protected static final Integer MFC_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMFCFlgs() <em>MFC Flgs</em>}' attribute.
@@ -58,7 +58,7 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    * @ordered
    */
-  protected int mfcFlgs = MFC_FLGS_EDEFAULT;
+  protected Integer mfcFlgs = MFC_FLGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMedColl() <em>Med Coll</em>}' attribute.
@@ -68,7 +68,7 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    * @ordered
    */
-  protected static final int MED_COLL_EDEFAULT = 0;
+  protected static final Integer MED_COLL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMedColl() <em>Med Coll</em>}' attribute.
@@ -78,7 +78,7 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    * @ordered
    */
-  protected int medColl = MED_COLL_EDEFAULT;
+  protected Integer medColl = MED_COLL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMFCScpe() <em>MFC Scpe</em>}' attribute.
@@ -88,7 +88,7 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    * @ordered
    */
-  protected static final int MFC_SCPE_EDEFAULT = 0;
+  protected static final Integer MFC_SCPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMFCScpe() <em>MFC Scpe</em>}' attribute.
@@ -98,7 +98,7 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    * @ordered
    */
-  protected int mfcScpe = MFC_SCPE_EDEFAULT;
+  protected Integer mfcScpe = MFC_SCPE_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -137,7 +137,7 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    */
   @Override
-  public int getMFCFlgs()
+  public Integer getMFCFlgs()
   {
     return mfcFlgs;
   }
@@ -148,9 +148,9 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    */
   @Override
-  public void setMFCFlgs(int newMFCFlgs)
+  public void setMFCFlgs(Integer newMFCFlgs)
   {
-    int oldMFCFlgs = mfcFlgs;
+    Integer oldMFCFlgs = mfcFlgs;
     mfcFlgs = newMFCFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MFC__MFC_FLGS, oldMFCFlgs, mfcFlgs));
@@ -162,7 +162,7 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    */
   @Override
-  public int getMedColl()
+  public Integer getMedColl()
   {
     return medColl;
   }
@@ -173,9 +173,9 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    */
   @Override
-  public void setMedColl(int newMedColl)
+  public void setMedColl(Integer newMedColl)
   {
-    int oldMedColl = medColl;
+    Integer oldMedColl = medColl;
     medColl = newMedColl;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MFC__MED_COLL, oldMedColl, medColl));
@@ -187,7 +187,7 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    */
   @Override
-  public int getMFCScpe()
+  public Integer getMFCScpe()
   {
     return mfcScpe;
   }
@@ -198,9 +198,9 @@ public class MFCImpl extends structuredFieldImpl implements MFC
    * @generated
    */
   @Override
-  public void setMFCScpe(int newMFCScpe)
+  public void setMFCScpe(Integer newMFCScpe)
   {
-    int oldMFCScpe = mfcScpe;
+    Integer oldMFCScpe = mfcScpe;
     mfcScpe = newMFCScpe;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MFC__MFC_SCPE, oldMFCScpe, mfcScpe));
@@ -324,11 +324,11 @@ public class MFCImpl extends structuredFieldImpl implements MFC
     switch (featureID)
     {
       case AfpTextPackage.MFC__MFC_FLGS:
-        return mfcFlgs != MFC_FLGS_EDEFAULT;
+        return MFC_FLGS_EDEFAULT == null ? mfcFlgs != null : !MFC_FLGS_EDEFAULT.equals(mfcFlgs);
       case AfpTextPackage.MFC__MED_COLL:
-        return medColl != MED_COLL_EDEFAULT;
+        return MED_COLL_EDEFAULT == null ? medColl != null : !MED_COLL_EDEFAULT.equals(medColl);
       case AfpTextPackage.MFC__MFC_SCPE:
-        return mfcScpe != MFC_SCPE_EDEFAULT;
+        return MFC_SCPE_EDEFAULT == null ? mfcScpe != null : !MFC_SCPE_EDEFAULT.equals(mfcScpe);
       case AfpTextPackage.MFC__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

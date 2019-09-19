@@ -35,7 +35,7 @@ public class AMBImpl extends tripletImpl implements AMB
    * @generated
    * @ordered
    */
-  protected static final int DSPLCMNT_EDEFAULT = 0;
+  protected static final Integer DSPLCMNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDSPLCMNT() <em>DSPLCMNT</em>}' attribute.
@@ -45,7 +45,7 @@ public class AMBImpl extends tripletImpl implements AMB
    * @generated
    * @ordered
    */
-  protected int dsplcmnt = DSPLCMNT_EDEFAULT;
+  protected Integer dsplcmnt = DSPLCMNT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class AMBImpl extends tripletImpl implements AMB
    * @generated
    */
   @Override
-  public int getDSPLCMNT()
+  public Integer getDSPLCMNT()
   {
     return dsplcmnt;
   }
@@ -85,9 +85,9 @@ public class AMBImpl extends tripletImpl implements AMB
    * @generated
    */
   @Override
-  public void setDSPLCMNT(int newDSPLCMNT)
+  public void setDSPLCMNT(Integer newDSPLCMNT)
   {
-    int oldDSPLCMNT = dsplcmnt;
+    Integer oldDSPLCMNT = dsplcmnt;
     dsplcmnt = newDSPLCMNT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.AMB__DSPLCMNT, oldDSPLCMNT, dsplcmnt));
@@ -154,7 +154,7 @@ public class AMBImpl extends tripletImpl implements AMB
     switch (featureID)
     {
       case AfpTextPackage.AMB__DSPLCMNT:
-        return dsplcmnt != DSPLCMNT_EDEFAULT;
+        return DSPLCMNT_EDEFAULT == null ? dsplcmnt != null : !DSPLCMNT_EDEFAULT.equals(dsplcmnt);
     }
     return super.eIsSet(featureID);
   }

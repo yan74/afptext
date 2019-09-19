@@ -38,7 +38,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    * @ordered
    */
-  protected static final int P_EDEFAULT = 0;
+  protected static final Integer P_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getP() <em>P</em>}' attribute.
@@ -48,7 +48,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    * @ordered
    */
-  protected int p = P_EDEFAULT;
+  protected Integer p = P_EDEFAULT;
 
   /**
    * The default value of the '{@link #getQ() <em>Q</em>}' attribute.
@@ -58,7 +58,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    * @ordered
    */
-  protected static final int Q_EDEFAULT = 0;
+  protected static final Integer Q_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getQ() <em>Q</em>}' attribute.
@@ -68,7 +68,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    * @ordered
    */
-  protected int q = Q_EDEFAULT;
+  protected Integer q = Q_EDEFAULT;
 
   /**
    * The default value of the '{@link #getR() <em>R</em>}' attribute.
@@ -78,7 +78,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    * @ordered
    */
-  protected static final int R_EDEFAULT = 0;
+  protected static final Integer R_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getR() <em>R</em>}' attribute.
@@ -88,7 +88,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    * @ordered
    */
-  protected int r = R_EDEFAULT;
+  protected Integer r = R_EDEFAULT;
 
   /**
    * The default value of the '{@link #getS() <em>S</em>}' attribute.
@@ -98,7 +98,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    * @ordered
    */
-  protected static final int S_EDEFAULT = 0;
+  protected static final Integer S_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getS() <em>S</em>}' attribute.
@@ -108,7 +108,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    * @ordered
    */
-  protected int s = S_EDEFAULT;
+  protected Integer s = S_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -137,7 +137,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    */
   @Override
-  public int getP()
+  public Integer getP()
   {
     return p;
   }
@@ -148,9 +148,9 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    */
   @Override
-  public void setP(int newP)
+  public void setP(Integer newP)
   {
-    int oldP = p;
+    Integer oldP = p;
     p = newP;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSAP__P, oldP, p));
@@ -162,7 +162,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    */
   @Override
-  public int getQ()
+  public Integer getQ()
   {
     return q;
   }
@@ -173,9 +173,9 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    */
   @Override
-  public void setQ(int newQ)
+  public void setQ(Integer newQ)
   {
-    int oldQ = q;
+    Integer oldQ = q;
     q = newQ;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSAP__Q, oldQ, q));
@@ -187,7 +187,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    */
   @Override
-  public int getR()
+  public Integer getR()
   {
     return r;
   }
@@ -198,9 +198,9 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    */
   @Override
-  public void setR(int newR)
+  public void setR(Integer newR)
   {
-    int oldR = r;
+    Integer oldR = r;
     r = newR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSAP__R, oldR, r));
@@ -212,7 +212,7 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    */
   @Override
-  public int getS()
+  public Integer getS()
   {
     return s;
   }
@@ -223,9 +223,9 @@ public class GSAPImpl extends tripletImpl implements GSAP
    * @generated
    */
   @Override
-  public void setS(int newS)
+  public void setS(Integer newS)
   {
-    int oldS = s;
+    Integer oldS = s;
     s = newS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSAP__S, oldS, s));
@@ -316,13 +316,13 @@ public class GSAPImpl extends tripletImpl implements GSAP
     switch (featureID)
     {
       case AfpTextPackage.GSAP__P:
-        return p != P_EDEFAULT;
+        return P_EDEFAULT == null ? p != null : !P_EDEFAULT.equals(p);
       case AfpTextPackage.GSAP__Q:
-        return q != Q_EDEFAULT;
+        return Q_EDEFAULT == null ? q != null : !Q_EDEFAULT.equals(q);
       case AfpTextPackage.GSAP__R:
-        return r != R_EDEFAULT;
+        return R_EDEFAULT == null ? r != null : !R_EDEFAULT.equals(r);
       case AfpTextPackage.GSAP__S:
-        return s != S_EDEFAULT;
+        return S_EDEFAULT == null ? s != null : !S_EDEFAULT.equals(s);
     }
     return super.eIsSet(featureID);
   }

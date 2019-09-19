@@ -53,12 +53,12 @@ public interface CPIRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Prt Flags</em>' attribute.
-   * @see #setPrtFlags(int)
+   * @see #setPrtFlags(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPIRG_PrtFlags()
    * @model
    * @generated
    */
-  int getPrtFlags();
+  Integer getPrtFlags();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPIRG#getPrtFlags <em>Prt Flags</em>}' attribute.
@@ -68,19 +68,19 @@ public interface CPIRG extends EObject
    * @see #getPrtFlags()
    * @generated
    */
-  void setPrtFlags(int value);
+  void setPrtFlags(Integer value);
 
   /**
    * Returns the value of the '<em><b>Code Point</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Code Point</em>' attribute.
-   * @see #setCodePoint(int)
+   * @see #setCodePoint(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPIRG_CodePoint()
    * @model
    * @generated
    */
-  int getCodePoint();
+  Integer getCodePoint();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPIRG#getCodePoint <em>Code Point</em>}' attribute.
@@ -90,19 +90,19 @@ public interface CPIRG extends EObject
    * @see #getCodePoint()
    * @generated
    */
-  void setCodePoint(int value);
+  void setCodePoint(Integer value);
 
   /**
    * Returns the value of the '<em><b>Count</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Count</em>' attribute.
-   * @see #setCount(int)
+   * @see #setCount(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPIRG_Count()
    * @model
    * @generated
    */
-  int getCount();
+  Integer getCount();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPIRG#getCount <em>Count</em>}' attribute.
@@ -112,6 +112,6 @@ public interface CPIRG extends EObject
    * @see #getCount()
    * @generated
    */
-  void setCount(int value);
+  void setCount(Integer value);
 
 } // CPIRG

@@ -37,7 +37,7 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    * @ordered
    */
-  protected static final int COMPRID_EDEFAULT = 0;
+  protected static final Integer COMPRID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOMPRID() <em>COMPRID</em>}' attribute.
@@ -47,7 +47,7 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    * @ordered
    */
-  protected int comprid = COMPRID_EDEFAULT;
+  protected Integer comprid = COMPRID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRECID() <em>RECID</em>}' attribute.
@@ -57,7 +57,7 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    * @ordered
    */
-  protected static final int RECID_EDEFAULT = 0;
+  protected static final Integer RECID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRECID() <em>RECID</em>}' attribute.
@@ -67,7 +67,7 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    * @ordered
    */
-  protected int recid = RECID_EDEFAULT;
+  protected Integer recid = RECID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getBITORDR() <em>BITORDR</em>}' attribute.
@@ -77,7 +77,7 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    * @ordered
    */
-  protected static final int BITORDR_EDEFAULT = 0;
+  protected static final Integer BITORDR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBITORDR() <em>BITORDR</em>}' attribute.
@@ -87,7 +87,7 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    * @ordered
    */
-  protected int bitordr = BITORDR_EDEFAULT;
+  protected Integer bitordr = BITORDR_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    */
   @Override
-  public int getCOMPRID()
+  public Integer getCOMPRID()
   {
     return comprid;
   }
@@ -127,9 +127,9 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    */
   @Override
-  public void setCOMPRID(int newCOMPRID)
+  public void setCOMPRID(Integer newCOMPRID)
   {
-    int oldCOMPRID = comprid;
+    Integer oldCOMPRID = comprid;
     comprid = newCOMPRID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_ENCODING__COMPRID, oldCOMPRID, comprid));
@@ -141,7 +141,7 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    */
   @Override
-  public int getRECID()
+  public Integer getRECID()
   {
     return recid;
   }
@@ -152,9 +152,9 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    */
   @Override
-  public void setRECID(int newRECID)
+  public void setRECID(Integer newRECID)
   {
-    int oldRECID = recid;
+    Integer oldRECID = recid;
     recid = newRECID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_ENCODING__RECID, oldRECID, recid));
@@ -166,7 +166,7 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    */
   @Override
-  public int getBITORDR()
+  public Integer getBITORDR()
   {
     return bitordr;
   }
@@ -177,9 +177,9 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
    * @generated
    */
   @Override
-  public void setBITORDR(int newBITORDR)
+  public void setBITORDR(Integer newBITORDR)
   {
-    int oldBITORDR = bitordr;
+    Integer oldBITORDR = bitordr;
     bitordr = newBITORDR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_ENCODING__BITORDR, oldBITORDR, bitordr));
@@ -262,11 +262,11 @@ public class ImageEncodingImpl extends tripletImpl implements ImageEncoding
     switch (featureID)
     {
       case AfpTextPackage.IMAGE_ENCODING__COMPRID:
-        return comprid != COMPRID_EDEFAULT;
+        return COMPRID_EDEFAULT == null ? comprid != null : !COMPRID_EDEFAULT.equals(comprid);
       case AfpTextPackage.IMAGE_ENCODING__RECID:
-        return recid != RECID_EDEFAULT;
+        return RECID_EDEFAULT == null ? recid != null : !RECID_EDEFAULT.equals(recid);
       case AfpTextPackage.IMAGE_ENCODING__BITORDR:
-        return bitordr != BITORDR_EDEFAULT;
+        return BITORDR_EDEFAULT == null ? bitordr != null : !BITORDR_EDEFAULT.equals(bitordr);
     }
     return super.eIsSet(featureID);
   }

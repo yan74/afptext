@@ -38,7 +38,7 @@ public class ObjectOriginIdentifierImpl extends tripletImpl implements ObjectOri
    * @generated
    * @ordered
    */
-  protected static final int SYSTEM_EDEFAULT = 0;
+  protected static final Integer SYSTEM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSystem() <em>System</em>}' attribute.
@@ -48,7 +48,7 @@ public class ObjectOriginIdentifierImpl extends tripletImpl implements ObjectOri
    * @generated
    * @ordered
    */
-  protected int system = SYSTEM_EDEFAULT;
+  protected Integer system = SYSTEM_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSysID() <em>Sys ID</em>}' attribute.
@@ -137,7 +137,7 @@ public class ObjectOriginIdentifierImpl extends tripletImpl implements ObjectOri
    * @generated
    */
   @Override
-  public int getSystem()
+  public Integer getSystem()
   {
     return system;
   }
@@ -148,9 +148,9 @@ public class ObjectOriginIdentifierImpl extends tripletImpl implements ObjectOri
    * @generated
    */
   @Override
-  public void setSystem(int newSystem)
+  public void setSystem(Integer newSystem)
   {
-    int oldSystem = system;
+    Integer oldSystem = system;
     system = newSystem;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_ORIGIN_IDENTIFIER__SYSTEM, oldSystem, system));
@@ -316,7 +316,7 @@ public class ObjectOriginIdentifierImpl extends tripletImpl implements ObjectOri
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_ORIGIN_IDENTIFIER__SYSTEM:
-        return system != SYSTEM_EDEFAULT;
+        return SYSTEM_EDEFAULT == null ? system != null : !SYSTEM_EDEFAULT.equals(system);
       case AfpTextPackage.OBJECT_ORIGIN_IDENTIFIER__SYS_ID:
         return SYS_ID_EDEFAULT == null ? sysID != null : !SYS_ID_EDEFAULT.equals(sysID);
       case AfpTextPackage.OBJECT_ORIGIN_IDENTIFIER__MED_ID:

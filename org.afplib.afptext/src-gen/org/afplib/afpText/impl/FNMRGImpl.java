@@ -38,7 +38,7 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    * @ordered
    */
-  protected static final int CHAR_BOX_WD_EDEFAULT = 0;
+  protected static final Integer CHAR_BOX_WD_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCharBoxWd() <em>Char Box Wd</em>}' attribute.
@@ -48,7 +48,7 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    * @ordered
    */
-  protected int charBoxWd = CHAR_BOX_WD_EDEFAULT;
+  protected Integer charBoxWd = CHAR_BOX_WD_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCharBoxHt() <em>Char Box Ht</em>}' attribute.
@@ -58,7 +58,7 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    * @ordered
    */
-  protected static final int CHAR_BOX_HT_EDEFAULT = 0;
+  protected static final Integer CHAR_BOX_HT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCharBoxHt() <em>Char Box Ht</em>}' attribute.
@@ -68,7 +68,7 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    * @ordered
    */
-  protected int charBoxHt = CHAR_BOX_HT_EDEFAULT;
+  protected Integer charBoxHt = CHAR_BOX_HT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPatDOset() <em>Pat DOset</em>}' attribute.
@@ -78,7 +78,7 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    * @ordered
    */
-  protected static final int PAT_DOSET_EDEFAULT = 0;
+  protected static final Integer PAT_DOSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPatDOset() <em>Pat DOset</em>}' attribute.
@@ -88,7 +88,7 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    * @ordered
    */
-  protected int patDOset = PAT_DOSET_EDEFAULT;
+  protected Integer patDOset = PAT_DOSET_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -117,7 +117,7 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    */
   @Override
-  public int getCharBoxWd()
+  public Integer getCharBoxWd()
   {
     return charBoxWd;
   }
@@ -128,9 +128,9 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    */
   @Override
-  public void setCharBoxWd(int newCharBoxWd)
+  public void setCharBoxWd(Integer newCharBoxWd)
   {
-    int oldCharBoxWd = charBoxWd;
+    Integer oldCharBoxWd = charBoxWd;
     charBoxWd = newCharBoxWd;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNMRG__CHAR_BOX_WD, oldCharBoxWd, charBoxWd));
@@ -142,7 +142,7 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    */
   @Override
-  public int getCharBoxHt()
+  public Integer getCharBoxHt()
   {
     return charBoxHt;
   }
@@ -153,9 +153,9 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    */
   @Override
-  public void setCharBoxHt(int newCharBoxHt)
+  public void setCharBoxHt(Integer newCharBoxHt)
   {
-    int oldCharBoxHt = charBoxHt;
+    Integer oldCharBoxHt = charBoxHt;
     charBoxHt = newCharBoxHt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNMRG__CHAR_BOX_HT, oldCharBoxHt, charBoxHt));
@@ -167,7 +167,7 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    */
   @Override
-  public int getPatDOset()
+  public Integer getPatDOset()
   {
     return patDOset;
   }
@@ -178,9 +178,9 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
    * @generated
    */
   @Override
-  public void setPatDOset(int newPatDOset)
+  public void setPatDOset(Integer newPatDOset)
   {
-    int oldPatDOset = patDOset;
+    Integer oldPatDOset = patDOset;
     patDOset = newPatDOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNMRG__PAT_DOSET, oldPatDOset, patDOset));
@@ -263,11 +263,11 @@ public class FNMRGImpl extends MinimalEObjectImpl.Container implements FNMRG
     switch (featureID)
     {
       case AfpTextPackage.FNMRG__CHAR_BOX_WD:
-        return charBoxWd != CHAR_BOX_WD_EDEFAULT;
+        return CHAR_BOX_WD_EDEFAULT == null ? charBoxWd != null : !CHAR_BOX_WD_EDEFAULT.equals(charBoxWd);
       case AfpTextPackage.FNMRG__CHAR_BOX_HT:
-        return charBoxHt != CHAR_BOX_HT_EDEFAULT;
+        return CHAR_BOX_HT_EDEFAULT == null ? charBoxHt != null : !CHAR_BOX_HT_EDEFAULT.equals(charBoxHt);
       case AfpTextPackage.FNMRG__PAT_DOSET:
-        return patDOset != PAT_DOSET_EDEFAULT;
+        return PAT_DOSET_EDEFAULT == null ? patDOset != null : !PAT_DOSET_EDEFAULT.equals(patDOset);
     }
     return super.eIsSet(featureID);
   }

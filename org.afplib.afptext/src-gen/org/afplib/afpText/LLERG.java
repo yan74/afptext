@@ -32,12 +32,12 @@ public interface LLERG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RG Length</em>' attribute.
-   * @see #setRGLength(int)
+   * @see #setRGLength(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLLERG_RGLength()
    * @model
    * @generated
    */
-  int getRGLength();
+  Integer getRGLength();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LLERG#getRGLength <em>RG Length</em>}' attribute.
@@ -47,19 +47,19 @@ public interface LLERG extends EObject
    * @see #getRGLength()
    * @generated
    */
-  void setRGLength(int value);
+  void setRGLength(Integer value);
 
   /**
    * Returns the value of the '<em><b>RG Funct</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RG Funct</em>' attribute.
-   * @see #setRGFunct(int)
+   * @see #setRGFunct(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLLERG_RGFunct()
    * @model
    * @generated
    */
-  int getRGFunct();
+  Integer getRGFunct();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LLERG#getRGFunct <em>RG Funct</em>}' attribute.
@@ -69,7 +69,7 @@ public interface LLERG extends EObject
    * @see #getRGFunct()
    * @generated
    */
-  void setRGFunct(int value);
+  void setRGFunct(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

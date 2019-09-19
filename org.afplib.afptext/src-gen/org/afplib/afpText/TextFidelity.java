@@ -28,12 +28,12 @@ public interface TextFidelity extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Stp Txt Ex</em>' attribute.
-   * @see #setStpTxtEx(int)
+   * @see #setStpTxtEx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTextFidelity_StpTxtEx()
    * @model
    * @generated
    */
-  int getStpTxtEx();
+  Integer getStpTxtEx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TextFidelity#getStpTxtEx <em>Stp Txt Ex</em>}' attribute.
@@ -43,19 +43,19 @@ public interface TextFidelity extends triplet
    * @see #getStpTxtEx()
    * @generated
    */
-  void setStpTxtEx(int value);
+  void setStpTxtEx(Integer value);
 
   /**
    * Returns the value of the '<em><b>Rep Txt Ex</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Rep Txt Ex</em>' attribute.
-   * @see #setRepTxtEx(int)
+   * @see #setRepTxtEx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTextFidelity_RepTxtEx()
    * @model
    * @generated
    */
-  int getRepTxtEx();
+  Integer getRepTxtEx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TextFidelity#getRepTxtEx <em>Rep Txt Ex</em>}' attribute.
@@ -65,6 +65,6 @@ public interface TextFidelity extends triplet
    * @see #getRepTxtEx()
    * @generated
    */
-  void setRepTxtEx(int value);
+  void setRepTxtEx(Integer value);
 
 } // TextFidelity

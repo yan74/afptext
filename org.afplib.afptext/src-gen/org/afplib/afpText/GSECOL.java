@@ -27,12 +27,12 @@ public interface GSECOL extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLOR</em>' attribute.
-   * @see #setCOLOR(int)
+   * @see #setCOLOR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSECOL_COLOR()
    * @model
    * @generated
    */
-  int getCOLOR();
+  Integer getCOLOR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSECOL#getCOLOR <em>COLOR</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSECOL extends triplet
    * @see #getCOLOR()
    * @generated
    */
-  void setCOLOR(int value);
+  void setCOLOR(Integer value);
 
 } // GSECOL

@@ -44,7 +44,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -54,7 +54,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYearAD() <em>Year AD</em>}' attribute.
@@ -64,7 +64,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int YEAR_AD_EDEFAULT = 0;
+  protected static final Integer YEAR_AD_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYearAD() <em>Year AD</em>}' attribute.
@@ -74,7 +74,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int yearAD = YEAR_AD_EDEFAULT;
+  protected Integer yearAD = YEAR_AD_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMonth() <em>Month</em>}' attribute.
@@ -84,7 +84,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int MONTH_EDEFAULT = 0;
+  protected static final Integer MONTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMonth() <em>Month</em>}' attribute.
@@ -94,7 +94,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int month = MONTH_EDEFAULT;
+  protected Integer month = MONTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDay() <em>Day</em>}' attribute.
@@ -104,7 +104,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int DAY_EDEFAULT = 0;
+  protected static final Integer DAY_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDay() <em>Day</em>}' attribute.
@@ -114,7 +114,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int day = DAY_EDEFAULT;
+  protected Integer day = DAY_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHour() <em>Hour</em>}' attribute.
@@ -124,7 +124,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int HOUR_EDEFAULT = 0;
+  protected static final Integer HOUR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHour() <em>Hour</em>}' attribute.
@@ -134,7 +134,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int hour = HOUR_EDEFAULT;
+  protected Integer hour = HOUR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMinute() <em>Minute</em>}' attribute.
@@ -144,7 +144,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int MINUTE_EDEFAULT = 0;
+  protected static final Integer MINUTE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMinute() <em>Minute</em>}' attribute.
@@ -154,7 +154,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int minute = MINUTE_EDEFAULT;
+  protected Integer minute = MINUTE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSecond() <em>Second</em>}' attribute.
@@ -164,7 +164,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int SECOND_EDEFAULT = 0;
+  protected static final Integer SECOND_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSecond() <em>Second</em>}' attribute.
@@ -174,7 +174,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int second = SECOND_EDEFAULT;
+  protected Integer second = SECOND_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTimeZone() <em>Time Zone</em>}' attribute.
@@ -184,7 +184,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int TIME_ZONE_EDEFAULT = 0;
+  protected static final Integer TIME_ZONE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTimeZone() <em>Time Zone</em>}' attribute.
@@ -194,7 +194,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int timeZone = TIME_ZONE_EDEFAULT;
+  protected Integer timeZone = TIME_ZONE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getUTCDiffH() <em>UTC Diff H</em>}' attribute.
@@ -204,7 +204,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int UTC_DIFF_H_EDEFAULT = 0;
+  protected static final Integer UTC_DIFF_H_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUTCDiffH() <em>UTC Diff H</em>}' attribute.
@@ -214,7 +214,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int utcDiffH = UTC_DIFF_H_EDEFAULT;
+  protected Integer utcDiffH = UTC_DIFF_H_EDEFAULT;
 
   /**
    * The default value of the '{@link #getUTCDiffM() <em>UTC Diff M</em>}' attribute.
@@ -224,7 +224,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected static final int UTC_DIFF_M_EDEFAULT = 0;
+  protected static final Integer UTC_DIFF_M_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUTCDiffM() <em>UTC Diff M</em>}' attribute.
@@ -234,7 +234,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    * @ordered
    */
-  protected int utcDiffM = UTC_DIFF_M_EDEFAULT;
+  protected Integer utcDiffM = UTC_DIFF_M_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -263,7 +263,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -274,9 +274,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__RESERVED, oldReserved, reserved));
@@ -288,7 +288,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getYearAD()
+  public Integer getYearAD()
   {
     return yearAD;
   }
@@ -299,9 +299,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setYearAD(int newYearAD)
+  public void setYearAD(Integer newYearAD)
   {
-    int oldYearAD = yearAD;
+    Integer oldYearAD = yearAD;
     yearAD = newYearAD;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__YEAR_AD, oldYearAD, yearAD));
@@ -313,7 +313,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getMonth()
+  public Integer getMonth()
   {
     return month;
   }
@@ -324,9 +324,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setMonth(int newMonth)
+  public void setMonth(Integer newMonth)
   {
-    int oldMonth = month;
+    Integer oldMonth = month;
     month = newMonth;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__MONTH, oldMonth, month));
@@ -338,7 +338,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getDay()
+  public Integer getDay()
   {
     return day;
   }
@@ -349,9 +349,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setDay(int newDay)
+  public void setDay(Integer newDay)
   {
-    int oldDay = day;
+    Integer oldDay = day;
     day = newDay;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__DAY, oldDay, day));
@@ -363,7 +363,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getHour()
+  public Integer getHour()
   {
     return hour;
   }
@@ -374,9 +374,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setHour(int newHour)
+  public void setHour(Integer newHour)
   {
-    int oldHour = hour;
+    Integer oldHour = hour;
     hour = newHour;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__HOUR, oldHour, hour));
@@ -388,7 +388,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getMinute()
+  public Integer getMinute()
   {
     return minute;
   }
@@ -399,9 +399,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setMinute(int newMinute)
+  public void setMinute(Integer newMinute)
   {
-    int oldMinute = minute;
+    Integer oldMinute = minute;
     minute = newMinute;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__MINUTE, oldMinute, minute));
@@ -413,7 +413,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getSecond()
+  public Integer getSecond()
   {
     return second;
   }
@@ -424,9 +424,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setSecond(int newSecond)
+  public void setSecond(Integer newSecond)
   {
-    int oldSecond = second;
+    Integer oldSecond = second;
     second = newSecond;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__SECOND, oldSecond, second));
@@ -438,7 +438,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getTimeZone()
+  public Integer getTimeZone()
   {
     return timeZone;
   }
@@ -449,9 +449,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setTimeZone(int newTimeZone)
+  public void setTimeZone(Integer newTimeZone)
   {
-    int oldTimeZone = timeZone;
+    Integer oldTimeZone = timeZone;
     timeZone = newTimeZone;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__TIME_ZONE, oldTimeZone, timeZone));
@@ -463,7 +463,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getUTCDiffH()
+  public Integer getUTCDiffH()
   {
     return utcDiffH;
   }
@@ -474,9 +474,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setUTCDiffH(int newUTCDiffH)
+  public void setUTCDiffH(Integer newUTCDiffH)
   {
-    int oldUTCDiffH = utcDiffH;
+    Integer oldUTCDiffH = utcDiffH;
     utcDiffH = newUTCDiffH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__UTC_DIFF_H, oldUTCDiffH, utcDiffH));
@@ -488,7 +488,7 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public int getUTCDiffM()
+  public Integer getUTCDiffM()
   {
     return utcDiffM;
   }
@@ -499,9 +499,9 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
    * @generated
    */
   @Override
-  public void setUTCDiffM(int newUTCDiffM)
+  public void setUTCDiffM(Integer newUTCDiffM)
   {
-    int oldUTCDiffM = utcDiffM;
+    Integer oldUTCDiffM = utcDiffM;
     utcDiffM = newUTCDiffM;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__UTC_DIFF_M, oldUTCDiffM, utcDiffM));
@@ -640,25 +640,25 @@ public class UniversalDateAndTimeStampImpl extends tripletImpl implements Univer
     switch (featureID)
     {
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__YEAR_AD:
-        return yearAD != YEAR_AD_EDEFAULT;
+        return YEAR_AD_EDEFAULT == null ? yearAD != null : !YEAR_AD_EDEFAULT.equals(yearAD);
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__MONTH:
-        return month != MONTH_EDEFAULT;
+        return MONTH_EDEFAULT == null ? month != null : !MONTH_EDEFAULT.equals(month);
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__DAY:
-        return day != DAY_EDEFAULT;
+        return DAY_EDEFAULT == null ? day != null : !DAY_EDEFAULT.equals(day);
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__HOUR:
-        return hour != HOUR_EDEFAULT;
+        return HOUR_EDEFAULT == null ? hour != null : !HOUR_EDEFAULT.equals(hour);
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__MINUTE:
-        return minute != MINUTE_EDEFAULT;
+        return MINUTE_EDEFAULT == null ? minute != null : !MINUTE_EDEFAULT.equals(minute);
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__SECOND:
-        return second != SECOND_EDEFAULT;
+        return SECOND_EDEFAULT == null ? second != null : !SECOND_EDEFAULT.equals(second);
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__TIME_ZONE:
-        return timeZone != TIME_ZONE_EDEFAULT;
+        return TIME_ZONE_EDEFAULT == null ? timeZone != null : !TIME_ZONE_EDEFAULT.equals(timeZone);
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__UTC_DIFF_H:
-        return utcDiffH != UTC_DIFF_H_EDEFAULT;
+        return UTC_DIFF_H_EDEFAULT == null ? utcDiffH != null : !UTC_DIFF_H_EDEFAULT.equals(utcDiffH);
       case AfpTextPackage.UNIVERSAL_DATE_AND_TIME_STAMP__UTC_DIFF_M:
-        return utcDiffM != UTC_DIFF_M_EDEFAULT;
+        return UTC_DIFF_M_EDEFAULT == null ? utcDiffM != null : !UTC_DIFF_M_EDEFAULT.equals(utcDiffM);
     }
     return super.eIsSet(featureID);
   }

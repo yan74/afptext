@@ -2,6 +2,8 @@ package org.afplib.generator;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.List;
 
 import javax.xml.bind.DatatypeConverter;
@@ -13,32 +15,77 @@ import org.afplib.base.BasePackage;
 import org.afplib.base.SF;
 import org.afplib.base.Triplet;
 import org.afplib.io.AfpOutputStream;
+import org.eclipse.emf.common.util.TreeIterator;
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.resource.Resource;
+import org.eclipse.xtext.util.CancelIndicator;
 
-public class Text2AFP {
+public class Text2AFP extends InputStream {
 
 	private static final EClass sfEClass = BasePackage.eINSTANCE.getSF();
 	private static final EClass tripletEClass = BasePackage.eINSTANCE.getTriplet();
 	
-	private ByteArrayOutputStream result = new ByteArrayOutputStream();
 	private AfpOutputStream out;
-	
-	public Text2AFP() {
-		out = new AfpOutputStream(result);
+	private CancelIndicator cancelIndicator;
+	private byte[] current;
+	private int currentLength;
+	private int pointer;
+	private TreeIterator<EObject> iterator;
+
+	class AfpOut extends AfpOutputStream {
+		public AfpOut() {
+			super(null);
+		}
+
+		@Override
+		public void write(byte[] b, int off, int len) throws IOException {
+			current = b;
+			currentLength = len;
+		}
 	}
 	
-	public void add(structuredField text) throws IOException {
-		System.out.println(text);
-		out.writeStructuredField(toSF(text));
+	public Text2AFP(Resource resource, CancelIndicator indicator) {
+		this.cancelIndicator = indicator;
+		this.out = new AfpOut();
+		this.iterator = resource.getAllContents();
+	}
+
+	@Override
+	public int read() throws IOException {
+		if(current == null) {
+			if(!next()) {
+				return -1;
+			}
+			pointer = 0;
+		}
+		if(pointer >= currentLength) {
+			if(!next()) {
+				return -1;
+			}
+			pointer = 0;
+		}
+		
+		return current[pointer++] & 0xff;
+	}
+
+	private boolean next() throws IOException {
+		
+		if(cancelIndicator.isCanceled()) return false;
+		
+		EObject next = null;
+		do {
+			if(!iterator.hasNext()) return false;
+			next = iterator.next();
+			if(!(next instanceof structuredField)) next = null;
+		} while(next == null);
+		
+		out.writeStructuredField(toSF(next));
+		return true;
 	}
 	
-	public byte[] get() {
-		return result.toByteArray();
-	}
-	
-	public static SF toSF(EObject text) {
+	private static SF toSF(EObject text) {
 		String sfName = text.eClass().getName();
 		EClass sfClass = AfplibPackage.eINSTANCE.getEClassifiers().stream()
 			.filter(EClass.class::isInstance)
@@ -55,7 +102,7 @@ public class Text2AFP {
 		return sf;
 	}
 	
-	public static Triplet toTriplet(EObject text) {
+	private static Triplet toTriplet(EObject text) {
 		String tName = text.eClass().getName();
 		EClass tClass = AfplibPackage.eINSTANCE.getEClassifiers().stream()
 			.filter(EClass.class::isInstance)
@@ -71,7 +118,7 @@ public class Text2AFP {
 		return triplet;
 	}
 
-	public static void copyAttributes(EObject text, EObject afp) {
+	private static void copyAttributes(EObject text, EObject afp) {
 		for(EAttribute attr : text.eClass().getEAllAttributes()) {
 			afp.eClass().getEAllAttributes().stream()
 				.filter(a -> a.getName().equals(attr.getName()))
@@ -84,19 +131,20 @@ public class Text2AFP {
 						value = ((String)value).substring(1, ((String)value).length() - 1); // remove [ and ]
 						value = DatatypeConverter.parseHexBinary((String) value);
 					}
-					afp.eSet(a, value);
+					if(value != null) afp.eSet(a, value);
 				});
 		}
 	}
 
-	public static void copyContainments(EObject text, EObject afp) {
+	private static void copyContainments(EObject text, EObject afp) {
 		
 		text.eClass().getEAllContainments().stream()
 			.filter(c -> c.getName().equalsIgnoreCase("triplets"))
 			.findAny().ifPresent(c -> {
 				List<EObject> triplets = (List<EObject>) text.eGet(c);
 				afp.eClass().getEAllContainments().stream()
-					.filter(c2 -> c2.getName().equalsIgnoreCase("triplets"))
+					.filter(c2 -> !c2.equals(BasePackage.eINSTANCE.getSF_Children()))
+					.filter(c2 -> !c2.getName().equalsIgnoreCase("rg") && !c2.getName().equalsIgnoreCase("FixedLengthRG"))
 					.findAny().ifPresent(c2 -> {
 						List<EObject> afpTriplets = (List<EObject>) afp.eGet(c2);
 						triplets.stream().map(Text2AFP::toTriplet)
@@ -109,7 +157,7 @@ public class Text2AFP {
 				.forEach(c -> {
 					List<EObject> rg = (List<EObject>) text.eGet(c);
 					afp.eClass().getEAllContainments().stream()
-						.filter(c2 -> c2.getName().equalsIgnoreCase("rg"))
+						.filter(c2 -> c2.getName().equalsIgnoreCase("rg") || c2.getName().equalsIgnoreCase("FixedLengthRG"))
 						.findAny().ifPresent(c2 -> {
 							List<EObject> afpRG = (List<EObject>) afp.eGet(c2);
 							rg.stream().map(Text2AFP::toTriplet)
@@ -118,4 +166,5 @@ public class Text2AFP {
 				});
 
 	}
+
 }

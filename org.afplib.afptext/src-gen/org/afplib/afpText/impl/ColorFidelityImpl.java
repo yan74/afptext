@@ -37,7 +37,7 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    * @ordered
    */
-  protected static final int STP_CO_EX_EDEFAULT = 0;
+  protected static final Integer STP_CO_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStpCoEx() <em>Stp Co Ex</em>}' attribute.
@@ -47,7 +47,7 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    * @ordered
    */
-  protected int stpCoEx = STP_CO_EX_EDEFAULT;
+  protected Integer stpCoEx = STP_CO_EX_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRepCoEx() <em>Rep Co Ex</em>}' attribute.
@@ -57,7 +57,7 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    * @ordered
    */
-  protected static final int REP_CO_EX_EDEFAULT = 0;
+  protected static final Integer REP_CO_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRepCoEx() <em>Rep Co Ex</em>}' attribute.
@@ -67,7 +67,7 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    * @ordered
    */
-  protected int repCoEx = REP_CO_EX_EDEFAULT;
+  protected Integer repCoEx = REP_CO_EX_EDEFAULT;
 
   /**
    * The default value of the '{@link #getColSub() <em>Col Sub</em>}' attribute.
@@ -77,7 +77,7 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    * @ordered
    */
-  protected static final int COL_SUB_EDEFAULT = 0;
+  protected static final Integer COL_SUB_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getColSub() <em>Col Sub</em>}' attribute.
@@ -87,7 +87,7 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    * @ordered
    */
-  protected int colSub = COL_SUB_EDEFAULT;
+  protected Integer colSub = COL_SUB_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    */
   @Override
-  public int getStpCoEx()
+  public Integer getStpCoEx()
   {
     return stpCoEx;
   }
@@ -127,9 +127,9 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    */
   @Override
-  public void setStpCoEx(int newStpCoEx)
+  public void setStpCoEx(Integer newStpCoEx)
   {
-    int oldStpCoEx = stpCoEx;
+    Integer oldStpCoEx = stpCoEx;
     stpCoEx = newStpCoEx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_FIDELITY__STP_CO_EX, oldStpCoEx, stpCoEx));
@@ -141,7 +141,7 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    */
   @Override
-  public int getRepCoEx()
+  public Integer getRepCoEx()
   {
     return repCoEx;
   }
@@ -152,9 +152,9 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    */
   @Override
-  public void setRepCoEx(int newRepCoEx)
+  public void setRepCoEx(Integer newRepCoEx)
   {
-    int oldRepCoEx = repCoEx;
+    Integer oldRepCoEx = repCoEx;
     repCoEx = newRepCoEx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_FIDELITY__REP_CO_EX, oldRepCoEx, repCoEx));
@@ -166,7 +166,7 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    */
   @Override
-  public int getColSub()
+  public Integer getColSub()
   {
     return colSub;
   }
@@ -177,9 +177,9 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
    * @generated
    */
   @Override
-  public void setColSub(int newColSub)
+  public void setColSub(Integer newColSub)
   {
-    int oldColSub = colSub;
+    Integer oldColSub = colSub;
     colSub = newColSub;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_FIDELITY__COL_SUB, oldColSub, colSub));
@@ -262,11 +262,11 @@ public class ColorFidelityImpl extends tripletImpl implements ColorFidelity
     switch (featureID)
     {
       case AfpTextPackage.COLOR_FIDELITY__STP_CO_EX:
-        return stpCoEx != STP_CO_EX_EDEFAULT;
+        return STP_CO_EX_EDEFAULT == null ? stpCoEx != null : !STP_CO_EX_EDEFAULT.equals(stpCoEx);
       case AfpTextPackage.COLOR_FIDELITY__REP_CO_EX:
-        return repCoEx != REP_CO_EX_EDEFAULT;
+        return REP_CO_EX_EDEFAULT == null ? repCoEx != null : !REP_CO_EX_EDEFAULT.equals(repCoEx);
       case AfpTextPackage.COLOR_FIDELITY__COL_SUB:
-        return colSub != COL_SUB_EDEFAULT;
+        return COL_SUB_EDEFAULT == null ? colSub != null : !COL_SUB_EDEFAULT.equals(colSub);
     }
     return super.eIsSet(featureID);
   }

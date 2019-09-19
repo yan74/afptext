@@ -37,7 +37,7 @@ public class GCRLINERGImpl extends MinimalEObjectImpl.Container implements GCRLI
    * @generated
    * @ordered
    */
-  protected static final int XOSSF_EDEFAULT = 0;
+  protected static final Integer XOSSF_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXOSSF() <em>XOSSF</em>}' attribute.
@@ -47,7 +47,7 @@ public class GCRLINERGImpl extends MinimalEObjectImpl.Container implements GCRLI
    * @generated
    * @ordered
    */
-  protected int xossf = XOSSF_EDEFAULT;
+  protected Integer xossf = XOSSF_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYOFFS() <em>YOFFS</em>}' attribute.
@@ -57,7 +57,7 @@ public class GCRLINERGImpl extends MinimalEObjectImpl.Container implements GCRLI
    * @generated
    * @ordered
    */
-  protected static final int YOFFS_EDEFAULT = 0;
+  protected static final Integer YOFFS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYOFFS() <em>YOFFS</em>}' attribute.
@@ -67,7 +67,7 @@ public class GCRLINERGImpl extends MinimalEObjectImpl.Container implements GCRLI
    * @generated
    * @ordered
    */
-  protected int yoffs = YOFFS_EDEFAULT;
+  protected Integer yoffs = YOFFS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -96,7 +96,7 @@ public class GCRLINERGImpl extends MinimalEObjectImpl.Container implements GCRLI
    * @generated
    */
   @Override
-  public int getXOSSF()
+  public Integer getXOSSF()
   {
     return xossf;
   }
@@ -107,9 +107,9 @@ public class GCRLINERGImpl extends MinimalEObjectImpl.Container implements GCRLI
    * @generated
    */
   @Override
-  public void setXOSSF(int newXOSSF)
+  public void setXOSSF(Integer newXOSSF)
   {
-    int oldXOSSF = xossf;
+    Integer oldXOSSF = xossf;
     xossf = newXOSSF;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCRLINERG__XOSSF, oldXOSSF, xossf));
@@ -121,7 +121,7 @@ public class GCRLINERGImpl extends MinimalEObjectImpl.Container implements GCRLI
    * @generated
    */
   @Override
-  public int getYOFFS()
+  public Integer getYOFFS()
   {
     return yoffs;
   }
@@ -132,9 +132,9 @@ public class GCRLINERGImpl extends MinimalEObjectImpl.Container implements GCRLI
    * @generated
    */
   @Override
-  public void setYOFFS(int newYOFFS)
+  public void setYOFFS(Integer newYOFFS)
   {
-    int oldYOFFS = yoffs;
+    Integer oldYOFFS = yoffs;
     yoffs = newYOFFS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCRLINERG__YOFFS, oldYOFFS, yoffs));
@@ -209,9 +209,9 @@ public class GCRLINERGImpl extends MinimalEObjectImpl.Container implements GCRLI
     switch (featureID)
     {
       case AfpTextPackage.GCRLINERG__XOSSF:
-        return xossf != XOSSF_EDEFAULT;
+        return XOSSF_EDEFAULT == null ? xossf != null : !XOSSF_EDEFAULT.equals(xossf);
       case AfpTextPackage.GCRLINERG__YOFFS:
-        return yoffs != YOFFS_EDEFAULT;
+        return YOFFS_EDEFAULT == null ? yoffs != null : !YOFFS_EDEFAULT.equals(yoffs);
     }
     return super.eIsSet(featureID);
   }

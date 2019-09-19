@@ -28,12 +28,12 @@ public interface PageOverlayConditionalProcessing extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Pg Ov Type</em>' attribute.
-   * @see #setPgOvType(int)
+   * @see #setPgOvType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPageOverlayConditionalProcessing_PgOvType()
    * @model
    * @generated
    */
-  int getPgOvType();
+  Integer getPgOvType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PageOverlayConditionalProcessing#getPgOvType <em>Pg Ov Type</em>}' attribute.
@@ -43,19 +43,19 @@ public interface PageOverlayConditionalProcessing extends triplet
    * @see #getPgOvType()
    * @generated
    */
-  void setPgOvType(int value);
+  void setPgOvType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Level</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Level</em>' attribute.
-   * @see #setLevel(int)
+   * @see #setLevel(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPageOverlayConditionalProcessing_Level()
    * @model
    * @generated
    */
-  int getLevel();
+  Integer getLevel();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PageOverlayConditionalProcessing#getLevel <em>Level</em>}' attribute.
@@ -65,6 +65,6 @@ public interface PageOverlayConditionalProcessing extends triplet
    * @see #getLevel()
    * @generated
    */
-  void setLevel(int value);
+  void setLevel(Integer value);
 
 } // PageOverlayConditionalProcessing

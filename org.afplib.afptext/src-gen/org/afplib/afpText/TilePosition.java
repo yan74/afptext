@@ -28,12 +28,12 @@ public interface TilePosition extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XOFFSET</em>' attribute.
-   * @see #setXOFFSET(int)
+   * @see #setXOFFSET(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTilePosition_XOFFSET()
    * @model
    * @generated
    */
-  int getXOFFSET();
+  Integer getXOFFSET();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TilePosition#getXOFFSET <em>XOFFSET</em>}' attribute.
@@ -43,19 +43,19 @@ public interface TilePosition extends triplet
    * @see #getXOFFSET()
    * @generated
    */
-  void setXOFFSET(int value);
+  void setXOFFSET(Integer value);
 
   /**
    * Returns the value of the '<em><b>YOFFSET</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YOFFSET</em>' attribute.
-   * @see #setYOFFSET(int)
+   * @see #setYOFFSET(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTilePosition_YOFFSET()
    * @model
    * @generated
    */
-  int getYOFFSET();
+  Integer getYOFFSET();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TilePosition#getYOFFSET <em>YOFFSET</em>}' attribute.
@@ -65,6 +65,6 @@ public interface TilePosition extends triplet
    * @see #getYOFFSET()
    * @generated
    */
-  void setYOFFSET(int value);
+  void setYOFFSET(Integer value);
 
 } // TilePosition

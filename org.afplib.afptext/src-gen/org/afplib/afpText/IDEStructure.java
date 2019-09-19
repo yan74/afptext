@@ -32,12 +32,12 @@ public interface IDEStructure extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FLAGS</em>' attribute.
-   * @see #setFLAGS(int)
+   * @see #setFLAGS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDEStructure_FLAGS()
    * @model
    * @generated
    */
-  int getFLAGS();
+  Integer getFLAGS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDEStructure#getFLAGS <em>FLAGS</em>}' attribute.
@@ -47,19 +47,19 @@ public interface IDEStructure extends triplet
    * @see #getFLAGS()
    * @generated
    */
-  void setFLAGS(int value);
+  void setFLAGS(Integer value);
 
   /**
    * Returns the value of the '<em><b>FORMAT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FORMAT</em>' attribute.
-   * @see #setFORMAT(int)
+   * @see #setFORMAT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDEStructure_FORMAT()
    * @model
    * @generated
    */
-  int getFORMAT();
+  Integer getFORMAT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDEStructure#getFORMAT <em>FORMAT</em>}' attribute.
@@ -69,19 +69,19 @@ public interface IDEStructure extends triplet
    * @see #getFORMAT()
    * @generated
    */
-  void setFORMAT(int value);
+  void setFORMAT(Integer value);
 
   /**
    * Returns the value of the '<em><b>SIZE1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SIZE1</em>' attribute.
-   * @see #setSIZE1(int)
+   * @see #setSIZE1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDEStructure_SIZE1()
    * @model
    * @generated
    */
-  int getSIZE1();
+  Integer getSIZE1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDEStructure#getSIZE1 <em>SIZE1</em>}' attribute.
@@ -91,19 +91,19 @@ public interface IDEStructure extends triplet
    * @see #getSIZE1()
    * @generated
    */
-  void setSIZE1(int value);
+  void setSIZE1(Integer value);
 
   /**
    * Returns the value of the '<em><b>SIZE2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SIZE2</em>' attribute.
-   * @see #setSIZE2(int)
+   * @see #setSIZE2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDEStructure_SIZE2()
    * @model
    * @generated
    */
-  int getSIZE2();
+  Integer getSIZE2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDEStructure#getSIZE2 <em>SIZE2</em>}' attribute.
@@ -113,19 +113,19 @@ public interface IDEStructure extends triplet
    * @see #getSIZE2()
    * @generated
    */
-  void setSIZE2(int value);
+  void setSIZE2(Integer value);
 
   /**
    * Returns the value of the '<em><b>SIZE3</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SIZE3</em>' attribute.
-   * @see #setSIZE3(int)
+   * @see #setSIZE3(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDEStructure_SIZE3()
    * @model
    * @generated
    */
-  int getSIZE3();
+  Integer getSIZE3();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDEStructure#getSIZE3 <em>SIZE3</em>}' attribute.
@@ -135,19 +135,19 @@ public interface IDEStructure extends triplet
    * @see #getSIZE3()
    * @generated
    */
-  void setSIZE3(int value);
+  void setSIZE3(Integer value);
 
   /**
    * Returns the value of the '<em><b>SIZE4</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SIZE4</em>' attribute.
-   * @see #setSIZE4(int)
+   * @see #setSIZE4(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIDEStructure_SIZE4()
    * @model
    * @generated
    */
-  int getSIZE4();
+  Integer getSIZE4();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IDEStructure#getSIZE4 <em>SIZE4</em>}' attribute.
@@ -157,6 +157,6 @@ public interface IDEStructure extends triplet
    * @see #getSIZE4()
    * @generated
    */
-  void setSIZE4(int value);
+  void setSIZE4(Integer value);
 
 } // IDEStructure

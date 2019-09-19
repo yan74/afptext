@@ -60,7 +60,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected static final int GCGID_LEN_EDEFAULT = 0;
+  protected static final Integer GCGID_LEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getGCGIDLen() <em>GCGID Len</em>}' attribute.
@@ -70,7 +70,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected int gcgidLen = GCGID_LEN_EDEFAULT;
+  protected Integer gcgidLen = GCGID_LEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getNumCdPts() <em>Num Cd Pts</em>}' attribute.
@@ -80,7 +80,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected static final int NUM_CD_PTS_EDEFAULT = 0;
+  protected static final Integer NUM_CD_PTS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNumCdPts() <em>Num Cd Pts</em>}' attribute.
@@ -90,7 +90,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected int numCdPts = NUM_CD_PTS_EDEFAULT;
+  protected Integer numCdPts = NUM_CD_PTS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getGCSGID() <em>GCSGID</em>}' attribute.
@@ -100,7 +100,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected static final int GCSGID_EDEFAULT = 0;
+  protected static final Integer GCSGID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getGCSGID() <em>GCSGID</em>}' attribute.
@@ -110,7 +110,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected int gcsgid = GCSGID_EDEFAULT;
+  protected Integer gcsgid = GCSGID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCPGID() <em>CPGID</em>}' attribute.
@@ -120,7 +120,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected static final int CPGID_EDEFAULT = 0;
+  protected static final Integer CPGID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCPGID() <em>CPGID</em>}' attribute.
@@ -130,7 +130,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected int cpgid = CPGID_EDEFAULT;
+  protected Integer cpgid = CPGID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getEncScheme() <em>Enc Scheme</em>}' attribute.
@@ -140,7 +140,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected static final int ENC_SCHEME_EDEFAULT = 0;
+  protected static final Integer ENC_SCHEME_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getEncScheme() <em>Enc Scheme</em>}' attribute.
@@ -150,7 +150,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    * @ordered
    */
-  protected int encScheme = ENC_SCHEME_EDEFAULT;
+  protected Integer encScheme = ENC_SCHEME_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -204,7 +204,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public int getGCGIDLen()
+  public Integer getGCGIDLen()
   {
     return gcgidLen;
   }
@@ -215,9 +215,9 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public void setGCGIDLen(int newGCGIDLen)
+  public void setGCGIDLen(Integer newGCGIDLen)
   {
-    int oldGCGIDLen = gcgidLen;
+    Integer oldGCGIDLen = gcgidLen;
     gcgidLen = newGCGIDLen;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPD__GCGID_LEN, oldGCGIDLen, gcgidLen));
@@ -229,7 +229,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public int getNumCdPts()
+  public Integer getNumCdPts()
   {
     return numCdPts;
   }
@@ -240,9 +240,9 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public void setNumCdPts(int newNumCdPts)
+  public void setNumCdPts(Integer newNumCdPts)
   {
-    int oldNumCdPts = numCdPts;
+    Integer oldNumCdPts = numCdPts;
     numCdPts = newNumCdPts;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPD__NUM_CD_PTS, oldNumCdPts, numCdPts));
@@ -254,7 +254,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public int getGCSGID()
+  public Integer getGCSGID()
   {
     return gcsgid;
   }
@@ -265,9 +265,9 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public void setGCSGID(int newGCSGID)
+  public void setGCSGID(Integer newGCSGID)
   {
-    int oldGCSGID = gcsgid;
+    Integer oldGCSGID = gcsgid;
     gcsgid = newGCSGID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPD__GCSGID, oldGCSGID, gcsgid));
@@ -279,7 +279,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public int getCPGID()
+  public Integer getCPGID()
   {
     return cpgid;
   }
@@ -290,9 +290,9 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public void setCPGID(int newCPGID)
+  public void setCPGID(Integer newCPGID)
   {
-    int oldCPGID = cpgid;
+    Integer oldCPGID = cpgid;
     cpgid = newCPGID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPD__CPGID, oldCPGID, cpgid));
@@ -304,7 +304,7 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public int getEncScheme()
+  public Integer getEncScheme()
   {
     return encScheme;
   }
@@ -315,9 +315,9 @@ public class CPDImpl extends structuredFieldImpl implements CPD
    * @generated
    */
   @Override
-  public void setEncScheme(int newEncScheme)
+  public void setEncScheme(Integer newEncScheme)
   {
-    int oldEncScheme = encScheme;
+    Integer oldEncScheme = encScheme;
     encScheme = newEncScheme;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPD__ENC_SCHEME, oldEncScheme, encScheme));
@@ -426,15 +426,15 @@ public class CPDImpl extends structuredFieldImpl implements CPD
       case AfpTextPackage.CPD__CP_DESC:
         return CP_DESC_EDEFAULT == null ? cpDesc != null : !CP_DESC_EDEFAULT.equals(cpDesc);
       case AfpTextPackage.CPD__GCGID_LEN:
-        return gcgidLen != GCGID_LEN_EDEFAULT;
+        return GCGID_LEN_EDEFAULT == null ? gcgidLen != null : !GCGID_LEN_EDEFAULT.equals(gcgidLen);
       case AfpTextPackage.CPD__NUM_CD_PTS:
-        return numCdPts != NUM_CD_PTS_EDEFAULT;
+        return NUM_CD_PTS_EDEFAULT == null ? numCdPts != null : !NUM_CD_PTS_EDEFAULT.equals(numCdPts);
       case AfpTextPackage.CPD__GCSGID:
-        return gcsgid != GCSGID_EDEFAULT;
+        return GCSGID_EDEFAULT == null ? gcsgid != null : !GCSGID_EDEFAULT.equals(gcsgid);
       case AfpTextPackage.CPD__CPGID:
-        return cpgid != CPGID_EDEFAULT;
+        return CPGID_EDEFAULT == null ? cpgid != null : !CPGID_EDEFAULT.equals(cpgid);
       case AfpTextPackage.CPD__ENC_SCHEME:
-        return encScheme != ENC_SCHEME_EDEFAULT;
+        return ENC_SCHEME_EDEFAULT == null ? encScheme != null : !ENC_SCHEME_EDEFAULT.equals(encScheme);
     }
     return super.eIsSet(featureID);
   }

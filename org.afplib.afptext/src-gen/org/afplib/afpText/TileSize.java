@@ -29,12 +29,12 @@ public interface TileSize extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>THSIZE</em>' attribute.
-   * @see #setTHSIZE(int)
+   * @see #setTHSIZE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSize_THSIZE()
    * @model
    * @generated
    */
-  int getTHSIZE();
+  Integer getTHSIZE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSize#getTHSIZE <em>THSIZE</em>}' attribute.
@@ -44,19 +44,19 @@ public interface TileSize extends triplet
    * @see #getTHSIZE()
    * @generated
    */
-  void setTHSIZE(int value);
+  void setTHSIZE(Integer value);
 
   /**
    * Returns the value of the '<em><b>TVSIZE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>TVSIZE</em>' attribute.
-   * @see #setTVSIZE(int)
+   * @see #setTVSIZE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSize_TVSIZE()
    * @model
    * @generated
    */
-  int getTVSIZE();
+  Integer getTVSIZE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSize#getTVSIZE <em>TVSIZE</em>}' attribute.
@@ -66,19 +66,19 @@ public interface TileSize extends triplet
    * @see #getTVSIZE()
    * @generated
    */
-  void setTVSIZE(int value);
+  void setTVSIZE(Integer value);
 
   /**
    * Returns the value of the '<em><b>RELRES</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RELRES</em>' attribute.
-   * @see #setRELRES(int)
+   * @see #setRELRES(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSize_RELRES()
    * @model
    * @generated
    */
-  int getRELRES();
+  Integer getRELRES();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSize#getRELRES <em>RELRES</em>}' attribute.
@@ -88,6 +88,6 @@ public interface TileSize extends triplet
    * @see #getRELRES()
    * @generated
    */
-  void setRELRES(int value);
+  void setRELRES(Integer value);
 
 } // TileSize

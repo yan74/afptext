@@ -82,7 +82,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int FT_WT_CLASS_EDEFAULT = 0;
+  protected static final Integer FT_WT_CLASS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFtWtClass() <em>Ft Wt Class</em>}' attribute.
@@ -92,7 +92,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int ftWtClass = FT_WT_CLASS_EDEFAULT;
+  protected Integer ftWtClass = FT_WT_CLASS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFtWdClass() <em>Ft Wd Class</em>}' attribute.
@@ -102,7 +102,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int FT_WD_CLASS_EDEFAULT = 0;
+  protected static final Integer FT_WD_CLASS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFtWdClass() <em>Ft Wd Class</em>}' attribute.
@@ -112,7 +112,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int ftWdClass = FT_WD_CLASS_EDEFAULT;
+  protected Integer ftWdClass = FT_WD_CLASS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMaxPtSize() <em>Max Pt Size</em>}' attribute.
@@ -122,7 +122,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int MAX_PT_SIZE_EDEFAULT = 0;
+  protected static final Integer MAX_PT_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMaxPtSize() <em>Max Pt Size</em>}' attribute.
@@ -132,7 +132,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int maxPtSize = MAX_PT_SIZE_EDEFAULT;
+  protected Integer maxPtSize = MAX_PT_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getNomPtSize() <em>Nom Pt Size</em>}' attribute.
@@ -142,7 +142,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int NOM_PT_SIZE_EDEFAULT = 0;
+  protected static final Integer NOM_PT_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNomPtSize() <em>Nom Pt Size</em>}' attribute.
@@ -152,7 +152,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int nomPtSize = NOM_PT_SIZE_EDEFAULT;
+  protected Integer nomPtSize = NOM_PT_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMinPtSize() <em>Min Pt Size</em>}' attribute.
@@ -162,7 +162,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int MIN_PT_SIZE_EDEFAULT = 0;
+  protected static final Integer MIN_PT_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMinPtSize() <em>Min Pt Size</em>}' attribute.
@@ -172,7 +172,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int minPtSize = MIN_PT_SIZE_EDEFAULT;
+  protected Integer minPtSize = MIN_PT_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMaxHSize() <em>Max HSize</em>}' attribute.
@@ -182,7 +182,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int MAX_HSIZE_EDEFAULT = 0;
+  protected static final Integer MAX_HSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMaxHSize() <em>Max HSize</em>}' attribute.
@@ -192,7 +192,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int maxHSize = MAX_HSIZE_EDEFAULT;
+  protected Integer maxHSize = MAX_HSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getNomHSize() <em>Nom HSize</em>}' attribute.
@@ -202,7 +202,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int NOM_HSIZE_EDEFAULT = 0;
+  protected static final Integer NOM_HSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNomHSize() <em>Nom HSize</em>}' attribute.
@@ -212,7 +212,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int nomHSize = NOM_HSIZE_EDEFAULT;
+  protected Integer nomHSize = NOM_HSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMinHSize() <em>Min HSize</em>}' attribute.
@@ -222,7 +222,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int MIN_HSIZE_EDEFAULT = 0;
+  protected static final Integer MIN_HSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMinHSize() <em>Min HSize</em>}' attribute.
@@ -232,7 +232,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int minHSize = MIN_HSIZE_EDEFAULT;
+  protected Integer minHSize = MIN_HSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDsnGenCls() <em>Dsn Gen Cls</em>}' attribute.
@@ -242,7 +242,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int DSN_GEN_CLS_EDEFAULT = 0;
+  protected static final Integer DSN_GEN_CLS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDsnGenCls() <em>Dsn Gen Cls</em>}' attribute.
@@ -252,7 +252,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int dsnGenCls = DSN_GEN_CLS_EDEFAULT;
+  protected Integer dsnGenCls = DSN_GEN_CLS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDsnSubCls() <em>Dsn Sub Cls</em>}' attribute.
@@ -262,7 +262,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int DSN_SUB_CLS_EDEFAULT = 0;
+  protected static final Integer DSN_SUB_CLS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDsnSubCls() <em>Dsn Sub Cls</em>}' attribute.
@@ -272,7 +272,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int dsnSubCls = DSN_SUB_CLS_EDEFAULT;
+  protected Integer dsnSubCls = DSN_SUB_CLS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDsnSpcGrp() <em>Dsn Spc Grp</em>}' attribute.
@@ -282,7 +282,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int DSN_SPC_GRP_EDEFAULT = 0;
+  protected static final Integer DSN_SPC_GRP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDsnSpcGrp() <em>Dsn Spc Grp</em>}' attribute.
@@ -292,7 +292,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int dsnSpcGrp = DSN_SPC_GRP_EDEFAULT;
+  protected Integer dsnSpcGrp = DSN_SPC_GRP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved1() <em>Reserved1</em>}' attribute.
@@ -322,7 +322,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int FT_DS_FLAGS_EDEFAULT = 0;
+  protected static final Integer FT_DS_FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFtDsFlags() <em>Ft Ds Flags</em>}' attribute.
@@ -332,7 +332,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int ftDsFlags = FT_DS_FLAGS_EDEFAULT;
+  protected Integer ftDsFlags = FT_DS_FLAGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -362,7 +362,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int GCSID_EDEFAULT = 0;
+  protected static final Integer GCSID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getGCSID() <em>GCSID</em>}' attribute.
@@ -372,7 +372,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int gcsid = GCSID_EDEFAULT;
+  protected Integer gcsid = GCSID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFGID() <em>FGID</em>}' attribute.
@@ -382,7 +382,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected static final int FGID_EDEFAULT = 0;
+  protected static final Integer FGID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFGID() <em>FGID</em>}' attribute.
@@ -392,7 +392,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    * @ordered
    */
-  protected int fgid = FGID_EDEFAULT;
+  protected Integer fgid = FGID_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -456,7 +456,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getFtWtClass()
+  public Integer getFtWtClass()
   {
     return ftWtClass;
   }
@@ -467,9 +467,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setFtWtClass(int newFtWtClass)
+  public void setFtWtClass(Integer newFtWtClass)
   {
-    int oldFtWtClass = ftWtClass;
+    Integer oldFtWtClass = ftWtClass;
     ftWtClass = newFtWtClass;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__FT_WT_CLASS, oldFtWtClass, ftWtClass));
@@ -481,7 +481,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getFtWdClass()
+  public Integer getFtWdClass()
   {
     return ftWdClass;
   }
@@ -492,9 +492,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setFtWdClass(int newFtWdClass)
+  public void setFtWdClass(Integer newFtWdClass)
   {
-    int oldFtWdClass = ftWdClass;
+    Integer oldFtWdClass = ftWdClass;
     ftWdClass = newFtWdClass;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__FT_WD_CLASS, oldFtWdClass, ftWdClass));
@@ -506,7 +506,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getMaxPtSize()
+  public Integer getMaxPtSize()
   {
     return maxPtSize;
   }
@@ -517,9 +517,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setMaxPtSize(int newMaxPtSize)
+  public void setMaxPtSize(Integer newMaxPtSize)
   {
-    int oldMaxPtSize = maxPtSize;
+    Integer oldMaxPtSize = maxPtSize;
     maxPtSize = newMaxPtSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__MAX_PT_SIZE, oldMaxPtSize, maxPtSize));
@@ -531,7 +531,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getNomPtSize()
+  public Integer getNomPtSize()
   {
     return nomPtSize;
   }
@@ -542,9 +542,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setNomPtSize(int newNomPtSize)
+  public void setNomPtSize(Integer newNomPtSize)
   {
-    int oldNomPtSize = nomPtSize;
+    Integer oldNomPtSize = nomPtSize;
     nomPtSize = newNomPtSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__NOM_PT_SIZE, oldNomPtSize, nomPtSize));
@@ -556,7 +556,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getMinPtSize()
+  public Integer getMinPtSize()
   {
     return minPtSize;
   }
@@ -567,9 +567,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setMinPtSize(int newMinPtSize)
+  public void setMinPtSize(Integer newMinPtSize)
   {
-    int oldMinPtSize = minPtSize;
+    Integer oldMinPtSize = minPtSize;
     minPtSize = newMinPtSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__MIN_PT_SIZE, oldMinPtSize, minPtSize));
@@ -581,7 +581,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getMaxHSize()
+  public Integer getMaxHSize()
   {
     return maxHSize;
   }
@@ -592,9 +592,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setMaxHSize(int newMaxHSize)
+  public void setMaxHSize(Integer newMaxHSize)
   {
-    int oldMaxHSize = maxHSize;
+    Integer oldMaxHSize = maxHSize;
     maxHSize = newMaxHSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__MAX_HSIZE, oldMaxHSize, maxHSize));
@@ -606,7 +606,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getNomHSize()
+  public Integer getNomHSize()
   {
     return nomHSize;
   }
@@ -617,9 +617,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setNomHSize(int newNomHSize)
+  public void setNomHSize(Integer newNomHSize)
   {
-    int oldNomHSize = nomHSize;
+    Integer oldNomHSize = nomHSize;
     nomHSize = newNomHSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__NOM_HSIZE, oldNomHSize, nomHSize));
@@ -631,7 +631,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getMinHSize()
+  public Integer getMinHSize()
   {
     return minHSize;
   }
@@ -642,9 +642,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setMinHSize(int newMinHSize)
+  public void setMinHSize(Integer newMinHSize)
   {
-    int oldMinHSize = minHSize;
+    Integer oldMinHSize = minHSize;
     minHSize = newMinHSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__MIN_HSIZE, oldMinHSize, minHSize));
@@ -656,7 +656,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getDsnGenCls()
+  public Integer getDsnGenCls()
   {
     return dsnGenCls;
   }
@@ -667,9 +667,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setDsnGenCls(int newDsnGenCls)
+  public void setDsnGenCls(Integer newDsnGenCls)
   {
-    int oldDsnGenCls = dsnGenCls;
+    Integer oldDsnGenCls = dsnGenCls;
     dsnGenCls = newDsnGenCls;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__DSN_GEN_CLS, oldDsnGenCls, dsnGenCls));
@@ -681,7 +681,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getDsnSubCls()
+  public Integer getDsnSubCls()
   {
     return dsnSubCls;
   }
@@ -692,9 +692,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setDsnSubCls(int newDsnSubCls)
+  public void setDsnSubCls(Integer newDsnSubCls)
   {
-    int oldDsnSubCls = dsnSubCls;
+    Integer oldDsnSubCls = dsnSubCls;
     dsnSubCls = newDsnSubCls;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__DSN_SUB_CLS, oldDsnSubCls, dsnSubCls));
@@ -706,7 +706,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getDsnSpcGrp()
+  public Integer getDsnSpcGrp()
   {
     return dsnSpcGrp;
   }
@@ -717,9 +717,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setDsnSpcGrp(int newDsnSpcGrp)
+  public void setDsnSpcGrp(Integer newDsnSpcGrp)
   {
-    int oldDsnSpcGrp = dsnSpcGrp;
+    Integer oldDsnSpcGrp = dsnSpcGrp;
     dsnSpcGrp = newDsnSpcGrp;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__DSN_SPC_GRP, oldDsnSpcGrp, dsnSpcGrp));
@@ -756,7 +756,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getFtDsFlags()
+  public Integer getFtDsFlags()
   {
     return ftDsFlags;
   }
@@ -767,9 +767,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setFtDsFlags(int newFtDsFlags)
+  public void setFtDsFlags(Integer newFtDsFlags)
   {
-    int oldFtDsFlags = ftDsFlags;
+    Integer oldFtDsFlags = ftDsFlags;
     ftDsFlags = newFtDsFlags;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__FT_DS_FLAGS, oldFtDsFlags, ftDsFlags));
@@ -806,7 +806,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getGCSID()
+  public Integer getGCSID()
   {
     return gcsid;
   }
@@ -817,9 +817,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setGCSID(int newGCSID)
+  public void setGCSID(Integer newGCSID)
   {
-    int oldGCSID = gcsid;
+    Integer oldGCSID = gcsid;
     gcsid = newGCSID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__GCSID, oldGCSID, gcsid));
@@ -831,7 +831,7 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public int getFGID()
+  public Integer getFGID()
   {
     return fgid;
   }
@@ -842,9 +842,9 @@ public class FNDImpl extends structuredFieldImpl implements FND
    * @generated
    */
   @Override
-  public void setFGID(int newFGID)
+  public void setFGID(Integer newFGID)
   {
-    int oldFGID = fgid;
+    Integer oldFGID = fgid;
     fgid = newFGID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FND__FGID, oldFGID, fgid));
@@ -1082,37 +1082,37 @@ public class FNDImpl extends structuredFieldImpl implements FND
       case AfpTextPackage.FND__TYPE_FC_DESC:
         return TYPE_FC_DESC_EDEFAULT == null ? typeFcDesc != null : !TYPE_FC_DESC_EDEFAULT.equals(typeFcDesc);
       case AfpTextPackage.FND__FT_WT_CLASS:
-        return ftWtClass != FT_WT_CLASS_EDEFAULT;
+        return FT_WT_CLASS_EDEFAULT == null ? ftWtClass != null : !FT_WT_CLASS_EDEFAULT.equals(ftWtClass);
       case AfpTextPackage.FND__FT_WD_CLASS:
-        return ftWdClass != FT_WD_CLASS_EDEFAULT;
+        return FT_WD_CLASS_EDEFAULT == null ? ftWdClass != null : !FT_WD_CLASS_EDEFAULT.equals(ftWdClass);
       case AfpTextPackage.FND__MAX_PT_SIZE:
-        return maxPtSize != MAX_PT_SIZE_EDEFAULT;
+        return MAX_PT_SIZE_EDEFAULT == null ? maxPtSize != null : !MAX_PT_SIZE_EDEFAULT.equals(maxPtSize);
       case AfpTextPackage.FND__NOM_PT_SIZE:
-        return nomPtSize != NOM_PT_SIZE_EDEFAULT;
+        return NOM_PT_SIZE_EDEFAULT == null ? nomPtSize != null : !NOM_PT_SIZE_EDEFAULT.equals(nomPtSize);
       case AfpTextPackage.FND__MIN_PT_SIZE:
-        return minPtSize != MIN_PT_SIZE_EDEFAULT;
+        return MIN_PT_SIZE_EDEFAULT == null ? minPtSize != null : !MIN_PT_SIZE_EDEFAULT.equals(minPtSize);
       case AfpTextPackage.FND__MAX_HSIZE:
-        return maxHSize != MAX_HSIZE_EDEFAULT;
+        return MAX_HSIZE_EDEFAULT == null ? maxHSize != null : !MAX_HSIZE_EDEFAULT.equals(maxHSize);
       case AfpTextPackage.FND__NOM_HSIZE:
-        return nomHSize != NOM_HSIZE_EDEFAULT;
+        return NOM_HSIZE_EDEFAULT == null ? nomHSize != null : !NOM_HSIZE_EDEFAULT.equals(nomHSize);
       case AfpTextPackage.FND__MIN_HSIZE:
-        return minHSize != MIN_HSIZE_EDEFAULT;
+        return MIN_HSIZE_EDEFAULT == null ? minHSize != null : !MIN_HSIZE_EDEFAULT.equals(minHSize);
       case AfpTextPackage.FND__DSN_GEN_CLS:
-        return dsnGenCls != DSN_GEN_CLS_EDEFAULT;
+        return DSN_GEN_CLS_EDEFAULT == null ? dsnGenCls != null : !DSN_GEN_CLS_EDEFAULT.equals(dsnGenCls);
       case AfpTextPackage.FND__DSN_SUB_CLS:
-        return dsnSubCls != DSN_SUB_CLS_EDEFAULT;
+        return DSN_SUB_CLS_EDEFAULT == null ? dsnSubCls != null : !DSN_SUB_CLS_EDEFAULT.equals(dsnSubCls);
       case AfpTextPackage.FND__DSN_SPC_GRP:
-        return dsnSpcGrp != DSN_SPC_GRP_EDEFAULT;
+        return DSN_SPC_GRP_EDEFAULT == null ? dsnSpcGrp != null : !DSN_SPC_GRP_EDEFAULT.equals(dsnSpcGrp);
       case AfpTextPackage.FND__RESERVED1:
         return RESERVED1_EDEFAULT == null ? reserved1 != null : !RESERVED1_EDEFAULT.equals(reserved1);
       case AfpTextPackage.FND__FT_DS_FLAGS:
-        return ftDsFlags != FT_DS_FLAGS_EDEFAULT;
+        return FT_DS_FLAGS_EDEFAULT == null ? ftDsFlags != null : !FT_DS_FLAGS_EDEFAULT.equals(ftDsFlags);
       case AfpTextPackage.FND__RESERVED2:
         return RESERVED2_EDEFAULT == null ? reserved2 != null : !RESERVED2_EDEFAULT.equals(reserved2);
       case AfpTextPackage.FND__GCSID:
-        return gcsid != GCSID_EDEFAULT;
+        return GCSID_EDEFAULT == null ? gcsid != null : !GCSID_EDEFAULT.equals(gcsid);
       case AfpTextPackage.FND__FGID:
-        return fgid != FGID_EDEFAULT;
+        return FGID_EDEFAULT == null ? fgid != null : !FGID_EDEFAULT.equals(fgid);
       case AfpTextPackage.FND__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

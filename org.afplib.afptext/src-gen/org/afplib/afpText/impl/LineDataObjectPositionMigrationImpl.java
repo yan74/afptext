@@ -35,7 +35,7 @@ public class LineDataObjectPositionMigrationImpl extends tripletImpl implements 
    * @generated
    * @ordered
    */
-  protected static final int TEMP_ORIENT_EDEFAULT = 0;
+  protected static final Integer TEMP_ORIENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTempOrient() <em>Temp Orient</em>}' attribute.
@@ -45,7 +45,7 @@ public class LineDataObjectPositionMigrationImpl extends tripletImpl implements 
    * @generated
    * @ordered
    */
-  protected int tempOrient = TEMP_ORIENT_EDEFAULT;
+  protected Integer tempOrient = TEMP_ORIENT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class LineDataObjectPositionMigrationImpl extends tripletImpl implements 
    * @generated
    */
   @Override
-  public int getTempOrient()
+  public Integer getTempOrient()
   {
     return tempOrient;
   }
@@ -85,9 +85,9 @@ public class LineDataObjectPositionMigrationImpl extends tripletImpl implements 
    * @generated
    */
   @Override
-  public void setTempOrient(int newTempOrient)
+  public void setTempOrient(Integer newTempOrient)
   {
-    int oldTempOrient = tempOrient;
+    Integer oldTempOrient = tempOrient;
     tempOrient = newTempOrient;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LINE_DATA_OBJECT_POSITION_MIGRATION__TEMP_ORIENT, oldTempOrient, tempOrient));
@@ -154,7 +154,7 @@ public class LineDataObjectPositionMigrationImpl extends tripletImpl implements 
     switch (featureID)
     {
       case AfpTextPackage.LINE_DATA_OBJECT_POSITION_MIGRATION__TEMP_ORIENT:
-        return tempOrient != TEMP_ORIENT_EDEFAULT;
+        return TEMP_ORIENT_EDEFAULT == null ? tempOrient != null : !TEMP_ORIENT_EDEFAULT.equals(tempOrient);
     }
     return super.eIsSet(featureID);
   }

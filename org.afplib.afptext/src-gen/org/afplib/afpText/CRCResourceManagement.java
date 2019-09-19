@@ -29,12 +29,12 @@ public interface CRCResourceManagement extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Fmt Qual</em>' attribute.
-   * @see #setFmtQual(int)
+   * @see #setFmtQual(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCRCResourceManagement_FmtQual()
    * @model
    * @generated
    */
-  int getFmtQual();
+  Integer getFmtQual();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CRCResourceManagement#getFmtQual <em>Fmt Qual</em>}' attribute.
@@ -44,19 +44,19 @@ public interface CRCResourceManagement extends triplet
    * @see #getFmtQual()
    * @generated
    */
-  void setFmtQual(int value);
+  void setFmtQual(Integer value);
 
   /**
    * Returns the value of the '<em><b>RM Value</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RM Value</em>' attribute.
-   * @see #setRMValue(int)
+   * @see #setRMValue(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCRCResourceManagement_RMValue()
    * @model
    * @generated
    */
-  int getRMValue();
+  Integer getRMValue();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CRCResourceManagement#getRMValue <em>RM Value</em>}' attribute.
@@ -66,19 +66,19 @@ public interface CRCResourceManagement extends triplet
    * @see #getRMValue()
    * @generated
    */
-  void setRMValue(int value);
+  void setRMValue(Integer value);
 
   /**
    * Returns the value of the '<em><b>Res Class Flg</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Res Class Flg</em>' attribute.
-   * @see #setResClassFlg(int)
+   * @see #setResClassFlg(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCRCResourceManagement_ResClassFlg()
    * @model
    * @generated
    */
-  int getResClassFlg();
+  Integer getResClassFlg();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CRCResourceManagement#getResClassFlg <em>Res Class Flg</em>}' attribute.
@@ -88,6 +88,6 @@ public interface CRCResourceManagement extends triplet
    * @see #getResClassFlg()
    * @generated
    */
-  void setResClassFlg(int value);
+  void setResClassFlg(Integer value);
 
 } // CRCResourceManagement

@@ -50,7 +50,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected static final int UNITBASE_EDEFAULT = 0;
+  protected static final Integer UNITBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUNITBASE() <em>UNITBASE</em>}' attribute.
@@ -60,7 +60,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected int unitbase = UNITBASE_EDEFAULT;
+  protected Integer unitbase = UNITBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXRESOL() <em>XRESOL</em>}' attribute.
@@ -70,7 +70,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected static final int XRESOL_EDEFAULT = 0;
+  protected static final Integer XRESOL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXRESOL() <em>XRESOL</em>}' attribute.
@@ -80,7 +80,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected int xresol = XRESOL_EDEFAULT;
+  protected Integer xresol = XRESOL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYRESOL() <em>YRESOL</em>}' attribute.
@@ -90,7 +90,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected static final int YRESOL_EDEFAULT = 0;
+  protected static final Integer YRESOL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYRESOL() <em>YRESOL</em>}' attribute.
@@ -100,7 +100,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected int yresol = YRESOL_EDEFAULT;
+  protected Integer yresol = YRESOL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXSIZE() <em>XSIZE</em>}' attribute.
@@ -110,7 +110,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected static final int XSIZE_EDEFAULT = 0;
+  protected static final Integer XSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXSIZE() <em>XSIZE</em>}' attribute.
@@ -120,7 +120,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected int xsize = XSIZE_EDEFAULT;
+  protected Integer xsize = XSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYSIZE() <em>YSIZE</em>}' attribute.
@@ -130,7 +130,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected static final int YSIZE_EDEFAULT = 0;
+  protected static final Integer YSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYSIZE() <em>YSIZE</em>}' attribute.
@@ -140,7 +140,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    * @ordered
    */
-  protected int ysize = YSIZE_EDEFAULT;
+  protected Integer ysize = YSIZE_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -179,7 +179,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public int getUNITBASE()
+  public Integer getUNITBASE()
   {
     return unitbase;
   }
@@ -190,9 +190,9 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public void setUNITBASE(int newUNITBASE)
+  public void setUNITBASE(Integer newUNITBASE)
   {
-    int oldUNITBASE = unitbase;
+    Integer oldUNITBASE = unitbase;
     unitbase = newUNITBASE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDD__UNITBASE, oldUNITBASE, unitbase));
@@ -204,7 +204,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public int getXRESOL()
+  public Integer getXRESOL()
   {
     return xresol;
   }
@@ -215,9 +215,9 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public void setXRESOL(int newXRESOL)
+  public void setXRESOL(Integer newXRESOL)
   {
-    int oldXRESOL = xresol;
+    Integer oldXRESOL = xresol;
     xresol = newXRESOL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDD__XRESOL, oldXRESOL, xresol));
@@ -229,7 +229,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public int getYRESOL()
+  public Integer getYRESOL()
   {
     return yresol;
   }
@@ -240,9 +240,9 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public void setYRESOL(int newYRESOL)
+  public void setYRESOL(Integer newYRESOL)
   {
-    int oldYRESOL = yresol;
+    Integer oldYRESOL = yresol;
     yresol = newYRESOL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDD__YRESOL, oldYRESOL, yresol));
@@ -254,7 +254,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public int getXSIZE()
+  public Integer getXSIZE()
   {
     return xsize;
   }
@@ -265,9 +265,9 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public void setXSIZE(int newXSIZE)
+  public void setXSIZE(Integer newXSIZE)
   {
-    int oldXSIZE = xsize;
+    Integer oldXSIZE = xsize;
     xsize = newXSIZE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDD__XSIZE, oldXSIZE, xsize));
@@ -279,7 +279,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public int getYSIZE()
+  public Integer getYSIZE()
   {
     return ysize;
   }
@@ -290,9 +290,9 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
-  public void setYSIZE(int newYSIZE)
+  public void setYSIZE(Integer newYSIZE)
   {
-    int oldYSIZE = ysize;
+    Integer oldYSIZE = ysize;
     ysize = newYSIZE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDD__YSIZE, oldYSIZE, ysize));
@@ -432,15 +432,15 @@ public class IDDImpl extends structuredFieldImpl implements IDD
     switch (featureID)
     {
       case AfpTextPackage.IDD__UNITBASE:
-        return unitbase != UNITBASE_EDEFAULT;
+        return UNITBASE_EDEFAULT == null ? unitbase != null : !UNITBASE_EDEFAULT.equals(unitbase);
       case AfpTextPackage.IDD__XRESOL:
-        return xresol != XRESOL_EDEFAULT;
+        return XRESOL_EDEFAULT == null ? xresol != null : !XRESOL_EDEFAULT.equals(xresol);
       case AfpTextPackage.IDD__YRESOL:
-        return yresol != YRESOL_EDEFAULT;
+        return YRESOL_EDEFAULT == null ? yresol != null : !YRESOL_EDEFAULT.equals(yresol);
       case AfpTextPackage.IDD__XSIZE:
-        return xsize != XSIZE_EDEFAULT;
+        return XSIZE_EDEFAULT == null ? xsize != null : !XSIZE_EDEFAULT.equals(xsize);
       case AfpTextPackage.IDD__YSIZE:
-        return ysize != YSIZE_EDEFAULT;
+        return YSIZE_EDEFAULT == null ? ysize != null : !YSIZE_EDEFAULT.equals(ysize);
       case AfpTextPackage.IDD__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

@@ -40,7 +40,7 @@ public class ObjectClassificationImpl extends tripletImpl implements ObjectClass
    * @generated
    * @ordered
    */
-  protected static final int OBJ_CLASS_EDEFAULT = 0;
+  protected static final Integer OBJ_CLASS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObjClass() <em>Obj Class</em>}' attribute.
@@ -50,7 +50,7 @@ public class ObjectClassificationImpl extends tripletImpl implements ObjectClass
    * @generated
    * @ordered
    */
-  protected int objClass = OBJ_CLASS_EDEFAULT;
+  protected Integer objClass = OBJ_CLASS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getStrucFlgs() <em>Struc Flgs</em>}' attribute.
@@ -60,7 +60,7 @@ public class ObjectClassificationImpl extends tripletImpl implements ObjectClass
    * @generated
    * @ordered
    */
-  protected static final int STRUC_FLGS_EDEFAULT = 0;
+  protected static final Integer STRUC_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStrucFlgs() <em>Struc Flgs</em>}' attribute.
@@ -70,7 +70,7 @@ public class ObjectClassificationImpl extends tripletImpl implements ObjectClass
    * @generated
    * @ordered
    */
-  protected int strucFlgs = STRUC_FLGS_EDEFAULT;
+  protected Integer strucFlgs = STRUC_FLGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRegObjId() <em>Reg Obj Id</em>}' attribute.
@@ -179,7 +179,7 @@ public class ObjectClassificationImpl extends tripletImpl implements ObjectClass
    * @generated
    */
   @Override
-  public int getObjClass()
+  public Integer getObjClass()
   {
     return objClass;
   }
@@ -190,9 +190,9 @@ public class ObjectClassificationImpl extends tripletImpl implements ObjectClass
    * @generated
    */
   @Override
-  public void setObjClass(int newObjClass)
+  public void setObjClass(Integer newObjClass)
   {
-    int oldObjClass = objClass;
+    Integer oldObjClass = objClass;
     objClass = newObjClass;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_CLASSIFICATION__OBJ_CLASS, oldObjClass, objClass));
@@ -204,7 +204,7 @@ public class ObjectClassificationImpl extends tripletImpl implements ObjectClass
    * @generated
    */
   @Override
-  public int getStrucFlgs()
+  public Integer getStrucFlgs()
   {
     return strucFlgs;
   }
@@ -215,9 +215,9 @@ public class ObjectClassificationImpl extends tripletImpl implements ObjectClass
    * @generated
    */
   @Override
-  public void setStrucFlgs(int newStrucFlgs)
+  public void setStrucFlgs(Integer newStrucFlgs)
   {
-    int oldStrucFlgs = strucFlgs;
+    Integer oldStrucFlgs = strucFlgs;
     strucFlgs = newStrucFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_CLASSIFICATION__STRUC_FLGS, oldStrucFlgs, strucFlgs));
@@ -424,9 +424,9 @@ public class ObjectClassificationImpl extends tripletImpl implements ObjectClass
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_CLASSIFICATION__OBJ_CLASS:
-        return objClass != OBJ_CLASS_EDEFAULT;
+        return OBJ_CLASS_EDEFAULT == null ? objClass != null : !OBJ_CLASS_EDEFAULT.equals(objClass);
       case AfpTextPackage.OBJECT_CLASSIFICATION__STRUC_FLGS:
-        return strucFlgs != STRUC_FLGS_EDEFAULT;
+        return STRUC_FLGS_EDEFAULT == null ? strucFlgs != null : !STRUC_FLGS_EDEFAULT.equals(strucFlgs);
       case AfpTextPackage.OBJECT_CLASSIFICATION__REG_OBJ_ID:
         return REG_OBJ_ID_EDEFAULT == null ? regObjId != null : !REG_OBJ_ID_EDEFAULT.equals(regObjId);
       case AfpTextPackage.OBJECT_CLASSIFICATION__OBJ_TP_NAME:

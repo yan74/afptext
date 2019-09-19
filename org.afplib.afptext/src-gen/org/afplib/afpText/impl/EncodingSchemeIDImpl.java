@@ -36,7 +36,7 @@ public class EncodingSchemeIDImpl extends tripletImpl implements EncodingSchemeI
    * @generated
    * @ordered
    */
-  protected static final int ESID_CP_EDEFAULT = 0;
+  protected static final Integer ESID_CP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getESidCP() <em>ESid CP</em>}' attribute.
@@ -46,7 +46,7 @@ public class EncodingSchemeIDImpl extends tripletImpl implements EncodingSchemeI
    * @generated
    * @ordered
    */
-  protected int eSidCP = ESID_CP_EDEFAULT;
+  protected Integer eSidCP = ESID_CP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getESidUD() <em>ESid UD</em>}' attribute.
@@ -56,7 +56,7 @@ public class EncodingSchemeIDImpl extends tripletImpl implements EncodingSchemeI
    * @generated
    * @ordered
    */
-  protected static final int ESID_UD_EDEFAULT = 0;
+  protected static final Integer ESID_UD_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getESidUD() <em>ESid UD</em>}' attribute.
@@ -66,7 +66,7 @@ public class EncodingSchemeIDImpl extends tripletImpl implements EncodingSchemeI
    * @generated
    * @ordered
    */
-  protected int eSidUD = ESID_UD_EDEFAULT;
+  protected Integer eSidUD = ESID_UD_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class EncodingSchemeIDImpl extends tripletImpl implements EncodingSchemeI
    * @generated
    */
   @Override
-  public int getESidCP()
+  public Integer getESidCP()
   {
     return eSidCP;
   }
@@ -106,9 +106,9 @@ public class EncodingSchemeIDImpl extends tripletImpl implements EncodingSchemeI
    * @generated
    */
   @Override
-  public void setESidCP(int newESidCP)
+  public void setESidCP(Integer newESidCP)
   {
-    int oldESidCP = eSidCP;
+    Integer oldESidCP = eSidCP;
     eSidCP = newESidCP;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ENCODING_SCHEME_ID__ESID_CP, oldESidCP, eSidCP));
@@ -120,7 +120,7 @@ public class EncodingSchemeIDImpl extends tripletImpl implements EncodingSchemeI
    * @generated
    */
   @Override
-  public int getESidUD()
+  public Integer getESidUD()
   {
     return eSidUD;
   }
@@ -131,9 +131,9 @@ public class EncodingSchemeIDImpl extends tripletImpl implements EncodingSchemeI
    * @generated
    */
   @Override
-  public void setESidUD(int newESidUD)
+  public void setESidUD(Integer newESidUD)
   {
-    int oldESidUD = eSidUD;
+    Integer oldESidUD = eSidUD;
     eSidUD = newESidUD;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ENCODING_SCHEME_ID__ESID_UD, oldESidUD, eSidUD));
@@ -208,9 +208,9 @@ public class EncodingSchemeIDImpl extends tripletImpl implements EncodingSchemeI
     switch (featureID)
     {
       case AfpTextPackage.ENCODING_SCHEME_ID__ESID_CP:
-        return eSidCP != ESID_CP_EDEFAULT;
+        return ESID_CP_EDEFAULT == null ? eSidCP != null : !ESID_CP_EDEFAULT.equals(eSidCP);
       case AfpTextPackage.ENCODING_SCHEME_ID__ESID_UD:
-        return eSidUD != ESID_UD_EDEFAULT;
+        return ESID_UD_EDEFAULT == null ? eSidUD != null : !ESID_UD_EDEFAULT.equals(eSidUD);
     }
     return super.eIsSet(featureID);
   }

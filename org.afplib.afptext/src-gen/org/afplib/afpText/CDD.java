@@ -34,12 +34,12 @@ public interface CDD extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoc Base</em>' attribute.
-   * @see #setXocBase(int)
+   * @see #setXocBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCDD_XocBase()
    * @model
    * @generated
    */
-  int getXocBase();
+  Integer getXocBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CDD#getXocBase <em>Xoc Base</em>}' attribute.
@@ -49,19 +49,19 @@ public interface CDD extends structuredField
    * @see #getXocBase()
    * @generated
    */
-  void setXocBase(int value);
+  void setXocBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoc Base</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoc Base</em>' attribute.
-   * @see #setYocBase(int)
+   * @see #setYocBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCDD_YocBase()
    * @model
    * @generated
    */
-  int getYocBase();
+  Integer getYocBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CDD#getYocBase <em>Yoc Base</em>}' attribute.
@@ -71,19 +71,19 @@ public interface CDD extends structuredField
    * @see #getYocBase()
    * @generated
    */
-  void setYocBase(int value);
+  void setYocBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoc Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoc Units</em>' attribute.
-   * @see #setXocUnits(int)
+   * @see #setXocUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCDD_XocUnits()
    * @model
    * @generated
    */
-  int getXocUnits();
+  Integer getXocUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CDD#getXocUnits <em>Xoc Units</em>}' attribute.
@@ -93,19 +93,19 @@ public interface CDD extends structuredField
    * @see #getXocUnits()
    * @generated
    */
-  void setXocUnits(int value);
+  void setXocUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoc Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoc Units</em>' attribute.
-   * @see #setYocUnits(int)
+   * @see #setYocUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCDD_YocUnits()
    * @model
    * @generated
    */
-  int getYocUnits();
+  Integer getYocUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CDD#getYocUnits <em>Yoc Units</em>}' attribute.
@@ -115,19 +115,19 @@ public interface CDD extends structuredField
    * @see #getYocUnits()
    * @generated
    */
-  void setYocUnits(int value);
+  void setYocUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoc Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoc Size</em>' attribute.
-   * @see #setXocSize(int)
+   * @see #setXocSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCDD_XocSize()
    * @model
    * @generated
    */
-  int getXocSize();
+  Integer getXocSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CDD#getXocSize <em>Xoc Size</em>}' attribute.
@@ -137,19 +137,19 @@ public interface CDD extends structuredField
    * @see #getXocSize()
    * @generated
    */
-  void setXocSize(int value);
+  void setXocSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoc Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoc Size</em>' attribute.
-   * @see #setYocSize(int)
+   * @see #setYocSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCDD_YocSize()
    * @model
    * @generated
    */
-  int getYocSize();
+  Integer getYocSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CDD#getYocSize <em>Yoc Size</em>}' attribute.
@@ -159,7 +159,7 @@ public interface CDD extends structuredField
    * @see #getYocSize()
    * @generated
    */
-  void setYocSize(int value);
+  void setYocSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

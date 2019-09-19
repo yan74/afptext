@@ -22928,7 +22928,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		return tMODCASTRING;
 	}
 	
-	//terminal EINTEGEROBJECT returns ecore::EInt:
+	//terminal EINTEGEROBJECT returns ecore::EIntegerObject:
 	//	'-'? '0'..'9'+;
 	public TerminalRule getEINTEGEROBJECTRule() {
 		return tEINTEGEROBJECT;

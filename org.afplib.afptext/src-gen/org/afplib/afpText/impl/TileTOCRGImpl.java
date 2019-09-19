@@ -42,7 +42,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected static final int XOFFSET_EDEFAULT = 0;
+  protected static final Integer XOFFSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXOFFSET() <em>XOFFSET</em>}' attribute.
@@ -52,7 +52,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected int xoffset = XOFFSET_EDEFAULT;
+  protected Integer xoffset = XOFFSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYOFFSET() <em>YOFFSET</em>}' attribute.
@@ -62,7 +62,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected static final int YOFFSET_EDEFAULT = 0;
+  protected static final Integer YOFFSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYOFFSET() <em>YOFFSET</em>}' attribute.
@@ -72,7 +72,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected int yoffset = YOFFSET_EDEFAULT;
+  protected Integer yoffset = YOFFSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTHSIZE() <em>THSIZE</em>}' attribute.
@@ -82,7 +82,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected static final int THSIZE_EDEFAULT = 0;
+  protected static final Integer THSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTHSIZE() <em>THSIZE</em>}' attribute.
@@ -92,7 +92,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected int thsize = THSIZE_EDEFAULT;
+  protected Integer thsize = THSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTVSIZE() <em>TVSIZE</em>}' attribute.
@@ -102,7 +102,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected static final int TVSIZE_EDEFAULT = 0;
+  protected static final Integer TVSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTVSIZE() <em>TVSIZE</em>}' attribute.
@@ -112,7 +112,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected int tvsize = TVSIZE_EDEFAULT;
+  protected Integer tvsize = TVSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRELRES() <em>RELRES</em>}' attribute.
@@ -122,7 +122,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected static final int RELRES_EDEFAULT = 0;
+  protected static final Integer RELRES_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRELRES() <em>RELRES</em>}' attribute.
@@ -132,7 +132,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected int relres = RELRES_EDEFAULT;
+  protected Integer relres = RELRES_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOMPR() <em>COMPR</em>}' attribute.
@@ -142,7 +142,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected static final int COMPR_EDEFAULT = 0;
+  protected static final Integer COMPR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOMPR() <em>COMPR</em>}' attribute.
@@ -152,7 +152,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected int compr = COMPR_EDEFAULT;
+  protected Integer compr = COMPR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDATAPOS() <em>DATAPOS</em>}' attribute.
@@ -162,7 +162,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected static final int DATAPOS_EDEFAULT = 0;
+  protected static final Integer DATAPOS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDATAPOS() <em>DATAPOS</em>}' attribute.
@@ -172,7 +172,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    * @ordered
    */
-  protected int datapos = DATAPOS_EDEFAULT;
+  protected Integer datapos = DATAPOS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -201,7 +201,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public int getXOFFSET()
+  public Integer getXOFFSET()
   {
     return xoffset;
   }
@@ -212,9 +212,9 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public void setXOFFSET(int newXOFFSET)
+  public void setXOFFSET(Integer newXOFFSET)
   {
-    int oldXOFFSET = xoffset;
+    Integer oldXOFFSET = xoffset;
     xoffset = newXOFFSET;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_TOCRG__XOFFSET, oldXOFFSET, xoffset));
@@ -226,7 +226,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public int getYOFFSET()
+  public Integer getYOFFSET()
   {
     return yoffset;
   }
@@ -237,9 +237,9 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public void setYOFFSET(int newYOFFSET)
+  public void setYOFFSET(Integer newYOFFSET)
   {
-    int oldYOFFSET = yoffset;
+    Integer oldYOFFSET = yoffset;
     yoffset = newYOFFSET;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_TOCRG__YOFFSET, oldYOFFSET, yoffset));
@@ -251,7 +251,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public int getTHSIZE()
+  public Integer getTHSIZE()
   {
     return thsize;
   }
@@ -262,9 +262,9 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public void setTHSIZE(int newTHSIZE)
+  public void setTHSIZE(Integer newTHSIZE)
   {
-    int oldTHSIZE = thsize;
+    Integer oldTHSIZE = thsize;
     thsize = newTHSIZE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_TOCRG__THSIZE, oldTHSIZE, thsize));
@@ -276,7 +276,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public int getTVSIZE()
+  public Integer getTVSIZE()
   {
     return tvsize;
   }
@@ -287,9 +287,9 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public void setTVSIZE(int newTVSIZE)
+  public void setTVSIZE(Integer newTVSIZE)
   {
-    int oldTVSIZE = tvsize;
+    Integer oldTVSIZE = tvsize;
     tvsize = newTVSIZE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_TOCRG__TVSIZE, oldTVSIZE, tvsize));
@@ -301,7 +301,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public int getRELRES()
+  public Integer getRELRES()
   {
     return relres;
   }
@@ -312,9 +312,9 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public void setRELRES(int newRELRES)
+  public void setRELRES(Integer newRELRES)
   {
-    int oldRELRES = relres;
+    Integer oldRELRES = relres;
     relres = newRELRES;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_TOCRG__RELRES, oldRELRES, relres));
@@ -326,7 +326,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public int getCOMPR()
+  public Integer getCOMPR()
   {
     return compr;
   }
@@ -337,9 +337,9 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public void setCOMPR(int newCOMPR)
+  public void setCOMPR(Integer newCOMPR)
   {
-    int oldCOMPR = compr;
+    Integer oldCOMPR = compr;
     compr = newCOMPR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_TOCRG__COMPR, oldCOMPR, compr));
@@ -351,7 +351,7 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public int getDATAPOS()
+  public Integer getDATAPOS()
   {
     return datapos;
   }
@@ -362,9 +362,9 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
    * @generated
    */
   @Override
-  public void setDATAPOS(int newDATAPOS)
+  public void setDATAPOS(Integer newDATAPOS)
   {
-    int oldDATAPOS = datapos;
+    Integer oldDATAPOS = datapos;
     datapos = newDATAPOS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_TOCRG__DATAPOS, oldDATAPOS, datapos));
@@ -479,19 +479,19 @@ public class TileTOCRGImpl extends MinimalEObjectImpl.Container implements TileT
     switch (featureID)
     {
       case AfpTextPackage.TILE_TOCRG__XOFFSET:
-        return xoffset != XOFFSET_EDEFAULT;
+        return XOFFSET_EDEFAULT == null ? xoffset != null : !XOFFSET_EDEFAULT.equals(xoffset);
       case AfpTextPackage.TILE_TOCRG__YOFFSET:
-        return yoffset != YOFFSET_EDEFAULT;
+        return YOFFSET_EDEFAULT == null ? yoffset != null : !YOFFSET_EDEFAULT.equals(yoffset);
       case AfpTextPackage.TILE_TOCRG__THSIZE:
-        return thsize != THSIZE_EDEFAULT;
+        return THSIZE_EDEFAULT == null ? thsize != null : !THSIZE_EDEFAULT.equals(thsize);
       case AfpTextPackage.TILE_TOCRG__TVSIZE:
-        return tvsize != TVSIZE_EDEFAULT;
+        return TVSIZE_EDEFAULT == null ? tvsize != null : !TVSIZE_EDEFAULT.equals(tvsize);
       case AfpTextPackage.TILE_TOCRG__RELRES:
-        return relres != RELRES_EDEFAULT;
+        return RELRES_EDEFAULT == null ? relres != null : !RELRES_EDEFAULT.equals(relres);
       case AfpTextPackage.TILE_TOCRG__COMPR:
-        return compr != COMPR_EDEFAULT;
+        return COMPR_EDEFAULT == null ? compr != null : !COMPR_EDEFAULT.equals(compr);
       case AfpTextPackage.TILE_TOCRG__DATAPOS:
-        return datapos != DATAPOS_EDEFAULT;
+        return DATAPOS_EDEFAULT == null ? datapos != null : !DATAPOS_EDEFAULT.equals(datapos);
     }
     return super.eIsSet(featureID);
   }

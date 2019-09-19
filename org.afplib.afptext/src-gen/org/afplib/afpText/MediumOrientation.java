@@ -27,12 +27,12 @@ public interface MediumOrientation extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Med Orient</em>' attribute.
-   * @see #setMedOrient(int)
+   * @see #setMedOrient(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMediumOrientation_MedOrient()
    * @model
    * @generated
    */
-  int getMedOrient();
+  Integer getMedOrient();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MediumOrientation#getMedOrient <em>Med Orient</em>}' attribute.
@@ -42,6 +42,6 @@ public interface MediumOrientation extends triplet
    * @see #getMedOrient()
    * @generated
    */
-  void setMedOrient(int value);
+  void setMedOrient(Integer value);
 
 } // MediumOrientation

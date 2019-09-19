@@ -47,7 +47,7 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @generated
    * @ordered
    */
-  protected static final int XPOS_EDEFAULT = 0;
+  protected static final Integer XPOS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXPOS() <em>XPOS</em>}' attribute.
@@ -57,7 +57,7 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @generated
    * @ordered
    */
-  protected int xpos = XPOS_EDEFAULT;
+  protected Integer xpos = XPOS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYPOS() <em>YPOS</em>}' attribute.
@@ -67,7 +67,7 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @generated
    * @ordered
    */
-  protected static final int YPOS_EDEFAULT = 0;
+  protected static final Integer YPOS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYPOS() <em>YPOS</em>}' attribute.
@@ -77,7 +77,7 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @generated
    * @ordered
    */
-  protected int ypos = YPOS_EDEFAULT;
+  protected Integer ypos = YPOS_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
@@ -116,7 +116,7 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @generated
    */
   @Override
-  public int getXPOS()
+  public Integer getXPOS()
   {
     return xpos;
   }
@@ -127,9 +127,9 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @generated
    */
   @Override
-  public void setXPOS(int newXPOS)
+  public void setXPOS(Integer newXPOS)
   {
-    int oldXPOS = xpos;
+    Integer oldXPOS = xpos;
     xpos = newXPOS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GRLINE__XPOS, oldXPOS, xpos));
@@ -141,7 +141,7 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @generated
    */
   @Override
-  public int getYPOS()
+  public Integer getYPOS()
   {
     return ypos;
   }
@@ -152,9 +152,9 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @generated
    */
   @Override
-  public void setYPOS(int newYPOS)
+  public void setYPOS(Integer newYPOS)
   {
-    int oldYPOS = ypos;
+    Integer oldYPOS = ypos;
     ypos = newYPOS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GRLINE__YPOS, oldYPOS, ypos));
@@ -270,9 +270,9 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
     switch (featureID)
     {
       case AfpTextPackage.GRLINE__XPOS:
-        return xpos != XPOS_EDEFAULT;
+        return XPOS_EDEFAULT == null ? xpos != null : !XPOS_EDEFAULT.equals(xpos);
       case AfpTextPackage.GRLINE__YPOS:
-        return ypos != YPOS_EDEFAULT;
+        return YPOS_EDEFAULT == null ? ypos != null : !YPOS_EDEFAULT.equals(ypos);
       case AfpTextPackage.GRLINE__RG:
         return rg != null && !rg.isEmpty();
     }

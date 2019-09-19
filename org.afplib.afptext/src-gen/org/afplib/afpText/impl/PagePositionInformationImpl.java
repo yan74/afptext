@@ -35,7 +35,7 @@ public class PagePositionInformationImpl extends tripletImpl implements PagePosi
    * @generated
    * @ordered
    */
-  protected static final int PGPRG_EDEFAULT = 0;
+  protected static final Integer PGPRG_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPGPRG() <em>PGPRG</em>}' attribute.
@@ -45,7 +45,7 @@ public class PagePositionInformationImpl extends tripletImpl implements PagePosi
    * @generated
    * @ordered
    */
-  protected int pgprg = PGPRG_EDEFAULT;
+  protected Integer pgprg = PGPRG_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class PagePositionInformationImpl extends tripletImpl implements PagePosi
    * @generated
    */
   @Override
-  public int getPGPRG()
+  public Integer getPGPRG()
   {
     return pgprg;
   }
@@ -85,9 +85,9 @@ public class PagePositionInformationImpl extends tripletImpl implements PagePosi
    * @generated
    */
   @Override
-  public void setPGPRG(int newPGPRG)
+  public void setPGPRG(Integer newPGPRG)
   {
-    int oldPGPRG = pgprg;
+    Integer oldPGPRG = pgprg;
     pgprg = newPGPRG;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PAGE_POSITION_INFORMATION__PGPRG, oldPGPRG, pgprg));
@@ -154,7 +154,7 @@ public class PagePositionInformationImpl extends tripletImpl implements PagePosi
     switch (featureID)
     {
       case AfpTextPackage.PAGE_POSITION_INFORMATION__PGPRG:
-        return pgprg != PGPRG_EDEFAULT;
+        return PGPRG_EDEFAULT == null ? pgprg != null : !PGPRG_EDEFAULT.equals(pgprg);
     }
     return super.eIsSet(featureID);
   }

@@ -31,12 +31,12 @@ public interface MGORG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RG Length</em>' attribute.
-   * @see #setRGLength(int)
+   * @see #setRGLength(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMGORG_RGLength()
    * @model
    * @generated
    */
-  int getRGLength();
+  Integer getRGLength();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MGORG#getRGLength <em>RG Length</em>}' attribute.
@@ -46,7 +46,7 @@ public interface MGORG extends EObject
    * @see #getRGLength()
    * @generated
    */
-  void setRGLength(int value);
+  void setRGLength(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

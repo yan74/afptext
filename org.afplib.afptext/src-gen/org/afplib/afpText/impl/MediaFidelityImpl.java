@@ -36,7 +36,7 @@ public class MediaFidelityImpl extends tripletImpl implements MediaFidelity
    * @generated
    * @ordered
    */
-  protected static final int STP_MED_EX_EDEFAULT = 0;
+  protected static final Integer STP_MED_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStpMedEx() <em>Stp Med Ex</em>}' attribute.
@@ -46,7 +46,7 @@ public class MediaFidelityImpl extends tripletImpl implements MediaFidelity
    * @generated
    * @ordered
    */
-  protected int stpMedEx = STP_MED_EX_EDEFAULT;
+  protected Integer stpMedEx = STP_MED_EX_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -95,7 +95,7 @@ public class MediaFidelityImpl extends tripletImpl implements MediaFidelity
    * @generated
    */
   @Override
-  public int getStpMedEx()
+  public Integer getStpMedEx()
   {
     return stpMedEx;
   }
@@ -106,9 +106,9 @@ public class MediaFidelityImpl extends tripletImpl implements MediaFidelity
    * @generated
    */
   @Override
-  public void setStpMedEx(int newStpMedEx)
+  public void setStpMedEx(Integer newStpMedEx)
   {
-    int oldStpMedEx = stpMedEx;
+    Integer oldStpMedEx = stpMedEx;
     stpMedEx = newStpMedEx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MEDIA_FIDELITY__STP_MED_EX, oldStpMedEx, stpMedEx));
@@ -208,7 +208,7 @@ public class MediaFidelityImpl extends tripletImpl implements MediaFidelity
     switch (featureID)
     {
       case AfpTextPackage.MEDIA_FIDELITY__STP_MED_EX:
-        return stpMedEx != STP_MED_EX_EDEFAULT;
+        return STP_MED_EX_EDEFAULT == null ? stpMedEx != null : !STP_MED_EX_EDEFAULT.equals(stpMedEx);
       case AfpTextPackage.MEDIA_FIDELITY__RESERVED:
         return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
     }

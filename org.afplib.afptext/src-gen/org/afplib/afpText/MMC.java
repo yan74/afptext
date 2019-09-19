@@ -30,12 +30,12 @@ public interface MMC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MM Cid</em>' attribute.
-   * @see #setMMCid(int)
+   * @see #setMMCid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMMC_MMCid()
    * @model
    * @generated
    */
-  int getMMCid();
+  Integer getMMCid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MMC#getMMCid <em>MM Cid</em>}' attribute.
@@ -45,19 +45,19 @@ public interface MMC extends structuredField
    * @see #getMMCid()
    * @generated
    */
-  void setMMCid(int value);
+  void setMMCid(Integer value);
 
   /**
    * Returns the value of the '<em><b>PARAMETER1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PARAMETER1</em>' attribute.
-   * @see #setPARAMETER1(int)
+   * @see #setPARAMETER1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMMC_PARAMETER1()
    * @model
    * @generated
    */
-  int getPARAMETER1();
+  Integer getPARAMETER1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MMC#getPARAMETER1 <em>PARAMETER1</em>}' attribute.
@@ -67,7 +67,7 @@ public interface MMC extends structuredField
    * @see #getPARAMETER1()
    * @generated
    */
-  void setPARAMETER1(int value);
+  void setPARAMETER1(Integer value);
 
   /**
    * Returns the value of the '<em><b>Rg</b></em>' containment reference list.

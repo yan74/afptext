@@ -36,7 +36,7 @@ public class TilePositionImpl extends tripletImpl implements TilePosition
    * @generated
    * @ordered
    */
-  protected static final int XOFFSET_EDEFAULT = 0;
+  protected static final Integer XOFFSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXOFFSET() <em>XOFFSET</em>}' attribute.
@@ -46,7 +46,7 @@ public class TilePositionImpl extends tripletImpl implements TilePosition
    * @generated
    * @ordered
    */
-  protected int xoffset = XOFFSET_EDEFAULT;
+  protected Integer xoffset = XOFFSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYOFFSET() <em>YOFFSET</em>}' attribute.
@@ -56,7 +56,7 @@ public class TilePositionImpl extends tripletImpl implements TilePosition
    * @generated
    * @ordered
    */
-  protected static final int YOFFSET_EDEFAULT = 0;
+  protected static final Integer YOFFSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYOFFSET() <em>YOFFSET</em>}' attribute.
@@ -66,7 +66,7 @@ public class TilePositionImpl extends tripletImpl implements TilePosition
    * @generated
    * @ordered
    */
-  protected int yoffset = YOFFSET_EDEFAULT;
+  protected Integer yoffset = YOFFSET_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class TilePositionImpl extends tripletImpl implements TilePosition
    * @generated
    */
   @Override
-  public int getXOFFSET()
+  public Integer getXOFFSET()
   {
     return xoffset;
   }
@@ -106,9 +106,9 @@ public class TilePositionImpl extends tripletImpl implements TilePosition
    * @generated
    */
   @Override
-  public void setXOFFSET(int newXOFFSET)
+  public void setXOFFSET(Integer newXOFFSET)
   {
-    int oldXOFFSET = xoffset;
+    Integer oldXOFFSET = xoffset;
     xoffset = newXOFFSET;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_POSITION__XOFFSET, oldXOFFSET, xoffset));
@@ -120,7 +120,7 @@ public class TilePositionImpl extends tripletImpl implements TilePosition
    * @generated
    */
   @Override
-  public int getYOFFSET()
+  public Integer getYOFFSET()
   {
     return yoffset;
   }
@@ -131,9 +131,9 @@ public class TilePositionImpl extends tripletImpl implements TilePosition
    * @generated
    */
   @Override
-  public void setYOFFSET(int newYOFFSET)
+  public void setYOFFSET(Integer newYOFFSET)
   {
-    int oldYOFFSET = yoffset;
+    Integer oldYOFFSET = yoffset;
     yoffset = newYOFFSET;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_POSITION__YOFFSET, oldYOFFSET, yoffset));
@@ -208,9 +208,9 @@ public class TilePositionImpl extends tripletImpl implements TilePosition
     switch (featureID)
     {
       case AfpTextPackage.TILE_POSITION__XOFFSET:
-        return xoffset != XOFFSET_EDEFAULT;
+        return XOFFSET_EDEFAULT == null ? xoffset != null : !XOFFSET_EDEFAULT.equals(xoffset);
       case AfpTextPackage.TILE_POSITION__YOFFSET:
-        return yoffset != YOFFSET_EDEFAULT;
+        return YOFFSET_EDEFAULT == null ? yoffset != null : !YOFFSET_EDEFAULT.equals(yoffset);
     }
     return super.eIsSet(featureID);
   }

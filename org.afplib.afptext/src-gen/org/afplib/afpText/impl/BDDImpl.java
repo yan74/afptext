@@ -60,7 +60,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int UBASE_EDEFAULT = 0;
+  protected static final Integer UBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUBASE() <em>UBASE</em>}' attribute.
@@ -70,7 +70,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int ubase = UBASE_EDEFAULT;
+  protected Integer ubase = UBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -80,7 +80,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -90,7 +90,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXUPUB() <em>XUPUB</em>}' attribute.
@@ -100,7 +100,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int XUPUB_EDEFAULT = 0;
+  protected static final Integer XUPUB_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXUPUB() <em>XUPUB</em>}' attribute.
@@ -110,7 +110,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int xupub = XUPUB_EDEFAULT;
+  protected Integer xupub = XUPUB_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYUPUB() <em>YUPUB</em>}' attribute.
@@ -120,7 +120,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int YUPUB_EDEFAULT = 0;
+  protected static final Integer YUPUB_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYUPUB() <em>YUPUB</em>}' attribute.
@@ -130,7 +130,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int yupub = YUPUB_EDEFAULT;
+  protected Integer yupub = YUPUB_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXEXTENT() <em>XEXTENT</em>}' attribute.
@@ -140,7 +140,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int XEXTENT_EDEFAULT = 0;
+  protected static final Integer XEXTENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXEXTENT() <em>XEXTENT</em>}' attribute.
@@ -150,7 +150,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int xextent = XEXTENT_EDEFAULT;
+  protected Integer xextent = XEXTENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYEXTENT() <em>YEXTENT</em>}' attribute.
@@ -160,7 +160,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int YEXTENT_EDEFAULT = 0;
+  protected static final Integer YEXTENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYEXTENT() <em>YEXTENT</em>}' attribute.
@@ -170,7 +170,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int yextent = YEXTENT_EDEFAULT;
+  protected Integer yextent = YEXTENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -180,7 +180,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int RESERVED2_EDEFAULT = 0;
+  protected static final Integer RESERVED2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -190,7 +190,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int reserved2 = RESERVED2_EDEFAULT;
+  protected Integer reserved2 = RESERVED2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTYPE() <em>TYPE</em>}' attribute.
@@ -200,7 +200,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int TYPE_EDEFAULT = 0;
+  protected static final Integer TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTYPE() <em>TYPE</em>}' attribute.
@@ -210,7 +210,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int type = TYPE_EDEFAULT;
+  protected Integer type = TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMOD() <em>MOD</em>}' attribute.
@@ -220,7 +220,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int MOD_EDEFAULT = 0;
+  protected static final Integer MOD_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMOD() <em>MOD</em>}' attribute.
@@ -230,7 +230,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int mod = MOD_EDEFAULT;
+  protected Integer mod = MOD_EDEFAULT;
 
   /**
    * The default value of the '{@link #getLID() <em>LID</em>}' attribute.
@@ -240,7 +240,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int LID_EDEFAULT = 0;
+  protected static final Integer LID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLID() <em>LID</em>}' attribute.
@@ -250,7 +250,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int lid = LID_EDEFAULT;
+  protected Integer lid = LID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLOR() <em>COLOR</em>}' attribute.
@@ -260,7 +260,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int COLOR_EDEFAULT = 0;
+  protected static final Integer COLOR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLOR() <em>COLOR</em>}' attribute.
@@ -270,7 +270,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int color = COLOR_EDEFAULT;
+  protected Integer color = COLOR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMODULEWIDTH() <em>MODULEWIDTH</em>}' attribute.
@@ -280,7 +280,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int MODULEWIDTH_EDEFAULT = 0;
+  protected static final Integer MODULEWIDTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMODULEWIDTH() <em>MODULEWIDTH</em>}' attribute.
@@ -290,7 +290,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int modulewidth = MODULEWIDTH_EDEFAULT;
+  protected Integer modulewidth = MODULEWIDTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getELEMENTHEIGHT() <em>ELEMENTHEIGHT</em>}' attribute.
@@ -300,7 +300,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int ELEMENTHEIGHT_EDEFAULT = 0;
+  protected static final Integer ELEMENTHEIGHT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getELEMENTHEIGHT() <em>ELEMENTHEIGHT</em>}' attribute.
@@ -310,7 +310,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int elementheight = ELEMENTHEIGHT_EDEFAULT;
+  protected Integer elementheight = ELEMENTHEIGHT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMULT() <em>MULT</em>}' attribute.
@@ -320,7 +320,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int MULT_EDEFAULT = 0;
+  protected static final Integer MULT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMULT() <em>MULT</em>}' attribute.
@@ -330,7 +330,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int mult = MULT_EDEFAULT;
+  protected Integer mult = MULT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getWENE() <em>WENE</em>}' attribute.
@@ -340,7 +340,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected static final int WENE_EDEFAULT = 0;
+  protected static final Integer WENE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getWENE() <em>WENE</em>}' attribute.
@@ -350,7 +350,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    * @ordered
    */
-  protected int wene = WENE_EDEFAULT;
+  protected Integer wene = WENE_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -389,7 +389,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getUBASE()
+  public Integer getUBASE()
   {
     return ubase;
   }
@@ -400,9 +400,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setUBASE(int newUBASE)
+  public void setUBASE(Integer newUBASE)
   {
-    int oldUBASE = ubase;
+    Integer oldUBASE = ubase;
     ubase = newUBASE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__UBASE, oldUBASE, ubase));
@@ -414,7 +414,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -425,9 +425,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__RESERVED, oldReserved, reserved));
@@ -439,7 +439,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getXUPUB()
+  public Integer getXUPUB()
   {
     return xupub;
   }
@@ -450,9 +450,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setXUPUB(int newXUPUB)
+  public void setXUPUB(Integer newXUPUB)
   {
-    int oldXUPUB = xupub;
+    Integer oldXUPUB = xupub;
     xupub = newXUPUB;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__XUPUB, oldXUPUB, xupub));
@@ -464,7 +464,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getYUPUB()
+  public Integer getYUPUB()
   {
     return yupub;
   }
@@ -475,9 +475,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setYUPUB(int newYUPUB)
+  public void setYUPUB(Integer newYUPUB)
   {
-    int oldYUPUB = yupub;
+    Integer oldYUPUB = yupub;
     yupub = newYUPUB;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__YUPUB, oldYUPUB, yupub));
@@ -489,7 +489,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getXEXTENT()
+  public Integer getXEXTENT()
   {
     return xextent;
   }
@@ -500,9 +500,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setXEXTENT(int newXEXTENT)
+  public void setXEXTENT(Integer newXEXTENT)
   {
-    int oldXEXTENT = xextent;
+    Integer oldXEXTENT = xextent;
     xextent = newXEXTENT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__XEXTENT, oldXEXTENT, xextent));
@@ -514,7 +514,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getYEXTENT()
+  public Integer getYEXTENT()
   {
     return yextent;
   }
@@ -525,9 +525,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setYEXTENT(int newYEXTENT)
+  public void setYEXTENT(Integer newYEXTENT)
   {
-    int oldYEXTENT = yextent;
+    Integer oldYEXTENT = yextent;
     yextent = newYEXTENT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__YEXTENT, oldYEXTENT, yextent));
@@ -539,7 +539,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getReserved2()
+  public Integer getReserved2()
   {
     return reserved2;
   }
@@ -550,9 +550,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setReserved2(int newReserved2)
+  public void setReserved2(Integer newReserved2)
   {
-    int oldReserved2 = reserved2;
+    Integer oldReserved2 = reserved2;
     reserved2 = newReserved2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__RESERVED2, oldReserved2, reserved2));
@@ -564,7 +564,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getTYPE()
+  public Integer getTYPE()
   {
     return type;
   }
@@ -575,9 +575,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setTYPE(int newTYPE)
+  public void setTYPE(Integer newTYPE)
   {
-    int oldTYPE = type;
+    Integer oldTYPE = type;
     type = newTYPE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__TYPE, oldTYPE, type));
@@ -589,7 +589,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getMOD()
+  public Integer getMOD()
   {
     return mod;
   }
@@ -600,9 +600,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setMOD(int newMOD)
+  public void setMOD(Integer newMOD)
   {
-    int oldMOD = mod;
+    Integer oldMOD = mod;
     mod = newMOD;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__MOD, oldMOD, mod));
@@ -614,7 +614,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getLID()
+  public Integer getLID()
   {
     return lid;
   }
@@ -625,9 +625,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setLID(int newLID)
+  public void setLID(Integer newLID)
   {
-    int oldLID = lid;
+    Integer oldLID = lid;
     lid = newLID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__LID, oldLID, lid));
@@ -639,7 +639,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getCOLOR()
+  public Integer getCOLOR()
   {
     return color;
   }
@@ -650,9 +650,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setCOLOR(int newCOLOR)
+  public void setCOLOR(Integer newCOLOR)
   {
-    int oldCOLOR = color;
+    Integer oldCOLOR = color;
     color = newCOLOR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__COLOR, oldCOLOR, color));
@@ -664,7 +664,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getMODULEWIDTH()
+  public Integer getMODULEWIDTH()
   {
     return modulewidth;
   }
@@ -675,9 +675,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setMODULEWIDTH(int newMODULEWIDTH)
+  public void setMODULEWIDTH(Integer newMODULEWIDTH)
   {
-    int oldMODULEWIDTH = modulewidth;
+    Integer oldMODULEWIDTH = modulewidth;
     modulewidth = newMODULEWIDTH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__MODULEWIDTH, oldMODULEWIDTH, modulewidth));
@@ -689,7 +689,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getELEMENTHEIGHT()
+  public Integer getELEMENTHEIGHT()
   {
     return elementheight;
   }
@@ -700,9 +700,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setELEMENTHEIGHT(int newELEMENTHEIGHT)
+  public void setELEMENTHEIGHT(Integer newELEMENTHEIGHT)
   {
-    int oldELEMENTHEIGHT = elementheight;
+    Integer oldELEMENTHEIGHT = elementheight;
     elementheight = newELEMENTHEIGHT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__ELEMENTHEIGHT, oldELEMENTHEIGHT, elementheight));
@@ -714,7 +714,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getMULT()
+  public Integer getMULT()
   {
     return mult;
   }
@@ -725,9 +725,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setMULT(int newMULT)
+  public void setMULT(Integer newMULT)
   {
-    int oldMULT = mult;
+    Integer oldMULT = mult;
     mult = newMULT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__MULT, oldMULT, mult));
@@ -739,7 +739,7 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public int getWENE()
+  public Integer getWENE()
   {
     return wene;
   }
@@ -750,9 +750,9 @@ public class BDDImpl extends structuredFieldImpl implements BDD
    * @generated
    */
   @Override
-  public void setWENE(int newWENE)
+  public void setWENE(Integer newWENE)
   {
-    int oldWENE = wene;
+    Integer oldWENE = wene;
     wene = newWENE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDD__WENE, oldWENE, wene));
@@ -972,35 +972,35 @@ public class BDDImpl extends structuredFieldImpl implements BDD
     switch (featureID)
     {
       case AfpTextPackage.BDD__UBASE:
-        return ubase != UBASE_EDEFAULT;
+        return UBASE_EDEFAULT == null ? ubase != null : !UBASE_EDEFAULT.equals(ubase);
       case AfpTextPackage.BDD__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.BDD__XUPUB:
-        return xupub != XUPUB_EDEFAULT;
+        return XUPUB_EDEFAULT == null ? xupub != null : !XUPUB_EDEFAULT.equals(xupub);
       case AfpTextPackage.BDD__YUPUB:
-        return yupub != YUPUB_EDEFAULT;
+        return YUPUB_EDEFAULT == null ? yupub != null : !YUPUB_EDEFAULT.equals(yupub);
       case AfpTextPackage.BDD__XEXTENT:
-        return xextent != XEXTENT_EDEFAULT;
+        return XEXTENT_EDEFAULT == null ? xextent != null : !XEXTENT_EDEFAULT.equals(xextent);
       case AfpTextPackage.BDD__YEXTENT:
-        return yextent != YEXTENT_EDEFAULT;
+        return YEXTENT_EDEFAULT == null ? yextent != null : !YEXTENT_EDEFAULT.equals(yextent);
       case AfpTextPackage.BDD__RESERVED2:
-        return reserved2 != RESERVED2_EDEFAULT;
+        return RESERVED2_EDEFAULT == null ? reserved2 != null : !RESERVED2_EDEFAULT.equals(reserved2);
       case AfpTextPackage.BDD__TYPE:
-        return type != TYPE_EDEFAULT;
+        return TYPE_EDEFAULT == null ? type != null : !TYPE_EDEFAULT.equals(type);
       case AfpTextPackage.BDD__MOD:
-        return mod != MOD_EDEFAULT;
+        return MOD_EDEFAULT == null ? mod != null : !MOD_EDEFAULT.equals(mod);
       case AfpTextPackage.BDD__LID:
-        return lid != LID_EDEFAULT;
+        return LID_EDEFAULT == null ? lid != null : !LID_EDEFAULT.equals(lid);
       case AfpTextPackage.BDD__COLOR:
-        return color != COLOR_EDEFAULT;
+        return COLOR_EDEFAULT == null ? color != null : !COLOR_EDEFAULT.equals(color);
       case AfpTextPackage.BDD__MODULEWIDTH:
-        return modulewidth != MODULEWIDTH_EDEFAULT;
+        return MODULEWIDTH_EDEFAULT == null ? modulewidth != null : !MODULEWIDTH_EDEFAULT.equals(modulewidth);
       case AfpTextPackage.BDD__ELEMENTHEIGHT:
-        return elementheight != ELEMENTHEIGHT_EDEFAULT;
+        return ELEMENTHEIGHT_EDEFAULT == null ? elementheight != null : !ELEMENTHEIGHT_EDEFAULT.equals(elementheight);
       case AfpTextPackage.BDD__MULT:
-        return mult != MULT_EDEFAULT;
+        return MULT_EDEFAULT == null ? mult != null : !MULT_EDEFAULT.equals(mult);
       case AfpTextPackage.BDD__WENE:
-        return wene != WENE_EDEFAULT;
+        return WENE_EDEFAULT == null ? wene != null : !WENE_EDEFAULT.equals(wene);
       case AfpTextPackage.BDD__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

@@ -29,12 +29,12 @@ public interface ObjectAreaSize extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Size Type</em>' attribute.
-   * @see #setSizeType(int)
+   * @see #setSizeType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectAreaSize_SizeType()
    * @model
    * @generated
    */
-  int getSizeType();
+  Integer getSizeType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectAreaSize#getSizeType <em>Size Type</em>}' attribute.
@@ -44,19 +44,19 @@ public interface ObjectAreaSize extends triplet
    * @see #getSizeType()
    * @generated
    */
-  void setSizeType(int value);
+  void setSizeType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoa Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoa Size</em>' attribute.
-   * @see #setXoaSize(int)
+   * @see #setXoaSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectAreaSize_XoaSize()
    * @model
    * @generated
    */
-  int getXoaSize();
+  Integer getXoaSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectAreaSize#getXoaSize <em>Xoa Size</em>}' attribute.
@@ -66,19 +66,19 @@ public interface ObjectAreaSize extends triplet
    * @see #getXoaSize()
    * @generated
    */
-  void setXoaSize(int value);
+  void setXoaSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoa Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoa Size</em>' attribute.
-   * @see #setYoaSize(int)
+   * @see #setYoaSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectAreaSize_YoaSize()
    * @model
    * @generated
    */
-  int getYoaSize();
+  Integer getYoaSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectAreaSize#getYoaSize <em>Yoa Size</em>}' attribute.
@@ -88,6 +88,6 @@ public interface ObjectAreaSize extends triplet
    * @see #getYoaSize()
    * @generated
    */
-  void setYoaSize(int value);
+  void setYoaSize(Integer value);
 
 } // ObjectAreaSize

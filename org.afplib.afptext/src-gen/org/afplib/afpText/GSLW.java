@@ -27,12 +27,12 @@ public interface GSLW extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MH</em>' attribute.
-   * @see #setMH(int)
+   * @see #setMH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSLW_MH()
    * @model
    * @generated
    */
-  int getMH();
+  Integer getMH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSLW#getMH <em>MH</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSLW extends triplet
    * @see #getMH()
    * @generated
    */
-  void setMH(int value);
+  void setMH(Integer value);
 
 } // GSLW

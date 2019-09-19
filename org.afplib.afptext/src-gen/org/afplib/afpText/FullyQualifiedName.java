@@ -29,12 +29,12 @@ public interface FullyQualifiedName extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FQN Type</em>' attribute.
-   * @see #setFQNType(int)
+   * @see #setFQNType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFullyQualifiedName_FQNType()
    * @model
    * @generated
    */
-  int getFQNType();
+  Integer getFQNType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FullyQualifiedName#getFQNType <em>FQN Type</em>}' attribute.
@@ -44,19 +44,19 @@ public interface FullyQualifiedName extends triplet
    * @see #getFQNType()
    * @generated
    */
-  void setFQNType(int value);
+  void setFQNType(Integer value);
 
   /**
    * Returns the value of the '<em><b>FQN Format</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FQN Format</em>' attribute.
-   * @see #setFQNFormat(int)
+   * @see #setFQNFormat(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFullyQualifiedName_FQNFormat()
    * @model
    * @generated
    */
-  int getFQNFormat();
+  Integer getFQNFormat();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FullyQualifiedName#getFQNFormat <em>FQN Format</em>}' attribute.
@@ -66,7 +66,7 @@ public interface FullyQualifiedName extends triplet
    * @see #getFQNFormat()
    * @generated
    */
-  void setFQNFormat(int value);
+  void setFQNFormat(Integer value);
 
   /**
    * Returns the value of the '<em><b>FQ Name</b></em>' attribute.

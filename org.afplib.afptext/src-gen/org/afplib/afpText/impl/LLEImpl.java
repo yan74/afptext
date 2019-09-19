@@ -46,7 +46,7 @@ public class LLEImpl extends structuredFieldImpl implements LLE
    * @generated
    * @ordered
    */
-  protected static final int LNK_TYPE_EDEFAULT = 0;
+  protected static final Integer LNK_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLnkType() <em>Lnk Type</em>}' attribute.
@@ -56,7 +56,7 @@ public class LLEImpl extends structuredFieldImpl implements LLE
    * @generated
    * @ordered
    */
-  protected int lnkType = LNK_TYPE_EDEFAULT;
+  protected Integer lnkType = LNK_TYPE_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
@@ -95,7 +95,7 @@ public class LLEImpl extends structuredFieldImpl implements LLE
    * @generated
    */
   @Override
-  public int getLnkType()
+  public Integer getLnkType()
   {
     return lnkType;
   }
@@ -106,9 +106,9 @@ public class LLEImpl extends structuredFieldImpl implements LLE
    * @generated
    */
   @Override
-  public void setLnkType(int newLnkType)
+  public void setLnkType(Integer newLnkType)
   {
-    int oldLnkType = lnkType;
+    Integer oldLnkType = lnkType;
     lnkType = newLnkType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LLE__LNK_TYPE, oldLnkType, lnkType));
@@ -216,7 +216,7 @@ public class LLEImpl extends structuredFieldImpl implements LLE
     switch (featureID)
     {
       case AfpTextPackage.LLE__LNK_TYPE:
-        return lnkType != LNK_TYPE_EDEFAULT;
+        return LNK_TYPE_EDEFAULT == null ? lnkType != null : !LNK_TYPE_EDEFAULT.equals(lnkType);
       case AfpTextPackage.LLE__RG:
         return rg != null && !rg.isEmpty();
     }

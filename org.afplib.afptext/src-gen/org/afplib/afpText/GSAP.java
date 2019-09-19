@@ -30,12 +30,12 @@ public interface GSAP extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>P</em>' attribute.
-   * @see #setP(int)
+   * @see #setP(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSAP_P()
    * @model
    * @generated
    */
-  int getP();
+  Integer getP();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSAP#getP <em>P</em>}' attribute.
@@ -45,19 +45,19 @@ public interface GSAP extends triplet
    * @see #getP()
    * @generated
    */
-  void setP(int value);
+  void setP(Integer value);
 
   /**
    * Returns the value of the '<em><b>Q</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Q</em>' attribute.
-   * @see #setQ(int)
+   * @see #setQ(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSAP_Q()
    * @model
    * @generated
    */
-  int getQ();
+  Integer getQ();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSAP#getQ <em>Q</em>}' attribute.
@@ -67,19 +67,19 @@ public interface GSAP extends triplet
    * @see #getQ()
    * @generated
    */
-  void setQ(int value);
+  void setQ(Integer value);
 
   /**
    * Returns the value of the '<em><b>R</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>R</em>' attribute.
-   * @see #setR(int)
+   * @see #setR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSAP_R()
    * @model
    * @generated
    */
-  int getR();
+  Integer getR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSAP#getR <em>R</em>}' attribute.
@@ -89,19 +89,19 @@ public interface GSAP extends triplet
    * @see #getR()
    * @generated
    */
-  void setR(int value);
+  void setR(Integer value);
 
   /**
    * Returns the value of the '<em><b>S</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>S</em>' attribute.
-   * @see #setS(int)
+   * @see #setS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSAP_S()
    * @model
    * @generated
    */
-  int getS();
+  Integer getS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSAP#getS <em>S</em>}' attribute.
@@ -111,6 +111,6 @@ public interface GSAP extends triplet
    * @see #getS()
    * @generated
    */
-  void setS(int value);
+  void setS(Integer value);
 
 } // GSAP

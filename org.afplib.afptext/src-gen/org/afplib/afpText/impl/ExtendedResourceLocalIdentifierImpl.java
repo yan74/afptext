@@ -36,7 +36,7 @@ public class ExtendedResourceLocalIdentifierImpl extends tripletImpl implements 
    * @generated
    * @ordered
    */
-  protected static final int RES_TYPE_EDEFAULT = 0;
+  protected static final Integer RES_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getResType() <em>Res Type</em>}' attribute.
@@ -46,7 +46,7 @@ public class ExtendedResourceLocalIdentifierImpl extends tripletImpl implements 
    * @generated
    * @ordered
    */
-  protected int resType = RES_TYPE_EDEFAULT;
+  protected Integer resType = RES_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getResLID() <em>Res LID</em>}' attribute.
@@ -56,7 +56,7 @@ public class ExtendedResourceLocalIdentifierImpl extends tripletImpl implements 
    * @generated
    * @ordered
    */
-  protected static final int RES_LID_EDEFAULT = 0;
+  protected static final Integer RES_LID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getResLID() <em>Res LID</em>}' attribute.
@@ -66,7 +66,7 @@ public class ExtendedResourceLocalIdentifierImpl extends tripletImpl implements 
    * @generated
    * @ordered
    */
-  protected int resLID = RES_LID_EDEFAULT;
+  protected Integer resLID = RES_LID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class ExtendedResourceLocalIdentifierImpl extends tripletImpl implements 
    * @generated
    */
   @Override
-  public int getResType()
+  public Integer getResType()
   {
     return resType;
   }
@@ -106,9 +106,9 @@ public class ExtendedResourceLocalIdentifierImpl extends tripletImpl implements 
    * @generated
    */
   @Override
-  public void setResType(int newResType)
+  public void setResType(Integer newResType)
   {
-    int oldResType = resType;
+    Integer oldResType = resType;
     resType = newResType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.EXTENDED_RESOURCE_LOCAL_IDENTIFIER__RES_TYPE, oldResType, resType));
@@ -120,7 +120,7 @@ public class ExtendedResourceLocalIdentifierImpl extends tripletImpl implements 
    * @generated
    */
   @Override
-  public int getResLID()
+  public Integer getResLID()
   {
     return resLID;
   }
@@ -131,9 +131,9 @@ public class ExtendedResourceLocalIdentifierImpl extends tripletImpl implements 
    * @generated
    */
   @Override
-  public void setResLID(int newResLID)
+  public void setResLID(Integer newResLID)
   {
-    int oldResLID = resLID;
+    Integer oldResLID = resLID;
     resLID = newResLID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.EXTENDED_RESOURCE_LOCAL_IDENTIFIER__RES_LID, oldResLID, resLID));
@@ -208,9 +208,9 @@ public class ExtendedResourceLocalIdentifierImpl extends tripletImpl implements 
     switch (featureID)
     {
       case AfpTextPackage.EXTENDED_RESOURCE_LOCAL_IDENTIFIER__RES_TYPE:
-        return resType != RES_TYPE_EDEFAULT;
+        return RES_TYPE_EDEFAULT == null ? resType != null : !RES_TYPE_EDEFAULT.equals(resType);
       case AfpTextPackage.EXTENDED_RESOURCE_LOCAL_IDENTIFIER__RES_LID:
-        return resLID != RES_LID_EDEFAULT;
+        return RES_LID_EDEFAULT == null ? resLID != null : !RES_LID_EDEFAULT.equals(resLID);
     }
     return super.eIsSet(featureID);
   }

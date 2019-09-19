@@ -27,12 +27,12 @@ public interface RMI extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>INCRMENT</em>' attribute.
-   * @see #setINCRMENT(int)
+   * @see #setINCRMENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getRMI_INCRMENT()
    * @model
    * @generated
    */
-  int getINCRMENT();
+  Integer getINCRMENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.RMI#getINCRMENT <em>INCRMENT</em>}' attribute.
@@ -42,6 +42,6 @@ public interface RMI extends triplet
    * @see #getINCRMENT()
    * @generated
    */
-  void setINCRMENT(int value);
+  void setINCRMENT(Integer value);
 
 } // RMI

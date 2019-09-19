@@ -27,12 +27,12 @@ public interface ESU extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LID</em>' attribute.
-   * @see #setLID(int)
+   * @see #setLID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getESU_LID()
    * @model
    * @generated
    */
-  int getLID();
+  Integer getLID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ESU#getLID <em>LID</em>}' attribute.
@@ -42,6 +42,6 @@ public interface ESU extends triplet
    * @see #getLID()
    * @generated
    */
-  void setLID(int value);
+  void setLID(Integer value);
 
 } // ESU

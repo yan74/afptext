@@ -35,7 +35,7 @@ public class MediumMapPageNumberImpl extends tripletImpl implements MediumMapPag
    * @generated
    * @ordered
    */
-  protected static final int PAGE_NUM_EDEFAULT = 0;
+  protected static final Integer PAGE_NUM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPageNum() <em>Page Num</em>}' attribute.
@@ -45,7 +45,7 @@ public class MediumMapPageNumberImpl extends tripletImpl implements MediumMapPag
    * @generated
    * @ordered
    */
-  protected int pageNum = PAGE_NUM_EDEFAULT;
+  protected Integer pageNum = PAGE_NUM_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class MediumMapPageNumberImpl extends tripletImpl implements MediumMapPag
    * @generated
    */
   @Override
-  public int getPageNum()
+  public Integer getPageNum()
   {
     return pageNum;
   }
@@ -85,9 +85,9 @@ public class MediumMapPageNumberImpl extends tripletImpl implements MediumMapPag
    * @generated
    */
   @Override
-  public void setPageNum(int newPageNum)
+  public void setPageNum(Integer newPageNum)
   {
-    int oldPageNum = pageNum;
+    Integer oldPageNum = pageNum;
     pageNum = newPageNum;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MEDIUM_MAP_PAGE_NUMBER__PAGE_NUM, oldPageNum, pageNum));
@@ -154,7 +154,7 @@ public class MediumMapPageNumberImpl extends tripletImpl implements MediumMapPag
     switch (featureID)
     {
       case AfpTextPackage.MEDIUM_MAP_PAGE_NUMBER__PAGE_NUM:
-        return pageNum != PAGE_NUM_EDEFAULT;
+        return PAGE_NUM_EDEFAULT == null ? pageNum != null : !PAGE_NUM_EDEFAULT.equals(pageNum);
     }
     return super.eIsSet(featureID);
   }

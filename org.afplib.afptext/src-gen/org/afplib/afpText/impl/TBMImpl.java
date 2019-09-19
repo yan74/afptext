@@ -37,7 +37,7 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    * @ordered
    */
-  protected static final int DIRCTION_EDEFAULT = 0;
+  protected static final Integer DIRCTION_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDIRCTION() <em>DIRCTION</em>}' attribute.
@@ -47,7 +47,7 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    * @ordered
    */
-  protected int dirction = DIRCTION_EDEFAULT;
+  protected Integer dirction = DIRCTION_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPRECSION() <em>PRECSION</em>}' attribute.
@@ -57,7 +57,7 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    * @ordered
    */
-  protected static final int PRECSION_EDEFAULT = 0;
+  protected static final Integer PRECSION_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPRECSION() <em>PRECSION</em>}' attribute.
@@ -67,7 +67,7 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    * @ordered
    */
-  protected int precsion = PRECSION_EDEFAULT;
+  protected Integer precsion = PRECSION_EDEFAULT;
 
   /**
    * The default value of the '{@link #getINCRMENT() <em>INCRMENT</em>}' attribute.
@@ -77,7 +77,7 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    * @ordered
    */
-  protected static final int INCRMENT_EDEFAULT = 0;
+  protected static final Integer INCRMENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getINCRMENT() <em>INCRMENT</em>}' attribute.
@@ -87,7 +87,7 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    * @ordered
    */
-  protected int incrment = INCRMENT_EDEFAULT;
+  protected Integer incrment = INCRMENT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    */
   @Override
-  public int getDIRCTION()
+  public Integer getDIRCTION()
   {
     return dirction;
   }
@@ -127,9 +127,9 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    */
   @Override
-  public void setDIRCTION(int newDIRCTION)
+  public void setDIRCTION(Integer newDIRCTION)
   {
-    int oldDIRCTION = dirction;
+    Integer oldDIRCTION = dirction;
     dirction = newDIRCTION;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TBM__DIRCTION, oldDIRCTION, dirction));
@@ -141,7 +141,7 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    */
   @Override
-  public int getPRECSION()
+  public Integer getPRECSION()
   {
     return precsion;
   }
@@ -152,9 +152,9 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    */
   @Override
-  public void setPRECSION(int newPRECSION)
+  public void setPRECSION(Integer newPRECSION)
   {
-    int oldPRECSION = precsion;
+    Integer oldPRECSION = precsion;
     precsion = newPRECSION;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TBM__PRECSION, oldPRECSION, precsion));
@@ -166,7 +166,7 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    */
   @Override
-  public int getINCRMENT()
+  public Integer getINCRMENT()
   {
     return incrment;
   }
@@ -177,9 +177,9 @@ public class TBMImpl extends tripletImpl implements TBM
    * @generated
    */
   @Override
-  public void setINCRMENT(int newINCRMENT)
+  public void setINCRMENT(Integer newINCRMENT)
   {
-    int oldINCRMENT = incrment;
+    Integer oldINCRMENT = incrment;
     incrment = newINCRMENT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TBM__INCRMENT, oldINCRMENT, incrment));
@@ -262,11 +262,11 @@ public class TBMImpl extends tripletImpl implements TBM
     switch (featureID)
     {
       case AfpTextPackage.TBM__DIRCTION:
-        return dirction != DIRCTION_EDEFAULT;
+        return DIRCTION_EDEFAULT == null ? dirction != null : !DIRCTION_EDEFAULT.equals(dirction);
       case AfpTextPackage.TBM__PRECSION:
-        return precsion != PRECSION_EDEFAULT;
+        return PRECSION_EDEFAULT == null ? precsion != null : !PRECSION_EDEFAULT.equals(precsion);
       case AfpTextPackage.TBM__INCRMENT:
-        return incrment != INCRMENT_EDEFAULT;
+        return INCRMENT_EDEFAULT == null ? incrment != null : !INCRMENT_EDEFAULT.equals(incrment);
     }
     return super.eIsSet(featureID);
   }

@@ -28,12 +28,12 @@ public interface AttributeQualifier extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Seq Num</em>' attribute.
-   * @see #setSeqNum(int)
+   * @see #setSeqNum(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getAttributeQualifier_SeqNum()
    * @model
    * @generated
    */
-  int getSeqNum();
+  Integer getSeqNum();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.AttributeQualifier#getSeqNum <em>Seq Num</em>}' attribute.
@@ -43,19 +43,19 @@ public interface AttributeQualifier extends triplet
    * @see #getSeqNum()
    * @generated
    */
-  void setSeqNum(int value);
+  void setSeqNum(Integer value);
 
   /**
    * Returns the value of the '<em><b>Lev Num</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Lev Num</em>' attribute.
-   * @see #setLevNum(int)
+   * @see #setLevNum(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getAttributeQualifier_LevNum()
    * @model
    * @generated
    */
-  int getLevNum();
+  Integer getLevNum();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.AttributeQualifier#getLevNum <em>Lev Num</em>}' attribute.
@@ -65,6 +65,6 @@ public interface AttributeQualifier extends triplet
    * @see #getLevNum()
    * @generated
    */
-  void setLevNum(int value);
+  void setLevNum(Integer value);
 
 } // AttributeQualifier

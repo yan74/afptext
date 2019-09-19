@@ -35,7 +35,7 @@ public class GSECOLImpl extends tripletImpl implements GSECOL
    * @generated
    * @ordered
    */
-  protected static final int COLOR_EDEFAULT = 0;
+  protected static final Integer COLOR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLOR() <em>COLOR</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSECOLImpl extends tripletImpl implements GSECOL
    * @generated
    * @ordered
    */
-  protected int color = COLOR_EDEFAULT;
+  protected Integer color = COLOR_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSECOLImpl extends tripletImpl implements GSECOL
    * @generated
    */
   @Override
-  public int getCOLOR()
+  public Integer getCOLOR()
   {
     return color;
   }
@@ -85,9 +85,9 @@ public class GSECOLImpl extends tripletImpl implements GSECOL
    * @generated
    */
   @Override
-  public void setCOLOR(int newCOLOR)
+  public void setCOLOR(Integer newCOLOR)
   {
-    int oldCOLOR = color;
+    Integer oldCOLOR = color;
     color = newCOLOR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSECOL__COLOR, oldCOLOR, color));
@@ -154,7 +154,7 @@ public class GSECOLImpl extends tripletImpl implements GSECOL
     switch (featureID)
     {
       case AfpTextPackage.GSECOL__COLOR:
-        return color != COLOR_EDEFAULT;
+        return COLOR_EDEFAULT == null ? color != null : !COLOR_EDEFAULT.equals(color);
     }
     return super.eIsSet(featureID);
   }

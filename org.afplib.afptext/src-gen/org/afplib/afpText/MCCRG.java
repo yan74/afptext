@@ -30,12 +30,12 @@ public interface MCCRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Startnum</em>' attribute.
-   * @see #setStartnum(int)
+   * @see #setStartnum(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMCCRG_Startnum()
    * @model
    * @generated
    */
-  int getStartnum();
+  Integer getStartnum();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MCCRG#getStartnum <em>Startnum</em>}' attribute.
@@ -45,19 +45,19 @@ public interface MCCRG extends EObject
    * @see #getStartnum()
    * @generated
    */
-  void setStartnum(int value);
+  void setStartnum(Integer value);
 
   /**
    * Returns the value of the '<em><b>Stopnum</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Stopnum</em>' attribute.
-   * @see #setStopnum(int)
+   * @see #setStopnum(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMCCRG_Stopnum()
    * @model
    * @generated
    */
-  int getStopnum();
+  Integer getStopnum();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MCCRG#getStopnum <em>Stopnum</em>}' attribute.
@@ -67,19 +67,19 @@ public interface MCCRG extends EObject
    * @see #getStopnum()
    * @generated
    */
-  void setStopnum(int value);
+  void setStopnum(Integer value);
 
   /**
    * Returns the value of the '<em><b>MM Cid</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MM Cid</em>' attribute.
-   * @see #setMMCid(int)
+   * @see #setMMCid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMCCRG_MMCid()
    * @model
    * @generated
    */
-  int getMMCid();
+  Integer getMMCid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MCCRG#getMMCid <em>MM Cid</em>}' attribute.
@@ -89,6 +89,6 @@ public interface MCCRG extends EObject
    * @see #getMMCid()
    * @generated
    */
-  void setMMCid(int value);
+  void setMMCid(Integer value);
 
 } // MCCRG

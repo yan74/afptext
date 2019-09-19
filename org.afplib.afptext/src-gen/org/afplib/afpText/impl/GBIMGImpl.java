@@ -40,7 +40,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected static final int XPOS_EDEFAULT = 0;
+  protected static final Integer XPOS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXPOS() <em>XPOS</em>}' attribute.
@@ -50,7 +50,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected int xpos = XPOS_EDEFAULT;
+  protected Integer xpos = XPOS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYPOS() <em>YPOS</em>}' attribute.
@@ -60,7 +60,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected static final int YPOS_EDEFAULT = 0;
+  protected static final Integer YPOS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYPOS() <em>YPOS</em>}' attribute.
@@ -70,7 +70,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected int ypos = YPOS_EDEFAULT;
+  protected Integer ypos = YPOS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFORMAT() <em>FORMAT</em>}' attribute.
@@ -80,7 +80,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected static final int FORMAT_EDEFAULT = 0;
+  protected static final Integer FORMAT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFORMAT() <em>FORMAT</em>}' attribute.
@@ -90,7 +90,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected int format = FORMAT_EDEFAULT;
+  protected Integer format = FORMAT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRES() <em>RES</em>}' attribute.
@@ -100,7 +100,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected static final int RES_EDEFAULT = 0;
+  protected static final Integer RES_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRES() <em>RES</em>}' attribute.
@@ -110,7 +110,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected int res = RES_EDEFAULT;
+  protected Integer res = RES_EDEFAULT;
 
   /**
    * The default value of the '{@link #getWIDTH() <em>WIDTH</em>}' attribute.
@@ -120,7 +120,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected static final int WIDTH_EDEFAULT = 0;
+  protected static final Integer WIDTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getWIDTH() <em>WIDTH</em>}' attribute.
@@ -130,7 +130,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected int width = WIDTH_EDEFAULT;
+  protected Integer width = WIDTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHEIGHT() <em>HEIGHT</em>}' attribute.
@@ -140,7 +140,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected static final int HEIGHT_EDEFAULT = 0;
+  protected static final Integer HEIGHT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHEIGHT() <em>HEIGHT</em>}' attribute.
@@ -150,7 +150,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    * @ordered
    */
-  protected int height = HEIGHT_EDEFAULT;
+  protected Integer height = HEIGHT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -179,7 +179,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public int getXPOS()
+  public Integer getXPOS()
   {
     return xpos;
   }
@@ -190,9 +190,9 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public void setXPOS(int newXPOS)
+  public void setXPOS(Integer newXPOS)
   {
-    int oldXPOS = xpos;
+    Integer oldXPOS = xpos;
     xpos = newXPOS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBIMG__XPOS, oldXPOS, xpos));
@@ -204,7 +204,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public int getYPOS()
+  public Integer getYPOS()
   {
     return ypos;
   }
@@ -215,9 +215,9 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public void setYPOS(int newYPOS)
+  public void setYPOS(Integer newYPOS)
   {
-    int oldYPOS = ypos;
+    Integer oldYPOS = ypos;
     ypos = newYPOS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBIMG__YPOS, oldYPOS, ypos));
@@ -229,7 +229,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public int getFORMAT()
+  public Integer getFORMAT()
   {
     return format;
   }
@@ -240,9 +240,9 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public void setFORMAT(int newFORMAT)
+  public void setFORMAT(Integer newFORMAT)
   {
-    int oldFORMAT = format;
+    Integer oldFORMAT = format;
     format = newFORMAT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBIMG__FORMAT, oldFORMAT, format));
@@ -254,7 +254,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public int getRES()
+  public Integer getRES()
   {
     return res;
   }
@@ -265,9 +265,9 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public void setRES(int newRES)
+  public void setRES(Integer newRES)
   {
-    int oldRES = res;
+    Integer oldRES = res;
     res = newRES;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBIMG__RES, oldRES, res));
@@ -279,7 +279,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public int getWIDTH()
+  public Integer getWIDTH()
   {
     return width;
   }
@@ -290,9 +290,9 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public void setWIDTH(int newWIDTH)
+  public void setWIDTH(Integer newWIDTH)
   {
-    int oldWIDTH = width;
+    Integer oldWIDTH = width;
     width = newWIDTH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBIMG__WIDTH, oldWIDTH, width));
@@ -304,7 +304,7 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public int getHEIGHT()
+  public Integer getHEIGHT()
   {
     return height;
   }
@@ -315,9 +315,9 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
    * @generated
    */
   @Override
-  public void setHEIGHT(int newHEIGHT)
+  public void setHEIGHT(Integer newHEIGHT)
   {
-    int oldHEIGHT = height;
+    Integer oldHEIGHT = height;
     height = newHEIGHT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBIMG__HEIGHT, oldHEIGHT, height));
@@ -424,17 +424,17 @@ public class GBIMGImpl extends tripletImpl implements GBIMG
     switch (featureID)
     {
       case AfpTextPackage.GBIMG__XPOS:
-        return xpos != XPOS_EDEFAULT;
+        return XPOS_EDEFAULT == null ? xpos != null : !XPOS_EDEFAULT.equals(xpos);
       case AfpTextPackage.GBIMG__YPOS:
-        return ypos != YPOS_EDEFAULT;
+        return YPOS_EDEFAULT == null ? ypos != null : !YPOS_EDEFAULT.equals(ypos);
       case AfpTextPackage.GBIMG__FORMAT:
-        return format != FORMAT_EDEFAULT;
+        return FORMAT_EDEFAULT == null ? format != null : !FORMAT_EDEFAULT.equals(format);
       case AfpTextPackage.GBIMG__RES:
-        return res != RES_EDEFAULT;
+        return RES_EDEFAULT == null ? res != null : !RES_EDEFAULT.equals(res);
       case AfpTextPackage.GBIMG__WIDTH:
-        return width != WIDTH_EDEFAULT;
+        return WIDTH_EDEFAULT == null ? width != null : !WIDTH_EDEFAULT.equals(width);
       case AfpTextPackage.GBIMG__HEIGHT:
-        return height != HEIGHT_EDEFAULT;
+        return HEIGHT_EDEFAULT == null ? height != null : !HEIGHT_EDEFAULT.equals(height);
     }
     return super.eIsSet(featureID);
   }

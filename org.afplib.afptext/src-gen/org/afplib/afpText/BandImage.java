@@ -29,12 +29,12 @@ public interface BandImage extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BCOUNT</em>' attribute.
-   * @see #setBCOUNT(int)
+   * @see #setBCOUNT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBandImage_BCOUNT()
    * @model
    * @generated
    */
-  int getBCOUNT();
+  Integer getBCOUNT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BandImage#getBCOUNT <em>BCOUNT</em>}' attribute.
@@ -44,7 +44,7 @@ public interface BandImage extends triplet
    * @see #getBCOUNT()
    * @generated
    */
-  void setBCOUNT(int value);
+  void setBCOUNT(Integer value);
 
   /**
    * Returns the value of the '<em><b>Rg</b></em>' containment reference list.

@@ -29,12 +29,12 @@ public interface FontResolution extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Met Tech</em>' attribute.
-   * @see #setMetTech(int)
+   * @see #setMetTech(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontResolution_MetTech()
    * @model
    * @generated
    */
-  int getMetTech();
+  Integer getMetTech();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontResolution#getMetTech <em>Met Tech</em>}' attribute.
@@ -44,19 +44,19 @@ public interface FontResolution extends triplet
    * @see #getMetTech()
    * @generated
    */
-  void setMetTech(int value);
+  void setMetTech(Integer value);
 
   /**
    * Returns the value of the '<em><b>RPu Base</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RPu Base</em>' attribute.
-   * @see #setRPuBase(int)
+   * @see #setRPuBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontResolution_RPuBase()
    * @model
    * @generated
    */
-  int getRPuBase();
+  Integer getRPuBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontResolution#getRPuBase <em>RPu Base</em>}' attribute.
@@ -66,19 +66,19 @@ public interface FontResolution extends triplet
    * @see #getRPuBase()
    * @generated
    */
-  void setRPuBase(int value);
+  void setRPuBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>RP Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RP Units</em>' attribute.
-   * @see #setRPUnits(int)
+   * @see #setRPUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontResolution_RPUnits()
    * @model
    * @generated
    */
-  int getRPUnits();
+  Integer getRPUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontResolution#getRPUnits <em>RP Units</em>}' attribute.
@@ -88,6 +88,6 @@ public interface FontResolution extends triplet
    * @see #getRPUnits()
    * @generated
    */
-  void setRPUnits(int value);
+  void setRPUnits(Integer value);
 
 } // FontResolution

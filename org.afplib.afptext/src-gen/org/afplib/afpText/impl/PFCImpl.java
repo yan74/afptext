@@ -46,7 +46,7 @@ public class PFCImpl extends structuredFieldImpl implements PFC
    * @generated
    * @ordered
    */
-  protected static final int PFC_FLGS_EDEFAULT = 0;
+  protected static final Integer PFC_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPFCFlgs() <em>PFC Flgs</em>}' attribute.
@@ -56,7 +56,7 @@ public class PFCImpl extends structuredFieldImpl implements PFC
    * @generated
    * @ordered
    */
-  protected int pfcFlgs = PFC_FLGS_EDEFAULT;
+  protected Integer pfcFlgs = PFC_FLGS_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -95,7 +95,7 @@ public class PFCImpl extends structuredFieldImpl implements PFC
    * @generated
    */
   @Override
-  public int getPFCFlgs()
+  public Integer getPFCFlgs()
   {
     return pfcFlgs;
   }
@@ -106,9 +106,9 @@ public class PFCImpl extends structuredFieldImpl implements PFC
    * @generated
    */
   @Override
-  public void setPFCFlgs(int newPFCFlgs)
+  public void setPFCFlgs(Integer newPFCFlgs)
   {
-    int oldPFCFlgs = pfcFlgs;
+    Integer oldPFCFlgs = pfcFlgs;
     pfcFlgs = newPFCFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PFC__PFC_FLGS, oldPFCFlgs, pfcFlgs));
@@ -216,7 +216,7 @@ public class PFCImpl extends structuredFieldImpl implements PFC
     switch (featureID)
     {
       case AfpTextPackage.PFC__PFC_FLGS:
-        return pfcFlgs != PFC_FLGS_EDEFAULT;
+        return PFC_FLGS_EDEFAULT == null ? pfcFlgs != null : !PFC_FLGS_EDEFAULT.equals(pfcFlgs);
       case AfpTextPackage.PFC__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

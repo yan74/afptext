@@ -35,7 +35,7 @@ public class GEPROLImpl extends tripletImpl implements GEPROL
    * @generated
    * @ordered
    */
-  protected static final int RES_EDEFAULT = 0;
+  protected static final Integer RES_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRES() <em>RES</em>}' attribute.
@@ -45,7 +45,7 @@ public class GEPROLImpl extends tripletImpl implements GEPROL
    * @generated
    * @ordered
    */
-  protected int res = RES_EDEFAULT;
+  protected Integer res = RES_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GEPROLImpl extends tripletImpl implements GEPROL
    * @generated
    */
   @Override
-  public int getRES()
+  public Integer getRES()
   {
     return res;
   }
@@ -85,9 +85,9 @@ public class GEPROLImpl extends tripletImpl implements GEPROL
    * @generated
    */
   @Override
-  public void setRES(int newRES)
+  public void setRES(Integer newRES)
   {
-    int oldRES = res;
+    Integer oldRES = res;
     res = newRES;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GEPROL__RES, oldRES, res));
@@ -154,7 +154,7 @@ public class GEPROLImpl extends tripletImpl implements GEPROL
     switch (featureID)
     {
       case AfpTextPackage.GEPROL__RES:
-        return res != RES_EDEFAULT;
+        return RES_EDEFAULT == null ? res != null : !RES_EDEFAULT.equals(res);
     }
     return super.eIsSet(featureID);
   }

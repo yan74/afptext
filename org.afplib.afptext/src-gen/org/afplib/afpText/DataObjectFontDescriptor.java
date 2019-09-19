@@ -34,12 +34,12 @@ public interface DataObjectFontDescriptor extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>DO Ft Flgs</em>' attribute.
-   * @see #setDOFtFlgs(int)
+   * @see #setDOFtFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDataObjectFontDescriptor_DOFtFlgs()
    * @model
    * @generated
    */
-  int getDOFtFlgs();
+  Integer getDOFtFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DataObjectFontDescriptor#getDOFtFlgs <em>DO Ft Flgs</em>}' attribute.
@@ -49,19 +49,19 @@ public interface DataObjectFontDescriptor extends triplet
    * @see #getDOFtFlgs()
    * @generated
    */
-  void setDOFtFlgs(int value);
+  void setDOFtFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>Font Tech</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Font Tech</em>' attribute.
-   * @see #setFontTech(int)
+   * @see #setFontTech(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDataObjectFontDescriptor_FontTech()
    * @model
    * @generated
    */
-  int getFontTech();
+  Integer getFontTech();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DataObjectFontDescriptor#getFontTech <em>Font Tech</em>}' attribute.
@@ -71,19 +71,19 @@ public interface DataObjectFontDescriptor extends triplet
    * @see #getFontTech()
    * @generated
    */
-  void setFontTech(int value);
+  void setFontTech(Integer value);
 
   /**
    * Returns the value of the '<em><b>VFS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VFS</em>' attribute.
-   * @see #setVFS(int)
+   * @see #setVFS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDataObjectFontDescriptor_VFS()
    * @model
    * @generated
    */
-  int getVFS();
+  Integer getVFS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DataObjectFontDescriptor#getVFS <em>VFS</em>}' attribute.
@@ -93,19 +93,19 @@ public interface DataObjectFontDescriptor extends triplet
    * @see #getVFS()
    * @generated
    */
-  void setVFS(int value);
+  void setVFS(Integer value);
 
   /**
    * Returns the value of the '<em><b>HFS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HFS</em>' attribute.
-   * @see #setHFS(int)
+   * @see #setHFS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDataObjectFontDescriptor_HFS()
    * @model
    * @generated
    */
-  int getHFS();
+  Integer getHFS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DataObjectFontDescriptor#getHFS <em>HFS</em>}' attribute.
@@ -115,19 +115,19 @@ public interface DataObjectFontDescriptor extends triplet
    * @see #getHFS()
    * @generated
    */
-  void setHFS(int value);
+  void setHFS(Integer value);
 
   /**
    * Returns the value of the '<em><b>Char Rot</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Char Rot</em>' attribute.
-   * @see #setCharRot(int)
+   * @see #setCharRot(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDataObjectFontDescriptor_CharRot()
    * @model
    * @generated
    */
-  int getCharRot();
+  Integer getCharRot();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DataObjectFontDescriptor#getCharRot <em>Char Rot</em>}' attribute.
@@ -137,19 +137,19 @@ public interface DataObjectFontDescriptor extends triplet
    * @see #getCharRot()
    * @generated
    */
-  void setCharRot(int value);
+  void setCharRot(Integer value);
 
   /**
    * Returns the value of the '<em><b>Enc Env</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Enc Env</em>' attribute.
-   * @see #setEncEnv(int)
+   * @see #setEncEnv(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDataObjectFontDescriptor_EncEnv()
    * @model
    * @generated
    */
-  int getEncEnv();
+  Integer getEncEnv();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DataObjectFontDescriptor#getEncEnv <em>Enc Env</em>}' attribute.
@@ -159,19 +159,19 @@ public interface DataObjectFontDescriptor extends triplet
    * @see #getEncEnv()
    * @generated
    */
-  void setEncEnv(int value);
+  void setEncEnv(Integer value);
 
   /**
    * Returns the value of the '<em><b>Enc ID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Enc ID</em>' attribute.
-   * @see #setEncID(int)
+   * @see #setEncID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDataObjectFontDescriptor_EncID()
    * @model
    * @generated
    */
-  int getEncID();
+  Integer getEncID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DataObjectFontDescriptor#getEncID <em>Enc ID</em>}' attribute.
@@ -181,7 +181,7 @@ public interface DataObjectFontDescriptor extends triplet
    * @see #getEncID()
    * @generated
    */
-  void setEncID(int value);
+  void setEncID(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved</b></em>' attribute.

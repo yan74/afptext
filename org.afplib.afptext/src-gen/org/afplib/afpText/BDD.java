@@ -43,12 +43,12 @@ public interface BDD extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>UBASE</em>' attribute.
-   * @see #setUBASE(int)
+   * @see #setUBASE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_UBASE()
    * @model
    * @generated
    */
-  int getUBASE();
+  Integer getUBASE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getUBASE <em>UBASE</em>}' attribute.
@@ -58,19 +58,19 @@ public interface BDD extends structuredField
    * @see #getUBASE()
    * @generated
    */
-  void setUBASE(int value);
+  void setUBASE(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved</em>' attribute.
-   * @see #setReserved(int)
+   * @see #setReserved(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_Reserved()
    * @model
    * @generated
    */
-  int getReserved();
+  Integer getReserved();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getReserved <em>Reserved</em>}' attribute.
@@ -80,19 +80,19 @@ public interface BDD extends structuredField
    * @see #getReserved()
    * @generated
    */
-  void setReserved(int value);
+  void setReserved(Integer value);
 
   /**
    * Returns the value of the '<em><b>XUPUB</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XUPUB</em>' attribute.
-   * @see #setXUPUB(int)
+   * @see #setXUPUB(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_XUPUB()
    * @model
    * @generated
    */
-  int getXUPUB();
+  Integer getXUPUB();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getXUPUB <em>XUPUB</em>}' attribute.
@@ -102,19 +102,19 @@ public interface BDD extends structuredField
    * @see #getXUPUB()
    * @generated
    */
-  void setXUPUB(int value);
+  void setXUPUB(Integer value);
 
   /**
    * Returns the value of the '<em><b>YUPUB</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YUPUB</em>' attribute.
-   * @see #setYUPUB(int)
+   * @see #setYUPUB(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_YUPUB()
    * @model
    * @generated
    */
-  int getYUPUB();
+  Integer getYUPUB();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getYUPUB <em>YUPUB</em>}' attribute.
@@ -124,19 +124,19 @@ public interface BDD extends structuredField
    * @see #getYUPUB()
    * @generated
    */
-  void setYUPUB(int value);
+  void setYUPUB(Integer value);
 
   /**
    * Returns the value of the '<em><b>XEXTENT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XEXTENT</em>' attribute.
-   * @see #setXEXTENT(int)
+   * @see #setXEXTENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_XEXTENT()
    * @model
    * @generated
    */
-  int getXEXTENT();
+  Integer getXEXTENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getXEXTENT <em>XEXTENT</em>}' attribute.
@@ -146,19 +146,19 @@ public interface BDD extends structuredField
    * @see #getXEXTENT()
    * @generated
    */
-  void setXEXTENT(int value);
+  void setXEXTENT(Integer value);
 
   /**
    * Returns the value of the '<em><b>YEXTENT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YEXTENT</em>' attribute.
-   * @see #setYEXTENT(int)
+   * @see #setYEXTENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_YEXTENT()
    * @model
    * @generated
    */
-  int getYEXTENT();
+  Integer getYEXTENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getYEXTENT <em>YEXTENT</em>}' attribute.
@@ -168,19 +168,19 @@ public interface BDD extends structuredField
    * @see #getYEXTENT()
    * @generated
    */
-  void setYEXTENT(int value);
+  void setYEXTENT(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved2</em>' attribute.
-   * @see #setReserved2(int)
+   * @see #setReserved2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_Reserved2()
    * @model
    * @generated
    */
-  int getReserved2();
+  Integer getReserved2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getReserved2 <em>Reserved2</em>}' attribute.
@@ -190,19 +190,19 @@ public interface BDD extends structuredField
    * @see #getReserved2()
    * @generated
    */
-  void setReserved2(int value);
+  void setReserved2(Integer value);
 
   /**
    * Returns the value of the '<em><b>TYPE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>TYPE</em>' attribute.
-   * @see #setTYPE(int)
+   * @see #setTYPE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_TYPE()
    * @model
    * @generated
    */
-  int getTYPE();
+  Integer getTYPE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getTYPE <em>TYPE</em>}' attribute.
@@ -212,19 +212,19 @@ public interface BDD extends structuredField
    * @see #getTYPE()
    * @generated
    */
-  void setTYPE(int value);
+  void setTYPE(Integer value);
 
   /**
    * Returns the value of the '<em><b>MOD</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MOD</em>' attribute.
-   * @see #setMOD(int)
+   * @see #setMOD(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_MOD()
    * @model
    * @generated
    */
-  int getMOD();
+  Integer getMOD();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getMOD <em>MOD</em>}' attribute.
@@ -234,19 +234,19 @@ public interface BDD extends structuredField
    * @see #getMOD()
    * @generated
    */
-  void setMOD(int value);
+  void setMOD(Integer value);
 
   /**
    * Returns the value of the '<em><b>LID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LID</em>' attribute.
-   * @see #setLID(int)
+   * @see #setLID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_LID()
    * @model
    * @generated
    */
-  int getLID();
+  Integer getLID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getLID <em>LID</em>}' attribute.
@@ -256,19 +256,19 @@ public interface BDD extends structuredField
    * @see #getLID()
    * @generated
    */
-  void setLID(int value);
+  void setLID(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLOR</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLOR</em>' attribute.
-   * @see #setCOLOR(int)
+   * @see #setCOLOR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_COLOR()
    * @model
    * @generated
    */
-  int getCOLOR();
+  Integer getCOLOR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getCOLOR <em>COLOR</em>}' attribute.
@@ -278,19 +278,19 @@ public interface BDD extends structuredField
    * @see #getCOLOR()
    * @generated
    */
-  void setCOLOR(int value);
+  void setCOLOR(Integer value);
 
   /**
    * Returns the value of the '<em><b>MODULEWIDTH</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MODULEWIDTH</em>' attribute.
-   * @see #setMODULEWIDTH(int)
+   * @see #setMODULEWIDTH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_MODULEWIDTH()
    * @model
    * @generated
    */
-  int getMODULEWIDTH();
+  Integer getMODULEWIDTH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getMODULEWIDTH <em>MODULEWIDTH</em>}' attribute.
@@ -300,19 +300,19 @@ public interface BDD extends structuredField
    * @see #getMODULEWIDTH()
    * @generated
    */
-  void setMODULEWIDTH(int value);
+  void setMODULEWIDTH(Integer value);
 
   /**
    * Returns the value of the '<em><b>ELEMENTHEIGHT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>ELEMENTHEIGHT</em>' attribute.
-   * @see #setELEMENTHEIGHT(int)
+   * @see #setELEMENTHEIGHT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_ELEMENTHEIGHT()
    * @model
    * @generated
    */
-  int getELEMENTHEIGHT();
+  Integer getELEMENTHEIGHT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getELEMENTHEIGHT <em>ELEMENTHEIGHT</em>}' attribute.
@@ -322,19 +322,19 @@ public interface BDD extends structuredField
    * @see #getELEMENTHEIGHT()
    * @generated
    */
-  void setELEMENTHEIGHT(int value);
+  void setELEMENTHEIGHT(Integer value);
 
   /**
    * Returns the value of the '<em><b>MULT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MULT</em>' attribute.
-   * @see #setMULT(int)
+   * @see #setMULT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_MULT()
    * @model
    * @generated
    */
-  int getMULT();
+  Integer getMULT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getMULT <em>MULT</em>}' attribute.
@@ -344,19 +344,19 @@ public interface BDD extends structuredField
    * @see #getMULT()
    * @generated
    */
-  void setMULT(int value);
+  void setMULT(Integer value);
 
   /**
    * Returns the value of the '<em><b>WENE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>WENE</em>' attribute.
-   * @see #setWENE(int)
+   * @see #setWENE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDD_WENE()
    * @model
    * @generated
    */
-  int getWENE();
+  Integer getWENE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDD#getWENE <em>WENE</em>}' attribute.
@@ -366,7 +366,7 @@ public interface BDD extends structuredField
    * @see #getWENE()
    * @generated
    */
-  void setWENE(int value);
+  void setWENE(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

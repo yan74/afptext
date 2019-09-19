@@ -38,7 +38,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    * @ordered
    */
-  protected static final int XBASE_EDEFAULT = 0;
+  protected static final Integer XBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXBase() <em>XBase</em>}' attribute.
@@ -48,7 +48,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    * @ordered
    */
-  protected int xBase = XBASE_EDEFAULT;
+  protected Integer xBase = XBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYBase() <em>YBase</em>}' attribute.
@@ -58,7 +58,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    * @ordered
    */
-  protected static final int YBASE_EDEFAULT = 0;
+  protected static final Integer YBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYBase() <em>YBase</em>}' attribute.
@@ -68,7 +68,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    * @ordered
    */
-  protected int yBase = YBASE_EDEFAULT;
+  protected Integer yBase = YBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXResol() <em>XResol</em>}' attribute.
@@ -78,7 +78,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    * @ordered
    */
-  protected static final int XRESOL_EDEFAULT = 0;
+  protected static final Integer XRESOL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXResol() <em>XResol</em>}' attribute.
@@ -88,7 +88,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    * @ordered
    */
-  protected int xResol = XRESOL_EDEFAULT;
+  protected Integer xResol = XRESOL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYResol() <em>YResol</em>}' attribute.
@@ -98,7 +98,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    * @ordered
    */
-  protected static final int YRESOL_EDEFAULT = 0;
+  protected static final Integer YRESOL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYResol() <em>YResol</em>}' attribute.
@@ -108,7 +108,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    * @ordered
    */
-  protected int yResol = YRESOL_EDEFAULT;
+  protected Integer yResol = YRESOL_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -137,7 +137,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    */
   @Override
-  public int getXBase()
+  public Integer getXBase()
   {
     return xBase;
   }
@@ -148,9 +148,9 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    */
   @Override
-  public void setXBase(int newXBase)
+  public void setXBase(Integer newXBase)
   {
-    int oldXBase = xBase;
+    Integer oldXBase = xBase;
     xBase = newXBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_RESOLUTION__XBASE, oldXBase, xBase));
@@ -162,7 +162,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    */
   @Override
-  public int getYBase()
+  public Integer getYBase()
   {
     return yBase;
   }
@@ -173,9 +173,9 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    */
   @Override
-  public void setYBase(int newYBase)
+  public void setYBase(Integer newYBase)
   {
-    int oldYBase = yBase;
+    Integer oldYBase = yBase;
     yBase = newYBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_RESOLUTION__YBASE, oldYBase, yBase));
@@ -187,7 +187,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    */
   @Override
-  public int getXResol()
+  public Integer getXResol()
   {
     return xResol;
   }
@@ -198,9 +198,9 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    */
   @Override
-  public void setXResol(int newXResol)
+  public void setXResol(Integer newXResol)
   {
-    int oldXResol = xResol;
+    Integer oldXResol = xResol;
     xResol = newXResol;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_RESOLUTION__XRESOL, oldXResol, xResol));
@@ -212,7 +212,7 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    */
   @Override
-  public int getYResol()
+  public Integer getYResol()
   {
     return yResol;
   }
@@ -223,9 +223,9 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
    * @generated
    */
   @Override
-  public void setYResol(int newYResol)
+  public void setYResol(Integer newYResol)
   {
-    int oldYResol = yResol;
+    Integer oldYResol = yResol;
     yResol = newYResol;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_RESOLUTION__YRESOL, oldYResol, yResol));
@@ -316,13 +316,13 @@ public class ImageResolutionImpl extends tripletImpl implements ImageResolution
     switch (featureID)
     {
       case AfpTextPackage.IMAGE_RESOLUTION__XBASE:
-        return xBase != XBASE_EDEFAULT;
+        return XBASE_EDEFAULT == null ? xBase != null : !XBASE_EDEFAULT.equals(xBase);
       case AfpTextPackage.IMAGE_RESOLUTION__YBASE:
-        return yBase != YBASE_EDEFAULT;
+        return YBASE_EDEFAULT == null ? yBase != null : !YBASE_EDEFAULT.equals(yBase);
       case AfpTextPackage.IMAGE_RESOLUTION__XRESOL:
-        return xResol != XRESOL_EDEFAULT;
+        return XRESOL_EDEFAULT == null ? xResol != null : !XRESOL_EDEFAULT.equals(xResol);
       case AfpTextPackage.IMAGE_RESOLUTION__YRESOL:
-        return yResol != YRESOL_EDEFAULT;
+        return YRESOL_EDEFAULT == null ? yResol != null : !YRESOL_EDEFAULT.equals(yResol);
     }
     return super.eIsSet(featureID);
   }

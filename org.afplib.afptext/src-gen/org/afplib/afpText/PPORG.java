@@ -35,12 +35,12 @@ public interface PPORG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RG Length</em>' attribute.
-   * @see #setRGLength(int)
+   * @see #setRGLength(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPPORG_RGLength()
    * @model
    * @generated
    */
-  int getRGLength();
+  Integer getRGLength();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PPORG#getRGLength <em>RG Length</em>}' attribute.
@@ -50,19 +50,19 @@ public interface PPORG extends EObject
    * @see #getRGLength()
    * @generated
    */
-  void setRGLength(int value);
+  void setRGLength(Integer value);
 
   /**
    * Returns the value of the '<em><b>Obj Type</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Obj Type</em>' attribute.
-   * @see #setObjType(int)
+   * @see #setObjType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPPORG_ObjType()
    * @model
    * @generated
    */
-  int getObjType();
+  Integer getObjType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PPORG#getObjType <em>Obj Type</em>}' attribute.
@@ -72,19 +72,19 @@ public interface PPORG extends EObject
    * @see #getObjType()
    * @generated
    */
-  void setObjType(int value);
+  void setObjType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Proc Flgs</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Proc Flgs</em>' attribute.
-   * @see #setProcFlgs(int)
+   * @see #setProcFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPPORG_ProcFlgs()
    * @model
    * @generated
    */
-  int getProcFlgs();
+  Integer getProcFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PPORG#getProcFlgs <em>Proc Flgs</em>}' attribute.
@@ -94,19 +94,19 @@ public interface PPORG extends EObject
    * @see #getProcFlgs()
    * @generated
    */
-  void setProcFlgs(int value);
+  void setProcFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoca Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoca Oset</em>' attribute.
-   * @see #setXocaOset(int)
+   * @see #setXocaOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPPORG_XocaOset()
    * @model
    * @generated
    */
-  int getXocaOset();
+  Integer getXocaOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PPORG#getXocaOset <em>Xoca Oset</em>}' attribute.
@@ -116,19 +116,19 @@ public interface PPORG extends EObject
    * @see #getXocaOset()
    * @generated
    */
-  void setXocaOset(int value);
+  void setXocaOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoca Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoca Oset</em>' attribute.
-   * @see #setYocaOset(int)
+   * @see #setYocaOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPPORG_YocaOset()
    * @model
    * @generated
    */
-  int getYocaOset();
+  Integer getYocaOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PPORG#getYocaOset <em>Yoca Oset</em>}' attribute.
@@ -138,7 +138,7 @@ public interface PPORG extends EObject
    * @see #getYocaOset()
    * @generated
    */
-  void setYocaOset(int value);
+  void setYocaOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

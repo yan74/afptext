@@ -35,7 +35,7 @@ public class GBARImpl extends tripletImpl implements GBAR
    * @generated
    * @ordered
    */
-  protected static final int FLAGS_EDEFAULT = 0;
+  protected static final Integer FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFLAGS() <em>FLAGS</em>}' attribute.
@@ -45,7 +45,7 @@ public class GBARImpl extends tripletImpl implements GBAR
    * @generated
    * @ordered
    */
-  protected int flags = FLAGS_EDEFAULT;
+  protected Integer flags = FLAGS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GBARImpl extends tripletImpl implements GBAR
    * @generated
    */
   @Override
-  public int getFLAGS()
+  public Integer getFLAGS()
   {
     return flags;
   }
@@ -85,9 +85,9 @@ public class GBARImpl extends tripletImpl implements GBAR
    * @generated
    */
   @Override
-  public void setFLAGS(int newFLAGS)
+  public void setFLAGS(Integer newFLAGS)
   {
-    int oldFLAGS = flags;
+    Integer oldFLAGS = flags;
     flags = newFLAGS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GBAR__FLAGS, oldFLAGS, flags));
@@ -154,7 +154,7 @@ public class GBARImpl extends tripletImpl implements GBAR
     switch (featureID)
     {
       case AfpTextPackage.GBAR__FLAGS:
-        return flags != FLAGS_EDEFAULT;
+        return FLAGS_EDEFAULT == null ? flags != null : !FLAGS_EDEFAULT.equals(flags);
     }
     return super.eIsSet(featureID);
   }

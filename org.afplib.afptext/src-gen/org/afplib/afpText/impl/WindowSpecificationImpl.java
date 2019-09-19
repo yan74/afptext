@@ -45,7 +45,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int FLAGS_EDEFAULT = 0;
+  protected static final Integer FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFLAGS() <em>FLAGS</em>}' attribute.
@@ -55,7 +55,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int flags = FLAGS_EDEFAULT;
+  protected Integer flags = FLAGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRES3() <em>RES3</em>}' attribute.
@@ -65,7 +65,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int RES3_EDEFAULT = 0;
+  protected static final Integer RES3_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRES3() <em>RES3</em>}' attribute.
@@ -75,7 +75,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int res3 = RES3_EDEFAULT;
+  protected Integer res3 = RES3_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCFORMAT() <em>CFORMAT</em>}' attribute.
@@ -85,7 +85,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int CFORMAT_EDEFAULT = 0;
+  protected static final Integer CFORMAT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCFORMAT() <em>CFORMAT</em>}' attribute.
@@ -95,7 +95,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int cformat = CFORMAT_EDEFAULT;
+  protected Integer cformat = CFORMAT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getUBASE() <em>UBASE</em>}' attribute.
@@ -105,7 +105,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int UBASE_EDEFAULT = 0;
+  protected static final Integer UBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUBASE() <em>UBASE</em>}' attribute.
@@ -115,7 +115,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int ubase = UBASE_EDEFAULT;
+  protected Integer ubase = UBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXRESOL() <em>XRESOL</em>}' attribute.
@@ -125,7 +125,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int XRESOL_EDEFAULT = 0;
+  protected static final Integer XRESOL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXRESOL() <em>XRESOL</em>}' attribute.
@@ -135,7 +135,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int xresol = XRESOL_EDEFAULT;
+  protected Integer xresol = XRESOL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYRESOL() <em>YRESOL</em>}' attribute.
@@ -145,7 +145,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int YRESOL_EDEFAULT = 0;
+  protected static final Integer YRESOL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYRESOL() <em>YRESOL</em>}' attribute.
@@ -155,7 +155,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int yresol = YRESOL_EDEFAULT;
+  protected Integer yresol = YRESOL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getIMGXYRES() <em>IMGXYRES</em>}' attribute.
@@ -165,7 +165,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int IMGXYRES_EDEFAULT = 0;
+  protected static final Integer IMGXYRES_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getIMGXYRES() <em>IMGXYRES</em>}' attribute.
@@ -175,7 +175,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int imgxyres = IMGXYRES_EDEFAULT;
+  protected Integer imgxyres = IMGXYRES_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXLWIND() <em>XLWIND</em>}' attribute.
@@ -185,7 +185,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int XLWIND_EDEFAULT = 0;
+  protected static final Integer XLWIND_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXLWIND() <em>XLWIND</em>}' attribute.
@@ -195,7 +195,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int xlwind = XLWIND_EDEFAULT;
+  protected Integer xlwind = XLWIND_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXRWIND() <em>XRWIND</em>}' attribute.
@@ -205,7 +205,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int XRWIND_EDEFAULT = 0;
+  protected static final Integer XRWIND_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXRWIND() <em>XRWIND</em>}' attribute.
@@ -215,7 +215,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int xrwind = XRWIND_EDEFAULT;
+  protected Integer xrwind = XRWIND_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYBWIND() <em>YBWIND</em>}' attribute.
@@ -225,7 +225,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int YBWIND_EDEFAULT = 0;
+  protected static final Integer YBWIND_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYBWIND() <em>YBWIND</em>}' attribute.
@@ -235,7 +235,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int ybwind = YBWIND_EDEFAULT;
+  protected Integer ybwind = YBWIND_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYTWIND() <em>YTWIND</em>}' attribute.
@@ -245,7 +245,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected static final int YTWIND_EDEFAULT = 0;
+  protected static final Integer YTWIND_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYTWIND() <em>YTWIND</em>}' attribute.
@@ -255,7 +255,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    * @ordered
    */
-  protected int ytwind = YTWIND_EDEFAULT;
+  protected Integer ytwind = YTWIND_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -284,7 +284,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getFLAGS()
+  public Integer getFLAGS()
   {
     return flags;
   }
@@ -295,9 +295,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setFLAGS(int newFLAGS)
+  public void setFLAGS(Integer newFLAGS)
   {
-    int oldFLAGS = flags;
+    Integer oldFLAGS = flags;
     flags = newFLAGS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__FLAGS, oldFLAGS, flags));
@@ -309,7 +309,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getRES3()
+  public Integer getRES3()
   {
     return res3;
   }
@@ -320,9 +320,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setRES3(int newRES3)
+  public void setRES3(Integer newRES3)
   {
-    int oldRES3 = res3;
+    Integer oldRES3 = res3;
     res3 = newRES3;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__RES3, oldRES3, res3));
@@ -334,7 +334,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getCFORMAT()
+  public Integer getCFORMAT()
   {
     return cformat;
   }
@@ -345,9 +345,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setCFORMAT(int newCFORMAT)
+  public void setCFORMAT(Integer newCFORMAT)
   {
-    int oldCFORMAT = cformat;
+    Integer oldCFORMAT = cformat;
     cformat = newCFORMAT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__CFORMAT, oldCFORMAT, cformat));
@@ -359,7 +359,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getUBASE()
+  public Integer getUBASE()
   {
     return ubase;
   }
@@ -370,9 +370,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setUBASE(int newUBASE)
+  public void setUBASE(Integer newUBASE)
   {
-    int oldUBASE = ubase;
+    Integer oldUBASE = ubase;
     ubase = newUBASE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__UBASE, oldUBASE, ubase));
@@ -384,7 +384,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getXRESOL()
+  public Integer getXRESOL()
   {
     return xresol;
   }
@@ -395,9 +395,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setXRESOL(int newXRESOL)
+  public void setXRESOL(Integer newXRESOL)
   {
-    int oldXRESOL = xresol;
+    Integer oldXRESOL = xresol;
     xresol = newXRESOL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__XRESOL, oldXRESOL, xresol));
@@ -409,7 +409,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getYRESOL()
+  public Integer getYRESOL()
   {
     return yresol;
   }
@@ -420,9 +420,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setYRESOL(int newYRESOL)
+  public void setYRESOL(Integer newYRESOL)
   {
-    int oldYRESOL = yresol;
+    Integer oldYRESOL = yresol;
     yresol = newYRESOL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__YRESOL, oldYRESOL, yresol));
@@ -434,7 +434,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getIMGXYRES()
+  public Integer getIMGXYRES()
   {
     return imgxyres;
   }
@@ -445,9 +445,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setIMGXYRES(int newIMGXYRES)
+  public void setIMGXYRES(Integer newIMGXYRES)
   {
-    int oldIMGXYRES = imgxyres;
+    Integer oldIMGXYRES = imgxyres;
     imgxyres = newIMGXYRES;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__IMGXYRES, oldIMGXYRES, imgxyres));
@@ -459,7 +459,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getXLWIND()
+  public Integer getXLWIND()
   {
     return xlwind;
   }
@@ -470,9 +470,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setXLWIND(int newXLWIND)
+  public void setXLWIND(Integer newXLWIND)
   {
-    int oldXLWIND = xlwind;
+    Integer oldXLWIND = xlwind;
     xlwind = newXLWIND;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__XLWIND, oldXLWIND, xlwind));
@@ -484,7 +484,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getXRWIND()
+  public Integer getXRWIND()
   {
     return xrwind;
   }
@@ -495,9 +495,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setXRWIND(int newXRWIND)
+  public void setXRWIND(Integer newXRWIND)
   {
-    int oldXRWIND = xrwind;
+    Integer oldXRWIND = xrwind;
     xrwind = newXRWIND;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__XRWIND, oldXRWIND, xrwind));
@@ -509,7 +509,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getYBWIND()
+  public Integer getYBWIND()
   {
     return ybwind;
   }
@@ -520,9 +520,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setYBWIND(int newYBWIND)
+  public void setYBWIND(Integer newYBWIND)
   {
-    int oldYBWIND = ybwind;
+    Integer oldYBWIND = ybwind;
     ybwind = newYBWIND;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__YBWIND, oldYBWIND, ybwind));
@@ -534,7 +534,7 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public int getYTWIND()
+  public Integer getYTWIND()
   {
     return ytwind;
   }
@@ -545,9 +545,9 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
    * @generated
    */
   @Override
-  public void setYTWIND(int newYTWIND)
+  public void setYTWIND(Integer newYTWIND)
   {
-    int oldYTWIND = ytwind;
+    Integer oldYTWIND = ytwind;
     ytwind = newYTWIND;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.WINDOW_SPECIFICATION__YTWIND, oldYTWIND, ytwind));
@@ -694,27 +694,27 @@ public class WindowSpecificationImpl extends tripletImpl implements WindowSpecif
     switch (featureID)
     {
       case AfpTextPackage.WINDOW_SPECIFICATION__FLAGS:
-        return flags != FLAGS_EDEFAULT;
+        return FLAGS_EDEFAULT == null ? flags != null : !FLAGS_EDEFAULT.equals(flags);
       case AfpTextPackage.WINDOW_SPECIFICATION__RES3:
-        return res3 != RES3_EDEFAULT;
+        return RES3_EDEFAULT == null ? res3 != null : !RES3_EDEFAULT.equals(res3);
       case AfpTextPackage.WINDOW_SPECIFICATION__CFORMAT:
-        return cformat != CFORMAT_EDEFAULT;
+        return CFORMAT_EDEFAULT == null ? cformat != null : !CFORMAT_EDEFAULT.equals(cformat);
       case AfpTextPackage.WINDOW_SPECIFICATION__UBASE:
-        return ubase != UBASE_EDEFAULT;
+        return UBASE_EDEFAULT == null ? ubase != null : !UBASE_EDEFAULT.equals(ubase);
       case AfpTextPackage.WINDOW_SPECIFICATION__XRESOL:
-        return xresol != XRESOL_EDEFAULT;
+        return XRESOL_EDEFAULT == null ? xresol != null : !XRESOL_EDEFAULT.equals(xresol);
       case AfpTextPackage.WINDOW_SPECIFICATION__YRESOL:
-        return yresol != YRESOL_EDEFAULT;
+        return YRESOL_EDEFAULT == null ? yresol != null : !YRESOL_EDEFAULT.equals(yresol);
       case AfpTextPackage.WINDOW_SPECIFICATION__IMGXYRES:
-        return imgxyres != IMGXYRES_EDEFAULT;
+        return IMGXYRES_EDEFAULT == null ? imgxyres != null : !IMGXYRES_EDEFAULT.equals(imgxyres);
       case AfpTextPackage.WINDOW_SPECIFICATION__XLWIND:
-        return xlwind != XLWIND_EDEFAULT;
+        return XLWIND_EDEFAULT == null ? xlwind != null : !XLWIND_EDEFAULT.equals(xlwind);
       case AfpTextPackage.WINDOW_SPECIFICATION__XRWIND:
-        return xrwind != XRWIND_EDEFAULT;
+        return XRWIND_EDEFAULT == null ? xrwind != null : !XRWIND_EDEFAULT.equals(xrwind);
       case AfpTextPackage.WINDOW_SPECIFICATION__YBWIND:
-        return ybwind != YBWIND_EDEFAULT;
+        return YBWIND_EDEFAULT == null ? ybwind != null : !YBWIND_EDEFAULT.equals(ybwind);
       case AfpTextPackage.WINDOW_SPECIFICATION__YTWIND:
-        return ytwind != YTWIND_EDEFAULT;
+        return YTWIND_EDEFAULT == null ? ytwind != null : !YTWIND_EDEFAULT.equals(ytwind);
     }
     return super.eIsSet(featureID);
   }

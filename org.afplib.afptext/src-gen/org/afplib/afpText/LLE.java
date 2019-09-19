@@ -29,12 +29,12 @@ public interface LLE extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Lnk Type</em>' attribute.
-   * @see #setLnkType(int)
+   * @see #setLnkType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLLE_LnkType()
    * @model
    * @generated
    */
-  int getLnkType();
+  Integer getLnkType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LLE#getLnkType <em>Lnk Type</em>}' attribute.
@@ -44,7 +44,7 @@ public interface LLE extends structuredField
    * @see #getLnkType()
    * @generated
    */
-  void setLnkType(int value);
+  void setLnkType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Rg</b></em>' containment reference list.

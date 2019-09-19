@@ -35,7 +35,7 @@ public class CharacterRotationImpl extends tripletImpl implements CharacterRotat
    * @generated
    * @ordered
    */
-  protected static final int CHAR_ROT_EDEFAULT = 0;
+  protected static final Integer CHAR_ROT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCharRot() <em>Char Rot</em>}' attribute.
@@ -45,7 +45,7 @@ public class CharacterRotationImpl extends tripletImpl implements CharacterRotat
    * @generated
    * @ordered
    */
-  protected int charRot = CHAR_ROT_EDEFAULT;
+  protected Integer charRot = CHAR_ROT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class CharacterRotationImpl extends tripletImpl implements CharacterRotat
    * @generated
    */
   @Override
-  public int getCharRot()
+  public Integer getCharRot()
   {
     return charRot;
   }
@@ -85,9 +85,9 @@ public class CharacterRotationImpl extends tripletImpl implements CharacterRotat
    * @generated
    */
   @Override
-  public void setCharRot(int newCharRot)
+  public void setCharRot(Integer newCharRot)
   {
-    int oldCharRot = charRot;
+    Integer oldCharRot = charRot;
     charRot = newCharRot;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CHARACTER_ROTATION__CHAR_ROT, oldCharRot, charRot));
@@ -154,7 +154,7 @@ public class CharacterRotationImpl extends tripletImpl implements CharacterRotat
     switch (featureID)
     {
       case AfpTextPackage.CHARACTER_ROTATION__CHAR_ROT:
-        return charRot != CHAR_ROT_EDEFAULT;
+        return CHAR_ROT_EDEFAULT == null ? charRot != null : !CHAR_ROT_EDEFAULT.equals(charRot);
     }
     return super.eIsSet(featureID);
   }

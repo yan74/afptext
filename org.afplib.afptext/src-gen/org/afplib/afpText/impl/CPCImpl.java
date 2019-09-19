@@ -60,7 +60,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected static final int PRT_FLAGS_EDEFAULT = 0;
+  protected static final Integer PRT_FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPrtFlags() <em>Prt Flags</em>}' attribute.
@@ -70,7 +70,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected int prtFlags = PRT_FLAGS_EDEFAULT;
+  protected Integer prtFlags = PRT_FLAGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCPIRGLen() <em>CPIRG Len</em>}' attribute.
@@ -80,7 +80,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected static final int CPIRG_LEN_EDEFAULT = 0;
+  protected static final Integer CPIRG_LEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCPIRGLen() <em>CPIRG Len</em>}' attribute.
@@ -90,7 +90,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected int cpirgLen = CPIRG_LEN_EDEFAULT;
+  protected Integer cpirgLen = CPIRG_LEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVSCharSN() <em>VS Char SN</em>}' attribute.
@@ -100,7 +100,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected static final int VS_CHAR_SN_EDEFAULT = 0;
+  protected static final Integer VS_CHAR_SN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVSCharSN() <em>VS Char SN</em>}' attribute.
@@ -110,7 +110,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected int vsCharSN = VS_CHAR_SN_EDEFAULT;
+  protected Integer vsCharSN = VS_CHAR_SN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVSChar() <em>VS Char</em>}' attribute.
@@ -120,7 +120,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected static final int VS_CHAR_EDEFAULT = 0;
+  protected static final Integer VS_CHAR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVSChar() <em>VS Char</em>}' attribute.
@@ -130,7 +130,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected int vsChar = VS_CHAR_EDEFAULT;
+  protected Integer vsChar = VS_CHAR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVSFlags() <em>VS Flags</em>}' attribute.
@@ -140,7 +140,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected static final int VS_FLAGS_EDEFAULT = 0;
+  protected static final Integer VS_FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVSFlags() <em>VS Flags</em>}' attribute.
@@ -150,7 +150,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    * @ordered
    */
-  protected int vsFlags = VS_FLAGS_EDEFAULT;
+  protected Integer vsFlags = VS_FLAGS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -204,7 +204,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public int getPrtFlags()
+  public Integer getPrtFlags()
   {
     return prtFlags;
   }
@@ -215,9 +215,9 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public void setPrtFlags(int newPrtFlags)
+  public void setPrtFlags(Integer newPrtFlags)
   {
-    int oldPrtFlags = prtFlags;
+    Integer oldPrtFlags = prtFlags;
     prtFlags = newPrtFlags;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPC__PRT_FLAGS, oldPrtFlags, prtFlags));
@@ -229,7 +229,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public int getCPIRGLen()
+  public Integer getCPIRGLen()
   {
     return cpirgLen;
   }
@@ -240,9 +240,9 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public void setCPIRGLen(int newCPIRGLen)
+  public void setCPIRGLen(Integer newCPIRGLen)
   {
-    int oldCPIRGLen = cpirgLen;
+    Integer oldCPIRGLen = cpirgLen;
     cpirgLen = newCPIRGLen;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPC__CPIRG_LEN, oldCPIRGLen, cpirgLen));
@@ -254,7 +254,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public int getVSCharSN()
+  public Integer getVSCharSN()
   {
     return vsCharSN;
   }
@@ -265,9 +265,9 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public void setVSCharSN(int newVSCharSN)
+  public void setVSCharSN(Integer newVSCharSN)
   {
-    int oldVSCharSN = vsCharSN;
+    Integer oldVSCharSN = vsCharSN;
     vsCharSN = newVSCharSN;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPC__VS_CHAR_SN, oldVSCharSN, vsCharSN));
@@ -279,7 +279,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public int getVSChar()
+  public Integer getVSChar()
   {
     return vsChar;
   }
@@ -290,9 +290,9 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public void setVSChar(int newVSChar)
+  public void setVSChar(Integer newVSChar)
   {
-    int oldVSChar = vsChar;
+    Integer oldVSChar = vsChar;
     vsChar = newVSChar;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPC__VS_CHAR, oldVSChar, vsChar));
@@ -304,7 +304,7 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public int getVSFlags()
+  public Integer getVSFlags()
   {
     return vsFlags;
   }
@@ -315,9 +315,9 @@ public class CPCImpl extends structuredFieldImpl implements CPC
    * @generated
    */
   @Override
-  public void setVSFlags(int newVSFlags)
+  public void setVSFlags(Integer newVSFlags)
   {
-    int oldVSFlags = vsFlags;
+    Integer oldVSFlags = vsFlags;
     vsFlags = newVSFlags;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPC__VS_FLAGS, oldVSFlags, vsFlags));
@@ -426,15 +426,15 @@ public class CPCImpl extends structuredFieldImpl implements CPC
       case AfpTextPackage.CPC__DEF_CHAR_ID:
         return DEF_CHAR_ID_EDEFAULT == null ? defCharID != null : !DEF_CHAR_ID_EDEFAULT.equals(defCharID);
       case AfpTextPackage.CPC__PRT_FLAGS:
-        return prtFlags != PRT_FLAGS_EDEFAULT;
+        return PRT_FLAGS_EDEFAULT == null ? prtFlags != null : !PRT_FLAGS_EDEFAULT.equals(prtFlags);
       case AfpTextPackage.CPC__CPIRG_LEN:
-        return cpirgLen != CPIRG_LEN_EDEFAULT;
+        return CPIRG_LEN_EDEFAULT == null ? cpirgLen != null : !CPIRG_LEN_EDEFAULT.equals(cpirgLen);
       case AfpTextPackage.CPC__VS_CHAR_SN:
-        return vsCharSN != VS_CHAR_SN_EDEFAULT;
+        return VS_CHAR_SN_EDEFAULT == null ? vsCharSN != null : !VS_CHAR_SN_EDEFAULT.equals(vsCharSN);
       case AfpTextPackage.CPC__VS_CHAR:
-        return vsChar != VS_CHAR_EDEFAULT;
+        return VS_CHAR_EDEFAULT == null ? vsChar != null : !VS_CHAR_EDEFAULT.equals(vsChar);
       case AfpTextPackage.CPC__VS_FLAGS:
-        return vsFlags != VS_FLAGS_EDEFAULT;
+        return VS_FLAGS_EDEFAULT == null ? vsFlags != null : !VS_FLAGS_EDEFAULT.equals(vsFlags);
     }
     return super.eIsSet(featureID);
   }

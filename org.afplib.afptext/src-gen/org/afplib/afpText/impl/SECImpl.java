@@ -41,7 +41,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRESERVED() <em>RESERVED</em>}' attribute.
@@ -51,7 +51,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSPCE() <em>COLSPCE</em>}' attribute.
@@ -61,7 +61,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected static final int COLSPCE_EDEFAULT = 0;
+  protected static final Integer COLSPCE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSPCE() <em>COLSPCE</em>}' attribute.
@@ -71,7 +71,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected int colspce = COLSPCE_EDEFAULT;
+  protected Integer colspce = COLSPCE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSIZE1() <em>COLSIZE1</em>}' attribute.
@@ -81,7 +81,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected static final int COLSIZE1_EDEFAULT = 0;
+  protected static final Integer COLSIZE1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSIZE1() <em>COLSIZE1</em>}' attribute.
@@ -91,7 +91,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected int colsize1 = COLSIZE1_EDEFAULT;
+  protected Integer colsize1 = COLSIZE1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSIZE2() <em>COLSIZE2</em>}' attribute.
@@ -101,7 +101,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected static final int COLSIZE2_EDEFAULT = 0;
+  protected static final Integer COLSIZE2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSIZE2() <em>COLSIZE2</em>}' attribute.
@@ -111,7 +111,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected int colsize2 = COLSIZE2_EDEFAULT;
+  protected Integer colsize2 = COLSIZE2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSIZE3() <em>COLSIZE3</em>}' attribute.
@@ -121,7 +121,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected static final int COLSIZE3_EDEFAULT = 0;
+  protected static final Integer COLSIZE3_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSIZE3() <em>COLSIZE3</em>}' attribute.
@@ -131,7 +131,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected int colsize3 = COLSIZE3_EDEFAULT;
+  protected Integer colsize3 = COLSIZE3_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSIZE4() <em>COLSIZE4</em>}' attribute.
@@ -141,7 +141,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected static final int COLSIZE4_EDEFAULT = 0;
+  protected static final Integer COLSIZE4_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSIZE4() <em>COLSIZE4</em>}' attribute.
@@ -151,7 +151,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    * @ordered
    */
-  protected int colsize4 = COLSIZE4_EDEFAULT;
+  protected Integer colsize4 = COLSIZE4_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLVALUE() <em>COLVALUE</em>}' attribute.
@@ -200,7 +200,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public int getRESERVED()
+  public Integer getRESERVED()
   {
     return reserved;
   }
@@ -211,9 +211,9 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public void setRESERVED(int newRESERVED)
+  public void setRESERVED(Integer newRESERVED)
   {
-    int oldRESERVED = reserved;
+    Integer oldRESERVED = reserved;
     reserved = newRESERVED;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SEC__RESERVED, oldRESERVED, reserved));
@@ -225,7 +225,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public int getCOLSPCE()
+  public Integer getCOLSPCE()
   {
     return colspce;
   }
@@ -236,9 +236,9 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public void setCOLSPCE(int newCOLSPCE)
+  public void setCOLSPCE(Integer newCOLSPCE)
   {
-    int oldCOLSPCE = colspce;
+    Integer oldCOLSPCE = colspce;
     colspce = newCOLSPCE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SEC__COLSPCE, oldCOLSPCE, colspce));
@@ -250,7 +250,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public int getCOLSIZE1()
+  public Integer getCOLSIZE1()
   {
     return colsize1;
   }
@@ -261,9 +261,9 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public void setCOLSIZE1(int newCOLSIZE1)
+  public void setCOLSIZE1(Integer newCOLSIZE1)
   {
-    int oldCOLSIZE1 = colsize1;
+    Integer oldCOLSIZE1 = colsize1;
     colsize1 = newCOLSIZE1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SEC__COLSIZE1, oldCOLSIZE1, colsize1));
@@ -275,7 +275,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public int getCOLSIZE2()
+  public Integer getCOLSIZE2()
   {
     return colsize2;
   }
@@ -286,9 +286,9 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public void setCOLSIZE2(int newCOLSIZE2)
+  public void setCOLSIZE2(Integer newCOLSIZE2)
   {
-    int oldCOLSIZE2 = colsize2;
+    Integer oldCOLSIZE2 = colsize2;
     colsize2 = newCOLSIZE2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SEC__COLSIZE2, oldCOLSIZE2, colsize2));
@@ -300,7 +300,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public int getCOLSIZE3()
+  public Integer getCOLSIZE3()
   {
     return colsize3;
   }
@@ -311,9 +311,9 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public void setCOLSIZE3(int newCOLSIZE3)
+  public void setCOLSIZE3(Integer newCOLSIZE3)
   {
-    int oldCOLSIZE3 = colsize3;
+    Integer oldCOLSIZE3 = colsize3;
     colsize3 = newCOLSIZE3;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SEC__COLSIZE3, oldCOLSIZE3, colsize3));
@@ -325,7 +325,7 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public int getCOLSIZE4()
+  public Integer getCOLSIZE4()
   {
     return colsize4;
   }
@@ -336,9 +336,9 @@ public class SECImpl extends tripletImpl implements SEC
    * @generated
    */
   @Override
-  public void setCOLSIZE4(int newCOLSIZE4)
+  public void setCOLSIZE4(Integer newCOLSIZE4)
   {
-    int oldCOLSIZE4 = colsize4;
+    Integer oldCOLSIZE4 = colsize4;
     colsize4 = newCOLSIZE4;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SEC__COLSIZE4, oldCOLSIZE4, colsize4));
@@ -478,17 +478,17 @@ public class SECImpl extends tripletImpl implements SEC
     switch (featureID)
     {
       case AfpTextPackage.SEC__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.SEC__COLSPCE:
-        return colspce != COLSPCE_EDEFAULT;
+        return COLSPCE_EDEFAULT == null ? colspce != null : !COLSPCE_EDEFAULT.equals(colspce);
       case AfpTextPackage.SEC__COLSIZE1:
-        return colsize1 != COLSIZE1_EDEFAULT;
+        return COLSIZE1_EDEFAULT == null ? colsize1 != null : !COLSIZE1_EDEFAULT.equals(colsize1);
       case AfpTextPackage.SEC__COLSIZE2:
-        return colsize2 != COLSIZE2_EDEFAULT;
+        return COLSIZE2_EDEFAULT == null ? colsize2 != null : !COLSIZE2_EDEFAULT.equals(colsize2);
       case AfpTextPackage.SEC__COLSIZE3:
-        return colsize3 != COLSIZE3_EDEFAULT;
+        return COLSIZE3_EDEFAULT == null ? colsize3 != null : !COLSIZE3_EDEFAULT.equals(colsize3);
       case AfpTextPackage.SEC__COLSIZE4:
-        return colsize4 != COLSIZE4_EDEFAULT;
+        return COLSIZE4_EDEFAULT == null ? colsize4 != null : !COLSIZE4_EDEFAULT.equals(colsize4);
       case AfpTextPackage.SEC__COLVALUE:
         return COLVALUE_EDEFAULT == null ? colvalue != null : !COLVALUE_EDEFAULT.equals(colvalue);
     }

@@ -29,12 +29,12 @@ public interface MPSRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved</em>' attribute.
-   * @see #setReserved(int)
+   * @see #setReserved(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMPSRG_Reserved()
    * @model
    * @generated
    */
-  int getReserved();
+  Integer getReserved();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MPSRG#getReserved <em>Reserved</em>}' attribute.
@@ -44,7 +44,7 @@ public interface MPSRG extends EObject
    * @see #getReserved()
    * @generated
    */
-  void setReserved(int value);
+  void setReserved(Integer value);
 
   /**
    * Returns the value of the '<em><b>Pseg Name</b></em>' attribute.

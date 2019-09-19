@@ -27,12 +27,12 @@ public interface PresentationControl extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PRS Flg</em>' attribute.
-   * @see #setPRSFlg(int)
+   * @see #setPRSFlg(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPresentationControl_PRSFlg()
    * @model
    * @generated
    */
-  int getPRSFlg();
+  Integer getPRSFlg();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PresentationControl#getPRSFlg <em>PRS Flg</em>}' attribute.
@@ -42,6 +42,6 @@ public interface PresentationControl extends triplet
    * @see #getPRSFlg()
    * @generated
    */
-  void setPRSFlg(int value);
+  void setPRSFlg(Integer value);
 
 } // PresentationControl

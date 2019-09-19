@@ -32,12 +32,12 @@ public interface LocaleSelector extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Loc Flgs</em>' attribute.
-   * @see #setLocFlgs(int)
+   * @see #setLocFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLocaleSelector_LocFlgs()
    * @model
    * @generated
    */
-  int getLocFlgs();
+  Integer getLocFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LocaleSelector#getLocFlgs <em>Loc Flgs</em>}' attribute.
@@ -47,7 +47,7 @@ public interface LocaleSelector extends triplet
    * @see #getLocFlgs()
    * @generated
    */
-  void setLocFlgs(int value);
+  void setLocFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>Lang Code</b></em>' attribute.

@@ -36,7 +36,7 @@ public class AttributeValueImpl extends tripletImpl implements AttributeValue
    * @generated
    * @ordered
    */
-  protected static final int RESERVED0_EDEFAULT = 0;
+  protected static final Integer RESERVED0_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved0() <em>Reserved0</em>}' attribute.
@@ -46,7 +46,7 @@ public class AttributeValueImpl extends tripletImpl implements AttributeValue
    * @generated
    * @ordered
    */
-  protected int reserved0 = RESERVED0_EDEFAULT;
+  protected Integer reserved0 = RESERVED0_EDEFAULT;
 
   /**
    * The default value of the '{@link #getAttVal() <em>Att Val</em>}' attribute.
@@ -95,7 +95,7 @@ public class AttributeValueImpl extends tripletImpl implements AttributeValue
    * @generated
    */
   @Override
-  public int getReserved0()
+  public Integer getReserved0()
   {
     return reserved0;
   }
@@ -106,9 +106,9 @@ public class AttributeValueImpl extends tripletImpl implements AttributeValue
    * @generated
    */
   @Override
-  public void setReserved0(int newReserved0)
+  public void setReserved0(Integer newReserved0)
   {
-    int oldReserved0 = reserved0;
+    Integer oldReserved0 = reserved0;
     reserved0 = newReserved0;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ATTRIBUTE_VALUE__RESERVED0, oldReserved0, reserved0));
@@ -208,7 +208,7 @@ public class AttributeValueImpl extends tripletImpl implements AttributeValue
     switch (featureID)
     {
       case AfpTextPackage.ATTRIBUTE_VALUE__RESERVED0:
-        return reserved0 != RESERVED0_EDEFAULT;
+        return RESERVED0_EDEFAULT == null ? reserved0 != null : !RESERVED0_EDEFAULT.equals(reserved0);
       case AfpTextPackage.ATTRIBUTE_VALUE__ATT_VAL:
         return ATT_VAL_EDEFAULT == null ? attVal != null : !ATT_VAL_EDEFAULT.equals(attVal);
     }

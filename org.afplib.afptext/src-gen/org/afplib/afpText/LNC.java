@@ -27,12 +27,12 @@ public interface LNC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Num DSC</em>' attribute.
-   * @see #setNumDSC(int)
+   * @see #setNumDSC(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLNC_NumDSC()
    * @model
    * @generated
    */
-  int getNumDSC();
+  Integer getNumDSC();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LNC#getNumDSC <em>Num DSC</em>}' attribute.
@@ -42,6 +42,6 @@ public interface LNC extends structuredField
    * @see #getNumDSC()
    * @generated
    */
-  void setNumDSC(int value);
+  void setNumDSC(Integer value);
 
 } // LNC

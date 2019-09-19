@@ -27,12 +27,12 @@ public interface BeginImage extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>OBJTYPE</em>' attribute.
-   * @see #setOBJTYPE(int)
+   * @see #setOBJTYPE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBeginImage_OBJTYPE()
    * @model
    * @generated
    */
-  int getOBJTYPE();
+  Integer getOBJTYPE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BeginImage#getOBJTYPE <em>OBJTYPE</em>}' attribute.
@@ -42,6 +42,6 @@ public interface BeginImage extends triplet
    * @see #getOBJTYPE()
    * @generated
    */
-  void setOBJTYPE(int value);
+  void setOBJTYPE(Integer value);
 
 } // BeginImage

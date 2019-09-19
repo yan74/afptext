@@ -38,7 +38,7 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    * @ordered
    */
-  protected static final int FLAGS_EDEFAULT = 0;
+  protected static final Integer FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFlags() <em>Flags</em>}' attribute.
@@ -48,7 +48,7 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    * @ordered
    */
-  protected int flags = FLAGS_EDEFAULT;
+  protected Integer flags = FLAGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXoffset() <em>Xoffset</em>}' attribute.
@@ -58,7 +58,7 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    * @ordered
    */
-  protected static final int XOFFSET_EDEFAULT = 0;
+  protected static final Integer XOFFSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXoffset() <em>Xoffset</em>}' attribute.
@@ -68,7 +68,7 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    * @ordered
    */
-  protected int xoffset = XOFFSET_EDEFAULT;
+  protected Integer xoffset = XOFFSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYoffset() <em>Yoffset</em>}' attribute.
@@ -78,7 +78,7 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    * @ordered
    */
-  protected static final int YOFFSET_EDEFAULT = 0;
+  protected static final Integer YOFFSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYoffset() <em>Yoffset</em>}' attribute.
@@ -88,7 +88,7 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    * @ordered
    */
-  protected int yoffset = YOFFSET_EDEFAULT;
+  protected Integer yoffset = YOFFSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getData() <em>Data</em>}' attribute.
@@ -137,7 +137,7 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    */
   @Override
-  public int getFlags()
+  public Integer getFlags()
   {
     return flags;
   }
@@ -148,9 +148,9 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    */
   @Override
-  public void setFlags(int newFlags)
+  public void setFlags(Integer newFlags)
   {
-    int oldFlags = flags;
+    Integer oldFlags = flags;
     flags = newFlags;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDA__FLAGS, oldFlags, flags));
@@ -162,7 +162,7 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    */
   @Override
-  public int getXoffset()
+  public Integer getXoffset()
   {
     return xoffset;
   }
@@ -173,9 +173,9 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    */
   @Override
-  public void setXoffset(int newXoffset)
+  public void setXoffset(Integer newXoffset)
   {
-    int oldXoffset = xoffset;
+    Integer oldXoffset = xoffset;
     xoffset = newXoffset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDA__XOFFSET, oldXoffset, xoffset));
@@ -187,7 +187,7 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    */
   @Override
-  public int getYoffset()
+  public Integer getYoffset()
   {
     return yoffset;
   }
@@ -198,9 +198,9 @@ public class BDAImpl extends structuredFieldImpl implements BDA
    * @generated
    */
   @Override
-  public void setYoffset(int newYoffset)
+  public void setYoffset(Integer newYoffset)
   {
-    int oldYoffset = yoffset;
+    Integer oldYoffset = yoffset;
     yoffset = newYoffset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDA__YOFFSET, oldYoffset, yoffset));
@@ -316,11 +316,11 @@ public class BDAImpl extends structuredFieldImpl implements BDA
     switch (featureID)
     {
       case AfpTextPackage.BDA__FLAGS:
-        return flags != FLAGS_EDEFAULT;
+        return FLAGS_EDEFAULT == null ? flags != null : !FLAGS_EDEFAULT.equals(flags);
       case AfpTextPackage.BDA__XOFFSET:
-        return xoffset != XOFFSET_EDEFAULT;
+        return XOFFSET_EDEFAULT == null ? xoffset != null : !XOFFSET_EDEFAULT.equals(xoffset);
       case AfpTextPackage.BDA__YOFFSET:
-        return yoffset != YOFFSET_EDEFAULT;
+        return YOFFSET_EDEFAULT == null ? yoffset != null : !YOFFSET_EDEFAULT.equals(yoffset);
       case AfpTextPackage.BDA__DATA:
         return DATA_EDEFAULT == null ? data != null : !DATA_EDEFAULT.equals(data);
     }

@@ -37,7 +37,7 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    * @ordered
    */
-  protected static final int THSIZE_EDEFAULT = 0;
+  protected static final Integer THSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTHSIZE() <em>THSIZE</em>}' attribute.
@@ -47,7 +47,7 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    * @ordered
    */
-  protected int thsize = THSIZE_EDEFAULT;
+  protected Integer thsize = THSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTVSIZE() <em>TVSIZE</em>}' attribute.
@@ -57,7 +57,7 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    * @ordered
    */
-  protected static final int TVSIZE_EDEFAULT = 0;
+  protected static final Integer TVSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTVSIZE() <em>TVSIZE</em>}' attribute.
@@ -67,7 +67,7 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    * @ordered
    */
-  protected int tvsize = TVSIZE_EDEFAULT;
+  protected Integer tvsize = TVSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRELRES() <em>RELRES</em>}' attribute.
@@ -77,7 +77,7 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    * @ordered
    */
-  protected static final int RELRES_EDEFAULT = 0;
+  protected static final Integer RELRES_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRELRES() <em>RELRES</em>}' attribute.
@@ -87,7 +87,7 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    * @ordered
    */
-  protected int relres = RELRES_EDEFAULT;
+  protected Integer relres = RELRES_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    */
   @Override
-  public int getTHSIZE()
+  public Integer getTHSIZE()
   {
     return thsize;
   }
@@ -127,9 +127,9 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    */
   @Override
-  public void setTHSIZE(int newTHSIZE)
+  public void setTHSIZE(Integer newTHSIZE)
   {
-    int oldTHSIZE = thsize;
+    Integer oldTHSIZE = thsize;
     thsize = newTHSIZE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SIZE__THSIZE, oldTHSIZE, thsize));
@@ -141,7 +141,7 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    */
   @Override
-  public int getTVSIZE()
+  public Integer getTVSIZE()
   {
     return tvsize;
   }
@@ -152,9 +152,9 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    */
   @Override
-  public void setTVSIZE(int newTVSIZE)
+  public void setTVSIZE(Integer newTVSIZE)
   {
-    int oldTVSIZE = tvsize;
+    Integer oldTVSIZE = tvsize;
     tvsize = newTVSIZE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SIZE__TVSIZE, oldTVSIZE, tvsize));
@@ -166,7 +166,7 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    */
   @Override
-  public int getRELRES()
+  public Integer getRELRES()
   {
     return relres;
   }
@@ -177,9 +177,9 @@ public class TileSizeImpl extends tripletImpl implements TileSize
    * @generated
    */
   @Override
-  public void setRELRES(int newRELRES)
+  public void setRELRES(Integer newRELRES)
   {
-    int oldRELRES = relres;
+    Integer oldRELRES = relres;
     relres = newRELRES;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SIZE__RELRES, oldRELRES, relres));
@@ -262,11 +262,11 @@ public class TileSizeImpl extends tripletImpl implements TileSize
     switch (featureID)
     {
       case AfpTextPackage.TILE_SIZE__THSIZE:
-        return thsize != THSIZE_EDEFAULT;
+        return THSIZE_EDEFAULT == null ? thsize != null : !THSIZE_EDEFAULT.equals(thsize);
       case AfpTextPackage.TILE_SIZE__TVSIZE:
-        return tvsize != TVSIZE_EDEFAULT;
+        return TVSIZE_EDEFAULT == null ? tvsize != null : !TVSIZE_EDEFAULT.equals(tvsize);
       case AfpTextPackage.TILE_SIZE__RELRES:
-        return relres != RELRES_EDEFAULT;
+        return RELRES_EDEFAULT == null ? relres != null : !RELRES_EDEFAULT.equals(relres);
     }
     return super.eIsSet(featureID);
   }

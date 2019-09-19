@@ -37,7 +37,7 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    * @ordered
    */
-  protected static final int OBJ_TPE_EDEFAULT = 0;
+  protected static final Integer OBJ_TPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObjTpe() <em>Obj Tpe</em>}' attribute.
@@ -47,7 +47,7 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    * @ordered
    */
-  protected int objTpe = OBJ_TPE_EDEFAULT;
+  protected Integer objTpe = OBJ_TPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getObjOset() <em>Obj Oset</em>}' attribute.
@@ -57,7 +57,7 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    * @ordered
    */
-  protected static final int OBJ_OSET_EDEFAULT = 0;
+  protected static final Integer OBJ_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObjOset() <em>Obj Oset</em>}' attribute.
@@ -67,7 +67,7 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    * @ordered
    */
-  protected int objOset = OBJ_OSET_EDEFAULT;
+  protected Integer objOset = OBJ_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getObjOstHi() <em>Obj Ost Hi</em>}' attribute.
@@ -77,7 +77,7 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    * @ordered
    */
-  protected static final int OBJ_OST_HI_EDEFAULT = 0;
+  protected static final Integer OBJ_OST_HI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObjOstHi() <em>Obj Ost Hi</em>}' attribute.
@@ -87,7 +87,7 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    * @ordered
    */
-  protected int objOstHi = OBJ_OST_HI_EDEFAULT;
+  protected Integer objOstHi = OBJ_OST_HI_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    */
   @Override
-  public int getObjTpe()
+  public Integer getObjTpe()
   {
     return objTpe;
   }
@@ -127,9 +127,9 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    */
   @Override
-  public void setObjTpe(int newObjTpe)
+  public void setObjTpe(Integer newObjTpe)
   {
-    int oldObjTpe = objTpe;
+    Integer oldObjTpe = objTpe;
     objTpe = newObjTpe;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_OFFSET__OBJ_TPE, oldObjTpe, objTpe));
@@ -141,7 +141,7 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    */
   @Override
-  public int getObjOset()
+  public Integer getObjOset()
   {
     return objOset;
   }
@@ -152,9 +152,9 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    */
   @Override
-  public void setObjOset(int newObjOset)
+  public void setObjOset(Integer newObjOset)
   {
-    int oldObjOset = objOset;
+    Integer oldObjOset = objOset;
     objOset = newObjOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_OFFSET__OBJ_OSET, oldObjOset, objOset));
@@ -166,7 +166,7 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    */
   @Override
-  public int getObjOstHi()
+  public Integer getObjOstHi()
   {
     return objOstHi;
   }
@@ -177,9 +177,9 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
    * @generated
    */
   @Override
-  public void setObjOstHi(int newObjOstHi)
+  public void setObjOstHi(Integer newObjOstHi)
   {
-    int oldObjOstHi = objOstHi;
+    Integer oldObjOstHi = objOstHi;
     objOstHi = newObjOstHi;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_OFFSET__OBJ_OST_HI, oldObjOstHi, objOstHi));
@@ -262,11 +262,11 @@ public class ObjectOffsetImpl extends tripletImpl implements ObjectOffset
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_OFFSET__OBJ_TPE:
-        return objTpe != OBJ_TPE_EDEFAULT;
+        return OBJ_TPE_EDEFAULT == null ? objTpe != null : !OBJ_TPE_EDEFAULT.equals(objTpe);
       case AfpTextPackage.OBJECT_OFFSET__OBJ_OSET:
-        return objOset != OBJ_OSET_EDEFAULT;
+        return OBJ_OSET_EDEFAULT == null ? objOset != null : !OBJ_OSET_EDEFAULT.equals(objOset);
       case AfpTextPackage.OBJECT_OFFSET__OBJ_OST_HI:
-        return objOstHi != OBJ_OST_HI_EDEFAULT;
+        return OBJ_OST_HI_EDEFAULT == null ? objOstHi != null : !OBJ_OST_HI_EDEFAULT.equals(objOstHi);
     }
     return super.eIsSet(featureID);
   }

@@ -29,12 +29,12 @@ public interface BandImageData extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BANDNUM</em>' attribute.
-   * @see #setBANDNUM(int)
+   * @see #setBANDNUM(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBandImageData_BANDNUM()
    * @model
    * @generated
    */
-  int getBANDNUM();
+  Integer getBANDNUM();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BandImageData#getBANDNUM <em>BANDNUM</em>}' attribute.
@@ -44,19 +44,19 @@ public interface BandImageData extends triplet
    * @see #getBANDNUM()
    * @generated
    */
-  void setBANDNUM(int value);
+  void setBANDNUM(Integer value);
 
   /**
    * Returns the value of the '<em><b>RESERVED</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RESERVED</em>' attribute.
-   * @see #setRESERVED(int)
+   * @see #setRESERVED(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBandImageData_RESERVED()
    * @model
    * @generated
    */
-  int getRESERVED();
+  Integer getRESERVED();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BandImageData#getRESERVED <em>RESERVED</em>}' attribute.
@@ -66,7 +66,7 @@ public interface BandImageData extends triplet
    * @see #getRESERVED()
    * @generated
    */
-  void setRESERVED(int value);
+  void setRESERVED(Integer value);
 
   /**
    * Returns the value of the '<em><b>DATA</b></em>' attribute.

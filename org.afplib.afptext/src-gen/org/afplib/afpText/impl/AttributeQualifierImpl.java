@@ -36,7 +36,7 @@ public class AttributeQualifierImpl extends tripletImpl implements AttributeQual
    * @generated
    * @ordered
    */
-  protected static final int SEQ_NUM_EDEFAULT = 0;
+  protected static final Integer SEQ_NUM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSeqNum() <em>Seq Num</em>}' attribute.
@@ -46,7 +46,7 @@ public class AttributeQualifierImpl extends tripletImpl implements AttributeQual
    * @generated
    * @ordered
    */
-  protected int seqNum = SEQ_NUM_EDEFAULT;
+  protected Integer seqNum = SEQ_NUM_EDEFAULT;
 
   /**
    * The default value of the '{@link #getLevNum() <em>Lev Num</em>}' attribute.
@@ -56,7 +56,7 @@ public class AttributeQualifierImpl extends tripletImpl implements AttributeQual
    * @generated
    * @ordered
    */
-  protected static final int LEV_NUM_EDEFAULT = 0;
+  protected static final Integer LEV_NUM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLevNum() <em>Lev Num</em>}' attribute.
@@ -66,7 +66,7 @@ public class AttributeQualifierImpl extends tripletImpl implements AttributeQual
    * @generated
    * @ordered
    */
-  protected int levNum = LEV_NUM_EDEFAULT;
+  protected Integer levNum = LEV_NUM_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class AttributeQualifierImpl extends tripletImpl implements AttributeQual
    * @generated
    */
   @Override
-  public int getSeqNum()
+  public Integer getSeqNum()
   {
     return seqNum;
   }
@@ -106,9 +106,9 @@ public class AttributeQualifierImpl extends tripletImpl implements AttributeQual
    * @generated
    */
   @Override
-  public void setSeqNum(int newSeqNum)
+  public void setSeqNum(Integer newSeqNum)
   {
-    int oldSeqNum = seqNum;
+    Integer oldSeqNum = seqNum;
     seqNum = newSeqNum;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ATTRIBUTE_QUALIFIER__SEQ_NUM, oldSeqNum, seqNum));
@@ -120,7 +120,7 @@ public class AttributeQualifierImpl extends tripletImpl implements AttributeQual
    * @generated
    */
   @Override
-  public int getLevNum()
+  public Integer getLevNum()
   {
     return levNum;
   }
@@ -131,9 +131,9 @@ public class AttributeQualifierImpl extends tripletImpl implements AttributeQual
    * @generated
    */
   @Override
-  public void setLevNum(int newLevNum)
+  public void setLevNum(Integer newLevNum)
   {
-    int oldLevNum = levNum;
+    Integer oldLevNum = levNum;
     levNum = newLevNum;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ATTRIBUTE_QUALIFIER__LEV_NUM, oldLevNum, levNum));
@@ -208,9 +208,9 @@ public class AttributeQualifierImpl extends tripletImpl implements AttributeQual
     switch (featureID)
     {
       case AfpTextPackage.ATTRIBUTE_QUALIFIER__SEQ_NUM:
-        return seqNum != SEQ_NUM_EDEFAULT;
+        return SEQ_NUM_EDEFAULT == null ? seqNum != null : !SEQ_NUM_EDEFAULT.equals(seqNum);
       case AfpTextPackage.ATTRIBUTE_QUALIFIER__LEV_NUM:
-        return levNum != LEV_NUM_EDEFAULT;
+        return LEV_NUM_EDEFAULT == null ? levNum != null : !LEV_NUM_EDEFAULT.equals(levNum);
     }
     return super.eIsSet(featureID);
   }

@@ -27,12 +27,12 @@ public interface GSCOL extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COL</em>' attribute.
-   * @see #setCOL(int)
+   * @see #setCOL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSCOL_COL()
    * @model
    * @generated
    */
-  int getCOL();
+  Integer getCOL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSCOL#getCOL <em>COL</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSCOL extends triplet
    * @see #getCOL()
    * @generated
    */
-  void setCOL(int value);
+  void setCOL(Integer value);
 
 } // GSCOL

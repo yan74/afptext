@@ -27,12 +27,12 @@ public interface ResourceSectionNumber extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Res SNum</em>' attribute.
-   * @see #setResSNum(int)
+   * @see #setResSNum(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getResourceSectionNumber_ResSNum()
    * @model
    * @generated
    */
-  int getResSNum();
+  Integer getResSNum();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ResourceSectionNumber#getResSNum <em>Res SNum</em>}' attribute.
@@ -42,6 +42,6 @@ public interface ResourceSectionNumber extends triplet
    * @see #getResSNum()
    * @generated
    */
-  void setResSNum(int value);
+  void setResSNum(Integer value);
 
 } // ResourceSectionNumber

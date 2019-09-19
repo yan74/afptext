@@ -27,12 +27,12 @@ public interface FontHorizontalScaleFactor extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Hscale</em>' attribute.
-   * @see #setHscale(int)
+   * @see #setHscale(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontHorizontalScaleFactor_Hscale()
    * @model
    * @generated
    */
-  int getHscale();
+  Integer getHscale();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontHorizontalScaleFactor#getHscale <em>Hscale</em>}' attribute.
@@ -42,6 +42,6 @@ public interface FontHorizontalScaleFactor extends triplet
    * @see #getHscale()
    * @generated
    */
-  void setHscale(int value);
+  void setHscale(Integer value);
 
 } // FontHorizontalScaleFactor

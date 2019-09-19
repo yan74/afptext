@@ -12,7 +12,7 @@ terminal MODCASTRING:
 	"'" ( '\\' . /* 'b'|'t'|'n'|'f'|'r'|'u'|'"'|"'"|'\\' */ | !('\\'|"'") )* "'"
 ;
 
-terminal EINTEGEROBJECT returns ecore::EInt: '-'? ('0'..'9')+;
+terminal EINTEGEROBJECT returns ecore::EIntegerObject: '-'? ('0'..'9')+;
 
 terminal EBYTEARRAY:
 	'[' ('a'..'z'|'A'..'Z'|'0'..'9')* ']'

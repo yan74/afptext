@@ -37,7 +37,7 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    * @ordered
    */
-  protected static final int SUB_OBJ_EDEFAULT = 0;
+  protected static final Integer SUB_OBJ_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSubObj() <em>Sub Obj</em>}' attribute.
@@ -47,7 +47,7 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    * @ordered
    */
-  protected int subObj = SUB_OBJ_EDEFAULT;
+  protected Integer subObj = SUB_OBJ_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSObjNum() <em>SObj Num</em>}' attribute.
@@ -57,7 +57,7 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    * @ordered
    */
-  protected static final int SOBJ_NUM_EDEFAULT = 0;
+  protected static final Integer SOBJ_NUM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSObjNum() <em>SObj Num</em>}' attribute.
@@ -67,7 +67,7 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    * @ordered
    */
-  protected int sObjNum = SOBJ_NUM_EDEFAULT;
+  protected Integer sObjNum = SOBJ_NUM_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSobjNmHi() <em>Sobj Nm Hi</em>}' attribute.
@@ -77,7 +77,7 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    * @ordered
    */
-  protected static final int SOBJ_NM_HI_EDEFAULT = 0;
+  protected static final Integer SOBJ_NM_HI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSobjNmHi() <em>Sobj Nm Hi</em>}' attribute.
@@ -87,7 +87,7 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    * @ordered
    */
-  protected int sobjNmHi = SOBJ_NM_HI_EDEFAULT;
+  protected Integer sobjNmHi = SOBJ_NM_HI_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    */
   @Override
-  public int getSubObj()
+  public Integer getSubObj()
   {
     return subObj;
   }
@@ -127,9 +127,9 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    */
   @Override
-  public void setSubObj(int newSubObj)
+  public void setSubObj(Integer newSubObj)
   {
-    int oldSubObj = subObj;
+    Integer oldSubObj = subObj;
     subObj = newSubObj;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_COUNT__SUB_OBJ, oldSubObj, subObj));
@@ -141,7 +141,7 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    */
   @Override
-  public int getSObjNum()
+  public Integer getSObjNum()
   {
     return sObjNum;
   }
@@ -152,9 +152,9 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    */
   @Override
-  public void setSObjNum(int newSObjNum)
+  public void setSObjNum(Integer newSObjNum)
   {
-    int oldSObjNum = sObjNum;
+    Integer oldSObjNum = sObjNum;
     sObjNum = newSObjNum;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_COUNT__SOBJ_NUM, oldSObjNum, sObjNum));
@@ -166,7 +166,7 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    */
   @Override
-  public int getSobjNmHi()
+  public Integer getSobjNmHi()
   {
     return sobjNmHi;
   }
@@ -177,9 +177,9 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
    * @generated
    */
   @Override
-  public void setSobjNmHi(int newSobjNmHi)
+  public void setSobjNmHi(Integer newSobjNmHi)
   {
-    int oldSobjNmHi = sobjNmHi;
+    Integer oldSobjNmHi = sobjNmHi;
     sobjNmHi = newSobjNmHi;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_COUNT__SOBJ_NM_HI, oldSobjNmHi, sobjNmHi));
@@ -262,11 +262,11 @@ public class ObjectCountImpl extends tripletImpl implements ObjectCount
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_COUNT__SUB_OBJ:
-        return subObj != SUB_OBJ_EDEFAULT;
+        return SUB_OBJ_EDEFAULT == null ? subObj != null : !SUB_OBJ_EDEFAULT.equals(subObj);
       case AfpTextPackage.OBJECT_COUNT__SOBJ_NUM:
-        return sObjNum != SOBJ_NUM_EDEFAULT;
+        return SOBJ_NUM_EDEFAULT == null ? sObjNum != null : !SOBJ_NUM_EDEFAULT.equals(sObjNum);
       case AfpTextPackage.OBJECT_COUNT__SOBJ_NM_HI:
-        return sobjNmHi != SOBJ_NM_HI_EDEFAULT;
+        return SOBJ_NM_HI_EDEFAULT == null ? sobjNmHi != null : !SOBJ_NM_HI_EDEFAULT.equals(sobjNmHi);
     }
     return super.eIsSet(featureID);
   }

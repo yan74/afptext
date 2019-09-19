@@ -41,12 +41,12 @@ public interface FNORG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved</em>' attribute.
-   * @see #setReserved(int)
+   * @see #setReserved(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_Reserved()
    * @model
    * @generated
    */
-  int getReserved();
+  Integer getReserved();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getReserved <em>Reserved</em>}' attribute.
@@ -56,19 +56,19 @@ public interface FNORG extends EObject
    * @see #getReserved()
    * @generated
    */
-  void setReserved(int value);
+  void setReserved(Integer value);
 
   /**
    * Returns the value of the '<em><b>Char Rot</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Char Rot</em>' attribute.
-   * @see #setCharRot(int)
+   * @see #setCharRot(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_CharRot()
    * @model
    * @generated
    */
-  int getCharRot();
+  Integer getCharRot();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getCharRot <em>Char Rot</em>}' attribute.
@@ -78,19 +78,19 @@ public interface FNORG extends EObject
    * @see #getCharRot()
    * @generated
    */
-  void setCharRot(int value);
+  void setCharRot(Integer value);
 
   /**
    * Returns the value of the '<em><b>Max BOset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Max BOset</em>' attribute.
-   * @see #setMaxBOset(int)
+   * @see #setMaxBOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_MaxBOset()
    * @model
    * @generated
    */
-  int getMaxBOset();
+  Integer getMaxBOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getMaxBOset <em>Max BOset</em>}' attribute.
@@ -100,19 +100,19 @@ public interface FNORG extends EObject
    * @see #getMaxBOset()
    * @generated
    */
-  void setMaxBOset(int value);
+  void setMaxBOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Max Char Inc</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Max Char Inc</em>' attribute.
-   * @see #setMaxCharInc(int)
+   * @see #setMaxCharInc(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_MaxCharInc()
    * @model
    * @generated
    */
-  int getMaxCharInc();
+  Integer getMaxCharInc();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getMaxCharInc <em>Max Char Inc</em>}' attribute.
@@ -122,19 +122,19 @@ public interface FNORG extends EObject
    * @see #getMaxCharInc()
    * @generated
    */
-  void setMaxCharInc(int value);
+  void setMaxCharInc(Integer value);
 
   /**
    * Returns the value of the '<em><b>Sp Char Inc</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Sp Char Inc</em>' attribute.
-   * @see #setSpCharInc(int)
+   * @see #setSpCharInc(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_SpCharInc()
    * @model
    * @generated
    */
-  int getSpCharInc();
+  Integer getSpCharInc();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getSpCharInc <em>Sp Char Inc</em>}' attribute.
@@ -144,19 +144,19 @@ public interface FNORG extends EObject
    * @see #getSpCharInc()
    * @generated
    */
-  void setSpCharInc(int value);
+  void setSpCharInc(Integer value);
 
   /**
    * Returns the value of the '<em><b>Max BExt</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Max BExt</em>' attribute.
-   * @see #setMaxBExt(int)
+   * @see #setMaxBExt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_MaxBExt()
    * @model
    * @generated
    */
-  int getMaxBExt();
+  Integer getMaxBExt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getMaxBExt <em>Max BExt</em>}' attribute.
@@ -166,19 +166,19 @@ public interface FNORG extends EObject
    * @see #getMaxBExt()
    * @generated
    */
-  void setMaxBExt(int value);
+  void setMaxBExt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ornt Flgs</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ornt Flgs</em>' attribute.
-   * @see #setOrntFlgs(int)
+   * @see #setOrntFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_OrntFlgs()
    * @model
    * @generated
    */
-  int getOrntFlgs();
+  Integer getOrntFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getOrntFlgs <em>Ornt Flgs</em>}' attribute.
@@ -188,19 +188,19 @@ public interface FNORG extends EObject
    * @see #getOrntFlgs()
    * @generated
    */
-  void setOrntFlgs(int value);
+  void setOrntFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved2</em>' attribute.
-   * @see #setReserved2(int)
+   * @see #setReserved2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_Reserved2()
    * @model
    * @generated
    */
-  int getReserved2();
+  Integer getReserved2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getReserved2 <em>Reserved2</em>}' attribute.
@@ -210,19 +210,19 @@ public interface FNORG extends EObject
    * @see #getReserved2()
    * @generated
    */
-  void setReserved2(int value);
+  void setReserved2(Integer value);
 
   /**
    * Returns the value of the '<em><b>Em Sp Inc</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Em Sp Inc</em>' attribute.
-   * @see #setEmSpInc(int)
+   * @see #setEmSpInc(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_EmSpInc()
    * @model
    * @generated
    */
-  int getEmSpInc();
+  Integer getEmSpInc();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getEmSpInc <em>Em Sp Inc</em>}' attribute.
@@ -232,19 +232,19 @@ public interface FNORG extends EObject
    * @see #getEmSpInc()
    * @generated
    */
-  void setEmSpInc(int value);
+  void setEmSpInc(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved3</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved3</em>' attribute.
-   * @see #setReserved3(int)
+   * @see #setReserved3(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_Reserved3()
    * @model
    * @generated
    */
-  int getReserved3();
+  Integer getReserved3();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getReserved3 <em>Reserved3</em>}' attribute.
@@ -254,19 +254,19 @@ public interface FNORG extends EObject
    * @see #getReserved3()
    * @generated
    */
-  void setReserved3(int value);
+  void setReserved3(Integer value);
 
   /**
    * Returns the value of the '<em><b>Fig Sp Inc</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Fig Sp Inc</em>' attribute.
-   * @see #setFigSpInc(int)
+   * @see #setFigSpInc(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_FigSpInc()
    * @model
    * @generated
    */
-  int getFigSpInc();
+  Integer getFigSpInc();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getFigSpInc <em>Fig Sp Inc</em>}' attribute.
@@ -276,19 +276,19 @@ public interface FNORG extends EObject
    * @see #getFigSpInc()
    * @generated
    */
-  void setFigSpInc(int value);
+  void setFigSpInc(Integer value);
 
   /**
    * Returns the value of the '<em><b>Nom Char Inc</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Nom Char Inc</em>' attribute.
-   * @see #setNomCharInc(int)
+   * @see #setNomCharInc(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_NomCharInc()
    * @model
    * @generated
    */
-  int getNomCharInc();
+  Integer getNomCharInc();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getNomCharInc <em>Nom Char Inc</em>}' attribute.
@@ -298,19 +298,19 @@ public interface FNORG extends EObject
    * @see #getNomCharInc()
    * @generated
    */
-  void setNomCharInc(int value);
+  void setNomCharInc(Integer value);
 
   /**
    * Returns the value of the '<em><b>Def BInc</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Def BInc</em>' attribute.
-   * @see #setDefBInc(int)
+   * @see #setDefBInc(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_DefBInc()
    * @model
    * @generated
    */
-  int getDefBInc();
+  Integer getDefBInc();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getDefBInc <em>Def BInc</em>}' attribute.
@@ -320,19 +320,19 @@ public interface FNORG extends EObject
    * @see #getDefBInc()
    * @generated
    */
-  void setDefBInc(int value);
+  void setDefBInc(Integer value);
 
   /**
    * Returns the value of the '<em><b>Min ASp</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Min ASp</em>' attribute.
-   * @see #setMinASp(int)
+   * @see #setMinASp(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNORG_MinASp()
    * @model
    * @generated
    */
-  int getMinASp();
+  Integer getMinASp();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNORG#getMinASp <em>Min ASp</em>}' attribute.
@@ -342,6 +342,6 @@ public interface FNORG extends EObject
    * @see #getMinASp()
    * @generated
    */
-  void setMinASp(int value);
+  void setMinASp(Integer value);
 
 } // FNORG

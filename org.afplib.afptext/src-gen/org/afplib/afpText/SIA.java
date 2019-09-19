@@ -28,12 +28,12 @@ public interface SIA extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>ADJSTMNT</em>' attribute.
-   * @see #setADJSTMNT(int)
+   * @see #setADJSTMNT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSIA_ADJSTMNT()
    * @model
    * @generated
    */
-  int getADJSTMNT();
+  Integer getADJSTMNT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SIA#getADJSTMNT <em>ADJSTMNT</em>}' attribute.
@@ -43,19 +43,19 @@ public interface SIA extends triplet
    * @see #getADJSTMNT()
    * @generated
    */
-  void setADJSTMNT(int value);
+  void setADJSTMNT(Integer value);
 
   /**
    * Returns the value of the '<em><b>DIRCTION</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>DIRCTION</em>' attribute.
-   * @see #setDIRCTION(int)
+   * @see #setDIRCTION(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSIA_DIRCTION()
    * @model
    * @generated
    */
-  int getDIRCTION();
+  Integer getDIRCTION();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SIA#getDIRCTION <em>DIRCTION</em>}' attribute.
@@ -65,6 +65,6 @@ public interface SIA extends triplet
    * @see #getDIRCTION()
    * @generated
    */
-  void setDIRCTION(int value);
+  void setDIRCTION(Integer value);
 
 } // SIA

@@ -35,7 +35,7 @@ public class GSCRImpl extends tripletImpl implements GSCR
    * @generated
    * @ordered
    */
-  protected static final int PREC_EDEFAULT = 0;
+  protected static final Integer PREC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPREC() <em>PREC</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSCRImpl extends tripletImpl implements GSCR
    * @generated
    * @ordered
    */
-  protected int prec = PREC_EDEFAULT;
+  protected Integer prec = PREC_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSCRImpl extends tripletImpl implements GSCR
    * @generated
    */
   @Override
-  public int getPREC()
+  public Integer getPREC()
   {
     return prec;
   }
@@ -85,9 +85,9 @@ public class GSCRImpl extends tripletImpl implements GSCR
    * @generated
    */
   @Override
-  public void setPREC(int newPREC)
+  public void setPREC(Integer newPREC)
   {
-    int oldPREC = prec;
+    Integer oldPREC = prec;
     prec = newPREC;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSCR__PREC, oldPREC, prec));
@@ -154,7 +154,7 @@ public class GSCRImpl extends tripletImpl implements GSCR
     switch (featureID)
     {
       case AfpTextPackage.GSCR__PREC:
-        return prec != PREC_EDEFAULT;
+        return PREC_EDEFAULT == null ? prec != null : !PREC_EDEFAULT.equals(prec);
     }
     return super.eIsSet(featureID);
   }

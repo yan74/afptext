@@ -34,12 +34,12 @@ public interface IOC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoa Oset</em>' attribute.
-   * @see #setXoaOset(int)
+   * @see #setXoaOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOC_XoaOset()
    * @model
    * @generated
    */
-  int getXoaOset();
+  Integer getXoaOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOC#getXoaOset <em>Xoa Oset</em>}' attribute.
@@ -49,19 +49,19 @@ public interface IOC extends structuredField
    * @see #getXoaOset()
    * @generated
    */
-  void setXoaOset(int value);
+  void setXoaOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoa Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoa Oset</em>' attribute.
-   * @see #setYoaOset(int)
+   * @see #setYoaOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOC_YoaOset()
    * @model
    * @generated
    */
-  int getYoaOset();
+  Integer getYoaOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOC#getYoaOset <em>Yoa Oset</em>}' attribute.
@@ -71,19 +71,19 @@ public interface IOC extends structuredField
    * @see #getYoaOset()
    * @generated
    */
-  void setYoaOset(int value);
+  void setYoaOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoa Orent</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoa Orent</em>' attribute.
-   * @see #setXoaOrent(int)
+   * @see #setXoaOrent(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOC_XoaOrent()
    * @model
    * @generated
    */
-  int getXoaOrent();
+  Integer getXoaOrent();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOC#getXoaOrent <em>Xoa Orent</em>}' attribute.
@@ -93,19 +93,19 @@ public interface IOC extends structuredField
    * @see #getXoaOrent()
    * @generated
    */
-  void setXoaOrent(int value);
+  void setXoaOrent(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoa Orent</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoa Orent</em>' attribute.
-   * @see #setYoaOrent(int)
+   * @see #setYoaOrent(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOC_YoaOrent()
    * @model
    * @generated
    */
-  int getYoaOrent();
+  Integer getYoaOrent();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOC#getYoaOrent <em>Yoa Orent</em>}' attribute.
@@ -115,7 +115,7 @@ public interface IOC extends structuredField
    * @see #getYoaOrent()
    * @generated
    */
-  void setYoaOrent(int value);
+  void setYoaOrent(Integer value);
 
   /**
    * Returns the value of the '<em><b>Con Data1</b></em>' attribute.
@@ -144,12 +144,12 @@ public interface IOC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XMap</em>' attribute.
-   * @see #setXMap(int)
+   * @see #setXMap(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOC_XMap()
    * @model
    * @generated
    */
-  int getXMap();
+  Integer getXMap();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOC#getXMap <em>XMap</em>}' attribute.
@@ -159,19 +159,19 @@ public interface IOC extends structuredField
    * @see #getXMap()
    * @generated
    */
-  void setXMap(int value);
+  void setXMap(Integer value);
 
   /**
    * Returns the value of the '<em><b>YMap</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YMap</em>' attribute.
-   * @see #setYMap(int)
+   * @see #setYMap(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOC_YMap()
    * @model
    * @generated
    */
-  int getYMap();
+  Integer getYMap();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOC#getYMap <em>YMap</em>}' attribute.
@@ -181,7 +181,7 @@ public interface IOC extends structuredField
    * @see #getYMap()
    * @generated
    */
-  void setYMap(int value);
+  void setYMap(Integer value);
 
   /**
    * Returns the value of the '<em><b>Con Data2</b></em>' attribute.

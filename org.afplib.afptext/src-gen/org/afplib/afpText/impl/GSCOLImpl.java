@@ -35,7 +35,7 @@ public class GSCOLImpl extends tripletImpl implements GSCOL
    * @generated
    * @ordered
    */
-  protected static final int COL_EDEFAULT = 0;
+  protected static final Integer COL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOL() <em>COL</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSCOLImpl extends tripletImpl implements GSCOL
    * @generated
    * @ordered
    */
-  protected int col = COL_EDEFAULT;
+  protected Integer col = COL_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSCOLImpl extends tripletImpl implements GSCOL
    * @generated
    */
   @Override
-  public int getCOL()
+  public Integer getCOL()
   {
     return col;
   }
@@ -85,9 +85,9 @@ public class GSCOLImpl extends tripletImpl implements GSCOL
    * @generated
    */
   @Override
-  public void setCOL(int newCOL)
+  public void setCOL(Integer newCOL)
   {
-    int oldCOL = col;
+    Integer oldCOL = col;
     col = newCOL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSCOL__COL, oldCOL, col));
@@ -154,7 +154,7 @@ public class GSCOLImpl extends tripletImpl implements GSCOL
     switch (featureID)
     {
       case AfpTextPackage.GSCOL__COL:
-        return col != COL_EDEFAULT;
+        return COL_EDEFAULT == null ? col != null : !COL_EDEFAULT.equals(col);
     }
     return super.eIsSet(featureID);
   }

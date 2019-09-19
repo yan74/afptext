@@ -69,7 +69,7 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    * @ordered
    */
-  protected static final int XOL_OSET_EDEFAULT = 0;
+  protected static final Integer XOL_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXolOset() <em>Xol Oset</em>}' attribute.
@@ -79,7 +79,7 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    * @ordered
    */
-  protected int xolOset = XOL_OSET_EDEFAULT;
+  protected Integer xolOset = XOL_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYolOset() <em>Yol Oset</em>}' attribute.
@@ -89,7 +89,7 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    * @ordered
    */
-  protected static final int YOL_OSET_EDEFAULT = 0;
+  protected static final Integer YOL_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYolOset() <em>Yol Oset</em>}' attribute.
@@ -99,7 +99,7 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    * @ordered
    */
-  protected int yolOset = YOL_OSET_EDEFAULT;
+  protected Integer yolOset = YOL_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getOvlyOrent() <em>Ovly Orent</em>}' attribute.
@@ -109,7 +109,7 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    * @ordered
    */
-  protected static final int OVLY_ORENT_EDEFAULT = 0;
+  protected static final Integer OVLY_ORENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getOvlyOrent() <em>Ovly Orent</em>}' attribute.
@@ -119,7 +119,7 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    * @ordered
    */
-  protected int ovlyOrent = OVLY_ORENT_EDEFAULT;
+  protected Integer ovlyOrent = OVLY_ORENT_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -183,7 +183,7 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    */
   @Override
-  public int getXolOset()
+  public Integer getXolOset()
   {
     return xolOset;
   }
@@ -194,9 +194,9 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    */
   @Override
-  public void setXolOset(int newXolOset)
+  public void setXolOset(Integer newXolOset)
   {
-    int oldXolOset = xolOset;
+    Integer oldXolOset = xolOset;
     xolOset = newXolOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IPO__XOL_OSET, oldXolOset, xolOset));
@@ -208,7 +208,7 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    */
   @Override
-  public int getYolOset()
+  public Integer getYolOset()
   {
     return yolOset;
   }
@@ -219,9 +219,9 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    */
   @Override
-  public void setYolOset(int newYolOset)
+  public void setYolOset(Integer newYolOset)
   {
-    int oldYolOset = yolOset;
+    Integer oldYolOset = yolOset;
     yolOset = newYolOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IPO__YOL_OSET, oldYolOset, yolOset));
@@ -233,7 +233,7 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    */
   @Override
-  public int getOvlyOrent()
+  public Integer getOvlyOrent()
   {
     return ovlyOrent;
   }
@@ -244,9 +244,9 @@ public class IPOImpl extends structuredFieldImpl implements IPO
    * @generated
    */
   @Override
-  public void setOvlyOrent(int newOvlyOrent)
+  public void setOvlyOrent(Integer newOvlyOrent)
   {
-    int oldOvlyOrent = ovlyOrent;
+    Integer oldOvlyOrent = ovlyOrent;
     ovlyOrent = newOvlyOrent;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IPO__OVLY_ORENT, oldOvlyOrent, ovlyOrent));
@@ -380,11 +380,11 @@ public class IPOImpl extends structuredFieldImpl implements IPO
       case AfpTextPackage.IPO__OVLY_NAME:
         return OVLY_NAME_EDEFAULT == null ? ovlyName != null : !OVLY_NAME_EDEFAULT.equals(ovlyName);
       case AfpTextPackage.IPO__XOL_OSET:
-        return xolOset != XOL_OSET_EDEFAULT;
+        return XOL_OSET_EDEFAULT == null ? xolOset != null : !XOL_OSET_EDEFAULT.equals(xolOset);
       case AfpTextPackage.IPO__YOL_OSET:
-        return yolOset != YOL_OSET_EDEFAULT;
+        return YOL_OSET_EDEFAULT == null ? yolOset != null : !YOL_OSET_EDEFAULT.equals(yolOset);
       case AfpTextPackage.IPO__OVLY_ORENT:
-        return ovlyOrent != OVLY_ORENT_EDEFAULT;
+        return OVLY_ORENT_EDEFAULT == null ? ovlyOrent != null : !OVLY_ORENT_EDEFAULT.equals(ovlyOrent);
       case AfpTextPackage.IPO__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

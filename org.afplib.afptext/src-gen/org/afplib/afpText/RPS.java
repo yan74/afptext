@@ -28,12 +28,12 @@ public interface RPS extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RLENGTH</em>' attribute.
-   * @see #setRLENGTH(int)
+   * @see #setRLENGTH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getRPS_RLENGTH()
    * @model
    * @generated
    */
-  int getRLENGTH();
+  Integer getRLENGTH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.RPS#getRLENGTH <em>RLENGTH</em>}' attribute.
@@ -43,7 +43,7 @@ public interface RPS extends triplet
    * @see #getRLENGTH()
    * @generated
    */
-  void setRLENGTH(int value);
+  void setRLENGTH(Integer value);
 
   /**
    * Returns the value of the '<em><b>RPTDATA</b></em>' attribute.

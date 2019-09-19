@@ -33,12 +33,12 @@ public interface SEC extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RESERVED</em>' attribute.
-   * @see #setRESERVED(int)
+   * @see #setRESERVED(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSEC_RESERVED()
    * @model
    * @generated
    */
-  int getRESERVED();
+  Integer getRESERVED();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SEC#getRESERVED <em>RESERVED</em>}' attribute.
@@ -48,19 +48,19 @@ public interface SEC extends triplet
    * @see #getRESERVED()
    * @generated
    */
-  void setRESERVED(int value);
+  void setRESERVED(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSPCE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSPCE</em>' attribute.
-   * @see #setCOLSPCE(int)
+   * @see #setCOLSPCE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSEC_COLSPCE()
    * @model
    * @generated
    */
-  int getCOLSPCE();
+  Integer getCOLSPCE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SEC#getCOLSPCE <em>COLSPCE</em>}' attribute.
@@ -70,19 +70,19 @@ public interface SEC extends triplet
    * @see #getCOLSPCE()
    * @generated
    */
-  void setCOLSPCE(int value);
+  void setCOLSPCE(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSIZE1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSIZE1</em>' attribute.
-   * @see #setCOLSIZE1(int)
+   * @see #setCOLSIZE1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSEC_COLSIZE1()
    * @model
    * @generated
    */
-  int getCOLSIZE1();
+  Integer getCOLSIZE1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SEC#getCOLSIZE1 <em>COLSIZE1</em>}' attribute.
@@ -92,19 +92,19 @@ public interface SEC extends triplet
    * @see #getCOLSIZE1()
    * @generated
    */
-  void setCOLSIZE1(int value);
+  void setCOLSIZE1(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSIZE2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSIZE2</em>' attribute.
-   * @see #setCOLSIZE2(int)
+   * @see #setCOLSIZE2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSEC_COLSIZE2()
    * @model
    * @generated
    */
-  int getCOLSIZE2();
+  Integer getCOLSIZE2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SEC#getCOLSIZE2 <em>COLSIZE2</em>}' attribute.
@@ -114,19 +114,19 @@ public interface SEC extends triplet
    * @see #getCOLSIZE2()
    * @generated
    */
-  void setCOLSIZE2(int value);
+  void setCOLSIZE2(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSIZE3</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSIZE3</em>' attribute.
-   * @see #setCOLSIZE3(int)
+   * @see #setCOLSIZE3(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSEC_COLSIZE3()
    * @model
    * @generated
    */
-  int getCOLSIZE3();
+  Integer getCOLSIZE3();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SEC#getCOLSIZE3 <em>COLSIZE3</em>}' attribute.
@@ -136,19 +136,19 @@ public interface SEC extends triplet
    * @see #getCOLSIZE3()
    * @generated
    */
-  void setCOLSIZE3(int value);
+  void setCOLSIZE3(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSIZE4</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSIZE4</em>' attribute.
-   * @see #setCOLSIZE4(int)
+   * @see #setCOLSIZE4(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSEC_COLSIZE4()
    * @model
    * @generated
    */
-  int getCOLSIZE4();
+  Integer getCOLSIZE4();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SEC#getCOLSIZE4 <em>COLSIZE4</em>}' attribute.
@@ -158,7 +158,7 @@ public interface SEC extends triplet
    * @see #getCOLSIZE4()
    * @generated
    */
-  void setCOLSIZE4(int value);
+  void setCOLSIZE4(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLVALUE</b></em>' attribute.

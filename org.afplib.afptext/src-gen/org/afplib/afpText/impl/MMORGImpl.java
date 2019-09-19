@@ -38,7 +38,7 @@ public class MMORGImpl extends MinimalEObjectImpl.Container implements MMORG
    * @generated
    * @ordered
    */
-  protected static final int OV_LID_EDEFAULT = 0;
+  protected static final Integer OV_LID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getOVLid() <em>OV Lid</em>}' attribute.
@@ -48,7 +48,7 @@ public class MMORGImpl extends MinimalEObjectImpl.Container implements MMORG
    * @generated
    * @ordered
    */
-  protected int ovLid = OV_LID_EDEFAULT;
+  protected Integer ovLid = OV_LID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFlags() <em>Flags</em>}' attribute.
@@ -58,7 +58,7 @@ public class MMORGImpl extends MinimalEObjectImpl.Container implements MMORG
    * @generated
    * @ordered
    */
-  protected static final int FLAGS_EDEFAULT = 0;
+  protected static final Integer FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFlags() <em>Flags</em>}' attribute.
@@ -68,7 +68,7 @@ public class MMORGImpl extends MinimalEObjectImpl.Container implements MMORG
    * @generated
    * @ordered
    */
-  protected int flags = FLAGS_EDEFAULT;
+  protected Integer flags = FLAGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getOVLname() <em>OV Lname</em>}' attribute.
@@ -117,7 +117,7 @@ public class MMORGImpl extends MinimalEObjectImpl.Container implements MMORG
    * @generated
    */
   @Override
-  public int getOVLid()
+  public Integer getOVLid()
   {
     return ovLid;
   }
@@ -128,9 +128,9 @@ public class MMORGImpl extends MinimalEObjectImpl.Container implements MMORG
    * @generated
    */
   @Override
-  public void setOVLid(int newOVLid)
+  public void setOVLid(Integer newOVLid)
   {
-    int oldOVLid = ovLid;
+    Integer oldOVLid = ovLid;
     ovLid = newOVLid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MMORG__OV_LID, oldOVLid, ovLid));
@@ -142,7 +142,7 @@ public class MMORGImpl extends MinimalEObjectImpl.Container implements MMORG
    * @generated
    */
   @Override
-  public int getFlags()
+  public Integer getFlags()
   {
     return flags;
   }
@@ -153,9 +153,9 @@ public class MMORGImpl extends MinimalEObjectImpl.Container implements MMORG
    * @generated
    */
   @Override
-  public void setFlags(int newFlags)
+  public void setFlags(Integer newFlags)
   {
-    int oldFlags = flags;
+    Integer oldFlags = flags;
     flags = newFlags;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MMORG__FLAGS, oldFlags, flags));
@@ -263,9 +263,9 @@ public class MMORGImpl extends MinimalEObjectImpl.Container implements MMORG
     switch (featureID)
     {
       case AfpTextPackage.MMORG__OV_LID:
-        return ovLid != OV_LID_EDEFAULT;
+        return OV_LID_EDEFAULT == null ? ovLid != null : !OV_LID_EDEFAULT.equals(ovLid);
       case AfpTextPackage.MMORG__FLAGS:
-        return flags != FLAGS_EDEFAULT;
+        return FLAGS_EDEFAULT == null ? flags != null : !FLAGS_EDEFAULT.equals(flags);
       case AfpTextPackage.MMORG__OV_LNAME:
         return OV_LNAME_EDEFAULT == null ? ovLname != null : !OV_LNAME_EDEFAULT.equals(ovLname);
     }

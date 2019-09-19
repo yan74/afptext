@@ -28,12 +28,12 @@ public interface ObjectByteExtent extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Byte Ext</em>' attribute.
-   * @see #setByteExt(int)
+   * @see #setByteExt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectByteExtent_ByteExt()
    * @model
    * @generated
    */
-  int getByteExt();
+  Integer getByteExt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectByteExtent#getByteExt <em>Byte Ext</em>}' attribute.
@@ -43,19 +43,19 @@ public interface ObjectByteExtent extends triplet
    * @see #getByteExt()
    * @generated
    */
-  void setByteExt(int value);
+  void setByteExt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Byte Ext Hi</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Byte Ext Hi</em>' attribute.
-   * @see #setByteExtHi(int)
+   * @see #setByteExtHi(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectByteExtent_ByteExtHi()
    * @model
    * @generated
    */
-  int getByteExtHi();
+  Integer getByteExtHi();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectByteExtent#getByteExtHi <em>Byte Ext Hi</em>}' attribute.
@@ -65,6 +65,6 @@ public interface ObjectByteExtent extends triplet
    * @see #getByteExtHi()
    * @generated
    */
-  void setByteExtHi(int value);
+  void setByteExtHi(Integer value);
 
 } // ObjectByteExtent

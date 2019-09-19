@@ -29,12 +29,12 @@ public interface TBM extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>DIRCTION</em>' attribute.
-   * @see #setDIRCTION(int)
+   * @see #setDIRCTION(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTBM_DIRCTION()
    * @model
    * @generated
    */
-  int getDIRCTION();
+  Integer getDIRCTION();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TBM#getDIRCTION <em>DIRCTION</em>}' attribute.
@@ -44,19 +44,19 @@ public interface TBM extends triplet
    * @see #getDIRCTION()
    * @generated
    */
-  void setDIRCTION(int value);
+  void setDIRCTION(Integer value);
 
   /**
    * Returns the value of the '<em><b>PRECSION</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PRECSION</em>' attribute.
-   * @see #setPRECSION(int)
+   * @see #setPRECSION(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTBM_PRECSION()
    * @model
    * @generated
    */
-  int getPRECSION();
+  Integer getPRECSION();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TBM#getPRECSION <em>PRECSION</em>}' attribute.
@@ -66,19 +66,19 @@ public interface TBM extends triplet
    * @see #getPRECSION()
    * @generated
    */
-  void setPRECSION(int value);
+  void setPRECSION(Integer value);
 
   /**
    * Returns the value of the '<em><b>INCRMENT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>INCRMENT</em>' attribute.
-   * @see #setINCRMENT(int)
+   * @see #setINCRMENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTBM_INCRMENT()
    * @model
    * @generated
    */
-  int getINCRMENT();
+  Integer getINCRMENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TBM#getINCRMENT <em>INCRMENT</em>}' attribute.
@@ -88,6 +88,6 @@ public interface TBM extends triplet
    * @see #getINCRMENT()
    * @generated
    */
-  void setINCRMENT(int value);
+  void setINCRMENT(Integer value);
 
 } // TBM

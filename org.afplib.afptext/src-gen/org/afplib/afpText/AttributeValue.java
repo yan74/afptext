@@ -28,12 +28,12 @@ public interface AttributeValue extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved0</em>' attribute.
-   * @see #setReserved0(int)
+   * @see #setReserved0(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getAttributeValue_Reserved0()
    * @model
    * @generated
    */
-  int getReserved0();
+  Integer getReserved0();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.AttributeValue#getReserved0 <em>Reserved0</em>}' attribute.
@@ -43,7 +43,7 @@ public interface AttributeValue extends triplet
    * @see #getReserved0()
    * @generated
    */
-  void setReserved0(int value);
+  void setReserved0(Integer value);
 
   /**
    * Returns the value of the '<em><b>Att Val</b></em>' attribute.

@@ -36,7 +36,7 @@ public class TextOrientationImpl extends tripletImpl implements TextOrientation
    * @generated
    * @ordered
    */
-  protected static final int IAXIS_EDEFAULT = 0;
+  protected static final Integer IAXIS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getIAxis() <em>IAxis</em>}' attribute.
@@ -46,7 +46,7 @@ public class TextOrientationImpl extends tripletImpl implements TextOrientation
    * @generated
    * @ordered
    */
-  protected int iAxis = IAXIS_EDEFAULT;
+  protected Integer iAxis = IAXIS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getBAxis() <em>BAxis</em>}' attribute.
@@ -56,7 +56,7 @@ public class TextOrientationImpl extends tripletImpl implements TextOrientation
    * @generated
    * @ordered
    */
-  protected static final int BAXIS_EDEFAULT = 0;
+  protected static final Integer BAXIS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBAxis() <em>BAxis</em>}' attribute.
@@ -66,7 +66,7 @@ public class TextOrientationImpl extends tripletImpl implements TextOrientation
    * @generated
    * @ordered
    */
-  protected int bAxis = BAXIS_EDEFAULT;
+  protected Integer bAxis = BAXIS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class TextOrientationImpl extends tripletImpl implements TextOrientation
    * @generated
    */
   @Override
-  public int getIAxis()
+  public Integer getIAxis()
   {
     return iAxis;
   }
@@ -106,9 +106,9 @@ public class TextOrientationImpl extends tripletImpl implements TextOrientation
    * @generated
    */
   @Override
-  public void setIAxis(int newIAxis)
+  public void setIAxis(Integer newIAxis)
   {
-    int oldIAxis = iAxis;
+    Integer oldIAxis = iAxis;
     iAxis = newIAxis;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TEXT_ORIENTATION__IAXIS, oldIAxis, iAxis));
@@ -120,7 +120,7 @@ public class TextOrientationImpl extends tripletImpl implements TextOrientation
    * @generated
    */
   @Override
-  public int getBAxis()
+  public Integer getBAxis()
   {
     return bAxis;
   }
@@ -131,9 +131,9 @@ public class TextOrientationImpl extends tripletImpl implements TextOrientation
    * @generated
    */
   @Override
-  public void setBAxis(int newBAxis)
+  public void setBAxis(Integer newBAxis)
   {
-    int oldBAxis = bAxis;
+    Integer oldBAxis = bAxis;
     bAxis = newBAxis;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TEXT_ORIENTATION__BAXIS, oldBAxis, bAxis));
@@ -208,9 +208,9 @@ public class TextOrientationImpl extends tripletImpl implements TextOrientation
     switch (featureID)
     {
       case AfpTextPackage.TEXT_ORIENTATION__IAXIS:
-        return iAxis != IAXIS_EDEFAULT;
+        return IAXIS_EDEFAULT == null ? iAxis != null : !IAXIS_EDEFAULT.equals(iAxis);
       case AfpTextPackage.TEXT_ORIENTATION__BAXIS:
-        return bAxis != BAXIS_EDEFAULT;
+        return BAXIS_EDEFAULT == null ? bAxis != null : !BAXIS_EDEFAULT.equals(bAxis);
     }
     return super.eIsSet(featureID);
   }

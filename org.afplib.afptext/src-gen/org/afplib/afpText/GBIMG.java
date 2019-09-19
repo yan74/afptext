@@ -32,12 +32,12 @@ public interface GBIMG extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPOS</em>' attribute.
-   * @see #setXPOS(int)
+   * @see #setXPOS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBIMG_XPOS()
    * @model
    * @generated
    */
-  int getXPOS();
+  Integer getXPOS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBIMG#getXPOS <em>XPOS</em>}' attribute.
@@ -47,19 +47,19 @@ public interface GBIMG extends triplet
    * @see #getXPOS()
    * @generated
    */
-  void setXPOS(int value);
+  void setXPOS(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPOS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPOS</em>' attribute.
-   * @see #setYPOS(int)
+   * @see #setYPOS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBIMG_YPOS()
    * @model
    * @generated
    */
-  int getYPOS();
+  Integer getYPOS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBIMG#getYPOS <em>YPOS</em>}' attribute.
@@ -69,19 +69,19 @@ public interface GBIMG extends triplet
    * @see #getYPOS()
    * @generated
    */
-  void setYPOS(int value);
+  void setYPOS(Integer value);
 
   /**
    * Returns the value of the '<em><b>FORMAT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FORMAT</em>' attribute.
-   * @see #setFORMAT(int)
+   * @see #setFORMAT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBIMG_FORMAT()
    * @model
    * @generated
    */
-  int getFORMAT();
+  Integer getFORMAT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBIMG#getFORMAT <em>FORMAT</em>}' attribute.
@@ -91,19 +91,19 @@ public interface GBIMG extends triplet
    * @see #getFORMAT()
    * @generated
    */
-  void setFORMAT(int value);
+  void setFORMAT(Integer value);
 
   /**
    * Returns the value of the '<em><b>RES</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RES</em>' attribute.
-   * @see #setRES(int)
+   * @see #setRES(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBIMG_RES()
    * @model
    * @generated
    */
-  int getRES();
+  Integer getRES();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBIMG#getRES <em>RES</em>}' attribute.
@@ -113,19 +113,19 @@ public interface GBIMG extends triplet
    * @see #getRES()
    * @generated
    */
-  void setRES(int value);
+  void setRES(Integer value);
 
   /**
    * Returns the value of the '<em><b>WIDTH</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>WIDTH</em>' attribute.
-   * @see #setWIDTH(int)
+   * @see #setWIDTH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBIMG_WIDTH()
    * @model
    * @generated
    */
-  int getWIDTH();
+  Integer getWIDTH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBIMG#getWIDTH <em>WIDTH</em>}' attribute.
@@ -135,19 +135,19 @@ public interface GBIMG extends triplet
    * @see #getWIDTH()
    * @generated
    */
-  void setWIDTH(int value);
+  void setWIDTH(Integer value);
 
   /**
    * Returns the value of the '<em><b>HEIGHT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HEIGHT</em>' attribute.
-   * @see #setHEIGHT(int)
+   * @see #setHEIGHT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBIMG_HEIGHT()
    * @model
    * @generated
    */
-  int getHEIGHT();
+  Integer getHEIGHT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBIMG#getHEIGHT <em>HEIGHT</em>}' attribute.
@@ -157,6 +157,6 @@ public interface GBIMG extends triplet
    * @see #getHEIGHT()
    * @generated
    */
-  void setHEIGHT(int value);
+  void setHEIGHT(Integer value);
 
 } // GBIMG

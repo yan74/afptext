@@ -45,12 +45,12 @@ public interface LND extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LND Flgs</em>' attribute.
-   * @see #setLNDFlgs(int)
+   * @see #setLNDFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_LNDFlgs()
    * @model
    * @generated
    */
-  int getLNDFlgs();
+  Integer getLNDFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getLNDFlgs <em>LND Flgs</em>}' attribute.
@@ -60,19 +60,19 @@ public interface LND extends structuredField
    * @see #getLNDFlgs()
    * @generated
    */
-  void setLNDFlgs(int value);
+  void setLNDFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>IPos</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>IPos</em>' attribute.
-   * @see #setIPos(int)
+   * @see #setIPos(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_IPos()
    * @model
    * @generated
    */
-  int getIPos();
+  Integer getIPos();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getIPos <em>IPos</em>}' attribute.
@@ -82,19 +82,19 @@ public interface LND extends structuredField
    * @see #getIPos()
    * @generated
    */
-  void setIPos(int value);
+  void setIPos(Integer value);
 
   /**
    * Returns the value of the '<em><b>BPos</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BPos</em>' attribute.
-   * @see #setBPos(int)
+   * @see #setBPos(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_BPos()
    * @model
    * @generated
    */
-  int getBPos();
+  Integer getBPos();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getBPos <em>BPos</em>}' attribute.
@@ -104,19 +104,19 @@ public interface LND extends structuredField
    * @see #getBPos()
    * @generated
    */
-  void setBPos(int value);
+  void setBPos(Integer value);
 
   /**
    * Returns the value of the '<em><b>Txt Orent</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Txt Orent</em>' attribute.
-   * @see #setTxtOrent(int)
+   * @see #setTxtOrent(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_TxtOrent()
    * @model
    * @generated
    */
-  int getTxtOrent();
+  Integer getTxtOrent();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getTxtOrent <em>Txt Orent</em>}' attribute.
@@ -126,19 +126,19 @@ public interface LND extends structuredField
    * @see #getTxtOrent()
    * @generated
    */
-  void setTxtOrent(int value);
+  void setTxtOrent(Integer value);
 
   /**
    * Returns the value of the '<em><b>Fnt LID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Fnt LID</em>' attribute.
-   * @see #setFntLID(int)
+   * @see #setFntLID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_FntLID()
    * @model
    * @generated
    */
-  int getFntLID();
+  Integer getFntLID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getFntLID <em>Fnt LID</em>}' attribute.
@@ -148,19 +148,19 @@ public interface LND extends structuredField
    * @see #getFntLID()
    * @generated
    */
-  void setFntLID(int value);
+  void setFntLID(Integer value);
 
   /**
    * Returns the value of the '<em><b>Chnl Cde</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Chnl Cde</em>' attribute.
-   * @see #setChnlCde(int)
+   * @see #setChnlCde(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_ChnlCde()
    * @model
    * @generated
    */
-  int getChnlCde();
+  Integer getChnlCde();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getChnlCde <em>Chnl Cde</em>}' attribute.
@@ -170,19 +170,19 @@ public interface LND extends structuredField
    * @see #getChnlCde()
    * @generated
    */
-  void setChnlCde(int value);
+  void setChnlCde(Integer value);
 
   /**
    * Returns the value of the '<em><b>NLN Dskp</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>NLN Dskp</em>' attribute.
-   * @see #setNLNDskp(int)
+   * @see #setNLNDskp(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_NLNDskp()
    * @model
    * @generated
    */
-  int getNLNDskp();
+  Integer getNLNDskp();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getNLNDskp <em>NLN Dskp</em>}' attribute.
@@ -192,19 +192,19 @@ public interface LND extends structuredField
    * @see #getNLNDskp()
    * @generated
    */
-  void setNLNDskp(int value);
+  void setNLNDskp(Integer value);
 
   /**
    * Returns the value of the '<em><b>NLN Dsp</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>NLN Dsp</em>' attribute.
-   * @see #setNLNDsp(int)
+   * @see #setNLNDsp(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_NLNDsp()
    * @model
    * @generated
    */
-  int getNLNDsp();
+  Integer getNLNDsp();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getNLNDsp <em>NLN Dsp</em>}' attribute.
@@ -214,19 +214,19 @@ public interface LND extends structuredField
    * @see #getNLNDsp()
    * @generated
    */
-  void setNLNDsp(int value);
+  void setNLNDsp(Integer value);
 
   /**
    * Returns the value of the '<em><b>NLN Dreu</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>NLN Dreu</em>' attribute.
-   * @see #setNLNDreu(int)
+   * @see #setNLNDreu(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_NLNDreu()
    * @model
    * @generated
    */
-  int getNLNDreu();
+  Integer getNLNDreu();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getNLNDreu <em>NLN Dreu</em>}' attribute.
@@ -236,7 +236,7 @@ public interface LND extends structuredField
    * @see #getNLNDreu()
    * @generated
    */
-  void setNLNDreu(int value);
+  void setNLNDreu(Integer value);
 
   /**
    * Returns the value of the '<em><b>Sup Name</b></em>' attribute.
@@ -265,12 +265,12 @@ public interface LND extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SO Lid</em>' attribute.
-   * @see #setSOLid(int)
+   * @see #setSOLid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_SOLid()
    * @model
    * @generated
    */
-  int getSOLid();
+  Integer getSOLid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getSOLid <em>SO Lid</em>}' attribute.
@@ -280,19 +280,19 @@ public interface LND extends structuredField
    * @see #getSOLid()
    * @generated
    */
-  void setSOLid(int value);
+  void setSOLid(Integer value);
 
   /**
    * Returns the value of the '<em><b>Data Strt</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Data Strt</em>' attribute.
-   * @see #setDataStrt(int)
+   * @see #setDataStrt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_DataStrt()
    * @model
    * @generated
    */
-  int getDataStrt();
+  Integer getDataStrt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getDataStrt <em>Data Strt</em>}' attribute.
@@ -302,19 +302,19 @@ public interface LND extends structuredField
    * @see #getDataStrt()
    * @generated
    */
-  void setDataStrt(int value);
+  void setDataStrt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Data Lgth</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Data Lgth</em>' attribute.
-   * @see #setDataLgth(int)
+   * @see #setDataLgth(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_DataLgth()
    * @model
    * @generated
    */
-  int getDataLgth();
+  Integer getDataLgth();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getDataLgth <em>Data Lgth</em>}' attribute.
@@ -324,19 +324,19 @@ public interface LND extends structuredField
    * @see #getDataLgth()
    * @generated
    */
-  void setDataLgth(int value);
+  void setDataLgth(Integer value);
 
   /**
    * Returns the value of the '<em><b>Txt Color</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Txt Color</em>' attribute.
-   * @see #setTxtColor(int)
+   * @see #setTxtColor(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_TxtColor()
    * @model
    * @generated
    */
-  int getTxtColor();
+  Integer getTxtColor();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getTxtColor <em>Txt Color</em>}' attribute.
@@ -346,19 +346,19 @@ public interface LND extends structuredField
    * @see #getTxtColor()
    * @generated
    */
-  void setTxtColor(int value);
+  void setTxtColor(Integer value);
 
   /**
    * Returns the value of the '<em><b>NLN Dccp</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>NLN Dccp</em>' attribute.
-   * @see #setNLNDccp(int)
+   * @see #setNLNDccp(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_NLNDccp()
    * @model
    * @generated
    */
-  int getNLNDccp();
+  Integer getNLNDccp();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getNLNDccp <em>NLN Dccp</em>}' attribute.
@@ -368,19 +368,19 @@ public interface LND extends structuredField
    * @see #getNLNDccp()
    * @generated
    */
-  void setNLNDccp(int value);
+  void setNLNDccp(Integer value);
 
   /**
    * Returns the value of the '<em><b>Subpg ID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Subpg ID</em>' attribute.
-   * @see #setSubpgID(int)
+   * @see #setSubpgID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_SubpgID()
    * @model
    * @generated
    */
-  int getSubpgID();
+  Integer getSubpgID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getSubpgID <em>Subpg ID</em>}' attribute.
@@ -390,19 +390,19 @@ public interface LND extends structuredField
    * @see #getSubpgID()
    * @generated
    */
-  void setSubpgID(int value);
+  void setSubpgID(Integer value);
 
   /**
    * Returns the value of the '<em><b>CCPID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CCPID</em>' attribute.
-   * @see #setCCPID(int)
+   * @see #setCCPID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLND_CCPID()
    * @model
    * @generated
    */
-  int getCCPID();
+  Integer getCCPID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LND#getCCPID <em>CCPID</em>}' attribute.
@@ -412,7 +412,7 @@ public interface LND extends structuredField
    * @see #getCCPID()
    * @generated
    */
-  void setCCPID(int value);
+  void setCCPID(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

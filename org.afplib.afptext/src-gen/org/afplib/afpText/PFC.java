@@ -29,12 +29,12 @@ public interface PFC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PFC Flgs</em>' attribute.
-   * @see #setPFCFlgs(int)
+   * @see #setPFCFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPFC_PFCFlgs()
    * @model
    * @generated
    */
-  int getPFCFlgs();
+  Integer getPFCFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PFC#getPFCFlgs <em>PFC Flgs</em>}' attribute.
@@ -44,7 +44,7 @@ public interface PFC extends structuredField
    * @see #getPFCFlgs()
    * @generated
    */
-  void setPFCFlgs(int value);
+  void setPFCFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

@@ -35,7 +35,7 @@ public class GSLWImpl extends tripletImpl implements GSLW
    * @generated
    * @ordered
    */
-  protected static final int MH_EDEFAULT = 0;
+  protected static final Integer MH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMH() <em>MH</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSLWImpl extends tripletImpl implements GSLW
    * @generated
    * @ordered
    */
-  protected int mh = MH_EDEFAULT;
+  protected Integer mh = MH_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSLWImpl extends tripletImpl implements GSLW
    * @generated
    */
   @Override
-  public int getMH()
+  public Integer getMH()
   {
     return mh;
   }
@@ -85,9 +85,9 @@ public class GSLWImpl extends tripletImpl implements GSLW
    * @generated
    */
   @Override
-  public void setMH(int newMH)
+  public void setMH(Integer newMH)
   {
-    int oldMH = mh;
+    Integer oldMH = mh;
     mh = newMH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSLW__MH, oldMH, mh));
@@ -154,7 +154,7 @@ public class GSLWImpl extends tripletImpl implements GSLW
     switch (featureID)
     {
       case AfpTextPackage.GSLW__MH:
-        return mh != MH_EDEFAULT;
+        return MH_EDEFAULT == null ? mh != null : !MH_EDEFAULT.equals(mh);
     }
     return super.eIsSet(featureID);
   }

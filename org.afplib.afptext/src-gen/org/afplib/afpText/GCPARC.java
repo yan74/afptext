@@ -32,12 +32,12 @@ public interface GCPARC extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XCENT</em>' attribute.
-   * @see #setXCENT(int)
+   * @see #setXCENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCPARC_XCENT()
    * @model
    * @generated
    */
-  int getXCENT();
+  Integer getXCENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCPARC#getXCENT <em>XCENT</em>}' attribute.
@@ -47,19 +47,19 @@ public interface GCPARC extends triplet
    * @see #getXCENT()
    * @generated
    */
-  void setXCENT(int value);
+  void setXCENT(Integer value);
 
   /**
    * Returns the value of the '<em><b>YCENT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YCENT</em>' attribute.
-   * @see #setYCENT(int)
+   * @see #setYCENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCPARC_YCENT()
    * @model
    * @generated
    */
-  int getYCENT();
+  Integer getYCENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCPARC#getYCENT <em>YCENT</em>}' attribute.
@@ -69,19 +69,19 @@ public interface GCPARC extends triplet
    * @see #getYCENT()
    * @generated
    */
-  void setYCENT(int value);
+  void setYCENT(Integer value);
 
   /**
    * Returns the value of the '<em><b>MH</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MH</em>' attribute.
-   * @see #setMH(int)
+   * @see #setMH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCPARC_MH()
    * @model
    * @generated
    */
-  int getMH();
+  Integer getMH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCPARC#getMH <em>MH</em>}' attribute.
@@ -91,19 +91,19 @@ public interface GCPARC extends triplet
    * @see #getMH()
    * @generated
    */
-  void setMH(int value);
+  void setMH(Integer value);
 
   /**
    * Returns the value of the '<em><b>MFR</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MFR</em>' attribute.
-   * @see #setMFR(int)
+   * @see #setMFR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCPARC_MFR()
    * @model
    * @generated
    */
-  int getMFR();
+  Integer getMFR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCPARC#getMFR <em>MFR</em>}' attribute.
@@ -113,19 +113,19 @@ public interface GCPARC extends triplet
    * @see #getMFR()
    * @generated
    */
-  void setMFR(int value);
+  void setMFR(Integer value);
 
   /**
    * Returns the value of the '<em><b>START</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>START</em>' attribute.
-   * @see #setSTART(int)
+   * @see #setSTART(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCPARC_START()
    * @model
    * @generated
    */
-  int getSTART();
+  Integer getSTART();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCPARC#getSTART <em>START</em>}' attribute.
@@ -135,19 +135,19 @@ public interface GCPARC extends triplet
    * @see #getSTART()
    * @generated
    */
-  void setSTART(int value);
+  void setSTART(Integer value);
 
   /**
    * Returns the value of the '<em><b>SWEEP</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SWEEP</em>' attribute.
-   * @see #setSWEEP(int)
+   * @see #setSWEEP(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCPARC_SWEEP()
    * @model
    * @generated
    */
-  int getSWEEP();
+  Integer getSWEEP();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCPARC#getSWEEP <em>SWEEP</em>}' attribute.
@@ -157,6 +157,6 @@ public interface GCPARC extends triplet
    * @see #getSWEEP()
    * @generated
    */
-  void setSWEEP(int value);
+  void setSWEEP(Integer value);
 
 } // GCPARC

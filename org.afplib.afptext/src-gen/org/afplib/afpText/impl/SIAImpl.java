@@ -36,7 +36,7 @@ public class SIAImpl extends tripletImpl implements SIA
    * @generated
    * @ordered
    */
-  protected static final int ADJSTMNT_EDEFAULT = 0;
+  protected static final Integer ADJSTMNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getADJSTMNT() <em>ADJSTMNT</em>}' attribute.
@@ -46,7 +46,7 @@ public class SIAImpl extends tripletImpl implements SIA
    * @generated
    * @ordered
    */
-  protected int adjstmnt = ADJSTMNT_EDEFAULT;
+  protected Integer adjstmnt = ADJSTMNT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDIRCTION() <em>DIRCTION</em>}' attribute.
@@ -56,7 +56,7 @@ public class SIAImpl extends tripletImpl implements SIA
    * @generated
    * @ordered
    */
-  protected static final int DIRCTION_EDEFAULT = 0;
+  protected static final Integer DIRCTION_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDIRCTION() <em>DIRCTION</em>}' attribute.
@@ -66,7 +66,7 @@ public class SIAImpl extends tripletImpl implements SIA
    * @generated
    * @ordered
    */
-  protected int dirction = DIRCTION_EDEFAULT;
+  protected Integer dirction = DIRCTION_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class SIAImpl extends tripletImpl implements SIA
    * @generated
    */
   @Override
-  public int getADJSTMNT()
+  public Integer getADJSTMNT()
   {
     return adjstmnt;
   }
@@ -106,9 +106,9 @@ public class SIAImpl extends tripletImpl implements SIA
    * @generated
    */
   @Override
-  public void setADJSTMNT(int newADJSTMNT)
+  public void setADJSTMNT(Integer newADJSTMNT)
   {
-    int oldADJSTMNT = adjstmnt;
+    Integer oldADJSTMNT = adjstmnt;
     adjstmnt = newADJSTMNT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SIA__ADJSTMNT, oldADJSTMNT, adjstmnt));
@@ -120,7 +120,7 @@ public class SIAImpl extends tripletImpl implements SIA
    * @generated
    */
   @Override
-  public int getDIRCTION()
+  public Integer getDIRCTION()
   {
     return dirction;
   }
@@ -131,9 +131,9 @@ public class SIAImpl extends tripletImpl implements SIA
    * @generated
    */
   @Override
-  public void setDIRCTION(int newDIRCTION)
+  public void setDIRCTION(Integer newDIRCTION)
   {
-    int oldDIRCTION = dirction;
+    Integer oldDIRCTION = dirction;
     dirction = newDIRCTION;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SIA__DIRCTION, oldDIRCTION, dirction));
@@ -208,9 +208,9 @@ public class SIAImpl extends tripletImpl implements SIA
     switch (featureID)
     {
       case AfpTextPackage.SIA__ADJSTMNT:
-        return adjstmnt != ADJSTMNT_EDEFAULT;
+        return ADJSTMNT_EDEFAULT == null ? adjstmnt != null : !ADJSTMNT_EDEFAULT.equals(adjstmnt);
       case AfpTextPackage.SIA__DIRCTION:
-        return dirction != DIRCTION_EDEFAULT;
+        return DIRCTION_EDEFAULT == null ? dirction != null : !DIRCTION_EDEFAULT.equals(dirction);
     }
     return super.eIsSet(featureID);
   }

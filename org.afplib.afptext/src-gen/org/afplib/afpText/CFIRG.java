@@ -77,12 +77,12 @@ public interface CFIRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SV Size</em>' attribute.
-   * @see #setSVSize(int)
+   * @see #setSVSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCFIRG_SVSize()
    * @model
    * @generated
    */
-  int getSVSize();
+  Integer getSVSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CFIRG#getSVSize <em>SV Size</em>}' attribute.
@@ -92,19 +92,19 @@ public interface CFIRG extends EObject
    * @see #getSVSize()
    * @generated
    */
-  void setSVSize(int value);
+  void setSVSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>SH Scale</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SH Scale</em>' attribute.
-   * @see #setSHScale(int)
+   * @see #setSHScale(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCFIRG_SHScale()
    * @model
    * @generated
    */
-  int getSHScale();
+  Integer getSHScale();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CFIRG#getSHScale <em>SH Scale</em>}' attribute.
@@ -114,7 +114,7 @@ public interface CFIRG extends EObject
    * @see #getSHScale()
    * @generated
    */
-  void setSHScale(int value);
+  void setSHScale(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved</b></em>' attribute.
@@ -143,12 +143,12 @@ public interface CFIRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Section</em>' attribute.
-   * @see #setSection(int)
+   * @see #setSection(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCFIRG_Section()
    * @model
    * @generated
    */
-  int getSection();
+  Integer getSection();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CFIRG#getSection <em>Section</em>}' attribute.
@@ -158,6 +158,6 @@ public interface CFIRG extends EObject
    * @see #getSection()
    * @generated
    */
-  void setSection(int value);
+  void setSection(Integer value);
 
 } // CFIRG

@@ -28,12 +28,12 @@ public interface IOCAFunctionSetIdentification extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CATEGORY</em>' attribute.
-   * @see #setCATEGORY(int)
+   * @see #setCATEGORY(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOCAFunctionSetIdentification_CATEGORY()
    * @model
    * @generated
    */
-  int getCATEGORY();
+  Integer getCATEGORY();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOCAFunctionSetIdentification#getCATEGORY <em>CATEGORY</em>}' attribute.
@@ -43,19 +43,19 @@ public interface IOCAFunctionSetIdentification extends triplet
    * @see #getCATEGORY()
    * @generated
    */
-  void setCATEGORY(int value);
+  void setCATEGORY(Integer value);
 
   /**
    * Returns the value of the '<em><b>FCNSET</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FCNSET</em>' attribute.
-   * @see #setFCNSET(int)
+   * @see #setFCNSET(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOCAFunctionSetIdentification_FCNSET()
    * @model
    * @generated
    */
-  int getFCNSET();
+  Integer getFCNSET();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOCAFunctionSetIdentification#getFCNSET <em>FCNSET</em>}' attribute.
@@ -65,6 +65,6 @@ public interface IOCAFunctionSetIdentification extends triplet
    * @see #getFCNSET()
    * @generated
    */
-  void setFCNSET(int value);
+  void setFCNSET(Integer value);
 
 } // IOCAFunctionSetIdentification

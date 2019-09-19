@@ -33,12 +33,12 @@ public interface MetricAdjustment extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Unit Base</em>' attribute.
-   * @see #setUnitBase(int)
+   * @see #setUnitBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMetricAdjustment_UnitBase()
    * @model
    * @generated
    */
-  int getUnitBase();
+  Integer getUnitBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MetricAdjustment#getUnitBase <em>Unit Base</em>}' attribute.
@@ -48,19 +48,19 @@ public interface MetricAdjustment extends triplet
    * @see #getUnitBase()
    * @generated
    */
-  void setUnitBase(int value);
+  void setUnitBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>XUPUB</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XUPUB</em>' attribute.
-   * @see #setXUPUB(int)
+   * @see #setXUPUB(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMetricAdjustment_XUPUB()
    * @model
    * @generated
    */
-  int getXUPUB();
+  Integer getXUPUB();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MetricAdjustment#getXUPUB <em>XUPUB</em>}' attribute.
@@ -70,19 +70,19 @@ public interface MetricAdjustment extends triplet
    * @see #getXUPUB()
    * @generated
    */
-  void setXUPUB(int value);
+  void setXUPUB(Integer value);
 
   /**
    * Returns the value of the '<em><b>YUPUB</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YUPUB</em>' attribute.
-   * @see #setYUPUB(int)
+   * @see #setYUPUB(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMetricAdjustment_YUPUB()
    * @model
    * @generated
    */
-  int getYUPUB();
+  Integer getYUPUB();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MetricAdjustment#getYUPUB <em>YUPUB</em>}' attribute.
@@ -92,19 +92,19 @@ public interface MetricAdjustment extends triplet
    * @see #getYUPUB()
    * @generated
    */
-  void setYUPUB(int value);
+  void setYUPUB(Integer value);
 
   /**
    * Returns the value of the '<em><b>HUniform Increment</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HUniform Increment</em>' attribute.
-   * @see #setHUniformIncrement(int)
+   * @see #setHUniformIncrement(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMetricAdjustment_HUniformIncrement()
    * @model
    * @generated
    */
-  int getHUniformIncrement();
+  Integer getHUniformIncrement();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MetricAdjustment#getHUniformIncrement <em>HUniform Increment</em>}' attribute.
@@ -114,19 +114,19 @@ public interface MetricAdjustment extends triplet
    * @see #getHUniformIncrement()
    * @generated
    */
-  void setHUniformIncrement(int value);
+  void setHUniformIncrement(Integer value);
 
   /**
    * Returns the value of the '<em><b>VUniform Increment</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VUniform Increment</em>' attribute.
-   * @see #setVUniformIncrement(int)
+   * @see #setVUniformIncrement(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMetricAdjustment_VUniformIncrement()
    * @model
    * @generated
    */
-  int getVUniformIncrement();
+  Integer getVUniformIncrement();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MetricAdjustment#getVUniformIncrement <em>VUniform Increment</em>}' attribute.
@@ -136,19 +136,19 @@ public interface MetricAdjustment extends triplet
    * @see #getVUniformIncrement()
    * @generated
    */
-  void setVUniformIncrement(int value);
+  void setVUniformIncrement(Integer value);
 
   /**
    * Returns the value of the '<em><b>HBaseline Increment</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HBaseline Increment</em>' attribute.
-   * @see #setHBaselineIncrement(int)
+   * @see #setHBaselineIncrement(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMetricAdjustment_HBaselineIncrement()
    * @model
    * @generated
    */
-  int getHBaselineIncrement();
+  Integer getHBaselineIncrement();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MetricAdjustment#getHBaselineIncrement <em>HBaseline Increment</em>}' attribute.
@@ -158,19 +158,19 @@ public interface MetricAdjustment extends triplet
    * @see #getHBaselineIncrement()
    * @generated
    */
-  void setHBaselineIncrement(int value);
+  void setHBaselineIncrement(Integer value);
 
   /**
    * Returns the value of the '<em><b>VBaseline Increment</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VBaseline Increment</em>' attribute.
-   * @see #setVBaselineIncrement(int)
+   * @see #setVBaselineIncrement(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMetricAdjustment_VBaselineIncrement()
    * @model
    * @generated
    */
-  int getVBaselineIncrement();
+  Integer getVBaselineIncrement();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MetricAdjustment#getVBaselineIncrement <em>VBaseline Increment</em>}' attribute.
@@ -180,6 +180,6 @@ public interface MetricAdjustment extends triplet
    * @see #getVBaselineIncrement()
    * @generated
    */
-  void setVBaselineIncrement(int value);
+  void setVBaselineIncrement(Integer value);
 
 } // MetricAdjustment

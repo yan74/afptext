@@ -30,12 +30,12 @@ public interface GSCC extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CELLWI</em>' attribute.
-   * @see #setCELLWI(int)
+   * @see #setCELLWI(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSCC_CELLWI()
    * @model
    * @generated
    */
-  int getCELLWI();
+  Integer getCELLWI();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSCC#getCELLWI <em>CELLWI</em>}' attribute.
@@ -45,19 +45,19 @@ public interface GSCC extends triplet
    * @see #getCELLWI()
    * @generated
    */
-  void setCELLWI(int value);
+  void setCELLWI(Integer value);
 
   /**
    * Returns the value of the '<em><b>CELLHI</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CELLHI</em>' attribute.
-   * @see #setCELLHI(int)
+   * @see #setCELLHI(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSCC_CELLHI()
    * @model
    * @generated
    */
-  int getCELLHI();
+  Integer getCELLHI();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSCC#getCELLHI <em>CELLHI</em>}' attribute.
@@ -67,19 +67,19 @@ public interface GSCC extends triplet
    * @see #getCELLHI()
    * @generated
    */
-  void setCELLHI(int value);
+  void setCELLHI(Integer value);
 
   /**
    * Returns the value of the '<em><b>CELLWFR</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CELLWFR</em>' attribute.
-   * @see #setCELLWFR(int)
+   * @see #setCELLWFR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSCC_CELLWFR()
    * @model
    * @generated
    */
-  int getCELLWFR();
+  Integer getCELLWFR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSCC#getCELLWFR <em>CELLWFR</em>}' attribute.
@@ -89,19 +89,19 @@ public interface GSCC extends triplet
    * @see #getCELLWFR()
    * @generated
    */
-  void setCELLWFR(int value);
+  void setCELLWFR(Integer value);
 
   /**
    * Returns the value of the '<em><b>CELLHFR</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CELLHFR</em>' attribute.
-   * @see #setCELLHFR(int)
+   * @see #setCELLHFR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSCC_CELLHFR()
    * @model
    * @generated
    */
-  int getCELLHFR();
+  Integer getCELLHFR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSCC#getCELLHFR <em>CELLHFR</em>}' attribute.
@@ -111,6 +111,6 @@ public interface GSCC extends triplet
    * @see #getCELLHFR()
    * @generated
    */
-  void setCELLHFR(int value);
+  void setCELLHFR(Integer value);
 
 } // GSCC

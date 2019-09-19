@@ -28,12 +28,12 @@ public interface CGCSGID extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>GCSGID</em>' attribute.
-   * @see #setGCSGID(int)
+   * @see #setGCSGID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCGCSGID_GCSGID()
    * @model
    * @generated
    */
-  int getGCSGID();
+  Integer getGCSGID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CGCSGID#getGCSGID <em>GCSGID</em>}' attribute.
@@ -43,19 +43,19 @@ public interface CGCSGID extends triplet
    * @see #getGCSGID()
    * @generated
    */
-  void setGCSGID(int value);
+  void setGCSGID(Integer value);
 
   /**
    * Returns the value of the '<em><b>CPGID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CPGID</em>' attribute.
-   * @see #setCPGID(int)
+   * @see #setCPGID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCGCSGID_CPGID()
    * @model
    * @generated
    */
-  int getCPGID();
+  Integer getCPGID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CGCSGID#getCPGID <em>CPGID</em>}' attribute.
@@ -65,6 +65,6 @@ public interface CGCSGID extends triplet
    * @see #getCPGID()
    * @generated
    */
-  void setCPGID(int value);
+  void setCPGID(Integer value);
 
 } // CGCSGID

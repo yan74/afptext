@@ -40,7 +40,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected static final int XC_OSET_EDEFAULT = 0;
+  protected static final Integer XC_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXCOset() <em>XC Oset</em>}' attribute.
@@ -50,7 +50,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected int xcOset = XC_OSET_EDEFAULT;
+  protected Integer xcOset = XC_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYCOset() <em>YC Oset</em>}' attribute.
@@ -60,7 +60,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected static final int YC_OSET_EDEFAULT = 0;
+  protected static final Integer YC_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYCOset() <em>YC Oset</em>}' attribute.
@@ -70,7 +70,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected int ycOset = YC_OSET_EDEFAULT;
+  protected Integer ycOset = YC_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXCSize() <em>XC Size</em>}' attribute.
@@ -80,7 +80,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected static final int XC_SIZE_EDEFAULT = 0;
+  protected static final Integer XC_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXCSize() <em>XC Size</em>}' attribute.
@@ -90,7 +90,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected int xcSize = XC_SIZE_EDEFAULT;
+  protected Integer xcSize = XC_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYCSize() <em>YC Size</em>}' attribute.
@@ -100,7 +100,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected static final int YC_SIZE_EDEFAULT = 0;
+  protected static final Integer YC_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYCSize() <em>YC Size</em>}' attribute.
@@ -110,7 +110,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected int ycSize = YC_SIZE_EDEFAULT;
+  protected Integer ycSize = YC_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXFilSize() <em>XFil Size</em>}' attribute.
@@ -120,7 +120,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected static final int XFIL_SIZE_EDEFAULT = 0;
+  protected static final Integer XFIL_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXFilSize() <em>XFil Size</em>}' attribute.
@@ -130,7 +130,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected int xFilSize = XFIL_SIZE_EDEFAULT;
+  protected Integer xFilSize = XFIL_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYFilSize() <em>YFil Size</em>}' attribute.
@@ -140,7 +140,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected static final int YFIL_SIZE_EDEFAULT = 0;
+  protected static final Integer YFIL_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYFilSize() <em>YFil Size</em>}' attribute.
@@ -150,7 +150,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    * @ordered
    */
-  protected int yFilSize = YFIL_SIZE_EDEFAULT;
+  protected Integer yFilSize = YFIL_SIZE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -179,7 +179,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public int getXCOset()
+  public Integer getXCOset()
   {
     return xcOset;
   }
@@ -190,9 +190,9 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public void setXCOset(int newXCOset)
+  public void setXCOset(Integer newXCOset)
   {
-    int oldXCOset = xcOset;
+    Integer oldXCOset = xcOset;
     xcOset = newXCOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ICP__XC_OSET, oldXCOset, xcOset));
@@ -204,7 +204,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public int getYCOset()
+  public Integer getYCOset()
   {
     return ycOset;
   }
@@ -215,9 +215,9 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public void setYCOset(int newYCOset)
+  public void setYCOset(Integer newYCOset)
   {
-    int oldYCOset = ycOset;
+    Integer oldYCOset = ycOset;
     ycOset = newYCOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ICP__YC_OSET, oldYCOset, ycOset));
@@ -229,7 +229,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public int getXCSize()
+  public Integer getXCSize()
   {
     return xcSize;
   }
@@ -240,9 +240,9 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public void setXCSize(int newXCSize)
+  public void setXCSize(Integer newXCSize)
   {
-    int oldXCSize = xcSize;
+    Integer oldXCSize = xcSize;
     xcSize = newXCSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ICP__XC_SIZE, oldXCSize, xcSize));
@@ -254,7 +254,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public int getYCSize()
+  public Integer getYCSize()
   {
     return ycSize;
   }
@@ -265,9 +265,9 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public void setYCSize(int newYCSize)
+  public void setYCSize(Integer newYCSize)
   {
-    int oldYCSize = ycSize;
+    Integer oldYCSize = ycSize;
     ycSize = newYCSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ICP__YC_SIZE, oldYCSize, ycSize));
@@ -279,7 +279,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public int getXFilSize()
+  public Integer getXFilSize()
   {
     return xFilSize;
   }
@@ -290,9 +290,9 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public void setXFilSize(int newXFilSize)
+  public void setXFilSize(Integer newXFilSize)
   {
-    int oldXFilSize = xFilSize;
+    Integer oldXFilSize = xFilSize;
     xFilSize = newXFilSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ICP__XFIL_SIZE, oldXFilSize, xFilSize));
@@ -304,7 +304,7 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public int getYFilSize()
+  public Integer getYFilSize()
   {
     return yFilSize;
   }
@@ -315,9 +315,9 @@ public class ICPImpl extends structuredFieldImpl implements ICP
    * @generated
    */
   @Override
-  public void setYFilSize(int newYFilSize)
+  public void setYFilSize(Integer newYFilSize)
   {
-    int oldYFilSize = yFilSize;
+    Integer oldYFilSize = yFilSize;
     yFilSize = newYFilSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ICP__YFIL_SIZE, oldYFilSize, yFilSize));
@@ -424,17 +424,17 @@ public class ICPImpl extends structuredFieldImpl implements ICP
     switch (featureID)
     {
       case AfpTextPackage.ICP__XC_OSET:
-        return xcOset != XC_OSET_EDEFAULT;
+        return XC_OSET_EDEFAULT == null ? xcOset != null : !XC_OSET_EDEFAULT.equals(xcOset);
       case AfpTextPackage.ICP__YC_OSET:
-        return ycOset != YC_OSET_EDEFAULT;
+        return YC_OSET_EDEFAULT == null ? ycOset != null : !YC_OSET_EDEFAULT.equals(ycOset);
       case AfpTextPackage.ICP__XC_SIZE:
-        return xcSize != XC_SIZE_EDEFAULT;
+        return XC_SIZE_EDEFAULT == null ? xcSize != null : !XC_SIZE_EDEFAULT.equals(xcSize);
       case AfpTextPackage.ICP__YC_SIZE:
-        return ycSize != YC_SIZE_EDEFAULT;
+        return YC_SIZE_EDEFAULT == null ? ycSize != null : !YC_SIZE_EDEFAULT.equals(ycSize);
       case AfpTextPackage.ICP__XFIL_SIZE:
-        return xFilSize != XFIL_SIZE_EDEFAULT;
+        return XFIL_SIZE_EDEFAULT == null ? xFilSize != null : !XFIL_SIZE_EDEFAULT.equals(xFilSize);
       case AfpTextPackage.ICP__YFIL_SIZE:
-        return yFilSize != YFIL_SIZE_EDEFAULT;
+        return YFIL_SIZE_EDEFAULT == null ? yFilSize != null : !YFIL_SIZE_EDEFAULT.equals(yFilSize);
     }
     return super.eIsSet(featureID);
   }

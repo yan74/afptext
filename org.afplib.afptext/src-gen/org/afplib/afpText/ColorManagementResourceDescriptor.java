@@ -28,12 +28,12 @@ public interface ColorManagementResourceDescriptor extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Proc Mode</em>' attribute.
-   * @see #setProcMode(int)
+   * @see #setProcMode(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorManagementResourceDescriptor_ProcMode()
    * @model
    * @generated
    */
-  int getProcMode();
+  Integer getProcMode();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorManagementResourceDescriptor#getProcMode <em>Proc Mode</em>}' attribute.
@@ -43,19 +43,19 @@ public interface ColorManagementResourceDescriptor extends triplet
    * @see #getProcMode()
    * @generated
    */
-  void setProcMode(int value);
+  void setProcMode(Integer value);
 
   /**
    * Returns the value of the '<em><b>CMR Scpe</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CMR Scpe</em>' attribute.
-   * @see #setCMRScpe(int)
+   * @see #setCMRScpe(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorManagementResourceDescriptor_CMRScpe()
    * @model
    * @generated
    */
-  int getCMRScpe();
+  Integer getCMRScpe();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorManagementResourceDescriptor#getCMRScpe <em>CMR Scpe</em>}' attribute.
@@ -65,6 +65,6 @@ public interface ColorManagementResourceDescriptor extends triplet
    * @see #getCMRScpe()
    * @generated
    */
-  void setCMRScpe(int value);
+  void setCMRScpe(Integer value);
 
 } // ColorManagementResourceDescriptor

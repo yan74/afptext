@@ -36,7 +36,7 @@ public class PGP1Impl extends structuredFieldImpl implements PGP1
    * @generated
    * @ordered
    */
-  protected static final int XOSET_EDEFAULT = 0;
+  protected static final Integer XOSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXOset() <em>XOset</em>}' attribute.
@@ -46,7 +46,7 @@ public class PGP1Impl extends structuredFieldImpl implements PGP1
    * @generated
    * @ordered
    */
-  protected int xOset = XOSET_EDEFAULT;
+  protected Integer xOset = XOSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYOset() <em>YOset</em>}' attribute.
@@ -56,7 +56,7 @@ public class PGP1Impl extends structuredFieldImpl implements PGP1
    * @generated
    * @ordered
    */
-  protected static final int YOSET_EDEFAULT = 0;
+  protected static final Integer YOSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYOset() <em>YOset</em>}' attribute.
@@ -66,7 +66,7 @@ public class PGP1Impl extends structuredFieldImpl implements PGP1
    * @generated
    * @ordered
    */
-  protected int yOset = YOSET_EDEFAULT;
+  protected Integer yOset = YOSET_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class PGP1Impl extends structuredFieldImpl implements PGP1
    * @generated
    */
   @Override
-  public int getXOset()
+  public Integer getXOset()
   {
     return xOset;
   }
@@ -106,9 +106,9 @@ public class PGP1Impl extends structuredFieldImpl implements PGP1
    * @generated
    */
   @Override
-  public void setXOset(int newXOset)
+  public void setXOset(Integer newXOset)
   {
-    int oldXOset = xOset;
+    Integer oldXOset = xOset;
     xOset = newXOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGP1__XOSET, oldXOset, xOset));
@@ -120,7 +120,7 @@ public class PGP1Impl extends structuredFieldImpl implements PGP1
    * @generated
    */
   @Override
-  public int getYOset()
+  public Integer getYOset()
   {
     return yOset;
   }
@@ -131,9 +131,9 @@ public class PGP1Impl extends structuredFieldImpl implements PGP1
    * @generated
    */
   @Override
-  public void setYOset(int newYOset)
+  public void setYOset(Integer newYOset)
   {
-    int oldYOset = yOset;
+    Integer oldYOset = yOset;
     yOset = newYOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGP1__YOSET, oldYOset, yOset));
@@ -208,9 +208,9 @@ public class PGP1Impl extends structuredFieldImpl implements PGP1
     switch (featureID)
     {
       case AfpTextPackage.PGP1__XOSET:
-        return xOset != XOSET_EDEFAULT;
+        return XOSET_EDEFAULT == null ? xOset != null : !XOSET_EDEFAULT.equals(xOset);
       case AfpTextPackage.PGP1__YOSET:
-        return yOset != YOSET_EDEFAULT;
+        return YOSET_EDEFAULT == null ? yOset != null : !YOSET_EDEFAULT.equals(yOset);
     }
     return super.eIsSet(featureID);
   }

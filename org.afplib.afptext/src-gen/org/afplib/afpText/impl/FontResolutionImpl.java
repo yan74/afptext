@@ -37,7 +37,7 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    * @ordered
    */
-  protected static final int MET_TECH_EDEFAULT = 0;
+  protected static final Integer MET_TECH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMetTech() <em>Met Tech</em>}' attribute.
@@ -47,7 +47,7 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    * @ordered
    */
-  protected int metTech = MET_TECH_EDEFAULT;
+  protected Integer metTech = MET_TECH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRPuBase() <em>RPu Base</em>}' attribute.
@@ -57,7 +57,7 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    * @ordered
    */
-  protected static final int RPU_BASE_EDEFAULT = 0;
+  protected static final Integer RPU_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRPuBase() <em>RPu Base</em>}' attribute.
@@ -67,7 +67,7 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    * @ordered
    */
-  protected int rPuBase = RPU_BASE_EDEFAULT;
+  protected Integer rPuBase = RPU_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRPUnits() <em>RP Units</em>}' attribute.
@@ -77,7 +77,7 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    * @ordered
    */
-  protected static final int RP_UNITS_EDEFAULT = 0;
+  protected static final Integer RP_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRPUnits() <em>RP Units</em>}' attribute.
@@ -87,7 +87,7 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    * @ordered
    */
-  protected int rpUnits = RP_UNITS_EDEFAULT;
+  protected Integer rpUnits = RP_UNITS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    */
   @Override
-  public int getMetTech()
+  public Integer getMetTech()
   {
     return metTech;
   }
@@ -127,9 +127,9 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    */
   @Override
-  public void setMetTech(int newMetTech)
+  public void setMetTech(Integer newMetTech)
   {
-    int oldMetTech = metTech;
+    Integer oldMetTech = metTech;
     metTech = newMetTech;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_RESOLUTION__MET_TECH, oldMetTech, metTech));
@@ -141,7 +141,7 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    */
   @Override
-  public int getRPuBase()
+  public Integer getRPuBase()
   {
     return rPuBase;
   }
@@ -152,9 +152,9 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    */
   @Override
-  public void setRPuBase(int newRPuBase)
+  public void setRPuBase(Integer newRPuBase)
   {
-    int oldRPuBase = rPuBase;
+    Integer oldRPuBase = rPuBase;
     rPuBase = newRPuBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_RESOLUTION__RPU_BASE, oldRPuBase, rPuBase));
@@ -166,7 +166,7 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    */
   @Override
-  public int getRPUnits()
+  public Integer getRPUnits()
   {
     return rpUnits;
   }
@@ -177,9 +177,9 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
    * @generated
    */
   @Override
-  public void setRPUnits(int newRPUnits)
+  public void setRPUnits(Integer newRPUnits)
   {
-    int oldRPUnits = rpUnits;
+    Integer oldRPUnits = rpUnits;
     rpUnits = newRPUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_RESOLUTION__RP_UNITS, oldRPUnits, rpUnits));
@@ -262,11 +262,11 @@ public class FontResolutionImpl extends tripletImpl implements FontResolution
     switch (featureID)
     {
       case AfpTextPackage.FONT_RESOLUTION__MET_TECH:
-        return metTech != MET_TECH_EDEFAULT;
+        return MET_TECH_EDEFAULT == null ? metTech != null : !MET_TECH_EDEFAULT.equals(metTech);
       case AfpTextPackage.FONT_RESOLUTION__RPU_BASE:
-        return rPuBase != RPU_BASE_EDEFAULT;
+        return RPU_BASE_EDEFAULT == null ? rPuBase != null : !RPU_BASE_EDEFAULT.equals(rPuBase);
       case AfpTextPackage.FONT_RESOLUTION__RP_UNITS:
-        return rpUnits != RP_UNITS_EDEFAULT;
+        return RP_UNITS_EDEFAULT == null ? rpUnits != null : !RP_UNITS_EDEFAULT.equals(rpUnits);
     }
     return super.eIsSet(featureID);
   }

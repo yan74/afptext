@@ -28,12 +28,12 @@ public interface STC extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FRGCOLOR</em>' attribute.
-   * @see #setFRGCOLOR(int)
+   * @see #setFRGCOLOR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSTC_FRGCOLOR()
    * @model
    * @generated
    */
-  int getFRGCOLOR();
+  Integer getFRGCOLOR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.STC#getFRGCOLOR <em>FRGCOLOR</em>}' attribute.
@@ -43,19 +43,19 @@ public interface STC extends triplet
    * @see #getFRGCOLOR()
    * @generated
    */
-  void setFRGCOLOR(int value);
+  void setFRGCOLOR(Integer value);
 
   /**
    * Returns the value of the '<em><b>PRECSION</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PRECSION</em>' attribute.
-   * @see #setPRECSION(int)
+   * @see #setPRECSION(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSTC_PRECSION()
    * @model
    * @generated
    */
-  int getPRECSION();
+  Integer getPRECSION();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.STC#getPRECSION <em>PRECSION</em>}' attribute.
@@ -65,6 +65,6 @@ public interface STC extends triplet
    * @see #getPRECSION()
    * @generated
    */
-  void setPRECSION(int value);
+  void setPRECSION(Integer value);
 
 } // STC

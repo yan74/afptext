@@ -30,12 +30,12 @@ public interface MPS extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RG Length</em>' attribute.
-   * @see #setRGLength(int)
+   * @see #setRGLength(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMPS_RGLength()
    * @model
    * @generated
    */
-  int getRGLength();
+  Integer getRGLength();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MPS#getRGLength <em>RG Length</em>}' attribute.
@@ -45,7 +45,7 @@ public interface MPS extends structuredField
    * @see #getRGLength()
    * @generated
    */
-  void setRGLength(int value);
+  void setRGLength(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved</b></em>' attribute.

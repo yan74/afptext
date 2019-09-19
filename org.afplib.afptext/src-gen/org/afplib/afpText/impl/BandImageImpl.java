@@ -46,7 +46,7 @@ public class BandImageImpl extends tripletImpl implements BandImage
    * @generated
    * @ordered
    */
-  protected static final int BCOUNT_EDEFAULT = 0;
+  protected static final Integer BCOUNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBCOUNT() <em>BCOUNT</em>}' attribute.
@@ -56,7 +56,7 @@ public class BandImageImpl extends tripletImpl implements BandImage
    * @generated
    * @ordered
    */
-  protected int bcount = BCOUNT_EDEFAULT;
+  protected Integer bcount = BCOUNT_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
@@ -95,7 +95,7 @@ public class BandImageImpl extends tripletImpl implements BandImage
    * @generated
    */
   @Override
-  public int getBCOUNT()
+  public Integer getBCOUNT()
   {
     return bcount;
   }
@@ -106,9 +106,9 @@ public class BandImageImpl extends tripletImpl implements BandImage
    * @generated
    */
   @Override
-  public void setBCOUNT(int newBCOUNT)
+  public void setBCOUNT(Integer newBCOUNT)
   {
-    int oldBCOUNT = bcount;
+    Integer oldBCOUNT = bcount;
     bcount = newBCOUNT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BAND_IMAGE__BCOUNT, oldBCOUNT, bcount));
@@ -216,7 +216,7 @@ public class BandImageImpl extends tripletImpl implements BandImage
     switch (featureID)
     {
       case AfpTextPackage.BAND_IMAGE__BCOUNT:
-        return bcount != BCOUNT_EDEFAULT;
+        return BCOUNT_EDEFAULT == null ? bcount != null : !BCOUNT_EDEFAULT.equals(bcount);
       case AfpTextPackage.BAND_IMAGE__RG:
         return rg != null && !rg.isEmpty();
     }

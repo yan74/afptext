@@ -36,12 +36,12 @@ public interface TileSetColor extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CSPACE</em>' attribute.
-   * @see #setCSPACE(int)
+   * @see #setCSPACE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_CSPACE()
    * @model
    * @generated
    */
-  int getCSPACE();
+  Integer getCSPACE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getCSPACE <em>CSPACE</em>}' attribute.
@@ -51,19 +51,19 @@ public interface TileSetColor extends triplet
    * @see #getCSPACE()
    * @generated
    */
-  void setCSPACE(int value);
+  void setCSPACE(Integer value);
 
   /**
    * Returns the value of the '<em><b>RESERVED</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RESERVED</em>' attribute.
-   * @see #setRESERVED(int)
+   * @see #setRESERVED(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_RESERVED()
    * @model
    * @generated
    */
-  int getRESERVED();
+  Integer getRESERVED();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getRESERVED <em>RESERVED</em>}' attribute.
@@ -73,19 +73,19 @@ public interface TileSetColor extends triplet
    * @see #getRESERVED()
    * @generated
    */
-  void setRESERVED(int value);
+  void setRESERVED(Integer value);
 
   /**
    * Returns the value of the '<em><b>SIZE1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SIZE1</em>' attribute.
-   * @see #setSIZE1(int)
+   * @see #setSIZE1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_SIZE1()
    * @model
    * @generated
    */
-  int getSIZE1();
+  Integer getSIZE1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getSIZE1 <em>SIZE1</em>}' attribute.
@@ -95,19 +95,19 @@ public interface TileSetColor extends triplet
    * @see #getSIZE1()
    * @generated
    */
-  void setSIZE1(int value);
+  void setSIZE1(Integer value);
 
   /**
    * Returns the value of the '<em><b>SIZE2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SIZE2</em>' attribute.
-   * @see #setSIZE2(int)
+   * @see #setSIZE2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_SIZE2()
    * @model
    * @generated
    */
-  int getSIZE2();
+  Integer getSIZE2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getSIZE2 <em>SIZE2</em>}' attribute.
@@ -117,19 +117,19 @@ public interface TileSetColor extends triplet
    * @see #getSIZE2()
    * @generated
    */
-  void setSIZE2(int value);
+  void setSIZE2(Integer value);
 
   /**
    * Returns the value of the '<em><b>SIZE3</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SIZE3</em>' attribute.
-   * @see #setSIZE3(int)
+   * @see #setSIZE3(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_SIZE3()
    * @model
    * @generated
    */
-  int getSIZE3();
+  Integer getSIZE3();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getSIZE3 <em>SIZE3</em>}' attribute.
@@ -139,19 +139,19 @@ public interface TileSetColor extends triplet
    * @see #getSIZE3()
    * @generated
    */
-  void setSIZE3(int value);
+  void setSIZE3(Integer value);
 
   /**
    * Returns the value of the '<em><b>SIZE4</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SIZE4</em>' attribute.
-   * @see #setSIZE4(int)
+   * @see #setSIZE4(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_SIZE4()
    * @model
    * @generated
    */
-  int getSIZE4();
+  Integer getSIZE4();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getSIZE4 <em>SIZE4</em>}' attribute.
@@ -161,19 +161,19 @@ public interface TileSetColor extends triplet
    * @see #getSIZE4()
    * @generated
    */
-  void setSIZE4(int value);
+  void setSIZE4(Integer value);
 
   /**
    * Returns the value of the '<em><b>CVAL1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CVAL1</em>' attribute.
-   * @see #setCVAL1(int)
+   * @see #setCVAL1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_CVAL1()
    * @model
    * @generated
    */
-  int getCVAL1();
+  Integer getCVAL1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getCVAL1 <em>CVAL1</em>}' attribute.
@@ -183,19 +183,19 @@ public interface TileSetColor extends triplet
    * @see #getCVAL1()
    * @generated
    */
-  void setCVAL1(int value);
+  void setCVAL1(Integer value);
 
   /**
    * Returns the value of the '<em><b>CVAL2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CVAL2</em>' attribute.
-   * @see #setCVAL2(int)
+   * @see #setCVAL2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_CVAL2()
    * @model
    * @generated
    */
-  int getCVAL2();
+  Integer getCVAL2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getCVAL2 <em>CVAL2</em>}' attribute.
@@ -205,19 +205,19 @@ public interface TileSetColor extends triplet
    * @see #getCVAL2()
    * @generated
    */
-  void setCVAL2(int value);
+  void setCVAL2(Integer value);
 
   /**
    * Returns the value of the '<em><b>CVAL3</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CVAL3</em>' attribute.
-   * @see #setCVAL3(int)
+   * @see #setCVAL3(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_CVAL3()
    * @model
    * @generated
    */
-  int getCVAL3();
+  Integer getCVAL3();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getCVAL3 <em>CVAL3</em>}' attribute.
@@ -227,19 +227,19 @@ public interface TileSetColor extends triplet
    * @see #getCVAL3()
    * @generated
    */
-  void setCVAL3(int value);
+  void setCVAL3(Integer value);
 
   /**
    * Returns the value of the '<em><b>CVAL4</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CVAL4</em>' attribute.
-   * @see #setCVAL4(int)
+   * @see #setCVAL4(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTileSetColor_CVAL4()
    * @model
    * @generated
    */
-  int getCVAL4();
+  Integer getCVAL4();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TileSetColor#getCVAL4 <em>CVAL4</em>}' attribute.
@@ -249,6 +249,6 @@ public interface TileSetColor extends triplet
    * @see #getCVAL4()
    * @generated
    */
-  void setCVAL4(int value);
+  void setCVAL4(Integer value);
 
 } // TileSetColor

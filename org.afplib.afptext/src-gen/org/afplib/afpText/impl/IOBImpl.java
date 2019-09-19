@@ -74,7 +74,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected static final int OBJ_TYPE_EDEFAULT = 0;
+  protected static final Integer OBJ_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObjType() <em>Obj Type</em>}' attribute.
@@ -84,7 +84,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected int objType = OBJ_TYPE_EDEFAULT;
+  protected Integer objType = OBJ_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXoaOset() <em>Xoa Oset</em>}' attribute.
@@ -94,7 +94,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected static final int XOA_OSET_EDEFAULT = 0;
+  protected static final Integer XOA_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXoaOset() <em>Xoa Oset</em>}' attribute.
@@ -104,7 +104,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected int xoaOset = XOA_OSET_EDEFAULT;
+  protected Integer xoaOset = XOA_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYoaOset() <em>Yoa Oset</em>}' attribute.
@@ -114,7 +114,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected static final int YOA_OSET_EDEFAULT = 0;
+  protected static final Integer YOA_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYoaOset() <em>Yoa Oset</em>}' attribute.
@@ -124,7 +124,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected int yoaOset = YOA_OSET_EDEFAULT;
+  protected Integer yoaOset = YOA_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXoaOrent() <em>Xoa Orent</em>}' attribute.
@@ -134,7 +134,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected static final int XOA_ORENT_EDEFAULT = 0;
+  protected static final Integer XOA_ORENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXoaOrent() <em>Xoa Orent</em>}' attribute.
@@ -144,7 +144,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected int xoaOrent = XOA_ORENT_EDEFAULT;
+  protected Integer xoaOrent = XOA_ORENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYoaOrent() <em>Yoa Orent</em>}' attribute.
@@ -154,7 +154,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected static final int YOA_ORENT_EDEFAULT = 0;
+  protected static final Integer YOA_ORENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYoaOrent() <em>Yoa Orent</em>}' attribute.
@@ -164,7 +164,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected int yoaOrent = YOA_ORENT_EDEFAULT;
+  protected Integer yoaOrent = YOA_ORENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXocaOset() <em>Xoca Oset</em>}' attribute.
@@ -174,7 +174,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected static final int XOCA_OSET_EDEFAULT = 0;
+  protected static final Integer XOCA_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXocaOset() <em>Xoca Oset</em>}' attribute.
@@ -184,7 +184,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected int xocaOset = XOCA_OSET_EDEFAULT;
+  protected Integer xocaOset = XOCA_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYocaOset() <em>Yoca Oset</em>}' attribute.
@@ -194,7 +194,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected static final int YOCA_OSET_EDEFAULT = 0;
+  protected static final Integer YOCA_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYocaOset() <em>Yoca Oset</em>}' attribute.
@@ -204,7 +204,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected int yocaOset = YOCA_OSET_EDEFAULT;
+  protected Integer yocaOset = YOCA_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRefCSys() <em>Ref CSys</em>}' attribute.
@@ -214,7 +214,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected static final int REF_CSYS_EDEFAULT = 0;
+  protected static final Integer REF_CSYS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRefCSys() <em>Ref CSys</em>}' attribute.
@@ -224,7 +224,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    * @ordered
    */
-  protected int refCSys = REF_CSYS_EDEFAULT;
+  protected Integer refCSys = REF_CSYS_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -288,7 +288,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public int getObjType()
+  public Integer getObjType()
   {
     return objType;
   }
@@ -299,9 +299,9 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public void setObjType(int newObjType)
+  public void setObjType(Integer newObjType)
   {
-    int oldObjType = objType;
+    Integer oldObjType = objType;
     objType = newObjType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOB__OBJ_TYPE, oldObjType, objType));
@@ -313,7 +313,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public int getXoaOset()
+  public Integer getXoaOset()
   {
     return xoaOset;
   }
@@ -324,9 +324,9 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public void setXoaOset(int newXoaOset)
+  public void setXoaOset(Integer newXoaOset)
   {
-    int oldXoaOset = xoaOset;
+    Integer oldXoaOset = xoaOset;
     xoaOset = newXoaOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOB__XOA_OSET, oldXoaOset, xoaOset));
@@ -338,7 +338,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public int getYoaOset()
+  public Integer getYoaOset()
   {
     return yoaOset;
   }
@@ -349,9 +349,9 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public void setYoaOset(int newYoaOset)
+  public void setYoaOset(Integer newYoaOset)
   {
-    int oldYoaOset = yoaOset;
+    Integer oldYoaOset = yoaOset;
     yoaOset = newYoaOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOB__YOA_OSET, oldYoaOset, yoaOset));
@@ -363,7 +363,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public int getXoaOrent()
+  public Integer getXoaOrent()
   {
     return xoaOrent;
   }
@@ -374,9 +374,9 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public void setXoaOrent(int newXoaOrent)
+  public void setXoaOrent(Integer newXoaOrent)
   {
-    int oldXoaOrent = xoaOrent;
+    Integer oldXoaOrent = xoaOrent;
     xoaOrent = newXoaOrent;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOB__XOA_ORENT, oldXoaOrent, xoaOrent));
@@ -388,7 +388,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public int getYoaOrent()
+  public Integer getYoaOrent()
   {
     return yoaOrent;
   }
@@ -399,9 +399,9 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public void setYoaOrent(int newYoaOrent)
+  public void setYoaOrent(Integer newYoaOrent)
   {
-    int oldYoaOrent = yoaOrent;
+    Integer oldYoaOrent = yoaOrent;
     yoaOrent = newYoaOrent;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOB__YOA_ORENT, oldYoaOrent, yoaOrent));
@@ -413,7 +413,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public int getXocaOset()
+  public Integer getXocaOset()
   {
     return xocaOset;
   }
@@ -424,9 +424,9 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public void setXocaOset(int newXocaOset)
+  public void setXocaOset(Integer newXocaOset)
   {
-    int oldXocaOset = xocaOset;
+    Integer oldXocaOset = xocaOset;
     xocaOset = newXocaOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOB__XOCA_OSET, oldXocaOset, xocaOset));
@@ -438,7 +438,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public int getYocaOset()
+  public Integer getYocaOset()
   {
     return yocaOset;
   }
@@ -449,9 +449,9 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public void setYocaOset(int newYocaOset)
+  public void setYocaOset(Integer newYocaOset)
   {
-    int oldYocaOset = yocaOset;
+    Integer oldYocaOset = yocaOset;
     yocaOset = newYocaOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOB__YOCA_OSET, oldYocaOset, yocaOset));
@@ -463,7 +463,7 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public int getRefCSys()
+  public Integer getRefCSys()
   {
     return refCSys;
   }
@@ -474,9 +474,9 @@ public class IOBImpl extends structuredFieldImpl implements IOB
    * @generated
    */
   @Override
-  public void setRefCSys(int newRefCSys)
+  public void setRefCSys(Integer newRefCSys)
   {
-    int oldRefCSys = refCSys;
+    Integer oldRefCSys = refCSys;
     refCSys = newRefCSys;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOB__REF_CSYS, oldRefCSys, refCSys));
@@ -650,21 +650,21 @@ public class IOBImpl extends structuredFieldImpl implements IOB
       case AfpTextPackage.IOB__OBJ_NAME:
         return OBJ_NAME_EDEFAULT == null ? objName != null : !OBJ_NAME_EDEFAULT.equals(objName);
       case AfpTextPackage.IOB__OBJ_TYPE:
-        return objType != OBJ_TYPE_EDEFAULT;
+        return OBJ_TYPE_EDEFAULT == null ? objType != null : !OBJ_TYPE_EDEFAULT.equals(objType);
       case AfpTextPackage.IOB__XOA_OSET:
-        return xoaOset != XOA_OSET_EDEFAULT;
+        return XOA_OSET_EDEFAULT == null ? xoaOset != null : !XOA_OSET_EDEFAULT.equals(xoaOset);
       case AfpTextPackage.IOB__YOA_OSET:
-        return yoaOset != YOA_OSET_EDEFAULT;
+        return YOA_OSET_EDEFAULT == null ? yoaOset != null : !YOA_OSET_EDEFAULT.equals(yoaOset);
       case AfpTextPackage.IOB__XOA_ORENT:
-        return xoaOrent != XOA_ORENT_EDEFAULT;
+        return XOA_ORENT_EDEFAULT == null ? xoaOrent != null : !XOA_ORENT_EDEFAULT.equals(xoaOrent);
       case AfpTextPackage.IOB__YOA_ORENT:
-        return yoaOrent != YOA_ORENT_EDEFAULT;
+        return YOA_ORENT_EDEFAULT == null ? yoaOrent != null : !YOA_ORENT_EDEFAULT.equals(yoaOrent);
       case AfpTextPackage.IOB__XOCA_OSET:
-        return xocaOset != XOCA_OSET_EDEFAULT;
+        return XOCA_OSET_EDEFAULT == null ? xocaOset != null : !XOCA_OSET_EDEFAULT.equals(xocaOset);
       case AfpTextPackage.IOB__YOCA_OSET:
-        return yocaOset != YOCA_OSET_EDEFAULT;
+        return YOCA_OSET_EDEFAULT == null ? yocaOset != null : !YOCA_OSET_EDEFAULT.equals(yocaOset);
       case AfpTextPackage.IOB__REF_CSYS:
-        return refCSys != REF_CSYS_EDEFAULT;
+        return REF_CSYS_EDEFAULT == null ? refCSys != null : !REF_CSYS_EDEFAULT.equals(refCSys);
       case AfpTextPackage.IOB__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

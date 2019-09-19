@@ -40,7 +40,7 @@ public class LocaleSelectorImpl extends tripletImpl implements LocaleSelector
    * @generated
    * @ordered
    */
-  protected static final int LOC_FLGS_EDEFAULT = 0;
+  protected static final Integer LOC_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLocFlgs() <em>Loc Flgs</em>}' attribute.
@@ -50,7 +50,7 @@ public class LocaleSelectorImpl extends tripletImpl implements LocaleSelector
    * @generated
    * @ordered
    */
-  protected int locFlgs = LOC_FLGS_EDEFAULT;
+  protected Integer locFlgs = LOC_FLGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getLangCode() <em>Lang Code</em>}' attribute.
@@ -179,7 +179,7 @@ public class LocaleSelectorImpl extends tripletImpl implements LocaleSelector
    * @generated
    */
   @Override
-  public int getLocFlgs()
+  public Integer getLocFlgs()
   {
     return locFlgs;
   }
@@ -190,9 +190,9 @@ public class LocaleSelectorImpl extends tripletImpl implements LocaleSelector
    * @generated
    */
   @Override
-  public void setLocFlgs(int newLocFlgs)
+  public void setLocFlgs(Integer newLocFlgs)
   {
-    int oldLocFlgs = locFlgs;
+    Integer oldLocFlgs = locFlgs;
     locFlgs = newLocFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LOCALE_SELECTOR__LOC_FLGS, oldLocFlgs, locFlgs));
@@ -424,7 +424,7 @@ public class LocaleSelectorImpl extends tripletImpl implements LocaleSelector
     switch (featureID)
     {
       case AfpTextPackage.LOCALE_SELECTOR__LOC_FLGS:
-        return locFlgs != LOC_FLGS_EDEFAULT;
+        return LOC_FLGS_EDEFAULT == null ? locFlgs != null : !LOC_FLGS_EDEFAULT.equals(locFlgs);
       case AfpTextPackage.LOCALE_SELECTOR__LANG_CODE:
         return LANG_CODE_EDEFAULT == null ? langCode != null : !LANG_CODE_EDEFAULT.equals(langCode);
       case AfpTextPackage.LOCALE_SELECTOR__SCRPT_CDE:

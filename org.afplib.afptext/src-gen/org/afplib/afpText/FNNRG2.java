@@ -28,12 +28,12 @@ public interface FNNRG2 extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>TSID Len</em>' attribute.
-   * @see #setTSIDLen(int)
+   * @see #setTSIDLen(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNNRG2_TSIDLen()
    * @model
    * @generated
    */
-  int getTSIDLen();
+  Integer getTSIDLen();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNNRG2#getTSIDLen <em>TSID Len</em>}' attribute.
@@ -43,7 +43,7 @@ public interface FNNRG2 extends triplet
    * @see #getTSIDLen()
    * @generated
    */
-  void setTSIDLen(int value);
+  void setTSIDLen(Integer value);
 
   /**
    * Returns the value of the '<em><b>TSID</b></em>' attribute.

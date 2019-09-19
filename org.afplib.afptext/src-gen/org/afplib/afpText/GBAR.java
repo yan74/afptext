@@ -27,12 +27,12 @@ public interface GBAR extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FLAGS</em>' attribute.
-   * @see #setFLAGS(int)
+   * @see #setFLAGS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBAR_FLAGS()
    * @model
    * @generated
    */
-  int getFLAGS();
+  Integer getFLAGS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBAR#getFLAGS <em>FLAGS</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GBAR extends triplet
    * @see #getFLAGS()
    * @generated
    */
-  void setFLAGS(int value);
+  void setFLAGS(Integer value);
 
 } // GBAR

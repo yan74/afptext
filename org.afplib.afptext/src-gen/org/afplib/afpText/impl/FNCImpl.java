@@ -70,7 +70,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int RETIRED_EDEFAULT = 0;
+  protected static final Integer RETIRED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRetired() <em>Retired</em>}' attribute.
@@ -80,7 +80,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int retired = RETIRED_EDEFAULT;
+  protected Integer retired = RETIRED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPatTech() <em>Pat Tech</em>}' attribute.
@@ -90,7 +90,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int PAT_TECH_EDEFAULT = 0;
+  protected static final Integer PAT_TECH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPatTech() <em>Pat Tech</em>}' attribute.
@@ -100,7 +100,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int patTech = PAT_TECH_EDEFAULT;
+  protected Integer patTech = PAT_TECH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved1() <em>Reserved1</em>}' attribute.
@@ -130,7 +130,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int FNT_FLAGS_EDEFAULT = 0;
+  protected static final Integer FNT_FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFntFlags() <em>Fnt Flags</em>}' attribute.
@@ -140,7 +140,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int fntFlags = FNT_FLAGS_EDEFAULT;
+  protected Integer fntFlags = FNT_FLAGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXUnitBase() <em>XUnit Base</em>}' attribute.
@@ -150,7 +150,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int XUNIT_BASE_EDEFAULT = 0;
+  protected static final Integer XUNIT_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXUnitBase() <em>XUnit Base</em>}' attribute.
@@ -160,7 +160,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int xUnitBase = XUNIT_BASE_EDEFAULT;
+  protected Integer xUnitBase = XUNIT_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYUnitBase() <em>YUnit Base</em>}' attribute.
@@ -170,7 +170,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int YUNIT_BASE_EDEFAULT = 0;
+  protected static final Integer YUNIT_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYUnitBase() <em>YUnit Base</em>}' attribute.
@@ -180,7 +180,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int yUnitBase = YUNIT_BASE_EDEFAULT;
+  protected Integer yUnitBase = YUNIT_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXftUnits() <em>Xft Units</em>}' attribute.
@@ -190,7 +190,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int XFT_UNITS_EDEFAULT = 0;
+  protected static final Integer XFT_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXftUnits() <em>Xft Units</em>}' attribute.
@@ -200,7 +200,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int xftUnits = XFT_UNITS_EDEFAULT;
+  protected Integer xftUnits = XFT_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYftUnits() <em>Yft Units</em>}' attribute.
@@ -210,7 +210,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int YFT_UNITS_EDEFAULT = 0;
+  protected static final Integer YFT_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYftUnits() <em>Yft Units</em>}' attribute.
@@ -220,7 +220,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int yftUnits = YFT_UNITS_EDEFAULT;
+  protected Integer yftUnits = YFT_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMaxBoxWd() <em>Max Box Wd</em>}' attribute.
@@ -230,7 +230,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int MAX_BOX_WD_EDEFAULT = 0;
+  protected static final Integer MAX_BOX_WD_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMaxBoxWd() <em>Max Box Wd</em>}' attribute.
@@ -240,7 +240,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int maxBoxWd = MAX_BOX_WD_EDEFAULT;
+  protected Integer maxBoxWd = MAX_BOX_WD_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMaxBoxHt() <em>Max Box Ht</em>}' attribute.
@@ -250,7 +250,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int MAX_BOX_HT_EDEFAULT = 0;
+  protected static final Integer MAX_BOX_HT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMaxBoxHt() <em>Max Box Ht</em>}' attribute.
@@ -260,7 +260,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int maxBoxHt = MAX_BOX_HT_EDEFAULT;
+  protected Integer maxBoxHt = MAX_BOX_HT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFNORGLen() <em>FNORG Len</em>}' attribute.
@@ -270,7 +270,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int FNORG_LEN_EDEFAULT = 0;
+  protected static final Integer FNORG_LEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFNORGLen() <em>FNORG Len</em>}' attribute.
@@ -280,7 +280,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int fnorgLen = FNORG_LEN_EDEFAULT;
+  protected Integer fnorgLen = FNORG_LEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFNIRGLen() <em>FNIRG Len</em>}' attribute.
@@ -290,7 +290,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int FNIRG_LEN_EDEFAULT = 0;
+  protected static final Integer FNIRG_LEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFNIRGLen() <em>FNIRG Len</em>}' attribute.
@@ -300,7 +300,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int fnirgLen = FNIRG_LEN_EDEFAULT;
+  protected Integer fnirgLen = FNIRG_LEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPatAlign() <em>Pat Align</em>}' attribute.
@@ -310,7 +310,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int PAT_ALIGN_EDEFAULT = 0;
+  protected static final Integer PAT_ALIGN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPatAlign() <em>Pat Align</em>}' attribute.
@@ -320,7 +320,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int patAlign = PAT_ALIGN_EDEFAULT;
+  protected Integer patAlign = PAT_ALIGN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRPatDCnt() <em>RPat DCnt</em>}' attribute.
@@ -330,7 +330,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int RPAT_DCNT_EDEFAULT = 0;
+  protected static final Integer RPAT_DCNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRPatDCnt() <em>RPat DCnt</em>}' attribute.
@@ -340,7 +340,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int rPatDCnt = RPAT_DCNT_EDEFAULT;
+  protected Integer rPatDCnt = RPAT_DCNT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFNPRGLen() <em>FNPRG Len</em>}' attribute.
@@ -350,7 +350,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int FNPRG_LEN_EDEFAULT = 0;
+  protected static final Integer FNPRG_LEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFNPRGLen() <em>FNPRG Len</em>}' attribute.
@@ -360,7 +360,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int fnprgLen = FNPRG_LEN_EDEFAULT;
+  protected Integer fnprgLen = FNPRG_LEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFNMRGLen() <em>FNMRG Len</em>}' attribute.
@@ -370,7 +370,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int FNMRG_LEN_EDEFAULT = 0;
+  protected static final Integer FNMRG_LEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFNMRGLen() <em>FNMRG Len</em>}' attribute.
@@ -380,7 +380,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int fnmrgLen = FNMRG_LEN_EDEFAULT;
+  protected Integer fnmrgLen = FNMRG_LEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getResXUBase() <em>Res XU Base</em>}' attribute.
@@ -390,7 +390,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int RES_XU_BASE_EDEFAULT = 0;
+  protected static final Integer RES_XU_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getResXUBase() <em>Res XU Base</em>}' attribute.
@@ -400,7 +400,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int resXUBase = RES_XU_BASE_EDEFAULT;
+  protected Integer resXUBase = RES_XU_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getResYUBase() <em>Res YU Base</em>}' attribute.
@@ -410,7 +410,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int RES_YU_BASE_EDEFAULT = 0;
+  protected static final Integer RES_YU_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getResYUBase() <em>Res YU Base</em>}' attribute.
@@ -420,7 +420,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int resYUBase = RES_YU_BASE_EDEFAULT;
+  protected Integer resYUBase = RES_YU_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXfrUnits() <em>Xfr Units</em>}' attribute.
@@ -430,7 +430,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int XFR_UNITS_EDEFAULT = 0;
+  protected static final Integer XFR_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXfrUnits() <em>Xfr Units</em>}' attribute.
@@ -440,7 +440,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int xfrUnits = XFR_UNITS_EDEFAULT;
+  protected Integer xfrUnits = XFR_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYfrUnits() <em>Yfr Units</em>}' attribute.
@@ -450,7 +450,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int YFR_UNITS_EDEFAULT = 0;
+  protected static final Integer YFR_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYfrUnits() <em>Yfr Units</em>}' attribute.
@@ -460,7 +460,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int yfrUnits = YFR_UNITS_EDEFAULT;
+  protected Integer yfrUnits = YFR_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getOPatDCnt() <em>OPat DCnt</em>}' attribute.
@@ -470,7 +470,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int OPAT_DCNT_EDEFAULT = 0;
+  protected static final Integer OPAT_DCNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getOPatDCnt() <em>OPat DCnt</em>}' attribute.
@@ -480,7 +480,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int oPatDCnt = OPAT_DCNT_EDEFAULT;
+  protected Integer oPatDCnt = OPAT_DCNT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -510,7 +510,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int FNNRG_LEN_EDEFAULT = 0;
+  protected static final Integer FNNRG_LEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFNNRGLen() <em>FNNRG Len</em>}' attribute.
@@ -520,7 +520,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int fnnrgLen = FNNRG_LEN_EDEFAULT;
+  protected Integer fnnrgLen = FNNRG_LEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFNNDCnt() <em>FNND Cnt</em>}' attribute.
@@ -530,7 +530,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int FNND_CNT_EDEFAULT = 0;
+  protected static final Integer FNND_CNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFNNDCnt() <em>FNND Cnt</em>}' attribute.
@@ -540,7 +540,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int fnndCnt = FNND_CNT_EDEFAULT;
+  protected Integer fnndCnt = FNND_CNT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFNNMapCnt() <em>FNN Map Cnt</em>}' attribute.
@@ -550,7 +550,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected static final int FNN_MAP_CNT_EDEFAULT = 0;
+  protected static final Integer FNN_MAP_CNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFNNMapCnt() <em>FNN Map Cnt</em>}' attribute.
@@ -560,7 +560,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    * @ordered
    */
-  protected int fnnMapCnt = FNN_MAP_CNT_EDEFAULT;
+  protected Integer fnnMapCnt = FNN_MAP_CNT_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -599,7 +599,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getRetired()
+  public Integer getRetired()
   {
     return retired;
   }
@@ -610,9 +610,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setRetired(int newRetired)
+  public void setRetired(Integer newRetired)
   {
-    int oldRetired = retired;
+    Integer oldRetired = retired;
     retired = newRetired;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__RETIRED, oldRetired, retired));
@@ -624,7 +624,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getPatTech()
+  public Integer getPatTech()
   {
     return patTech;
   }
@@ -635,9 +635,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setPatTech(int newPatTech)
+  public void setPatTech(Integer newPatTech)
   {
-    int oldPatTech = patTech;
+    Integer oldPatTech = patTech;
     patTech = newPatTech;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__PAT_TECH, oldPatTech, patTech));
@@ -674,7 +674,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getFntFlags()
+  public Integer getFntFlags()
   {
     return fntFlags;
   }
@@ -685,9 +685,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setFntFlags(int newFntFlags)
+  public void setFntFlags(Integer newFntFlags)
   {
-    int oldFntFlags = fntFlags;
+    Integer oldFntFlags = fntFlags;
     fntFlags = newFntFlags;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__FNT_FLAGS, oldFntFlags, fntFlags));
@@ -699,7 +699,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getXUnitBase()
+  public Integer getXUnitBase()
   {
     return xUnitBase;
   }
@@ -710,9 +710,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setXUnitBase(int newXUnitBase)
+  public void setXUnitBase(Integer newXUnitBase)
   {
-    int oldXUnitBase = xUnitBase;
+    Integer oldXUnitBase = xUnitBase;
     xUnitBase = newXUnitBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__XUNIT_BASE, oldXUnitBase, xUnitBase));
@@ -724,7 +724,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getYUnitBase()
+  public Integer getYUnitBase()
   {
     return yUnitBase;
   }
@@ -735,9 +735,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setYUnitBase(int newYUnitBase)
+  public void setYUnitBase(Integer newYUnitBase)
   {
-    int oldYUnitBase = yUnitBase;
+    Integer oldYUnitBase = yUnitBase;
     yUnitBase = newYUnitBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__YUNIT_BASE, oldYUnitBase, yUnitBase));
@@ -749,7 +749,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getXftUnits()
+  public Integer getXftUnits()
   {
     return xftUnits;
   }
@@ -760,9 +760,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setXftUnits(int newXftUnits)
+  public void setXftUnits(Integer newXftUnits)
   {
-    int oldXftUnits = xftUnits;
+    Integer oldXftUnits = xftUnits;
     xftUnits = newXftUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__XFT_UNITS, oldXftUnits, xftUnits));
@@ -774,7 +774,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getYftUnits()
+  public Integer getYftUnits()
   {
     return yftUnits;
   }
@@ -785,9 +785,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setYftUnits(int newYftUnits)
+  public void setYftUnits(Integer newYftUnits)
   {
-    int oldYftUnits = yftUnits;
+    Integer oldYftUnits = yftUnits;
     yftUnits = newYftUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__YFT_UNITS, oldYftUnits, yftUnits));
@@ -799,7 +799,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getMaxBoxWd()
+  public Integer getMaxBoxWd()
   {
     return maxBoxWd;
   }
@@ -810,9 +810,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setMaxBoxWd(int newMaxBoxWd)
+  public void setMaxBoxWd(Integer newMaxBoxWd)
   {
-    int oldMaxBoxWd = maxBoxWd;
+    Integer oldMaxBoxWd = maxBoxWd;
     maxBoxWd = newMaxBoxWd;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__MAX_BOX_WD, oldMaxBoxWd, maxBoxWd));
@@ -824,7 +824,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getMaxBoxHt()
+  public Integer getMaxBoxHt()
   {
     return maxBoxHt;
   }
@@ -835,9 +835,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setMaxBoxHt(int newMaxBoxHt)
+  public void setMaxBoxHt(Integer newMaxBoxHt)
   {
-    int oldMaxBoxHt = maxBoxHt;
+    Integer oldMaxBoxHt = maxBoxHt;
     maxBoxHt = newMaxBoxHt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__MAX_BOX_HT, oldMaxBoxHt, maxBoxHt));
@@ -849,7 +849,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getFNORGLen()
+  public Integer getFNORGLen()
   {
     return fnorgLen;
   }
@@ -860,9 +860,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setFNORGLen(int newFNORGLen)
+  public void setFNORGLen(Integer newFNORGLen)
   {
-    int oldFNORGLen = fnorgLen;
+    Integer oldFNORGLen = fnorgLen;
     fnorgLen = newFNORGLen;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__FNORG_LEN, oldFNORGLen, fnorgLen));
@@ -874,7 +874,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getFNIRGLen()
+  public Integer getFNIRGLen()
   {
     return fnirgLen;
   }
@@ -885,9 +885,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setFNIRGLen(int newFNIRGLen)
+  public void setFNIRGLen(Integer newFNIRGLen)
   {
-    int oldFNIRGLen = fnirgLen;
+    Integer oldFNIRGLen = fnirgLen;
     fnirgLen = newFNIRGLen;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__FNIRG_LEN, oldFNIRGLen, fnirgLen));
@@ -899,7 +899,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getPatAlign()
+  public Integer getPatAlign()
   {
     return patAlign;
   }
@@ -910,9 +910,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setPatAlign(int newPatAlign)
+  public void setPatAlign(Integer newPatAlign)
   {
-    int oldPatAlign = patAlign;
+    Integer oldPatAlign = patAlign;
     patAlign = newPatAlign;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__PAT_ALIGN, oldPatAlign, patAlign));
@@ -924,7 +924,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getRPatDCnt()
+  public Integer getRPatDCnt()
   {
     return rPatDCnt;
   }
@@ -935,9 +935,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setRPatDCnt(int newRPatDCnt)
+  public void setRPatDCnt(Integer newRPatDCnt)
   {
-    int oldRPatDCnt = rPatDCnt;
+    Integer oldRPatDCnt = rPatDCnt;
     rPatDCnt = newRPatDCnt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__RPAT_DCNT, oldRPatDCnt, rPatDCnt));
@@ -949,7 +949,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getFNPRGLen()
+  public Integer getFNPRGLen()
   {
     return fnprgLen;
   }
@@ -960,9 +960,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setFNPRGLen(int newFNPRGLen)
+  public void setFNPRGLen(Integer newFNPRGLen)
   {
-    int oldFNPRGLen = fnprgLen;
+    Integer oldFNPRGLen = fnprgLen;
     fnprgLen = newFNPRGLen;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__FNPRG_LEN, oldFNPRGLen, fnprgLen));
@@ -974,7 +974,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getFNMRGLen()
+  public Integer getFNMRGLen()
   {
     return fnmrgLen;
   }
@@ -985,9 +985,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setFNMRGLen(int newFNMRGLen)
+  public void setFNMRGLen(Integer newFNMRGLen)
   {
-    int oldFNMRGLen = fnmrgLen;
+    Integer oldFNMRGLen = fnmrgLen;
     fnmrgLen = newFNMRGLen;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__FNMRG_LEN, oldFNMRGLen, fnmrgLen));
@@ -999,7 +999,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getResXUBase()
+  public Integer getResXUBase()
   {
     return resXUBase;
   }
@@ -1010,9 +1010,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setResXUBase(int newResXUBase)
+  public void setResXUBase(Integer newResXUBase)
   {
-    int oldResXUBase = resXUBase;
+    Integer oldResXUBase = resXUBase;
     resXUBase = newResXUBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__RES_XU_BASE, oldResXUBase, resXUBase));
@@ -1024,7 +1024,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getResYUBase()
+  public Integer getResYUBase()
   {
     return resYUBase;
   }
@@ -1035,9 +1035,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setResYUBase(int newResYUBase)
+  public void setResYUBase(Integer newResYUBase)
   {
-    int oldResYUBase = resYUBase;
+    Integer oldResYUBase = resYUBase;
     resYUBase = newResYUBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__RES_YU_BASE, oldResYUBase, resYUBase));
@@ -1049,7 +1049,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getXfrUnits()
+  public Integer getXfrUnits()
   {
     return xfrUnits;
   }
@@ -1060,9 +1060,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setXfrUnits(int newXfrUnits)
+  public void setXfrUnits(Integer newXfrUnits)
   {
-    int oldXfrUnits = xfrUnits;
+    Integer oldXfrUnits = xfrUnits;
     xfrUnits = newXfrUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__XFR_UNITS, oldXfrUnits, xfrUnits));
@@ -1074,7 +1074,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getYfrUnits()
+  public Integer getYfrUnits()
   {
     return yfrUnits;
   }
@@ -1085,9 +1085,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setYfrUnits(int newYfrUnits)
+  public void setYfrUnits(Integer newYfrUnits)
   {
-    int oldYfrUnits = yfrUnits;
+    Integer oldYfrUnits = yfrUnits;
     yfrUnits = newYfrUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__YFR_UNITS, oldYfrUnits, yfrUnits));
@@ -1099,7 +1099,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getOPatDCnt()
+  public Integer getOPatDCnt()
   {
     return oPatDCnt;
   }
@@ -1110,9 +1110,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setOPatDCnt(int newOPatDCnt)
+  public void setOPatDCnt(Integer newOPatDCnt)
   {
-    int oldOPatDCnt = oPatDCnt;
+    Integer oldOPatDCnt = oPatDCnt;
     oPatDCnt = newOPatDCnt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__OPAT_DCNT, oldOPatDCnt, oPatDCnt));
@@ -1149,7 +1149,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getFNNRGLen()
+  public Integer getFNNRGLen()
   {
     return fnnrgLen;
   }
@@ -1160,9 +1160,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setFNNRGLen(int newFNNRGLen)
+  public void setFNNRGLen(Integer newFNNRGLen)
   {
-    int oldFNNRGLen = fnnrgLen;
+    Integer oldFNNRGLen = fnnrgLen;
     fnnrgLen = newFNNRGLen;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__FNNRG_LEN, oldFNNRGLen, fnnrgLen));
@@ -1174,7 +1174,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getFNNDCnt()
+  public Integer getFNNDCnt()
   {
     return fnndCnt;
   }
@@ -1185,9 +1185,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setFNNDCnt(int newFNNDCnt)
+  public void setFNNDCnt(Integer newFNNDCnt)
   {
-    int oldFNNDCnt = fnndCnt;
+    Integer oldFNNDCnt = fnndCnt;
     fnndCnt = newFNNDCnt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__FNND_CNT, oldFNNDCnt, fnndCnt));
@@ -1199,7 +1199,7 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public int getFNNMapCnt()
+  public Integer getFNNMapCnt()
   {
     return fnnMapCnt;
   }
@@ -1210,9 +1210,9 @@ public class FNCImpl extends structuredFieldImpl implements FNC
    * @generated
    */
   @Override
-  public void setFNNMapCnt(int newFNNMapCnt)
+  public void setFNNMapCnt(Integer newFNNMapCnt)
   {
-    int oldFNNMapCnt = fnnMapCnt;
+    Integer oldFNNMapCnt = fnnMapCnt;
     fnnMapCnt = newFNNMapCnt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNC__FNN_MAP_CNT, oldFNNMapCnt, fnnMapCnt));
@@ -1512,55 +1512,55 @@ public class FNCImpl extends structuredFieldImpl implements FNC
     switch (featureID)
     {
       case AfpTextPackage.FNC__RETIRED:
-        return retired != RETIRED_EDEFAULT;
+        return RETIRED_EDEFAULT == null ? retired != null : !RETIRED_EDEFAULT.equals(retired);
       case AfpTextPackage.FNC__PAT_TECH:
-        return patTech != PAT_TECH_EDEFAULT;
+        return PAT_TECH_EDEFAULT == null ? patTech != null : !PAT_TECH_EDEFAULT.equals(patTech);
       case AfpTextPackage.FNC__RESERVED1:
         return RESERVED1_EDEFAULT == null ? reserved1 != null : !RESERVED1_EDEFAULT.equals(reserved1);
       case AfpTextPackage.FNC__FNT_FLAGS:
-        return fntFlags != FNT_FLAGS_EDEFAULT;
+        return FNT_FLAGS_EDEFAULT == null ? fntFlags != null : !FNT_FLAGS_EDEFAULT.equals(fntFlags);
       case AfpTextPackage.FNC__XUNIT_BASE:
-        return xUnitBase != XUNIT_BASE_EDEFAULT;
+        return XUNIT_BASE_EDEFAULT == null ? xUnitBase != null : !XUNIT_BASE_EDEFAULT.equals(xUnitBase);
       case AfpTextPackage.FNC__YUNIT_BASE:
-        return yUnitBase != YUNIT_BASE_EDEFAULT;
+        return YUNIT_BASE_EDEFAULT == null ? yUnitBase != null : !YUNIT_BASE_EDEFAULT.equals(yUnitBase);
       case AfpTextPackage.FNC__XFT_UNITS:
-        return xftUnits != XFT_UNITS_EDEFAULT;
+        return XFT_UNITS_EDEFAULT == null ? xftUnits != null : !XFT_UNITS_EDEFAULT.equals(xftUnits);
       case AfpTextPackage.FNC__YFT_UNITS:
-        return yftUnits != YFT_UNITS_EDEFAULT;
+        return YFT_UNITS_EDEFAULT == null ? yftUnits != null : !YFT_UNITS_EDEFAULT.equals(yftUnits);
       case AfpTextPackage.FNC__MAX_BOX_WD:
-        return maxBoxWd != MAX_BOX_WD_EDEFAULT;
+        return MAX_BOX_WD_EDEFAULT == null ? maxBoxWd != null : !MAX_BOX_WD_EDEFAULT.equals(maxBoxWd);
       case AfpTextPackage.FNC__MAX_BOX_HT:
-        return maxBoxHt != MAX_BOX_HT_EDEFAULT;
+        return MAX_BOX_HT_EDEFAULT == null ? maxBoxHt != null : !MAX_BOX_HT_EDEFAULT.equals(maxBoxHt);
       case AfpTextPackage.FNC__FNORG_LEN:
-        return fnorgLen != FNORG_LEN_EDEFAULT;
+        return FNORG_LEN_EDEFAULT == null ? fnorgLen != null : !FNORG_LEN_EDEFAULT.equals(fnorgLen);
       case AfpTextPackage.FNC__FNIRG_LEN:
-        return fnirgLen != FNIRG_LEN_EDEFAULT;
+        return FNIRG_LEN_EDEFAULT == null ? fnirgLen != null : !FNIRG_LEN_EDEFAULT.equals(fnirgLen);
       case AfpTextPackage.FNC__PAT_ALIGN:
-        return patAlign != PAT_ALIGN_EDEFAULT;
+        return PAT_ALIGN_EDEFAULT == null ? patAlign != null : !PAT_ALIGN_EDEFAULT.equals(patAlign);
       case AfpTextPackage.FNC__RPAT_DCNT:
-        return rPatDCnt != RPAT_DCNT_EDEFAULT;
+        return RPAT_DCNT_EDEFAULT == null ? rPatDCnt != null : !RPAT_DCNT_EDEFAULT.equals(rPatDCnt);
       case AfpTextPackage.FNC__FNPRG_LEN:
-        return fnprgLen != FNPRG_LEN_EDEFAULT;
+        return FNPRG_LEN_EDEFAULT == null ? fnprgLen != null : !FNPRG_LEN_EDEFAULT.equals(fnprgLen);
       case AfpTextPackage.FNC__FNMRG_LEN:
-        return fnmrgLen != FNMRG_LEN_EDEFAULT;
+        return FNMRG_LEN_EDEFAULT == null ? fnmrgLen != null : !FNMRG_LEN_EDEFAULT.equals(fnmrgLen);
       case AfpTextPackage.FNC__RES_XU_BASE:
-        return resXUBase != RES_XU_BASE_EDEFAULT;
+        return RES_XU_BASE_EDEFAULT == null ? resXUBase != null : !RES_XU_BASE_EDEFAULT.equals(resXUBase);
       case AfpTextPackage.FNC__RES_YU_BASE:
-        return resYUBase != RES_YU_BASE_EDEFAULT;
+        return RES_YU_BASE_EDEFAULT == null ? resYUBase != null : !RES_YU_BASE_EDEFAULT.equals(resYUBase);
       case AfpTextPackage.FNC__XFR_UNITS:
-        return xfrUnits != XFR_UNITS_EDEFAULT;
+        return XFR_UNITS_EDEFAULT == null ? xfrUnits != null : !XFR_UNITS_EDEFAULT.equals(xfrUnits);
       case AfpTextPackage.FNC__YFR_UNITS:
-        return yfrUnits != YFR_UNITS_EDEFAULT;
+        return YFR_UNITS_EDEFAULT == null ? yfrUnits != null : !YFR_UNITS_EDEFAULT.equals(yfrUnits);
       case AfpTextPackage.FNC__OPAT_DCNT:
-        return oPatDCnt != OPAT_DCNT_EDEFAULT;
+        return OPAT_DCNT_EDEFAULT == null ? oPatDCnt != null : !OPAT_DCNT_EDEFAULT.equals(oPatDCnt);
       case AfpTextPackage.FNC__RESERVED2:
         return RESERVED2_EDEFAULT == null ? reserved2 != null : !RESERVED2_EDEFAULT.equals(reserved2);
       case AfpTextPackage.FNC__FNNRG_LEN:
-        return fnnrgLen != FNNRG_LEN_EDEFAULT;
+        return FNNRG_LEN_EDEFAULT == null ? fnnrgLen != null : !FNNRG_LEN_EDEFAULT.equals(fnnrgLen);
       case AfpTextPackage.FNC__FNND_CNT:
-        return fnndCnt != FNND_CNT_EDEFAULT;
+        return FNND_CNT_EDEFAULT == null ? fnndCnt != null : !FNND_CNT_EDEFAULT.equals(fnndCnt);
       case AfpTextPackage.FNC__FNN_MAP_CNT:
-        return fnnMapCnt != FNN_MAP_CNT_EDEFAULT;
+        return FNN_MAP_CNT_EDEFAULT == null ? fnnMapCnt != null : !FNN_MAP_CNT_EDEFAULT.equals(fnnMapCnt);
       case AfpTextPackage.FNC__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

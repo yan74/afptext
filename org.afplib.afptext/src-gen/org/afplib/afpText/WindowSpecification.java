@@ -37,12 +37,12 @@ public interface WindowSpecification extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FLAGS</em>' attribute.
-   * @see #setFLAGS(int)
+   * @see #setFLAGS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_FLAGS()
    * @model
    * @generated
    */
-  int getFLAGS();
+  Integer getFLAGS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getFLAGS <em>FLAGS</em>}' attribute.
@@ -52,19 +52,19 @@ public interface WindowSpecification extends triplet
    * @see #getFLAGS()
    * @generated
    */
-  void setFLAGS(int value);
+  void setFLAGS(Integer value);
 
   /**
    * Returns the value of the '<em><b>RES3</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RES3</em>' attribute.
-   * @see #setRES3(int)
+   * @see #setRES3(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_RES3()
    * @model
    * @generated
    */
-  int getRES3();
+  Integer getRES3();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getRES3 <em>RES3</em>}' attribute.
@@ -74,19 +74,19 @@ public interface WindowSpecification extends triplet
    * @see #getRES3()
    * @generated
    */
-  void setRES3(int value);
+  void setRES3(Integer value);
 
   /**
    * Returns the value of the '<em><b>CFORMAT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CFORMAT</em>' attribute.
-   * @see #setCFORMAT(int)
+   * @see #setCFORMAT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_CFORMAT()
    * @model
    * @generated
    */
-  int getCFORMAT();
+  Integer getCFORMAT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getCFORMAT <em>CFORMAT</em>}' attribute.
@@ -96,19 +96,19 @@ public interface WindowSpecification extends triplet
    * @see #getCFORMAT()
    * @generated
    */
-  void setCFORMAT(int value);
+  void setCFORMAT(Integer value);
 
   /**
    * Returns the value of the '<em><b>UBASE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>UBASE</em>' attribute.
-   * @see #setUBASE(int)
+   * @see #setUBASE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_UBASE()
    * @model
    * @generated
    */
-  int getUBASE();
+  Integer getUBASE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getUBASE <em>UBASE</em>}' attribute.
@@ -118,19 +118,19 @@ public interface WindowSpecification extends triplet
    * @see #getUBASE()
    * @generated
    */
-  void setUBASE(int value);
+  void setUBASE(Integer value);
 
   /**
    * Returns the value of the '<em><b>XRESOL</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XRESOL</em>' attribute.
-   * @see #setXRESOL(int)
+   * @see #setXRESOL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_XRESOL()
    * @model
    * @generated
    */
-  int getXRESOL();
+  Integer getXRESOL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getXRESOL <em>XRESOL</em>}' attribute.
@@ -140,19 +140,19 @@ public interface WindowSpecification extends triplet
    * @see #getXRESOL()
    * @generated
    */
-  void setXRESOL(int value);
+  void setXRESOL(Integer value);
 
   /**
    * Returns the value of the '<em><b>YRESOL</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YRESOL</em>' attribute.
-   * @see #setYRESOL(int)
+   * @see #setYRESOL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_YRESOL()
    * @model
    * @generated
    */
-  int getYRESOL();
+  Integer getYRESOL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getYRESOL <em>YRESOL</em>}' attribute.
@@ -162,19 +162,19 @@ public interface WindowSpecification extends triplet
    * @see #getYRESOL()
    * @generated
    */
-  void setYRESOL(int value);
+  void setYRESOL(Integer value);
 
   /**
    * Returns the value of the '<em><b>IMGXYRES</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>IMGXYRES</em>' attribute.
-   * @see #setIMGXYRES(int)
+   * @see #setIMGXYRES(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_IMGXYRES()
    * @model
    * @generated
    */
-  int getIMGXYRES();
+  Integer getIMGXYRES();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getIMGXYRES <em>IMGXYRES</em>}' attribute.
@@ -184,19 +184,19 @@ public interface WindowSpecification extends triplet
    * @see #getIMGXYRES()
    * @generated
    */
-  void setIMGXYRES(int value);
+  void setIMGXYRES(Integer value);
 
   /**
    * Returns the value of the '<em><b>XLWIND</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XLWIND</em>' attribute.
-   * @see #setXLWIND(int)
+   * @see #setXLWIND(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_XLWIND()
    * @model
    * @generated
    */
-  int getXLWIND();
+  Integer getXLWIND();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getXLWIND <em>XLWIND</em>}' attribute.
@@ -206,19 +206,19 @@ public interface WindowSpecification extends triplet
    * @see #getXLWIND()
    * @generated
    */
-  void setXLWIND(int value);
+  void setXLWIND(Integer value);
 
   /**
    * Returns the value of the '<em><b>XRWIND</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XRWIND</em>' attribute.
-   * @see #setXRWIND(int)
+   * @see #setXRWIND(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_XRWIND()
    * @model
    * @generated
    */
-  int getXRWIND();
+  Integer getXRWIND();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getXRWIND <em>XRWIND</em>}' attribute.
@@ -228,19 +228,19 @@ public interface WindowSpecification extends triplet
    * @see #getXRWIND()
    * @generated
    */
-  void setXRWIND(int value);
+  void setXRWIND(Integer value);
 
   /**
    * Returns the value of the '<em><b>YBWIND</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YBWIND</em>' attribute.
-   * @see #setYBWIND(int)
+   * @see #setYBWIND(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_YBWIND()
    * @model
    * @generated
    */
-  int getYBWIND();
+  Integer getYBWIND();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getYBWIND <em>YBWIND</em>}' attribute.
@@ -250,19 +250,19 @@ public interface WindowSpecification extends triplet
    * @see #getYBWIND()
    * @generated
    */
-  void setYBWIND(int value);
+  void setYBWIND(Integer value);
 
   /**
    * Returns the value of the '<em><b>YTWIND</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YTWIND</em>' attribute.
-   * @see #setYTWIND(int)
+   * @see #setYTWIND(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getWindowSpecification_YTWIND()
    * @model
    * @generated
    */
-  int getYTWIND();
+  Integer getYTWIND();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.WindowSpecification#getYTWIND <em>YTWIND</em>}' attribute.
@@ -272,6 +272,6 @@ public interface WindowSpecification extends triplet
    * @see #getYTWIND()
    * @generated
    */
-  void setYTWIND(int value);
+  void setYTWIND(Integer value);
 
 } // WindowSpecification

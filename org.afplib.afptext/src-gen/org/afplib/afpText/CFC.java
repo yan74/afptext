@@ -30,12 +30,12 @@ public interface CFC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CFIRG Len</em>' attribute.
-   * @see #setCFIRGLen(int)
+   * @see #setCFIRGLen(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCFC_CFIRGLen()
    * @model
    * @generated
    */
-  int getCFIRGLen();
+  Integer getCFIRGLen();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CFC#getCFIRGLen <em>CFIRG Len</em>}' attribute.
@@ -45,19 +45,19 @@ public interface CFC extends structuredField
    * @see #getCFIRGLen()
    * @generated
    */
-  void setCFIRGLen(int value);
+  void setCFIRGLen(Integer value);
 
   /**
    * Returns the value of the '<em><b>Retired1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Retired1</em>' attribute.
-   * @see #setRetired1(int)
+   * @see #setRetired1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCFC_Retired1()
    * @model
    * @generated
    */
-  int getRetired1();
+  Integer getRetired1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CFC#getRetired1 <em>Retired1</em>}' attribute.
@@ -67,7 +67,7 @@ public interface CFC extends structuredField
    * @see #getRetired1()
    * @generated
    */
-  void setRetired1(int value);
+  void setRetired1(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

@@ -36,7 +36,7 @@ public class ColorManagementResourceDescriptorImpl extends tripletImpl implement
    * @generated
    * @ordered
    */
-  protected static final int PROC_MODE_EDEFAULT = 0;
+  protected static final Integer PROC_MODE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getProcMode() <em>Proc Mode</em>}' attribute.
@@ -46,7 +46,7 @@ public class ColorManagementResourceDescriptorImpl extends tripletImpl implement
    * @generated
    * @ordered
    */
-  protected int procMode = PROC_MODE_EDEFAULT;
+  protected Integer procMode = PROC_MODE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCMRScpe() <em>CMR Scpe</em>}' attribute.
@@ -56,7 +56,7 @@ public class ColorManagementResourceDescriptorImpl extends tripletImpl implement
    * @generated
    * @ordered
    */
-  protected static final int CMR_SCPE_EDEFAULT = 0;
+  protected static final Integer CMR_SCPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCMRScpe() <em>CMR Scpe</em>}' attribute.
@@ -66,7 +66,7 @@ public class ColorManagementResourceDescriptorImpl extends tripletImpl implement
    * @generated
    * @ordered
    */
-  protected int cmrScpe = CMR_SCPE_EDEFAULT;
+  protected Integer cmrScpe = CMR_SCPE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class ColorManagementResourceDescriptorImpl extends tripletImpl implement
    * @generated
    */
   @Override
-  public int getProcMode()
+  public Integer getProcMode()
   {
     return procMode;
   }
@@ -106,9 +106,9 @@ public class ColorManagementResourceDescriptorImpl extends tripletImpl implement
    * @generated
    */
   @Override
-  public void setProcMode(int newProcMode)
+  public void setProcMode(Integer newProcMode)
   {
-    int oldProcMode = procMode;
+    Integer oldProcMode = procMode;
     procMode = newProcMode;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_MANAGEMENT_RESOURCE_DESCRIPTOR__PROC_MODE, oldProcMode, procMode));
@@ -120,7 +120,7 @@ public class ColorManagementResourceDescriptorImpl extends tripletImpl implement
    * @generated
    */
   @Override
-  public int getCMRScpe()
+  public Integer getCMRScpe()
   {
     return cmrScpe;
   }
@@ -131,9 +131,9 @@ public class ColorManagementResourceDescriptorImpl extends tripletImpl implement
    * @generated
    */
   @Override
-  public void setCMRScpe(int newCMRScpe)
+  public void setCMRScpe(Integer newCMRScpe)
   {
-    int oldCMRScpe = cmrScpe;
+    Integer oldCMRScpe = cmrScpe;
     cmrScpe = newCMRScpe;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_MANAGEMENT_RESOURCE_DESCRIPTOR__CMR_SCPE, oldCMRScpe, cmrScpe));
@@ -208,9 +208,9 @@ public class ColorManagementResourceDescriptorImpl extends tripletImpl implement
     switch (featureID)
     {
       case AfpTextPackage.COLOR_MANAGEMENT_RESOURCE_DESCRIPTOR__PROC_MODE:
-        return procMode != PROC_MODE_EDEFAULT;
+        return PROC_MODE_EDEFAULT == null ? procMode != null : !PROC_MODE_EDEFAULT.equals(procMode);
       case AfpTextPackage.COLOR_MANAGEMENT_RESOURCE_DESCRIPTOR__CMR_SCPE:
-        return cmrScpe != CMR_SCPE_EDEFAULT;
+        return CMR_SCPE_EDEFAULT == null ? cmrScpe != null : !CMR_SCPE_EDEFAULT.equals(cmrScpe);
     }
     return super.eIsSet(featureID);
   }

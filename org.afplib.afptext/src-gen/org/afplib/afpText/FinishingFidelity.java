@@ -28,12 +28,12 @@ public interface FinishingFidelity extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Stp Fin Ex</em>' attribute.
-   * @see #setStpFinEx(int)
+   * @see #setStpFinEx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFinishingFidelity_StpFinEx()
    * @model
    * @generated
    */
-  int getStpFinEx();
+  Integer getStpFinEx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FinishingFidelity#getStpFinEx <em>Stp Fin Ex</em>}' attribute.
@@ -43,19 +43,19 @@ public interface FinishingFidelity extends triplet
    * @see #getStpFinEx()
    * @generated
    */
-  void setStpFinEx(int value);
+  void setStpFinEx(Integer value);
 
   /**
    * Returns the value of the '<em><b>Rep Fin Ex</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Rep Fin Ex</em>' attribute.
-   * @see #setRepFinEx(int)
+   * @see #setRepFinEx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFinishingFidelity_RepFinEx()
    * @model
    * @generated
    */
-  int getRepFinEx();
+  Integer getRepFinEx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FinishingFidelity#getRepFinEx <em>Rep Fin Ex</em>}' attribute.
@@ -65,6 +65,6 @@ public interface FinishingFidelity extends triplet
    * @see #getRepFinEx()
    * @generated
    */
-  void setRepFinEx(int value);
+  void setRepFinEx(Integer value);
 
 } // FinishingFidelity

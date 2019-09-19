@@ -35,7 +35,7 @@ public class PresentationSpaceResetMixingImpl extends tripletImpl implements Pre
    * @generated
    * @ordered
    */
-  protected static final int BG_MX_FLAG_EDEFAULT = 0;
+  protected static final Integer BG_MX_FLAG_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBgMxFlag() <em>Bg Mx Flag</em>}' attribute.
@@ -45,7 +45,7 @@ public class PresentationSpaceResetMixingImpl extends tripletImpl implements Pre
    * @generated
    * @ordered
    */
-  protected int bgMxFlag = BG_MX_FLAG_EDEFAULT;
+  protected Integer bgMxFlag = BG_MX_FLAG_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class PresentationSpaceResetMixingImpl extends tripletImpl implements Pre
    * @generated
    */
   @Override
-  public int getBgMxFlag()
+  public Integer getBgMxFlag()
   {
     return bgMxFlag;
   }
@@ -85,9 +85,9 @@ public class PresentationSpaceResetMixingImpl extends tripletImpl implements Pre
    * @generated
    */
   @Override
-  public void setBgMxFlag(int newBgMxFlag)
+  public void setBgMxFlag(Integer newBgMxFlag)
   {
-    int oldBgMxFlag = bgMxFlag;
+    Integer oldBgMxFlag = bgMxFlag;
     bgMxFlag = newBgMxFlag;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PRESENTATION_SPACE_RESET_MIXING__BG_MX_FLAG, oldBgMxFlag, bgMxFlag));
@@ -154,7 +154,7 @@ public class PresentationSpaceResetMixingImpl extends tripletImpl implements Pre
     switch (featureID)
     {
       case AfpTextPackage.PRESENTATION_SPACE_RESET_MIXING__BG_MX_FLAG:
-        return bgMxFlag != BG_MX_FLAG_EDEFAULT;
+        return BG_MX_FLAG_EDEFAULT == null ? bgMxFlag != null : !BG_MX_FLAG_EDEFAULT.equals(bgMxFlag);
     }
     return super.eIsSet(featureID);
   }

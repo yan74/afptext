@@ -40,7 +40,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -50,7 +50,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getIOCARI() <em>IOCARI</em>}' attribute.
@@ -60,7 +60,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected static final int IOCARI_EDEFAULT = 0;
+  protected static final Integer IOCARI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getIOCARI() <em>IOCARI</em>}' attribute.
@@ -70,7 +70,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected int iocari = IOCARI_EDEFAULT;
+  protected Integer iocari = IOCARI_EDEFAULT;
 
   /**
    * The default value of the '{@link #getOCRI() <em>OCRI</em>}' attribute.
@@ -80,7 +80,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected static final int OCRI_EDEFAULT = 0;
+  protected static final Integer OCRI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getOCRI() <em>OCRI</em>}' attribute.
@@ -90,7 +90,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected int ocri = OCRI_EDEFAULT;
+  protected Integer ocri = OCRI_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPTOCRI() <em>PTOCRI</em>}' attribute.
@@ -100,7 +100,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected static final int PTOCRI_EDEFAULT = 0;
+  protected static final Integer PTOCRI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPTOCRI() <em>PTOCRI</em>}' attribute.
@@ -110,7 +110,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected int ptocri = PTOCRI_EDEFAULT;
+  protected Integer ptocri = PTOCRI_EDEFAULT;
 
   /**
    * The default value of the '{@link #getGOCARI() <em>GOCARI</em>}' attribute.
@@ -120,7 +120,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected static final int GOCARI_EDEFAULT = 0;
+  protected static final Integer GOCARI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getGOCARI() <em>GOCARI</em>}' attribute.
@@ -130,7 +130,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected int gocari = GOCARI_EDEFAULT;
+  protected Integer gocari = GOCARI_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -140,7 +140,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected static final int RESERVED2_EDEFAULT = 0;
+  protected static final Integer RESERVED2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -150,7 +150,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    * @ordered
    */
-  protected int reserved2 = RESERVED2_EDEFAULT;
+  protected Integer reserved2 = RESERVED2_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -179,7 +179,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -190,9 +190,9 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RENDERING_INTENT__RESERVED, oldReserved, reserved));
@@ -204,7 +204,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public int getIOCARI()
+  public Integer getIOCARI()
   {
     return iocari;
   }
@@ -215,9 +215,9 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public void setIOCARI(int newIOCARI)
+  public void setIOCARI(Integer newIOCARI)
   {
-    int oldIOCARI = iocari;
+    Integer oldIOCARI = iocari;
     iocari = newIOCARI;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RENDERING_INTENT__IOCARI, oldIOCARI, iocari));
@@ -229,7 +229,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public int getOCRI()
+  public Integer getOCRI()
   {
     return ocri;
   }
@@ -240,9 +240,9 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public void setOCRI(int newOCRI)
+  public void setOCRI(Integer newOCRI)
   {
-    int oldOCRI = ocri;
+    Integer oldOCRI = ocri;
     ocri = newOCRI;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RENDERING_INTENT__OCRI, oldOCRI, ocri));
@@ -254,7 +254,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public int getPTOCRI()
+  public Integer getPTOCRI()
   {
     return ptocri;
   }
@@ -265,9 +265,9 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public void setPTOCRI(int newPTOCRI)
+  public void setPTOCRI(Integer newPTOCRI)
   {
-    int oldPTOCRI = ptocri;
+    Integer oldPTOCRI = ptocri;
     ptocri = newPTOCRI;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RENDERING_INTENT__PTOCRI, oldPTOCRI, ptocri));
@@ -279,7 +279,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public int getGOCARI()
+  public Integer getGOCARI()
   {
     return gocari;
   }
@@ -290,9 +290,9 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public void setGOCARI(int newGOCARI)
+  public void setGOCARI(Integer newGOCARI)
   {
-    int oldGOCARI = gocari;
+    Integer oldGOCARI = gocari;
     gocari = newGOCARI;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RENDERING_INTENT__GOCARI, oldGOCARI, gocari));
@@ -304,7 +304,7 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public int getReserved2()
+  public Integer getReserved2()
   {
     return reserved2;
   }
@@ -315,9 +315,9 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
    * @generated
    */
   @Override
-  public void setReserved2(int newReserved2)
+  public void setReserved2(Integer newReserved2)
   {
-    int oldReserved2 = reserved2;
+    Integer oldReserved2 = reserved2;
     reserved2 = newReserved2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RENDERING_INTENT__RESERVED2, oldReserved2, reserved2));
@@ -424,17 +424,17 @@ public class RenderingIntentImpl extends tripletImpl implements RenderingIntent
     switch (featureID)
     {
       case AfpTextPackage.RENDERING_INTENT__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.RENDERING_INTENT__IOCARI:
-        return iocari != IOCARI_EDEFAULT;
+        return IOCARI_EDEFAULT == null ? iocari != null : !IOCARI_EDEFAULT.equals(iocari);
       case AfpTextPackage.RENDERING_INTENT__OCRI:
-        return ocri != OCRI_EDEFAULT;
+        return OCRI_EDEFAULT == null ? ocri != null : !OCRI_EDEFAULT.equals(ocri);
       case AfpTextPackage.RENDERING_INTENT__PTOCRI:
-        return ptocri != PTOCRI_EDEFAULT;
+        return PTOCRI_EDEFAULT == null ? ptocri != null : !PTOCRI_EDEFAULT.equals(ptocri);
       case AfpTextPackage.RENDERING_INTENT__GOCARI:
-        return gocari != GOCARI_EDEFAULT;
+        return GOCARI_EDEFAULT == null ? gocari != null : !GOCARI_EDEFAULT.equals(gocari);
       case AfpTextPackage.RENDERING_INTENT__RESERVED2:
-        return reserved2 != RESERVED2_EDEFAULT;
+        return RESERVED2_EDEFAULT == null ? reserved2 != null : !RESERVED2_EDEFAULT.equals(reserved2);
     }
     return super.eIsSet(featureID);
   }

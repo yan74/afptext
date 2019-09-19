@@ -32,12 +32,12 @@ public interface BeginSegmentCommand extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LENGTH</em>' attribute.
-   * @see #setLENGTH(int)
+   * @see #setLENGTH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBeginSegmentCommand_LENGTH()
    * @model
    * @generated
    */
-  int getLENGTH();
+  Integer getLENGTH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BeginSegmentCommand#getLENGTH <em>LENGTH</em>}' attribute.
@@ -47,19 +47,19 @@ public interface BeginSegmentCommand extends triplet
    * @see #getLENGTH()
    * @generated
    */
-  void setLENGTH(int value);
+  void setLENGTH(Integer value);
 
   /**
    * Returns the value of the '<em><b>NAME</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>NAME</em>' attribute.
-   * @see #setNAME(int)
+   * @see #setNAME(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBeginSegmentCommand_NAME()
    * @model
    * @generated
    */
-  int getNAME();
+  Integer getNAME();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BeginSegmentCommand#getNAME <em>NAME</em>}' attribute.
@@ -69,19 +69,19 @@ public interface BeginSegmentCommand extends triplet
    * @see #getNAME()
    * @generated
    */
-  void setNAME(int value);
+  void setNAME(Integer value);
 
   /**
    * Returns the value of the '<em><b>FLAG1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FLAG1</em>' attribute.
-   * @see #setFLAG1(int)
+   * @see #setFLAG1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBeginSegmentCommand_FLAG1()
    * @model
    * @generated
    */
-  int getFLAG1();
+  Integer getFLAG1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BeginSegmentCommand#getFLAG1 <em>FLAG1</em>}' attribute.
@@ -91,19 +91,19 @@ public interface BeginSegmentCommand extends triplet
    * @see #getFLAG1()
    * @generated
    */
-  void setFLAG1(int value);
+  void setFLAG1(Integer value);
 
   /**
    * Returns the value of the '<em><b>FLAG2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FLAG2</em>' attribute.
-   * @see #setFLAG2(int)
+   * @see #setFLAG2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBeginSegmentCommand_FLAG2()
    * @model
    * @generated
    */
-  int getFLAG2();
+  Integer getFLAG2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BeginSegmentCommand#getFLAG2 <em>FLAG2</em>}' attribute.
@@ -113,19 +113,19 @@ public interface BeginSegmentCommand extends triplet
    * @see #getFLAG2()
    * @generated
    */
-  void setFLAG2(int value);
+  void setFLAG2(Integer value);
 
   /**
    * Returns the value of the '<em><b>SEGL</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SEGL</em>' attribute.
-   * @see #setSEGL(int)
+   * @see #setSEGL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBeginSegmentCommand_SEGL()
    * @model
    * @generated
    */
-  int getSEGL();
+  Integer getSEGL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BeginSegmentCommand#getSEGL <em>SEGL</em>}' attribute.
@@ -135,7 +135,7 @@ public interface BeginSegmentCommand extends triplet
    * @see #getSEGL()
    * @generated
    */
-  void setSEGL(int value);
+  void setSEGL(Integer value);
 
   /**
    * Returns the value of the '<em><b>PSNAME</b></em>' attribute.

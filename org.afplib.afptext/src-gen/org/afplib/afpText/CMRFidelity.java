@@ -28,12 +28,12 @@ public interface CMRFidelity extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Stp CMR Ex</em>' attribute.
-   * @see #setStpCMREx(int)
+   * @see #setStpCMREx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCMRFidelity_StpCMREx()
    * @model
    * @generated
    */
-  int getStpCMREx();
+  Integer getStpCMREx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CMRFidelity#getStpCMREx <em>Stp CMR Ex</em>}' attribute.
@@ -43,19 +43,19 @@ public interface CMRFidelity extends triplet
    * @see #getStpCMREx()
    * @generated
    */
-  void setStpCMREx(int value);
+  void setStpCMREx(Integer value);
 
   /**
    * Returns the value of the '<em><b>Rep CMR Ex</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Rep CMR Ex</em>' attribute.
-   * @see #setRepCMREx(int)
+   * @see #setRepCMREx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCMRFidelity_RepCMREx()
    * @model
    * @generated
    */
-  int getRepCMREx();
+  Integer getRepCMREx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CMRFidelity#getRepCMREx <em>Rep CMR Ex</em>}' attribute.
@@ -65,6 +65,6 @@ public interface CMRFidelity extends triplet
    * @see #getRepCMREx()
    * @generated
    */
-  void setRepCMREx(int value);
+  void setRepCMREx(Integer value);
 
 } // CMRFidelity

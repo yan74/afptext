@@ -27,12 +27,12 @@ public interface CharacterRotation extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Char Rot</em>' attribute.
-   * @see #setCharRot(int)
+   * @see #setCharRot(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCharacterRotation_CharRot()
    * @model
    * @generated
    */
-  int getCharRot();
+  Integer getCharRot();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CharacterRotation#getCharRot <em>Char Rot</em>}' attribute.
@@ -42,6 +42,6 @@ public interface CharacterRotation extends triplet
    * @see #getCharRot()
    * @generated
    */
-  void setCharRot(int value);
+  void setCharRot(Integer value);
 
 } // CharacterRotation

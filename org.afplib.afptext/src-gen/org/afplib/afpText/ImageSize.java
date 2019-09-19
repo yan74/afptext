@@ -31,12 +31,12 @@ public interface ImageSize extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>UNITBASE</em>' attribute.
-   * @see #setUNITBASE(int)
+   * @see #setUNITBASE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageSize_UNITBASE()
    * @model
    * @generated
    */
-  int getUNITBASE();
+  Integer getUNITBASE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageSize#getUNITBASE <em>UNITBASE</em>}' attribute.
@@ -46,19 +46,19 @@ public interface ImageSize extends triplet
    * @see #getUNITBASE()
    * @generated
    */
-  void setUNITBASE(int value);
+  void setUNITBASE(Integer value);
 
   /**
    * Returns the value of the '<em><b>HRESOL</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HRESOL</em>' attribute.
-   * @see #setHRESOL(int)
+   * @see #setHRESOL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageSize_HRESOL()
    * @model
    * @generated
    */
-  int getHRESOL();
+  Integer getHRESOL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageSize#getHRESOL <em>HRESOL</em>}' attribute.
@@ -68,19 +68,19 @@ public interface ImageSize extends triplet
    * @see #getHRESOL()
    * @generated
    */
-  void setHRESOL(int value);
+  void setHRESOL(Integer value);
 
   /**
    * Returns the value of the '<em><b>VRESOL</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VRESOL</em>' attribute.
-   * @see #setVRESOL(int)
+   * @see #setVRESOL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageSize_VRESOL()
    * @model
    * @generated
    */
-  int getVRESOL();
+  Integer getVRESOL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageSize#getVRESOL <em>VRESOL</em>}' attribute.
@@ -90,19 +90,19 @@ public interface ImageSize extends triplet
    * @see #getVRESOL()
    * @generated
    */
-  void setVRESOL(int value);
+  void setVRESOL(Integer value);
 
   /**
    * Returns the value of the '<em><b>HSIZE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HSIZE</em>' attribute.
-   * @see #setHSIZE(int)
+   * @see #setHSIZE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageSize_HSIZE()
    * @model
    * @generated
    */
-  int getHSIZE();
+  Integer getHSIZE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageSize#getHSIZE <em>HSIZE</em>}' attribute.
@@ -112,19 +112,19 @@ public interface ImageSize extends triplet
    * @see #getHSIZE()
    * @generated
    */
-  void setHSIZE(int value);
+  void setHSIZE(Integer value);
 
   /**
    * Returns the value of the '<em><b>VSIZE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VSIZE</em>' attribute.
-   * @see #setVSIZE(int)
+   * @see #setVSIZE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageSize_VSIZE()
    * @model
    * @generated
    */
-  int getVSIZE();
+  Integer getVSIZE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageSize#getVSIZE <em>VSIZE</em>}' attribute.
@@ -134,6 +134,6 @@ public interface ImageSize extends triplet
    * @see #getVSIZE()
    * @generated
    */
-  void setVSIZE(int value);
+  void setVSIZE(Integer value);
 
 } // ImageSize

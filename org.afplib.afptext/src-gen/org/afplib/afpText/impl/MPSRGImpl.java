@@ -37,7 +37,7 @@ public class MPSRGImpl extends MinimalEObjectImpl.Container implements MPSRG
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -47,7 +47,7 @@ public class MPSRGImpl extends MinimalEObjectImpl.Container implements MPSRG
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPsegName() <em>Pseg Name</em>}' attribute.
@@ -96,7 +96,7 @@ public class MPSRGImpl extends MinimalEObjectImpl.Container implements MPSRG
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -107,9 +107,9 @@ public class MPSRGImpl extends MinimalEObjectImpl.Container implements MPSRG
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MPSRG__RESERVED, oldReserved, reserved));
@@ -209,7 +209,7 @@ public class MPSRGImpl extends MinimalEObjectImpl.Container implements MPSRG
     switch (featureID)
     {
       case AfpTextPackage.MPSRG__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.MPSRG__PSEG_NAME:
         return PSEG_NAME_EDEFAULT == null ? psegName != null : !PSEG_NAME_EDEFAULT.equals(psegName);
     }

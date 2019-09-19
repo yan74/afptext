@@ -29,12 +29,12 @@ public interface ObjectOffset extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Obj Tpe</em>' attribute.
-   * @see #setObjTpe(int)
+   * @see #setObjTpe(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectOffset_ObjTpe()
    * @model
    * @generated
    */
-  int getObjTpe();
+  Integer getObjTpe();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectOffset#getObjTpe <em>Obj Tpe</em>}' attribute.
@@ -44,19 +44,19 @@ public interface ObjectOffset extends triplet
    * @see #getObjTpe()
    * @generated
    */
-  void setObjTpe(int value);
+  void setObjTpe(Integer value);
 
   /**
    * Returns the value of the '<em><b>Obj Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Obj Oset</em>' attribute.
-   * @see #setObjOset(int)
+   * @see #setObjOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectOffset_ObjOset()
    * @model
    * @generated
    */
-  int getObjOset();
+  Integer getObjOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectOffset#getObjOset <em>Obj Oset</em>}' attribute.
@@ -66,19 +66,19 @@ public interface ObjectOffset extends triplet
    * @see #getObjOset()
    * @generated
    */
-  void setObjOset(int value);
+  void setObjOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Obj Ost Hi</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Obj Ost Hi</em>' attribute.
-   * @see #setObjOstHi(int)
+   * @see #setObjOstHi(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectOffset_ObjOstHi()
    * @model
    * @generated
    */
-  int getObjOstHi();
+  Integer getObjOstHi();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectOffset#getObjOstHi <em>Obj Ost Hi</em>}' attribute.
@@ -88,6 +88,6 @@ public interface ObjectOffset extends triplet
    * @see #getObjOstHi()
    * @generated
    */
-  void setObjOstHi(int value);
+  void setObjOstHi(Integer value);
 
 } // ObjectOffset

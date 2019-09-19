@@ -27,12 +27,12 @@ public interface GSMS extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LCID</em>' attribute.
-   * @see #setLCID(int)
+   * @see #setLCID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSMS_LCID()
    * @model
    * @generated
    */
-  int getLCID();
+  Integer getLCID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSMS#getLCID <em>LCID</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSMS extends triplet
    * @see #getLCID()
    * @generated
    */
-  void setLCID(int value);
+  void setLCID(Integer value);
 
 } // GSMS

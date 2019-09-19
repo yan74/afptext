@@ -30,12 +30,12 @@ public interface FNMRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Char Box Wd</em>' attribute.
-   * @see #setCharBoxWd(int)
+   * @see #setCharBoxWd(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNMRG_CharBoxWd()
    * @model
    * @generated
    */
-  int getCharBoxWd();
+  Integer getCharBoxWd();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNMRG#getCharBoxWd <em>Char Box Wd</em>}' attribute.
@@ -45,19 +45,19 @@ public interface FNMRG extends EObject
    * @see #getCharBoxWd()
    * @generated
    */
-  void setCharBoxWd(int value);
+  void setCharBoxWd(Integer value);
 
   /**
    * Returns the value of the '<em><b>Char Box Ht</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Char Box Ht</em>' attribute.
-   * @see #setCharBoxHt(int)
+   * @see #setCharBoxHt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNMRG_CharBoxHt()
    * @model
    * @generated
    */
-  int getCharBoxHt();
+  Integer getCharBoxHt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNMRG#getCharBoxHt <em>Char Box Ht</em>}' attribute.
@@ -67,19 +67,19 @@ public interface FNMRG extends EObject
    * @see #getCharBoxHt()
    * @generated
    */
-  void setCharBoxHt(int value);
+  void setCharBoxHt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Pat DOset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Pat DOset</em>' attribute.
-   * @see #setPatDOset(int)
+   * @see #setPatDOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNMRG_PatDOset()
    * @model
    * @generated
    */
-  int getPatDOset();
+  Integer getPatDOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNMRG#getPatDOset <em>Pat DOset</em>}' attribute.
@@ -89,6 +89,6 @@ public interface FNMRG extends EObject
    * @see #getPatDOset()
    * @generated
    */
-  void setPatDOset(int value);
+  void setPatDOset(Integer value);
 
 } // FNMRG

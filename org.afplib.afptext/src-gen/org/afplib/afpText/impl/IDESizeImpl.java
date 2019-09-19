@@ -35,7 +35,7 @@ public class IDESizeImpl extends tripletImpl implements IDESize
    * @generated
    * @ordered
    */
-  protected static final int IDESZ_EDEFAULT = 0;
+  protected static final Integer IDESZ_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getIDESZ() <em>IDESZ</em>}' attribute.
@@ -45,7 +45,7 @@ public class IDESizeImpl extends tripletImpl implements IDESize
    * @generated
    * @ordered
    */
-  protected int idesz = IDESZ_EDEFAULT;
+  protected Integer idesz = IDESZ_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class IDESizeImpl extends tripletImpl implements IDESize
    * @generated
    */
   @Override
-  public int getIDESZ()
+  public Integer getIDESZ()
   {
     return idesz;
   }
@@ -85,9 +85,9 @@ public class IDESizeImpl extends tripletImpl implements IDESize
    * @generated
    */
   @Override
-  public void setIDESZ(int newIDESZ)
+  public void setIDESZ(Integer newIDESZ)
   {
-    int oldIDESZ = idesz;
+    Integer oldIDESZ = idesz;
     idesz = newIDESZ;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDE_SIZE__IDESZ, oldIDESZ, idesz));
@@ -154,7 +154,7 @@ public class IDESizeImpl extends tripletImpl implements IDESize
     switch (featureID)
     {
       case AfpTextPackage.IDE_SIZE__IDESZ:
-        return idesz != IDESZ_EDEFAULT;
+        return IDESZ_EDEFAULT == null ? idesz != null : !IDESZ_EDEFAULT.equals(idesz);
     }
     return super.eIsSet(featureID);
   }

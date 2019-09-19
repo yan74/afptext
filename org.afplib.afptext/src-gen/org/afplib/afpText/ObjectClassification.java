@@ -32,12 +32,12 @@ public interface ObjectClassification extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Obj Class</em>' attribute.
-   * @see #setObjClass(int)
+   * @see #setObjClass(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectClassification_ObjClass()
    * @model
    * @generated
    */
-  int getObjClass();
+  Integer getObjClass();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectClassification#getObjClass <em>Obj Class</em>}' attribute.
@@ -47,19 +47,19 @@ public interface ObjectClassification extends triplet
    * @see #getObjClass()
    * @generated
    */
-  void setObjClass(int value);
+  void setObjClass(Integer value);
 
   /**
    * Returns the value of the '<em><b>Struc Flgs</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Struc Flgs</em>' attribute.
-   * @see #setStrucFlgs(int)
+   * @see #setStrucFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectClassification_StrucFlgs()
    * @model
    * @generated
    */
-  int getStrucFlgs();
+  Integer getStrucFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectClassification#getStrucFlgs <em>Struc Flgs</em>}' attribute.
@@ -69,7 +69,7 @@ public interface ObjectClassification extends triplet
    * @see #getStrucFlgs()
    * @generated
    */
-  void setStrucFlgs(int value);
+  void setStrucFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reg Obj Id</b></em>' attribute.

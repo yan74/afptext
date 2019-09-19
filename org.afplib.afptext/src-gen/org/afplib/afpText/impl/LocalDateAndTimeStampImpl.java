@@ -42,7 +42,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected static final int STAMP_TYPE_EDEFAULT = 0;
+  protected static final Integer STAMP_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStampType() <em>Stamp Type</em>}' attribute.
@@ -52,7 +52,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected int stampType = STAMP_TYPE_EDEFAULT;
+  protected Integer stampType = STAMP_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTHunYear() <em>THun Year</em>}' attribute.
@@ -62,7 +62,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected static final int THUN_YEAR_EDEFAULT = 0;
+  protected static final Integer THUN_YEAR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTHunYear() <em>THun Year</em>}' attribute.
@@ -72,7 +72,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected int tHunYear = THUN_YEAR_EDEFAULT;
+  protected Integer tHunYear = THUN_YEAR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTenYear() <em>Ten Year</em>}' attribute.
@@ -82,7 +82,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected static final int TEN_YEAR_EDEFAULT = 0;
+  protected static final Integer TEN_YEAR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTenYear() <em>Ten Year</em>}' attribute.
@@ -92,7 +92,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected int tenYear = TEN_YEAR_EDEFAULT;
+  protected Integer tenYear = TEN_YEAR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDay() <em>Day</em>}' attribute.
@@ -102,7 +102,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected static final int DAY_EDEFAULT = 0;
+  protected static final Integer DAY_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDay() <em>Day</em>}' attribute.
@@ -112,7 +112,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected int day = DAY_EDEFAULT;
+  protected Integer day = DAY_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHour() <em>Hour</em>}' attribute.
@@ -122,7 +122,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected static final int HOUR_EDEFAULT = 0;
+  protected static final Integer HOUR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHour() <em>Hour</em>}' attribute.
@@ -132,7 +132,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected int hour = HOUR_EDEFAULT;
+  protected Integer hour = HOUR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMinute() <em>Minute</em>}' attribute.
@@ -142,7 +142,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected static final int MINUTE_EDEFAULT = 0;
+  protected static final Integer MINUTE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMinute() <em>Minute</em>}' attribute.
@@ -152,7 +152,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected int minute = MINUTE_EDEFAULT;
+  protected Integer minute = MINUTE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSecond() <em>Second</em>}' attribute.
@@ -162,7 +162,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected static final int SECOND_EDEFAULT = 0;
+  protected static final Integer SECOND_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSecond() <em>Second</em>}' attribute.
@@ -172,7 +172,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected int second = SECOND_EDEFAULT;
+  protected Integer second = SECOND_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHundSec() <em>Hund Sec</em>}' attribute.
@@ -182,7 +182,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected static final int HUND_SEC_EDEFAULT = 0;
+  protected static final Integer HUND_SEC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHundSec() <em>Hund Sec</em>}' attribute.
@@ -192,7 +192,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    * @ordered
    */
-  protected int hundSec = HUND_SEC_EDEFAULT;
+  protected Integer hundSec = HUND_SEC_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -221,7 +221,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public int getStampType()
+  public Integer getStampType()
   {
     return stampType;
   }
@@ -232,9 +232,9 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public void setStampType(int newStampType)
+  public void setStampType(Integer newStampType)
   {
-    int oldStampType = stampType;
+    Integer oldStampType = stampType;
     stampType = newStampType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__STAMP_TYPE, oldStampType, stampType));
@@ -246,7 +246,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public int getTHunYear()
+  public Integer getTHunYear()
   {
     return tHunYear;
   }
@@ -257,9 +257,9 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public void setTHunYear(int newTHunYear)
+  public void setTHunYear(Integer newTHunYear)
   {
-    int oldTHunYear = tHunYear;
+    Integer oldTHunYear = tHunYear;
     tHunYear = newTHunYear;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__THUN_YEAR, oldTHunYear, tHunYear));
@@ -271,7 +271,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public int getTenYear()
+  public Integer getTenYear()
   {
     return tenYear;
   }
@@ -282,9 +282,9 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public void setTenYear(int newTenYear)
+  public void setTenYear(Integer newTenYear)
   {
-    int oldTenYear = tenYear;
+    Integer oldTenYear = tenYear;
     tenYear = newTenYear;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__TEN_YEAR, oldTenYear, tenYear));
@@ -296,7 +296,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public int getDay()
+  public Integer getDay()
   {
     return day;
   }
@@ -307,9 +307,9 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public void setDay(int newDay)
+  public void setDay(Integer newDay)
   {
-    int oldDay = day;
+    Integer oldDay = day;
     day = newDay;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__DAY, oldDay, day));
@@ -321,7 +321,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public int getHour()
+  public Integer getHour()
   {
     return hour;
   }
@@ -332,9 +332,9 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public void setHour(int newHour)
+  public void setHour(Integer newHour)
   {
-    int oldHour = hour;
+    Integer oldHour = hour;
     hour = newHour;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__HOUR, oldHour, hour));
@@ -346,7 +346,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public int getMinute()
+  public Integer getMinute()
   {
     return minute;
   }
@@ -357,9 +357,9 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public void setMinute(int newMinute)
+  public void setMinute(Integer newMinute)
   {
-    int oldMinute = minute;
+    Integer oldMinute = minute;
     minute = newMinute;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__MINUTE, oldMinute, minute));
@@ -371,7 +371,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public int getSecond()
+  public Integer getSecond()
   {
     return second;
   }
@@ -382,9 +382,9 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public void setSecond(int newSecond)
+  public void setSecond(Integer newSecond)
   {
-    int oldSecond = second;
+    Integer oldSecond = second;
     second = newSecond;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__SECOND, oldSecond, second));
@@ -396,7 +396,7 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public int getHundSec()
+  public Integer getHundSec()
   {
     return hundSec;
   }
@@ -407,9 +407,9 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
    * @generated
    */
   @Override
-  public void setHundSec(int newHundSec)
+  public void setHundSec(Integer newHundSec)
   {
-    int oldHundSec = hundSec;
+    Integer oldHundSec = hundSec;
     hundSec = newHundSec;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__HUND_SEC, oldHundSec, hundSec));
@@ -532,21 +532,21 @@ public class LocalDateAndTimeStampImpl extends tripletImpl implements LocalDateA
     switch (featureID)
     {
       case AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__STAMP_TYPE:
-        return stampType != STAMP_TYPE_EDEFAULT;
+        return STAMP_TYPE_EDEFAULT == null ? stampType != null : !STAMP_TYPE_EDEFAULT.equals(stampType);
       case AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__THUN_YEAR:
-        return tHunYear != THUN_YEAR_EDEFAULT;
+        return THUN_YEAR_EDEFAULT == null ? tHunYear != null : !THUN_YEAR_EDEFAULT.equals(tHunYear);
       case AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__TEN_YEAR:
-        return tenYear != TEN_YEAR_EDEFAULT;
+        return TEN_YEAR_EDEFAULT == null ? tenYear != null : !TEN_YEAR_EDEFAULT.equals(tenYear);
       case AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__DAY:
-        return day != DAY_EDEFAULT;
+        return DAY_EDEFAULT == null ? day != null : !DAY_EDEFAULT.equals(day);
       case AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__HOUR:
-        return hour != HOUR_EDEFAULT;
+        return HOUR_EDEFAULT == null ? hour != null : !HOUR_EDEFAULT.equals(hour);
       case AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__MINUTE:
-        return minute != MINUTE_EDEFAULT;
+        return MINUTE_EDEFAULT == null ? minute != null : !MINUTE_EDEFAULT.equals(minute);
       case AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__SECOND:
-        return second != SECOND_EDEFAULT;
+        return SECOND_EDEFAULT == null ? second != null : !SECOND_EDEFAULT.equals(second);
       case AfpTextPackage.LOCAL_DATE_AND_TIME_STAMP__HUND_SEC:
-        return hundSec != HUND_SEC_EDEFAULT;
+        return HUND_SEC_EDEFAULT == null ? hundSec != null : !HUND_SEC_EDEFAULT.equals(hundSec);
     }
     return super.eIsSet(featureID);
   }

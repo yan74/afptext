@@ -28,12 +28,12 @@ public interface GSMC extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CELLWI</em>' attribute.
-   * @see #setCELLWI(int)
+   * @see #setCELLWI(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSMC_CELLWI()
    * @model
    * @generated
    */
-  int getCELLWI();
+  Integer getCELLWI();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSMC#getCELLWI <em>CELLWI</em>}' attribute.
@@ -43,19 +43,19 @@ public interface GSMC extends triplet
    * @see #getCELLWI()
    * @generated
    */
-  void setCELLWI(int value);
+  void setCELLWI(Integer value);
 
   /**
    * Returns the value of the '<em><b>CELLHI</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CELLHI</em>' attribute.
-   * @see #setCELLHI(int)
+   * @see #setCELLHI(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSMC_CELLHI()
    * @model
    * @generated
    */
-  int getCELLHI();
+  Integer getCELLHI();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSMC#getCELLHI <em>CELLHI</em>}' attribute.
@@ -65,6 +65,6 @@ public interface GSMC extends triplet
    * @see #getCELLHI()
    * @generated
    */
-  void setCELLHI(int value);
+  void setCELLHI(Integer value);
 
 } // GSMC

@@ -29,12 +29,12 @@ public interface GRLINERG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XOSSF</em>' attribute.
-   * @see #setXOSSF(int)
+   * @see #setXOSSF(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGRLINERG_XOSSF()
    * @model
    * @generated
    */
-  int getXOSSF();
+  Integer getXOSSF();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GRLINERG#getXOSSF <em>XOSSF</em>}' attribute.
@@ -44,19 +44,19 @@ public interface GRLINERG extends EObject
    * @see #getXOSSF()
    * @generated
    */
-  void setXOSSF(int value);
+  void setXOSSF(Integer value);
 
   /**
    * Returns the value of the '<em><b>YOFFS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YOFFS</em>' attribute.
-   * @see #setYOFFS(int)
+   * @see #setYOFFS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGRLINERG_YOFFS()
    * @model
    * @generated
    */
-  int getYOFFS();
+  Integer getYOFFS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GRLINERG#getYOFFS <em>YOFFS</em>}' attribute.
@@ -66,6 +66,6 @@ public interface GRLINERG extends EObject
    * @see #getYOFFS()
    * @generated
    */
-  void setYOFFS(int value);
+  void setYOFFS(Integer value);
 
 } // GRLINERG

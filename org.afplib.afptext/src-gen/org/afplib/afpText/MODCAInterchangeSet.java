@@ -28,12 +28,12 @@ public interface MODCAInterchangeSet extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>IStype</em>' attribute.
-   * @see #setIStype(int)
+   * @see #setIStype(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMODCAInterchangeSet_IStype()
    * @model
    * @generated
    */
-  int getIStype();
+  Integer getIStype();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MODCAInterchangeSet#getIStype <em>IStype</em>}' attribute.
@@ -43,19 +43,19 @@ public interface MODCAInterchangeSet extends triplet
    * @see #getIStype()
    * @generated
    */
-  void setIStype(int value);
+  void setIStype(Integer value);
 
   /**
    * Returns the value of the '<em><b>ISid</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>ISid</em>' attribute.
-   * @see #setISid(int)
+   * @see #setISid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMODCAInterchangeSet_ISid()
    * @model
    * @generated
    */
-  int getISid();
+  Integer getISid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MODCAInterchangeSet#getISid <em>ISid</em>}' attribute.
@@ -65,6 +65,6 @@ public interface MODCAInterchangeSet extends triplet
    * @see #getISid()
    * @generated
    */
-  void setISid(int value);
+  void setISid(Integer value);
 
 } // MODCAInterchangeSet

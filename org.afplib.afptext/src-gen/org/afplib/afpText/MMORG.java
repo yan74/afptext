@@ -30,12 +30,12 @@ public interface MMORG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>OV Lid</em>' attribute.
-   * @see #setOVLid(int)
+   * @see #setOVLid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMMORG_OVLid()
    * @model
    * @generated
    */
-  int getOVLid();
+  Integer getOVLid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MMORG#getOVLid <em>OV Lid</em>}' attribute.
@@ -45,19 +45,19 @@ public interface MMORG extends EObject
    * @see #getOVLid()
    * @generated
    */
-  void setOVLid(int value);
+  void setOVLid(Integer value);
 
   /**
    * Returns the value of the '<em><b>Flags</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Flags</em>' attribute.
-   * @see #setFlags(int)
+   * @see #setFlags(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMMORG_Flags()
    * @model
    * @generated
    */
-  int getFlags();
+  Integer getFlags();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MMORG#getFlags <em>Flags</em>}' attribute.
@@ -67,7 +67,7 @@ public interface MMORG extends EObject
    * @see #getFlags()
    * @generated
    */
-  void setFlags(int value);
+  void setFlags(Integer value);
 
   /**
    * Returns the value of the '<em><b>OV Lname</b></em>' attribute.

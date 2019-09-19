@@ -39,7 +39,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected static final int RES_EDEFAULT = 0;
+  protected static final Integer RES_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRES() <em>RES</em>}' attribute.
@@ -49,7 +49,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected int res = RES_EDEFAULT;
+  protected Integer res = RES_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXPOS1() <em>XPOS1</em>}' attribute.
@@ -59,7 +59,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected static final int XPOS1_EDEFAULT = 0;
+  protected static final Integer XPOS1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXPOS1() <em>XPOS1</em>}' attribute.
@@ -69,7 +69,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected int xpos1 = XPOS1_EDEFAULT;
+  protected Integer xpos1 = XPOS1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYPOS1() <em>YPOS1</em>}' attribute.
@@ -79,7 +79,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected static final int YPOS1_EDEFAULT = 0;
+  protected static final Integer YPOS1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYPOS1() <em>YPOS1</em>}' attribute.
@@ -89,7 +89,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected int ypos1 = YPOS1_EDEFAULT;
+  protected Integer ypos1 = YPOS1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHAXIS() <em>HAXIS</em>}' attribute.
@@ -99,7 +99,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected static final int HAXIS_EDEFAULT = 0;
+  protected static final Integer HAXIS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHAXIS() <em>HAXIS</em>}' attribute.
@@ -109,7 +109,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected int haxis = HAXIS_EDEFAULT;
+  protected Integer haxis = HAXIS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVAXIS() <em>VAXIS</em>}' attribute.
@@ -119,7 +119,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected static final int VAXIS_EDEFAULT = 0;
+  protected static final Integer VAXIS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVAXIS() <em>VAXIS</em>}' attribute.
@@ -129,7 +129,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    * @ordered
    */
-  protected int vaxis = VAXIS_EDEFAULT;
+  protected Integer vaxis = VAXIS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -158,7 +158,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public int getRES()
+  public Integer getRES()
   {
     return res;
   }
@@ -169,9 +169,9 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public void setRES(int newRES)
+  public void setRES(Integer newRES)
   {
-    int oldRES = res;
+    Integer oldRES = res;
     res = newRES;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCBOX__RES, oldRES, res));
@@ -183,7 +183,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public int getXPOS1()
+  public Integer getXPOS1()
   {
     return xpos1;
   }
@@ -194,9 +194,9 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public void setXPOS1(int newXPOS1)
+  public void setXPOS1(Integer newXPOS1)
   {
-    int oldXPOS1 = xpos1;
+    Integer oldXPOS1 = xpos1;
     xpos1 = newXPOS1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCBOX__XPOS1, oldXPOS1, xpos1));
@@ -208,7 +208,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public int getYPOS1()
+  public Integer getYPOS1()
   {
     return ypos1;
   }
@@ -219,9 +219,9 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public void setYPOS1(int newYPOS1)
+  public void setYPOS1(Integer newYPOS1)
   {
-    int oldYPOS1 = ypos1;
+    Integer oldYPOS1 = ypos1;
     ypos1 = newYPOS1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCBOX__YPOS1, oldYPOS1, ypos1));
@@ -233,7 +233,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public int getHAXIS()
+  public Integer getHAXIS()
   {
     return haxis;
   }
@@ -244,9 +244,9 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public void setHAXIS(int newHAXIS)
+  public void setHAXIS(Integer newHAXIS)
   {
-    int oldHAXIS = haxis;
+    Integer oldHAXIS = haxis;
     haxis = newHAXIS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCBOX__HAXIS, oldHAXIS, haxis));
@@ -258,7 +258,7 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public int getVAXIS()
+  public Integer getVAXIS()
   {
     return vaxis;
   }
@@ -269,9 +269,9 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
    * @generated
    */
   @Override
-  public void setVAXIS(int newVAXIS)
+  public void setVAXIS(Integer newVAXIS)
   {
-    int oldVAXIS = vaxis;
+    Integer oldVAXIS = vaxis;
     vaxis = newVAXIS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCBOX__VAXIS, oldVAXIS, vaxis));
@@ -370,15 +370,15 @@ public class GCBOXImpl extends tripletImpl implements GCBOX
     switch (featureID)
     {
       case AfpTextPackage.GCBOX__RES:
-        return res != RES_EDEFAULT;
+        return RES_EDEFAULT == null ? res != null : !RES_EDEFAULT.equals(res);
       case AfpTextPackage.GCBOX__XPOS1:
-        return xpos1 != XPOS1_EDEFAULT;
+        return XPOS1_EDEFAULT == null ? xpos1 != null : !XPOS1_EDEFAULT.equals(xpos1);
       case AfpTextPackage.GCBOX__YPOS1:
-        return ypos1 != YPOS1_EDEFAULT;
+        return YPOS1_EDEFAULT == null ? ypos1 != null : !YPOS1_EDEFAULT.equals(ypos1);
       case AfpTextPackage.GCBOX__HAXIS:
-        return haxis != HAXIS_EDEFAULT;
+        return HAXIS_EDEFAULT == null ? haxis != null : !HAXIS_EDEFAULT.equals(haxis);
       case AfpTextPackage.GCBOX__VAXIS:
-        return vaxis != VAXIS_EDEFAULT;
+        return VAXIS_EDEFAULT == null ? vaxis != null : !VAXIS_EDEFAULT.equals(vaxis);
     }
     return super.eIsSet(featureID);
   }

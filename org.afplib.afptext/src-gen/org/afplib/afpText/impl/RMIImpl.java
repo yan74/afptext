@@ -35,7 +35,7 @@ public class RMIImpl extends tripletImpl implements RMI
    * @generated
    * @ordered
    */
-  protected static final int INCRMENT_EDEFAULT = 0;
+  protected static final Integer INCRMENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getINCRMENT() <em>INCRMENT</em>}' attribute.
@@ -45,7 +45,7 @@ public class RMIImpl extends tripletImpl implements RMI
    * @generated
    * @ordered
    */
-  protected int incrment = INCRMENT_EDEFAULT;
+  protected Integer incrment = INCRMENT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class RMIImpl extends tripletImpl implements RMI
    * @generated
    */
   @Override
-  public int getINCRMENT()
+  public Integer getINCRMENT()
   {
     return incrment;
   }
@@ -85,9 +85,9 @@ public class RMIImpl extends tripletImpl implements RMI
    * @generated
    */
   @Override
-  public void setINCRMENT(int newINCRMENT)
+  public void setINCRMENT(Integer newINCRMENT)
   {
-    int oldINCRMENT = incrment;
+    Integer oldINCRMENT = incrment;
     incrment = newINCRMENT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RMI__INCRMENT, oldINCRMENT, incrment));
@@ -154,7 +154,7 @@ public class RMIImpl extends tripletImpl implements RMI
     switch (featureID)
     {
       case AfpTextPackage.RMI__INCRMENT:
-        return incrment != INCRMENT_EDEFAULT;
+        return INCRMENT_EDEFAULT == null ? incrment != null : !INCRMENT_EDEFAULT.equals(incrment);
     }
     return super.eIsSet(featureID);
   }

@@ -35,7 +35,7 @@ public class TonerSaverImpl extends tripletImpl implements TonerSaver
    * @generated
    * @ordered
    */
-  protected static final int TSV_CTRL_EDEFAULT = 0;
+  protected static final Integer TSV_CTRL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTSvCtrl() <em>TSv Ctrl</em>}' attribute.
@@ -45,7 +45,7 @@ public class TonerSaverImpl extends tripletImpl implements TonerSaver
    * @generated
    * @ordered
    */
-  protected int tSvCtrl = TSV_CTRL_EDEFAULT;
+  protected Integer tSvCtrl = TSV_CTRL_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class TonerSaverImpl extends tripletImpl implements TonerSaver
    * @generated
    */
   @Override
-  public int getTSvCtrl()
+  public Integer getTSvCtrl()
   {
     return tSvCtrl;
   }
@@ -85,9 +85,9 @@ public class TonerSaverImpl extends tripletImpl implements TonerSaver
    * @generated
    */
   @Override
-  public void setTSvCtrl(int newTSvCtrl)
+  public void setTSvCtrl(Integer newTSvCtrl)
   {
-    int oldTSvCtrl = tSvCtrl;
+    Integer oldTSvCtrl = tSvCtrl;
     tSvCtrl = newTSvCtrl;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TONER_SAVER__TSV_CTRL, oldTSvCtrl, tSvCtrl));
@@ -154,7 +154,7 @@ public class TonerSaverImpl extends tripletImpl implements TonerSaver
     switch (featureID)
     {
       case AfpTextPackage.TONER_SAVER__TSV_CTRL:
-        return tSvCtrl != TSV_CTRL_EDEFAULT;
+        return TSV_CTRL_EDEFAULT == null ? tSvCtrl != null : !TSV_CTRL_EDEFAULT.equals(tSvCtrl);
     }
     return super.eIsSet(featureID);
   }

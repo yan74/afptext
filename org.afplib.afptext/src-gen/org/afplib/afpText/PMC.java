@@ -29,12 +29,12 @@ public interface PMC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PM Cid</em>' attribute.
-   * @see #setPMCid(int)
+   * @see #setPMCid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPMC_PMCid()
    * @model
    * @generated
    */
-  int getPMCid();
+  Integer getPMCid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PMC#getPMCid <em>PM Cid</em>}' attribute.
@@ -44,7 +44,7 @@ public interface PMC extends structuredField
    * @see #getPMCid()
    * @generated
    */
-  void setPMCid(int value);
+  void setPMCid(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

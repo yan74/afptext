@@ -46,7 +46,7 @@ public class ExternalAlgorithmImpl extends tripletImpl implements ExternalAlgori
    * @generated
    * @ordered
    */
-  protected static final int ALGTYPE_EDEFAULT = 0;
+  protected static final Integer ALGTYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getALGTYPE() <em>ALGTYPE</em>}' attribute.
@@ -56,7 +56,7 @@ public class ExternalAlgorithmImpl extends tripletImpl implements ExternalAlgori
    * @generated
    * @ordered
    */
-  protected int algtype = ALGTYPE_EDEFAULT;
+  protected Integer algtype = ALGTYPE_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
@@ -95,7 +95,7 @@ public class ExternalAlgorithmImpl extends tripletImpl implements ExternalAlgori
    * @generated
    */
   @Override
-  public int getALGTYPE()
+  public Integer getALGTYPE()
   {
     return algtype;
   }
@@ -106,9 +106,9 @@ public class ExternalAlgorithmImpl extends tripletImpl implements ExternalAlgori
    * @generated
    */
   @Override
-  public void setALGTYPE(int newALGTYPE)
+  public void setALGTYPE(Integer newALGTYPE)
   {
-    int oldALGTYPE = algtype;
+    Integer oldALGTYPE = algtype;
     algtype = newALGTYPE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.EXTERNAL_ALGORITHM__ALGTYPE, oldALGTYPE, algtype));
@@ -216,7 +216,7 @@ public class ExternalAlgorithmImpl extends tripletImpl implements ExternalAlgori
     switch (featureID)
     {
       case AfpTextPackage.EXTERNAL_ALGORITHM__ALGTYPE:
-        return algtype != ALGTYPE_EDEFAULT;
+        return ALGTYPE_EDEFAULT == null ? algtype != null : !ALGTYPE_EDEFAULT.equals(algtype);
       case AfpTextPackage.EXTERNAL_ALGORITHM__RG:
         return rg != null && !rg.isEmpty();
     }

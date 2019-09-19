@@ -37,7 +37,7 @@ public class FullyQualifiedNameImpl extends tripletImpl implements FullyQualifie
    * @generated
    * @ordered
    */
-  protected static final int FQN_TYPE_EDEFAULT = 0;
+  protected static final Integer FQN_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFQNType() <em>FQN Type</em>}' attribute.
@@ -47,7 +47,7 @@ public class FullyQualifiedNameImpl extends tripletImpl implements FullyQualifie
    * @generated
    * @ordered
    */
-  protected int fqnType = FQN_TYPE_EDEFAULT;
+  protected Integer fqnType = FQN_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFQNFormat() <em>FQN Format</em>}' attribute.
@@ -57,7 +57,7 @@ public class FullyQualifiedNameImpl extends tripletImpl implements FullyQualifie
    * @generated
    * @ordered
    */
-  protected static final int FQN_FORMAT_EDEFAULT = 0;
+  protected static final Integer FQN_FORMAT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFQNFormat() <em>FQN Format</em>}' attribute.
@@ -67,7 +67,7 @@ public class FullyQualifiedNameImpl extends tripletImpl implements FullyQualifie
    * @generated
    * @ordered
    */
-  protected int fqnFormat = FQN_FORMAT_EDEFAULT;
+  protected Integer fqnFormat = FQN_FORMAT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFQName() <em>FQ Name</em>}' attribute.
@@ -116,7 +116,7 @@ public class FullyQualifiedNameImpl extends tripletImpl implements FullyQualifie
    * @generated
    */
   @Override
-  public int getFQNType()
+  public Integer getFQNType()
   {
     return fqnType;
   }
@@ -127,9 +127,9 @@ public class FullyQualifiedNameImpl extends tripletImpl implements FullyQualifie
    * @generated
    */
   @Override
-  public void setFQNType(int newFQNType)
+  public void setFQNType(Integer newFQNType)
   {
-    int oldFQNType = fqnType;
+    Integer oldFQNType = fqnType;
     fqnType = newFQNType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FULLY_QUALIFIED_NAME__FQN_TYPE, oldFQNType, fqnType));
@@ -141,7 +141,7 @@ public class FullyQualifiedNameImpl extends tripletImpl implements FullyQualifie
    * @generated
    */
   @Override
-  public int getFQNFormat()
+  public Integer getFQNFormat()
   {
     return fqnFormat;
   }
@@ -152,9 +152,9 @@ public class FullyQualifiedNameImpl extends tripletImpl implements FullyQualifie
    * @generated
    */
   @Override
-  public void setFQNFormat(int newFQNFormat)
+  public void setFQNFormat(Integer newFQNFormat)
   {
-    int oldFQNFormat = fqnFormat;
+    Integer oldFQNFormat = fqnFormat;
     fqnFormat = newFQNFormat;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FULLY_QUALIFIED_NAME__FQN_FORMAT, oldFQNFormat, fqnFormat));
@@ -262,9 +262,9 @@ public class FullyQualifiedNameImpl extends tripletImpl implements FullyQualifie
     switch (featureID)
     {
       case AfpTextPackage.FULLY_QUALIFIED_NAME__FQN_TYPE:
-        return fqnType != FQN_TYPE_EDEFAULT;
+        return FQN_TYPE_EDEFAULT == null ? fqnType != null : !FQN_TYPE_EDEFAULT.equals(fqnType);
       case AfpTextPackage.FULLY_QUALIFIED_NAME__FQN_FORMAT:
-        return fqnFormat != FQN_FORMAT_EDEFAULT;
+        return FQN_FORMAT_EDEFAULT == null ? fqnFormat != null : !FQN_FORMAT_EDEFAULT.equals(fqnFormat);
       case AfpTextPackage.FULLY_QUALIFIED_NAME__FQ_NAME:
         return FQ_NAME_EDEFAULT == null ? fqName != null : !FQ_NAME_EDEFAULT.equals(fqName);
     }

@@ -30,12 +30,12 @@ public interface ExternalAlgorithmRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>DIRCTN</em>' attribute.
-   * @see #setDIRCTN(int)
+   * @see #setDIRCTN(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getExternalAlgorithmRG_DIRCTN()
    * @model
    * @generated
    */
-  int getDIRCTN();
+  Integer getDIRCTN();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ExternalAlgorithmRG#getDIRCTN <em>DIRCTN</em>}' attribute.
@@ -45,19 +45,19 @@ public interface ExternalAlgorithmRG extends EObject
    * @see #getDIRCTN()
    * @generated
    */
-  void setDIRCTN(int value);
+  void setDIRCTN(Integer value);
 
   /**
    * Returns the value of the '<em><b>PADBDRY</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PADBDRY</em>' attribute.
-   * @see #setPADBDRY(int)
+   * @see #setPADBDRY(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getExternalAlgorithmRG_PADBDRY()
    * @model
    * @generated
    */
-  int getPADBDRY();
+  Integer getPADBDRY();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ExternalAlgorithmRG#getPADBDRY <em>PADBDRY</em>}' attribute.
@@ -67,19 +67,19 @@ public interface ExternalAlgorithmRG extends EObject
    * @see #getPADBDRY()
    * @generated
    */
-  void setPADBDRY(int value);
+  void setPADBDRY(Integer value);
 
   /**
    * Returns the value of the '<em><b>PADALMT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PADALMT</em>' attribute.
-   * @see #setPADALMT(int)
+   * @see #setPADALMT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getExternalAlgorithmRG_PADALMT()
    * @model
    * @generated
    */
-  int getPADALMT();
+  Integer getPADALMT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ExternalAlgorithmRG#getPADALMT <em>PADALMT</em>}' attribute.
@@ -89,6 +89,6 @@ public interface ExternalAlgorithmRG extends EObject
    * @see #getPADALMT()
    * @generated
    */
-  void setPADALMT(int value);
+  void setPADALMT(Integer value);
 
 } // ExternalAlgorithmRG

@@ -32,12 +32,12 @@ public interface RenderingIntent extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved</em>' attribute.
-   * @see #setReserved(int)
+   * @see #setReserved(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getRenderingIntent_Reserved()
    * @model
    * @generated
    */
-  int getReserved();
+  Integer getReserved();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.RenderingIntent#getReserved <em>Reserved</em>}' attribute.
@@ -47,19 +47,19 @@ public interface RenderingIntent extends triplet
    * @see #getReserved()
    * @generated
    */
-  void setReserved(int value);
+  void setReserved(Integer value);
 
   /**
    * Returns the value of the '<em><b>IOCARI</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>IOCARI</em>' attribute.
-   * @see #setIOCARI(int)
+   * @see #setIOCARI(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getRenderingIntent_IOCARI()
    * @model
    * @generated
    */
-  int getIOCARI();
+  Integer getIOCARI();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.RenderingIntent#getIOCARI <em>IOCARI</em>}' attribute.
@@ -69,19 +69,19 @@ public interface RenderingIntent extends triplet
    * @see #getIOCARI()
    * @generated
    */
-  void setIOCARI(int value);
+  void setIOCARI(Integer value);
 
   /**
    * Returns the value of the '<em><b>OCRI</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>OCRI</em>' attribute.
-   * @see #setOCRI(int)
+   * @see #setOCRI(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getRenderingIntent_OCRI()
    * @model
    * @generated
    */
-  int getOCRI();
+  Integer getOCRI();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.RenderingIntent#getOCRI <em>OCRI</em>}' attribute.
@@ -91,19 +91,19 @@ public interface RenderingIntent extends triplet
    * @see #getOCRI()
    * @generated
    */
-  void setOCRI(int value);
+  void setOCRI(Integer value);
 
   /**
    * Returns the value of the '<em><b>PTOCRI</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PTOCRI</em>' attribute.
-   * @see #setPTOCRI(int)
+   * @see #setPTOCRI(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getRenderingIntent_PTOCRI()
    * @model
    * @generated
    */
-  int getPTOCRI();
+  Integer getPTOCRI();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.RenderingIntent#getPTOCRI <em>PTOCRI</em>}' attribute.
@@ -113,19 +113,19 @@ public interface RenderingIntent extends triplet
    * @see #getPTOCRI()
    * @generated
    */
-  void setPTOCRI(int value);
+  void setPTOCRI(Integer value);
 
   /**
    * Returns the value of the '<em><b>GOCARI</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>GOCARI</em>' attribute.
-   * @see #setGOCARI(int)
+   * @see #setGOCARI(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getRenderingIntent_GOCARI()
    * @model
    * @generated
    */
-  int getGOCARI();
+  Integer getGOCARI();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.RenderingIntent#getGOCARI <em>GOCARI</em>}' attribute.
@@ -135,19 +135,19 @@ public interface RenderingIntent extends triplet
    * @see #getGOCARI()
    * @generated
    */
-  void setGOCARI(int value);
+  void setGOCARI(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved2</em>' attribute.
-   * @see #setReserved2(int)
+   * @see #setReserved2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getRenderingIntent_Reserved2()
    * @model
    * @generated
    */
-  int getReserved2();
+  Integer getReserved2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.RenderingIntent#getReserved2 <em>Reserved2</em>}' attribute.
@@ -157,6 +157,6 @@ public interface RenderingIntent extends triplet
    * @see #getReserved2()
    * @generated
    */
-  void setReserved2(int value);
+  void setReserved2(Integer value);
 
 } // RenderingIntent

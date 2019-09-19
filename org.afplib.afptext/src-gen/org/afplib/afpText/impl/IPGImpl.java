@@ -67,7 +67,7 @@ public class IPGImpl extends structuredFieldImpl implements IPG
    * @generated
    * @ordered
    */
-  protected static final int IPG_FLGS_EDEFAULT = 0;
+  protected static final Integer IPG_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getIPgFlgs() <em>IPg Flgs</em>}' attribute.
@@ -77,7 +77,7 @@ public class IPGImpl extends structuredFieldImpl implements IPG
    * @generated
    * @ordered
    */
-  protected int iPgFlgs = IPG_FLGS_EDEFAULT;
+  protected Integer iPgFlgs = IPG_FLGS_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -141,7 +141,7 @@ public class IPGImpl extends structuredFieldImpl implements IPG
    * @generated
    */
   @Override
-  public int getIPgFlgs()
+  public Integer getIPgFlgs()
   {
     return iPgFlgs;
   }
@@ -152,9 +152,9 @@ public class IPGImpl extends structuredFieldImpl implements IPG
    * @generated
    */
   @Override
-  public void setIPgFlgs(int newIPgFlgs)
+  public void setIPgFlgs(Integer newIPgFlgs)
   {
-    int oldIPgFlgs = iPgFlgs;
+    Integer oldIPgFlgs = iPgFlgs;
     iPgFlgs = newIPgFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IPG__IPG_FLGS, oldIPgFlgs, iPgFlgs));
@@ -272,7 +272,7 @@ public class IPGImpl extends structuredFieldImpl implements IPG
       case AfpTextPackage.IPG__PG_NAME:
         return PG_NAME_EDEFAULT == null ? pgName != null : !PG_NAME_EDEFAULT.equals(pgName);
       case AfpTextPackage.IPG__IPG_FLGS:
-        return iPgFlgs != IPG_FLGS_EDEFAULT;
+        return IPG_FLGS_EDEFAULT == null ? iPgFlgs != null : !IPG_FLGS_EDEFAULT.equals(iPgFlgs);
       case AfpTextPackage.IPG__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

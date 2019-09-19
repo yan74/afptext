@@ -27,12 +27,12 @@ public interface GSLJ extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LINEJOIN</em>' attribute.
-   * @see #setLINEJOIN(int)
+   * @see #setLINEJOIN(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSLJ_LINEJOIN()
    * @model
    * @generated
    */
-  int getLINEJOIN();
+  Integer getLINEJOIN();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSLJ#getLINEJOIN <em>LINEJOIN</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSLJ extends triplet
    * @see #getLINEJOIN()
    * @generated
    */
-  void setLINEJOIN(int value);
+  void setLINEJOIN(Integer value);
 
 } // GSLJ

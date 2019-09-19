@@ -41,7 +41,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected static final int XPBASE_EDEFAULT = 0;
+  protected static final Integer XPBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXPBASE() <em>XPBASE</em>}' attribute.
@@ -51,7 +51,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected int xpbase = XPBASE_EDEFAULT;
+  protected Integer xpbase = XPBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYPBASE() <em>YPBASE</em>}' attribute.
@@ -61,7 +61,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected static final int YPBASE_EDEFAULT = 0;
+  protected static final Integer YPBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYPBASE() <em>YPBASE</em>}' attribute.
@@ -71,7 +71,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected int ypbase = YPBASE_EDEFAULT;
+  protected Integer ypbase = YPBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXPUNITVL() <em>XPUNITVL</em>}' attribute.
@@ -81,7 +81,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected static final int XPUNITVL_EDEFAULT = 0;
+  protected static final Integer XPUNITVL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXPUNITVL() <em>XPUNITVL</em>}' attribute.
@@ -91,7 +91,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected int xpunitvl = XPUNITVL_EDEFAULT;
+  protected Integer xpunitvl = XPUNITVL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYPUNITVL() <em>YPUNITVL</em>}' attribute.
@@ -101,7 +101,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected static final int YPUNITVL_EDEFAULT = 0;
+  protected static final Integer YPUNITVL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYPUNITVL() <em>YPUNITVL</em>}' attribute.
@@ -111,7 +111,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected int ypunitvl = YPUNITVL_EDEFAULT;
+  protected Integer ypunitvl = YPUNITVL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXPEXTENT() <em>XPEXTENT</em>}' attribute.
@@ -121,7 +121,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected static final int XPEXTENT_EDEFAULT = 0;
+  protected static final Integer XPEXTENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXPEXTENT() <em>XPEXTENT</em>}' attribute.
@@ -131,7 +131,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected int xpextent = XPEXTENT_EDEFAULT;
+  protected Integer xpextent = XPEXTENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYPEXTENT() <em>YPEXTENT</em>}' attribute.
@@ -141,7 +141,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected static final int YPEXTENT_EDEFAULT = 0;
+  protected static final Integer YPEXTENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYPEXTENT() <em>YPEXTENT</em>}' attribute.
@@ -151,7 +151,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected int ypextent = YPEXTENT_EDEFAULT;
+  protected Integer ypextent = YPEXTENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRESERVED() <em>RESERVED</em>}' attribute.
@@ -161,7 +161,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRESERVED() <em>RESERVED</em>}' attribute.
@@ -171,7 +171,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -200,7 +200,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public int getXPBASE()
+  public Integer getXPBASE()
   {
     return xpbase;
   }
@@ -211,9 +211,9 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public void setXPBASE(int newXPBASE)
+  public void setXPBASE(Integer newXPBASE)
   {
-    int oldXPBASE = xpbase;
+    Integer oldXPBASE = xpbase;
     xpbase = newXPBASE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PTD1__XPBASE, oldXPBASE, xpbase));
@@ -225,7 +225,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public int getYPBASE()
+  public Integer getYPBASE()
   {
     return ypbase;
   }
@@ -236,9 +236,9 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public void setYPBASE(int newYPBASE)
+  public void setYPBASE(Integer newYPBASE)
   {
-    int oldYPBASE = ypbase;
+    Integer oldYPBASE = ypbase;
     ypbase = newYPBASE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PTD1__YPBASE, oldYPBASE, ypbase));
@@ -250,7 +250,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public int getXPUNITVL()
+  public Integer getXPUNITVL()
   {
     return xpunitvl;
   }
@@ -261,9 +261,9 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public void setXPUNITVL(int newXPUNITVL)
+  public void setXPUNITVL(Integer newXPUNITVL)
   {
-    int oldXPUNITVL = xpunitvl;
+    Integer oldXPUNITVL = xpunitvl;
     xpunitvl = newXPUNITVL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PTD1__XPUNITVL, oldXPUNITVL, xpunitvl));
@@ -275,7 +275,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public int getYPUNITVL()
+  public Integer getYPUNITVL()
   {
     return ypunitvl;
   }
@@ -286,9 +286,9 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public void setYPUNITVL(int newYPUNITVL)
+  public void setYPUNITVL(Integer newYPUNITVL)
   {
-    int oldYPUNITVL = ypunitvl;
+    Integer oldYPUNITVL = ypunitvl;
     ypunitvl = newYPUNITVL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PTD1__YPUNITVL, oldYPUNITVL, ypunitvl));
@@ -300,7 +300,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public int getXPEXTENT()
+  public Integer getXPEXTENT()
   {
     return xpextent;
   }
@@ -311,9 +311,9 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public void setXPEXTENT(int newXPEXTENT)
+  public void setXPEXTENT(Integer newXPEXTENT)
   {
-    int oldXPEXTENT = xpextent;
+    Integer oldXPEXTENT = xpextent;
     xpextent = newXPEXTENT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PTD1__XPEXTENT, oldXPEXTENT, xpextent));
@@ -325,7 +325,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public int getYPEXTENT()
+  public Integer getYPEXTENT()
   {
     return ypextent;
   }
@@ -336,9 +336,9 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public void setYPEXTENT(int newYPEXTENT)
+  public void setYPEXTENT(Integer newYPEXTENT)
   {
-    int oldYPEXTENT = ypextent;
+    Integer oldYPEXTENT = ypextent;
     ypextent = newYPEXTENT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PTD1__YPEXTENT, oldYPEXTENT, ypextent));
@@ -350,7 +350,7 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public int getRESERVED()
+  public Integer getRESERVED()
   {
     return reserved;
   }
@@ -361,9 +361,9 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
    * @generated
    */
   @Override
-  public void setRESERVED(int newRESERVED)
+  public void setRESERVED(Integer newRESERVED)
   {
-    int oldRESERVED = reserved;
+    Integer oldRESERVED = reserved;
     reserved = newRESERVED;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PTD1__RESERVED, oldRESERVED, reserved));
@@ -478,19 +478,19 @@ public class PTD1Impl extends structuredFieldImpl implements PTD1
     switch (featureID)
     {
       case AfpTextPackage.PTD1__XPBASE:
-        return xpbase != XPBASE_EDEFAULT;
+        return XPBASE_EDEFAULT == null ? xpbase != null : !XPBASE_EDEFAULT.equals(xpbase);
       case AfpTextPackage.PTD1__YPBASE:
-        return ypbase != YPBASE_EDEFAULT;
+        return YPBASE_EDEFAULT == null ? ypbase != null : !YPBASE_EDEFAULT.equals(ypbase);
       case AfpTextPackage.PTD1__XPUNITVL:
-        return xpunitvl != XPUNITVL_EDEFAULT;
+        return XPUNITVL_EDEFAULT == null ? xpunitvl != null : !XPUNITVL_EDEFAULT.equals(xpunitvl);
       case AfpTextPackage.PTD1__YPUNITVL:
-        return ypunitvl != YPUNITVL_EDEFAULT;
+        return YPUNITVL_EDEFAULT == null ? ypunitvl != null : !YPUNITVL_EDEFAULT.equals(ypunitvl);
       case AfpTextPackage.PTD1__XPEXTENT:
-        return xpextent != XPEXTENT_EDEFAULT;
+        return XPEXTENT_EDEFAULT == null ? xpextent != null : !XPEXTENT_EDEFAULT.equals(xpextent);
       case AfpTextPackage.PTD1__YPEXTENT:
-        return ypextent != YPEXTENT_EDEFAULT;
+        return YPEXTENT_EDEFAULT == null ? ypextent != null : !YPEXTENT_EDEFAULT.equals(ypextent);
       case AfpTextPackage.PTD1__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
     }
     return super.eIsSet(featureID);
   }

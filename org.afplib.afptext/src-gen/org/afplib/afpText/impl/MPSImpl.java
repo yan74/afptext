@@ -47,7 +47,7 @@ public class MPSImpl extends structuredFieldImpl implements MPS
    * @generated
    * @ordered
    */
-  protected static final int RG_LENGTH_EDEFAULT = 0;
+  protected static final Integer RG_LENGTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRGLength() <em>RG Length</em>}' attribute.
@@ -57,7 +57,7 @@ public class MPSImpl extends structuredFieldImpl implements MPS
    * @generated
    * @ordered
    */
-  protected int rgLength = RG_LENGTH_EDEFAULT;
+  protected Integer rgLength = RG_LENGTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -116,7 +116,7 @@ public class MPSImpl extends structuredFieldImpl implements MPS
    * @generated
    */
   @Override
-  public int getRGLength()
+  public Integer getRGLength()
   {
     return rgLength;
   }
@@ -127,9 +127,9 @@ public class MPSImpl extends structuredFieldImpl implements MPS
    * @generated
    */
   @Override
-  public void setRGLength(int newRGLength)
+  public void setRGLength(Integer newRGLength)
   {
-    int oldRGLength = rgLength;
+    Integer oldRGLength = rgLength;
     rgLength = newRGLength;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MPS__RG_LENGTH, oldRGLength, rgLength));
@@ -270,7 +270,7 @@ public class MPSImpl extends structuredFieldImpl implements MPS
     switch (featureID)
     {
       case AfpTextPackage.MPS__RG_LENGTH:
-        return rgLength != RG_LENGTH_EDEFAULT;
+        return RG_LENGTH_EDEFAULT == null ? rgLength != null : !RG_LENGTH_EDEFAULT.equals(rgLength);
       case AfpTextPackage.MPS__RESERVED:
         return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.MPS__RG:

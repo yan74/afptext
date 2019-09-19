@@ -40,7 +40,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected static final int LENGTH_EDEFAULT = 0;
+  protected static final Integer LENGTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLENGTH() <em>LENGTH</em>}' attribute.
@@ -50,7 +50,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected int length = LENGTH_EDEFAULT;
+  protected Integer length = LENGTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getNAME() <em>NAME</em>}' attribute.
@@ -60,7 +60,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected static final int NAME_EDEFAULT = 0;
+  protected static final Integer NAME_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNAME() <em>NAME</em>}' attribute.
@@ -70,7 +70,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected int name = NAME_EDEFAULT;
+  protected Integer name = NAME_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFLAG1() <em>FLAG1</em>}' attribute.
@@ -80,7 +80,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected static final int FLAG1_EDEFAULT = 0;
+  protected static final Integer FLAG1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFLAG1() <em>FLAG1</em>}' attribute.
@@ -90,7 +90,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected int flag1 = FLAG1_EDEFAULT;
+  protected Integer flag1 = FLAG1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFLAG2() <em>FLAG2</em>}' attribute.
@@ -100,7 +100,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected static final int FLAG2_EDEFAULT = 0;
+  protected static final Integer FLAG2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFLAG2() <em>FLAG2</em>}' attribute.
@@ -110,7 +110,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected int flag2 = FLAG2_EDEFAULT;
+  protected Integer flag2 = FLAG2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSEGL() <em>SEGL</em>}' attribute.
@@ -120,7 +120,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected static final int SEGL_EDEFAULT = 0;
+  protected static final Integer SEGL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSEGL() <em>SEGL</em>}' attribute.
@@ -130,7 +130,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected int segl = SEGL_EDEFAULT;
+  protected Integer segl = SEGL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPSNAME() <em>PSNAME</em>}' attribute.
@@ -179,7 +179,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public int getLENGTH()
+  public Integer getLENGTH()
   {
     return length;
   }
@@ -190,9 +190,9 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public void setLENGTH(int newLENGTH)
+  public void setLENGTH(Integer newLENGTH)
   {
-    int oldLENGTH = length;
+    Integer oldLENGTH = length;
     length = newLENGTH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BEGIN_SEGMENT_COMMAND__LENGTH, oldLENGTH, length));
@@ -204,7 +204,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public int getNAME()
+  public Integer getNAME()
   {
     return name;
   }
@@ -215,9 +215,9 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public void setNAME(int newNAME)
+  public void setNAME(Integer newNAME)
   {
-    int oldNAME = name;
+    Integer oldNAME = name;
     name = newNAME;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BEGIN_SEGMENT_COMMAND__NAME, oldNAME, name));
@@ -229,7 +229,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public int getFLAG1()
+  public Integer getFLAG1()
   {
     return flag1;
   }
@@ -240,9 +240,9 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public void setFLAG1(int newFLAG1)
+  public void setFLAG1(Integer newFLAG1)
   {
-    int oldFLAG1 = flag1;
+    Integer oldFLAG1 = flag1;
     flag1 = newFLAG1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BEGIN_SEGMENT_COMMAND__FLAG1, oldFLAG1, flag1));
@@ -254,7 +254,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public int getFLAG2()
+  public Integer getFLAG2()
   {
     return flag2;
   }
@@ -265,9 +265,9 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public void setFLAG2(int newFLAG2)
+  public void setFLAG2(Integer newFLAG2)
   {
-    int oldFLAG2 = flag2;
+    Integer oldFLAG2 = flag2;
     flag2 = newFLAG2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BEGIN_SEGMENT_COMMAND__FLAG2, oldFLAG2, flag2));
@@ -279,7 +279,7 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public int getSEGL()
+  public Integer getSEGL()
   {
     return segl;
   }
@@ -290,9 +290,9 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public void setSEGL(int newSEGL)
+  public void setSEGL(Integer newSEGL)
   {
-    int oldSEGL = segl;
+    Integer oldSEGL = segl;
     segl = newSEGL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BEGIN_SEGMENT_COMMAND__SEGL, oldSEGL, segl));
@@ -424,15 +424,15 @@ public class BeginSegmentCommandImpl extends tripletImpl implements BeginSegment
     switch (featureID)
     {
       case AfpTextPackage.BEGIN_SEGMENT_COMMAND__LENGTH:
-        return length != LENGTH_EDEFAULT;
+        return LENGTH_EDEFAULT == null ? length != null : !LENGTH_EDEFAULT.equals(length);
       case AfpTextPackage.BEGIN_SEGMENT_COMMAND__NAME:
-        return name != NAME_EDEFAULT;
+        return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
       case AfpTextPackage.BEGIN_SEGMENT_COMMAND__FLAG1:
-        return flag1 != FLAG1_EDEFAULT;
+        return FLAG1_EDEFAULT == null ? flag1 != null : !FLAG1_EDEFAULT.equals(flag1);
       case AfpTextPackage.BEGIN_SEGMENT_COMMAND__FLAG2:
-        return flag2 != FLAG2_EDEFAULT;
+        return FLAG2_EDEFAULT == null ? flag2 != null : !FLAG2_EDEFAULT.equals(flag2);
       case AfpTextPackage.BEGIN_SEGMENT_COMMAND__SEGL:
-        return segl != SEGL_EDEFAULT;
+        return SEGL_EDEFAULT == null ? segl != null : !SEGL_EDEFAULT.equals(segl);
       case AfpTextPackage.BEGIN_SEGMENT_COMMAND__PSNAME:
         return PSNAME_EDEFAULT == null ? psname != null : !PSNAME_EDEFAULT.equals(psname);
     }

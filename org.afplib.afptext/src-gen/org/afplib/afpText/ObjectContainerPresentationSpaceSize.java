@@ -27,12 +27,12 @@ public interface ObjectContainerPresentationSpaceSize extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PDF Size</em>' attribute.
-   * @see #setPDFSize(int)
+   * @see #setPDFSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectContainerPresentationSpaceSize_PDFSize()
    * @model
    * @generated
    */
-  int getPDFSize();
+  Integer getPDFSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectContainerPresentationSpaceSize#getPDFSize <em>PDF Size</em>}' attribute.
@@ -42,6 +42,6 @@ public interface ObjectContainerPresentationSpaceSize extends triplet
    * @see #getPDFSize()
    * @generated
    */
-  void setPDFSize(int value);
+  void setPDFSize(Integer value);
 
 } // ObjectContainerPresentationSpaceSize

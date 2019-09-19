@@ -29,12 +29,12 @@ public interface ColorFidelity extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Stp Co Ex</em>' attribute.
-   * @see #setStpCoEx(int)
+   * @see #setStpCoEx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorFidelity_StpCoEx()
    * @model
    * @generated
    */
-  int getStpCoEx();
+  Integer getStpCoEx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorFidelity#getStpCoEx <em>Stp Co Ex</em>}' attribute.
@@ -44,19 +44,19 @@ public interface ColorFidelity extends triplet
    * @see #getStpCoEx()
    * @generated
    */
-  void setStpCoEx(int value);
+  void setStpCoEx(Integer value);
 
   /**
    * Returns the value of the '<em><b>Rep Co Ex</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Rep Co Ex</em>' attribute.
-   * @see #setRepCoEx(int)
+   * @see #setRepCoEx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorFidelity_RepCoEx()
    * @model
    * @generated
    */
-  int getRepCoEx();
+  Integer getRepCoEx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorFidelity#getRepCoEx <em>Rep Co Ex</em>}' attribute.
@@ -66,19 +66,19 @@ public interface ColorFidelity extends triplet
    * @see #getRepCoEx()
    * @generated
    */
-  void setRepCoEx(int value);
+  void setRepCoEx(Integer value);
 
   /**
    * Returns the value of the '<em><b>Col Sub</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Col Sub</em>' attribute.
-   * @see #setColSub(int)
+   * @see #setColSub(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorFidelity_ColSub()
    * @model
    * @generated
    */
-  int getColSub();
+  Integer getColSub();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorFidelity#getColSub <em>Col Sub</em>}' attribute.
@@ -88,6 +88,6 @@ public interface ColorFidelity extends triplet
    * @see #getColSub()
    * @generated
    */
-  void setColSub(int value);
+  void setColSub(Integer value);
 
 } // ColorFidelity

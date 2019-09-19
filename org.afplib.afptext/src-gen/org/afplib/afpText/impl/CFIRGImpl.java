@@ -81,7 +81,7 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    * @ordered
    */
-  protected static final int SV_SIZE_EDEFAULT = 0;
+  protected static final Integer SV_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSVSize() <em>SV Size</em>}' attribute.
@@ -91,7 +91,7 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    * @ordered
    */
-  protected int svSize = SV_SIZE_EDEFAULT;
+  protected Integer svSize = SV_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSHScale() <em>SH Scale</em>}' attribute.
@@ -101,7 +101,7 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    * @ordered
    */
-  protected static final int SH_SCALE_EDEFAULT = 0;
+  protected static final Integer SH_SCALE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSHScale() <em>SH Scale</em>}' attribute.
@@ -111,7 +111,7 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    * @ordered
    */
-  protected int shScale = SH_SCALE_EDEFAULT;
+  protected Integer shScale = SH_SCALE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -141,7 +141,7 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    * @ordered
    */
-  protected static final int SECTION_EDEFAULT = 0;
+  protected static final Integer SECTION_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSection() <em>Section</em>}' attribute.
@@ -151,7 +151,7 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    * @ordered
    */
-  protected int section = SECTION_EDEFAULT;
+  protected Integer section = SECTION_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -230,7 +230,7 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    */
   @Override
-  public int getSVSize()
+  public Integer getSVSize()
   {
     return svSize;
   }
@@ -241,9 +241,9 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    */
   @Override
-  public void setSVSize(int newSVSize)
+  public void setSVSize(Integer newSVSize)
   {
-    int oldSVSize = svSize;
+    Integer oldSVSize = svSize;
     svSize = newSVSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CFIRG__SV_SIZE, oldSVSize, svSize));
@@ -255,7 +255,7 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    */
   @Override
-  public int getSHScale()
+  public Integer getSHScale()
   {
     return shScale;
   }
@@ -266,9 +266,9 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    */
   @Override
-  public void setSHScale(int newSHScale)
+  public void setSHScale(Integer newSHScale)
   {
-    int oldSHScale = shScale;
+    Integer oldSHScale = shScale;
     shScale = newSHScale;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CFIRG__SH_SCALE, oldSHScale, shScale));
@@ -305,7 +305,7 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    */
   @Override
-  public int getSection()
+  public Integer getSection()
   {
     return section;
   }
@@ -316,9 +316,9 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
    * @generated
    */
   @Override
-  public void setSection(int newSection)
+  public void setSection(Integer newSection)
   {
-    int oldSection = section;
+    Integer oldSection = section;
     section = newSection;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CFIRG__SECTION, oldSection, section));
@@ -429,13 +429,13 @@ public class CFIRGImpl extends MinimalEObjectImpl.Container implements CFIRG
       case AfpTextPackage.CFIRG__CP_NAME:
         return CP_NAME_EDEFAULT == null ? cpName != null : !CP_NAME_EDEFAULT.equals(cpName);
       case AfpTextPackage.CFIRG__SV_SIZE:
-        return svSize != SV_SIZE_EDEFAULT;
+        return SV_SIZE_EDEFAULT == null ? svSize != null : !SV_SIZE_EDEFAULT.equals(svSize);
       case AfpTextPackage.CFIRG__SH_SCALE:
-        return shScale != SH_SCALE_EDEFAULT;
+        return SH_SCALE_EDEFAULT == null ? shScale != null : !SH_SCALE_EDEFAULT.equals(shScale);
       case AfpTextPackage.CFIRG__RESERVED:
         return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.CFIRG__SECTION:
-        return section != SECTION_EDEFAULT;
+        return SECTION_EDEFAULT == null ? section != null : !SECTION_EDEFAULT.equals(section);
     }
     return super.eIsSet(featureID);
   }

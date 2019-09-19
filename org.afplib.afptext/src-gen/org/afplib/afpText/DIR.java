@@ -29,12 +29,12 @@ public interface DIR extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RLENGTH</em>' attribute.
-   * @see #setRLENGTH(int)
+   * @see #setRLENGTH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDIR_RLENGTH()
    * @model
    * @generated
    */
-  int getRLENGTH();
+  Integer getRLENGTH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DIR#getRLENGTH <em>RLENGTH</em>}' attribute.
@@ -44,19 +44,19 @@ public interface DIR extends triplet
    * @see #getRLENGTH()
    * @generated
    */
-  void setRLENGTH(int value);
+  void setRLENGTH(Integer value);
 
   /**
    * Returns the value of the '<em><b>RWIDTH</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RWIDTH</em>' attribute.
-   * @see #setRWIDTH(int)
+   * @see #setRWIDTH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDIR_RWIDTH()
    * @model
    * @generated
    */
-  int getRWIDTH();
+  Integer getRWIDTH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DIR#getRWIDTH <em>RWIDTH</em>}' attribute.
@@ -66,19 +66,19 @@ public interface DIR extends triplet
    * @see #getRWIDTH()
    * @generated
    */
-  void setRWIDTH(int value);
+  void setRWIDTH(Integer value);
 
   /**
    * Returns the value of the '<em><b>RWIDTHFRACTION</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RWIDTHFRACTION</em>' attribute.
-   * @see #setRWIDTHFRACTION(int)
+   * @see #setRWIDTHFRACTION(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDIR_RWIDTHFRACTION()
    * @model
    * @generated
    */
-  int getRWIDTHFRACTION();
+  Integer getRWIDTHFRACTION();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DIR#getRWIDTHFRACTION <em>RWIDTHFRACTION</em>}' attribute.
@@ -88,6 +88,6 @@ public interface DIR extends triplet
    * @see #getRWIDTHFRACTION()
    * @generated
    */
-  void setRWIDTHFRACTION(int value);
+  void setRWIDTHFRACTION(Integer value);
 
 } // DIR

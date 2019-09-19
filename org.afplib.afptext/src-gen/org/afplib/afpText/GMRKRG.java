@@ -29,12 +29,12 @@ public interface GMRKRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPOS</em>' attribute.
-   * @see #setXPOS(int)
+   * @see #setXPOS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGMRKRG_XPOS()
    * @model
    * @generated
    */
-  int getXPOS();
+  Integer getXPOS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GMRKRG#getXPOS <em>XPOS</em>}' attribute.
@@ -44,19 +44,19 @@ public interface GMRKRG extends EObject
    * @see #getXPOS()
    * @generated
    */
-  void setXPOS(int value);
+  void setXPOS(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPOS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPOS</em>' attribute.
-   * @see #setYPOS(int)
+   * @see #setYPOS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGMRKRG_YPOS()
    * @model
    * @generated
    */
-  int getYPOS();
+  Integer getYPOS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GMRKRG#getYPOS <em>YPOS</em>}' attribute.
@@ -66,6 +66,6 @@ public interface GMRKRG extends EObject
    * @see #getYPOS()
    * @generated
    */
-  void setYPOS(int value);
+  void setYPOS(Integer value);
 
 } // GMRKRG

@@ -36,7 +36,7 @@ public class CGCSGIDImpl extends tripletImpl implements CGCSGID
    * @generated
    * @ordered
    */
-  protected static final int GCSGID_EDEFAULT = 0;
+  protected static final Integer GCSGID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getGCSGID() <em>GCSGID</em>}' attribute.
@@ -46,7 +46,7 @@ public class CGCSGIDImpl extends tripletImpl implements CGCSGID
    * @generated
    * @ordered
    */
-  protected int gcsgid = GCSGID_EDEFAULT;
+  protected Integer gcsgid = GCSGID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCPGID() <em>CPGID</em>}' attribute.
@@ -56,7 +56,7 @@ public class CGCSGIDImpl extends tripletImpl implements CGCSGID
    * @generated
    * @ordered
    */
-  protected static final int CPGID_EDEFAULT = 0;
+  protected static final Integer CPGID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCPGID() <em>CPGID</em>}' attribute.
@@ -66,7 +66,7 @@ public class CGCSGIDImpl extends tripletImpl implements CGCSGID
    * @generated
    * @ordered
    */
-  protected int cpgid = CPGID_EDEFAULT;
+  protected Integer cpgid = CPGID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class CGCSGIDImpl extends tripletImpl implements CGCSGID
    * @generated
    */
   @Override
-  public int getGCSGID()
+  public Integer getGCSGID()
   {
     return gcsgid;
   }
@@ -106,9 +106,9 @@ public class CGCSGIDImpl extends tripletImpl implements CGCSGID
    * @generated
    */
   @Override
-  public void setGCSGID(int newGCSGID)
+  public void setGCSGID(Integer newGCSGID)
   {
-    int oldGCSGID = gcsgid;
+    Integer oldGCSGID = gcsgid;
     gcsgid = newGCSGID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CGCSGID__GCSGID, oldGCSGID, gcsgid));
@@ -120,7 +120,7 @@ public class CGCSGIDImpl extends tripletImpl implements CGCSGID
    * @generated
    */
   @Override
-  public int getCPGID()
+  public Integer getCPGID()
   {
     return cpgid;
   }
@@ -131,9 +131,9 @@ public class CGCSGIDImpl extends tripletImpl implements CGCSGID
    * @generated
    */
   @Override
-  public void setCPGID(int newCPGID)
+  public void setCPGID(Integer newCPGID)
   {
-    int oldCPGID = cpgid;
+    Integer oldCPGID = cpgid;
     cpgid = newCPGID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CGCSGID__CPGID, oldCPGID, cpgid));
@@ -208,9 +208,9 @@ public class CGCSGIDImpl extends tripletImpl implements CGCSGID
     switch (featureID)
     {
       case AfpTextPackage.CGCSGID__GCSGID:
-        return gcsgid != GCSGID_EDEFAULT;
+        return GCSGID_EDEFAULT == null ? gcsgid != null : !GCSGID_EDEFAULT.equals(gcsgid);
       case AfpTextPackage.CGCSGID__CPGID:
-        return cpgid != CPGID_EDEFAULT;
+        return CPGID_EDEFAULT == null ? cpgid != null : !CPGID_EDEFAULT.equals(cpgid);
     }
     return super.eIsSet(featureID);
   }

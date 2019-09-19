@@ -38,7 +38,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    * @ordered
    */
-  protected static final int OBJ_TYPE_EDEFAULT = 0;
+  protected static final Integer OBJ_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObjType() <em>Obj Type</em>}' attribute.
@@ -48,7 +48,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    * @ordered
    */
-  protected int objType = OBJ_TYPE_EDEFAULT;
+  protected Integer objType = OBJ_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getArchVrsn() <em>Arch Vrsn</em>}' attribute.
@@ -58,7 +58,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    * @ordered
    */
-  protected static final int ARCH_VRSN_EDEFAULT = 0;
+  protected static final Integer ARCH_VRSN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getArchVrsn() <em>Arch Vrsn</em>}' attribute.
@@ -68,7 +68,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    * @ordered
    */
-  protected int archVrsn = ARCH_VRSN_EDEFAULT;
+  protected Integer archVrsn = ARCH_VRSN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDCAFnSet() <em>DCA Fn Set</em>}' attribute.
@@ -78,7 +78,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    * @ordered
    */
-  protected static final int DCA_FN_SET_EDEFAULT = 0;
+  protected static final Integer DCA_FN_SET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDCAFnSet() <em>DCA Fn Set</em>}' attribute.
@@ -88,7 +88,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    * @ordered
    */
-  protected int dcaFnSet = DCA_FN_SET_EDEFAULT;
+  protected Integer dcaFnSet = DCA_FN_SET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getOCAFnSet() <em>OCA Fn Set</em>}' attribute.
@@ -98,7 +98,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    * @ordered
    */
-  protected static final int OCA_FN_SET_EDEFAULT = 0;
+  protected static final Integer OCA_FN_SET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getOCAFnSet() <em>OCA Fn Set</em>}' attribute.
@@ -108,7 +108,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    * @ordered
    */
-  protected int ocaFnSet = OCA_FN_SET_EDEFAULT;
+  protected Integer ocaFnSet = OCA_FN_SET_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -137,7 +137,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    */
   @Override
-  public int getObjType()
+  public Integer getObjType()
   {
     return objType;
   }
@@ -148,9 +148,9 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    */
   @Override
-  public void setObjType(int newObjType)
+  public void setObjType(Integer newObjType)
   {
-    int oldObjType = objType;
+    Integer oldObjType = objType;
     objType = newObjType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_FUNCTION_SET_SPECIFICATION__OBJ_TYPE, oldObjType, objType));
@@ -162,7 +162,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    */
   @Override
-  public int getArchVrsn()
+  public Integer getArchVrsn()
   {
     return archVrsn;
   }
@@ -173,9 +173,9 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    */
   @Override
-  public void setArchVrsn(int newArchVrsn)
+  public void setArchVrsn(Integer newArchVrsn)
   {
-    int oldArchVrsn = archVrsn;
+    Integer oldArchVrsn = archVrsn;
     archVrsn = newArchVrsn;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_FUNCTION_SET_SPECIFICATION__ARCH_VRSN, oldArchVrsn, archVrsn));
@@ -187,7 +187,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    */
   @Override
-  public int getDCAFnSet()
+  public Integer getDCAFnSet()
   {
     return dcaFnSet;
   }
@@ -198,9 +198,9 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    */
   @Override
-  public void setDCAFnSet(int newDCAFnSet)
+  public void setDCAFnSet(Integer newDCAFnSet)
   {
-    int oldDCAFnSet = dcaFnSet;
+    Integer oldDCAFnSet = dcaFnSet;
     dcaFnSet = newDCAFnSet;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_FUNCTION_SET_SPECIFICATION__DCA_FN_SET, oldDCAFnSet, dcaFnSet));
@@ -212,7 +212,7 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    */
   @Override
-  public int getOCAFnSet()
+  public Integer getOCAFnSet()
   {
     return ocaFnSet;
   }
@@ -223,9 +223,9 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
    * @generated
    */
   @Override
-  public void setOCAFnSet(int newOCAFnSet)
+  public void setOCAFnSet(Integer newOCAFnSet)
   {
-    int oldOCAFnSet = ocaFnSet;
+    Integer oldOCAFnSet = ocaFnSet;
     ocaFnSet = newOCAFnSet;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_FUNCTION_SET_SPECIFICATION__OCA_FN_SET, oldOCAFnSet, ocaFnSet));
@@ -316,13 +316,13 @@ public class ObjectFunctionSetSpecificationImpl extends tripletImpl implements O
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_FUNCTION_SET_SPECIFICATION__OBJ_TYPE:
-        return objType != OBJ_TYPE_EDEFAULT;
+        return OBJ_TYPE_EDEFAULT == null ? objType != null : !OBJ_TYPE_EDEFAULT.equals(objType);
       case AfpTextPackage.OBJECT_FUNCTION_SET_SPECIFICATION__ARCH_VRSN:
-        return archVrsn != ARCH_VRSN_EDEFAULT;
+        return ARCH_VRSN_EDEFAULT == null ? archVrsn != null : !ARCH_VRSN_EDEFAULT.equals(archVrsn);
       case AfpTextPackage.OBJECT_FUNCTION_SET_SPECIFICATION__DCA_FN_SET:
-        return dcaFnSet != DCA_FN_SET_EDEFAULT;
+        return DCA_FN_SET_EDEFAULT == null ? dcaFnSet != null : !DCA_FN_SET_EDEFAULT.equals(dcaFnSet);
       case AfpTextPackage.OBJECT_FUNCTION_SET_SPECIFICATION__OCA_FN_SET:
-        return ocaFnSet != OCA_FN_SET_EDEFAULT;
+        return OCA_FN_SET_EDEFAULT == null ? ocaFnSet != null : !OCA_FN_SET_EDEFAULT.equals(ocaFnSet);
     }
     return super.eIsSet(featureID);
   }

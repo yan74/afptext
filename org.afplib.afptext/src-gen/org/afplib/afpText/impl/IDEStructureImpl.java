@@ -40,7 +40,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected static final int FLAGS_EDEFAULT = 0;
+  protected static final Integer FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFLAGS() <em>FLAGS</em>}' attribute.
@@ -50,7 +50,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected int flags = FLAGS_EDEFAULT;
+  protected Integer flags = FLAGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFORMAT() <em>FORMAT</em>}' attribute.
@@ -60,7 +60,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected static final int FORMAT_EDEFAULT = 0;
+  protected static final Integer FORMAT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFORMAT() <em>FORMAT</em>}' attribute.
@@ -70,7 +70,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected int format = FORMAT_EDEFAULT;
+  protected Integer format = FORMAT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSIZE1() <em>SIZE1</em>}' attribute.
@@ -80,7 +80,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected static final int SIZE1_EDEFAULT = 0;
+  protected static final Integer SIZE1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSIZE1() <em>SIZE1</em>}' attribute.
@@ -90,7 +90,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected int size1 = SIZE1_EDEFAULT;
+  protected Integer size1 = SIZE1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSIZE2() <em>SIZE2</em>}' attribute.
@@ -100,7 +100,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected static final int SIZE2_EDEFAULT = 0;
+  protected static final Integer SIZE2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSIZE2() <em>SIZE2</em>}' attribute.
@@ -110,7 +110,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected int size2 = SIZE2_EDEFAULT;
+  protected Integer size2 = SIZE2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSIZE3() <em>SIZE3</em>}' attribute.
@@ -120,7 +120,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected static final int SIZE3_EDEFAULT = 0;
+  protected static final Integer SIZE3_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSIZE3() <em>SIZE3</em>}' attribute.
@@ -130,7 +130,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected int size3 = SIZE3_EDEFAULT;
+  protected Integer size3 = SIZE3_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSIZE4() <em>SIZE4</em>}' attribute.
@@ -140,7 +140,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected static final int SIZE4_EDEFAULT = 0;
+  protected static final Integer SIZE4_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSIZE4() <em>SIZE4</em>}' attribute.
@@ -150,7 +150,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    * @ordered
    */
-  protected int size4 = SIZE4_EDEFAULT;
+  protected Integer size4 = SIZE4_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -179,7 +179,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public int getFLAGS()
+  public Integer getFLAGS()
   {
     return flags;
   }
@@ -190,9 +190,9 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public void setFLAGS(int newFLAGS)
+  public void setFLAGS(Integer newFLAGS)
   {
-    int oldFLAGS = flags;
+    Integer oldFLAGS = flags;
     flags = newFLAGS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDE_STRUCTURE__FLAGS, oldFLAGS, flags));
@@ -204,7 +204,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public int getFORMAT()
+  public Integer getFORMAT()
   {
     return format;
   }
@@ -215,9 +215,9 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public void setFORMAT(int newFORMAT)
+  public void setFORMAT(Integer newFORMAT)
   {
-    int oldFORMAT = format;
+    Integer oldFORMAT = format;
     format = newFORMAT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDE_STRUCTURE__FORMAT, oldFORMAT, format));
@@ -229,7 +229,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public int getSIZE1()
+  public Integer getSIZE1()
   {
     return size1;
   }
@@ -240,9 +240,9 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public void setSIZE1(int newSIZE1)
+  public void setSIZE1(Integer newSIZE1)
   {
-    int oldSIZE1 = size1;
+    Integer oldSIZE1 = size1;
     size1 = newSIZE1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDE_STRUCTURE__SIZE1, oldSIZE1, size1));
@@ -254,7 +254,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public int getSIZE2()
+  public Integer getSIZE2()
   {
     return size2;
   }
@@ -265,9 +265,9 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public void setSIZE2(int newSIZE2)
+  public void setSIZE2(Integer newSIZE2)
   {
-    int oldSIZE2 = size2;
+    Integer oldSIZE2 = size2;
     size2 = newSIZE2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDE_STRUCTURE__SIZE2, oldSIZE2, size2));
@@ -279,7 +279,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public int getSIZE3()
+  public Integer getSIZE3()
   {
     return size3;
   }
@@ -290,9 +290,9 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public void setSIZE3(int newSIZE3)
+  public void setSIZE3(Integer newSIZE3)
   {
-    int oldSIZE3 = size3;
+    Integer oldSIZE3 = size3;
     size3 = newSIZE3;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDE_STRUCTURE__SIZE3, oldSIZE3, size3));
@@ -304,7 +304,7 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public int getSIZE4()
+  public Integer getSIZE4()
   {
     return size4;
   }
@@ -315,9 +315,9 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
    * @generated
    */
   @Override
-  public void setSIZE4(int newSIZE4)
+  public void setSIZE4(Integer newSIZE4)
   {
-    int oldSIZE4 = size4;
+    Integer oldSIZE4 = size4;
     size4 = newSIZE4;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IDE_STRUCTURE__SIZE4, oldSIZE4, size4));
@@ -424,17 +424,17 @@ public class IDEStructureImpl extends tripletImpl implements IDEStructure
     switch (featureID)
     {
       case AfpTextPackage.IDE_STRUCTURE__FLAGS:
-        return flags != FLAGS_EDEFAULT;
+        return FLAGS_EDEFAULT == null ? flags != null : !FLAGS_EDEFAULT.equals(flags);
       case AfpTextPackage.IDE_STRUCTURE__FORMAT:
-        return format != FORMAT_EDEFAULT;
+        return FORMAT_EDEFAULT == null ? format != null : !FORMAT_EDEFAULT.equals(format);
       case AfpTextPackage.IDE_STRUCTURE__SIZE1:
-        return size1 != SIZE1_EDEFAULT;
+        return SIZE1_EDEFAULT == null ? size1 != null : !SIZE1_EDEFAULT.equals(size1);
       case AfpTextPackage.IDE_STRUCTURE__SIZE2:
-        return size2 != SIZE2_EDEFAULT;
+        return SIZE2_EDEFAULT == null ? size2 != null : !SIZE2_EDEFAULT.equals(size2);
       case AfpTextPackage.IDE_STRUCTURE__SIZE3:
-        return size3 != SIZE3_EDEFAULT;
+        return SIZE3_EDEFAULT == null ? size3 != null : !SIZE3_EDEFAULT.equals(size3);
       case AfpTextPackage.IDE_STRUCTURE__SIZE4:
-        return size4 != SIZE4_EDEFAULT;
+        return SIZE4_EDEFAULT == null ? size4 != null : !SIZE4_EDEFAULT.equals(size4);
     }
     return super.eIsSet(featureID);
   }

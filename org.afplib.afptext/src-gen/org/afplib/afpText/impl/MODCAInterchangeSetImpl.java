@@ -36,7 +36,7 @@ public class MODCAInterchangeSetImpl extends tripletImpl implements MODCAInterch
    * @generated
    * @ordered
    */
-  protected static final int ISTYPE_EDEFAULT = 0;
+  protected static final Integer ISTYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getIStype() <em>IStype</em>}' attribute.
@@ -46,7 +46,7 @@ public class MODCAInterchangeSetImpl extends tripletImpl implements MODCAInterch
    * @generated
    * @ordered
    */
-  protected int iStype = ISTYPE_EDEFAULT;
+  protected Integer iStype = ISTYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getISid() <em>ISid</em>}' attribute.
@@ -56,7 +56,7 @@ public class MODCAInterchangeSetImpl extends tripletImpl implements MODCAInterch
    * @generated
    * @ordered
    */
-  protected static final int ISID_EDEFAULT = 0;
+  protected static final Integer ISID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getISid() <em>ISid</em>}' attribute.
@@ -66,7 +66,7 @@ public class MODCAInterchangeSetImpl extends tripletImpl implements MODCAInterch
    * @generated
    * @ordered
    */
-  protected int iSid = ISID_EDEFAULT;
+  protected Integer iSid = ISID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class MODCAInterchangeSetImpl extends tripletImpl implements MODCAInterch
    * @generated
    */
   @Override
-  public int getIStype()
+  public Integer getIStype()
   {
     return iStype;
   }
@@ -106,9 +106,9 @@ public class MODCAInterchangeSetImpl extends tripletImpl implements MODCAInterch
    * @generated
    */
   @Override
-  public void setIStype(int newIStype)
+  public void setIStype(Integer newIStype)
   {
-    int oldIStype = iStype;
+    Integer oldIStype = iStype;
     iStype = newIStype;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MODCA_INTERCHANGE_SET__ISTYPE, oldIStype, iStype));
@@ -120,7 +120,7 @@ public class MODCAInterchangeSetImpl extends tripletImpl implements MODCAInterch
    * @generated
    */
   @Override
-  public int getISid()
+  public Integer getISid()
   {
     return iSid;
   }
@@ -131,9 +131,9 @@ public class MODCAInterchangeSetImpl extends tripletImpl implements MODCAInterch
    * @generated
    */
   @Override
-  public void setISid(int newISid)
+  public void setISid(Integer newISid)
   {
-    int oldISid = iSid;
+    Integer oldISid = iSid;
     iSid = newISid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MODCA_INTERCHANGE_SET__ISID, oldISid, iSid));
@@ -208,9 +208,9 @@ public class MODCAInterchangeSetImpl extends tripletImpl implements MODCAInterch
     switch (featureID)
     {
       case AfpTextPackage.MODCA_INTERCHANGE_SET__ISTYPE:
-        return iStype != ISTYPE_EDEFAULT;
+        return ISTYPE_EDEFAULT == null ? iStype != null : !ISTYPE_EDEFAULT.equals(iStype);
       case AfpTextPackage.MODCA_INTERCHANGE_SET__ISID:
-        return iSid != ISID_EDEFAULT;
+        return ISID_EDEFAULT == null ? iSid != null : !ISID_EDEFAULT.equals(iSid);
     }
     return super.eIsSet(featureID);
   }

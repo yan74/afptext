@@ -33,12 +33,12 @@ public interface GBOX extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RES</em>' attribute.
-   * @see #setRES(int)
+   * @see #setRES(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBOX_RES()
    * @model
    * @generated
    */
-  int getRES();
+  Integer getRES();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBOX#getRES <em>RES</em>}' attribute.
@@ -48,19 +48,19 @@ public interface GBOX extends triplet
    * @see #getRES()
    * @generated
    */
-  void setRES(int value);
+  void setRES(Integer value);
 
   /**
    * Returns the value of the '<em><b>XPOS0</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPOS0</em>' attribute.
-   * @see #setXPOS0(int)
+   * @see #setXPOS0(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBOX_XPOS0()
    * @model
    * @generated
    */
-  int getXPOS0();
+  Integer getXPOS0();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBOX#getXPOS0 <em>XPOS0</em>}' attribute.
@@ -70,19 +70,19 @@ public interface GBOX extends triplet
    * @see #getXPOS0()
    * @generated
    */
-  void setXPOS0(int value);
+  void setXPOS0(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPOS0</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPOS0</em>' attribute.
-   * @see #setYPOS0(int)
+   * @see #setYPOS0(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBOX_YPOS0()
    * @model
    * @generated
    */
-  int getYPOS0();
+  Integer getYPOS0();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBOX#getYPOS0 <em>YPOS0</em>}' attribute.
@@ -92,19 +92,19 @@ public interface GBOX extends triplet
    * @see #getYPOS0()
    * @generated
    */
-  void setYPOS0(int value);
+  void setYPOS0(Integer value);
 
   /**
    * Returns the value of the '<em><b>XPOS1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPOS1</em>' attribute.
-   * @see #setXPOS1(int)
+   * @see #setXPOS1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBOX_XPOS1()
    * @model
    * @generated
    */
-  int getXPOS1();
+  Integer getXPOS1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBOX#getXPOS1 <em>XPOS1</em>}' attribute.
@@ -114,19 +114,19 @@ public interface GBOX extends triplet
    * @see #getXPOS1()
    * @generated
    */
-  void setXPOS1(int value);
+  void setXPOS1(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPOS1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPOS1</em>' attribute.
-   * @see #setYPOS1(int)
+   * @see #setYPOS1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBOX_YPOS1()
    * @model
    * @generated
    */
-  int getYPOS1();
+  Integer getYPOS1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBOX#getYPOS1 <em>YPOS1</em>}' attribute.
@@ -136,19 +136,19 @@ public interface GBOX extends triplet
    * @see #getYPOS1()
    * @generated
    */
-  void setYPOS1(int value);
+  void setYPOS1(Integer value);
 
   /**
    * Returns the value of the '<em><b>HAXIS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HAXIS</em>' attribute.
-   * @see #setHAXIS(int)
+   * @see #setHAXIS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBOX_HAXIS()
    * @model
    * @generated
    */
-  int getHAXIS();
+  Integer getHAXIS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBOX#getHAXIS <em>HAXIS</em>}' attribute.
@@ -158,19 +158,19 @@ public interface GBOX extends triplet
    * @see #getHAXIS()
    * @generated
    */
-  void setHAXIS(int value);
+  void setHAXIS(Integer value);
 
   /**
    * Returns the value of the '<em><b>VAXIS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VAXIS</em>' attribute.
-   * @see #setVAXIS(int)
+   * @see #setVAXIS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGBOX_VAXIS()
    * @model
    * @generated
    */
-  int getVAXIS();
+  Integer getVAXIS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GBOX#getVAXIS <em>VAXIS</em>}' attribute.
@@ -180,6 +180,6 @@ public interface GBOX extends triplet
    * @see #getVAXIS()
    * @generated
    */
-  void setVAXIS(int value);
+  void setVAXIS(Integer value);
 
 } // GBOX

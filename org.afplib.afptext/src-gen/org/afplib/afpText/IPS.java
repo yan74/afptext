@@ -53,12 +53,12 @@ public interface IPS extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xps Oset</em>' attribute.
-   * @see #setXpsOset(int)
+   * @see #setXpsOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIPS_XpsOset()
    * @model
    * @generated
    */
-  int getXpsOset();
+  Integer getXpsOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IPS#getXpsOset <em>Xps Oset</em>}' attribute.
@@ -68,19 +68,19 @@ public interface IPS extends structuredField
    * @see #getXpsOset()
    * @generated
    */
-  void setXpsOset(int value);
+  void setXpsOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yps Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yps Oset</em>' attribute.
-   * @see #setYpsOset(int)
+   * @see #setYpsOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIPS_YpsOset()
    * @model
    * @generated
    */
-  int getYpsOset();
+  Integer getYpsOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IPS#getYpsOset <em>Yps Oset</em>}' attribute.
@@ -90,7 +90,7 @@ public interface IPS extends structuredField
    * @see #getYpsOset()
    * @generated
    */
-  void setYpsOset(int value);
+  void setYpsOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

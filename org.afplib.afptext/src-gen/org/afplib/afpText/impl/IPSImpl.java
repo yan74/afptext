@@ -68,7 +68,7 @@ public class IPSImpl extends structuredFieldImpl implements IPS
    * @generated
    * @ordered
    */
-  protected static final int XPS_OSET_EDEFAULT = 0;
+  protected static final Integer XPS_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXpsOset() <em>Xps Oset</em>}' attribute.
@@ -78,7 +78,7 @@ public class IPSImpl extends structuredFieldImpl implements IPS
    * @generated
    * @ordered
    */
-  protected int xpsOset = XPS_OSET_EDEFAULT;
+  protected Integer xpsOset = XPS_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYpsOset() <em>Yps Oset</em>}' attribute.
@@ -88,7 +88,7 @@ public class IPSImpl extends structuredFieldImpl implements IPS
    * @generated
    * @ordered
    */
-  protected static final int YPS_OSET_EDEFAULT = 0;
+  protected static final Integer YPS_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYpsOset() <em>Yps Oset</em>}' attribute.
@@ -98,7 +98,7 @@ public class IPSImpl extends structuredFieldImpl implements IPS
    * @generated
    * @ordered
    */
-  protected int ypsOset = YPS_OSET_EDEFAULT;
+  protected Integer ypsOset = YPS_OSET_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -162,7 +162,7 @@ public class IPSImpl extends structuredFieldImpl implements IPS
    * @generated
    */
   @Override
-  public int getXpsOset()
+  public Integer getXpsOset()
   {
     return xpsOset;
   }
@@ -173,9 +173,9 @@ public class IPSImpl extends structuredFieldImpl implements IPS
    * @generated
    */
   @Override
-  public void setXpsOset(int newXpsOset)
+  public void setXpsOset(Integer newXpsOset)
   {
-    int oldXpsOset = xpsOset;
+    Integer oldXpsOset = xpsOset;
     xpsOset = newXpsOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IPS__XPS_OSET, oldXpsOset, xpsOset));
@@ -187,7 +187,7 @@ public class IPSImpl extends structuredFieldImpl implements IPS
    * @generated
    */
   @Override
-  public int getYpsOset()
+  public Integer getYpsOset()
   {
     return ypsOset;
   }
@@ -198,9 +198,9 @@ public class IPSImpl extends structuredFieldImpl implements IPS
    * @generated
    */
   @Override
-  public void setYpsOset(int newYpsOset)
+  public void setYpsOset(Integer newYpsOset)
   {
-    int oldYpsOset = ypsOset;
+    Integer oldYpsOset = ypsOset;
     ypsOset = newYpsOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IPS__YPS_OSET, oldYpsOset, ypsOset));
@@ -326,9 +326,9 @@ public class IPSImpl extends structuredFieldImpl implements IPS
       case AfpTextPackage.IPS__PSEG_NAME:
         return PSEG_NAME_EDEFAULT == null ? psegName != null : !PSEG_NAME_EDEFAULT.equals(psegName);
       case AfpTextPackage.IPS__XPS_OSET:
-        return xpsOset != XPS_OSET_EDEFAULT;
+        return XPS_OSET_EDEFAULT == null ? xpsOset != null : !XPS_OSET_EDEFAULT.equals(xpsOset);
       case AfpTextPackage.IPS__YPS_OSET:
-        return ypsOset != YPS_OSET_EDEFAULT;
+        return YPS_OSET_EDEFAULT == null ? ypsOset != null : !YPS_OSET_EDEFAULT.equals(ypsOset);
       case AfpTextPackage.IPS__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

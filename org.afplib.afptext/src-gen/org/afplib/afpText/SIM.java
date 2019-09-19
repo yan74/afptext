@@ -27,12 +27,12 @@ public interface SIM extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>DSPLCMNT</em>' attribute.
-   * @see #setDSPLCMNT(int)
+   * @see #setDSPLCMNT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSIM_DSPLCMNT()
    * @model
    * @generated
    */
-  int getDSPLCMNT();
+  Integer getDSPLCMNT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SIM#getDSPLCMNT <em>DSPLCMNT</em>}' attribute.
@@ -42,6 +42,6 @@ public interface SIM extends triplet
    * @see #getDSPLCMNT()
    * @generated
    */
-  void setDSPLCMNT(int value);
+  void setDSPLCMNT(Integer value);
 
 } // SIM

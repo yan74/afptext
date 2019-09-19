@@ -29,12 +29,12 @@ public interface SetBiLevelImageColor extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>AREA</em>' attribute.
-   * @see #setAREA(int)
+   * @see #setAREA(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSetBiLevelImageColor_AREA()
    * @model
    * @generated
    */
-  int getAREA();
+  Integer getAREA();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SetBiLevelImageColor#getAREA <em>AREA</em>}' attribute.
@@ -44,7 +44,7 @@ public interface SetBiLevelImageColor extends triplet
    * @see #getAREA()
    * @generated
    */
-  void setAREA(int value);
+  void setAREA(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved</b></em>' attribute.
@@ -73,12 +73,12 @@ public interface SetBiLevelImageColor extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>NAMECOLR</em>' attribute.
-   * @see #setNAMECOLR(int)
+   * @see #setNAMECOLR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSetBiLevelImageColor_NAMECOLR()
    * @model
    * @generated
    */
-  int getNAMECOLR();
+  Integer getNAMECOLR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.SetBiLevelImageColor#getNAMECOLR <em>NAMECOLR</em>}' attribute.
@@ -88,6 +88,6 @@ public interface SetBiLevelImageColor extends triplet
    * @see #getNAMECOLR()
    * @generated
    */
-  void setNAMECOLR(int value);
+  void setNAMECOLR(Integer value);
 
 } // SetBiLevelImageColor

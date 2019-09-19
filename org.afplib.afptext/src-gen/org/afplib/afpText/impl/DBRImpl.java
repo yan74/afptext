@@ -37,7 +37,7 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    * @ordered
    */
-  protected static final int RLENGTH_EDEFAULT = 0;
+  protected static final Integer RLENGTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRLENGTH() <em>RLENGTH</em>}' attribute.
@@ -47,7 +47,7 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    * @ordered
    */
-  protected int rlength = RLENGTH_EDEFAULT;
+  protected Integer rlength = RLENGTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRWIDTH() <em>RWIDTH</em>}' attribute.
@@ -57,7 +57,7 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    * @ordered
    */
-  protected static final int RWIDTH_EDEFAULT = 0;
+  protected static final Integer RWIDTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRWIDTH() <em>RWIDTH</em>}' attribute.
@@ -67,7 +67,7 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    * @ordered
    */
-  protected int rwidth = RWIDTH_EDEFAULT;
+  protected Integer rwidth = RWIDTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRWIDTHFRACTION() <em>RWIDTHFRACTION</em>}' attribute.
@@ -77,7 +77,7 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    * @ordered
    */
-  protected static final int RWIDTHFRACTION_EDEFAULT = 0;
+  protected static final Integer RWIDTHFRACTION_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRWIDTHFRACTION() <em>RWIDTHFRACTION</em>}' attribute.
@@ -87,7 +87,7 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    * @ordered
    */
-  protected int rwidthfraction = RWIDTHFRACTION_EDEFAULT;
+  protected Integer rwidthfraction = RWIDTHFRACTION_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    */
   @Override
-  public int getRLENGTH()
+  public Integer getRLENGTH()
   {
     return rlength;
   }
@@ -127,9 +127,9 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    */
   @Override
-  public void setRLENGTH(int newRLENGTH)
+  public void setRLENGTH(Integer newRLENGTH)
   {
-    int oldRLENGTH = rlength;
+    Integer oldRLENGTH = rlength;
     rlength = newRLENGTH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DBR__RLENGTH, oldRLENGTH, rlength));
@@ -141,7 +141,7 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    */
   @Override
-  public int getRWIDTH()
+  public Integer getRWIDTH()
   {
     return rwidth;
   }
@@ -152,9 +152,9 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    */
   @Override
-  public void setRWIDTH(int newRWIDTH)
+  public void setRWIDTH(Integer newRWIDTH)
   {
-    int oldRWIDTH = rwidth;
+    Integer oldRWIDTH = rwidth;
     rwidth = newRWIDTH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DBR__RWIDTH, oldRWIDTH, rwidth));
@@ -166,7 +166,7 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    */
   @Override
-  public int getRWIDTHFRACTION()
+  public Integer getRWIDTHFRACTION()
   {
     return rwidthfraction;
   }
@@ -177,9 +177,9 @@ public class DBRImpl extends tripletImpl implements DBR
    * @generated
    */
   @Override
-  public void setRWIDTHFRACTION(int newRWIDTHFRACTION)
+  public void setRWIDTHFRACTION(Integer newRWIDTHFRACTION)
   {
-    int oldRWIDTHFRACTION = rwidthfraction;
+    Integer oldRWIDTHFRACTION = rwidthfraction;
     rwidthfraction = newRWIDTHFRACTION;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DBR__RWIDTHFRACTION, oldRWIDTHFRACTION, rwidthfraction));
@@ -262,11 +262,11 @@ public class DBRImpl extends tripletImpl implements DBR
     switch (featureID)
     {
       case AfpTextPackage.DBR__RLENGTH:
-        return rlength != RLENGTH_EDEFAULT;
+        return RLENGTH_EDEFAULT == null ? rlength != null : !RLENGTH_EDEFAULT.equals(rlength);
       case AfpTextPackage.DBR__RWIDTH:
-        return rwidth != RWIDTH_EDEFAULT;
+        return RWIDTH_EDEFAULT == null ? rwidth != null : !RWIDTH_EDEFAULT.equals(rwidth);
       case AfpTextPackage.DBR__RWIDTHFRACTION:
-        return rwidthfraction != RWIDTHFRACTION_EDEFAULT;
+        return RWIDTHFRACTION_EDEFAULT == null ? rwidthfraction != null : !RWIDTHFRACTION_EDEFAULT.equals(rwidthfraction);
     }
     return super.eIsSet(featureID);
   }

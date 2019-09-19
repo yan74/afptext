@@ -35,7 +35,7 @@ public class BeginSegmentImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected static final int SEGNAME_EDEFAULT = 0;
+  protected static final Integer SEGNAME_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSEGNAME() <em>SEGNAME</em>}' attribute.
@@ -45,7 +45,7 @@ public class BeginSegmentImpl extends tripletImpl implements BeginSegment
    * @generated
    * @ordered
    */
-  protected int segname = SEGNAME_EDEFAULT;
+  protected Integer segname = SEGNAME_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class BeginSegmentImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public int getSEGNAME()
+  public Integer getSEGNAME()
   {
     return segname;
   }
@@ -85,9 +85,9 @@ public class BeginSegmentImpl extends tripletImpl implements BeginSegment
    * @generated
    */
   @Override
-  public void setSEGNAME(int newSEGNAME)
+  public void setSEGNAME(Integer newSEGNAME)
   {
-    int oldSEGNAME = segname;
+    Integer oldSEGNAME = segname;
     segname = newSEGNAME;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BEGIN_SEGMENT__SEGNAME, oldSEGNAME, segname));
@@ -154,7 +154,7 @@ public class BeginSegmentImpl extends tripletImpl implements BeginSegment
     switch (featureID)
     {
       case AfpTextPackage.BEGIN_SEGMENT__SEGNAME:
-        return segname != SEGNAME_EDEFAULT;
+        return SEGNAME_EDEFAULT == null ? segname != null : !SEGNAME_EDEFAULT.equals(segname);
     }
     return super.eIsSet(featureID);
   }

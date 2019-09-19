@@ -51,7 +51,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected static final int XOC_BASE_EDEFAULT = 0;
+  protected static final Integer XOC_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXocBase() <em>Xoc Base</em>}' attribute.
@@ -61,7 +61,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected int xocBase = XOC_BASE_EDEFAULT;
+  protected Integer xocBase = XOC_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYocBase() <em>Yoc Base</em>}' attribute.
@@ -71,7 +71,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected static final int YOC_BASE_EDEFAULT = 0;
+  protected static final Integer YOC_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYocBase() <em>Yoc Base</em>}' attribute.
@@ -81,7 +81,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected int yocBase = YOC_BASE_EDEFAULT;
+  protected Integer yocBase = YOC_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXocUnits() <em>Xoc Units</em>}' attribute.
@@ -91,7 +91,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected static final int XOC_UNITS_EDEFAULT = 0;
+  protected static final Integer XOC_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXocUnits() <em>Xoc Units</em>}' attribute.
@@ -101,7 +101,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected int xocUnits = XOC_UNITS_EDEFAULT;
+  protected Integer xocUnits = XOC_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYocUnits() <em>Yoc Units</em>}' attribute.
@@ -111,7 +111,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected static final int YOC_UNITS_EDEFAULT = 0;
+  protected static final Integer YOC_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYocUnits() <em>Yoc Units</em>}' attribute.
@@ -121,7 +121,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected int yocUnits = YOC_UNITS_EDEFAULT;
+  protected Integer yocUnits = YOC_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXocSize() <em>Xoc Size</em>}' attribute.
@@ -131,7 +131,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected static final int XOC_SIZE_EDEFAULT = 0;
+  protected static final Integer XOC_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXocSize() <em>Xoc Size</em>}' attribute.
@@ -141,7 +141,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected int xocSize = XOC_SIZE_EDEFAULT;
+  protected Integer xocSize = XOC_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYocSize() <em>Yoc Size</em>}' attribute.
@@ -151,7 +151,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected static final int YOC_SIZE_EDEFAULT = 0;
+  protected static final Integer YOC_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYocSize() <em>Yoc Size</em>}' attribute.
@@ -161,7 +161,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    * @ordered
    */
-  protected int yocSize = YOC_SIZE_EDEFAULT;
+  protected Integer yocSize = YOC_SIZE_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -200,7 +200,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public int getXocBase()
+  public Integer getXocBase()
   {
     return xocBase;
   }
@@ -211,9 +211,9 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public void setXocBase(int newXocBase)
+  public void setXocBase(Integer newXocBase)
   {
-    int oldXocBase = xocBase;
+    Integer oldXocBase = xocBase;
     xocBase = newXocBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CDD__XOC_BASE, oldXocBase, xocBase));
@@ -225,7 +225,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public int getYocBase()
+  public Integer getYocBase()
   {
     return yocBase;
   }
@@ -236,9 +236,9 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public void setYocBase(int newYocBase)
+  public void setYocBase(Integer newYocBase)
   {
-    int oldYocBase = yocBase;
+    Integer oldYocBase = yocBase;
     yocBase = newYocBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CDD__YOC_BASE, oldYocBase, yocBase));
@@ -250,7 +250,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public int getXocUnits()
+  public Integer getXocUnits()
   {
     return xocUnits;
   }
@@ -261,9 +261,9 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public void setXocUnits(int newXocUnits)
+  public void setXocUnits(Integer newXocUnits)
   {
-    int oldXocUnits = xocUnits;
+    Integer oldXocUnits = xocUnits;
     xocUnits = newXocUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CDD__XOC_UNITS, oldXocUnits, xocUnits));
@@ -275,7 +275,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public int getYocUnits()
+  public Integer getYocUnits()
   {
     return yocUnits;
   }
@@ -286,9 +286,9 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public void setYocUnits(int newYocUnits)
+  public void setYocUnits(Integer newYocUnits)
   {
-    int oldYocUnits = yocUnits;
+    Integer oldYocUnits = yocUnits;
     yocUnits = newYocUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CDD__YOC_UNITS, oldYocUnits, yocUnits));
@@ -300,7 +300,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public int getXocSize()
+  public Integer getXocSize()
   {
     return xocSize;
   }
@@ -311,9 +311,9 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public void setXocSize(int newXocSize)
+  public void setXocSize(Integer newXocSize)
   {
-    int oldXocSize = xocSize;
+    Integer oldXocSize = xocSize;
     xocSize = newXocSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CDD__XOC_SIZE, oldXocSize, xocSize));
@@ -325,7 +325,7 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public int getYocSize()
+  public Integer getYocSize()
   {
     return yocSize;
   }
@@ -336,9 +336,9 @@ public class CDDImpl extends structuredFieldImpl implements CDD
    * @generated
    */
   @Override
-  public void setYocSize(int newYocSize)
+  public void setYocSize(Integer newYocSize)
   {
-    int oldYocSize = yocSize;
+    Integer oldYocSize = yocSize;
     yocSize = newYocSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CDD__YOC_SIZE, oldYocSize, yocSize));
@@ -486,17 +486,17 @@ public class CDDImpl extends structuredFieldImpl implements CDD
     switch (featureID)
     {
       case AfpTextPackage.CDD__XOC_BASE:
-        return xocBase != XOC_BASE_EDEFAULT;
+        return XOC_BASE_EDEFAULT == null ? xocBase != null : !XOC_BASE_EDEFAULT.equals(xocBase);
       case AfpTextPackage.CDD__YOC_BASE:
-        return yocBase != YOC_BASE_EDEFAULT;
+        return YOC_BASE_EDEFAULT == null ? yocBase != null : !YOC_BASE_EDEFAULT.equals(yocBase);
       case AfpTextPackage.CDD__XOC_UNITS:
-        return xocUnits != XOC_UNITS_EDEFAULT;
+        return XOC_UNITS_EDEFAULT == null ? xocUnits != null : !XOC_UNITS_EDEFAULT.equals(xocUnits);
       case AfpTextPackage.CDD__YOC_UNITS:
-        return yocUnits != YOC_UNITS_EDEFAULT;
+        return YOC_UNITS_EDEFAULT == null ? yocUnits != null : !YOC_UNITS_EDEFAULT.equals(yocUnits);
       case AfpTextPackage.CDD__XOC_SIZE:
-        return xocSize != XOC_SIZE_EDEFAULT;
+        return XOC_SIZE_EDEFAULT == null ? xocSize != null : !XOC_SIZE_EDEFAULT.equals(xocSize);
       case AfpTextPackage.CDD__YOC_SIZE:
-        return yocSize != YOC_SIZE_EDEFAULT;
+        return YOC_SIZE_EDEFAULT == null ? yocSize != null : !YOC_SIZE_EDEFAULT.equals(yocSize);
       case AfpTextPackage.CDD__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

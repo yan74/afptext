@@ -28,12 +28,12 @@ public interface DeviceAppearance extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Dev App</em>' attribute.
-   * @see #setDevApp(int)
+   * @see #setDevApp(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDeviceAppearance_DevApp()
    * @model
    * @generated
    */
-  int getDevApp();
+  Integer getDevApp();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DeviceAppearance#getDevApp <em>Dev App</em>}' attribute.
@@ -43,7 +43,7 @@ public interface DeviceAppearance extends triplet
    * @see #getDevApp()
    * @generated
    */
-  void setDevApp(int value);
+  void setDevApp(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved</b></em>' attribute.

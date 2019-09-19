@@ -27,12 +27,12 @@ public interface PresentationSpaceResetMixing extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Bg Mx Flag</em>' attribute.
-   * @see #setBgMxFlag(int)
+   * @see #setBgMxFlag(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPresentationSpaceResetMixing_BgMxFlag()
    * @model
    * @generated
    */
-  int getBgMxFlag();
+  Integer getBgMxFlag();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PresentationSpaceResetMixing#getBgMxFlag <em>Bg Mx Flag</em>}' attribute.
@@ -42,6 +42,6 @@ public interface PresentationSpaceResetMixing extends triplet
    * @see #getBgMxFlag()
    * @generated
    */
-  void setBgMxFlag(int value);
+  void setBgMxFlag(Integer value);
 
 } // PresentationSpaceResetMixing

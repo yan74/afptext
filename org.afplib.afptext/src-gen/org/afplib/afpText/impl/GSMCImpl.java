@@ -36,7 +36,7 @@ public class GSMCImpl extends tripletImpl implements GSMC
    * @generated
    * @ordered
    */
-  protected static final int CELLWI_EDEFAULT = 0;
+  protected static final Integer CELLWI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCELLWI() <em>CELLWI</em>}' attribute.
@@ -46,7 +46,7 @@ public class GSMCImpl extends tripletImpl implements GSMC
    * @generated
    * @ordered
    */
-  protected int cellwi = CELLWI_EDEFAULT;
+  protected Integer cellwi = CELLWI_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCELLHI() <em>CELLHI</em>}' attribute.
@@ -56,7 +56,7 @@ public class GSMCImpl extends tripletImpl implements GSMC
    * @generated
    * @ordered
    */
-  protected static final int CELLHI_EDEFAULT = 0;
+  protected static final Integer CELLHI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCELLHI() <em>CELLHI</em>}' attribute.
@@ -66,7 +66,7 @@ public class GSMCImpl extends tripletImpl implements GSMC
    * @generated
    * @ordered
    */
-  protected int cellhi = CELLHI_EDEFAULT;
+  protected Integer cellhi = CELLHI_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class GSMCImpl extends tripletImpl implements GSMC
    * @generated
    */
   @Override
-  public int getCELLWI()
+  public Integer getCELLWI()
   {
     return cellwi;
   }
@@ -106,9 +106,9 @@ public class GSMCImpl extends tripletImpl implements GSMC
    * @generated
    */
   @Override
-  public void setCELLWI(int newCELLWI)
+  public void setCELLWI(Integer newCELLWI)
   {
-    int oldCELLWI = cellwi;
+    Integer oldCELLWI = cellwi;
     cellwi = newCELLWI;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSMC__CELLWI, oldCELLWI, cellwi));
@@ -120,7 +120,7 @@ public class GSMCImpl extends tripletImpl implements GSMC
    * @generated
    */
   @Override
-  public int getCELLHI()
+  public Integer getCELLHI()
   {
     return cellhi;
   }
@@ -131,9 +131,9 @@ public class GSMCImpl extends tripletImpl implements GSMC
    * @generated
    */
   @Override
-  public void setCELLHI(int newCELLHI)
+  public void setCELLHI(Integer newCELLHI)
   {
-    int oldCELLHI = cellhi;
+    Integer oldCELLHI = cellhi;
     cellhi = newCELLHI;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSMC__CELLHI, oldCELLHI, cellhi));
@@ -208,9 +208,9 @@ public class GSMCImpl extends tripletImpl implements GSMC
     switch (featureID)
     {
       case AfpTextPackage.GSMC__CELLWI:
-        return cellwi != CELLWI_EDEFAULT;
+        return CELLWI_EDEFAULT == null ? cellwi != null : !CELLWI_EDEFAULT.equals(cellwi);
       case AfpTextPackage.GSMC__CELLHI:
-        return cellhi != CELLHI_EDEFAULT;
+        return CELLHI_EDEFAULT == null ? cellhi != null : !CELLHI_EDEFAULT.equals(cellhi);
     }
     return super.eIsSet(featureID);
   }

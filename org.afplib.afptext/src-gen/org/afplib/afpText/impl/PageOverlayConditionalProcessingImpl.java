@@ -36,7 +36,7 @@ public class PageOverlayConditionalProcessingImpl extends tripletImpl implements
    * @generated
    * @ordered
    */
-  protected static final int PG_OV_TYPE_EDEFAULT = 0;
+  protected static final Integer PG_OV_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPgOvType() <em>Pg Ov Type</em>}' attribute.
@@ -46,7 +46,7 @@ public class PageOverlayConditionalProcessingImpl extends tripletImpl implements
    * @generated
    * @ordered
    */
-  protected int pgOvType = PG_OV_TYPE_EDEFAULT;
+  protected Integer pgOvType = PG_OV_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getLevel() <em>Level</em>}' attribute.
@@ -56,7 +56,7 @@ public class PageOverlayConditionalProcessingImpl extends tripletImpl implements
    * @generated
    * @ordered
    */
-  protected static final int LEVEL_EDEFAULT = 0;
+  protected static final Integer LEVEL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLevel() <em>Level</em>}' attribute.
@@ -66,7 +66,7 @@ public class PageOverlayConditionalProcessingImpl extends tripletImpl implements
    * @generated
    * @ordered
    */
-  protected int level = LEVEL_EDEFAULT;
+  protected Integer level = LEVEL_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class PageOverlayConditionalProcessingImpl extends tripletImpl implements
    * @generated
    */
   @Override
-  public int getPgOvType()
+  public Integer getPgOvType()
   {
     return pgOvType;
   }
@@ -106,9 +106,9 @@ public class PageOverlayConditionalProcessingImpl extends tripletImpl implements
    * @generated
    */
   @Override
-  public void setPgOvType(int newPgOvType)
+  public void setPgOvType(Integer newPgOvType)
   {
-    int oldPgOvType = pgOvType;
+    Integer oldPgOvType = pgOvType;
     pgOvType = newPgOvType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PAGE_OVERLAY_CONDITIONAL_PROCESSING__PG_OV_TYPE, oldPgOvType, pgOvType));
@@ -120,7 +120,7 @@ public class PageOverlayConditionalProcessingImpl extends tripletImpl implements
    * @generated
    */
   @Override
-  public int getLevel()
+  public Integer getLevel()
   {
     return level;
   }
@@ -131,9 +131,9 @@ public class PageOverlayConditionalProcessingImpl extends tripletImpl implements
    * @generated
    */
   @Override
-  public void setLevel(int newLevel)
+  public void setLevel(Integer newLevel)
   {
-    int oldLevel = level;
+    Integer oldLevel = level;
     level = newLevel;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PAGE_OVERLAY_CONDITIONAL_PROCESSING__LEVEL, oldLevel, level));
@@ -208,9 +208,9 @@ public class PageOverlayConditionalProcessingImpl extends tripletImpl implements
     switch (featureID)
     {
       case AfpTextPackage.PAGE_OVERLAY_CONDITIONAL_PROCESSING__PG_OV_TYPE:
-        return pgOvType != PG_OV_TYPE_EDEFAULT;
+        return PG_OV_TYPE_EDEFAULT == null ? pgOvType != null : !PG_OV_TYPE_EDEFAULT.equals(pgOvType);
       case AfpTextPackage.PAGE_OVERLAY_CONDITIONAL_PROCESSING__LEVEL:
-        return level != LEVEL_EDEFAULT;
+        return LEVEL_EDEFAULT == null ? level != null : !LEVEL_EDEFAULT.equals(level);
     }
     return super.eIsSet(featureID);
   }

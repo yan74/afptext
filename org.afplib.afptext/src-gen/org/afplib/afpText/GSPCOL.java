@@ -34,12 +34,12 @@ public interface GSPCOL extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RES1</em>' attribute.
-   * @see #setRES1(int)
+   * @see #setRES1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSPCOL_RES1()
    * @model
    * @generated
    */
-  int getRES1();
+  Integer getRES1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSPCOL#getRES1 <em>RES1</em>}' attribute.
@@ -49,19 +49,19 @@ public interface GSPCOL extends triplet
    * @see #getRES1()
    * @generated
    */
-  void setRES1(int value);
+  void setRES1(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSPCE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSPCE</em>' attribute.
-   * @see #setCOLSPCE(int)
+   * @see #setCOLSPCE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSPCOL_COLSPCE()
    * @model
    * @generated
    */
-  int getCOLSPCE();
+  Integer getCOLSPCE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSPCOL#getCOLSPCE <em>COLSPCE</em>}' attribute.
@@ -71,19 +71,19 @@ public interface GSPCOL extends triplet
    * @see #getCOLSPCE()
    * @generated
    */
-  void setCOLSPCE(int value);
+  void setCOLSPCE(Integer value);
 
   /**
    * Returns the value of the '<em><b>RES2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RES2</em>' attribute.
-   * @see #setRES2(int)
+   * @see #setRES2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSPCOL_RES2()
    * @model
    * @generated
    */
-  int getRES2();
+  Integer getRES2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSPCOL#getRES2 <em>RES2</em>}' attribute.
@@ -93,19 +93,19 @@ public interface GSPCOL extends triplet
    * @see #getRES2()
    * @generated
    */
-  void setRES2(int value);
+  void setRES2(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSIZE1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSIZE1</em>' attribute.
-   * @see #setCOLSIZE1(int)
+   * @see #setCOLSIZE1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSPCOL_COLSIZE1()
    * @model
    * @generated
    */
-  int getCOLSIZE1();
+  Integer getCOLSIZE1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSPCOL#getCOLSIZE1 <em>COLSIZE1</em>}' attribute.
@@ -115,19 +115,19 @@ public interface GSPCOL extends triplet
    * @see #getCOLSIZE1()
    * @generated
    */
-  void setCOLSIZE1(int value);
+  void setCOLSIZE1(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSIZE2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSIZE2</em>' attribute.
-   * @see #setCOLSIZE2(int)
+   * @see #setCOLSIZE2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSPCOL_COLSIZE2()
    * @model
    * @generated
    */
-  int getCOLSIZE2();
+  Integer getCOLSIZE2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSPCOL#getCOLSIZE2 <em>COLSIZE2</em>}' attribute.
@@ -137,19 +137,19 @@ public interface GSPCOL extends triplet
    * @see #getCOLSIZE2()
    * @generated
    */
-  void setCOLSIZE2(int value);
+  void setCOLSIZE2(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSIZE3</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSIZE3</em>' attribute.
-   * @see #setCOLSIZE3(int)
+   * @see #setCOLSIZE3(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSPCOL_COLSIZE3()
    * @model
    * @generated
    */
-  int getCOLSIZE3();
+  Integer getCOLSIZE3();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSPCOL#getCOLSIZE3 <em>COLSIZE3</em>}' attribute.
@@ -159,19 +159,19 @@ public interface GSPCOL extends triplet
    * @see #getCOLSIZE3()
    * @generated
    */
-  void setCOLSIZE3(int value);
+  void setCOLSIZE3(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLSIZE4</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>COLSIZE4</em>' attribute.
-   * @see #setCOLSIZE4(int)
+   * @see #setCOLSIZE4(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSPCOL_COLSIZE4()
    * @model
    * @generated
    */
-  int getCOLSIZE4();
+  Integer getCOLSIZE4();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSPCOL#getCOLSIZE4 <em>COLSIZE4</em>}' attribute.
@@ -181,7 +181,7 @@ public interface GSPCOL extends triplet
    * @see #getCOLSIZE4()
    * @generated
    */
-  void setCOLSIZE4(int value);
+  void setCOLSIZE4(Integer value);
 
   /**
    * Returns the value of the '<em><b>COLVALUE</b></em>' attribute.

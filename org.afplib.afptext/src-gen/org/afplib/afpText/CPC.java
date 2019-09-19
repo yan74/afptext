@@ -54,12 +54,12 @@ public interface CPC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Prt Flags</em>' attribute.
-   * @see #setPrtFlags(int)
+   * @see #setPrtFlags(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPC_PrtFlags()
    * @model
    * @generated
    */
-  int getPrtFlags();
+  Integer getPrtFlags();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPC#getPrtFlags <em>Prt Flags</em>}' attribute.
@@ -69,19 +69,19 @@ public interface CPC extends structuredField
    * @see #getPrtFlags()
    * @generated
    */
-  void setPrtFlags(int value);
+  void setPrtFlags(Integer value);
 
   /**
    * Returns the value of the '<em><b>CPIRG Len</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CPIRG Len</em>' attribute.
-   * @see #setCPIRGLen(int)
+   * @see #setCPIRGLen(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPC_CPIRGLen()
    * @model
    * @generated
    */
-  int getCPIRGLen();
+  Integer getCPIRGLen();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPC#getCPIRGLen <em>CPIRG Len</em>}' attribute.
@@ -91,19 +91,19 @@ public interface CPC extends structuredField
    * @see #getCPIRGLen()
    * @generated
    */
-  void setCPIRGLen(int value);
+  void setCPIRGLen(Integer value);
 
   /**
    * Returns the value of the '<em><b>VS Char SN</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VS Char SN</em>' attribute.
-   * @see #setVSCharSN(int)
+   * @see #setVSCharSN(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPC_VSCharSN()
    * @model
    * @generated
    */
-  int getVSCharSN();
+  Integer getVSCharSN();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPC#getVSCharSN <em>VS Char SN</em>}' attribute.
@@ -113,19 +113,19 @@ public interface CPC extends structuredField
    * @see #getVSCharSN()
    * @generated
    */
-  void setVSCharSN(int value);
+  void setVSCharSN(Integer value);
 
   /**
    * Returns the value of the '<em><b>VS Char</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VS Char</em>' attribute.
-   * @see #setVSChar(int)
+   * @see #setVSChar(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPC_VSChar()
    * @model
    * @generated
    */
-  int getVSChar();
+  Integer getVSChar();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPC#getVSChar <em>VS Char</em>}' attribute.
@@ -135,19 +135,19 @@ public interface CPC extends structuredField
    * @see #getVSChar()
    * @generated
    */
-  void setVSChar(int value);
+  void setVSChar(Integer value);
 
   /**
    * Returns the value of the '<em><b>VS Flags</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VS Flags</em>' attribute.
-   * @see #setVSFlags(int)
+   * @see #setVSFlags(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getCPC_VSFlags()
    * @model
    * @generated
    */
-  int getVSFlags();
+  Integer getVSFlags();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.CPC#getVSFlags <em>VS Flags</em>}' attribute.
@@ -157,6 +157,6 @@ public interface CPC extends structuredField
    * @see #getVSFlags()
    * @generated
    */
-  void setVSFlags(int value);
+  void setVSFlags(Integer value);
 
 } // CPC

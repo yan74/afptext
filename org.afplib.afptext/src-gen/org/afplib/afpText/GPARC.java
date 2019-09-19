@@ -34,12 +34,12 @@ public interface GPARC extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPOS</em>' attribute.
-   * @see #setXPOS(int)
+   * @see #setXPOS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGPARC_XPOS()
    * @model
    * @generated
    */
-  int getXPOS();
+  Integer getXPOS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GPARC#getXPOS <em>XPOS</em>}' attribute.
@@ -49,19 +49,19 @@ public interface GPARC extends triplet
    * @see #getXPOS()
    * @generated
    */
-  void setXPOS(int value);
+  void setXPOS(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPOS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPOS</em>' attribute.
-   * @see #setYPOS(int)
+   * @see #setYPOS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGPARC_YPOS()
    * @model
    * @generated
    */
-  int getYPOS();
+  Integer getYPOS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GPARC#getYPOS <em>YPOS</em>}' attribute.
@@ -71,19 +71,19 @@ public interface GPARC extends triplet
    * @see #getYPOS()
    * @generated
    */
-  void setYPOS(int value);
+  void setYPOS(Integer value);
 
   /**
    * Returns the value of the '<em><b>XCENT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XCENT</em>' attribute.
-   * @see #setXCENT(int)
+   * @see #setXCENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGPARC_XCENT()
    * @model
    * @generated
    */
-  int getXCENT();
+  Integer getXCENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GPARC#getXCENT <em>XCENT</em>}' attribute.
@@ -93,19 +93,19 @@ public interface GPARC extends triplet
    * @see #getXCENT()
    * @generated
    */
-  void setXCENT(int value);
+  void setXCENT(Integer value);
 
   /**
    * Returns the value of the '<em><b>YCENT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YCENT</em>' attribute.
-   * @see #setYCENT(int)
+   * @see #setYCENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGPARC_YCENT()
    * @model
    * @generated
    */
-  int getYCENT();
+  Integer getYCENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GPARC#getYCENT <em>YCENT</em>}' attribute.
@@ -115,19 +115,19 @@ public interface GPARC extends triplet
    * @see #getYCENT()
    * @generated
    */
-  void setYCENT(int value);
+  void setYCENT(Integer value);
 
   /**
    * Returns the value of the '<em><b>MH</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MH</em>' attribute.
-   * @see #setMH(int)
+   * @see #setMH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGPARC_MH()
    * @model
    * @generated
    */
-  int getMH();
+  Integer getMH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GPARC#getMH <em>MH</em>}' attribute.
@@ -137,19 +137,19 @@ public interface GPARC extends triplet
    * @see #getMH()
    * @generated
    */
-  void setMH(int value);
+  void setMH(Integer value);
 
   /**
    * Returns the value of the '<em><b>MFR</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MFR</em>' attribute.
-   * @see #setMFR(int)
+   * @see #setMFR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGPARC_MFR()
    * @model
    * @generated
    */
-  int getMFR();
+  Integer getMFR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GPARC#getMFR <em>MFR</em>}' attribute.
@@ -159,19 +159,19 @@ public interface GPARC extends triplet
    * @see #getMFR()
    * @generated
    */
-  void setMFR(int value);
+  void setMFR(Integer value);
 
   /**
    * Returns the value of the '<em><b>START</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>START</em>' attribute.
-   * @see #setSTART(int)
+   * @see #setSTART(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGPARC_START()
    * @model
    * @generated
    */
-  int getSTART();
+  Integer getSTART();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GPARC#getSTART <em>START</em>}' attribute.
@@ -181,19 +181,19 @@ public interface GPARC extends triplet
    * @see #getSTART()
    * @generated
    */
-  void setSTART(int value);
+  void setSTART(Integer value);
 
   /**
    * Returns the value of the '<em><b>SWEEP</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SWEEP</em>' attribute.
-   * @see #setSWEEP(int)
+   * @see #setSWEEP(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGPARC_SWEEP()
    * @model
    * @generated
    */
-  int getSWEEP();
+  Integer getSWEEP();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GPARC#getSWEEP <em>SWEEP</em>}' attribute.
@@ -203,6 +203,6 @@ public interface GPARC extends triplet
    * @see #getSWEEP()
    * @generated
    */
-  void setSWEEP(int value);
+  void setSWEEP(Integer value);
 
 } // GPARC

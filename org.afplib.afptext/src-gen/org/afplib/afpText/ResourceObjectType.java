@@ -28,12 +28,12 @@ public interface ResourceObjectType extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Obj Type</em>' attribute.
-   * @see #setObjType(int)
+   * @see #setObjType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getResourceObjectType_ObjType()
    * @model
    * @generated
    */
-  int getObjType();
+  Integer getObjType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ResourceObjectType#getObjType <em>Obj Type</em>}' attribute.
@@ -43,7 +43,7 @@ public interface ResourceObjectType extends triplet
    * @see #getObjType()
    * @generated
    */
-  void setObjType(int value);
+  void setObjType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Con Data</b></em>' attribute.

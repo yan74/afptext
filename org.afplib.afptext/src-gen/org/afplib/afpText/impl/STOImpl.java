@@ -36,7 +36,7 @@ public class STOImpl extends tripletImpl implements STO
    * @generated
    * @ordered
    */
-  protected static final int IORNTION_EDEFAULT = 0;
+  protected static final Integer IORNTION_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getIORNTION() <em>IORNTION</em>}' attribute.
@@ -46,7 +46,7 @@ public class STOImpl extends tripletImpl implements STO
    * @generated
    * @ordered
    */
-  protected int iorntion = IORNTION_EDEFAULT;
+  protected Integer iorntion = IORNTION_EDEFAULT;
 
   /**
    * The default value of the '{@link #getBORNTION() <em>BORNTION</em>}' attribute.
@@ -56,7 +56,7 @@ public class STOImpl extends tripletImpl implements STO
    * @generated
    * @ordered
    */
-  protected static final int BORNTION_EDEFAULT = 0;
+  protected static final Integer BORNTION_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBORNTION() <em>BORNTION</em>}' attribute.
@@ -66,7 +66,7 @@ public class STOImpl extends tripletImpl implements STO
    * @generated
    * @ordered
    */
-  protected int borntion = BORNTION_EDEFAULT;
+  protected Integer borntion = BORNTION_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class STOImpl extends tripletImpl implements STO
    * @generated
    */
   @Override
-  public int getIORNTION()
+  public Integer getIORNTION()
   {
     return iorntion;
   }
@@ -106,9 +106,9 @@ public class STOImpl extends tripletImpl implements STO
    * @generated
    */
   @Override
-  public void setIORNTION(int newIORNTION)
+  public void setIORNTION(Integer newIORNTION)
   {
-    int oldIORNTION = iorntion;
+    Integer oldIORNTION = iorntion;
     iorntion = newIORNTION;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.STO__IORNTION, oldIORNTION, iorntion));
@@ -120,7 +120,7 @@ public class STOImpl extends tripletImpl implements STO
    * @generated
    */
   @Override
-  public int getBORNTION()
+  public Integer getBORNTION()
   {
     return borntion;
   }
@@ -131,9 +131,9 @@ public class STOImpl extends tripletImpl implements STO
    * @generated
    */
   @Override
-  public void setBORNTION(int newBORNTION)
+  public void setBORNTION(Integer newBORNTION)
   {
-    int oldBORNTION = borntion;
+    Integer oldBORNTION = borntion;
     borntion = newBORNTION;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.STO__BORNTION, oldBORNTION, borntion));
@@ -208,9 +208,9 @@ public class STOImpl extends tripletImpl implements STO
     switch (featureID)
     {
       case AfpTextPackage.STO__IORNTION:
-        return iorntion != IORNTION_EDEFAULT;
+        return IORNTION_EDEFAULT == null ? iorntion != null : !IORNTION_EDEFAULT.equals(iorntion);
       case AfpTextPackage.STO__BORNTION:
-        return borntion != BORNTION_EDEFAULT;
+        return BORNTION_EDEFAULT == null ? borntion != null : !BORNTION_EDEFAULT.equals(borntion);
     }
     return super.eIsSet(featureID);
   }

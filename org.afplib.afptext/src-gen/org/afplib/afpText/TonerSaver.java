@@ -27,12 +27,12 @@ public interface TonerSaver extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>TSv Ctrl</em>' attribute.
-   * @see #setTSvCtrl(int)
+   * @see #setTSvCtrl(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTonerSaver_TSvCtrl()
    * @model
    * @generated
    */
-  int getTSvCtrl();
+  Integer getTSvCtrl();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TonerSaver#getTSvCtrl <em>TSv Ctrl</em>}' attribute.
@@ -42,6 +42,6 @@ public interface TonerSaver extends triplet
    * @see #getTSvCtrl()
    * @generated
    */
-  void setTSvCtrl(int value);
+  void setTSvCtrl(Integer value);
 
 } // TonerSaver

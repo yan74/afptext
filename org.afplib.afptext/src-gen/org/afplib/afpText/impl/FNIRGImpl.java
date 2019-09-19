@@ -66,7 +66,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int CHAR_INC_EDEFAULT = 0;
+  protected static final Integer CHAR_INC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCharInc() <em>Char Inc</em>}' attribute.
@@ -76,7 +76,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int charInc = CHAR_INC_EDEFAULT;
+  protected Integer charInc = CHAR_INC_EDEFAULT;
 
   /**
    * The default value of the '{@link #getAscendHt() <em>Ascend Ht</em>}' attribute.
@@ -86,7 +86,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int ASCEND_HT_EDEFAULT = 0;
+  protected static final Integer ASCEND_HT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getAscendHt() <em>Ascend Ht</em>}' attribute.
@@ -96,7 +96,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int ascendHt = ASCEND_HT_EDEFAULT;
+  protected Integer ascendHt = ASCEND_HT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDescendDp() <em>Descend Dp</em>}' attribute.
@@ -106,7 +106,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int DESCEND_DP_EDEFAULT = 0;
+  protected static final Integer DESCEND_DP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDescendDp() <em>Descend Dp</em>}' attribute.
@@ -116,7 +116,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int descendDp = DESCEND_DP_EDEFAULT;
+  protected Integer descendDp = DESCEND_DP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -126,7 +126,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -136,7 +136,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFNMCnt() <em>FNM Cnt</em>}' attribute.
@@ -146,7 +146,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int FNM_CNT_EDEFAULT = 0;
+  protected static final Integer FNM_CNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFNMCnt() <em>FNM Cnt</em>}' attribute.
@@ -156,7 +156,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int fnmCnt = FNM_CNT_EDEFAULT;
+  protected Integer fnmCnt = FNM_CNT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getASpace() <em>ASpace</em>}' attribute.
@@ -166,7 +166,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int ASPACE_EDEFAULT = 0;
+  protected static final Integer ASPACE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getASpace() <em>ASpace</em>}' attribute.
@@ -176,7 +176,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int aSpace = ASPACE_EDEFAULT;
+  protected Integer aSpace = ASPACE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getBSpace() <em>BSpace</em>}' attribute.
@@ -186,7 +186,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int BSPACE_EDEFAULT = 0;
+  protected static final Integer BSPACE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBSpace() <em>BSpace</em>}' attribute.
@@ -196,7 +196,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int bSpace = BSPACE_EDEFAULT;
+  protected Integer bSpace = BSPACE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCSpace() <em>CSpace</em>}' attribute.
@@ -206,7 +206,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int CSPACE_EDEFAULT = 0;
+  protected static final Integer CSPACE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCSpace() <em>CSpace</em>}' attribute.
@@ -216,7 +216,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int cSpace = CSPACE_EDEFAULT;
+  protected Integer cSpace = CSPACE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -226,7 +226,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int RESERVED2_EDEFAULT = 0;
+  protected static final Integer RESERVED2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved2() <em>Reserved2</em>}' attribute.
@@ -236,7 +236,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int reserved2 = RESERVED2_EDEFAULT;
+  protected Integer reserved2 = RESERVED2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getBaseOset() <em>Base Oset</em>}' attribute.
@@ -246,7 +246,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected static final int BASE_OSET_EDEFAULT = 0;
+  protected static final Integer BASE_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBaseOset() <em>Base Oset</em>}' attribute.
@@ -256,7 +256,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    * @ordered
    */
-  protected int baseOset = BASE_OSET_EDEFAULT;
+  protected Integer baseOset = BASE_OSET_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -310,7 +310,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getCharInc()
+  public Integer getCharInc()
   {
     return charInc;
   }
@@ -321,9 +321,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setCharInc(int newCharInc)
+  public void setCharInc(Integer newCharInc)
   {
-    int oldCharInc = charInc;
+    Integer oldCharInc = charInc;
     charInc = newCharInc;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__CHAR_INC, oldCharInc, charInc));
@@ -335,7 +335,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getAscendHt()
+  public Integer getAscendHt()
   {
     return ascendHt;
   }
@@ -346,9 +346,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setAscendHt(int newAscendHt)
+  public void setAscendHt(Integer newAscendHt)
   {
-    int oldAscendHt = ascendHt;
+    Integer oldAscendHt = ascendHt;
     ascendHt = newAscendHt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__ASCEND_HT, oldAscendHt, ascendHt));
@@ -360,7 +360,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getDescendDp()
+  public Integer getDescendDp()
   {
     return descendDp;
   }
@@ -371,9 +371,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setDescendDp(int newDescendDp)
+  public void setDescendDp(Integer newDescendDp)
   {
-    int oldDescendDp = descendDp;
+    Integer oldDescendDp = descendDp;
     descendDp = newDescendDp;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__DESCEND_DP, oldDescendDp, descendDp));
@@ -385,7 +385,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -396,9 +396,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__RESERVED, oldReserved, reserved));
@@ -410,7 +410,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getFNMCnt()
+  public Integer getFNMCnt()
   {
     return fnmCnt;
   }
@@ -421,9 +421,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setFNMCnt(int newFNMCnt)
+  public void setFNMCnt(Integer newFNMCnt)
   {
-    int oldFNMCnt = fnmCnt;
+    Integer oldFNMCnt = fnmCnt;
     fnmCnt = newFNMCnt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__FNM_CNT, oldFNMCnt, fnmCnt));
@@ -435,7 +435,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getASpace()
+  public Integer getASpace()
   {
     return aSpace;
   }
@@ -446,9 +446,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setASpace(int newASpace)
+  public void setASpace(Integer newASpace)
   {
-    int oldASpace = aSpace;
+    Integer oldASpace = aSpace;
     aSpace = newASpace;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__ASPACE, oldASpace, aSpace));
@@ -460,7 +460,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getBSpace()
+  public Integer getBSpace()
   {
     return bSpace;
   }
@@ -471,9 +471,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setBSpace(int newBSpace)
+  public void setBSpace(Integer newBSpace)
   {
-    int oldBSpace = bSpace;
+    Integer oldBSpace = bSpace;
     bSpace = newBSpace;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__BSPACE, oldBSpace, bSpace));
@@ -485,7 +485,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getCSpace()
+  public Integer getCSpace()
   {
     return cSpace;
   }
@@ -496,9 +496,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setCSpace(int newCSpace)
+  public void setCSpace(Integer newCSpace)
   {
-    int oldCSpace = cSpace;
+    Integer oldCSpace = cSpace;
     cSpace = newCSpace;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__CSPACE, oldCSpace, cSpace));
@@ -510,7 +510,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getReserved2()
+  public Integer getReserved2()
   {
     return reserved2;
   }
@@ -521,9 +521,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setReserved2(int newReserved2)
+  public void setReserved2(Integer newReserved2)
   {
-    int oldReserved2 = reserved2;
+    Integer oldReserved2 = reserved2;
     reserved2 = newReserved2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__RESERVED2, oldReserved2, reserved2));
@@ -535,7 +535,7 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public int getBaseOset()
+  public Integer getBaseOset()
   {
     return baseOset;
   }
@@ -546,9 +546,9 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
    * @generated
    */
   @Override
-  public void setBaseOset(int newBaseOset)
+  public void setBaseOset(Integer newBaseOset)
   {
-    int oldBaseOset = baseOset;
+    Integer oldBaseOset = baseOset;
     baseOset = newBaseOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNIRG__BASE_OSET, oldBaseOset, baseOset));
@@ -697,25 +697,25 @@ public class FNIRGImpl extends MinimalEObjectImpl.Container implements FNIRG
       case AfpTextPackage.FNIRG__GCGID:
         return GCGID_EDEFAULT == null ? gcgid != null : !GCGID_EDEFAULT.equals(gcgid);
       case AfpTextPackage.FNIRG__CHAR_INC:
-        return charInc != CHAR_INC_EDEFAULT;
+        return CHAR_INC_EDEFAULT == null ? charInc != null : !CHAR_INC_EDEFAULT.equals(charInc);
       case AfpTextPackage.FNIRG__ASCEND_HT:
-        return ascendHt != ASCEND_HT_EDEFAULT;
+        return ASCEND_HT_EDEFAULT == null ? ascendHt != null : !ASCEND_HT_EDEFAULT.equals(ascendHt);
       case AfpTextPackage.FNIRG__DESCEND_DP:
-        return descendDp != DESCEND_DP_EDEFAULT;
+        return DESCEND_DP_EDEFAULT == null ? descendDp != null : !DESCEND_DP_EDEFAULT.equals(descendDp);
       case AfpTextPackage.FNIRG__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.FNIRG__FNM_CNT:
-        return fnmCnt != FNM_CNT_EDEFAULT;
+        return FNM_CNT_EDEFAULT == null ? fnmCnt != null : !FNM_CNT_EDEFAULT.equals(fnmCnt);
       case AfpTextPackage.FNIRG__ASPACE:
-        return aSpace != ASPACE_EDEFAULT;
+        return ASPACE_EDEFAULT == null ? aSpace != null : !ASPACE_EDEFAULT.equals(aSpace);
       case AfpTextPackage.FNIRG__BSPACE:
-        return bSpace != BSPACE_EDEFAULT;
+        return BSPACE_EDEFAULT == null ? bSpace != null : !BSPACE_EDEFAULT.equals(bSpace);
       case AfpTextPackage.FNIRG__CSPACE:
-        return cSpace != CSPACE_EDEFAULT;
+        return CSPACE_EDEFAULT == null ? cSpace != null : !CSPACE_EDEFAULT.equals(cSpace);
       case AfpTextPackage.FNIRG__RESERVED2:
-        return reserved2 != RESERVED2_EDEFAULT;
+        return RESERVED2_EDEFAULT == null ? reserved2 != null : !RESERVED2_EDEFAULT.equals(reserved2);
       case AfpTextPackage.FNIRG__BASE_OSET:
-        return baseOset != BASE_OSET_EDEFAULT;
+        return BASE_OSET_EDEFAULT == null ? baseOset != null : !BASE_OSET_EDEFAULT.equals(baseOset);
     }
     return super.eIsSet(featureID);
   }

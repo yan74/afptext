@@ -31,12 +31,12 @@ public interface ResourceObjectInclude extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Obj Type</em>' attribute.
-   * @see #setObjType(int)
+   * @see #setObjType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getResourceObjectInclude_ObjType()
    * @model
    * @generated
    */
-  int getObjType();
+  Integer getObjType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ResourceObjectInclude#getObjType <em>Obj Type</em>}' attribute.
@@ -46,7 +46,7 @@ public interface ResourceObjectInclude extends triplet
    * @see #getObjType()
    * @generated
    */
-  void setObjType(int value);
+  void setObjType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Obj Name</b></em>' attribute.
@@ -75,12 +75,12 @@ public interface ResourceObjectInclude extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xobj Oset</em>' attribute.
-   * @see #setXobjOset(int)
+   * @see #setXobjOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getResourceObjectInclude_XobjOset()
    * @model
    * @generated
    */
-  int getXobjOset();
+  Integer getXobjOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ResourceObjectInclude#getXobjOset <em>Xobj Oset</em>}' attribute.
@@ -90,19 +90,19 @@ public interface ResourceObjectInclude extends triplet
    * @see #getXobjOset()
    * @generated
    */
-  void setXobjOset(int value);
+  void setXobjOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yobj Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yobj Oset</em>' attribute.
-   * @see #setYobjOset(int)
+   * @see #setYobjOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getResourceObjectInclude_YobjOset()
    * @model
    * @generated
    */
-  int getYobjOset();
+  Integer getYobjOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ResourceObjectInclude#getYobjOset <em>Yobj Oset</em>}' attribute.
@@ -112,19 +112,19 @@ public interface ResourceObjectInclude extends triplet
    * @see #getYobjOset()
    * @generated
    */
-  void setYobjOset(int value);
+  void setYobjOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ob Orent</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ob Orent</em>' attribute.
-   * @see #setObOrent(int)
+   * @see #setObOrent(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getResourceObjectInclude_ObOrent()
    * @model
    * @generated
    */
-  int getObOrent();
+  Integer getObOrent();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ResourceObjectInclude#getObOrent <em>Ob Orent</em>}' attribute.
@@ -134,6 +134,6 @@ public interface ResourceObjectInclude extends triplet
    * @see #getObOrent()
    * @generated
    */
-  void setObOrent(int value);
+  void setObOrent(Integer value);
 
 } // ResourceObjectInclude

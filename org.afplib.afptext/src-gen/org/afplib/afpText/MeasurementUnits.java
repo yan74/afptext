@@ -30,12 +30,12 @@ public interface MeasurementUnits extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoa Base</em>' attribute.
-   * @see #setXoaBase(int)
+   * @see #setXoaBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMeasurementUnits_XoaBase()
    * @model
    * @generated
    */
-  int getXoaBase();
+  Integer getXoaBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MeasurementUnits#getXoaBase <em>Xoa Base</em>}' attribute.
@@ -45,19 +45,19 @@ public interface MeasurementUnits extends triplet
    * @see #getXoaBase()
    * @generated
    */
-  void setXoaBase(int value);
+  void setXoaBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoa Base</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoa Base</em>' attribute.
-   * @see #setYoaBase(int)
+   * @see #setYoaBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMeasurementUnits_YoaBase()
    * @model
    * @generated
    */
-  int getYoaBase();
+  Integer getYoaBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MeasurementUnits#getYoaBase <em>Yoa Base</em>}' attribute.
@@ -67,19 +67,19 @@ public interface MeasurementUnits extends triplet
    * @see #getYoaBase()
    * @generated
    */
-  void setYoaBase(int value);
+  void setYoaBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoa Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoa Units</em>' attribute.
-   * @see #setXoaUnits(int)
+   * @see #setXoaUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMeasurementUnits_XoaUnits()
    * @model
    * @generated
    */
-  int getXoaUnits();
+  Integer getXoaUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MeasurementUnits#getXoaUnits <em>Xoa Units</em>}' attribute.
@@ -89,19 +89,19 @@ public interface MeasurementUnits extends triplet
    * @see #getXoaUnits()
    * @generated
    */
-  void setXoaUnits(int value);
+  void setXoaUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoa Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoa Units</em>' attribute.
-   * @see #setYoaUnits(int)
+   * @see #setYoaUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMeasurementUnits_YoaUnits()
    * @model
    * @generated
    */
-  int getYoaUnits();
+  Integer getYoaUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MeasurementUnits#getYoaUnits <em>Yoa Units</em>}' attribute.
@@ -111,6 +111,6 @@ public interface MeasurementUnits extends triplet
    * @see #getYoaUnits()
    * @generated
    */
-  void setYoaUnits(int value);
+  void setYoaUnits(Integer value);
 
 } // MeasurementUnits

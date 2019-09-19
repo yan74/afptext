@@ -31,12 +31,12 @@ public interface GCBOX extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RES</em>' attribute.
-   * @see #setRES(int)
+   * @see #setRES(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCBOX_RES()
    * @model
    * @generated
    */
-  int getRES();
+  Integer getRES();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCBOX#getRES <em>RES</em>}' attribute.
@@ -46,19 +46,19 @@ public interface GCBOX extends triplet
    * @see #getRES()
    * @generated
    */
-  void setRES(int value);
+  void setRES(Integer value);
 
   /**
    * Returns the value of the '<em><b>XPOS1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPOS1</em>' attribute.
-   * @see #setXPOS1(int)
+   * @see #setXPOS1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCBOX_XPOS1()
    * @model
    * @generated
    */
-  int getXPOS1();
+  Integer getXPOS1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCBOX#getXPOS1 <em>XPOS1</em>}' attribute.
@@ -68,19 +68,19 @@ public interface GCBOX extends triplet
    * @see #getXPOS1()
    * @generated
    */
-  void setXPOS1(int value);
+  void setXPOS1(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPOS1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPOS1</em>' attribute.
-   * @see #setYPOS1(int)
+   * @see #setYPOS1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCBOX_YPOS1()
    * @model
    * @generated
    */
-  int getYPOS1();
+  Integer getYPOS1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCBOX#getYPOS1 <em>YPOS1</em>}' attribute.
@@ -90,19 +90,19 @@ public interface GCBOX extends triplet
    * @see #getYPOS1()
    * @generated
    */
-  void setYPOS1(int value);
+  void setYPOS1(Integer value);
 
   /**
    * Returns the value of the '<em><b>HAXIS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HAXIS</em>' attribute.
-   * @see #setHAXIS(int)
+   * @see #setHAXIS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCBOX_HAXIS()
    * @model
    * @generated
    */
-  int getHAXIS();
+  Integer getHAXIS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCBOX#getHAXIS <em>HAXIS</em>}' attribute.
@@ -112,19 +112,19 @@ public interface GCBOX extends triplet
    * @see #getHAXIS()
    * @generated
    */
-  void setHAXIS(int value);
+  void setHAXIS(Integer value);
 
   /**
    * Returns the value of the '<em><b>VAXIS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>VAXIS</em>' attribute.
-   * @see #setVAXIS(int)
+   * @see #setVAXIS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCBOX_VAXIS()
    * @model
    * @generated
    */
-  int getVAXIS();
+  Integer getVAXIS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCBOX#getVAXIS <em>VAXIS</em>}' attribute.
@@ -134,6 +134,6 @@ public interface GCBOX extends triplet
    * @see #getVAXIS()
    * @generated
    */
-  void setVAXIS(int value);
+  void setVAXIS(Integer value);
 
 } // GCBOX

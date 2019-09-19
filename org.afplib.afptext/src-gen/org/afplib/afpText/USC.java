@@ -27,12 +27,12 @@ public interface USC extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BYPSIDEN</em>' attribute.
-   * @see #setBYPSIDEN(int)
+   * @see #setBYPSIDEN(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUSC_BYPSIDEN()
    * @model
    * @generated
    */
-  int getBYPSIDEN();
+  Integer getBYPSIDEN();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.USC#getBYPSIDEN <em>BYPSIDEN</em>}' attribute.
@@ -42,6 +42,6 @@ public interface USC extends triplet
    * @see #getBYPSIDEN()
    * @generated
    */
-  void setBYPSIDEN(int value);
+  void setBYPSIDEN(Integer value);
 
 } // USC

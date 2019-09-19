@@ -41,7 +41,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    * @ordered
    */
-  protected static final int CF_LID_EDEFAULT = 0;
+  protected static final Integer CF_LID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCFLid() <em>CF Lid</em>}' attribute.
@@ -51,7 +51,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    * @ordered
    */
-  protected int cfLid = CF_LID_EDEFAULT;
+  protected Integer cfLid = CF_LID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSectid() <em>Sectid</em>}' attribute.
@@ -61,7 +61,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    * @ordered
    */
-  protected static final int SECTID_EDEFAULT = 0;
+  protected static final Integer SECTID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSectid() <em>Sectid</em>}' attribute.
@@ -71,7 +71,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    * @ordered
    */
-  protected int sectid = SECTID_EDEFAULT;
+  protected Integer sectid = SECTID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCFName() <em>CF Name</em>}' attribute.
@@ -141,7 +141,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    * @ordered
    */
-  protected static final int CHAR_ROT_EDEFAULT = 0;
+  protected static final Integer CHAR_ROT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCharRot() <em>Char Rot</em>}' attribute.
@@ -151,7 +151,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    * @ordered
    */
-  protected int charRot = CHAR_ROT_EDEFAULT;
+  protected Integer charRot = CHAR_ROT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -180,7 +180,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    */
   @Override
-  public int getCFLid()
+  public Integer getCFLid()
   {
     return cfLid;
   }
@@ -191,9 +191,9 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    */
   @Override
-  public void setCFLid(int newCFLid)
+  public void setCFLid(Integer newCFLid)
   {
-    int oldCFLid = cfLid;
+    Integer oldCFLid = cfLid;
     cfLid = newCFLid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MCF1RG__CF_LID, oldCFLid, cfLid));
@@ -205,7 +205,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    */
   @Override
-  public int getSectid()
+  public Integer getSectid()
   {
     return sectid;
   }
@@ -216,9 +216,9 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    */
   @Override
-  public void setSectid(int newSectid)
+  public void setSectid(Integer newSectid)
   {
-    int oldSectid = sectid;
+    Integer oldSectid = sectid;
     sectid = newSectid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MCF1RG__SECTID, oldSectid, sectid));
@@ -305,7 +305,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    */
   @Override
-  public int getCharRot()
+  public Integer getCharRot()
   {
     return charRot;
   }
@@ -316,9 +316,9 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
    * @generated
    */
   @Override
-  public void setCharRot(int newCharRot)
+  public void setCharRot(Integer newCharRot)
   {
-    int oldCharRot = charRot;
+    Integer oldCharRot = charRot;
     charRot = newCharRot;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MCF1RG__CHAR_ROT, oldCharRot, charRot));
@@ -425,9 +425,9 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
     switch (featureID)
     {
       case AfpTextPackage.MCF1RG__CF_LID:
-        return cfLid != CF_LID_EDEFAULT;
+        return CF_LID_EDEFAULT == null ? cfLid != null : !CF_LID_EDEFAULT.equals(cfLid);
       case AfpTextPackage.MCF1RG__SECTID:
-        return sectid != SECTID_EDEFAULT;
+        return SECTID_EDEFAULT == null ? sectid != null : !SECTID_EDEFAULT.equals(sectid);
       case AfpTextPackage.MCF1RG__CF_NAME:
         return CF_NAME_EDEFAULT == null ? cfName != null : !CF_NAME_EDEFAULT.equals(cfName);
       case AfpTextPackage.MCF1RG__CP_NAME:
@@ -435,7 +435,7 @@ public class MCF1RGImpl extends MinimalEObjectImpl.Container implements MCF1RG
       case AfpTextPackage.MCF1RG__FCS_NAME:
         return FCS_NAME_EDEFAULT == null ? fcsName != null : !FCS_NAME_EDEFAULT.equals(fcsName);
       case AfpTextPackage.MCF1RG__CHAR_ROT:
-        return charRot != CHAR_ROT_EDEFAULT;
+        return CHAR_ROT_EDEFAULT == null ? charRot != null : !CHAR_ROT_EDEFAULT.equals(charRot);
     }
     return super.eIsSet(featureID);
   }

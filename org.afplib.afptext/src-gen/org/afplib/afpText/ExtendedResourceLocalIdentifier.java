@@ -28,12 +28,12 @@ public interface ExtendedResourceLocalIdentifier extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Res Type</em>' attribute.
-   * @see #setResType(int)
+   * @see #setResType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getExtendedResourceLocalIdentifier_ResType()
    * @model
    * @generated
    */
-  int getResType();
+  Integer getResType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ExtendedResourceLocalIdentifier#getResType <em>Res Type</em>}' attribute.
@@ -43,19 +43,19 @@ public interface ExtendedResourceLocalIdentifier extends triplet
    * @see #getResType()
    * @generated
    */
-  void setResType(int value);
+  void setResType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Res LID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Res LID</em>' attribute.
-   * @see #setResLID(int)
+   * @see #setResLID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getExtendedResourceLocalIdentifier_ResLID()
    * @model
    * @generated
    */
-  int getResLID();
+  Integer getResLID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ExtendedResourceLocalIdentifier#getResLID <em>Res LID</em>}' attribute.
@@ -65,6 +65,6 @@ public interface ExtendedResourceLocalIdentifier extends triplet
    * @see #getResLID()
    * @generated
    */
-  void setResLID(int value);
+  void setResLID(Integer value);
 
 } // ExtendedResourceLocalIdentifier

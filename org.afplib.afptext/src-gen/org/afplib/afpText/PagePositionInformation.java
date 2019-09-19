@@ -27,12 +27,12 @@ public interface PagePositionInformation extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PGPRG</em>' attribute.
-   * @see #setPGPRG(int)
+   * @see #setPGPRG(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPagePositionInformation_PGPRG()
    * @model
    * @generated
    */
-  int getPGPRG();
+  Integer getPGPRG();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PagePositionInformation#getPGPRG <em>PGPRG</em>}' attribute.
@@ -42,6 +42,6 @@ public interface PagePositionInformation extends triplet
    * @see #getPGPRG()
    * @generated
    */
-  void setPGPRG(int value);
+  void setPGPRG(Integer value);
 
 } // PagePositionInformation

@@ -35,7 +35,7 @@ public class LNCImpl extends structuredFieldImpl implements LNC
    * @generated
    * @ordered
    */
-  protected static final int NUM_DSC_EDEFAULT = 0;
+  protected static final Integer NUM_DSC_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNumDSC() <em>Num DSC</em>}' attribute.
@@ -45,7 +45,7 @@ public class LNCImpl extends structuredFieldImpl implements LNC
    * @generated
    * @ordered
    */
-  protected int numDSC = NUM_DSC_EDEFAULT;
+  protected Integer numDSC = NUM_DSC_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class LNCImpl extends structuredFieldImpl implements LNC
    * @generated
    */
   @Override
-  public int getNumDSC()
+  public Integer getNumDSC()
   {
     return numDSC;
   }
@@ -85,9 +85,9 @@ public class LNCImpl extends structuredFieldImpl implements LNC
    * @generated
    */
   @Override
-  public void setNumDSC(int newNumDSC)
+  public void setNumDSC(Integer newNumDSC)
   {
-    int oldNumDSC = numDSC;
+    Integer oldNumDSC = numDSC;
     numDSC = newNumDSC;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LNC__NUM_DSC, oldNumDSC, numDSC));
@@ -154,7 +154,7 @@ public class LNCImpl extends structuredFieldImpl implements LNC
     switch (featureID)
     {
       case AfpTextPackage.LNC__NUM_DSC:
-        return numDSC != NUM_DSC_EDEFAULT;
+        return NUM_DSC_EDEFAULT == null ? numDSC != null : !NUM_DSC_EDEFAULT.equals(numDSC);
     }
     return super.eIsSet(featureID);
   }

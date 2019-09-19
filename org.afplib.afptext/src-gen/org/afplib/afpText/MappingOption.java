@@ -27,12 +27,12 @@ public interface MappingOption extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Map Value</em>' attribute.
-   * @see #setMapValue(int)
+   * @see #setMapValue(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMappingOption_MapValue()
    * @model
    * @generated
    */
-  int getMapValue();
+  Integer getMapValue();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MappingOption#getMapValue <em>Map Value</em>}' attribute.
@@ -42,6 +42,6 @@ public interface MappingOption extends triplet
    * @see #getMapValue()
    * @generated
    */
-  void setMapValue(int value);
+  void setMapValue(Integer value);
 
 } // MappingOption

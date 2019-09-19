@@ -35,7 +35,7 @@ public class BeginImageImpl extends tripletImpl implements BeginImage
    * @generated
    * @ordered
    */
-  protected static final int OBJTYPE_EDEFAULT = 0;
+  protected static final Integer OBJTYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getOBJTYPE() <em>OBJTYPE</em>}' attribute.
@@ -45,7 +45,7 @@ public class BeginImageImpl extends tripletImpl implements BeginImage
    * @generated
    * @ordered
    */
-  protected int objtype = OBJTYPE_EDEFAULT;
+  protected Integer objtype = OBJTYPE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class BeginImageImpl extends tripletImpl implements BeginImage
    * @generated
    */
   @Override
-  public int getOBJTYPE()
+  public Integer getOBJTYPE()
   {
     return objtype;
   }
@@ -85,9 +85,9 @@ public class BeginImageImpl extends tripletImpl implements BeginImage
    * @generated
    */
   @Override
-  public void setOBJTYPE(int newOBJTYPE)
+  public void setOBJTYPE(Integer newOBJTYPE)
   {
-    int oldOBJTYPE = objtype;
+    Integer oldOBJTYPE = objtype;
     objtype = newOBJTYPE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BEGIN_IMAGE__OBJTYPE, oldOBJTYPE, objtype));
@@ -154,7 +154,7 @@ public class BeginImageImpl extends tripletImpl implements BeginImage
     switch (featureID)
     {
       case AfpTextPackage.BEGIN_IMAGE__OBJTYPE:
-        return objtype != OBJTYPE_EDEFAULT;
+        return OBJTYPE_EDEFAULT == null ? objtype != null : !OBJTYPE_EDEFAULT.equals(objtype);
     }
     return super.eIsSet(featureID);
   }

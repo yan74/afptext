@@ -35,7 +35,7 @@ public class ResourceUsageAttributeImpl extends tripletImpl implements ResourceU
    * @generated
    * @ordered
    */
-  protected static final int FREQUENCY_EDEFAULT = 0;
+  protected static final Integer FREQUENCY_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFrequency() <em>Frequency</em>}' attribute.
@@ -45,7 +45,7 @@ public class ResourceUsageAttributeImpl extends tripletImpl implements ResourceU
    * @generated
    * @ordered
    */
-  protected int frequency = FREQUENCY_EDEFAULT;
+  protected Integer frequency = FREQUENCY_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class ResourceUsageAttributeImpl extends tripletImpl implements ResourceU
    * @generated
    */
   @Override
-  public int getFrequency()
+  public Integer getFrequency()
   {
     return frequency;
   }
@@ -85,9 +85,9 @@ public class ResourceUsageAttributeImpl extends tripletImpl implements ResourceU
    * @generated
    */
   @Override
-  public void setFrequency(int newFrequency)
+  public void setFrequency(Integer newFrequency)
   {
-    int oldFrequency = frequency;
+    Integer oldFrequency = frequency;
     frequency = newFrequency;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RESOURCE_USAGE_ATTRIBUTE__FREQUENCY, oldFrequency, frequency));
@@ -154,7 +154,7 @@ public class ResourceUsageAttributeImpl extends tripletImpl implements ResourceU
     switch (featureID)
     {
       case AfpTextPackage.RESOURCE_USAGE_ATTRIBUTE__FREQUENCY:
-        return frequency != FREQUENCY_EDEFAULT;
+        return FREQUENCY_EDEFAULT == null ? frequency != null : !FREQUENCY_EDEFAULT.equals(frequency);
     }
     return super.eIsSet(featureID);
   }

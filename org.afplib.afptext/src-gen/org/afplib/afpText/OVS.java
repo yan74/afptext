@@ -28,12 +28,12 @@ public interface OVS extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BYPSIDEN</em>' attribute.
-   * @see #setBYPSIDEN(int)
+   * @see #setBYPSIDEN(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getOVS_BYPSIDEN()
    * @model
    * @generated
    */
-  int getBYPSIDEN();
+  Integer getBYPSIDEN();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.OVS#getBYPSIDEN <em>BYPSIDEN</em>}' attribute.
@@ -43,19 +43,19 @@ public interface OVS extends triplet
    * @see #getBYPSIDEN()
    * @generated
    */
-  void setBYPSIDEN(int value);
+  void setBYPSIDEN(Integer value);
 
   /**
    * Returns the value of the '<em><b>OVERCHAR</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>OVERCHAR</em>' attribute.
-   * @see #setOVERCHAR(int)
+   * @see #setOVERCHAR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getOVS_OVERCHAR()
    * @model
    * @generated
    */
-  int getOVERCHAR();
+  Integer getOVERCHAR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.OVS#getOVERCHAR <em>OVERCHAR</em>}' attribute.
@@ -65,6 +65,6 @@ public interface OVS extends triplet
    * @see #getOVERCHAR()
    * @generated
    */
-  void setOVERCHAR(int value);
+  void setOVERCHAR(Integer value);
 
 } // OVS

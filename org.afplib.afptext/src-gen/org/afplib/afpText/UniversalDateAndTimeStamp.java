@@ -36,12 +36,12 @@ public interface UniversalDateAndTimeStamp extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved</em>' attribute.
-   * @see #setReserved(int)
+   * @see #setReserved(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_Reserved()
    * @model
    * @generated
    */
-  int getReserved();
+  Integer getReserved();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getReserved <em>Reserved</em>}' attribute.
@@ -51,19 +51,19 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getReserved()
    * @generated
    */
-  void setReserved(int value);
+  void setReserved(Integer value);
 
   /**
    * Returns the value of the '<em><b>Year AD</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Year AD</em>' attribute.
-   * @see #setYearAD(int)
+   * @see #setYearAD(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_YearAD()
    * @model
    * @generated
    */
-  int getYearAD();
+  Integer getYearAD();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getYearAD <em>Year AD</em>}' attribute.
@@ -73,19 +73,19 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getYearAD()
    * @generated
    */
-  void setYearAD(int value);
+  void setYearAD(Integer value);
 
   /**
    * Returns the value of the '<em><b>Month</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Month</em>' attribute.
-   * @see #setMonth(int)
+   * @see #setMonth(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_Month()
    * @model
    * @generated
    */
-  int getMonth();
+  Integer getMonth();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getMonth <em>Month</em>}' attribute.
@@ -95,19 +95,19 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getMonth()
    * @generated
    */
-  void setMonth(int value);
+  void setMonth(Integer value);
 
   /**
    * Returns the value of the '<em><b>Day</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Day</em>' attribute.
-   * @see #setDay(int)
+   * @see #setDay(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_Day()
    * @model
    * @generated
    */
-  int getDay();
+  Integer getDay();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getDay <em>Day</em>}' attribute.
@@ -117,19 +117,19 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getDay()
    * @generated
    */
-  void setDay(int value);
+  void setDay(Integer value);
 
   /**
    * Returns the value of the '<em><b>Hour</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Hour</em>' attribute.
-   * @see #setHour(int)
+   * @see #setHour(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_Hour()
    * @model
    * @generated
    */
-  int getHour();
+  Integer getHour();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getHour <em>Hour</em>}' attribute.
@@ -139,19 +139,19 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getHour()
    * @generated
    */
-  void setHour(int value);
+  void setHour(Integer value);
 
   /**
    * Returns the value of the '<em><b>Minute</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Minute</em>' attribute.
-   * @see #setMinute(int)
+   * @see #setMinute(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_Minute()
    * @model
    * @generated
    */
-  int getMinute();
+  Integer getMinute();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getMinute <em>Minute</em>}' attribute.
@@ -161,19 +161,19 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getMinute()
    * @generated
    */
-  void setMinute(int value);
+  void setMinute(Integer value);
 
   /**
    * Returns the value of the '<em><b>Second</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Second</em>' attribute.
-   * @see #setSecond(int)
+   * @see #setSecond(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_Second()
    * @model
    * @generated
    */
-  int getSecond();
+  Integer getSecond();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getSecond <em>Second</em>}' attribute.
@@ -183,19 +183,19 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getSecond()
    * @generated
    */
-  void setSecond(int value);
+  void setSecond(Integer value);
 
   /**
    * Returns the value of the '<em><b>Time Zone</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Time Zone</em>' attribute.
-   * @see #setTimeZone(int)
+   * @see #setTimeZone(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_TimeZone()
    * @model
    * @generated
    */
-  int getTimeZone();
+  Integer getTimeZone();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getTimeZone <em>Time Zone</em>}' attribute.
@@ -205,19 +205,19 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getTimeZone()
    * @generated
    */
-  void setTimeZone(int value);
+  void setTimeZone(Integer value);
 
   /**
    * Returns the value of the '<em><b>UTC Diff H</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>UTC Diff H</em>' attribute.
-   * @see #setUTCDiffH(int)
+   * @see #setUTCDiffH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_UTCDiffH()
    * @model
    * @generated
    */
-  int getUTCDiffH();
+  Integer getUTCDiffH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getUTCDiffH <em>UTC Diff H</em>}' attribute.
@@ -227,19 +227,19 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getUTCDiffH()
    * @generated
    */
-  void setUTCDiffH(int value);
+  void setUTCDiffH(Integer value);
 
   /**
    * Returns the value of the '<em><b>UTC Diff M</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>UTC Diff M</em>' attribute.
-   * @see #setUTCDiffM(int)
+   * @see #setUTCDiffM(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUniversalDateAndTimeStamp_UTCDiffM()
    * @model
    * @generated
    */
-  int getUTCDiffM();
+  Integer getUTCDiffM();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UniversalDateAndTimeStamp#getUTCDiffM <em>UTC Diff M</em>}' attribute.
@@ -249,6 +249,6 @@ public interface UniversalDateAndTimeStamp extends triplet
    * @see #getUTCDiffM()
    * @generated
    */
-  void setUTCDiffM(int value);
+  void setUTCDiffM(Integer value);
 
 } // UniversalDateAndTimeStamp

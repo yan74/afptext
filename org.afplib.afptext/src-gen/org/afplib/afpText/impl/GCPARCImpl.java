@@ -40,7 +40,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected static final int XCENT_EDEFAULT = 0;
+  protected static final Integer XCENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXCENT() <em>XCENT</em>}' attribute.
@@ -50,7 +50,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected int xcent = XCENT_EDEFAULT;
+  protected Integer xcent = XCENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYCENT() <em>YCENT</em>}' attribute.
@@ -60,7 +60,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected static final int YCENT_EDEFAULT = 0;
+  protected static final Integer YCENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYCENT() <em>YCENT</em>}' attribute.
@@ -70,7 +70,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected int ycent = YCENT_EDEFAULT;
+  protected Integer ycent = YCENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMH() <em>MH</em>}' attribute.
@@ -80,7 +80,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected static final int MH_EDEFAULT = 0;
+  protected static final Integer MH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMH() <em>MH</em>}' attribute.
@@ -90,7 +90,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected int mh = MH_EDEFAULT;
+  protected Integer mh = MH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMFR() <em>MFR</em>}' attribute.
@@ -100,7 +100,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected static final int MFR_EDEFAULT = 0;
+  protected static final Integer MFR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMFR() <em>MFR</em>}' attribute.
@@ -110,7 +110,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected int mfr = MFR_EDEFAULT;
+  protected Integer mfr = MFR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSTART() <em>START</em>}' attribute.
@@ -120,7 +120,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected static final int START_EDEFAULT = 0;
+  protected static final Integer START_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSTART() <em>START</em>}' attribute.
@@ -130,7 +130,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected int start = START_EDEFAULT;
+  protected Integer start = START_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSWEEP() <em>SWEEP</em>}' attribute.
@@ -140,7 +140,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected static final int SWEEP_EDEFAULT = 0;
+  protected static final Integer SWEEP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSWEEP() <em>SWEEP</em>}' attribute.
@@ -150,7 +150,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    * @ordered
    */
-  protected int sweep = SWEEP_EDEFAULT;
+  protected Integer sweep = SWEEP_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -179,7 +179,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public int getXCENT()
+  public Integer getXCENT()
   {
     return xcent;
   }
@@ -190,9 +190,9 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public void setXCENT(int newXCENT)
+  public void setXCENT(Integer newXCENT)
   {
-    int oldXCENT = xcent;
+    Integer oldXCENT = xcent;
     xcent = newXCENT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCPARC__XCENT, oldXCENT, xcent));
@@ -204,7 +204,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public int getYCENT()
+  public Integer getYCENT()
   {
     return ycent;
   }
@@ -215,9 +215,9 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public void setYCENT(int newYCENT)
+  public void setYCENT(Integer newYCENT)
   {
-    int oldYCENT = ycent;
+    Integer oldYCENT = ycent;
     ycent = newYCENT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCPARC__YCENT, oldYCENT, ycent));
@@ -229,7 +229,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public int getMH()
+  public Integer getMH()
   {
     return mh;
   }
@@ -240,9 +240,9 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public void setMH(int newMH)
+  public void setMH(Integer newMH)
   {
-    int oldMH = mh;
+    Integer oldMH = mh;
     mh = newMH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCPARC__MH, oldMH, mh));
@@ -254,7 +254,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public int getMFR()
+  public Integer getMFR()
   {
     return mfr;
   }
@@ -265,9 +265,9 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public void setMFR(int newMFR)
+  public void setMFR(Integer newMFR)
   {
-    int oldMFR = mfr;
+    Integer oldMFR = mfr;
     mfr = newMFR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCPARC__MFR, oldMFR, mfr));
@@ -279,7 +279,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public int getSTART()
+  public Integer getSTART()
   {
     return start;
   }
@@ -290,9 +290,9 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public void setSTART(int newSTART)
+  public void setSTART(Integer newSTART)
   {
-    int oldSTART = start;
+    Integer oldSTART = start;
     start = newSTART;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCPARC__START, oldSTART, start));
@@ -304,7 +304,7 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public int getSWEEP()
+  public Integer getSWEEP()
   {
     return sweep;
   }
@@ -315,9 +315,9 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
    * @generated
    */
   @Override
-  public void setSWEEP(int newSWEEP)
+  public void setSWEEP(Integer newSWEEP)
   {
-    int oldSWEEP = sweep;
+    Integer oldSWEEP = sweep;
     sweep = newSWEEP;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCPARC__SWEEP, oldSWEEP, sweep));
@@ -424,17 +424,17 @@ public class GCPARCImpl extends tripletImpl implements GCPARC
     switch (featureID)
     {
       case AfpTextPackage.GCPARC__XCENT:
-        return xcent != XCENT_EDEFAULT;
+        return XCENT_EDEFAULT == null ? xcent != null : !XCENT_EDEFAULT.equals(xcent);
       case AfpTextPackage.GCPARC__YCENT:
-        return ycent != YCENT_EDEFAULT;
+        return YCENT_EDEFAULT == null ? ycent != null : !YCENT_EDEFAULT.equals(ycent);
       case AfpTextPackage.GCPARC__MH:
-        return mh != MH_EDEFAULT;
+        return MH_EDEFAULT == null ? mh != null : !MH_EDEFAULT.equals(mh);
       case AfpTextPackage.GCPARC__MFR:
-        return mfr != MFR_EDEFAULT;
+        return MFR_EDEFAULT == null ? mfr != null : !MFR_EDEFAULT.equals(mfr);
       case AfpTextPackage.GCPARC__START:
-        return start != START_EDEFAULT;
+        return START_EDEFAULT == null ? start != null : !START_EDEFAULT.equals(start);
       case AfpTextPackage.GCPARC__SWEEP:
-        return sweep != SWEEP_EDEFAULT;
+        return SWEEP_EDEFAULT == null ? sweep != null : !SWEEP_EDEFAULT.equals(sweep);
     }
     return super.eIsSet(featureID);
   }

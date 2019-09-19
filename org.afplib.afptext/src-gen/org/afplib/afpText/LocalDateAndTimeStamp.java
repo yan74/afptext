@@ -34,12 +34,12 @@ public interface LocalDateAndTimeStamp extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Stamp Type</em>' attribute.
-   * @see #setStampType(int)
+   * @see #setStampType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLocalDateAndTimeStamp_StampType()
    * @model
    * @generated
    */
-  int getStampType();
+  Integer getStampType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LocalDateAndTimeStamp#getStampType <em>Stamp Type</em>}' attribute.
@@ -49,19 +49,19 @@ public interface LocalDateAndTimeStamp extends triplet
    * @see #getStampType()
    * @generated
    */
-  void setStampType(int value);
+  void setStampType(Integer value);
 
   /**
    * Returns the value of the '<em><b>THun Year</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>THun Year</em>' attribute.
-   * @see #setTHunYear(int)
+   * @see #setTHunYear(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLocalDateAndTimeStamp_THunYear()
    * @model
    * @generated
    */
-  int getTHunYear();
+  Integer getTHunYear();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LocalDateAndTimeStamp#getTHunYear <em>THun Year</em>}' attribute.
@@ -71,19 +71,19 @@ public interface LocalDateAndTimeStamp extends triplet
    * @see #getTHunYear()
    * @generated
    */
-  void setTHunYear(int value);
+  void setTHunYear(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ten Year</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ten Year</em>' attribute.
-   * @see #setTenYear(int)
+   * @see #setTenYear(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLocalDateAndTimeStamp_TenYear()
    * @model
    * @generated
    */
-  int getTenYear();
+  Integer getTenYear();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LocalDateAndTimeStamp#getTenYear <em>Ten Year</em>}' attribute.
@@ -93,19 +93,19 @@ public interface LocalDateAndTimeStamp extends triplet
    * @see #getTenYear()
    * @generated
    */
-  void setTenYear(int value);
+  void setTenYear(Integer value);
 
   /**
    * Returns the value of the '<em><b>Day</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Day</em>' attribute.
-   * @see #setDay(int)
+   * @see #setDay(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLocalDateAndTimeStamp_Day()
    * @model
    * @generated
    */
-  int getDay();
+  Integer getDay();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LocalDateAndTimeStamp#getDay <em>Day</em>}' attribute.
@@ -115,19 +115,19 @@ public interface LocalDateAndTimeStamp extends triplet
    * @see #getDay()
    * @generated
    */
-  void setDay(int value);
+  void setDay(Integer value);
 
   /**
    * Returns the value of the '<em><b>Hour</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Hour</em>' attribute.
-   * @see #setHour(int)
+   * @see #setHour(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLocalDateAndTimeStamp_Hour()
    * @model
    * @generated
    */
-  int getHour();
+  Integer getHour();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LocalDateAndTimeStamp#getHour <em>Hour</em>}' attribute.
@@ -137,19 +137,19 @@ public interface LocalDateAndTimeStamp extends triplet
    * @see #getHour()
    * @generated
    */
-  void setHour(int value);
+  void setHour(Integer value);
 
   /**
    * Returns the value of the '<em><b>Minute</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Minute</em>' attribute.
-   * @see #setMinute(int)
+   * @see #setMinute(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLocalDateAndTimeStamp_Minute()
    * @model
    * @generated
    */
-  int getMinute();
+  Integer getMinute();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LocalDateAndTimeStamp#getMinute <em>Minute</em>}' attribute.
@@ -159,19 +159,19 @@ public interface LocalDateAndTimeStamp extends triplet
    * @see #getMinute()
    * @generated
    */
-  void setMinute(int value);
+  void setMinute(Integer value);
 
   /**
    * Returns the value of the '<em><b>Second</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Second</em>' attribute.
-   * @see #setSecond(int)
+   * @see #setSecond(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLocalDateAndTimeStamp_Second()
    * @model
    * @generated
    */
-  int getSecond();
+  Integer getSecond();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LocalDateAndTimeStamp#getSecond <em>Second</em>}' attribute.
@@ -181,19 +181,19 @@ public interface LocalDateAndTimeStamp extends triplet
    * @see #getSecond()
    * @generated
    */
-  void setSecond(int value);
+  void setSecond(Integer value);
 
   /**
    * Returns the value of the '<em><b>Hund Sec</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Hund Sec</em>' attribute.
-   * @see #setHundSec(int)
+   * @see #setHundSec(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLocalDateAndTimeStamp_HundSec()
    * @model
    * @generated
    */
-  int getHundSec();
+  Integer getHundSec();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LocalDateAndTimeStamp#getHundSec <em>Hund Sec</em>}' attribute.
@@ -203,6 +203,6 @@ public interface LocalDateAndTimeStamp extends triplet
    * @see #getHundSec()
    * @generated
    */
-  void setHundSec(int value);
+  void setHundSec(Integer value);
 
 } // LocalDateAndTimeStamp

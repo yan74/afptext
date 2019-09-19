@@ -30,12 +30,12 @@ public interface GCBIMG extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FORMAT</em>' attribute.
-   * @see #setFORMAT(int)
+   * @see #setFORMAT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCBIMG_FORMAT()
    * @model
    * @generated
    */
-  int getFORMAT();
+  Integer getFORMAT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCBIMG#getFORMAT <em>FORMAT</em>}' attribute.
@@ -45,19 +45,19 @@ public interface GCBIMG extends triplet
    * @see #getFORMAT()
    * @generated
    */
-  void setFORMAT(int value);
+  void setFORMAT(Integer value);
 
   /**
    * Returns the value of the '<em><b>RES</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RES</em>' attribute.
-   * @see #setRES(int)
+   * @see #setRES(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCBIMG_RES()
    * @model
    * @generated
    */
-  int getRES();
+  Integer getRES();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCBIMG#getRES <em>RES</em>}' attribute.
@@ -67,19 +67,19 @@ public interface GCBIMG extends triplet
    * @see #getRES()
    * @generated
    */
-  void setRES(int value);
+  void setRES(Integer value);
 
   /**
    * Returns the value of the '<em><b>WIDTH</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>WIDTH</em>' attribute.
-   * @see #setWIDTH(int)
+   * @see #setWIDTH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCBIMG_WIDTH()
    * @model
    * @generated
    */
-  int getWIDTH();
+  Integer getWIDTH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCBIMG#getWIDTH <em>WIDTH</em>}' attribute.
@@ -89,19 +89,19 @@ public interface GCBIMG extends triplet
    * @see #getWIDTH()
    * @generated
    */
-  void setWIDTH(int value);
+  void setWIDTH(Integer value);
 
   /**
    * Returns the value of the '<em><b>HEIGHT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HEIGHT</em>' attribute.
-   * @see #setHEIGHT(int)
+   * @see #setHEIGHT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCBIMG_HEIGHT()
    * @model
    * @generated
    */
-  int getHEIGHT();
+  Integer getHEIGHT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCBIMG#getHEIGHT <em>HEIGHT</em>}' attribute.
@@ -111,6 +111,6 @@ public interface GCBIMG extends triplet
    * @see #getHEIGHT()
    * @generated
    */
-  void setHEIGHT(int value);
+  void setHEIGHT(Integer value);
 
 } // GCBIMG

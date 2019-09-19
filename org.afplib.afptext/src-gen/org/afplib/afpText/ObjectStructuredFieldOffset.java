@@ -28,12 +28,12 @@ public interface ObjectStructuredFieldOffset extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SF Off</em>' attribute.
-   * @see #setSFOff(int)
+   * @see #setSFOff(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectStructuredFieldOffset_SFOff()
    * @model
    * @generated
    */
-  int getSFOff();
+  Integer getSFOff();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectStructuredFieldOffset#getSFOff <em>SF Off</em>}' attribute.
@@ -43,19 +43,19 @@ public interface ObjectStructuredFieldOffset extends triplet
    * @see #getSFOff()
    * @generated
    */
-  void setSFOff(int value);
+  void setSFOff(Integer value);
 
   /**
    * Returns the value of the '<em><b>SF Off Hi</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SF Off Hi</em>' attribute.
-   * @see #setSFOffHi(int)
+   * @see #setSFOffHi(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectStructuredFieldOffset_SFOffHi()
    * @model
    * @generated
    */
-  int getSFOffHi();
+  Integer getSFOffHi();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectStructuredFieldOffset#getSFOffHi <em>SF Off Hi</em>}' attribute.
@@ -65,6 +65,6 @@ public interface ObjectStructuredFieldOffset extends triplet
    * @see #getSFOffHi()
    * @generated
    */
-  void setSFOffHi(int value);
+  void setSFOffHi(Integer value);
 
 } // ObjectStructuredFieldOffset

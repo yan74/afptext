@@ -35,12 +35,12 @@ public interface PTD extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPBASE</em>' attribute.
-   * @see #setXPBASE(int)
+   * @see #setXPBASE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPTD_XPBASE()
    * @model
    * @generated
    */
-  int getXPBASE();
+  Integer getXPBASE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PTD#getXPBASE <em>XPBASE</em>}' attribute.
@@ -50,19 +50,19 @@ public interface PTD extends structuredField
    * @see #getXPBASE()
    * @generated
    */
-  void setXPBASE(int value);
+  void setXPBASE(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPBASE</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPBASE</em>' attribute.
-   * @see #setYPBASE(int)
+   * @see #setYPBASE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPTD_YPBASE()
    * @model
    * @generated
    */
-  int getYPBASE();
+  Integer getYPBASE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PTD#getYPBASE <em>YPBASE</em>}' attribute.
@@ -72,19 +72,19 @@ public interface PTD extends structuredField
    * @see #getYPBASE()
    * @generated
    */
-  void setYPBASE(int value);
+  void setYPBASE(Integer value);
 
   /**
    * Returns the value of the '<em><b>XPUNITVL</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPUNITVL</em>' attribute.
-   * @see #setXPUNITVL(int)
+   * @see #setXPUNITVL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPTD_XPUNITVL()
    * @model
    * @generated
    */
-  int getXPUNITVL();
+  Integer getXPUNITVL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PTD#getXPUNITVL <em>XPUNITVL</em>}' attribute.
@@ -94,19 +94,19 @@ public interface PTD extends structuredField
    * @see #getXPUNITVL()
    * @generated
    */
-  void setXPUNITVL(int value);
+  void setXPUNITVL(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPUNITVL</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPUNITVL</em>' attribute.
-   * @see #setYPUNITVL(int)
+   * @see #setYPUNITVL(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPTD_YPUNITVL()
    * @model
    * @generated
    */
-  int getYPUNITVL();
+  Integer getYPUNITVL();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PTD#getYPUNITVL <em>YPUNITVL</em>}' attribute.
@@ -116,19 +116,19 @@ public interface PTD extends structuredField
    * @see #getYPUNITVL()
    * @generated
    */
-  void setYPUNITVL(int value);
+  void setYPUNITVL(Integer value);
 
   /**
    * Returns the value of the '<em><b>XPEXTENT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPEXTENT</em>' attribute.
-   * @see #setXPEXTENT(int)
+   * @see #setXPEXTENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPTD_XPEXTENT()
    * @model
    * @generated
    */
-  int getXPEXTENT();
+  Integer getXPEXTENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PTD#getXPEXTENT <em>XPEXTENT</em>}' attribute.
@@ -138,19 +138,19 @@ public interface PTD extends structuredField
    * @see #getXPEXTENT()
    * @generated
    */
-  void setXPEXTENT(int value);
+  void setXPEXTENT(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPEXTENT</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPEXTENT</em>' attribute.
-   * @see #setYPEXTENT(int)
+   * @see #setYPEXTENT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPTD_YPEXTENT()
    * @model
    * @generated
    */
-  int getYPEXTENT();
+  Integer getYPEXTENT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PTD#getYPEXTENT <em>YPEXTENT</em>}' attribute.
@@ -160,19 +160,19 @@ public interface PTD extends structuredField
    * @see #getYPEXTENT()
    * @generated
    */
-  void setYPEXTENT(int value);
+  void setYPEXTENT(Integer value);
 
   /**
    * Returns the value of the '<em><b>RESERVED</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RESERVED</em>' attribute.
-   * @see #setRESERVED(int)
+   * @see #setRESERVED(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPTD_RESERVED()
    * @model
    * @generated
    */
-  int getRESERVED();
+  Integer getRESERVED();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PTD#getRESERVED <em>RESERVED</em>}' attribute.
@@ -182,7 +182,7 @@ public interface PTD extends structuredField
    * @see #getRESERVED()
    * @generated
    */
-  void setRESERVED(int value);
+  void setRESERVED(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

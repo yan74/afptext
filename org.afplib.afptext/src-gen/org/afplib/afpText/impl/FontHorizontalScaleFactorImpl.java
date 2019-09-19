@@ -35,7 +35,7 @@ public class FontHorizontalScaleFactorImpl extends tripletImpl implements FontHo
    * @generated
    * @ordered
    */
-  protected static final int HSCALE_EDEFAULT = 0;
+  protected static final Integer HSCALE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHscale() <em>Hscale</em>}' attribute.
@@ -45,7 +45,7 @@ public class FontHorizontalScaleFactorImpl extends tripletImpl implements FontHo
    * @generated
    * @ordered
    */
-  protected int hscale = HSCALE_EDEFAULT;
+  protected Integer hscale = HSCALE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class FontHorizontalScaleFactorImpl extends tripletImpl implements FontHo
    * @generated
    */
   @Override
-  public int getHscale()
+  public Integer getHscale()
   {
     return hscale;
   }
@@ -85,9 +85,9 @@ public class FontHorizontalScaleFactorImpl extends tripletImpl implements FontHo
    * @generated
    */
   @Override
-  public void setHscale(int newHscale)
+  public void setHscale(Integer newHscale)
   {
-    int oldHscale = hscale;
+    Integer oldHscale = hscale;
     hscale = newHscale;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_HORIZONTAL_SCALE_FACTOR__HSCALE, oldHscale, hscale));
@@ -154,7 +154,7 @@ public class FontHorizontalScaleFactorImpl extends tripletImpl implements FontHo
     switch (featureID)
     {
       case AfpTextPackage.FONT_HORIZONTAL_SCALE_FACTOR__HSCALE:
-        return hscale != HSCALE_EDEFAULT;
+        return HSCALE_EDEFAULT == null ? hscale != null : !HSCALE_EDEFAULT.equals(hscale);
     }
     return super.eIsSet(featureID);
   }

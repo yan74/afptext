@@ -42,7 +42,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected static final int XOA_OSET_EDEFAULT = 0;
+  protected static final Integer XOA_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXoaOset() <em>Xoa Oset</em>}' attribute.
@@ -52,7 +52,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected int xoaOset = XOA_OSET_EDEFAULT;
+  protected Integer xoaOset = XOA_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYoaOset() <em>Yoa Oset</em>}' attribute.
@@ -62,7 +62,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected static final int YOA_OSET_EDEFAULT = 0;
+  protected static final Integer YOA_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYoaOset() <em>Yoa Oset</em>}' attribute.
@@ -72,7 +72,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected int yoaOset = YOA_OSET_EDEFAULT;
+  protected Integer yoaOset = YOA_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXoaOrent() <em>Xoa Orent</em>}' attribute.
@@ -82,7 +82,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected static final int XOA_ORENT_EDEFAULT = 0;
+  protected static final Integer XOA_ORENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXoaOrent() <em>Xoa Orent</em>}' attribute.
@@ -92,7 +92,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected int xoaOrent = XOA_ORENT_EDEFAULT;
+  protected Integer xoaOrent = XOA_ORENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYoaOrent() <em>Yoa Orent</em>}' attribute.
@@ -102,7 +102,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected static final int YOA_ORENT_EDEFAULT = 0;
+  protected static final Integer YOA_ORENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYoaOrent() <em>Yoa Orent</em>}' attribute.
@@ -112,7 +112,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected int yoaOrent = YOA_ORENT_EDEFAULT;
+  protected Integer yoaOrent = YOA_ORENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getConData1() <em>Con Data1</em>}' attribute.
@@ -142,7 +142,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected static final int XMAP_EDEFAULT = 0;
+  protected static final Integer XMAP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXMap() <em>XMap</em>}' attribute.
@@ -152,7 +152,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected int xMap = XMAP_EDEFAULT;
+  protected Integer xMap = XMAP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYMap() <em>YMap</em>}' attribute.
@@ -162,7 +162,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected static final int YMAP_EDEFAULT = 0;
+  protected static final Integer YMAP_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYMap() <em>YMap</em>}' attribute.
@@ -172,7 +172,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    * @ordered
    */
-  protected int yMap = YMAP_EDEFAULT;
+  protected Integer yMap = YMAP_EDEFAULT;
 
   /**
    * The default value of the '{@link #getConData2() <em>Con Data2</em>}' attribute.
@@ -221,7 +221,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public int getXoaOset()
+  public Integer getXoaOset()
   {
     return xoaOset;
   }
@@ -232,9 +232,9 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public void setXoaOset(int newXoaOset)
+  public void setXoaOset(Integer newXoaOset)
   {
-    int oldXoaOset = xoaOset;
+    Integer oldXoaOset = xoaOset;
     xoaOset = newXoaOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOC__XOA_OSET, oldXoaOset, xoaOset));
@@ -246,7 +246,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public int getYoaOset()
+  public Integer getYoaOset()
   {
     return yoaOset;
   }
@@ -257,9 +257,9 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public void setYoaOset(int newYoaOset)
+  public void setYoaOset(Integer newYoaOset)
   {
-    int oldYoaOset = yoaOset;
+    Integer oldYoaOset = yoaOset;
     yoaOset = newYoaOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOC__YOA_OSET, oldYoaOset, yoaOset));
@@ -271,7 +271,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public int getXoaOrent()
+  public Integer getXoaOrent()
   {
     return xoaOrent;
   }
@@ -282,9 +282,9 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public void setXoaOrent(int newXoaOrent)
+  public void setXoaOrent(Integer newXoaOrent)
   {
-    int oldXoaOrent = xoaOrent;
+    Integer oldXoaOrent = xoaOrent;
     xoaOrent = newXoaOrent;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOC__XOA_ORENT, oldXoaOrent, xoaOrent));
@@ -296,7 +296,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public int getYoaOrent()
+  public Integer getYoaOrent()
   {
     return yoaOrent;
   }
@@ -307,9 +307,9 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public void setYoaOrent(int newYoaOrent)
+  public void setYoaOrent(Integer newYoaOrent)
   {
-    int oldYoaOrent = yoaOrent;
+    Integer oldYoaOrent = yoaOrent;
     yoaOrent = newYoaOrent;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOC__YOA_ORENT, oldYoaOrent, yoaOrent));
@@ -346,7 +346,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public int getXMap()
+  public Integer getXMap()
   {
     return xMap;
   }
@@ -357,9 +357,9 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public void setXMap(int newXMap)
+  public void setXMap(Integer newXMap)
   {
-    int oldXMap = xMap;
+    Integer oldXMap = xMap;
     xMap = newXMap;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOC__XMAP, oldXMap, xMap));
@@ -371,7 +371,7 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public int getYMap()
+  public Integer getYMap()
   {
     return yMap;
   }
@@ -382,9 +382,9 @@ public class IOCImpl extends structuredFieldImpl implements IOC
    * @generated
    */
   @Override
-  public void setYMap(int newYMap)
+  public void setYMap(Integer newYMap)
   {
-    int oldYMap = yMap;
+    Integer oldYMap = yMap;
     yMap = newYMap;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IOC__YMAP, oldYMap, yMap));
@@ -532,19 +532,19 @@ public class IOCImpl extends structuredFieldImpl implements IOC
     switch (featureID)
     {
       case AfpTextPackage.IOC__XOA_OSET:
-        return xoaOset != XOA_OSET_EDEFAULT;
+        return XOA_OSET_EDEFAULT == null ? xoaOset != null : !XOA_OSET_EDEFAULT.equals(xoaOset);
       case AfpTextPackage.IOC__YOA_OSET:
-        return yoaOset != YOA_OSET_EDEFAULT;
+        return YOA_OSET_EDEFAULT == null ? yoaOset != null : !YOA_OSET_EDEFAULT.equals(yoaOset);
       case AfpTextPackage.IOC__XOA_ORENT:
-        return xoaOrent != XOA_ORENT_EDEFAULT;
+        return XOA_ORENT_EDEFAULT == null ? xoaOrent != null : !XOA_ORENT_EDEFAULT.equals(xoaOrent);
       case AfpTextPackage.IOC__YOA_ORENT:
-        return yoaOrent != YOA_ORENT_EDEFAULT;
+        return YOA_ORENT_EDEFAULT == null ? yoaOrent != null : !YOA_ORENT_EDEFAULT.equals(yoaOrent);
       case AfpTextPackage.IOC__CON_DATA1:
         return CON_DATA1_EDEFAULT == null ? conData1 != null : !CON_DATA1_EDEFAULT.equals(conData1);
       case AfpTextPackage.IOC__XMAP:
-        return xMap != XMAP_EDEFAULT;
+        return XMAP_EDEFAULT == null ? xMap != null : !XMAP_EDEFAULT.equals(xMap);
       case AfpTextPackage.IOC__YMAP:
-        return yMap != YMAP_EDEFAULT;
+        return YMAP_EDEFAULT == null ? yMap != null : !YMAP_EDEFAULT.equals(yMap);
       case AfpTextPackage.IOC__CON_DATA2:
         return CON_DATA2_EDEFAULT == null ? conData2 != null : !CON_DATA2_EDEFAULT.equals(conData2);
     }

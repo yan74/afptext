@@ -35,7 +35,7 @@ public class PresentationControlImpl extends tripletImpl implements Presentation
    * @generated
    * @ordered
    */
-  protected static final int PRS_FLG_EDEFAULT = 0;
+  protected static final Integer PRS_FLG_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPRSFlg() <em>PRS Flg</em>}' attribute.
@@ -45,7 +45,7 @@ public class PresentationControlImpl extends tripletImpl implements Presentation
    * @generated
    * @ordered
    */
-  protected int prsFlg = PRS_FLG_EDEFAULT;
+  protected Integer prsFlg = PRS_FLG_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class PresentationControlImpl extends tripletImpl implements Presentation
    * @generated
    */
   @Override
-  public int getPRSFlg()
+  public Integer getPRSFlg()
   {
     return prsFlg;
   }
@@ -85,9 +85,9 @@ public class PresentationControlImpl extends tripletImpl implements Presentation
    * @generated
    */
   @Override
-  public void setPRSFlg(int newPRSFlg)
+  public void setPRSFlg(Integer newPRSFlg)
   {
-    int oldPRSFlg = prsFlg;
+    Integer oldPRSFlg = prsFlg;
     prsFlg = newPRSFlg;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PRESENTATION_CONTROL__PRS_FLG, oldPRSFlg, prsFlg));
@@ -154,7 +154,7 @@ public class PresentationControlImpl extends tripletImpl implements Presentation
     switch (featureID)
     {
       case AfpTextPackage.PRESENTATION_CONTROL__PRS_FLG:
-        return prsFlg != PRS_FLG_EDEFAULT;
+        return PRS_FLG_EDEFAULT == null ? prsFlg != null : !PRS_FLG_EDEFAULT.equals(prsFlg);
     }
     return super.eIsSet(featureID);
   }

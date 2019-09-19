@@ -27,12 +27,12 @@ public interface IncludeTile extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>TIRID</em>' attribute.
-   * @see #setTIRID(int)
+   * @see #setTIRID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIncludeTile_TIRID()
    * @model
    * @generated
    */
-  int getTIRID();
+  Integer getTIRID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IncludeTile#getTIRID <em>TIRID</em>}' attribute.
@@ -42,6 +42,6 @@ public interface IncludeTile extends triplet
    * @see #getTIRID()
    * @generated
    */
-  void setTIRID(int value);
+  void setTIRID(Integer value);
 
 } // IncludeTile

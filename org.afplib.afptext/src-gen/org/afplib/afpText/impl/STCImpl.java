@@ -36,7 +36,7 @@ public class STCImpl extends tripletImpl implements STC
    * @generated
    * @ordered
    */
-  protected static final int FRGCOLOR_EDEFAULT = 0;
+  protected static final Integer FRGCOLOR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFRGCOLOR() <em>FRGCOLOR</em>}' attribute.
@@ -46,7 +46,7 @@ public class STCImpl extends tripletImpl implements STC
    * @generated
    * @ordered
    */
-  protected int frgcolor = FRGCOLOR_EDEFAULT;
+  protected Integer frgcolor = FRGCOLOR_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPRECSION() <em>PRECSION</em>}' attribute.
@@ -56,7 +56,7 @@ public class STCImpl extends tripletImpl implements STC
    * @generated
    * @ordered
    */
-  protected static final int PRECSION_EDEFAULT = 0;
+  protected static final Integer PRECSION_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPRECSION() <em>PRECSION</em>}' attribute.
@@ -66,7 +66,7 @@ public class STCImpl extends tripletImpl implements STC
    * @generated
    * @ordered
    */
-  protected int precsion = PRECSION_EDEFAULT;
+  protected Integer precsion = PRECSION_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class STCImpl extends tripletImpl implements STC
    * @generated
    */
   @Override
-  public int getFRGCOLOR()
+  public Integer getFRGCOLOR()
   {
     return frgcolor;
   }
@@ -106,9 +106,9 @@ public class STCImpl extends tripletImpl implements STC
    * @generated
    */
   @Override
-  public void setFRGCOLOR(int newFRGCOLOR)
+  public void setFRGCOLOR(Integer newFRGCOLOR)
   {
-    int oldFRGCOLOR = frgcolor;
+    Integer oldFRGCOLOR = frgcolor;
     frgcolor = newFRGCOLOR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.STC__FRGCOLOR, oldFRGCOLOR, frgcolor));
@@ -120,7 +120,7 @@ public class STCImpl extends tripletImpl implements STC
    * @generated
    */
   @Override
-  public int getPRECSION()
+  public Integer getPRECSION()
   {
     return precsion;
   }
@@ -131,9 +131,9 @@ public class STCImpl extends tripletImpl implements STC
    * @generated
    */
   @Override
-  public void setPRECSION(int newPRECSION)
+  public void setPRECSION(Integer newPRECSION)
   {
-    int oldPRECSION = precsion;
+    Integer oldPRECSION = precsion;
     precsion = newPRECSION;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.STC__PRECSION, oldPRECSION, precsion));
@@ -208,9 +208,9 @@ public class STCImpl extends tripletImpl implements STC
     switch (featureID)
     {
       case AfpTextPackage.STC__FRGCOLOR:
-        return frgcolor != FRGCOLOR_EDEFAULT;
+        return FRGCOLOR_EDEFAULT == null ? frgcolor != null : !FRGCOLOR_EDEFAULT.equals(frgcolor);
       case AfpTextPackage.STC__PRECSION:
-        return precsion != PRECSION_EDEFAULT;
+        return PRECSION_EDEFAULT == null ? precsion != null : !PRECSION_EDEFAULT.equals(precsion);
     }
     return super.eIsSet(featureID);
   }

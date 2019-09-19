@@ -30,12 +30,12 @@ public interface BDA extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Flags</em>' attribute.
-   * @see #setFlags(int)
+   * @see #setFlags(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDA_Flags()
    * @model
    * @generated
    */
-  int getFlags();
+  Integer getFlags();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDA#getFlags <em>Flags</em>}' attribute.
@@ -45,19 +45,19 @@ public interface BDA extends structuredField
    * @see #getFlags()
    * @generated
    */
-  void setFlags(int value);
+  void setFlags(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoffset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoffset</em>' attribute.
-   * @see #setXoffset(int)
+   * @see #setXoffset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDA_Xoffset()
    * @model
    * @generated
    */
-  int getXoffset();
+  Integer getXoffset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDA#getXoffset <em>Xoffset</em>}' attribute.
@@ -67,19 +67,19 @@ public interface BDA extends structuredField
    * @see #getXoffset()
    * @generated
    */
-  void setXoffset(int value);
+  void setXoffset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoffset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoffset</em>' attribute.
-   * @see #setYoffset(int)
+   * @see #setYoffset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDA_Yoffset()
    * @model
    * @generated
    */
-  int getYoffset();
+  Integer getYoffset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDA#getYoffset <em>Yoffset</em>}' attribute.
@@ -89,7 +89,7 @@ public interface BDA extends structuredField
    * @see #getYoffset()
    * @generated
    */
-  void setYoffset(int value);
+  void setYoffset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Data</b></em>' attribute.

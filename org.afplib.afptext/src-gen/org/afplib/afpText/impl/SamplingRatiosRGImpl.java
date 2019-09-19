@@ -37,7 +37,7 @@ public class SamplingRatiosRGImpl extends MinimalEObjectImpl.Container implement
    * @generated
    * @ordered
    */
-  protected static final int HSAMPLE_EDEFAULT = 0;
+  protected static final Integer HSAMPLE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHSAMPLE() <em>HSAMPLE</em>}' attribute.
@@ -47,7 +47,7 @@ public class SamplingRatiosRGImpl extends MinimalEObjectImpl.Container implement
    * @generated
    * @ordered
    */
-  protected int hsample = HSAMPLE_EDEFAULT;
+  protected Integer hsample = HSAMPLE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVSAMPLE() <em>VSAMPLE</em>}' attribute.
@@ -57,7 +57,7 @@ public class SamplingRatiosRGImpl extends MinimalEObjectImpl.Container implement
    * @generated
    * @ordered
    */
-  protected static final int VSAMPLE_EDEFAULT = 0;
+  protected static final Integer VSAMPLE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVSAMPLE() <em>VSAMPLE</em>}' attribute.
@@ -67,7 +67,7 @@ public class SamplingRatiosRGImpl extends MinimalEObjectImpl.Container implement
    * @generated
    * @ordered
    */
-  protected int vsample = VSAMPLE_EDEFAULT;
+  protected Integer vsample = VSAMPLE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -96,7 +96,7 @@ public class SamplingRatiosRGImpl extends MinimalEObjectImpl.Container implement
    * @generated
    */
   @Override
-  public int getHSAMPLE()
+  public Integer getHSAMPLE()
   {
     return hsample;
   }
@@ -107,9 +107,9 @@ public class SamplingRatiosRGImpl extends MinimalEObjectImpl.Container implement
    * @generated
    */
   @Override
-  public void setHSAMPLE(int newHSAMPLE)
+  public void setHSAMPLE(Integer newHSAMPLE)
   {
-    int oldHSAMPLE = hsample;
+    Integer oldHSAMPLE = hsample;
     hsample = newHSAMPLE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SAMPLING_RATIOS_RG__HSAMPLE, oldHSAMPLE, hsample));
@@ -121,7 +121,7 @@ public class SamplingRatiosRGImpl extends MinimalEObjectImpl.Container implement
    * @generated
    */
   @Override
-  public int getVSAMPLE()
+  public Integer getVSAMPLE()
   {
     return vsample;
   }
@@ -132,9 +132,9 @@ public class SamplingRatiosRGImpl extends MinimalEObjectImpl.Container implement
    * @generated
    */
   @Override
-  public void setVSAMPLE(int newVSAMPLE)
+  public void setVSAMPLE(Integer newVSAMPLE)
   {
-    int oldVSAMPLE = vsample;
+    Integer oldVSAMPLE = vsample;
     vsample = newVSAMPLE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SAMPLING_RATIOS_RG__VSAMPLE, oldVSAMPLE, vsample));
@@ -209,9 +209,9 @@ public class SamplingRatiosRGImpl extends MinimalEObjectImpl.Container implement
     switch (featureID)
     {
       case AfpTextPackage.SAMPLING_RATIOS_RG__HSAMPLE:
-        return hsample != HSAMPLE_EDEFAULT;
+        return HSAMPLE_EDEFAULT == null ? hsample != null : !HSAMPLE_EDEFAULT.equals(hsample);
       case AfpTextPackage.SAMPLING_RATIOS_RG__VSAMPLE:
-        return vsample != VSAMPLE_EDEFAULT;
+        return VSAMPLE_EDEFAULT == null ? vsample != null : !VSAMPLE_EDEFAULT.equals(vsample);
     }
     return super.eIsSet(featureID);
   }

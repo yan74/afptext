@@ -28,12 +28,12 @@ public interface STO extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>IORNTION</em>' attribute.
-   * @see #setIORNTION(int)
+   * @see #setIORNTION(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSTO_IORNTION()
    * @model
    * @generated
    */
-  int getIORNTION();
+  Integer getIORNTION();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.STO#getIORNTION <em>IORNTION</em>}' attribute.
@@ -43,19 +43,19 @@ public interface STO extends triplet
    * @see #getIORNTION()
    * @generated
    */
-  void setIORNTION(int value);
+  void setIORNTION(Integer value);
 
   /**
    * Returns the value of the '<em><b>BORNTION</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BORNTION</em>' attribute.
-   * @see #setBORNTION(int)
+   * @see #setBORNTION(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getSTO_BORNTION()
    * @model
    * @generated
    */
-  int getBORNTION();
+  Integer getBORNTION();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.STO#getBORNTION <em>BORNTION</em>}' attribute.
@@ -65,6 +65,6 @@ public interface STO extends triplet
    * @see #getBORNTION()
    * @generated
    */
-  void setBORNTION(int value);
+  void setBORNTION(Integer value);
 
 } // STO

@@ -32,12 +32,12 @@ public interface ColorSpecification extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Col Spce</em>' attribute.
-   * @see #setColSpce(int)
+   * @see #setColSpce(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorSpecification_ColSpce()
    * @model
    * @generated
    */
-  int getColSpce();
+  Integer getColSpce();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorSpecification#getColSpce <em>Col Spce</em>}' attribute.
@@ -47,19 +47,19 @@ public interface ColorSpecification extends triplet
    * @see #getColSpce()
    * @generated
    */
-  void setColSpce(int value);
+  void setColSpce(Integer value);
 
   /**
    * Returns the value of the '<em><b>Col Size1</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Col Size1</em>' attribute.
-   * @see #setColSize1(int)
+   * @see #setColSize1(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorSpecification_ColSize1()
    * @model
    * @generated
    */
-  int getColSize1();
+  Integer getColSize1();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorSpecification#getColSize1 <em>Col Size1</em>}' attribute.
@@ -69,19 +69,19 @@ public interface ColorSpecification extends triplet
    * @see #getColSize1()
    * @generated
    */
-  void setColSize1(int value);
+  void setColSize1(Integer value);
 
   /**
    * Returns the value of the '<em><b>Col Size2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Col Size2</em>' attribute.
-   * @see #setColSize2(int)
+   * @see #setColSize2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorSpecification_ColSize2()
    * @model
    * @generated
    */
-  int getColSize2();
+  Integer getColSize2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorSpecification#getColSize2 <em>Col Size2</em>}' attribute.
@@ -91,19 +91,19 @@ public interface ColorSpecification extends triplet
    * @see #getColSize2()
    * @generated
    */
-  void setColSize2(int value);
+  void setColSize2(Integer value);
 
   /**
    * Returns the value of the '<em><b>Col Size3</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Col Size3</em>' attribute.
-   * @see #setColSize3(int)
+   * @see #setColSize3(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorSpecification_ColSize3()
    * @model
    * @generated
    */
-  int getColSize3();
+  Integer getColSize3();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorSpecification#getColSize3 <em>Col Size3</em>}' attribute.
@@ -113,19 +113,19 @@ public interface ColorSpecification extends triplet
    * @see #getColSize3()
    * @generated
    */
-  void setColSize3(int value);
+  void setColSize3(Integer value);
 
   /**
    * Returns the value of the '<em><b>Col Size4</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Col Size4</em>' attribute.
-   * @see #setColSize4(int)
+   * @see #setColSize4(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getColorSpecification_ColSize4()
    * @model
    * @generated
    */
-  int getColSize4();
+  Integer getColSize4();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ColorSpecification#getColSize4 <em>Col Size4</em>}' attribute.
@@ -135,7 +135,7 @@ public interface ColorSpecification extends triplet
    * @see #getColSize4()
    * @generated
    */
-  void setColSize4(int value);
+  void setColSize4(Integer value);
 
   /**
    * Returns the value of the '<em><b>Color</b></em>' attribute.

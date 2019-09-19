@@ -36,7 +36,7 @@ public class RPSImpl extends tripletImpl implements RPS
    * @generated
    * @ordered
    */
-  protected static final int RLENGTH_EDEFAULT = 0;
+  protected static final Integer RLENGTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRLENGTH() <em>RLENGTH</em>}' attribute.
@@ -46,7 +46,7 @@ public class RPSImpl extends tripletImpl implements RPS
    * @generated
    * @ordered
    */
-  protected int rlength = RLENGTH_EDEFAULT;
+  protected Integer rlength = RLENGTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRPTDATA() <em>RPTDATA</em>}' attribute.
@@ -95,7 +95,7 @@ public class RPSImpl extends tripletImpl implements RPS
    * @generated
    */
   @Override
-  public int getRLENGTH()
+  public Integer getRLENGTH()
   {
     return rlength;
   }
@@ -106,9 +106,9 @@ public class RPSImpl extends tripletImpl implements RPS
    * @generated
    */
   @Override
-  public void setRLENGTH(int newRLENGTH)
+  public void setRLENGTH(Integer newRLENGTH)
   {
-    int oldRLENGTH = rlength;
+    Integer oldRLENGTH = rlength;
     rlength = newRLENGTH;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RPS__RLENGTH, oldRLENGTH, rlength));
@@ -208,7 +208,7 @@ public class RPSImpl extends tripletImpl implements RPS
     switch (featureID)
     {
       case AfpTextPackage.RPS__RLENGTH:
-        return rlength != RLENGTH_EDEFAULT;
+        return RLENGTH_EDEFAULT == null ? rlength != null : !RLENGTH_EDEFAULT.equals(rlength);
       case AfpTextPackage.RPS__RPTDATA:
         return RPTDATA_EDEFAULT == null ? rptdata != null : !RPTDATA_EDEFAULT.equals(rptdata);
     }

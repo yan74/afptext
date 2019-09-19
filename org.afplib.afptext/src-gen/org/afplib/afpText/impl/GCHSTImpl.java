@@ -37,7 +37,7 @@ public class GCHSTImpl extends tripletImpl implements GCHST
    * @generated
    * @ordered
    */
-  protected static final int XPOS_EDEFAULT = 0;
+  protected static final Integer XPOS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXPOS() <em>XPOS</em>}' attribute.
@@ -47,7 +47,7 @@ public class GCHSTImpl extends tripletImpl implements GCHST
    * @generated
    * @ordered
    */
-  protected int xpos = XPOS_EDEFAULT;
+  protected Integer xpos = XPOS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYPOS() <em>YPOS</em>}' attribute.
@@ -57,7 +57,7 @@ public class GCHSTImpl extends tripletImpl implements GCHST
    * @generated
    * @ordered
    */
-  protected static final int YPOS_EDEFAULT = 0;
+  protected static final Integer YPOS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYPOS() <em>YPOS</em>}' attribute.
@@ -67,7 +67,7 @@ public class GCHSTImpl extends tripletImpl implements GCHST
    * @generated
    * @ordered
    */
-  protected int ypos = YPOS_EDEFAULT;
+  protected Integer ypos = YPOS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCP() <em>CP</em>}' attribute.
@@ -116,7 +116,7 @@ public class GCHSTImpl extends tripletImpl implements GCHST
    * @generated
    */
   @Override
-  public int getXPOS()
+  public Integer getXPOS()
   {
     return xpos;
   }
@@ -127,9 +127,9 @@ public class GCHSTImpl extends tripletImpl implements GCHST
    * @generated
    */
   @Override
-  public void setXPOS(int newXPOS)
+  public void setXPOS(Integer newXPOS)
   {
-    int oldXPOS = xpos;
+    Integer oldXPOS = xpos;
     xpos = newXPOS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCHST__XPOS, oldXPOS, xpos));
@@ -141,7 +141,7 @@ public class GCHSTImpl extends tripletImpl implements GCHST
    * @generated
    */
   @Override
-  public int getYPOS()
+  public Integer getYPOS()
   {
     return ypos;
   }
@@ -152,9 +152,9 @@ public class GCHSTImpl extends tripletImpl implements GCHST
    * @generated
    */
   @Override
-  public void setYPOS(int newYPOS)
+  public void setYPOS(Integer newYPOS)
   {
-    int oldYPOS = ypos;
+    Integer oldYPOS = ypos;
     ypos = newYPOS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GCHST__YPOS, oldYPOS, ypos));
@@ -262,9 +262,9 @@ public class GCHSTImpl extends tripletImpl implements GCHST
     switch (featureID)
     {
       case AfpTextPackage.GCHST__XPOS:
-        return xpos != XPOS_EDEFAULT;
+        return XPOS_EDEFAULT == null ? xpos != null : !XPOS_EDEFAULT.equals(xpos);
       case AfpTextPackage.GCHST__YPOS:
-        return ypos != YPOS_EDEFAULT;
+        return YPOS_EDEFAULT == null ? ypos != null : !YPOS_EDEFAULT.equals(ypos);
       case AfpTextPackage.GCHST__CP:
         return CP_EDEFAULT == null ? cp != null : !CP_EDEFAULT.equals(cp);
     }

@@ -52,7 +52,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected static final int XM_BASE_EDEFAULT = 0;
+  protected static final Integer XM_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXmBase() <em>Xm Base</em>}' attribute.
@@ -62,7 +62,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected int xmBase = XM_BASE_EDEFAULT;
+  protected Integer xmBase = XM_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYmBase() <em>Ym Base</em>}' attribute.
@@ -72,7 +72,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected static final int YM_BASE_EDEFAULT = 0;
+  protected static final Integer YM_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYmBase() <em>Ym Base</em>}' attribute.
@@ -82,7 +82,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected int ymBase = YM_BASE_EDEFAULT;
+  protected Integer ymBase = YM_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXmUnits() <em>Xm Units</em>}' attribute.
@@ -92,7 +92,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected static final int XM_UNITS_EDEFAULT = 0;
+  protected static final Integer XM_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXmUnits() <em>Xm Units</em>}' attribute.
@@ -102,7 +102,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected int xmUnits = XM_UNITS_EDEFAULT;
+  protected Integer xmUnits = XM_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYmUnits() <em>Ym Units</em>}' attribute.
@@ -112,7 +112,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected static final int YM_UNITS_EDEFAULT = 0;
+  protected static final Integer YM_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYmUnits() <em>Ym Units</em>}' attribute.
@@ -122,7 +122,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected int ymUnits = YM_UNITS_EDEFAULT;
+  protected Integer ymUnits = YM_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXmSize() <em>Xm Size</em>}' attribute.
@@ -132,7 +132,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected static final int XM_SIZE_EDEFAULT = 0;
+  protected static final Integer XM_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXmSize() <em>Xm Size</em>}' attribute.
@@ -142,7 +142,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected int xmSize = XM_SIZE_EDEFAULT;
+  protected Integer xmSize = XM_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYmSize() <em>Ym Size</em>}' attribute.
@@ -152,7 +152,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected static final int YM_SIZE_EDEFAULT = 0;
+  protected static final Integer YM_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYmSize() <em>Ym Size</em>}' attribute.
@@ -162,7 +162,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected int ymSize = YM_SIZE_EDEFAULT;
+  protected Integer ymSize = YM_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getMDDFlgs() <em>MDD Flgs</em>}' attribute.
@@ -172,7 +172,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected static final int MDD_FLGS_EDEFAULT = 0;
+  protected static final Integer MDD_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMDDFlgs() <em>MDD Flgs</em>}' attribute.
@@ -182,7 +182,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    * @ordered
    */
-  protected int mddFlgs = MDD_FLGS_EDEFAULT;
+  protected Integer mddFlgs = MDD_FLGS_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -221,7 +221,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public int getXmBase()
+  public Integer getXmBase()
   {
     return xmBase;
   }
@@ -232,9 +232,9 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public void setXmBase(int newXmBase)
+  public void setXmBase(Integer newXmBase)
   {
-    int oldXmBase = xmBase;
+    Integer oldXmBase = xmBase;
     xmBase = newXmBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MDD__XM_BASE, oldXmBase, xmBase));
@@ -246,7 +246,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public int getYmBase()
+  public Integer getYmBase()
   {
     return ymBase;
   }
@@ -257,9 +257,9 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public void setYmBase(int newYmBase)
+  public void setYmBase(Integer newYmBase)
   {
-    int oldYmBase = ymBase;
+    Integer oldYmBase = ymBase;
     ymBase = newYmBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MDD__YM_BASE, oldYmBase, ymBase));
@@ -271,7 +271,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public int getXmUnits()
+  public Integer getXmUnits()
   {
     return xmUnits;
   }
@@ -282,9 +282,9 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public void setXmUnits(int newXmUnits)
+  public void setXmUnits(Integer newXmUnits)
   {
-    int oldXmUnits = xmUnits;
+    Integer oldXmUnits = xmUnits;
     xmUnits = newXmUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MDD__XM_UNITS, oldXmUnits, xmUnits));
@@ -296,7 +296,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public int getYmUnits()
+  public Integer getYmUnits()
   {
     return ymUnits;
   }
@@ -307,9 +307,9 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public void setYmUnits(int newYmUnits)
+  public void setYmUnits(Integer newYmUnits)
   {
-    int oldYmUnits = ymUnits;
+    Integer oldYmUnits = ymUnits;
     ymUnits = newYmUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MDD__YM_UNITS, oldYmUnits, ymUnits));
@@ -321,7 +321,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public int getXmSize()
+  public Integer getXmSize()
   {
     return xmSize;
   }
@@ -332,9 +332,9 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public void setXmSize(int newXmSize)
+  public void setXmSize(Integer newXmSize)
   {
-    int oldXmSize = xmSize;
+    Integer oldXmSize = xmSize;
     xmSize = newXmSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MDD__XM_SIZE, oldXmSize, xmSize));
@@ -346,7 +346,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public int getYmSize()
+  public Integer getYmSize()
   {
     return ymSize;
   }
@@ -357,9 +357,9 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public void setYmSize(int newYmSize)
+  public void setYmSize(Integer newYmSize)
   {
-    int oldYmSize = ymSize;
+    Integer oldYmSize = ymSize;
     ymSize = newYmSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MDD__YM_SIZE, oldYmSize, ymSize));
@@ -371,7 +371,7 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public int getMDDFlgs()
+  public Integer getMDDFlgs()
   {
     return mddFlgs;
   }
@@ -382,9 +382,9 @@ public class MDDImpl extends structuredFieldImpl implements MDD
    * @generated
    */
   @Override
-  public void setMDDFlgs(int newMDDFlgs)
+  public void setMDDFlgs(Integer newMDDFlgs)
   {
-    int oldMDDFlgs = mddFlgs;
+    Integer oldMDDFlgs = mddFlgs;
     mddFlgs = newMDDFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MDD__MDD_FLGS, oldMDDFlgs, mddFlgs));
@@ -540,19 +540,19 @@ public class MDDImpl extends structuredFieldImpl implements MDD
     switch (featureID)
     {
       case AfpTextPackage.MDD__XM_BASE:
-        return xmBase != XM_BASE_EDEFAULT;
+        return XM_BASE_EDEFAULT == null ? xmBase != null : !XM_BASE_EDEFAULT.equals(xmBase);
       case AfpTextPackage.MDD__YM_BASE:
-        return ymBase != YM_BASE_EDEFAULT;
+        return YM_BASE_EDEFAULT == null ? ymBase != null : !YM_BASE_EDEFAULT.equals(ymBase);
       case AfpTextPackage.MDD__XM_UNITS:
-        return xmUnits != XM_UNITS_EDEFAULT;
+        return XM_UNITS_EDEFAULT == null ? xmUnits != null : !XM_UNITS_EDEFAULT.equals(xmUnits);
       case AfpTextPackage.MDD__YM_UNITS:
-        return ymUnits != YM_UNITS_EDEFAULT;
+        return YM_UNITS_EDEFAULT == null ? ymUnits != null : !YM_UNITS_EDEFAULT.equals(ymUnits);
       case AfpTextPackage.MDD__XM_SIZE:
-        return xmSize != XM_SIZE_EDEFAULT;
+        return XM_SIZE_EDEFAULT == null ? xmSize != null : !XM_SIZE_EDEFAULT.equals(xmSize);
       case AfpTextPackage.MDD__YM_SIZE:
-        return ymSize != YM_SIZE_EDEFAULT;
+        return YM_SIZE_EDEFAULT == null ? ymSize != null : !YM_SIZE_EDEFAULT.equals(ymSize);
       case AfpTextPackage.MDD__MDD_FLGS:
-        return mddFlgs != MDD_FLGS_EDEFAULT;
+        return MDD_FLGS_EDEFAULT == null ? mddFlgs != null : !MDD_FLGS_EDEFAULT.equals(mddFlgs);
       case AfpTextPackage.MDD__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

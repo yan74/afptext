@@ -52,12 +52,12 @@ public interface BDM extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Dat Fmt</em>' attribute.
-   * @see #setDatFmt(int)
+   * @see #setDatFmt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getBDM_DatFmt()
    * @model
    * @generated
    */
-  int getDatFmt();
+  Integer getDatFmt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.BDM#getDatFmt <em>Dat Fmt</em>}' attribute.
@@ -67,7 +67,7 @@ public interface BDM extends structuredField
    * @see #getDatFmt()
    * @generated
    */
-  void setDatFmt(int value);
+  void setDatFmt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

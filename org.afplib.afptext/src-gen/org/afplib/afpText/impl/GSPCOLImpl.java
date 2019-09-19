@@ -42,7 +42,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected static final int RES1_EDEFAULT = 0;
+  protected static final Integer RES1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRES1() <em>RES1</em>}' attribute.
@@ -52,7 +52,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected int res1 = RES1_EDEFAULT;
+  protected Integer res1 = RES1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSPCE() <em>COLSPCE</em>}' attribute.
@@ -62,7 +62,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected static final int COLSPCE_EDEFAULT = 0;
+  protected static final Integer COLSPCE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSPCE() <em>COLSPCE</em>}' attribute.
@@ -72,7 +72,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected int colspce = COLSPCE_EDEFAULT;
+  protected Integer colspce = COLSPCE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRES2() <em>RES2</em>}' attribute.
@@ -82,7 +82,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected static final int RES2_EDEFAULT = 0;
+  protected static final Integer RES2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRES2() <em>RES2</em>}' attribute.
@@ -92,7 +92,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected int res2 = RES2_EDEFAULT;
+  protected Integer res2 = RES2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSIZE1() <em>COLSIZE1</em>}' attribute.
@@ -102,7 +102,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected static final int COLSIZE1_EDEFAULT = 0;
+  protected static final Integer COLSIZE1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSIZE1() <em>COLSIZE1</em>}' attribute.
@@ -112,7 +112,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected int colsize1 = COLSIZE1_EDEFAULT;
+  protected Integer colsize1 = COLSIZE1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSIZE2() <em>COLSIZE2</em>}' attribute.
@@ -122,7 +122,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected static final int COLSIZE2_EDEFAULT = 0;
+  protected static final Integer COLSIZE2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSIZE2() <em>COLSIZE2</em>}' attribute.
@@ -132,7 +132,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected int colsize2 = COLSIZE2_EDEFAULT;
+  protected Integer colsize2 = COLSIZE2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSIZE3() <em>COLSIZE3</em>}' attribute.
@@ -142,7 +142,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected static final int COLSIZE3_EDEFAULT = 0;
+  protected static final Integer COLSIZE3_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSIZE3() <em>COLSIZE3</em>}' attribute.
@@ -152,7 +152,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected int colsize3 = COLSIZE3_EDEFAULT;
+  protected Integer colsize3 = COLSIZE3_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLSIZE4() <em>COLSIZE4</em>}' attribute.
@@ -162,7 +162,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected static final int COLSIZE4_EDEFAULT = 0;
+  protected static final Integer COLSIZE4_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCOLSIZE4() <em>COLSIZE4</em>}' attribute.
@@ -172,7 +172,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    * @ordered
    */
-  protected int colsize4 = COLSIZE4_EDEFAULT;
+  protected Integer colsize4 = COLSIZE4_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCOLVALUE() <em>COLVALUE</em>}' attribute.
@@ -221,7 +221,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public int getRES1()
+  public Integer getRES1()
   {
     return res1;
   }
@@ -232,9 +232,9 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public void setRES1(int newRES1)
+  public void setRES1(Integer newRES1)
   {
-    int oldRES1 = res1;
+    Integer oldRES1 = res1;
     res1 = newRES1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSPCOL__RES1, oldRES1, res1));
@@ -246,7 +246,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public int getCOLSPCE()
+  public Integer getCOLSPCE()
   {
     return colspce;
   }
@@ -257,9 +257,9 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public void setCOLSPCE(int newCOLSPCE)
+  public void setCOLSPCE(Integer newCOLSPCE)
   {
-    int oldCOLSPCE = colspce;
+    Integer oldCOLSPCE = colspce;
     colspce = newCOLSPCE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSPCOL__COLSPCE, oldCOLSPCE, colspce));
@@ -271,7 +271,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public int getRES2()
+  public Integer getRES2()
   {
     return res2;
   }
@@ -282,9 +282,9 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public void setRES2(int newRES2)
+  public void setRES2(Integer newRES2)
   {
-    int oldRES2 = res2;
+    Integer oldRES2 = res2;
     res2 = newRES2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSPCOL__RES2, oldRES2, res2));
@@ -296,7 +296,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public int getCOLSIZE1()
+  public Integer getCOLSIZE1()
   {
     return colsize1;
   }
@@ -307,9 +307,9 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public void setCOLSIZE1(int newCOLSIZE1)
+  public void setCOLSIZE1(Integer newCOLSIZE1)
   {
-    int oldCOLSIZE1 = colsize1;
+    Integer oldCOLSIZE1 = colsize1;
     colsize1 = newCOLSIZE1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSPCOL__COLSIZE1, oldCOLSIZE1, colsize1));
@@ -321,7 +321,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public int getCOLSIZE2()
+  public Integer getCOLSIZE2()
   {
     return colsize2;
   }
@@ -332,9 +332,9 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public void setCOLSIZE2(int newCOLSIZE2)
+  public void setCOLSIZE2(Integer newCOLSIZE2)
   {
-    int oldCOLSIZE2 = colsize2;
+    Integer oldCOLSIZE2 = colsize2;
     colsize2 = newCOLSIZE2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSPCOL__COLSIZE2, oldCOLSIZE2, colsize2));
@@ -346,7 +346,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public int getCOLSIZE3()
+  public Integer getCOLSIZE3()
   {
     return colsize3;
   }
@@ -357,9 +357,9 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public void setCOLSIZE3(int newCOLSIZE3)
+  public void setCOLSIZE3(Integer newCOLSIZE3)
   {
-    int oldCOLSIZE3 = colsize3;
+    Integer oldCOLSIZE3 = colsize3;
     colsize3 = newCOLSIZE3;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSPCOL__COLSIZE3, oldCOLSIZE3, colsize3));
@@ -371,7 +371,7 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public int getCOLSIZE4()
+  public Integer getCOLSIZE4()
   {
     return colsize4;
   }
@@ -382,9 +382,9 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
    * @generated
    */
   @Override
-  public void setCOLSIZE4(int newCOLSIZE4)
+  public void setCOLSIZE4(Integer newCOLSIZE4)
   {
-    int oldCOLSIZE4 = colsize4;
+    Integer oldCOLSIZE4 = colsize4;
     colsize4 = newCOLSIZE4;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSPCOL__COLSIZE4, oldCOLSIZE4, colsize4));
@@ -532,19 +532,19 @@ public class GSPCOLImpl extends tripletImpl implements GSPCOL
     switch (featureID)
     {
       case AfpTextPackage.GSPCOL__RES1:
-        return res1 != RES1_EDEFAULT;
+        return RES1_EDEFAULT == null ? res1 != null : !RES1_EDEFAULT.equals(res1);
       case AfpTextPackage.GSPCOL__COLSPCE:
-        return colspce != COLSPCE_EDEFAULT;
+        return COLSPCE_EDEFAULT == null ? colspce != null : !COLSPCE_EDEFAULT.equals(colspce);
       case AfpTextPackage.GSPCOL__RES2:
-        return res2 != RES2_EDEFAULT;
+        return RES2_EDEFAULT == null ? res2 != null : !RES2_EDEFAULT.equals(res2);
       case AfpTextPackage.GSPCOL__COLSIZE1:
-        return colsize1 != COLSIZE1_EDEFAULT;
+        return COLSIZE1_EDEFAULT == null ? colsize1 != null : !COLSIZE1_EDEFAULT.equals(colsize1);
       case AfpTextPackage.GSPCOL__COLSIZE2:
-        return colsize2 != COLSIZE2_EDEFAULT;
+        return COLSIZE2_EDEFAULT == null ? colsize2 != null : !COLSIZE2_EDEFAULT.equals(colsize2);
       case AfpTextPackage.GSPCOL__COLSIZE3:
-        return colsize3 != COLSIZE3_EDEFAULT;
+        return COLSIZE3_EDEFAULT == null ? colsize3 != null : !COLSIZE3_EDEFAULT.equals(colsize3);
       case AfpTextPackage.GSPCOL__COLSIZE4:
-        return colsize4 != COLSIZE4_EDEFAULT;
+        return COLSIZE4_EDEFAULT == null ? colsize4 != null : !COLSIZE4_EDEFAULT.equals(colsize4);
       case AfpTextPackage.GSPCOL__COLVALUE:
         return COLVALUE_EDEFAULT == null ? colvalue != null : !COLVALUE_EDEFAULT.equals(colvalue);
     }

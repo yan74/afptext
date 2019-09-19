@@ -74,12 +74,12 @@ public interface MSURG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SU Pid</em>' attribute.
-   * @see #setSUPid(int)
+   * @see #setSUPid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMSURG_SUPid()
    * @model
    * @generated
    */
-  int getSUPid();
+  Integer getSUPid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MSURG#getSUPid <em>SU Pid</em>}' attribute.
@@ -89,6 +89,6 @@ public interface MSURG extends EObject
    * @see #getSUPid()
    * @generated
    */
-  void setSUPid(int value);
+  void setSUPid(Integer value);
 
 } // MSURG

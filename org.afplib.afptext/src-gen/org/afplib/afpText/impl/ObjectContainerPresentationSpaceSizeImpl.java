@@ -35,7 +35,7 @@ public class ObjectContainerPresentationSpaceSizeImpl extends tripletImpl implem
    * @generated
    * @ordered
    */
-  protected static final int PDF_SIZE_EDEFAULT = 0;
+  protected static final Integer PDF_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPDFSize() <em>PDF Size</em>}' attribute.
@@ -45,7 +45,7 @@ public class ObjectContainerPresentationSpaceSizeImpl extends tripletImpl implem
    * @generated
    * @ordered
    */
-  protected int pdfSize = PDF_SIZE_EDEFAULT;
+  protected Integer pdfSize = PDF_SIZE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class ObjectContainerPresentationSpaceSizeImpl extends tripletImpl implem
    * @generated
    */
   @Override
-  public int getPDFSize()
+  public Integer getPDFSize()
   {
     return pdfSize;
   }
@@ -85,9 +85,9 @@ public class ObjectContainerPresentationSpaceSizeImpl extends tripletImpl implem
    * @generated
    */
   @Override
-  public void setPDFSize(int newPDFSize)
+  public void setPDFSize(Integer newPDFSize)
   {
-    int oldPDFSize = pdfSize;
+    Integer oldPDFSize = pdfSize;
     pdfSize = newPDFSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_CONTAINER_PRESENTATION_SPACE_SIZE__PDF_SIZE, oldPDFSize, pdfSize));
@@ -154,7 +154,7 @@ public class ObjectContainerPresentationSpaceSizeImpl extends tripletImpl implem
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_CONTAINER_PRESENTATION_SPACE_SIZE__PDF_SIZE:
-        return pdfSize != PDF_SIZE_EDEFAULT;
+        return PDF_SIZE_EDEFAULT == null ? pdfSize != null : !PDF_SIZE_EDEFAULT.equals(pdfSize);
     }
     return super.eIsSet(featureID);
   }

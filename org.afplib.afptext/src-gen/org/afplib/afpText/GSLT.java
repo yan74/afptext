@@ -27,12 +27,12 @@ public interface GSLT extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LINETYPE</em>' attribute.
-   * @see #setLINETYPE(int)
+   * @see #setLINETYPE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSLT_LINETYPE()
    * @model
    * @generated
    */
-  int getLINETYPE();
+  Integer getLINETYPE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSLT#getLINETYPE <em>LINETYPE</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSLT extends triplet
    * @see #getLINETYPE()
    * @generated
    */
-  void setLINETYPE(int value);
+  void setLINETYPE(Integer value);
 
 } // GSLT

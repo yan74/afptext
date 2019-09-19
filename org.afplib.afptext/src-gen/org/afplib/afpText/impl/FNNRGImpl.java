@@ -57,7 +57,7 @@ public class FNNRGImpl extends MinimalEObjectImpl.Container implements FNNRG
    * @generated
    * @ordered
    */
-  protected static final int TS_OFFSET_EDEFAULT = 0;
+  protected static final Integer TS_OFFSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTSOffset() <em>TS Offset</em>}' attribute.
@@ -67,7 +67,7 @@ public class FNNRGImpl extends MinimalEObjectImpl.Container implements FNNRG
    * @generated
    * @ordered
    */
-  protected int tsOffset = TS_OFFSET_EDEFAULT;
+  protected Integer tsOffset = TS_OFFSET_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -121,7 +121,7 @@ public class FNNRGImpl extends MinimalEObjectImpl.Container implements FNNRG
    * @generated
    */
   @Override
-  public int getTSOffset()
+  public Integer getTSOffset()
   {
     return tsOffset;
   }
@@ -132,9 +132,9 @@ public class FNNRGImpl extends MinimalEObjectImpl.Container implements FNNRG
    * @generated
    */
   @Override
-  public void setTSOffset(int newTSOffset)
+  public void setTSOffset(Integer newTSOffset)
   {
-    int oldTSOffset = tsOffset;
+    Integer oldTSOffset = tsOffset;
     tsOffset = newTSOffset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNNRG__TS_OFFSET, oldTSOffset, tsOffset));
@@ -211,7 +211,7 @@ public class FNNRGImpl extends MinimalEObjectImpl.Container implements FNNRG
       case AfpTextPackage.FNNRG__GCGID:
         return GCGID_EDEFAULT == null ? gcgid != null : !GCGID_EDEFAULT.equals(gcgid);
       case AfpTextPackage.FNNRG__TS_OFFSET:
-        return tsOffset != TS_OFFSET_EDEFAULT;
+        return TS_OFFSET_EDEFAULT == null ? tsOffset != null : !TS_OFFSET_EDEFAULT.equals(tsOffset);
     }
     return super.eIsSet(featureID);
   }

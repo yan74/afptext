@@ -27,12 +27,12 @@ public interface LineDataObjectPositionMigration extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Temp Orient</em>' attribute.
-   * @see #setTempOrient(int)
+   * @see #setTempOrient(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getLineDataObjectPositionMigration_TempOrient()
    * @model
    * @generated
    */
-  int getTempOrient();
+  Integer getTempOrient();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.LineDataObjectPositionMigration#getTempOrient <em>Temp Orient</em>}' attribute.
@@ -42,6 +42,6 @@ public interface LineDataObjectPositionMigration extends triplet
    * @see #getTempOrient()
    * @generated
    */
-  void setTempOrient(int value);
+  void setTempOrient(Integer value);
 
 } // LineDataObjectPositionMigration

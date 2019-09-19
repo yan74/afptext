@@ -30,12 +30,12 @@ public interface ObjectOriginIdentifier extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>System</em>' attribute.
-   * @see #setSystem(int)
+   * @see #setSystem(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectOriginIdentifier_System()
    * @model
    * @generated
    */
-  int getSystem();
+  Integer getSystem();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectOriginIdentifier#getSystem <em>System</em>}' attribute.
@@ -45,7 +45,7 @@ public interface ObjectOriginIdentifier extends triplet
    * @see #getSystem()
    * @generated
    */
-  void setSystem(int value);
+  void setSystem(Integer value);
 
   /**
    * Returns the value of the '<em><b>Sys ID</b></em>' attribute.

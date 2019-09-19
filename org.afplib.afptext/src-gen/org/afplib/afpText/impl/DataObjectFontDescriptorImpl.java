@@ -42,7 +42,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected static final int DO_FT_FLGS_EDEFAULT = 0;
+  protected static final Integer DO_FT_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDOFtFlgs() <em>DO Ft Flgs</em>}' attribute.
@@ -52,7 +52,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected int doFtFlgs = DO_FT_FLGS_EDEFAULT;
+  protected Integer doFtFlgs = DO_FT_FLGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFontTech() <em>Font Tech</em>}' attribute.
@@ -62,7 +62,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected static final int FONT_TECH_EDEFAULT = 0;
+  protected static final Integer FONT_TECH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFontTech() <em>Font Tech</em>}' attribute.
@@ -72,7 +72,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected int fontTech = FONT_TECH_EDEFAULT;
+  protected Integer fontTech = FONT_TECH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVFS() <em>VFS</em>}' attribute.
@@ -82,7 +82,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected static final int VFS_EDEFAULT = 0;
+  protected static final Integer VFS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVFS() <em>VFS</em>}' attribute.
@@ -92,7 +92,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected int vfs = VFS_EDEFAULT;
+  protected Integer vfs = VFS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHFS() <em>HFS</em>}' attribute.
@@ -102,7 +102,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected static final int HFS_EDEFAULT = 0;
+  protected static final Integer HFS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHFS() <em>HFS</em>}' attribute.
@@ -112,7 +112,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected int hfs = HFS_EDEFAULT;
+  protected Integer hfs = HFS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCharRot() <em>Char Rot</em>}' attribute.
@@ -122,7 +122,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected static final int CHAR_ROT_EDEFAULT = 0;
+  protected static final Integer CHAR_ROT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCharRot() <em>Char Rot</em>}' attribute.
@@ -132,7 +132,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected int charRot = CHAR_ROT_EDEFAULT;
+  protected Integer charRot = CHAR_ROT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getEncEnv() <em>Enc Env</em>}' attribute.
@@ -142,7 +142,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected static final int ENC_ENV_EDEFAULT = 0;
+  protected static final Integer ENC_ENV_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getEncEnv() <em>Enc Env</em>}' attribute.
@@ -152,7 +152,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected int encEnv = ENC_ENV_EDEFAULT;
+  protected Integer encEnv = ENC_ENV_EDEFAULT;
 
   /**
    * The default value of the '{@link #getEncID() <em>Enc ID</em>}' attribute.
@@ -162,7 +162,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected static final int ENC_ID_EDEFAULT = 0;
+  protected static final Integer ENC_ID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getEncID() <em>Enc ID</em>}' attribute.
@@ -172,7 +172,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    * @ordered
    */
-  protected int encID = ENC_ID_EDEFAULT;
+  protected Integer encID = ENC_ID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -221,7 +221,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public int getDOFtFlgs()
+  public Integer getDOFtFlgs()
   {
     return doFtFlgs;
   }
@@ -232,9 +232,9 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public void setDOFtFlgs(int newDOFtFlgs)
+  public void setDOFtFlgs(Integer newDOFtFlgs)
   {
-    int oldDOFtFlgs = doFtFlgs;
+    Integer oldDOFtFlgs = doFtFlgs;
     doFtFlgs = newDOFtFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__DO_FT_FLGS, oldDOFtFlgs, doFtFlgs));
@@ -246,7 +246,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public int getFontTech()
+  public Integer getFontTech()
   {
     return fontTech;
   }
@@ -257,9 +257,9 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public void setFontTech(int newFontTech)
+  public void setFontTech(Integer newFontTech)
   {
-    int oldFontTech = fontTech;
+    Integer oldFontTech = fontTech;
     fontTech = newFontTech;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__FONT_TECH, oldFontTech, fontTech));
@@ -271,7 +271,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public int getVFS()
+  public Integer getVFS()
   {
     return vfs;
   }
@@ -282,9 +282,9 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public void setVFS(int newVFS)
+  public void setVFS(Integer newVFS)
   {
-    int oldVFS = vfs;
+    Integer oldVFS = vfs;
     vfs = newVFS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__VFS, oldVFS, vfs));
@@ -296,7 +296,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public int getHFS()
+  public Integer getHFS()
   {
     return hfs;
   }
@@ -307,9 +307,9 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public void setHFS(int newHFS)
+  public void setHFS(Integer newHFS)
   {
-    int oldHFS = hfs;
+    Integer oldHFS = hfs;
     hfs = newHFS;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__HFS, oldHFS, hfs));
@@ -321,7 +321,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public int getCharRot()
+  public Integer getCharRot()
   {
     return charRot;
   }
@@ -332,9 +332,9 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public void setCharRot(int newCharRot)
+  public void setCharRot(Integer newCharRot)
   {
-    int oldCharRot = charRot;
+    Integer oldCharRot = charRot;
     charRot = newCharRot;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__CHAR_ROT, oldCharRot, charRot));
@@ -346,7 +346,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public int getEncEnv()
+  public Integer getEncEnv()
   {
     return encEnv;
   }
@@ -357,9 +357,9 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public void setEncEnv(int newEncEnv)
+  public void setEncEnv(Integer newEncEnv)
   {
-    int oldEncEnv = encEnv;
+    Integer oldEncEnv = encEnv;
     encEnv = newEncEnv;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__ENC_ENV, oldEncEnv, encEnv));
@@ -371,7 +371,7 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public int getEncID()
+  public Integer getEncID()
   {
     return encID;
   }
@@ -382,9 +382,9 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
    * @generated
    */
   @Override
-  public void setEncID(int newEncID)
+  public void setEncID(Integer newEncID)
   {
-    int oldEncID = encID;
+    Integer oldEncID = encID;
     encID = newEncID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__ENC_ID, oldEncID, encID));
@@ -532,19 +532,19 @@ public class DataObjectFontDescriptorImpl extends tripletImpl implements DataObj
     switch (featureID)
     {
       case AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__DO_FT_FLGS:
-        return doFtFlgs != DO_FT_FLGS_EDEFAULT;
+        return DO_FT_FLGS_EDEFAULT == null ? doFtFlgs != null : !DO_FT_FLGS_EDEFAULT.equals(doFtFlgs);
       case AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__FONT_TECH:
-        return fontTech != FONT_TECH_EDEFAULT;
+        return FONT_TECH_EDEFAULT == null ? fontTech != null : !FONT_TECH_EDEFAULT.equals(fontTech);
       case AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__VFS:
-        return vfs != VFS_EDEFAULT;
+        return VFS_EDEFAULT == null ? vfs != null : !VFS_EDEFAULT.equals(vfs);
       case AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__HFS:
-        return hfs != HFS_EDEFAULT;
+        return HFS_EDEFAULT == null ? hfs != null : !HFS_EDEFAULT.equals(hfs);
       case AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__CHAR_ROT:
-        return charRot != CHAR_ROT_EDEFAULT;
+        return CHAR_ROT_EDEFAULT == null ? charRot != null : !CHAR_ROT_EDEFAULT.equals(charRot);
       case AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__ENC_ENV:
-        return encEnv != ENC_ENV_EDEFAULT;
+        return ENC_ENV_EDEFAULT == null ? encEnv != null : !ENC_ENV_EDEFAULT.equals(encEnv);
       case AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__ENC_ID:
-        return encID != ENC_ID_EDEFAULT;
+        return ENC_ID_EDEFAULT == null ? encID != null : !ENC_ID_EDEFAULT.equals(encID);
       case AfpTextPackage.DATA_OBJECT_FONT_DESCRIPTOR__RESERVED:
         return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
     }

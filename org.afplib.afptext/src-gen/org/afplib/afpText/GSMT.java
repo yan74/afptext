@@ -27,12 +27,12 @@ public interface GSMT extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MCPT</em>' attribute.
-   * @see #setMCPT(int)
+   * @see #setMCPT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSMT_MCPT()
    * @model
    * @generated
    */
-  int getMCPT();
+  Integer getMCPT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSMT#getMCPT <em>MCPT</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSMT extends triplet
    * @see #getMCPT()
    * @generated
    */
-  void setMCPT(int value);
+  void setMCPT(Integer value);
 
 } // GSMT

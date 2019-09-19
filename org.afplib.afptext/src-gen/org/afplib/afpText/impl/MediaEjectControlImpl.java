@@ -36,7 +36,7 @@ public class MediaEjectControlImpl extends tripletImpl implements MediaEjectCont
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -46,7 +46,7 @@ public class MediaEjectControlImpl extends tripletImpl implements MediaEjectCont
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getEjCtrl() <em>Ej Ctrl</em>}' attribute.
@@ -56,7 +56,7 @@ public class MediaEjectControlImpl extends tripletImpl implements MediaEjectCont
    * @generated
    * @ordered
    */
-  protected static final int EJ_CTRL_EDEFAULT = 0;
+  protected static final Integer EJ_CTRL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getEjCtrl() <em>Ej Ctrl</em>}' attribute.
@@ -66,7 +66,7 @@ public class MediaEjectControlImpl extends tripletImpl implements MediaEjectCont
    * @generated
    * @ordered
    */
-  protected int ejCtrl = EJ_CTRL_EDEFAULT;
+  protected Integer ejCtrl = EJ_CTRL_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class MediaEjectControlImpl extends tripletImpl implements MediaEjectCont
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -106,9 +106,9 @@ public class MediaEjectControlImpl extends tripletImpl implements MediaEjectCont
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MEDIA_EJECT_CONTROL__RESERVED, oldReserved, reserved));
@@ -120,7 +120,7 @@ public class MediaEjectControlImpl extends tripletImpl implements MediaEjectCont
    * @generated
    */
   @Override
-  public int getEjCtrl()
+  public Integer getEjCtrl()
   {
     return ejCtrl;
   }
@@ -131,9 +131,9 @@ public class MediaEjectControlImpl extends tripletImpl implements MediaEjectCont
    * @generated
    */
   @Override
-  public void setEjCtrl(int newEjCtrl)
+  public void setEjCtrl(Integer newEjCtrl)
   {
-    int oldEjCtrl = ejCtrl;
+    Integer oldEjCtrl = ejCtrl;
     ejCtrl = newEjCtrl;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MEDIA_EJECT_CONTROL__EJ_CTRL, oldEjCtrl, ejCtrl));
@@ -208,9 +208,9 @@ public class MediaEjectControlImpl extends tripletImpl implements MediaEjectCont
     switch (featureID)
     {
       case AfpTextPackage.MEDIA_EJECT_CONTROL__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.MEDIA_EJECT_CONTROL__EJ_CTRL:
-        return ejCtrl != EJ_CTRL_EDEFAULT;
+        return EJ_CTRL_EDEFAULT == null ? ejCtrl != null : !EJ_CTRL_EDEFAULT.equals(ejCtrl);
     }
     return super.eIsSet(featureID);
   }

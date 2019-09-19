@@ -44,7 +44,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int CSPACE_EDEFAULT = 0;
+  protected static final Integer CSPACE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCSPACE() <em>CSPACE</em>}' attribute.
@@ -54,7 +54,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int cspace = CSPACE_EDEFAULT;
+  protected Integer cspace = CSPACE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRESERVED() <em>RESERVED</em>}' attribute.
@@ -64,7 +64,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRESERVED() <em>RESERVED</em>}' attribute.
@@ -74,7 +74,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSIZE1() <em>SIZE1</em>}' attribute.
@@ -84,7 +84,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int SIZE1_EDEFAULT = 0;
+  protected static final Integer SIZE1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSIZE1() <em>SIZE1</em>}' attribute.
@@ -94,7 +94,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int size1 = SIZE1_EDEFAULT;
+  protected Integer size1 = SIZE1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSIZE2() <em>SIZE2</em>}' attribute.
@@ -104,7 +104,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int SIZE2_EDEFAULT = 0;
+  protected static final Integer SIZE2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSIZE2() <em>SIZE2</em>}' attribute.
@@ -114,7 +114,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int size2 = SIZE2_EDEFAULT;
+  protected Integer size2 = SIZE2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSIZE3() <em>SIZE3</em>}' attribute.
@@ -124,7 +124,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int SIZE3_EDEFAULT = 0;
+  protected static final Integer SIZE3_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSIZE3() <em>SIZE3</em>}' attribute.
@@ -134,7 +134,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int size3 = SIZE3_EDEFAULT;
+  protected Integer size3 = SIZE3_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSIZE4() <em>SIZE4</em>}' attribute.
@@ -144,7 +144,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int SIZE4_EDEFAULT = 0;
+  protected static final Integer SIZE4_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSIZE4() <em>SIZE4</em>}' attribute.
@@ -154,7 +154,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int size4 = SIZE4_EDEFAULT;
+  protected Integer size4 = SIZE4_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCVAL1() <em>CVAL1</em>}' attribute.
@@ -164,7 +164,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int CVAL1_EDEFAULT = 0;
+  protected static final Integer CVAL1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCVAL1() <em>CVAL1</em>}' attribute.
@@ -174,7 +174,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int cval1 = CVAL1_EDEFAULT;
+  protected Integer cval1 = CVAL1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCVAL2() <em>CVAL2</em>}' attribute.
@@ -184,7 +184,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int CVAL2_EDEFAULT = 0;
+  protected static final Integer CVAL2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCVAL2() <em>CVAL2</em>}' attribute.
@@ -194,7 +194,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int cval2 = CVAL2_EDEFAULT;
+  protected Integer cval2 = CVAL2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCVAL3() <em>CVAL3</em>}' attribute.
@@ -204,7 +204,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int CVAL3_EDEFAULT = 0;
+  protected static final Integer CVAL3_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCVAL3() <em>CVAL3</em>}' attribute.
@@ -214,7 +214,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int cval3 = CVAL3_EDEFAULT;
+  protected Integer cval3 = CVAL3_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCVAL4() <em>CVAL4</em>}' attribute.
@@ -224,7 +224,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected static final int CVAL4_EDEFAULT = 0;
+  protected static final Integer CVAL4_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCVAL4() <em>CVAL4</em>}' attribute.
@@ -234,7 +234,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    * @ordered
    */
-  protected int cval4 = CVAL4_EDEFAULT;
+  protected Integer cval4 = CVAL4_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -263,7 +263,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getCSPACE()
+  public Integer getCSPACE()
   {
     return cspace;
   }
@@ -274,9 +274,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setCSPACE(int newCSPACE)
+  public void setCSPACE(Integer newCSPACE)
   {
-    int oldCSPACE = cspace;
+    Integer oldCSPACE = cspace;
     cspace = newCSPACE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__CSPACE, oldCSPACE, cspace));
@@ -288,7 +288,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getRESERVED()
+  public Integer getRESERVED()
   {
     return reserved;
   }
@@ -299,9 +299,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setRESERVED(int newRESERVED)
+  public void setRESERVED(Integer newRESERVED)
   {
-    int oldRESERVED = reserved;
+    Integer oldRESERVED = reserved;
     reserved = newRESERVED;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__RESERVED, oldRESERVED, reserved));
@@ -313,7 +313,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getSIZE1()
+  public Integer getSIZE1()
   {
     return size1;
   }
@@ -324,9 +324,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setSIZE1(int newSIZE1)
+  public void setSIZE1(Integer newSIZE1)
   {
-    int oldSIZE1 = size1;
+    Integer oldSIZE1 = size1;
     size1 = newSIZE1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__SIZE1, oldSIZE1, size1));
@@ -338,7 +338,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getSIZE2()
+  public Integer getSIZE2()
   {
     return size2;
   }
@@ -349,9 +349,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setSIZE2(int newSIZE2)
+  public void setSIZE2(Integer newSIZE2)
   {
-    int oldSIZE2 = size2;
+    Integer oldSIZE2 = size2;
     size2 = newSIZE2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__SIZE2, oldSIZE2, size2));
@@ -363,7 +363,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getSIZE3()
+  public Integer getSIZE3()
   {
     return size3;
   }
@@ -374,9 +374,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setSIZE3(int newSIZE3)
+  public void setSIZE3(Integer newSIZE3)
   {
-    int oldSIZE3 = size3;
+    Integer oldSIZE3 = size3;
     size3 = newSIZE3;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__SIZE3, oldSIZE3, size3));
@@ -388,7 +388,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getSIZE4()
+  public Integer getSIZE4()
   {
     return size4;
   }
@@ -399,9 +399,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setSIZE4(int newSIZE4)
+  public void setSIZE4(Integer newSIZE4)
   {
-    int oldSIZE4 = size4;
+    Integer oldSIZE4 = size4;
     size4 = newSIZE4;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__SIZE4, oldSIZE4, size4));
@@ -413,7 +413,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getCVAL1()
+  public Integer getCVAL1()
   {
     return cval1;
   }
@@ -424,9 +424,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setCVAL1(int newCVAL1)
+  public void setCVAL1(Integer newCVAL1)
   {
-    int oldCVAL1 = cval1;
+    Integer oldCVAL1 = cval1;
     cval1 = newCVAL1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__CVAL1, oldCVAL1, cval1));
@@ -438,7 +438,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getCVAL2()
+  public Integer getCVAL2()
   {
     return cval2;
   }
@@ -449,9 +449,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setCVAL2(int newCVAL2)
+  public void setCVAL2(Integer newCVAL2)
   {
-    int oldCVAL2 = cval2;
+    Integer oldCVAL2 = cval2;
     cval2 = newCVAL2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__CVAL2, oldCVAL2, cval2));
@@ -463,7 +463,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getCVAL3()
+  public Integer getCVAL3()
   {
     return cval3;
   }
@@ -474,9 +474,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setCVAL3(int newCVAL3)
+  public void setCVAL3(Integer newCVAL3)
   {
-    int oldCVAL3 = cval3;
+    Integer oldCVAL3 = cval3;
     cval3 = newCVAL3;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__CVAL3, oldCVAL3, cval3));
@@ -488,7 +488,7 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public int getCVAL4()
+  public Integer getCVAL4()
   {
     return cval4;
   }
@@ -499,9 +499,9 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
    * @generated
    */
   @Override
-  public void setCVAL4(int newCVAL4)
+  public void setCVAL4(Integer newCVAL4)
   {
-    int oldCVAL4 = cval4;
+    Integer oldCVAL4 = cval4;
     cval4 = newCVAL4;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.TILE_SET_COLOR__CVAL4, oldCVAL4, cval4));
@@ -640,25 +640,25 @@ public class TileSetColorImpl extends tripletImpl implements TileSetColor
     switch (featureID)
     {
       case AfpTextPackage.TILE_SET_COLOR__CSPACE:
-        return cspace != CSPACE_EDEFAULT;
+        return CSPACE_EDEFAULT == null ? cspace != null : !CSPACE_EDEFAULT.equals(cspace);
       case AfpTextPackage.TILE_SET_COLOR__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.TILE_SET_COLOR__SIZE1:
-        return size1 != SIZE1_EDEFAULT;
+        return SIZE1_EDEFAULT == null ? size1 != null : !SIZE1_EDEFAULT.equals(size1);
       case AfpTextPackage.TILE_SET_COLOR__SIZE2:
-        return size2 != SIZE2_EDEFAULT;
+        return SIZE2_EDEFAULT == null ? size2 != null : !SIZE2_EDEFAULT.equals(size2);
       case AfpTextPackage.TILE_SET_COLOR__SIZE3:
-        return size3 != SIZE3_EDEFAULT;
+        return SIZE3_EDEFAULT == null ? size3 != null : !SIZE3_EDEFAULT.equals(size3);
       case AfpTextPackage.TILE_SET_COLOR__SIZE4:
-        return size4 != SIZE4_EDEFAULT;
+        return SIZE4_EDEFAULT == null ? size4 != null : !SIZE4_EDEFAULT.equals(size4);
       case AfpTextPackage.TILE_SET_COLOR__CVAL1:
-        return cval1 != CVAL1_EDEFAULT;
+        return CVAL1_EDEFAULT == null ? cval1 != null : !CVAL1_EDEFAULT.equals(cval1);
       case AfpTextPackage.TILE_SET_COLOR__CVAL2:
-        return cval2 != CVAL2_EDEFAULT;
+        return CVAL2_EDEFAULT == null ? cval2 != null : !CVAL2_EDEFAULT.equals(cval2);
       case AfpTextPackage.TILE_SET_COLOR__CVAL3:
-        return cval3 != CVAL3_EDEFAULT;
+        return CVAL3_EDEFAULT == null ? cval3 != null : !CVAL3_EDEFAULT.equals(cval3);
       case AfpTextPackage.TILE_SET_COLOR__CVAL4:
-        return cval4 != CVAL4_EDEFAULT;
+        return CVAL4_EDEFAULT == null ? cval4 != null : !CVAL4_EDEFAULT.equals(cval4);
     }
     return super.eIsSet(featureID);
   }

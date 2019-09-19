@@ -27,12 +27,12 @@ public interface GSPT extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PATT</em>' attribute.
-   * @see #setPATT(int)
+   * @see #setPATT(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSPT_PATT()
    * @model
    * @generated
    */
-  int getPATT();
+  Integer getPATT();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSPT#getPATT <em>PATT</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSPT extends triplet
    * @see #getPATT()
    * @generated
    */
-  void setPATT(int value);
+  void setPATT(Integer value);
 
 } // GSPT

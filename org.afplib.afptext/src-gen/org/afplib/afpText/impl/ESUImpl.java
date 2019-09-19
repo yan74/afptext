@@ -35,7 +35,7 @@ public class ESUImpl extends tripletImpl implements ESU
    * @generated
    * @ordered
    */
-  protected static final int LID_EDEFAULT = 0;
+  protected static final Integer LID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLID() <em>LID</em>}' attribute.
@@ -45,7 +45,7 @@ public class ESUImpl extends tripletImpl implements ESU
    * @generated
    * @ordered
    */
-  protected int lid = LID_EDEFAULT;
+  protected Integer lid = LID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class ESUImpl extends tripletImpl implements ESU
    * @generated
    */
   @Override
-  public int getLID()
+  public Integer getLID()
   {
     return lid;
   }
@@ -85,9 +85,9 @@ public class ESUImpl extends tripletImpl implements ESU
    * @generated
    */
   @Override
-  public void setLID(int newLID)
+  public void setLID(Integer newLID)
   {
-    int oldLID = lid;
+    Integer oldLID = lid;
     lid = newLID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.ESU__LID, oldLID, lid));
@@ -154,7 +154,7 @@ public class ESUImpl extends tripletImpl implements ESU
     switch (featureID)
     {
       case AfpTextPackage.ESU__LID:
-        return lid != LID_EDEFAULT;
+        return LID_EDEFAULT == null ? lid != null : !LID_EDEFAULT.equals(lid);
     }
     return super.eIsSet(featureID);
   }

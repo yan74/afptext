@@ -36,7 +36,7 @@ public class FinishingFidelityImpl extends tripletImpl implements FinishingFidel
    * @generated
    * @ordered
    */
-  protected static final int STP_FIN_EX_EDEFAULT = 0;
+  protected static final Integer STP_FIN_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStpFinEx() <em>Stp Fin Ex</em>}' attribute.
@@ -46,7 +46,7 @@ public class FinishingFidelityImpl extends tripletImpl implements FinishingFidel
    * @generated
    * @ordered
    */
-  protected int stpFinEx = STP_FIN_EX_EDEFAULT;
+  protected Integer stpFinEx = STP_FIN_EX_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRepFinEx() <em>Rep Fin Ex</em>}' attribute.
@@ -56,7 +56,7 @@ public class FinishingFidelityImpl extends tripletImpl implements FinishingFidel
    * @generated
    * @ordered
    */
-  protected static final int REP_FIN_EX_EDEFAULT = 0;
+  protected static final Integer REP_FIN_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRepFinEx() <em>Rep Fin Ex</em>}' attribute.
@@ -66,7 +66,7 @@ public class FinishingFidelityImpl extends tripletImpl implements FinishingFidel
    * @generated
    * @ordered
    */
-  protected int repFinEx = REP_FIN_EX_EDEFAULT;
+  protected Integer repFinEx = REP_FIN_EX_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class FinishingFidelityImpl extends tripletImpl implements FinishingFidel
    * @generated
    */
   @Override
-  public int getStpFinEx()
+  public Integer getStpFinEx()
   {
     return stpFinEx;
   }
@@ -106,9 +106,9 @@ public class FinishingFidelityImpl extends tripletImpl implements FinishingFidel
    * @generated
    */
   @Override
-  public void setStpFinEx(int newStpFinEx)
+  public void setStpFinEx(Integer newStpFinEx)
   {
-    int oldStpFinEx = stpFinEx;
+    Integer oldStpFinEx = stpFinEx;
     stpFinEx = newStpFinEx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FINISHING_FIDELITY__STP_FIN_EX, oldStpFinEx, stpFinEx));
@@ -120,7 +120,7 @@ public class FinishingFidelityImpl extends tripletImpl implements FinishingFidel
    * @generated
    */
   @Override
-  public int getRepFinEx()
+  public Integer getRepFinEx()
   {
     return repFinEx;
   }
@@ -131,9 +131,9 @@ public class FinishingFidelityImpl extends tripletImpl implements FinishingFidel
    * @generated
    */
   @Override
-  public void setRepFinEx(int newRepFinEx)
+  public void setRepFinEx(Integer newRepFinEx)
   {
-    int oldRepFinEx = repFinEx;
+    Integer oldRepFinEx = repFinEx;
     repFinEx = newRepFinEx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FINISHING_FIDELITY__REP_FIN_EX, oldRepFinEx, repFinEx));
@@ -208,9 +208,9 @@ public class FinishingFidelityImpl extends tripletImpl implements FinishingFidel
     switch (featureID)
     {
       case AfpTextPackage.FINISHING_FIDELITY__STP_FIN_EX:
-        return stpFinEx != STP_FIN_EX_EDEFAULT;
+        return STP_FIN_EX_EDEFAULT == null ? stpFinEx != null : !STP_FIN_EX_EDEFAULT.equals(stpFinEx);
       case AfpTextPackage.FINISHING_FIDELITY__REP_FIN_EX:
-        return repFinEx != REP_FIN_EX_EDEFAULT;
+        return REP_FIN_EX_EDEFAULT == null ? repFinEx != null : !REP_FIN_EX_EDEFAULT.equals(repFinEx);
     }
     return super.eIsSet(featureID);
   }

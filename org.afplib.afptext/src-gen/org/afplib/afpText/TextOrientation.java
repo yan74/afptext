@@ -28,12 +28,12 @@ public interface TextOrientation extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>IAxis</em>' attribute.
-   * @see #setIAxis(int)
+   * @see #setIAxis(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTextOrientation_IAxis()
    * @model
    * @generated
    */
-  int getIAxis();
+  Integer getIAxis();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TextOrientation#getIAxis <em>IAxis</em>}' attribute.
@@ -43,19 +43,19 @@ public interface TextOrientation extends triplet
    * @see #getIAxis()
    * @generated
    */
-  void setIAxis(int value);
+  void setIAxis(Integer value);
 
   /**
    * Returns the value of the '<em><b>BAxis</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BAxis</em>' attribute.
-   * @see #setBAxis(int)
+   * @see #setBAxis(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getTextOrientation_BAxis()
    * @model
    * @generated
    */
-  int getBAxis();
+  Integer getBAxis();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.TextOrientation#getBAxis <em>BAxis</em>}' attribute.
@@ -65,6 +65,6 @@ public interface TextOrientation extends triplet
    * @see #getBAxis()
    * @generated
    */
-  void setBAxis(int value);
+  void setBAxis(Integer value);
 
 } // TextOrientation

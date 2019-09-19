@@ -46,7 +46,7 @@ public class PGPImpl extends structuredFieldImpl implements PGP
    * @generated
    * @ordered
    */
-  protected static final int CONSTANT_EDEFAULT = 0;
+  protected static final Integer CONSTANT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getConstant() <em>Constant</em>}' attribute.
@@ -56,7 +56,7 @@ public class PGPImpl extends structuredFieldImpl implements PGP
    * @generated
    * @ordered
    */
-  protected int constant = CONSTANT_EDEFAULT;
+  protected Integer constant = CONSTANT_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
@@ -95,7 +95,7 @@ public class PGPImpl extends structuredFieldImpl implements PGP
    * @generated
    */
   @Override
-  public int getConstant()
+  public Integer getConstant()
   {
     return constant;
   }
@@ -106,9 +106,9 @@ public class PGPImpl extends structuredFieldImpl implements PGP
    * @generated
    */
   @Override
-  public void setConstant(int newConstant)
+  public void setConstant(Integer newConstant)
   {
-    int oldConstant = constant;
+    Integer oldConstant = constant;
     constant = newConstant;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGP__CONSTANT, oldConstant, constant));
@@ -216,7 +216,7 @@ public class PGPImpl extends structuredFieldImpl implements PGP
     switch (featureID)
     {
       case AfpTextPackage.PGP__CONSTANT:
-        return constant != CONSTANT_EDEFAULT;
+        return CONSTANT_EDEFAULT == null ? constant != null : !CONSTANT_EDEFAULT.equals(constant);
       case AfpTextPackage.PGP__RG:
         return rg != null && !rg.isEmpty();
     }

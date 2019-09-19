@@ -39,7 +39,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected static final int UNITBASE_EDEFAULT = 0;
+  protected static final Integer UNITBASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUNITBASE() <em>UNITBASE</em>}' attribute.
@@ -49,7 +49,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected int unitbase = UNITBASE_EDEFAULT;
+  protected Integer unitbase = UNITBASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHRESOL() <em>HRESOL</em>}' attribute.
@@ -59,7 +59,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected static final int HRESOL_EDEFAULT = 0;
+  protected static final Integer HRESOL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHRESOL() <em>HRESOL</em>}' attribute.
@@ -69,7 +69,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected int hresol = HRESOL_EDEFAULT;
+  protected Integer hresol = HRESOL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVRESOL() <em>VRESOL</em>}' attribute.
@@ -79,7 +79,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected static final int VRESOL_EDEFAULT = 0;
+  protected static final Integer VRESOL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVRESOL() <em>VRESOL</em>}' attribute.
@@ -89,7 +89,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected int vresol = VRESOL_EDEFAULT;
+  protected Integer vresol = VRESOL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHSIZE() <em>HSIZE</em>}' attribute.
@@ -99,7 +99,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected static final int HSIZE_EDEFAULT = 0;
+  protected static final Integer HSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHSIZE() <em>HSIZE</em>}' attribute.
@@ -109,7 +109,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected int hsize = HSIZE_EDEFAULT;
+  protected Integer hsize = HSIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVSIZE() <em>VSIZE</em>}' attribute.
@@ -119,7 +119,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected static final int VSIZE_EDEFAULT = 0;
+  protected static final Integer VSIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVSIZE() <em>VSIZE</em>}' attribute.
@@ -129,7 +129,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    * @ordered
    */
-  protected int vsize = VSIZE_EDEFAULT;
+  protected Integer vsize = VSIZE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -158,7 +158,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public int getUNITBASE()
+  public Integer getUNITBASE()
   {
     return unitbase;
   }
@@ -169,9 +169,9 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public void setUNITBASE(int newUNITBASE)
+  public void setUNITBASE(Integer newUNITBASE)
   {
-    int oldUNITBASE = unitbase;
+    Integer oldUNITBASE = unitbase;
     unitbase = newUNITBASE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_SIZE__UNITBASE, oldUNITBASE, unitbase));
@@ -183,7 +183,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public int getHRESOL()
+  public Integer getHRESOL()
   {
     return hresol;
   }
@@ -194,9 +194,9 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public void setHRESOL(int newHRESOL)
+  public void setHRESOL(Integer newHRESOL)
   {
-    int oldHRESOL = hresol;
+    Integer oldHRESOL = hresol;
     hresol = newHRESOL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_SIZE__HRESOL, oldHRESOL, hresol));
@@ -208,7 +208,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public int getVRESOL()
+  public Integer getVRESOL()
   {
     return vresol;
   }
@@ -219,9 +219,9 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public void setVRESOL(int newVRESOL)
+  public void setVRESOL(Integer newVRESOL)
   {
-    int oldVRESOL = vresol;
+    Integer oldVRESOL = vresol;
     vresol = newVRESOL;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_SIZE__VRESOL, oldVRESOL, vresol));
@@ -233,7 +233,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public int getHSIZE()
+  public Integer getHSIZE()
   {
     return hsize;
   }
@@ -244,9 +244,9 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public void setHSIZE(int newHSIZE)
+  public void setHSIZE(Integer newHSIZE)
   {
-    int oldHSIZE = hsize;
+    Integer oldHSIZE = hsize;
     hsize = newHSIZE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_SIZE__HSIZE, oldHSIZE, hsize));
@@ -258,7 +258,7 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public int getVSIZE()
+  public Integer getVSIZE()
   {
     return vsize;
   }
@@ -269,9 +269,9 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
    * @generated
    */
   @Override
-  public void setVSIZE(int newVSIZE)
+  public void setVSIZE(Integer newVSIZE)
   {
-    int oldVSIZE = vsize;
+    Integer oldVSIZE = vsize;
     vsize = newVSIZE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_SIZE__VSIZE, oldVSIZE, vsize));
@@ -370,15 +370,15 @@ public class ImageSizeImpl extends tripletImpl implements ImageSize
     switch (featureID)
     {
       case AfpTextPackage.IMAGE_SIZE__UNITBASE:
-        return unitbase != UNITBASE_EDEFAULT;
+        return UNITBASE_EDEFAULT == null ? unitbase != null : !UNITBASE_EDEFAULT.equals(unitbase);
       case AfpTextPackage.IMAGE_SIZE__HRESOL:
-        return hresol != HRESOL_EDEFAULT;
+        return HRESOL_EDEFAULT == null ? hresol != null : !HRESOL_EDEFAULT.equals(hresol);
       case AfpTextPackage.IMAGE_SIZE__VRESOL:
-        return vresol != VRESOL_EDEFAULT;
+        return VRESOL_EDEFAULT == null ? vresol != null : !VRESOL_EDEFAULT.equals(vresol);
       case AfpTextPackage.IMAGE_SIZE__HSIZE:
-        return hsize != HSIZE_EDEFAULT;
+        return HSIZE_EDEFAULT == null ? hsize != null : !HSIZE_EDEFAULT.equals(hsize);
       case AfpTextPackage.IMAGE_SIZE__VSIZE:
-        return vsize != VSIZE_EDEFAULT;
+        return VSIZE_EDEFAULT == null ? vsize != null : !VSIZE_EDEFAULT.equals(vsize);
     }
     return super.eIsSet(featureID);
   }

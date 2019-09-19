@@ -60,12 +60,12 @@ public interface FNIRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Char Inc</em>' attribute.
-   * @see #setCharInc(int)
+   * @see #setCharInc(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_CharInc()
    * @model
    * @generated
    */
-  int getCharInc();
+  Integer getCharInc();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getCharInc <em>Char Inc</em>}' attribute.
@@ -75,19 +75,19 @@ public interface FNIRG extends EObject
    * @see #getCharInc()
    * @generated
    */
-  void setCharInc(int value);
+  void setCharInc(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ascend Ht</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ascend Ht</em>' attribute.
-   * @see #setAscendHt(int)
+   * @see #setAscendHt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_AscendHt()
    * @model
    * @generated
    */
-  int getAscendHt();
+  Integer getAscendHt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getAscendHt <em>Ascend Ht</em>}' attribute.
@@ -97,19 +97,19 @@ public interface FNIRG extends EObject
    * @see #getAscendHt()
    * @generated
    */
-  void setAscendHt(int value);
+  void setAscendHt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Descend Dp</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Descend Dp</em>' attribute.
-   * @see #setDescendDp(int)
+   * @see #setDescendDp(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_DescendDp()
    * @model
    * @generated
    */
-  int getDescendDp();
+  Integer getDescendDp();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getDescendDp <em>Descend Dp</em>}' attribute.
@@ -119,19 +119,19 @@ public interface FNIRG extends EObject
    * @see #getDescendDp()
    * @generated
    */
-  void setDescendDp(int value);
+  void setDescendDp(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved</em>' attribute.
-   * @see #setReserved(int)
+   * @see #setReserved(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_Reserved()
    * @model
    * @generated
    */
-  int getReserved();
+  Integer getReserved();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getReserved <em>Reserved</em>}' attribute.
@@ -141,19 +141,19 @@ public interface FNIRG extends EObject
    * @see #getReserved()
    * @generated
    */
-  void setReserved(int value);
+  void setReserved(Integer value);
 
   /**
    * Returns the value of the '<em><b>FNM Cnt</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FNM Cnt</em>' attribute.
-   * @see #setFNMCnt(int)
+   * @see #setFNMCnt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_FNMCnt()
    * @model
    * @generated
    */
-  int getFNMCnt();
+  Integer getFNMCnt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getFNMCnt <em>FNM Cnt</em>}' attribute.
@@ -163,19 +163,19 @@ public interface FNIRG extends EObject
    * @see #getFNMCnt()
    * @generated
    */
-  void setFNMCnt(int value);
+  void setFNMCnt(Integer value);
 
   /**
    * Returns the value of the '<em><b>ASpace</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>ASpace</em>' attribute.
-   * @see #setASpace(int)
+   * @see #setASpace(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_ASpace()
    * @model
    * @generated
    */
-  int getASpace();
+  Integer getASpace();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getASpace <em>ASpace</em>}' attribute.
@@ -185,19 +185,19 @@ public interface FNIRG extends EObject
    * @see #getASpace()
    * @generated
    */
-  void setASpace(int value);
+  void setASpace(Integer value);
 
   /**
    * Returns the value of the '<em><b>BSpace</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>BSpace</em>' attribute.
-   * @see #setBSpace(int)
+   * @see #setBSpace(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_BSpace()
    * @model
    * @generated
    */
-  int getBSpace();
+  Integer getBSpace();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getBSpace <em>BSpace</em>}' attribute.
@@ -207,19 +207,19 @@ public interface FNIRG extends EObject
    * @see #getBSpace()
    * @generated
    */
-  void setBSpace(int value);
+  void setBSpace(Integer value);
 
   /**
    * Returns the value of the '<em><b>CSpace</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>CSpace</em>' attribute.
-   * @see #setCSpace(int)
+   * @see #setCSpace(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_CSpace()
    * @model
    * @generated
    */
-  int getCSpace();
+  Integer getCSpace();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getCSpace <em>CSpace</em>}' attribute.
@@ -229,19 +229,19 @@ public interface FNIRG extends EObject
    * @see #getCSpace()
    * @generated
    */
-  void setCSpace(int value);
+  void setCSpace(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved2</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Reserved2</em>' attribute.
-   * @see #setReserved2(int)
+   * @see #setReserved2(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_Reserved2()
    * @model
    * @generated
    */
-  int getReserved2();
+  Integer getReserved2();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getReserved2 <em>Reserved2</em>}' attribute.
@@ -251,19 +251,19 @@ public interface FNIRG extends EObject
    * @see #getReserved2()
    * @generated
    */
-  void setReserved2(int value);
+  void setReserved2(Integer value);
 
   /**
    * Returns the value of the '<em><b>Base Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Base Oset</em>' attribute.
-   * @see #setBaseOset(int)
+   * @see #setBaseOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNIRG_BaseOset()
    * @model
    * @generated
    */
-  int getBaseOset();
+  Integer getBaseOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNIRG#getBaseOset <em>Base Oset</em>}' attribute.
@@ -273,6 +273,6 @@ public interface FNIRG extends EObject
    * @see #getBaseOset()
    * @generated
    */
-  void setBaseOset(int value);
+  void setBaseOset(Integer value);
 
 } // FNIRG

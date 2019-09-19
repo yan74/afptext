@@ -36,7 +36,7 @@ public class ResourceObjectTypeImpl extends tripletImpl implements ResourceObjec
    * @generated
    * @ordered
    */
-  protected static final int OBJ_TYPE_EDEFAULT = 0;
+  protected static final Integer OBJ_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObjType() <em>Obj Type</em>}' attribute.
@@ -46,7 +46,7 @@ public class ResourceObjectTypeImpl extends tripletImpl implements ResourceObjec
    * @generated
    * @ordered
    */
-  protected int objType = OBJ_TYPE_EDEFAULT;
+  protected Integer objType = OBJ_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getConData() <em>Con Data</em>}' attribute.
@@ -95,7 +95,7 @@ public class ResourceObjectTypeImpl extends tripletImpl implements ResourceObjec
    * @generated
    */
   @Override
-  public int getObjType()
+  public Integer getObjType()
   {
     return objType;
   }
@@ -106,9 +106,9 @@ public class ResourceObjectTypeImpl extends tripletImpl implements ResourceObjec
    * @generated
    */
   @Override
-  public void setObjType(int newObjType)
+  public void setObjType(Integer newObjType)
   {
-    int oldObjType = objType;
+    Integer oldObjType = objType;
     objType = newObjType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RESOURCE_OBJECT_TYPE__OBJ_TYPE, oldObjType, objType));
@@ -208,7 +208,7 @@ public class ResourceObjectTypeImpl extends tripletImpl implements ResourceObjec
     switch (featureID)
     {
       case AfpTextPackage.RESOURCE_OBJECT_TYPE__OBJ_TYPE:
-        return objType != OBJ_TYPE_EDEFAULT;
+        return OBJ_TYPE_EDEFAULT == null ? objType != null : !OBJ_TYPE_EDEFAULT.equals(objType);
       case AfpTextPackage.RESOURCE_OBJECT_TYPE__CON_DATA:
         return CON_DATA_EDEFAULT == null ? conData != null : !CON_DATA_EDEFAULT.equals(conData);
     }

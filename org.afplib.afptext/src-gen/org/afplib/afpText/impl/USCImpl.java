@@ -35,7 +35,7 @@ public class USCImpl extends tripletImpl implements USC
    * @generated
    * @ordered
    */
-  protected static final int BYPSIDEN_EDEFAULT = 0;
+  protected static final Integer BYPSIDEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBYPSIDEN() <em>BYPSIDEN</em>}' attribute.
@@ -45,7 +45,7 @@ public class USCImpl extends tripletImpl implements USC
    * @generated
    * @ordered
    */
-  protected int bypsiden = BYPSIDEN_EDEFAULT;
+  protected Integer bypsiden = BYPSIDEN_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class USCImpl extends tripletImpl implements USC
    * @generated
    */
   @Override
-  public int getBYPSIDEN()
+  public Integer getBYPSIDEN()
   {
     return bypsiden;
   }
@@ -85,9 +85,9 @@ public class USCImpl extends tripletImpl implements USC
    * @generated
    */
   @Override
-  public void setBYPSIDEN(int newBYPSIDEN)
+  public void setBYPSIDEN(Integer newBYPSIDEN)
   {
-    int oldBYPSIDEN = bypsiden;
+    Integer oldBYPSIDEN = bypsiden;
     bypsiden = newBYPSIDEN;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.USC__BYPSIDEN, oldBYPSIDEN, bypsiden));
@@ -154,7 +154,7 @@ public class USCImpl extends tripletImpl implements USC
     switch (featureID)
     {
       case AfpTextPackage.USC__BYPSIDEN:
-        return bypsiden != BYPSIDEN_EDEFAULT;
+        return BYPSIDEN_EDEFAULT == null ? bypsiden != null : !BYPSIDEN_EDEFAULT.equals(bypsiden);
     }
     return super.eIsSet(featureID);
   }

@@ -35,7 +35,7 @@ public class GSCDImpl extends tripletImpl implements GSCD
    * @generated
    * @ordered
    */
-  protected static final int DIRECTION_EDEFAULT = 0;
+  protected static final Integer DIRECTION_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDIRECTION() <em>DIRECTION</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSCDImpl extends tripletImpl implements GSCD
    * @generated
    * @ordered
    */
-  protected int direction = DIRECTION_EDEFAULT;
+  protected Integer direction = DIRECTION_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSCDImpl extends tripletImpl implements GSCD
    * @generated
    */
   @Override
-  public int getDIRECTION()
+  public Integer getDIRECTION()
   {
     return direction;
   }
@@ -85,9 +85,9 @@ public class GSCDImpl extends tripletImpl implements GSCD
    * @generated
    */
   @Override
-  public void setDIRECTION(int newDIRECTION)
+  public void setDIRECTION(Integer newDIRECTION)
   {
-    int oldDIRECTION = direction;
+    Integer oldDIRECTION = direction;
     direction = newDIRECTION;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSCD__DIRECTION, oldDIRECTION, direction));
@@ -154,7 +154,7 @@ public class GSCDImpl extends tripletImpl implements GSCD
     switch (featureID)
     {
       case AfpTextPackage.GSCD__DIRECTION:
-        return direction != DIRECTION_EDEFAULT;
+        return DIRECTION_EDEFAULT == null ? direction != null : !DIRECTION_EDEFAULT.equals(direction);
     }
     return super.eIsSet(featureID);
   }

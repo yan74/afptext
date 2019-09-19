@@ -35,7 +35,7 @@ public class ImageLUTIDImpl extends tripletImpl implements ImageLUTID
    * @generated
    * @ordered
    */
-  protected static final int LUTID_EDEFAULT = 0;
+  protected static final Integer LUTID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLUTID() <em>LUTID</em>}' attribute.
@@ -45,7 +45,7 @@ public class ImageLUTIDImpl extends tripletImpl implements ImageLUTID
    * @generated
    * @ordered
    */
-  protected int lutid = LUTID_EDEFAULT;
+  protected Integer lutid = LUTID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class ImageLUTIDImpl extends tripletImpl implements ImageLUTID
    * @generated
    */
   @Override
-  public int getLUTID()
+  public Integer getLUTID()
   {
     return lutid;
   }
@@ -85,9 +85,9 @@ public class ImageLUTIDImpl extends tripletImpl implements ImageLUTID
    * @generated
    */
   @Override
-  public void setLUTID(int newLUTID)
+  public void setLUTID(Integer newLUTID)
   {
-    int oldLUTID = lutid;
+    Integer oldLUTID = lutid;
     lutid = newLUTID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.IMAGE_LUTID__LUTID, oldLUTID, lutid));
@@ -154,7 +154,7 @@ public class ImageLUTIDImpl extends tripletImpl implements ImageLUTID
     switch (featureID)
     {
       case AfpTextPackage.IMAGE_LUTID__LUTID:
-        return lutid != LUTID_EDEFAULT;
+        return LUTID_EDEFAULT == null ? lutid != null : !LUTID_EDEFAULT.equals(lutid);
     }
     return super.eIsSet(featureID);
   }

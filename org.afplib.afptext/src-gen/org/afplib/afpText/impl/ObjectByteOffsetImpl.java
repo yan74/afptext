@@ -36,7 +36,7 @@ public class ObjectByteOffsetImpl extends tripletImpl implements ObjectByteOffse
    * @generated
    * @ordered
    */
-  protected static final int DIR_BY_OFF_EDEFAULT = 0;
+  protected static final Integer DIR_BY_OFF_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDirByOff() <em>Dir By Off</em>}' attribute.
@@ -46,7 +46,7 @@ public class ObjectByteOffsetImpl extends tripletImpl implements ObjectByteOffse
    * @generated
    * @ordered
    */
-  protected int dirByOff = DIR_BY_OFF_EDEFAULT;
+  protected Integer dirByOff = DIR_BY_OFF_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDirByHi() <em>Dir By Hi</em>}' attribute.
@@ -56,7 +56,7 @@ public class ObjectByteOffsetImpl extends tripletImpl implements ObjectByteOffse
    * @generated
    * @ordered
    */
-  protected static final int DIR_BY_HI_EDEFAULT = 0;
+  protected static final Integer DIR_BY_HI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDirByHi() <em>Dir By Hi</em>}' attribute.
@@ -66,7 +66,7 @@ public class ObjectByteOffsetImpl extends tripletImpl implements ObjectByteOffse
    * @generated
    * @ordered
    */
-  protected int dirByHi = DIR_BY_HI_EDEFAULT;
+  protected Integer dirByHi = DIR_BY_HI_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class ObjectByteOffsetImpl extends tripletImpl implements ObjectByteOffse
    * @generated
    */
   @Override
-  public int getDirByOff()
+  public Integer getDirByOff()
   {
     return dirByOff;
   }
@@ -106,9 +106,9 @@ public class ObjectByteOffsetImpl extends tripletImpl implements ObjectByteOffse
    * @generated
    */
   @Override
-  public void setDirByOff(int newDirByOff)
+  public void setDirByOff(Integer newDirByOff)
   {
-    int oldDirByOff = dirByOff;
+    Integer oldDirByOff = dirByOff;
     dirByOff = newDirByOff;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_BYTE_OFFSET__DIR_BY_OFF, oldDirByOff, dirByOff));
@@ -120,7 +120,7 @@ public class ObjectByteOffsetImpl extends tripletImpl implements ObjectByteOffse
    * @generated
    */
   @Override
-  public int getDirByHi()
+  public Integer getDirByHi()
   {
     return dirByHi;
   }
@@ -131,9 +131,9 @@ public class ObjectByteOffsetImpl extends tripletImpl implements ObjectByteOffse
    * @generated
    */
   @Override
-  public void setDirByHi(int newDirByHi)
+  public void setDirByHi(Integer newDirByHi)
   {
-    int oldDirByHi = dirByHi;
+    Integer oldDirByHi = dirByHi;
     dirByHi = newDirByHi;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_BYTE_OFFSET__DIR_BY_HI, oldDirByHi, dirByHi));
@@ -208,9 +208,9 @@ public class ObjectByteOffsetImpl extends tripletImpl implements ObjectByteOffse
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_BYTE_OFFSET__DIR_BY_OFF:
-        return dirByOff != DIR_BY_OFF_EDEFAULT;
+        return DIR_BY_OFF_EDEFAULT == null ? dirByOff != null : !DIR_BY_OFF_EDEFAULT.equals(dirByOff);
       case AfpTextPackage.OBJECT_BYTE_OFFSET__DIR_BY_HI:
-        return dirByHi != DIR_BY_HI_EDEFAULT;
+        return DIR_BY_HI_EDEFAULT == null ? dirByHi != null : !DIR_BY_HI_EDEFAULT.equals(dirByHi);
     }
     return super.eIsSet(featureID);
   }

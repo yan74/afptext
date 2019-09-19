@@ -59,7 +59,7 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    * @ordered
    */
-  protected static final int PRT_FLAGS_EDEFAULT = 0;
+  protected static final Integer PRT_FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPrtFlags() <em>Prt Flags</em>}' attribute.
@@ -69,7 +69,7 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    * @ordered
    */
-  protected int prtFlags = PRT_FLAGS_EDEFAULT;
+  protected Integer prtFlags = PRT_FLAGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCodePoint() <em>Code Point</em>}' attribute.
@@ -79,7 +79,7 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    * @ordered
    */
-  protected static final int CODE_POINT_EDEFAULT = 0;
+  protected static final Integer CODE_POINT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCodePoint() <em>Code Point</em>}' attribute.
@@ -89,7 +89,7 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    * @ordered
    */
-  protected int codePoint = CODE_POINT_EDEFAULT;
+  protected Integer codePoint = CODE_POINT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getCount() <em>Count</em>}' attribute.
@@ -99,7 +99,7 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    * @ordered
    */
-  protected static final int COUNT_EDEFAULT = 0;
+  protected static final Integer COUNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCount() <em>Count</em>}' attribute.
@@ -109,7 +109,7 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    * @ordered
    */
-  protected int count = COUNT_EDEFAULT;
+  protected Integer count = COUNT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -163,7 +163,7 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    */
   @Override
-  public int getPrtFlags()
+  public Integer getPrtFlags()
   {
     return prtFlags;
   }
@@ -174,9 +174,9 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    */
   @Override
-  public void setPrtFlags(int newPrtFlags)
+  public void setPrtFlags(Integer newPrtFlags)
   {
-    int oldPrtFlags = prtFlags;
+    Integer oldPrtFlags = prtFlags;
     prtFlags = newPrtFlags;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPIRG__PRT_FLAGS, oldPrtFlags, prtFlags));
@@ -188,7 +188,7 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    */
   @Override
-  public int getCodePoint()
+  public Integer getCodePoint()
   {
     return codePoint;
   }
@@ -199,9 +199,9 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    */
   @Override
-  public void setCodePoint(int newCodePoint)
+  public void setCodePoint(Integer newCodePoint)
   {
-    int oldCodePoint = codePoint;
+    Integer oldCodePoint = codePoint;
     codePoint = newCodePoint;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPIRG__CODE_POINT, oldCodePoint, codePoint));
@@ -213,7 +213,7 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    */
   @Override
-  public int getCount()
+  public Integer getCount()
   {
     return count;
   }
@@ -224,9 +224,9 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
    * @generated
    */
   @Override
-  public void setCount(int newCount)
+  public void setCount(Integer newCount)
   {
-    int oldCount = count;
+    Integer oldCount = count;
     count = newCount;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CPIRG__COUNT, oldCount, count));
@@ -319,11 +319,11 @@ public class CPIRGImpl extends MinimalEObjectImpl.Container implements CPIRG
       case AfpTextPackage.CPIRG__GCGID:
         return GCGID_EDEFAULT == null ? gcgid != null : !GCGID_EDEFAULT.equals(gcgid);
       case AfpTextPackage.CPIRG__PRT_FLAGS:
-        return prtFlags != PRT_FLAGS_EDEFAULT;
+        return PRT_FLAGS_EDEFAULT == null ? prtFlags != null : !PRT_FLAGS_EDEFAULT.equals(prtFlags);
       case AfpTextPackage.CPIRG__CODE_POINT:
-        return codePoint != CODE_POINT_EDEFAULT;
+        return CODE_POINT_EDEFAULT == null ? codePoint != null : !CODE_POINT_EDEFAULT.equals(codePoint);
       case AfpTextPackage.CPIRG__COUNT:
-        return count != COUNT_EDEFAULT;
+        return COUNT_EDEFAULT == null ? count != null : !COUNT_EDEFAULT.equals(count);
     }
     return super.eIsSet(featureID);
   }

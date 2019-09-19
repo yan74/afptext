@@ -27,12 +27,12 @@ public interface ResourceUsageAttribute extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Frequency</em>' attribute.
-   * @see #setFrequency(int)
+   * @see #setFrequency(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getResourceUsageAttribute_Frequency()
    * @model
    * @generated
    */
-  int getFrequency();
+  Integer getFrequency();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ResourceUsageAttribute#getFrequency <em>Frequency</em>}' attribute.
@@ -42,6 +42,6 @@ public interface ResourceUsageAttribute extends triplet
    * @see #getFrequency()
    * @generated
    */
-  void setFrequency(int value);
+  void setFrequency(Integer value);
 
 } // ResourceUsageAttribute

@@ -27,12 +27,12 @@ public interface GEPROL extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RES</em>' attribute.
-   * @see #setRES(int)
+   * @see #setRES(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGEPROL_RES()
    * @model
    * @generated
    */
-  int getRES();
+  Integer getRES();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GEPROL#getRES <em>RES</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GEPROL extends triplet
    * @see #getRES()
    * @generated
    */
-  void setRES(int value);
+  void setRES(Integer value);
 
 } // GEPROL

@@ -28,12 +28,12 @@ public interface UP3iFinishingOperation extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Seqnum</em>' attribute.
-   * @see #setSeqnum(int)
+   * @see #setSeqnum(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getUP3iFinishingOperation_Seqnum()
    * @model
    * @generated
    */
-  int getSeqnum();
+  Integer getSeqnum();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.UP3iFinishingOperation#getSeqnum <em>Seqnum</em>}' attribute.
@@ -43,7 +43,7 @@ public interface UP3iFinishingOperation extends triplet
    * @see #getSeqnum()
    * @generated
    */
-  void setSeqnum(int value);
+  void setSeqnum(Integer value);
 
   /**
    * Returns the value of the '<em><b>UP 3i Dat</b></em>' attribute.

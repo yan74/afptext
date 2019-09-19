@@ -48,7 +48,7 @@ public class LLERGImpl extends MinimalEObjectImpl.Container implements LLERG
    * @generated
    * @ordered
    */
-  protected static final int RG_LENGTH_EDEFAULT = 0;
+  protected static final Integer RG_LENGTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRGLength() <em>RG Length</em>}' attribute.
@@ -58,7 +58,7 @@ public class LLERGImpl extends MinimalEObjectImpl.Container implements LLERG
    * @generated
    * @ordered
    */
-  protected int rgLength = RG_LENGTH_EDEFAULT;
+  protected Integer rgLength = RG_LENGTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRGFunct() <em>RG Funct</em>}' attribute.
@@ -68,7 +68,7 @@ public class LLERGImpl extends MinimalEObjectImpl.Container implements LLERG
    * @generated
    * @ordered
    */
-  protected static final int RG_FUNCT_EDEFAULT = 0;
+  protected static final Integer RG_FUNCT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRGFunct() <em>RG Funct</em>}' attribute.
@@ -78,7 +78,7 @@ public class LLERGImpl extends MinimalEObjectImpl.Container implements LLERG
    * @generated
    * @ordered
    */
-  protected int rgFunct = RG_FUNCT_EDEFAULT;
+  protected Integer rgFunct = RG_FUNCT_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -117,7 +117,7 @@ public class LLERGImpl extends MinimalEObjectImpl.Container implements LLERG
    * @generated
    */
   @Override
-  public int getRGLength()
+  public Integer getRGLength()
   {
     return rgLength;
   }
@@ -128,9 +128,9 @@ public class LLERGImpl extends MinimalEObjectImpl.Container implements LLERG
    * @generated
    */
   @Override
-  public void setRGLength(int newRGLength)
+  public void setRGLength(Integer newRGLength)
   {
-    int oldRGLength = rgLength;
+    Integer oldRGLength = rgLength;
     rgLength = newRGLength;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LLERG__RG_LENGTH, oldRGLength, rgLength));
@@ -142,7 +142,7 @@ public class LLERGImpl extends MinimalEObjectImpl.Container implements LLERG
    * @generated
    */
   @Override
-  public int getRGFunct()
+  public Integer getRGFunct()
   {
     return rgFunct;
   }
@@ -153,9 +153,9 @@ public class LLERGImpl extends MinimalEObjectImpl.Container implements LLERG
    * @generated
    */
   @Override
-  public void setRGFunct(int newRGFunct)
+  public void setRGFunct(Integer newRGFunct)
   {
-    int oldRGFunct = rgFunct;
+    Integer oldRGFunct = rgFunct;
     rgFunct = newRGFunct;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.LLERG__RG_FUNCT, oldRGFunct, rgFunct));
@@ -271,9 +271,9 @@ public class LLERGImpl extends MinimalEObjectImpl.Container implements LLERG
     switch (featureID)
     {
       case AfpTextPackage.LLERG__RG_LENGTH:
-        return rgLength != RG_LENGTH_EDEFAULT;
+        return RG_LENGTH_EDEFAULT == null ? rgLength != null : !RG_LENGTH_EDEFAULT.equals(rgLength);
       case AfpTextPackage.LLERG__RG_FUNCT:
-        return rgFunct != RG_FUNCT_EDEFAULT;
+        return RG_FUNCT_EDEFAULT == null ? rgFunct != null : !RG_FUNCT_EDEFAULT.equals(rgFunct);
       case AfpTextPackage.LLERG__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

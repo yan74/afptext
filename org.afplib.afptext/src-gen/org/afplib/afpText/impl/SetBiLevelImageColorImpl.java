@@ -37,7 +37,7 @@ public class SetBiLevelImageColorImpl extends tripletImpl implements SetBiLevelI
    * @generated
    * @ordered
    */
-  protected static final int AREA_EDEFAULT = 0;
+  protected static final Integer AREA_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getAREA() <em>AREA</em>}' attribute.
@@ -47,7 +47,7 @@ public class SetBiLevelImageColorImpl extends tripletImpl implements SetBiLevelI
    * @generated
    * @ordered
    */
-  protected int area = AREA_EDEFAULT;
+  protected Integer area = AREA_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -77,7 +77,7 @@ public class SetBiLevelImageColorImpl extends tripletImpl implements SetBiLevelI
    * @generated
    * @ordered
    */
-  protected static final int NAMECOLR_EDEFAULT = 0;
+  protected static final Integer NAMECOLR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getNAMECOLR() <em>NAMECOLR</em>}' attribute.
@@ -87,7 +87,7 @@ public class SetBiLevelImageColorImpl extends tripletImpl implements SetBiLevelI
    * @generated
    * @ordered
    */
-  protected int namecolr = NAMECOLR_EDEFAULT;
+  protected Integer namecolr = NAMECOLR_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class SetBiLevelImageColorImpl extends tripletImpl implements SetBiLevelI
    * @generated
    */
   @Override
-  public int getAREA()
+  public Integer getAREA()
   {
     return area;
   }
@@ -127,9 +127,9 @@ public class SetBiLevelImageColorImpl extends tripletImpl implements SetBiLevelI
    * @generated
    */
   @Override
-  public void setAREA(int newAREA)
+  public void setAREA(Integer newAREA)
   {
-    int oldAREA = area;
+    Integer oldAREA = area;
     area = newAREA;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SET_BI_LEVEL_IMAGE_COLOR__AREA, oldAREA, area));
@@ -166,7 +166,7 @@ public class SetBiLevelImageColorImpl extends tripletImpl implements SetBiLevelI
    * @generated
    */
   @Override
-  public int getNAMECOLR()
+  public Integer getNAMECOLR()
   {
     return namecolr;
   }
@@ -177,9 +177,9 @@ public class SetBiLevelImageColorImpl extends tripletImpl implements SetBiLevelI
    * @generated
    */
   @Override
-  public void setNAMECOLR(int newNAMECOLR)
+  public void setNAMECOLR(Integer newNAMECOLR)
   {
-    int oldNAMECOLR = namecolr;
+    Integer oldNAMECOLR = namecolr;
     namecolr = newNAMECOLR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.SET_BI_LEVEL_IMAGE_COLOR__NAMECOLR, oldNAMECOLR, namecolr));
@@ -262,11 +262,11 @@ public class SetBiLevelImageColorImpl extends tripletImpl implements SetBiLevelI
     switch (featureID)
     {
       case AfpTextPackage.SET_BI_LEVEL_IMAGE_COLOR__AREA:
-        return area != AREA_EDEFAULT;
+        return AREA_EDEFAULT == null ? area != null : !AREA_EDEFAULT.equals(area);
       case AfpTextPackage.SET_BI_LEVEL_IMAGE_COLOR__RESERVED:
         return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.SET_BI_LEVEL_IMAGE_COLOR__NAMECOLR:
-        return namecolr != NAMECOLR_EDEFAULT;
+        return NAMECOLR_EDEFAULT == null ? namecolr != null : !NAMECOLR_EDEFAULT.equals(namecolr);
     }
     return super.eIsSet(featureID);
   }

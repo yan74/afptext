@@ -36,7 +36,7 @@ public class FNNRG2Impl extends tripletImpl implements FNNRG2
    * @generated
    * @ordered
    */
-  protected static final int TSID_LEN_EDEFAULT = 0;
+  protected static final Integer TSID_LEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTSIDLen() <em>TSID Len</em>}' attribute.
@@ -46,7 +46,7 @@ public class FNNRG2Impl extends tripletImpl implements FNNRG2
    * @generated
    * @ordered
    */
-  protected int tsidLen = TSID_LEN_EDEFAULT;
+  protected Integer tsidLen = TSID_LEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getTSID() <em>TSID</em>}' attribute.
@@ -95,7 +95,7 @@ public class FNNRG2Impl extends tripletImpl implements FNNRG2
    * @generated
    */
   @Override
-  public int getTSIDLen()
+  public Integer getTSIDLen()
   {
     return tsidLen;
   }
@@ -106,9 +106,9 @@ public class FNNRG2Impl extends tripletImpl implements FNNRG2
    * @generated
    */
   @Override
-  public void setTSIDLen(int newTSIDLen)
+  public void setTSIDLen(Integer newTSIDLen)
   {
-    int oldTSIDLen = tsidLen;
+    Integer oldTSIDLen = tsidLen;
     tsidLen = newTSIDLen;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FNNRG2__TSID_LEN, oldTSIDLen, tsidLen));
@@ -208,7 +208,7 @@ public class FNNRG2Impl extends tripletImpl implements FNNRG2
     switch (featureID)
     {
       case AfpTextPackage.FNNRG2__TSID_LEN:
-        return tsidLen != TSID_LEN_EDEFAULT;
+        return TSID_LEN_EDEFAULT == null ? tsidLen != null : !TSID_LEN_EDEFAULT.equals(tsidLen);
       case AfpTextPackage.FNNRG2__TSID:
         return TSID_EDEFAULT == null ? tsid != null : !TSID_EDEFAULT.equals(tsid);
     }

@@ -28,12 +28,12 @@ public interface EncodingSchemeID extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>ESid CP</em>' attribute.
-   * @see #setESidCP(int)
+   * @see #setESidCP(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getEncodingSchemeID_ESidCP()
    * @model
    * @generated
    */
-  int getESidCP();
+  Integer getESidCP();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.EncodingSchemeID#getESidCP <em>ESid CP</em>}' attribute.
@@ -43,19 +43,19 @@ public interface EncodingSchemeID extends triplet
    * @see #getESidCP()
    * @generated
    */
-  void setESidCP(int value);
+  void setESidCP(Integer value);
 
   /**
    * Returns the value of the '<em><b>ESid UD</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>ESid UD</em>' attribute.
-   * @see #setESidUD(int)
+   * @see #setESidUD(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getEncodingSchemeID_ESidUD()
    * @model
    * @generated
    */
-  int getESidUD();
+  Integer getESidUD();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.EncodingSchemeID#getESidUD <em>ESid UD</em>}' attribute.
@@ -65,6 +65,6 @@ public interface EncodingSchemeID extends triplet
    * @see #getESidUD()
    * @generated
    */
-  void setESidUD(int value);
+  void setESidUD(Integer value);
 
 } // EncodingSchemeID

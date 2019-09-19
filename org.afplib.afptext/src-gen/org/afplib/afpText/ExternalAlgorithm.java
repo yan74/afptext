@@ -29,12 +29,12 @@ public interface ExternalAlgorithm extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>ALGTYPE</em>' attribute.
-   * @see #setALGTYPE(int)
+   * @see #setALGTYPE(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getExternalAlgorithm_ALGTYPE()
    * @model
    * @generated
    */
-  int getALGTYPE();
+  Integer getALGTYPE();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ExternalAlgorithm#getALGTYPE <em>ALGTYPE</em>}' attribute.
@@ -44,7 +44,7 @@ public interface ExternalAlgorithm extends triplet
    * @see #getALGTYPE()
    * @generated
    */
-  void setALGTYPE(int value);
+  void setALGTYPE(Integer value);
 
   /**
    * Returns the value of the '<em><b>Rg</b></em>' containment reference list.

@@ -36,7 +36,7 @@ public class GSCHImpl extends tripletImpl implements GSCH
    * @generated
    * @ordered
    */
-  protected static final int HX_EDEFAULT = 0;
+  protected static final Integer HX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHX() <em>HX</em>}' attribute.
@@ -46,7 +46,7 @@ public class GSCHImpl extends tripletImpl implements GSCH
    * @generated
    * @ordered
    */
-  protected int hx = HX_EDEFAULT;
+  protected Integer hx = HX_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHY() <em>HY</em>}' attribute.
@@ -56,7 +56,7 @@ public class GSCHImpl extends tripletImpl implements GSCH
    * @generated
    * @ordered
    */
-  protected static final int HY_EDEFAULT = 0;
+  protected static final Integer HY_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHY() <em>HY</em>}' attribute.
@@ -66,7 +66,7 @@ public class GSCHImpl extends tripletImpl implements GSCH
    * @generated
    * @ordered
    */
-  protected int hy = HY_EDEFAULT;
+  protected Integer hy = HY_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class GSCHImpl extends tripletImpl implements GSCH
    * @generated
    */
   @Override
-  public int getHX()
+  public Integer getHX()
   {
     return hx;
   }
@@ -106,9 +106,9 @@ public class GSCHImpl extends tripletImpl implements GSCH
    * @generated
    */
   @Override
-  public void setHX(int newHX)
+  public void setHX(Integer newHX)
   {
-    int oldHX = hx;
+    Integer oldHX = hx;
     hx = newHX;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSCH__HX, oldHX, hx));
@@ -120,7 +120,7 @@ public class GSCHImpl extends tripletImpl implements GSCH
    * @generated
    */
   @Override
-  public int getHY()
+  public Integer getHY()
   {
     return hy;
   }
@@ -131,9 +131,9 @@ public class GSCHImpl extends tripletImpl implements GSCH
    * @generated
    */
   @Override
-  public void setHY(int newHY)
+  public void setHY(Integer newHY)
   {
-    int oldHY = hy;
+    Integer oldHY = hy;
     hy = newHY;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSCH__HY, oldHY, hy));
@@ -208,9 +208,9 @@ public class GSCHImpl extends tripletImpl implements GSCH
     switch (featureID)
     {
       case AfpTextPackage.GSCH__HX:
-        return hx != HX_EDEFAULT;
+        return HX_EDEFAULT == null ? hx != null : !HX_EDEFAULT.equals(hx);
       case AfpTextPackage.GSCH__HY:
-        return hy != HY_EDEFAULT;
+        return HY_EDEFAULT == null ? hy != null : !HY_EDEFAULT.equals(hy);
     }
     return super.eIsSet(featureID);
   }

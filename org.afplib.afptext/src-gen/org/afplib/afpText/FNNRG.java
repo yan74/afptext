@@ -51,12 +51,12 @@ public interface FNNRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>TS Offset</em>' attribute.
-   * @see #setTSOffset(int)
+   * @see #setTSOffset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFNNRG_TSOffset()
    * @model
    * @generated
    */
-  int getTSOffset();
+  Integer getTSOffset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FNNRG#getTSOffset <em>TS Offset</em>}' attribute.
@@ -66,6 +66,6 @@ public interface FNNRG extends EObject
    * @see #getTSOffset()
    * @generated
    */
-  void setTSOffset(int value);
+  void setTSOffset(Integer value);
 
 } // FNNRG

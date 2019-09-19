@@ -41,7 +41,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected static final int UNIT_BASE_EDEFAULT = 0;
+  protected static final Integer UNIT_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getUnitBase() <em>Unit Base</em>}' attribute.
@@ -51,7 +51,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected int unitBase = UNIT_BASE_EDEFAULT;
+  protected Integer unitBase = UNIT_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXUPUB() <em>XUPUB</em>}' attribute.
@@ -61,7 +61,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected static final int XUPUB_EDEFAULT = 0;
+  protected static final Integer XUPUB_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXUPUB() <em>XUPUB</em>}' attribute.
@@ -71,7 +71,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected int xupub = XUPUB_EDEFAULT;
+  protected Integer xupub = XUPUB_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYUPUB() <em>YUPUB</em>}' attribute.
@@ -81,7 +81,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected static final int YUPUB_EDEFAULT = 0;
+  protected static final Integer YUPUB_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYUPUB() <em>YUPUB</em>}' attribute.
@@ -91,7 +91,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected int yupub = YUPUB_EDEFAULT;
+  protected Integer yupub = YUPUB_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHUniformIncrement() <em>HUniform Increment</em>}' attribute.
@@ -101,7 +101,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected static final int HUNIFORM_INCREMENT_EDEFAULT = 0;
+  protected static final Integer HUNIFORM_INCREMENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHUniformIncrement() <em>HUniform Increment</em>}' attribute.
@@ -111,7 +111,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected int hUniformIncrement = HUNIFORM_INCREMENT_EDEFAULT;
+  protected Integer hUniformIncrement = HUNIFORM_INCREMENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVUniformIncrement() <em>VUniform Increment</em>}' attribute.
@@ -121,7 +121,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected static final int VUNIFORM_INCREMENT_EDEFAULT = 0;
+  protected static final Integer VUNIFORM_INCREMENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVUniformIncrement() <em>VUniform Increment</em>}' attribute.
@@ -131,7 +131,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected int vUniformIncrement = VUNIFORM_INCREMENT_EDEFAULT;
+  protected Integer vUniformIncrement = VUNIFORM_INCREMENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getHBaselineIncrement() <em>HBaseline Increment</em>}' attribute.
@@ -141,7 +141,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected static final int HBASELINE_INCREMENT_EDEFAULT = 0;
+  protected static final Integer HBASELINE_INCREMENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getHBaselineIncrement() <em>HBaseline Increment</em>}' attribute.
@@ -151,7 +151,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected int hBaselineIncrement = HBASELINE_INCREMENT_EDEFAULT;
+  protected Integer hBaselineIncrement = HBASELINE_INCREMENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVBaselineIncrement() <em>VBaseline Increment</em>}' attribute.
@@ -161,7 +161,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected static final int VBASELINE_INCREMENT_EDEFAULT = 0;
+  protected static final Integer VBASELINE_INCREMENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getVBaselineIncrement() <em>VBaseline Increment</em>}' attribute.
@@ -171,7 +171,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    * @ordered
    */
-  protected int vBaselineIncrement = VBASELINE_INCREMENT_EDEFAULT;
+  protected Integer vBaselineIncrement = VBASELINE_INCREMENT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -200,7 +200,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public int getUnitBase()
+  public Integer getUnitBase()
   {
     return unitBase;
   }
@@ -211,9 +211,9 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public void setUnitBase(int newUnitBase)
+  public void setUnitBase(Integer newUnitBase)
   {
-    int oldUnitBase = unitBase;
+    Integer oldUnitBase = unitBase;
     unitBase = newUnitBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.METRIC_ADJUSTMENT__UNIT_BASE, oldUnitBase, unitBase));
@@ -225,7 +225,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public int getXUPUB()
+  public Integer getXUPUB()
   {
     return xupub;
   }
@@ -236,9 +236,9 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public void setXUPUB(int newXUPUB)
+  public void setXUPUB(Integer newXUPUB)
   {
-    int oldXUPUB = xupub;
+    Integer oldXUPUB = xupub;
     xupub = newXUPUB;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.METRIC_ADJUSTMENT__XUPUB, oldXUPUB, xupub));
@@ -250,7 +250,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public int getYUPUB()
+  public Integer getYUPUB()
   {
     return yupub;
   }
@@ -261,9 +261,9 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public void setYUPUB(int newYUPUB)
+  public void setYUPUB(Integer newYUPUB)
   {
-    int oldYUPUB = yupub;
+    Integer oldYUPUB = yupub;
     yupub = newYUPUB;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.METRIC_ADJUSTMENT__YUPUB, oldYUPUB, yupub));
@@ -275,7 +275,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public int getHUniformIncrement()
+  public Integer getHUniformIncrement()
   {
     return hUniformIncrement;
   }
@@ -286,9 +286,9 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public void setHUniformIncrement(int newHUniformIncrement)
+  public void setHUniformIncrement(Integer newHUniformIncrement)
   {
-    int oldHUniformIncrement = hUniformIncrement;
+    Integer oldHUniformIncrement = hUniformIncrement;
     hUniformIncrement = newHUniformIncrement;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.METRIC_ADJUSTMENT__HUNIFORM_INCREMENT, oldHUniformIncrement, hUniformIncrement));
@@ -300,7 +300,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public int getVUniformIncrement()
+  public Integer getVUniformIncrement()
   {
     return vUniformIncrement;
   }
@@ -311,9 +311,9 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public void setVUniformIncrement(int newVUniformIncrement)
+  public void setVUniformIncrement(Integer newVUniformIncrement)
   {
-    int oldVUniformIncrement = vUniformIncrement;
+    Integer oldVUniformIncrement = vUniformIncrement;
     vUniformIncrement = newVUniformIncrement;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.METRIC_ADJUSTMENT__VUNIFORM_INCREMENT, oldVUniformIncrement, vUniformIncrement));
@@ -325,7 +325,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public int getHBaselineIncrement()
+  public Integer getHBaselineIncrement()
   {
     return hBaselineIncrement;
   }
@@ -336,9 +336,9 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public void setHBaselineIncrement(int newHBaselineIncrement)
+  public void setHBaselineIncrement(Integer newHBaselineIncrement)
   {
-    int oldHBaselineIncrement = hBaselineIncrement;
+    Integer oldHBaselineIncrement = hBaselineIncrement;
     hBaselineIncrement = newHBaselineIncrement;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.METRIC_ADJUSTMENT__HBASELINE_INCREMENT, oldHBaselineIncrement, hBaselineIncrement));
@@ -350,7 +350,7 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public int getVBaselineIncrement()
+  public Integer getVBaselineIncrement()
   {
     return vBaselineIncrement;
   }
@@ -361,9 +361,9 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
    * @generated
    */
   @Override
-  public void setVBaselineIncrement(int newVBaselineIncrement)
+  public void setVBaselineIncrement(Integer newVBaselineIncrement)
   {
-    int oldVBaselineIncrement = vBaselineIncrement;
+    Integer oldVBaselineIncrement = vBaselineIncrement;
     vBaselineIncrement = newVBaselineIncrement;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.METRIC_ADJUSTMENT__VBASELINE_INCREMENT, oldVBaselineIncrement, vBaselineIncrement));
@@ -478,19 +478,19 @@ public class MetricAdjustmentImpl extends tripletImpl implements MetricAdjustmen
     switch (featureID)
     {
       case AfpTextPackage.METRIC_ADJUSTMENT__UNIT_BASE:
-        return unitBase != UNIT_BASE_EDEFAULT;
+        return UNIT_BASE_EDEFAULT == null ? unitBase != null : !UNIT_BASE_EDEFAULT.equals(unitBase);
       case AfpTextPackage.METRIC_ADJUSTMENT__XUPUB:
-        return xupub != XUPUB_EDEFAULT;
+        return XUPUB_EDEFAULT == null ? xupub != null : !XUPUB_EDEFAULT.equals(xupub);
       case AfpTextPackage.METRIC_ADJUSTMENT__YUPUB:
-        return yupub != YUPUB_EDEFAULT;
+        return YUPUB_EDEFAULT == null ? yupub != null : !YUPUB_EDEFAULT.equals(yupub);
       case AfpTextPackage.METRIC_ADJUSTMENT__HUNIFORM_INCREMENT:
-        return hUniformIncrement != HUNIFORM_INCREMENT_EDEFAULT;
+        return HUNIFORM_INCREMENT_EDEFAULT == null ? hUniformIncrement != null : !HUNIFORM_INCREMENT_EDEFAULT.equals(hUniformIncrement);
       case AfpTextPackage.METRIC_ADJUSTMENT__VUNIFORM_INCREMENT:
-        return vUniformIncrement != VUNIFORM_INCREMENT_EDEFAULT;
+        return VUNIFORM_INCREMENT_EDEFAULT == null ? vUniformIncrement != null : !VUNIFORM_INCREMENT_EDEFAULT.equals(vUniformIncrement);
       case AfpTextPackage.METRIC_ADJUSTMENT__HBASELINE_INCREMENT:
-        return hBaselineIncrement != HBASELINE_INCREMENT_EDEFAULT;
+        return HBASELINE_INCREMENT_EDEFAULT == null ? hBaselineIncrement != null : !HBASELINE_INCREMENT_EDEFAULT.equals(hBaselineIncrement);
       case AfpTextPackage.METRIC_ADJUSTMENT__VBASELINE_INCREMENT:
-        return vBaselineIncrement != VBASELINE_INCREMENT_EDEFAULT;
+        return VBASELINE_INCREMENT_EDEFAULT == null ? vBaselineIncrement != null : !VBASELINE_INCREMENT_EDEFAULT.equals(vBaselineIncrement);
     }
     return super.eIsSet(featureID);
   }

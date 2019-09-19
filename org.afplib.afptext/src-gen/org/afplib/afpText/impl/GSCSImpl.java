@@ -35,7 +35,7 @@ public class GSCSImpl extends tripletImpl implements GSCS
    * @generated
    * @ordered
    */
-  protected static final int LCID_EDEFAULT = 0;
+  protected static final Integer LCID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLCID() <em>LCID</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSCSImpl extends tripletImpl implements GSCS
    * @generated
    * @ordered
    */
-  protected int lcid = LCID_EDEFAULT;
+  protected Integer lcid = LCID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSCSImpl extends tripletImpl implements GSCS
    * @generated
    */
   @Override
-  public int getLCID()
+  public Integer getLCID()
   {
     return lcid;
   }
@@ -85,9 +85,9 @@ public class GSCSImpl extends tripletImpl implements GSCS
    * @generated
    */
   @Override
-  public void setLCID(int newLCID)
+  public void setLCID(Integer newLCID)
   {
-    int oldLCID = lcid;
+    Integer oldLCID = lcid;
     lcid = newLCID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSCS__LCID, oldLCID, lcid));
@@ -154,7 +154,7 @@ public class GSCSImpl extends tripletImpl implements GSCS
     switch (featureID)
     {
       case AfpTextPackage.GSCS__LCID:
-        return lcid != LCID_EDEFAULT;
+        return LCID_EDEFAULT == null ? lcid != null : !LCID_EDEFAULT.equals(lcid);
     }
     return super.eIsSet(featureID);
   }

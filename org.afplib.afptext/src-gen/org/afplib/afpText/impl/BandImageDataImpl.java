@@ -37,7 +37,7 @@ public class BandImageDataImpl extends tripletImpl implements BandImageData
    * @generated
    * @ordered
    */
-  protected static final int BANDNUM_EDEFAULT = 0;
+  protected static final Integer BANDNUM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBANDNUM() <em>BANDNUM</em>}' attribute.
@@ -47,7 +47,7 @@ public class BandImageDataImpl extends tripletImpl implements BandImageData
    * @generated
    * @ordered
    */
-  protected int bandnum = BANDNUM_EDEFAULT;
+  protected Integer bandnum = BANDNUM_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRESERVED() <em>RESERVED</em>}' attribute.
@@ -57,7 +57,7 @@ public class BandImageDataImpl extends tripletImpl implements BandImageData
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRESERVED() <em>RESERVED</em>}' attribute.
@@ -67,7 +67,7 @@ public class BandImageDataImpl extends tripletImpl implements BandImageData
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The default value of the '{@link #getDATA() <em>DATA</em>}' attribute.
@@ -116,7 +116,7 @@ public class BandImageDataImpl extends tripletImpl implements BandImageData
    * @generated
    */
   @Override
-  public int getBANDNUM()
+  public Integer getBANDNUM()
   {
     return bandnum;
   }
@@ -127,9 +127,9 @@ public class BandImageDataImpl extends tripletImpl implements BandImageData
    * @generated
    */
   @Override
-  public void setBANDNUM(int newBANDNUM)
+  public void setBANDNUM(Integer newBANDNUM)
   {
-    int oldBANDNUM = bandnum;
+    Integer oldBANDNUM = bandnum;
     bandnum = newBANDNUM;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BAND_IMAGE_DATA__BANDNUM, oldBANDNUM, bandnum));
@@ -141,7 +141,7 @@ public class BandImageDataImpl extends tripletImpl implements BandImageData
    * @generated
    */
   @Override
-  public int getRESERVED()
+  public Integer getRESERVED()
   {
     return reserved;
   }
@@ -152,9 +152,9 @@ public class BandImageDataImpl extends tripletImpl implements BandImageData
    * @generated
    */
   @Override
-  public void setRESERVED(int newRESERVED)
+  public void setRESERVED(Integer newRESERVED)
   {
-    int oldRESERVED = reserved;
+    Integer oldRESERVED = reserved;
     reserved = newRESERVED;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BAND_IMAGE_DATA__RESERVED, oldRESERVED, reserved));
@@ -262,9 +262,9 @@ public class BandImageDataImpl extends tripletImpl implements BandImageData
     switch (featureID)
     {
       case AfpTextPackage.BAND_IMAGE_DATA__BANDNUM:
-        return bandnum != BANDNUM_EDEFAULT;
+        return BANDNUM_EDEFAULT == null ? bandnum != null : !BANDNUM_EDEFAULT.equals(bandnum);
       case AfpTextPackage.BAND_IMAGE_DATA__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.BAND_IMAGE_DATA__DATA:
         return DATA_EDEFAULT == null ? data != null : !DATA_EDEFAULT.equals(data);
     }

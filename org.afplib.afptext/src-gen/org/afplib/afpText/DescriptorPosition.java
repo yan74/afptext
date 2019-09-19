@@ -27,12 +27,12 @@ public interface DescriptorPosition extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Des Pos ID</em>' attribute.
-   * @see #setDesPosID(int)
+   * @see #setDesPosID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getDescriptorPosition_DesPosID()
    * @model
    * @generated
    */
-  int getDesPosID();
+  Integer getDesPosID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.DescriptorPosition#getDesPosID <em>Des Pos ID</em>}' attribute.
@@ -42,6 +42,6 @@ public interface DescriptorPosition extends triplet
    * @see #getDesPosID()
    * @generated
    */
-  void setDesPosID(int value);
+  void setDesPosID(Integer value);
 
 } // DescriptorPosition

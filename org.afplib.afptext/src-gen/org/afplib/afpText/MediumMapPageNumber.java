@@ -27,12 +27,12 @@ public interface MediumMapPageNumber extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Page Num</em>' attribute.
-   * @see #setPageNum(int)
+   * @see #setPageNum(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMediumMapPageNumber_PageNum()
    * @model
    * @generated
    */
-  int getPageNum();
+  Integer getPageNum();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MediumMapPageNumber#getPageNum <em>Page Num</em>}' attribute.
@@ -42,6 +42,6 @@ public interface MediumMapPageNumber extends triplet
    * @see #getPageNum()
    * @generated
    */
-  void setPageNum(int value);
+  void setPageNum(Integer value);
 
 } // MediumMapPageNumber

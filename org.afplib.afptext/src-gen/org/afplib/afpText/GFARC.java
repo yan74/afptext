@@ -30,12 +30,12 @@ public interface GFARC extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XPOS</em>' attribute.
-   * @see #setXPOS(int)
+   * @see #setXPOS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGFARC_XPOS()
    * @model
    * @generated
    */
-  int getXPOS();
+  Integer getXPOS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GFARC#getXPOS <em>XPOS</em>}' attribute.
@@ -45,19 +45,19 @@ public interface GFARC extends triplet
    * @see #getXPOS()
    * @generated
    */
-  void setXPOS(int value);
+  void setXPOS(Integer value);
 
   /**
    * Returns the value of the '<em><b>YPOS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YPOS</em>' attribute.
-   * @see #setYPOS(int)
+   * @see #setYPOS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGFARC_YPOS()
    * @model
    * @generated
    */
-  int getYPOS();
+  Integer getYPOS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GFARC#getYPOS <em>YPOS</em>}' attribute.
@@ -67,19 +67,19 @@ public interface GFARC extends triplet
    * @see #getYPOS()
    * @generated
    */
-  void setYPOS(int value);
+  void setYPOS(Integer value);
 
   /**
    * Returns the value of the '<em><b>MH</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MH</em>' attribute.
-   * @see #setMH(int)
+   * @see #setMH(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGFARC_MH()
    * @model
    * @generated
    */
-  int getMH();
+  Integer getMH();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GFARC#getMH <em>MH</em>}' attribute.
@@ -89,19 +89,19 @@ public interface GFARC extends triplet
    * @see #getMH()
    * @generated
    */
-  void setMH(int value);
+  void setMH(Integer value);
 
   /**
    * Returns the value of the '<em><b>MFR</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MFR</em>' attribute.
-   * @see #setMFR(int)
+   * @see #setMFR(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGFARC_MFR()
    * @model
    * @generated
    */
-  int getMFR();
+  Integer getMFR();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GFARC#getMFR <em>MFR</em>}' attribute.
@@ -111,6 +111,6 @@ public interface GFARC extends triplet
    * @see #getMFR()
    * @generated
    */
-  void setMFR(int value);
+  void setMFR(Integer value);
 
 } // GFARC

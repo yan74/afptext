@@ -40,7 +40,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected static final int FT_WT_CLASS_EDEFAULT = 0;
+  protected static final Integer FT_WT_CLASS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFtWtClass() <em>Ft Wt Class</em>}' attribute.
@@ -50,7 +50,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected int ftWtClass = FT_WT_CLASS_EDEFAULT;
+  protected Integer ftWtClass = FT_WT_CLASS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFtWdClass() <em>Ft Wd Class</em>}' attribute.
@@ -60,7 +60,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected static final int FT_WD_CLASS_EDEFAULT = 0;
+  protected static final Integer FT_WD_CLASS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFtWdClass() <em>Ft Wd Class</em>}' attribute.
@@ -70,7 +70,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected int ftWdClass = FT_WD_CLASS_EDEFAULT;
+  protected Integer ftWdClass = FT_WD_CLASS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFtHeight() <em>Ft Height</em>}' attribute.
@@ -80,7 +80,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected static final int FT_HEIGHT_EDEFAULT = 0;
+  protected static final Integer FT_HEIGHT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFtHeight() <em>Ft Height</em>}' attribute.
@@ -90,7 +90,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected int ftHeight = FT_HEIGHT_EDEFAULT;
+  protected Integer ftHeight = FT_HEIGHT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFtWidth() <em>Ft Width</em>}' attribute.
@@ -100,7 +100,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected static final int FT_WIDTH_EDEFAULT = 0;
+  protected static final Integer FT_WIDTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFtWidth() <em>Ft Width</em>}' attribute.
@@ -110,7 +110,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected int ftWidth = FT_WIDTH_EDEFAULT;
+  protected Integer ftWidth = FT_WIDTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFtDsFlags() <em>Ft Ds Flags</em>}' attribute.
@@ -120,7 +120,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected static final int FT_DS_FLAGS_EDEFAULT = 0;
+  protected static final Integer FT_DS_FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFtDsFlags() <em>Ft Ds Flags</em>}' attribute.
@@ -130,7 +130,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected int ftDsFlags = FT_DS_FLAGS_EDEFAULT;
+  protected Integer ftDsFlags = FT_DS_FLAGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFtUsFlags() <em>Ft Us Flags</em>}' attribute.
@@ -140,7 +140,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected static final int FT_US_FLAGS_EDEFAULT = 0;
+  protected static final Integer FT_US_FLAGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFtUsFlags() <em>Ft Us Flags</em>}' attribute.
@@ -150,7 +150,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    * @ordered
    */
-  protected int ftUsFlags = FT_US_FLAGS_EDEFAULT;
+  protected Integer ftUsFlags = FT_US_FLAGS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -179,7 +179,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public int getFtWtClass()
+  public Integer getFtWtClass()
   {
     return ftWtClass;
   }
@@ -190,9 +190,9 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public void setFtWtClass(int newFtWtClass)
+  public void setFtWtClass(Integer newFtWtClass)
   {
-    int oldFtWtClass = ftWtClass;
+    Integer oldFtWtClass = ftWtClass;
     ftWtClass = newFtWtClass;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_WT_CLASS, oldFtWtClass, ftWtClass));
@@ -204,7 +204,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public int getFtWdClass()
+  public Integer getFtWdClass()
   {
     return ftWdClass;
   }
@@ -215,9 +215,9 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public void setFtWdClass(int newFtWdClass)
+  public void setFtWdClass(Integer newFtWdClass)
   {
-    int oldFtWdClass = ftWdClass;
+    Integer oldFtWdClass = ftWdClass;
     ftWdClass = newFtWdClass;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_WD_CLASS, oldFtWdClass, ftWdClass));
@@ -229,7 +229,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public int getFtHeight()
+  public Integer getFtHeight()
   {
     return ftHeight;
   }
@@ -240,9 +240,9 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public void setFtHeight(int newFtHeight)
+  public void setFtHeight(Integer newFtHeight)
   {
-    int oldFtHeight = ftHeight;
+    Integer oldFtHeight = ftHeight;
     ftHeight = newFtHeight;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_HEIGHT, oldFtHeight, ftHeight));
@@ -254,7 +254,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public int getFtWidth()
+  public Integer getFtWidth()
   {
     return ftWidth;
   }
@@ -265,9 +265,9 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public void setFtWidth(int newFtWidth)
+  public void setFtWidth(Integer newFtWidth)
   {
-    int oldFtWidth = ftWidth;
+    Integer oldFtWidth = ftWidth;
     ftWidth = newFtWidth;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_WIDTH, oldFtWidth, ftWidth));
@@ -279,7 +279,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public int getFtDsFlags()
+  public Integer getFtDsFlags()
   {
     return ftDsFlags;
   }
@@ -290,9 +290,9 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public void setFtDsFlags(int newFtDsFlags)
+  public void setFtDsFlags(Integer newFtDsFlags)
   {
-    int oldFtDsFlags = ftDsFlags;
+    Integer oldFtDsFlags = ftDsFlags;
     ftDsFlags = newFtDsFlags;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_DS_FLAGS, oldFtDsFlags, ftDsFlags));
@@ -304,7 +304,7 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public int getFtUsFlags()
+  public Integer getFtUsFlags()
   {
     return ftUsFlags;
   }
@@ -315,9 +315,9 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
    * @generated
    */
   @Override
-  public void setFtUsFlags(int newFtUsFlags)
+  public void setFtUsFlags(Integer newFtUsFlags)
   {
-    int oldFtUsFlags = ftUsFlags;
+    Integer oldFtUsFlags = ftUsFlags;
     ftUsFlags = newFtUsFlags;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_US_FLAGS, oldFtUsFlags, ftUsFlags));
@@ -424,17 +424,17 @@ public class FontDescriptorSpecificationImpl extends tripletImpl implements Font
     switch (featureID)
     {
       case AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_WT_CLASS:
-        return ftWtClass != FT_WT_CLASS_EDEFAULT;
+        return FT_WT_CLASS_EDEFAULT == null ? ftWtClass != null : !FT_WT_CLASS_EDEFAULT.equals(ftWtClass);
       case AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_WD_CLASS:
-        return ftWdClass != FT_WD_CLASS_EDEFAULT;
+        return FT_WD_CLASS_EDEFAULT == null ? ftWdClass != null : !FT_WD_CLASS_EDEFAULT.equals(ftWdClass);
       case AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_HEIGHT:
-        return ftHeight != FT_HEIGHT_EDEFAULT;
+        return FT_HEIGHT_EDEFAULT == null ? ftHeight != null : !FT_HEIGHT_EDEFAULT.equals(ftHeight);
       case AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_WIDTH:
-        return ftWidth != FT_WIDTH_EDEFAULT;
+        return FT_WIDTH_EDEFAULT == null ? ftWidth != null : !FT_WIDTH_EDEFAULT.equals(ftWidth);
       case AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_DS_FLAGS:
-        return ftDsFlags != FT_DS_FLAGS_EDEFAULT;
+        return FT_DS_FLAGS_EDEFAULT == null ? ftDsFlags != null : !FT_DS_FLAGS_EDEFAULT.equals(ftDsFlags);
       case AfpTextPackage.FONT_DESCRIPTOR_SPECIFICATION__FT_US_FLAGS:
-        return ftUsFlags != FT_US_FLAGS_EDEFAULT;
+        return FT_US_FLAGS_EDEFAULT == null ? ftUsFlags != null : !FT_US_FLAGS_EDEFAULT.equals(ftUsFlags);
     }
     return super.eIsSet(featureID);
   }

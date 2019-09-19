@@ -42,7 +42,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected static final int RG_LENGTH_EDEFAULT = 0;
+  protected static final Integer RG_LENGTH_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRGLength() <em>RG Length</em>}' attribute.
@@ -52,7 +52,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected int rgLength = RG_LENGTH_EDEFAULT;
+  protected Integer rgLength = RG_LENGTH_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXmOset() <em>Xm Oset</em>}' attribute.
@@ -62,7 +62,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected static final int XM_OSET_EDEFAULT = 0;
+  protected static final Integer XM_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXmOset() <em>Xm Oset</em>}' attribute.
@@ -72,7 +72,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected int xmOset = XM_OSET_EDEFAULT;
+  protected Integer xmOset = XM_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYmOset() <em>Ym Oset</em>}' attribute.
@@ -82,7 +82,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected static final int YM_OSET_EDEFAULT = 0;
+  protected static final Integer YM_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYmOset() <em>Ym Oset</em>}' attribute.
@@ -92,7 +92,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected int ymOset = YM_OSET_EDEFAULT;
+  protected Integer ymOset = YM_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPGorient() <em>PGorient</em>}' attribute.
@@ -102,7 +102,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected static final int PGORIENT_EDEFAULT = 0;
+  protected static final Integer PGORIENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPGorient() <em>PGorient</em>}' attribute.
@@ -112,7 +112,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected int pGorient = PGORIENT_EDEFAULT;
+  protected Integer pGorient = PGORIENT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSHside() <em>SHside</em>}' attribute.
@@ -122,7 +122,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected static final int SHSIDE_EDEFAULT = 0;
+  protected static final Integer SHSIDE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSHside() <em>SHside</em>}' attribute.
@@ -132,7 +132,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected int sHside = SHSIDE_EDEFAULT;
+  protected Integer sHside = SHSIDE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPgFlgs() <em>Pg Flgs</em>}' attribute.
@@ -142,7 +142,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected static final int PG_FLGS_EDEFAULT = 0;
+  protected static final Integer PG_FLGS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPgFlgs() <em>Pg Flgs</em>}' attribute.
@@ -152,7 +152,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected int pgFlgs = PG_FLGS_EDEFAULT;
+  protected Integer pgFlgs = PG_FLGS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPMCid() <em>PM Cid</em>}' attribute.
@@ -162,7 +162,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected static final int PM_CID_EDEFAULT = 0;
+  protected static final Integer PM_CID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPMCid() <em>PM Cid</em>}' attribute.
@@ -172,7 +172,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    * @ordered
    */
-  protected int pmCid = PM_CID_EDEFAULT;
+  protected Integer pmCid = PM_CID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -201,7 +201,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public int getRGLength()
+  public Integer getRGLength()
   {
     return rgLength;
   }
@@ -212,9 +212,9 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public void setRGLength(int newRGLength)
+  public void setRGLength(Integer newRGLength)
   {
-    int oldRGLength = rgLength;
+    Integer oldRGLength = rgLength;
     rgLength = newRGLength;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGPRG__RG_LENGTH, oldRGLength, rgLength));
@@ -226,7 +226,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public int getXmOset()
+  public Integer getXmOset()
   {
     return xmOset;
   }
@@ -237,9 +237,9 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public void setXmOset(int newXmOset)
+  public void setXmOset(Integer newXmOset)
   {
-    int oldXmOset = xmOset;
+    Integer oldXmOset = xmOset;
     xmOset = newXmOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGPRG__XM_OSET, oldXmOset, xmOset));
@@ -251,7 +251,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public int getYmOset()
+  public Integer getYmOset()
   {
     return ymOset;
   }
@@ -262,9 +262,9 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public void setYmOset(int newYmOset)
+  public void setYmOset(Integer newYmOset)
   {
-    int oldYmOset = ymOset;
+    Integer oldYmOset = ymOset;
     ymOset = newYmOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGPRG__YM_OSET, oldYmOset, ymOset));
@@ -276,7 +276,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public int getPGorient()
+  public Integer getPGorient()
   {
     return pGorient;
   }
@@ -287,9 +287,9 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public void setPGorient(int newPGorient)
+  public void setPGorient(Integer newPGorient)
   {
-    int oldPGorient = pGorient;
+    Integer oldPGorient = pGorient;
     pGorient = newPGorient;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGPRG__PGORIENT, oldPGorient, pGorient));
@@ -301,7 +301,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public int getSHside()
+  public Integer getSHside()
   {
     return sHside;
   }
@@ -312,9 +312,9 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public void setSHside(int newSHside)
+  public void setSHside(Integer newSHside)
   {
-    int oldSHside = sHside;
+    Integer oldSHside = sHside;
     sHside = newSHside;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGPRG__SHSIDE, oldSHside, sHside));
@@ -326,7 +326,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public int getPgFlgs()
+  public Integer getPgFlgs()
   {
     return pgFlgs;
   }
@@ -337,9 +337,9 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public void setPgFlgs(int newPgFlgs)
+  public void setPgFlgs(Integer newPgFlgs)
   {
-    int oldPgFlgs = pgFlgs;
+    Integer oldPgFlgs = pgFlgs;
     pgFlgs = newPgFlgs;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGPRG__PG_FLGS, oldPgFlgs, pgFlgs));
@@ -351,7 +351,7 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public int getPMCid()
+  public Integer getPMCid()
   {
     return pmCid;
   }
@@ -362,9 +362,9 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
    * @generated
    */
   @Override
-  public void setPMCid(int newPMCid)
+  public void setPMCid(Integer newPMCid)
   {
-    int oldPMCid = pmCid;
+    Integer oldPMCid = pmCid;
     pmCid = newPMCid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGPRG__PM_CID, oldPMCid, pmCid));
@@ -479,19 +479,19 @@ public class PGPRGImpl extends MinimalEObjectImpl.Container implements PGPRG
     switch (featureID)
     {
       case AfpTextPackage.PGPRG__RG_LENGTH:
-        return rgLength != RG_LENGTH_EDEFAULT;
+        return RG_LENGTH_EDEFAULT == null ? rgLength != null : !RG_LENGTH_EDEFAULT.equals(rgLength);
       case AfpTextPackage.PGPRG__XM_OSET:
-        return xmOset != XM_OSET_EDEFAULT;
+        return XM_OSET_EDEFAULT == null ? xmOset != null : !XM_OSET_EDEFAULT.equals(xmOset);
       case AfpTextPackage.PGPRG__YM_OSET:
-        return ymOset != YM_OSET_EDEFAULT;
+        return YM_OSET_EDEFAULT == null ? ymOset != null : !YM_OSET_EDEFAULT.equals(ymOset);
       case AfpTextPackage.PGPRG__PGORIENT:
-        return pGorient != PGORIENT_EDEFAULT;
+        return PGORIENT_EDEFAULT == null ? pGorient != null : !PGORIENT_EDEFAULT.equals(pGorient);
       case AfpTextPackage.PGPRG__SHSIDE:
-        return sHside != SHSIDE_EDEFAULT;
+        return SHSIDE_EDEFAULT == null ? sHside != null : !SHSIDE_EDEFAULT.equals(sHside);
       case AfpTextPackage.PGPRG__PG_FLGS:
-        return pgFlgs != PG_FLGS_EDEFAULT;
+        return PG_FLGS_EDEFAULT == null ? pgFlgs != null : !PG_FLGS_EDEFAULT.equals(pgFlgs);
       case AfpTextPackage.PGPRG__PM_CID:
-        return pmCid != PM_CID_EDEFAULT;
+        return PM_CID_EDEFAULT == null ? pmCid != null : !PM_CID_EDEFAULT.equals(pmCid);
     }
     return super.eIsSet(featureID);
   }

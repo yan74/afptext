@@ -30,12 +30,12 @@ public interface ImageResolution extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XBase</em>' attribute.
-   * @see #setXBase(int)
+   * @see #setXBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageResolution_XBase()
    * @model
    * @generated
    */
-  int getXBase();
+  Integer getXBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageResolution#getXBase <em>XBase</em>}' attribute.
@@ -45,19 +45,19 @@ public interface ImageResolution extends triplet
    * @see #getXBase()
    * @generated
    */
-  void setXBase(int value);
+  void setXBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>YBase</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YBase</em>' attribute.
-   * @see #setYBase(int)
+   * @see #setYBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageResolution_YBase()
    * @model
    * @generated
    */
-  int getYBase();
+  Integer getYBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageResolution#getYBase <em>YBase</em>}' attribute.
@@ -67,19 +67,19 @@ public interface ImageResolution extends triplet
    * @see #getYBase()
    * @generated
    */
-  void setYBase(int value);
+  void setYBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>XResol</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XResol</em>' attribute.
-   * @see #setXResol(int)
+   * @see #setXResol(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageResolution_XResol()
    * @model
    * @generated
    */
-  int getXResol();
+  Integer getXResol();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageResolution#getXResol <em>XResol</em>}' attribute.
@@ -89,19 +89,19 @@ public interface ImageResolution extends triplet
    * @see #getXResol()
    * @generated
    */
-  void setXResol(int value);
+  void setXResol(Integer value);
 
   /**
    * Returns the value of the '<em><b>YResol</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YResol</em>' attribute.
-   * @see #setYResol(int)
+   * @see #setYResol(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageResolution_YResol()
    * @model
    * @generated
    */
-  int getYResol();
+  Integer getYResol();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageResolution#getYResol <em>YResol</em>}' attribute.
@@ -111,6 +111,6 @@ public interface ImageResolution extends triplet
    * @see #getYResol()
    * @generated
    */
-  void setYResol(int value);
+  void setYResol(Integer value);
 
 } // ImageResolution

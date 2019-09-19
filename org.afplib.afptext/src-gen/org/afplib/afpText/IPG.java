@@ -52,12 +52,12 @@ public interface IPG extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>IPg Flgs</em>' attribute.
-   * @see #setIPgFlgs(int)
+   * @see #setIPgFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIPG_IPgFlgs()
    * @model
    * @generated
    */
-  int getIPgFlgs();
+  Integer getIPgFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IPG#getIPgFlgs <em>IPg Flgs</em>}' attribute.
@@ -67,7 +67,7 @@ public interface IPG extends structuredField
    * @see #getIPgFlgs()
    * @generated
    */
-  void setIPgFlgs(int value);
+  void setIPgFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

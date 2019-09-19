@@ -35,7 +35,7 @@ public class GSLEImpl extends tripletImpl implements GSLE
    * @generated
    * @ordered
    */
-  protected static final int LINEEND_EDEFAULT = 0;
+  protected static final Integer LINEEND_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLINEEND() <em>LINEEND</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSLEImpl extends tripletImpl implements GSLE
    * @generated
    * @ordered
    */
-  protected int lineend = LINEEND_EDEFAULT;
+  protected Integer lineend = LINEEND_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSLEImpl extends tripletImpl implements GSLE
    * @generated
    */
   @Override
-  public int getLINEEND()
+  public Integer getLINEEND()
   {
     return lineend;
   }
@@ -85,9 +85,9 @@ public class GSLEImpl extends tripletImpl implements GSLE
    * @generated
    */
   @Override
-  public void setLINEEND(int newLINEEND)
+  public void setLINEEND(Integer newLINEEND)
   {
-    int oldLINEEND = lineend;
+    Integer oldLINEEND = lineend;
     lineend = newLINEEND;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSLE__LINEEND, oldLINEEND, lineend));
@@ -154,7 +154,7 @@ public class GSLEImpl extends tripletImpl implements GSLE
     switch (featureID)
     {
       case AfpTextPackage.GSLE__LINEEND:
-        return lineend != LINEEND_EDEFAULT;
+        return LINEEND_EDEFAULT == null ? lineend != null : !LINEEND_EDEFAULT.equals(lineend);
     }
     return super.eIsSet(featureID);
   }

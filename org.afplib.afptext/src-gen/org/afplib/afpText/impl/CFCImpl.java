@@ -47,7 +47,7 @@ public class CFCImpl extends structuredFieldImpl implements CFC
    * @generated
    * @ordered
    */
-  protected static final int CFIRG_LEN_EDEFAULT = 0;
+  protected static final Integer CFIRG_LEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getCFIRGLen() <em>CFIRG Len</em>}' attribute.
@@ -57,7 +57,7 @@ public class CFCImpl extends structuredFieldImpl implements CFC
    * @generated
    * @ordered
    */
-  protected int cfirgLen = CFIRG_LEN_EDEFAULT;
+  protected Integer cfirgLen = CFIRG_LEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRetired1() <em>Retired1</em>}' attribute.
@@ -67,7 +67,7 @@ public class CFCImpl extends structuredFieldImpl implements CFC
    * @generated
    * @ordered
    */
-  protected static final int RETIRED1_EDEFAULT = 0;
+  protected static final Integer RETIRED1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRetired1() <em>Retired1</em>}' attribute.
@@ -77,7 +77,7 @@ public class CFCImpl extends structuredFieldImpl implements CFC
    * @generated
    * @ordered
    */
-  protected int retired1 = RETIRED1_EDEFAULT;
+  protected Integer retired1 = RETIRED1_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -116,7 +116,7 @@ public class CFCImpl extends structuredFieldImpl implements CFC
    * @generated
    */
   @Override
-  public int getCFIRGLen()
+  public Integer getCFIRGLen()
   {
     return cfirgLen;
   }
@@ -127,9 +127,9 @@ public class CFCImpl extends structuredFieldImpl implements CFC
    * @generated
    */
   @Override
-  public void setCFIRGLen(int newCFIRGLen)
+  public void setCFIRGLen(Integer newCFIRGLen)
   {
-    int oldCFIRGLen = cfirgLen;
+    Integer oldCFIRGLen = cfirgLen;
     cfirgLen = newCFIRGLen;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CFC__CFIRG_LEN, oldCFIRGLen, cfirgLen));
@@ -141,7 +141,7 @@ public class CFCImpl extends structuredFieldImpl implements CFC
    * @generated
    */
   @Override
-  public int getRetired1()
+  public Integer getRetired1()
   {
     return retired1;
   }
@@ -152,9 +152,9 @@ public class CFCImpl extends structuredFieldImpl implements CFC
    * @generated
    */
   @Override
-  public void setRetired1(int newRetired1)
+  public void setRetired1(Integer newRetired1)
   {
-    int oldRetired1 = retired1;
+    Integer oldRetired1 = retired1;
     retired1 = newRetired1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CFC__RETIRED1, oldRetired1, retired1));
@@ -270,9 +270,9 @@ public class CFCImpl extends structuredFieldImpl implements CFC
     switch (featureID)
     {
       case AfpTextPackage.CFC__CFIRG_LEN:
-        return cfirgLen != CFIRG_LEN_EDEFAULT;
+        return CFIRG_LEN_EDEFAULT == null ? cfirgLen != null : !CFIRG_LEN_EDEFAULT.equals(cfirgLen);
       case AfpTextPackage.CFC__RETIRED1:
-        return retired1 != RETIRED1_EDEFAULT;
+        return RETIRED1_EDEFAULT == null ? retired1 != null : !RETIRED1_EDEFAULT.equals(retired1);
       case AfpTextPackage.CFC__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

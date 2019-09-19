@@ -36,7 +36,7 @@ public class UP3iFinishingOperationImpl extends tripletImpl implements UP3iFinis
    * @generated
    * @ordered
    */
-  protected static final int SEQNUM_EDEFAULT = 0;
+  protected static final Integer SEQNUM_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSeqnum() <em>Seqnum</em>}' attribute.
@@ -46,7 +46,7 @@ public class UP3iFinishingOperationImpl extends tripletImpl implements UP3iFinis
    * @generated
    * @ordered
    */
-  protected int seqnum = SEQNUM_EDEFAULT;
+  protected Integer seqnum = SEQNUM_EDEFAULT;
 
   /**
    * The default value of the '{@link #getUP3iDat() <em>UP 3i Dat</em>}' attribute.
@@ -95,7 +95,7 @@ public class UP3iFinishingOperationImpl extends tripletImpl implements UP3iFinis
    * @generated
    */
   @Override
-  public int getSeqnum()
+  public Integer getSeqnum()
   {
     return seqnum;
   }
@@ -106,9 +106,9 @@ public class UP3iFinishingOperationImpl extends tripletImpl implements UP3iFinis
    * @generated
    */
   @Override
-  public void setSeqnum(int newSeqnum)
+  public void setSeqnum(Integer newSeqnum)
   {
-    int oldSeqnum = seqnum;
+    Integer oldSeqnum = seqnum;
     seqnum = newSeqnum;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.UP_3I_FINISHING_OPERATION__SEQNUM, oldSeqnum, seqnum));
@@ -208,7 +208,7 @@ public class UP3iFinishingOperationImpl extends tripletImpl implements UP3iFinis
     switch (featureID)
     {
       case AfpTextPackage.UP_3I_FINISHING_OPERATION__SEQNUM:
-        return seqnum != SEQNUM_EDEFAULT;
+        return SEQNUM_EDEFAULT == null ? seqnum != null : !SEQNUM_EDEFAULT.equals(seqnum);
       case AfpTextPackage.UP_3I_FINISHING_OPERATION__UP_3I_DAT:
         return UP_3I_DAT_EDEFAULT == null ? up3iDat != null : !UP_3I_DAT_EDEFAULT.equals(up3iDat);
     }

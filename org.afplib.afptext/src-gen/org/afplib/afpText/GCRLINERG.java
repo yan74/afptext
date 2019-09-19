@@ -29,12 +29,12 @@ public interface GCRLINERG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>XOSSF</em>' attribute.
-   * @see #setXOSSF(int)
+   * @see #setXOSSF(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCRLINERG_XOSSF()
    * @model
    * @generated
    */
-  int getXOSSF();
+  Integer getXOSSF();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCRLINERG#getXOSSF <em>XOSSF</em>}' attribute.
@@ -44,19 +44,19 @@ public interface GCRLINERG extends EObject
    * @see #getXOSSF()
    * @generated
    */
-  void setXOSSF(int value);
+  void setXOSSF(Integer value);
 
   /**
    * Returns the value of the '<em><b>YOFFS</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>YOFFS</em>' attribute.
-   * @see #setYOFFS(int)
+   * @see #setYOFFS(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGCRLINERG_YOFFS()
    * @model
    * @generated
    */
-  int getYOFFS();
+  Integer getYOFFS();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GCRLINERG#getYOFFS <em>YOFFS</em>}' attribute.
@@ -66,6 +66,6 @@ public interface GCRLINERG extends EObject
    * @see #getYOFFS()
    * @generated
    */
-  void setYOFFS(int value);
+  void setYOFFS(Integer value);
 
 } // GCRLINERG

@@ -29,12 +29,12 @@ public interface MMCRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Key</em>' attribute.
-   * @see #setKey(int)
+   * @see #setKey(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMMCRG_Key()
    * @model
    * @generated
    */
-  int getKey();
+  Integer getKey();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MMCRG#getKey <em>Key</em>}' attribute.
@@ -44,19 +44,19 @@ public interface MMCRG extends EObject
    * @see #getKey()
    * @generated
    */
-  void setKey(int value);
+  void setKey(Integer value);
 
   /**
    * Returns the value of the '<em><b>Value</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Value</em>' attribute.
-   * @see #setValue(int)
+   * @see #setValue(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMMCRG_Value()
    * @model
    * @generated
    */
-  int getValue();
+  Integer getValue();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MMCRG#getValue <em>Value</em>}' attribute.
@@ -66,6 +66,6 @@ public interface MMCRG extends EObject
    * @see #getValue()
    * @generated
    */
-  void setValue(int value);
+  void setValue(Integer value);
 
 } // MMCRG

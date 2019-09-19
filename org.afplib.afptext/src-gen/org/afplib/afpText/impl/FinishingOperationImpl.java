@@ -39,7 +39,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    * @ordered
    */
-  protected static final int FOP_TYPE_EDEFAULT = 0;
+  protected static final Integer FOP_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFOpType() <em>FOp Type</em>}' attribute.
@@ -49,7 +49,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    * @ordered
    */
-  protected int fOpType = FOP_TYPE_EDEFAULT;
+  protected Integer fOpType = FOP_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRefEdge() <em>Ref Edge</em>}' attribute.
@@ -59,7 +59,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    * @ordered
    */
-  protected static final int REF_EDGE_EDEFAULT = 0;
+  protected static final Integer REF_EDGE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRefEdge() <em>Ref Edge</em>}' attribute.
@@ -69,7 +69,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    * @ordered
    */
-  protected int refEdge = REF_EDGE_EDEFAULT;
+  protected Integer refEdge = REF_EDGE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getFOpCnt() <em>FOp Cnt</em>}' attribute.
@@ -79,7 +79,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    * @ordered
    */
-  protected static final int FOP_CNT_EDEFAULT = 0;
+  protected static final Integer FOP_CNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFOpCnt() <em>FOp Cnt</em>}' attribute.
@@ -89,7 +89,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    * @ordered
    */
-  protected int fOpCnt = FOP_CNT_EDEFAULT;
+  protected Integer fOpCnt = FOP_CNT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getAxOffst() <em>Ax Offst</em>}' attribute.
@@ -99,7 +99,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    * @ordered
    */
-  protected static final int AX_OFFST_EDEFAULT = 0;
+  protected static final Integer AX_OFFST_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getAxOffst() <em>Ax Offst</em>}' attribute.
@@ -109,7 +109,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    * @ordered
    */
-  protected int axOffst = AX_OFFST_EDEFAULT;
+  protected Integer axOffst = AX_OFFST_EDEFAULT;
 
   /**
    * The default value of the '{@link #getOpPos() <em>Op Pos</em>}' attribute.
@@ -158,7 +158,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    */
   @Override
-  public int getFOpType()
+  public Integer getFOpType()
   {
     return fOpType;
   }
@@ -169,9 +169,9 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    */
   @Override
-  public void setFOpType(int newFOpType)
+  public void setFOpType(Integer newFOpType)
   {
-    int oldFOpType = fOpType;
+    Integer oldFOpType = fOpType;
     fOpType = newFOpType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FINISHING_OPERATION__FOP_TYPE, oldFOpType, fOpType));
@@ -183,7 +183,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    */
   @Override
-  public int getRefEdge()
+  public Integer getRefEdge()
   {
     return refEdge;
   }
@@ -194,9 +194,9 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    */
   @Override
-  public void setRefEdge(int newRefEdge)
+  public void setRefEdge(Integer newRefEdge)
   {
-    int oldRefEdge = refEdge;
+    Integer oldRefEdge = refEdge;
     refEdge = newRefEdge;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FINISHING_OPERATION__REF_EDGE, oldRefEdge, refEdge));
@@ -208,7 +208,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    */
   @Override
-  public int getFOpCnt()
+  public Integer getFOpCnt()
   {
     return fOpCnt;
   }
@@ -219,9 +219,9 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    */
   @Override
-  public void setFOpCnt(int newFOpCnt)
+  public void setFOpCnt(Integer newFOpCnt)
   {
-    int oldFOpCnt = fOpCnt;
+    Integer oldFOpCnt = fOpCnt;
     fOpCnt = newFOpCnt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FINISHING_OPERATION__FOP_CNT, oldFOpCnt, fOpCnt));
@@ -233,7 +233,7 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    */
   @Override
-  public int getAxOffst()
+  public Integer getAxOffst()
   {
     return axOffst;
   }
@@ -244,9 +244,9 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
    * @generated
    */
   @Override
-  public void setAxOffst(int newAxOffst)
+  public void setAxOffst(Integer newAxOffst)
   {
-    int oldAxOffst = axOffst;
+    Integer oldAxOffst = axOffst;
     axOffst = newAxOffst;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FINISHING_OPERATION__AX_OFFST, oldAxOffst, axOffst));
@@ -370,13 +370,13 @@ public class FinishingOperationImpl extends tripletImpl implements FinishingOper
     switch (featureID)
     {
       case AfpTextPackage.FINISHING_OPERATION__FOP_TYPE:
-        return fOpType != FOP_TYPE_EDEFAULT;
+        return FOP_TYPE_EDEFAULT == null ? fOpType != null : !FOP_TYPE_EDEFAULT.equals(fOpType);
       case AfpTextPackage.FINISHING_OPERATION__REF_EDGE:
-        return refEdge != REF_EDGE_EDEFAULT;
+        return REF_EDGE_EDEFAULT == null ? refEdge != null : !REF_EDGE_EDEFAULT.equals(refEdge);
       case AfpTextPackage.FINISHING_OPERATION__FOP_CNT:
-        return fOpCnt != FOP_CNT_EDEFAULT;
+        return FOP_CNT_EDEFAULT == null ? fOpCnt != null : !FOP_CNT_EDEFAULT.equals(fOpCnt);
       case AfpTextPackage.FINISHING_OPERATION__AX_OFFST:
-        return axOffst != AX_OFFST_EDEFAULT;
+        return AX_OFFST_EDEFAULT == null ? axOffst != null : !AX_OFFST_EDEFAULT.equals(axOffst);
       case AfpTextPackage.FINISHING_OPERATION__OP_POS:
         return OP_POS_EDEFAULT == null ? opPos != null : !OP_POS_EDEFAULT.equals(opPos);
     }

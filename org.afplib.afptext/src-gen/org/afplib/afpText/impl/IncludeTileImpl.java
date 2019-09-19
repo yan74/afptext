@@ -35,7 +35,7 @@ public class IncludeTileImpl extends tripletImpl implements IncludeTile
    * @generated
    * @ordered
    */
-  protected static final int TIRID_EDEFAULT = 0;
+  protected static final Integer TIRID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getTIRID() <em>TIRID</em>}' attribute.
@@ -45,7 +45,7 @@ public class IncludeTileImpl extends tripletImpl implements IncludeTile
    * @generated
    * @ordered
    */
-  protected int tirid = TIRID_EDEFAULT;
+  protected Integer tirid = TIRID_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class IncludeTileImpl extends tripletImpl implements IncludeTile
    * @generated
    */
   @Override
-  public int getTIRID()
+  public Integer getTIRID()
   {
     return tirid;
   }
@@ -85,9 +85,9 @@ public class IncludeTileImpl extends tripletImpl implements IncludeTile
    * @generated
    */
   @Override
-  public void setTIRID(int newTIRID)
+  public void setTIRID(Integer newTIRID)
   {
-    int oldTIRID = tirid;
+    Integer oldTIRID = tirid;
     tirid = newTIRID;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.INCLUDE_TILE__TIRID, oldTIRID, tirid));
@@ -154,7 +154,7 @@ public class IncludeTileImpl extends tripletImpl implements IncludeTile
     switch (featureID)
     {
       case AfpTextPackage.INCLUDE_TILE__TIRID:
-        return tirid != TIRID_EDEFAULT;
+        return TIRID_EDEFAULT == null ? tirid != null : !TIRID_EDEFAULT.equals(tirid);
     }
     return super.eIsSet(featureID);
   }

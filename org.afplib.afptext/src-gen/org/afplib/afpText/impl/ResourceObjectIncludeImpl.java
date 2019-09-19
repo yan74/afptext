@@ -39,7 +39,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    * @ordered
    */
-  protected static final int OBJ_TYPE_EDEFAULT = 0;
+  protected static final Integer OBJ_TYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObjType() <em>Obj Type</em>}' attribute.
@@ -49,7 +49,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    * @ordered
    */
-  protected int objType = OBJ_TYPE_EDEFAULT;
+  protected Integer objType = OBJ_TYPE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getObjName() <em>Obj Name</em>}' attribute.
@@ -79,7 +79,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    * @ordered
    */
-  protected static final int XOBJ_OSET_EDEFAULT = 0;
+  protected static final Integer XOBJ_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXobjOset() <em>Xobj Oset</em>}' attribute.
@@ -89,7 +89,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    * @ordered
    */
-  protected int xobjOset = XOBJ_OSET_EDEFAULT;
+  protected Integer xobjOset = XOBJ_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYobjOset() <em>Yobj Oset</em>}' attribute.
@@ -99,7 +99,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    * @ordered
    */
-  protected static final int YOBJ_OSET_EDEFAULT = 0;
+  protected static final Integer YOBJ_OSET_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYobjOset() <em>Yobj Oset</em>}' attribute.
@@ -109,7 +109,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    * @ordered
    */
-  protected int yobjOset = YOBJ_OSET_EDEFAULT;
+  protected Integer yobjOset = YOBJ_OSET_EDEFAULT;
 
   /**
    * The default value of the '{@link #getObOrent() <em>Ob Orent</em>}' attribute.
@@ -119,7 +119,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    * @ordered
    */
-  protected static final int OB_ORENT_EDEFAULT = 0;
+  protected static final Integer OB_ORENT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getObOrent() <em>Ob Orent</em>}' attribute.
@@ -129,7 +129,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    * @ordered
    */
-  protected int obOrent = OB_ORENT_EDEFAULT;
+  protected Integer obOrent = OB_ORENT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -158,7 +158,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    */
   @Override
-  public int getObjType()
+  public Integer getObjType()
   {
     return objType;
   }
@@ -169,9 +169,9 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    */
   @Override
-  public void setObjType(int newObjType)
+  public void setObjType(Integer newObjType)
   {
-    int oldObjType = objType;
+    Integer oldObjType = objType;
     objType = newObjType;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RESOURCE_OBJECT_INCLUDE__OBJ_TYPE, oldObjType, objType));
@@ -208,7 +208,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    */
   @Override
-  public int getXobjOset()
+  public Integer getXobjOset()
   {
     return xobjOset;
   }
@@ -219,9 +219,9 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    */
   @Override
-  public void setXobjOset(int newXobjOset)
+  public void setXobjOset(Integer newXobjOset)
   {
-    int oldXobjOset = xobjOset;
+    Integer oldXobjOset = xobjOset;
     xobjOset = newXobjOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RESOURCE_OBJECT_INCLUDE__XOBJ_OSET, oldXobjOset, xobjOset));
@@ -233,7 +233,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    */
   @Override
-  public int getYobjOset()
+  public Integer getYobjOset()
   {
     return yobjOset;
   }
@@ -244,9 +244,9 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    */
   @Override
-  public void setYobjOset(int newYobjOset)
+  public void setYobjOset(Integer newYobjOset)
   {
-    int oldYobjOset = yobjOset;
+    Integer oldYobjOset = yobjOset;
     yobjOset = newYobjOset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RESOURCE_OBJECT_INCLUDE__YOBJ_OSET, oldYobjOset, yobjOset));
@@ -258,7 +258,7 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    */
   @Override
-  public int getObOrent()
+  public Integer getObOrent()
   {
     return obOrent;
   }
@@ -269,9 +269,9 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
    * @generated
    */
   @Override
-  public void setObOrent(int newObOrent)
+  public void setObOrent(Integer newObOrent)
   {
-    int oldObOrent = obOrent;
+    Integer oldObOrent = obOrent;
     obOrent = newObOrent;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.RESOURCE_OBJECT_INCLUDE__OB_ORENT, oldObOrent, obOrent));
@@ -370,15 +370,15 @@ public class ResourceObjectIncludeImpl extends tripletImpl implements ResourceOb
     switch (featureID)
     {
       case AfpTextPackage.RESOURCE_OBJECT_INCLUDE__OBJ_TYPE:
-        return objType != OBJ_TYPE_EDEFAULT;
+        return OBJ_TYPE_EDEFAULT == null ? objType != null : !OBJ_TYPE_EDEFAULT.equals(objType);
       case AfpTextPackage.RESOURCE_OBJECT_INCLUDE__OBJ_NAME:
         return OBJ_NAME_EDEFAULT == null ? objName != null : !OBJ_NAME_EDEFAULT.equals(objName);
       case AfpTextPackage.RESOURCE_OBJECT_INCLUDE__XOBJ_OSET:
-        return xobjOset != XOBJ_OSET_EDEFAULT;
+        return XOBJ_OSET_EDEFAULT == null ? xobjOset != null : !XOBJ_OSET_EDEFAULT.equals(xobjOset);
       case AfpTextPackage.RESOURCE_OBJECT_INCLUDE__YOBJ_OSET:
-        return yobjOset != YOBJ_OSET_EDEFAULT;
+        return YOBJ_OSET_EDEFAULT == null ? yobjOset != null : !YOBJ_OSET_EDEFAULT.equals(yobjOset);
       case AfpTextPackage.RESOURCE_OBJECT_INCLUDE__OB_ORENT:
-        return obOrent != OB_ORENT_EDEFAULT;
+        return OB_ORENT_EDEFAULT == null ? obOrent != null : !OB_ORENT_EDEFAULT.equals(obOrent);
     }
     return super.eIsSet(featureID);
   }

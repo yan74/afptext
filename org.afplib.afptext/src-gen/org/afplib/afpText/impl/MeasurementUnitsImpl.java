@@ -38,7 +38,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    * @ordered
    */
-  protected static final int XOA_BASE_EDEFAULT = 0;
+  protected static final Integer XOA_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXoaBase() <em>Xoa Base</em>}' attribute.
@@ -48,7 +48,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    * @ordered
    */
-  protected int xoaBase = XOA_BASE_EDEFAULT;
+  protected Integer xoaBase = XOA_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYoaBase() <em>Yoa Base</em>}' attribute.
@@ -58,7 +58,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    * @ordered
    */
-  protected static final int YOA_BASE_EDEFAULT = 0;
+  protected static final Integer YOA_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYoaBase() <em>Yoa Base</em>}' attribute.
@@ -68,7 +68,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    * @ordered
    */
-  protected int yoaBase = YOA_BASE_EDEFAULT;
+  protected Integer yoaBase = YOA_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXoaUnits() <em>Xoa Units</em>}' attribute.
@@ -78,7 +78,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    * @ordered
    */
-  protected static final int XOA_UNITS_EDEFAULT = 0;
+  protected static final Integer XOA_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXoaUnits() <em>Xoa Units</em>}' attribute.
@@ -88,7 +88,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    * @ordered
    */
-  protected int xoaUnits = XOA_UNITS_EDEFAULT;
+  protected Integer xoaUnits = XOA_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYoaUnits() <em>Yoa Units</em>}' attribute.
@@ -98,7 +98,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    * @ordered
    */
-  protected static final int YOA_UNITS_EDEFAULT = 0;
+  protected static final Integer YOA_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYoaUnits() <em>Yoa Units</em>}' attribute.
@@ -108,7 +108,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    * @ordered
    */
-  protected int yoaUnits = YOA_UNITS_EDEFAULT;
+  protected Integer yoaUnits = YOA_UNITS_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -137,7 +137,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    */
   @Override
-  public int getXoaBase()
+  public Integer getXoaBase()
   {
     return xoaBase;
   }
@@ -148,9 +148,9 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    */
   @Override
-  public void setXoaBase(int newXoaBase)
+  public void setXoaBase(Integer newXoaBase)
   {
-    int oldXoaBase = xoaBase;
+    Integer oldXoaBase = xoaBase;
     xoaBase = newXoaBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MEASUREMENT_UNITS__XOA_BASE, oldXoaBase, xoaBase));
@@ -162,7 +162,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    */
   @Override
-  public int getYoaBase()
+  public Integer getYoaBase()
   {
     return yoaBase;
   }
@@ -173,9 +173,9 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    */
   @Override
-  public void setYoaBase(int newYoaBase)
+  public void setYoaBase(Integer newYoaBase)
   {
-    int oldYoaBase = yoaBase;
+    Integer oldYoaBase = yoaBase;
     yoaBase = newYoaBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MEASUREMENT_UNITS__YOA_BASE, oldYoaBase, yoaBase));
@@ -187,7 +187,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    */
   @Override
-  public int getXoaUnits()
+  public Integer getXoaUnits()
   {
     return xoaUnits;
   }
@@ -198,9 +198,9 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    */
   @Override
-  public void setXoaUnits(int newXoaUnits)
+  public void setXoaUnits(Integer newXoaUnits)
   {
-    int oldXoaUnits = xoaUnits;
+    Integer oldXoaUnits = xoaUnits;
     xoaUnits = newXoaUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MEASUREMENT_UNITS__XOA_UNITS, oldXoaUnits, xoaUnits));
@@ -212,7 +212,7 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    */
   @Override
-  public int getYoaUnits()
+  public Integer getYoaUnits()
   {
     return yoaUnits;
   }
@@ -223,9 +223,9 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
    * @generated
    */
   @Override
-  public void setYoaUnits(int newYoaUnits)
+  public void setYoaUnits(Integer newYoaUnits)
   {
-    int oldYoaUnits = yoaUnits;
+    Integer oldYoaUnits = yoaUnits;
     yoaUnits = newYoaUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MEASUREMENT_UNITS__YOA_UNITS, oldYoaUnits, yoaUnits));
@@ -316,13 +316,13 @@ public class MeasurementUnitsImpl extends tripletImpl implements MeasurementUnit
     switch (featureID)
     {
       case AfpTextPackage.MEASUREMENT_UNITS__XOA_BASE:
-        return xoaBase != XOA_BASE_EDEFAULT;
+        return XOA_BASE_EDEFAULT == null ? xoaBase != null : !XOA_BASE_EDEFAULT.equals(xoaBase);
       case AfpTextPackage.MEASUREMENT_UNITS__YOA_BASE:
-        return yoaBase != YOA_BASE_EDEFAULT;
+        return YOA_BASE_EDEFAULT == null ? yoaBase != null : !YOA_BASE_EDEFAULT.equals(yoaBase);
       case AfpTextPackage.MEASUREMENT_UNITS__XOA_UNITS:
-        return xoaUnits != XOA_UNITS_EDEFAULT;
+        return XOA_UNITS_EDEFAULT == null ? xoaUnits != null : !XOA_UNITS_EDEFAULT.equals(xoaUnits);
       case AfpTextPackage.MEASUREMENT_UNITS__YOA_UNITS:
-        return yoaUnits != YOA_UNITS_EDEFAULT;
+        return YOA_UNITS_EDEFAULT == null ? yoaUnits != null : !YOA_UNITS_EDEFAULT.equals(yoaUnits);
     }
     return super.eIsSet(featureID);
   }

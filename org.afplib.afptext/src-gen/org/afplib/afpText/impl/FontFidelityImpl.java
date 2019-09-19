@@ -35,7 +35,7 @@ public class FontFidelityImpl extends tripletImpl implements FontFidelity
    * @generated
    * @ordered
    */
-  protected static final int STP_FNT_EX_EDEFAULT = 0;
+  protected static final Integer STP_FNT_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStpFntEx() <em>Stp Fnt Ex</em>}' attribute.
@@ -45,7 +45,7 @@ public class FontFidelityImpl extends tripletImpl implements FontFidelity
    * @generated
    * @ordered
    */
-  protected int stpFntEx = STP_FNT_EX_EDEFAULT;
+  protected Integer stpFntEx = STP_FNT_EX_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class FontFidelityImpl extends tripletImpl implements FontFidelity
    * @generated
    */
   @Override
-  public int getStpFntEx()
+  public Integer getStpFntEx()
   {
     return stpFntEx;
   }
@@ -85,9 +85,9 @@ public class FontFidelityImpl extends tripletImpl implements FontFidelity
    * @generated
    */
   @Override
-  public void setStpFntEx(int newStpFntEx)
+  public void setStpFntEx(Integer newStpFntEx)
   {
-    int oldStpFntEx = stpFntEx;
+    Integer oldStpFntEx = stpFntEx;
     stpFntEx = newStpFntEx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.FONT_FIDELITY__STP_FNT_EX, oldStpFntEx, stpFntEx));
@@ -154,7 +154,7 @@ public class FontFidelityImpl extends tripletImpl implements FontFidelity
     switch (featureID)
     {
       case AfpTextPackage.FONT_FIDELITY__STP_FNT_EX:
-        return stpFntEx != STP_FNT_EX_EDEFAULT;
+        return STP_FNT_EX_EDEFAULT == null ? stpFntEx != null : !STP_FNT_EX_EDEFAULT.equals(stpFntEx);
     }
     return super.eIsSet(featureID);
   }

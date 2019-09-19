@@ -40,7 +40,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected static final int COL_SPCE_EDEFAULT = 0;
+  protected static final Integer COL_SPCE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getColSpce() <em>Col Spce</em>}' attribute.
@@ -50,7 +50,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected int colSpce = COL_SPCE_EDEFAULT;
+  protected Integer colSpce = COL_SPCE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getColSize1() <em>Col Size1</em>}' attribute.
@@ -60,7 +60,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected static final int COL_SIZE1_EDEFAULT = 0;
+  protected static final Integer COL_SIZE1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getColSize1() <em>Col Size1</em>}' attribute.
@@ -70,7 +70,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected int colSize1 = COL_SIZE1_EDEFAULT;
+  protected Integer colSize1 = COL_SIZE1_EDEFAULT;
 
   /**
    * The default value of the '{@link #getColSize2() <em>Col Size2</em>}' attribute.
@@ -80,7 +80,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected static final int COL_SIZE2_EDEFAULT = 0;
+  protected static final Integer COL_SIZE2_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getColSize2() <em>Col Size2</em>}' attribute.
@@ -90,7 +90,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected int colSize2 = COL_SIZE2_EDEFAULT;
+  protected Integer colSize2 = COL_SIZE2_EDEFAULT;
 
   /**
    * The default value of the '{@link #getColSize3() <em>Col Size3</em>}' attribute.
@@ -100,7 +100,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected static final int COL_SIZE3_EDEFAULT = 0;
+  protected static final Integer COL_SIZE3_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getColSize3() <em>Col Size3</em>}' attribute.
@@ -110,7 +110,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected int colSize3 = COL_SIZE3_EDEFAULT;
+  protected Integer colSize3 = COL_SIZE3_EDEFAULT;
 
   /**
    * The default value of the '{@link #getColSize4() <em>Col Size4</em>}' attribute.
@@ -120,7 +120,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected static final int COL_SIZE4_EDEFAULT = 0;
+  protected static final Integer COL_SIZE4_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getColSize4() <em>Col Size4</em>}' attribute.
@@ -130,7 +130,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    * @ordered
    */
-  protected int colSize4 = COL_SIZE4_EDEFAULT;
+  protected Integer colSize4 = COL_SIZE4_EDEFAULT;
 
   /**
    * The default value of the '{@link #getColor() <em>Color</em>}' attribute.
@@ -179,7 +179,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public int getColSpce()
+  public Integer getColSpce()
   {
     return colSpce;
   }
@@ -190,9 +190,9 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public void setColSpce(int newColSpce)
+  public void setColSpce(Integer newColSpce)
   {
-    int oldColSpce = colSpce;
+    Integer oldColSpce = colSpce;
     colSpce = newColSpce;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_SPECIFICATION__COL_SPCE, oldColSpce, colSpce));
@@ -204,7 +204,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public int getColSize1()
+  public Integer getColSize1()
   {
     return colSize1;
   }
@@ -215,9 +215,9 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public void setColSize1(int newColSize1)
+  public void setColSize1(Integer newColSize1)
   {
-    int oldColSize1 = colSize1;
+    Integer oldColSize1 = colSize1;
     colSize1 = newColSize1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_SPECIFICATION__COL_SIZE1, oldColSize1, colSize1));
@@ -229,7 +229,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public int getColSize2()
+  public Integer getColSize2()
   {
     return colSize2;
   }
@@ -240,9 +240,9 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public void setColSize2(int newColSize2)
+  public void setColSize2(Integer newColSize2)
   {
-    int oldColSize2 = colSize2;
+    Integer oldColSize2 = colSize2;
     colSize2 = newColSize2;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_SPECIFICATION__COL_SIZE2, oldColSize2, colSize2));
@@ -254,7 +254,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public int getColSize3()
+  public Integer getColSize3()
   {
     return colSize3;
   }
@@ -265,9 +265,9 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public void setColSize3(int newColSize3)
+  public void setColSize3(Integer newColSize3)
   {
-    int oldColSize3 = colSize3;
+    Integer oldColSize3 = colSize3;
     colSize3 = newColSize3;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_SPECIFICATION__COL_SIZE3, oldColSize3, colSize3));
@@ -279,7 +279,7 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public int getColSize4()
+  public Integer getColSize4()
   {
     return colSize4;
   }
@@ -290,9 +290,9 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
    * @generated
    */
   @Override
-  public void setColSize4(int newColSize4)
+  public void setColSize4(Integer newColSize4)
   {
-    int oldColSize4 = colSize4;
+    Integer oldColSize4 = colSize4;
     colSize4 = newColSize4;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.COLOR_SPECIFICATION__COL_SIZE4, oldColSize4, colSize4));
@@ -424,15 +424,15 @@ public class ColorSpecificationImpl extends tripletImpl implements ColorSpecific
     switch (featureID)
     {
       case AfpTextPackage.COLOR_SPECIFICATION__COL_SPCE:
-        return colSpce != COL_SPCE_EDEFAULT;
+        return COL_SPCE_EDEFAULT == null ? colSpce != null : !COL_SPCE_EDEFAULT.equals(colSpce);
       case AfpTextPackage.COLOR_SPECIFICATION__COL_SIZE1:
-        return colSize1 != COL_SIZE1_EDEFAULT;
+        return COL_SIZE1_EDEFAULT == null ? colSize1 != null : !COL_SIZE1_EDEFAULT.equals(colSize1);
       case AfpTextPackage.COLOR_SPECIFICATION__COL_SIZE2:
-        return colSize2 != COL_SIZE2_EDEFAULT;
+        return COL_SIZE2_EDEFAULT == null ? colSize2 != null : !COL_SIZE2_EDEFAULT.equals(colSize2);
       case AfpTextPackage.COLOR_SPECIFICATION__COL_SIZE3:
-        return colSize3 != COL_SIZE3_EDEFAULT;
+        return COL_SIZE3_EDEFAULT == null ? colSize3 != null : !COL_SIZE3_EDEFAULT.equals(colSize3);
       case AfpTextPackage.COLOR_SPECIFICATION__COL_SIZE4:
-        return colSize4 != COL_SIZE4_EDEFAULT;
+        return COL_SIZE4_EDEFAULT == null ? colSize4 != null : !COL_SIZE4_EDEFAULT.equals(colSize4);
       case AfpTextPackage.COLOR_SPECIFICATION__COLOR:
         return COLOR_EDEFAULT == null ? color != null : !COLOR_EDEFAULT.equals(color);
     }

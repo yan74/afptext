@@ -36,7 +36,7 @@ public class ObjectStructuredFieldExtentImpl extends tripletImpl implements Obje
    * @generated
    * @ordered
    */
-  protected static final int SF_EXT_EDEFAULT = 0;
+  protected static final Integer SF_EXT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSFExt() <em>SF Ext</em>}' attribute.
@@ -46,7 +46,7 @@ public class ObjectStructuredFieldExtentImpl extends tripletImpl implements Obje
    * @generated
    * @ordered
    */
-  protected int sfExt = SF_EXT_EDEFAULT;
+  protected Integer sfExt = SF_EXT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSFExtHi() <em>SF Ext Hi</em>}' attribute.
@@ -56,7 +56,7 @@ public class ObjectStructuredFieldExtentImpl extends tripletImpl implements Obje
    * @generated
    * @ordered
    */
-  protected static final int SF_EXT_HI_EDEFAULT = 0;
+  protected static final Integer SF_EXT_HI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSFExtHi() <em>SF Ext Hi</em>}' attribute.
@@ -66,7 +66,7 @@ public class ObjectStructuredFieldExtentImpl extends tripletImpl implements Obje
    * @generated
    * @ordered
    */
-  protected int sfExtHi = SF_EXT_HI_EDEFAULT;
+  protected Integer sfExtHi = SF_EXT_HI_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class ObjectStructuredFieldExtentImpl extends tripletImpl implements Obje
    * @generated
    */
   @Override
-  public int getSFExt()
+  public Integer getSFExt()
   {
     return sfExt;
   }
@@ -106,9 +106,9 @@ public class ObjectStructuredFieldExtentImpl extends tripletImpl implements Obje
    * @generated
    */
   @Override
-  public void setSFExt(int newSFExt)
+  public void setSFExt(Integer newSFExt)
   {
-    int oldSFExt = sfExt;
+    Integer oldSFExt = sfExt;
     sfExt = newSFExt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_STRUCTURED_FIELD_EXTENT__SF_EXT, oldSFExt, sfExt));
@@ -120,7 +120,7 @@ public class ObjectStructuredFieldExtentImpl extends tripletImpl implements Obje
    * @generated
    */
   @Override
-  public int getSFExtHi()
+  public Integer getSFExtHi()
   {
     return sfExtHi;
   }
@@ -131,9 +131,9 @@ public class ObjectStructuredFieldExtentImpl extends tripletImpl implements Obje
    * @generated
    */
   @Override
-  public void setSFExtHi(int newSFExtHi)
+  public void setSFExtHi(Integer newSFExtHi)
   {
-    int oldSFExtHi = sfExtHi;
+    Integer oldSFExtHi = sfExtHi;
     sfExtHi = newSFExtHi;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_STRUCTURED_FIELD_EXTENT__SF_EXT_HI, oldSFExtHi, sfExtHi));
@@ -208,9 +208,9 @@ public class ObjectStructuredFieldExtentImpl extends tripletImpl implements Obje
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_STRUCTURED_FIELD_EXTENT__SF_EXT:
-        return sfExt != SF_EXT_EDEFAULT;
+        return SF_EXT_EDEFAULT == null ? sfExt != null : !SF_EXT_EDEFAULT.equals(sfExt);
       case AfpTextPackage.OBJECT_STRUCTURED_FIELD_EXTENT__SF_EXT_HI:
-        return sfExtHi != SF_EXT_HI_EDEFAULT;
+        return SF_EXT_HI_EDEFAULT == null ? sfExtHi != null : !SF_EXT_HI_EDEFAULT.equals(sfExtHi);
     }
     return super.eIsSet(featureID);
   }

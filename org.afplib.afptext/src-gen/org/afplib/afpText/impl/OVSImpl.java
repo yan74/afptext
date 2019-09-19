@@ -36,7 +36,7 @@ public class OVSImpl extends tripletImpl implements OVS
    * @generated
    * @ordered
    */
-  protected static final int BYPSIDEN_EDEFAULT = 0;
+  protected static final Integer BYPSIDEN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBYPSIDEN() <em>BYPSIDEN</em>}' attribute.
@@ -46,7 +46,7 @@ public class OVSImpl extends tripletImpl implements OVS
    * @generated
    * @ordered
    */
-  protected int bypsiden = BYPSIDEN_EDEFAULT;
+  protected Integer bypsiden = BYPSIDEN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getOVERCHAR() <em>OVERCHAR</em>}' attribute.
@@ -56,7 +56,7 @@ public class OVSImpl extends tripletImpl implements OVS
    * @generated
    * @ordered
    */
-  protected static final int OVERCHAR_EDEFAULT = 0;
+  protected static final Integer OVERCHAR_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getOVERCHAR() <em>OVERCHAR</em>}' attribute.
@@ -66,7 +66,7 @@ public class OVSImpl extends tripletImpl implements OVS
    * @generated
    * @ordered
    */
-  protected int overchar = OVERCHAR_EDEFAULT;
+  protected Integer overchar = OVERCHAR_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class OVSImpl extends tripletImpl implements OVS
    * @generated
    */
   @Override
-  public int getBYPSIDEN()
+  public Integer getBYPSIDEN()
   {
     return bypsiden;
   }
@@ -106,9 +106,9 @@ public class OVSImpl extends tripletImpl implements OVS
    * @generated
    */
   @Override
-  public void setBYPSIDEN(int newBYPSIDEN)
+  public void setBYPSIDEN(Integer newBYPSIDEN)
   {
-    int oldBYPSIDEN = bypsiden;
+    Integer oldBYPSIDEN = bypsiden;
     bypsiden = newBYPSIDEN;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OVS__BYPSIDEN, oldBYPSIDEN, bypsiden));
@@ -120,7 +120,7 @@ public class OVSImpl extends tripletImpl implements OVS
    * @generated
    */
   @Override
-  public int getOVERCHAR()
+  public Integer getOVERCHAR()
   {
     return overchar;
   }
@@ -131,9 +131,9 @@ public class OVSImpl extends tripletImpl implements OVS
    * @generated
    */
   @Override
-  public void setOVERCHAR(int newOVERCHAR)
+  public void setOVERCHAR(Integer newOVERCHAR)
   {
-    int oldOVERCHAR = overchar;
+    Integer oldOVERCHAR = overchar;
     overchar = newOVERCHAR;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OVS__OVERCHAR, oldOVERCHAR, overchar));
@@ -208,9 +208,9 @@ public class OVSImpl extends tripletImpl implements OVS
     switch (featureID)
     {
       case AfpTextPackage.OVS__BYPSIDEN:
-        return bypsiden != BYPSIDEN_EDEFAULT;
+        return BYPSIDEN_EDEFAULT == null ? bypsiden != null : !BYPSIDEN_EDEFAULT.equals(bypsiden);
       case AfpTextPackage.OVS__OVERCHAR:
-        return overchar != OVERCHAR_EDEFAULT;
+        return OVERCHAR_EDEFAULT == null ? overchar != null : !OVERCHAR_EDEFAULT.equals(overchar);
     }
     return super.eIsSet(featureID);
   }

@@ -31,12 +31,12 @@ public interface MFC extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MFC Flgs</em>' attribute.
-   * @see #setMFCFlgs(int)
+   * @see #setMFCFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMFC_MFCFlgs()
    * @model
    * @generated
    */
-  int getMFCFlgs();
+  Integer getMFCFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MFC#getMFCFlgs <em>MFC Flgs</em>}' attribute.
@@ -46,19 +46,19 @@ public interface MFC extends structuredField
    * @see #getMFCFlgs()
    * @generated
    */
-  void setMFCFlgs(int value);
+  void setMFCFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>Med Coll</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Med Coll</em>' attribute.
-   * @see #setMedColl(int)
+   * @see #setMedColl(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMFC_MedColl()
    * @model
    * @generated
    */
-  int getMedColl();
+  Integer getMedColl();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MFC#getMedColl <em>Med Coll</em>}' attribute.
@@ -68,19 +68,19 @@ public interface MFC extends structuredField
    * @see #getMedColl()
    * @generated
    */
-  void setMedColl(int value);
+  void setMedColl(Integer value);
 
   /**
    * Returns the value of the '<em><b>MFC Scpe</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MFC Scpe</em>' attribute.
-   * @see #setMFCScpe(int)
+   * @see #setMFCScpe(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMFC_MFCScpe()
    * @model
    * @generated
    */
-  int getMFCScpe();
+  Integer getMFCScpe();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MFC#getMFCScpe <em>MFC Scpe</em>}' attribute.
@@ -90,7 +90,7 @@ public interface MFC extends structuredField
    * @see #getMFCScpe()
    * @generated
    */
-  void setMFCScpe(int value);
+  void setMFCScpe(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

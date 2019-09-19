@@ -36,7 +36,7 @@ public class CMRFidelityImpl extends tripletImpl implements CMRFidelity
    * @generated
    * @ordered
    */
-  protected static final int STP_CMR_EX_EDEFAULT = 0;
+  protected static final Integer STP_CMR_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getStpCMREx() <em>Stp CMR Ex</em>}' attribute.
@@ -46,7 +46,7 @@ public class CMRFidelityImpl extends tripletImpl implements CMRFidelity
    * @generated
    * @ordered
    */
-  protected int stpCMREx = STP_CMR_EX_EDEFAULT;
+  protected Integer stpCMREx = STP_CMR_EX_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRepCMREx() <em>Rep CMR Ex</em>}' attribute.
@@ -56,7 +56,7 @@ public class CMRFidelityImpl extends tripletImpl implements CMRFidelity
    * @generated
    * @ordered
    */
-  protected static final int REP_CMR_EX_EDEFAULT = 0;
+  protected static final Integer REP_CMR_EX_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRepCMREx() <em>Rep CMR Ex</em>}' attribute.
@@ -66,7 +66,7 @@ public class CMRFidelityImpl extends tripletImpl implements CMRFidelity
    * @generated
    * @ordered
    */
-  protected int repCMREx = REP_CMR_EX_EDEFAULT;
+  protected Integer repCMREx = REP_CMR_EX_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class CMRFidelityImpl extends tripletImpl implements CMRFidelity
    * @generated
    */
   @Override
-  public int getStpCMREx()
+  public Integer getStpCMREx()
   {
     return stpCMREx;
   }
@@ -106,9 +106,9 @@ public class CMRFidelityImpl extends tripletImpl implements CMRFidelity
    * @generated
    */
   @Override
-  public void setStpCMREx(int newStpCMREx)
+  public void setStpCMREx(Integer newStpCMREx)
   {
-    int oldStpCMREx = stpCMREx;
+    Integer oldStpCMREx = stpCMREx;
     stpCMREx = newStpCMREx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CMR_FIDELITY__STP_CMR_EX, oldStpCMREx, stpCMREx));
@@ -120,7 +120,7 @@ public class CMRFidelityImpl extends tripletImpl implements CMRFidelity
    * @generated
    */
   @Override
-  public int getRepCMREx()
+  public Integer getRepCMREx()
   {
     return repCMREx;
   }
@@ -131,9 +131,9 @@ public class CMRFidelityImpl extends tripletImpl implements CMRFidelity
    * @generated
    */
   @Override
-  public void setRepCMREx(int newRepCMREx)
+  public void setRepCMREx(Integer newRepCMREx)
   {
-    int oldRepCMREx = repCMREx;
+    Integer oldRepCMREx = repCMREx;
     repCMREx = newRepCMREx;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CMR_FIDELITY__REP_CMR_EX, oldRepCMREx, repCMREx));
@@ -208,9 +208,9 @@ public class CMRFidelityImpl extends tripletImpl implements CMRFidelity
     switch (featureID)
     {
       case AfpTextPackage.CMR_FIDELITY__STP_CMR_EX:
-        return stpCMREx != STP_CMR_EX_EDEFAULT;
+        return STP_CMR_EX_EDEFAULT == null ? stpCMREx != null : !STP_CMR_EX_EDEFAULT.equals(stpCMREx);
       case AfpTextPackage.CMR_FIDELITY__REP_CMR_EX:
-        return repCMREx != REP_CMR_EX_EDEFAULT;
+        return REP_CMR_EX_EDEFAULT == null ? repCMREx != null : !REP_CMR_EX_EDEFAULT.equals(repCMREx);
     }
     return super.eIsSet(featureID);
   }

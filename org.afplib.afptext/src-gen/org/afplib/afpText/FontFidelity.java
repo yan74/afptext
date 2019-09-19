@@ -27,12 +27,12 @@ public interface FontFidelity extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Stp Fnt Ex</em>' attribute.
-   * @see #setStpFntEx(int)
+   * @see #setStpFntEx(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFontFidelity_StpFntEx()
    * @model
    * @generated
    */
-  int getStpFntEx();
+  Integer getStpFntEx();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FontFidelity#getStpFntEx <em>Stp Fnt Ex</em>}' attribute.
@@ -42,6 +42,6 @@ public interface FontFidelity extends triplet
    * @see #getStpFntEx()
    * @generated
    */
-  void setStpFntEx(int value);
+  void setStpFntEx(Integer value);
 
 } // FontFidelity

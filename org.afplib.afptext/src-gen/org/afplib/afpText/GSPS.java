@@ -27,12 +27,12 @@ public interface GSPS extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LCID</em>' attribute.
-   * @see #setLCID(int)
+   * @see #setLCID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSPS_LCID()
    * @model
    * @generated
    */
-  int getLCID();
+  Integer getLCID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSPS#getLCID <em>LCID</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSPS extends triplet
    * @see #getLCID()
    * @generated
    */
-  void setLCID(int value);
+  void setLCID(Integer value);
 
 } // GSPS

@@ -67,12 +67,12 @@ public interface FND extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ft Wt Class</em>' attribute.
-   * @see #setFtWtClass(int)
+   * @see #setFtWtClass(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_FtWtClass()
    * @model
    * @generated
    */
-  int getFtWtClass();
+  Integer getFtWtClass();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getFtWtClass <em>Ft Wt Class</em>}' attribute.
@@ -82,19 +82,19 @@ public interface FND extends structuredField
    * @see #getFtWtClass()
    * @generated
    */
-  void setFtWtClass(int value);
+  void setFtWtClass(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ft Wd Class</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ft Wd Class</em>' attribute.
-   * @see #setFtWdClass(int)
+   * @see #setFtWdClass(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_FtWdClass()
    * @model
    * @generated
    */
-  int getFtWdClass();
+  Integer getFtWdClass();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getFtWdClass <em>Ft Wd Class</em>}' attribute.
@@ -104,19 +104,19 @@ public interface FND extends structuredField
    * @see #getFtWdClass()
    * @generated
    */
-  void setFtWdClass(int value);
+  void setFtWdClass(Integer value);
 
   /**
    * Returns the value of the '<em><b>Max Pt Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Max Pt Size</em>' attribute.
-   * @see #setMaxPtSize(int)
+   * @see #setMaxPtSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_MaxPtSize()
    * @model
    * @generated
    */
-  int getMaxPtSize();
+  Integer getMaxPtSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getMaxPtSize <em>Max Pt Size</em>}' attribute.
@@ -126,19 +126,19 @@ public interface FND extends structuredField
    * @see #getMaxPtSize()
    * @generated
    */
-  void setMaxPtSize(int value);
+  void setMaxPtSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Nom Pt Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Nom Pt Size</em>' attribute.
-   * @see #setNomPtSize(int)
+   * @see #setNomPtSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_NomPtSize()
    * @model
    * @generated
    */
-  int getNomPtSize();
+  Integer getNomPtSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getNomPtSize <em>Nom Pt Size</em>}' attribute.
@@ -148,19 +148,19 @@ public interface FND extends structuredField
    * @see #getNomPtSize()
    * @generated
    */
-  void setNomPtSize(int value);
+  void setNomPtSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Min Pt Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Min Pt Size</em>' attribute.
-   * @see #setMinPtSize(int)
+   * @see #setMinPtSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_MinPtSize()
    * @model
    * @generated
    */
-  int getMinPtSize();
+  Integer getMinPtSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getMinPtSize <em>Min Pt Size</em>}' attribute.
@@ -170,19 +170,19 @@ public interface FND extends structuredField
    * @see #getMinPtSize()
    * @generated
    */
-  void setMinPtSize(int value);
+  void setMinPtSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Max HSize</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Max HSize</em>' attribute.
-   * @see #setMaxHSize(int)
+   * @see #setMaxHSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_MaxHSize()
    * @model
    * @generated
    */
-  int getMaxHSize();
+  Integer getMaxHSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getMaxHSize <em>Max HSize</em>}' attribute.
@@ -192,19 +192,19 @@ public interface FND extends structuredField
    * @see #getMaxHSize()
    * @generated
    */
-  void setMaxHSize(int value);
+  void setMaxHSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Nom HSize</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Nom HSize</em>' attribute.
-   * @see #setNomHSize(int)
+   * @see #setNomHSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_NomHSize()
    * @model
    * @generated
    */
-  int getNomHSize();
+  Integer getNomHSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getNomHSize <em>Nom HSize</em>}' attribute.
@@ -214,19 +214,19 @@ public interface FND extends structuredField
    * @see #getNomHSize()
    * @generated
    */
-  void setNomHSize(int value);
+  void setNomHSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Min HSize</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Min HSize</em>' attribute.
-   * @see #setMinHSize(int)
+   * @see #setMinHSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_MinHSize()
    * @model
    * @generated
    */
-  int getMinHSize();
+  Integer getMinHSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getMinHSize <em>Min HSize</em>}' attribute.
@@ -236,19 +236,19 @@ public interface FND extends structuredField
    * @see #getMinHSize()
    * @generated
    */
-  void setMinHSize(int value);
+  void setMinHSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Dsn Gen Cls</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Dsn Gen Cls</em>' attribute.
-   * @see #setDsnGenCls(int)
+   * @see #setDsnGenCls(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_DsnGenCls()
    * @model
    * @generated
    */
-  int getDsnGenCls();
+  Integer getDsnGenCls();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getDsnGenCls <em>Dsn Gen Cls</em>}' attribute.
@@ -258,19 +258,19 @@ public interface FND extends structuredField
    * @see #getDsnGenCls()
    * @generated
    */
-  void setDsnGenCls(int value);
+  void setDsnGenCls(Integer value);
 
   /**
    * Returns the value of the '<em><b>Dsn Sub Cls</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Dsn Sub Cls</em>' attribute.
-   * @see #setDsnSubCls(int)
+   * @see #setDsnSubCls(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_DsnSubCls()
    * @model
    * @generated
    */
-  int getDsnSubCls();
+  Integer getDsnSubCls();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getDsnSubCls <em>Dsn Sub Cls</em>}' attribute.
@@ -280,19 +280,19 @@ public interface FND extends structuredField
    * @see #getDsnSubCls()
    * @generated
    */
-  void setDsnSubCls(int value);
+  void setDsnSubCls(Integer value);
 
   /**
    * Returns the value of the '<em><b>Dsn Spc Grp</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Dsn Spc Grp</em>' attribute.
-   * @see #setDsnSpcGrp(int)
+   * @see #setDsnSpcGrp(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_DsnSpcGrp()
    * @model
    * @generated
    */
-  int getDsnSpcGrp();
+  Integer getDsnSpcGrp();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getDsnSpcGrp <em>Dsn Spc Grp</em>}' attribute.
@@ -302,7 +302,7 @@ public interface FND extends structuredField
    * @see #getDsnSpcGrp()
    * @generated
    */
-  void setDsnSpcGrp(int value);
+  void setDsnSpcGrp(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved1</b></em>' attribute.
@@ -331,12 +331,12 @@ public interface FND extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ft Ds Flags</em>' attribute.
-   * @see #setFtDsFlags(int)
+   * @see #setFtDsFlags(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_FtDsFlags()
    * @model
    * @generated
    */
-  int getFtDsFlags();
+  Integer getFtDsFlags();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getFtDsFlags <em>Ft Ds Flags</em>}' attribute.
@@ -346,7 +346,7 @@ public interface FND extends structuredField
    * @see #getFtDsFlags()
    * @generated
    */
-  void setFtDsFlags(int value);
+  void setFtDsFlags(Integer value);
 
   /**
    * Returns the value of the '<em><b>Reserved2</b></em>' attribute.
@@ -375,12 +375,12 @@ public interface FND extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>GCSID</em>' attribute.
-   * @see #setGCSID(int)
+   * @see #setGCSID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_GCSID()
    * @model
    * @generated
    */
-  int getGCSID();
+  Integer getGCSID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getGCSID <em>GCSID</em>}' attribute.
@@ -390,19 +390,19 @@ public interface FND extends structuredField
    * @see #getGCSID()
    * @generated
    */
-  void setGCSID(int value);
+  void setGCSID(Integer value);
 
   /**
    * Returns the value of the '<em><b>FGID</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FGID</em>' attribute.
-   * @see #setFGID(int)
+   * @see #setFGID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFND_FGID()
    * @model
    * @generated
    */
-  int getFGID();
+  Integer getFGID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FND#getFGID <em>FGID</em>}' attribute.
@@ -412,7 +412,7 @@ public interface FND extends structuredField
    * @see #getFGID()
    * @generated
    */
-  void setFGID(int value);
+  void setFGID(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

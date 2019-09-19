@@ -28,12 +28,12 @@ public interface GSCH extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HX</em>' attribute.
-   * @see #setHX(int)
+   * @see #setHX(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSCH_HX()
    * @model
    * @generated
    */
-  int getHX();
+  Integer getHX();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSCH#getHX <em>HX</em>}' attribute.
@@ -43,19 +43,19 @@ public interface GSCH extends triplet
    * @see #getHX()
    * @generated
    */
-  void setHX(int value);
+  void setHX(Integer value);
 
   /**
    * Returns the value of the '<em><b>HY</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>HY</em>' attribute.
-   * @see #setHY(int)
+   * @see #setHY(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSCH_HY()
    * @model
    * @generated
    */
-  int getHY();
+  Integer getHY();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSCH#getHY <em>HY</em>}' attribute.
@@ -65,6 +65,6 @@ public interface GSCH extends triplet
    * @see #getHY()
    * @generated
    */
-  void setHY(int value);
+  void setHY(Integer value);
 
 } // GSCH

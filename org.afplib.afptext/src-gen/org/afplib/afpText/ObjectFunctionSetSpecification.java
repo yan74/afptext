@@ -30,12 +30,12 @@ public interface ObjectFunctionSetSpecification extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Obj Type</em>' attribute.
-   * @see #setObjType(int)
+   * @see #setObjType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectFunctionSetSpecification_ObjType()
    * @model
    * @generated
    */
-  int getObjType();
+  Integer getObjType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectFunctionSetSpecification#getObjType <em>Obj Type</em>}' attribute.
@@ -45,19 +45,19 @@ public interface ObjectFunctionSetSpecification extends triplet
    * @see #getObjType()
    * @generated
    */
-  void setObjType(int value);
+  void setObjType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Arch Vrsn</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Arch Vrsn</em>' attribute.
-   * @see #setArchVrsn(int)
+   * @see #setArchVrsn(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectFunctionSetSpecification_ArchVrsn()
    * @model
    * @generated
    */
-  int getArchVrsn();
+  Integer getArchVrsn();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectFunctionSetSpecification#getArchVrsn <em>Arch Vrsn</em>}' attribute.
@@ -67,19 +67,19 @@ public interface ObjectFunctionSetSpecification extends triplet
    * @see #getArchVrsn()
    * @generated
    */
-  void setArchVrsn(int value);
+  void setArchVrsn(Integer value);
 
   /**
    * Returns the value of the '<em><b>DCA Fn Set</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>DCA Fn Set</em>' attribute.
-   * @see #setDCAFnSet(int)
+   * @see #setDCAFnSet(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectFunctionSetSpecification_DCAFnSet()
    * @model
    * @generated
    */
-  int getDCAFnSet();
+  Integer getDCAFnSet();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectFunctionSetSpecification#getDCAFnSet <em>DCA Fn Set</em>}' attribute.
@@ -89,19 +89,19 @@ public interface ObjectFunctionSetSpecification extends triplet
    * @see #getDCAFnSet()
    * @generated
    */
-  void setDCAFnSet(int value);
+  void setDCAFnSet(Integer value);
 
   /**
    * Returns the value of the '<em><b>OCA Fn Set</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>OCA Fn Set</em>' attribute.
-   * @see #setOCAFnSet(int)
+   * @see #setOCAFnSet(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectFunctionSetSpecification_OCAFnSet()
    * @model
    * @generated
    */
-  int getOCAFnSet();
+  Integer getOCAFnSet();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectFunctionSetSpecification#getOCAFnSet <em>OCA Fn Set</em>}' attribute.
@@ -111,6 +111,6 @@ public interface ObjectFunctionSetSpecification extends triplet
    * @see #getOCAFnSet()
    * @generated
    */
-  void setOCAFnSet(int value);
+  void setOCAFnSet(Integer value);
 
 } // ObjectFunctionSetSpecification

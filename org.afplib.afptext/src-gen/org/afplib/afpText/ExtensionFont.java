@@ -27,12 +27,12 @@ public interface ExtensionFont extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>GCSGID</em>' attribute.
-   * @see #setGCSGID(int)
+   * @see #setGCSGID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getExtensionFont_GCSGID()
    * @model
    * @generated
    */
-  int getGCSGID();
+  Integer getGCSGID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ExtensionFont#getGCSGID <em>GCSGID</em>}' attribute.
@@ -42,6 +42,6 @@ public interface ExtensionFont extends triplet
    * @see #getGCSGID()
    * @generated
    */
-  void setGCSGID(int value);
+  void setGCSGID(Integer value);
 
 } // ExtensionFont

@@ -37,7 +37,7 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    * @ordered
    */
-  protected static final int FMT_QUAL_EDEFAULT = 0;
+  protected static final Integer FMT_QUAL_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getFmtQual() <em>Fmt Qual</em>}' attribute.
@@ -47,7 +47,7 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    * @ordered
    */
-  protected int fmtQual = FMT_QUAL_EDEFAULT;
+  protected Integer fmtQual = FMT_QUAL_EDEFAULT;
 
   /**
    * The default value of the '{@link #getRMValue() <em>RM Value</em>}' attribute.
@@ -57,7 +57,7 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    * @ordered
    */
-  protected static final int RM_VALUE_EDEFAULT = 0;
+  protected static final Integer RM_VALUE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getRMValue() <em>RM Value</em>}' attribute.
@@ -67,7 +67,7 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    * @ordered
    */
-  protected int rmValue = RM_VALUE_EDEFAULT;
+  protected Integer rmValue = RM_VALUE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getResClassFlg() <em>Res Class Flg</em>}' attribute.
@@ -77,7 +77,7 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    * @ordered
    */
-  protected static final int RES_CLASS_FLG_EDEFAULT = 0;
+  protected static final Integer RES_CLASS_FLG_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getResClassFlg() <em>Res Class Flg</em>}' attribute.
@@ -87,7 +87,7 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    * @ordered
    */
-  protected int resClassFlg = RES_CLASS_FLG_EDEFAULT;
+  protected Integer resClassFlg = RES_CLASS_FLG_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -116,7 +116,7 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    */
   @Override
-  public int getFmtQual()
+  public Integer getFmtQual()
   {
     return fmtQual;
   }
@@ -127,9 +127,9 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    */
   @Override
-  public void setFmtQual(int newFmtQual)
+  public void setFmtQual(Integer newFmtQual)
   {
-    int oldFmtQual = fmtQual;
+    Integer oldFmtQual = fmtQual;
     fmtQual = newFmtQual;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CRC_RESOURCE_MANAGEMENT__FMT_QUAL, oldFmtQual, fmtQual));
@@ -141,7 +141,7 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    */
   @Override
-  public int getRMValue()
+  public Integer getRMValue()
   {
     return rmValue;
   }
@@ -152,9 +152,9 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    */
   @Override
-  public void setRMValue(int newRMValue)
+  public void setRMValue(Integer newRMValue)
   {
-    int oldRMValue = rmValue;
+    Integer oldRMValue = rmValue;
     rmValue = newRMValue;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CRC_RESOURCE_MANAGEMENT__RM_VALUE, oldRMValue, rmValue));
@@ -166,7 +166,7 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    */
   @Override
-  public int getResClassFlg()
+  public Integer getResClassFlg()
   {
     return resClassFlg;
   }
@@ -177,9 +177,9 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
    * @generated
    */
   @Override
-  public void setResClassFlg(int newResClassFlg)
+  public void setResClassFlg(Integer newResClassFlg)
   {
-    int oldResClassFlg = resClassFlg;
+    Integer oldResClassFlg = resClassFlg;
     resClassFlg = newResClassFlg;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.CRC_RESOURCE_MANAGEMENT__RES_CLASS_FLG, oldResClassFlg, resClassFlg));
@@ -262,11 +262,11 @@ public class CRCResourceManagementImpl extends tripletImpl implements CRCResourc
     switch (featureID)
     {
       case AfpTextPackage.CRC_RESOURCE_MANAGEMENT__FMT_QUAL:
-        return fmtQual != FMT_QUAL_EDEFAULT;
+        return FMT_QUAL_EDEFAULT == null ? fmtQual != null : !FMT_QUAL_EDEFAULT.equals(fmtQual);
       case AfpTextPackage.CRC_RESOURCE_MANAGEMENT__RM_VALUE:
-        return rmValue != RM_VALUE_EDEFAULT;
+        return RM_VALUE_EDEFAULT == null ? rmValue != null : !RM_VALUE_EDEFAULT.equals(rmValue);
       case AfpTextPackage.CRC_RESOURCE_MANAGEMENT__RES_CLASS_FLG:
-        return resClassFlg != RES_CLASS_FLG_EDEFAULT;
+        return RES_CLASS_FLG_EDEFAULT == null ? resClassFlg != null : !RES_CLASS_FLG_EDEFAULT.equals(resClassFlg);
     }
     return super.eIsSet(featureID);
   }

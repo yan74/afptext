@@ -36,7 +36,7 @@ public class BandImageRGImpl extends MinimalEObjectImpl.Container implements Ban
    * @generated
    * @ordered
    */
-  protected static final int BITCNT_EDEFAULT = 0;
+  protected static final Integer BITCNT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getBITCNT() <em>BITCNT</em>}' attribute.
@@ -46,7 +46,7 @@ public class BandImageRGImpl extends MinimalEObjectImpl.Container implements Ban
    * @generated
    * @ordered
    */
-  protected int bitcnt = BITCNT_EDEFAULT;
+  protected Integer bitcnt = BITCNT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -75,7 +75,7 @@ public class BandImageRGImpl extends MinimalEObjectImpl.Container implements Ban
    * @generated
    */
   @Override
-  public int getBITCNT()
+  public Integer getBITCNT()
   {
     return bitcnt;
   }
@@ -86,9 +86,9 @@ public class BandImageRGImpl extends MinimalEObjectImpl.Container implements Ban
    * @generated
    */
   @Override
-  public void setBITCNT(int newBITCNT)
+  public void setBITCNT(Integer newBITCNT)
   {
-    int oldBITCNT = bitcnt;
+    Integer oldBITCNT = bitcnt;
     bitcnt = newBITCNT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BAND_IMAGE_RG__BITCNT, oldBITCNT, bitcnt));
@@ -155,7 +155,7 @@ public class BandImageRGImpl extends MinimalEObjectImpl.Container implements Ban
     switch (featureID)
     {
       case AfpTextPackage.BAND_IMAGE_RG__BITCNT:
-        return bitcnt != BITCNT_EDEFAULT;
+        return BITCNT_EDEFAULT == null ? bitcnt != null : !BITCNT_EDEFAULT.equals(bitcnt);
     }
     return super.eIsSet(featureID);
   }

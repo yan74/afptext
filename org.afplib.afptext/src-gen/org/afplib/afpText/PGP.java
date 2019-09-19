@@ -29,12 +29,12 @@ public interface PGP extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Constant</em>' attribute.
-   * @see #setConstant(int)
+   * @see #setConstant(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGP_Constant()
    * @model
    * @generated
    */
-  int getConstant();
+  Integer getConstant();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGP#getConstant <em>Constant</em>}' attribute.
@@ -44,7 +44,7 @@ public interface PGP extends structuredField
    * @see #getConstant()
    * @generated
    */
-  void setConstant(int value);
+  void setConstant(Integer value);
 
   /**
    * Returns the value of the '<em><b>Rg</b></em>' containment reference list.

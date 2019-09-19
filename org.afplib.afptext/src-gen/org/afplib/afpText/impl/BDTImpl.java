@@ -67,7 +67,7 @@ public class BDTImpl extends structuredFieldImpl implements BDT
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -77,7 +77,7 @@ public class BDTImpl extends structuredFieldImpl implements BDT
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -141,7 +141,7 @@ public class BDTImpl extends structuredFieldImpl implements BDT
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -152,9 +152,9 @@ public class BDTImpl extends structuredFieldImpl implements BDT
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDT__RESERVED, oldReserved, reserved));
@@ -272,7 +272,7 @@ public class BDTImpl extends structuredFieldImpl implements BDT
       case AfpTextPackage.BDT__DOC_NAME:
         return DOC_NAME_EDEFAULT == null ? docName != null : !DOC_NAME_EDEFAULT.equals(docName);
       case AfpTextPackage.BDT__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.BDT__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

@@ -52,7 +52,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected static final int XPG_BASE_EDEFAULT = 0;
+  protected static final Integer XPG_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXpgBase() <em>Xpg Base</em>}' attribute.
@@ -62,7 +62,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected int xpgBase = XPG_BASE_EDEFAULT;
+  protected Integer xpgBase = XPG_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYpgBase() <em>Ypg Base</em>}' attribute.
@@ -72,7 +72,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected static final int YPG_BASE_EDEFAULT = 0;
+  protected static final Integer YPG_BASE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYpgBase() <em>Ypg Base</em>}' attribute.
@@ -82,7 +82,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected int ypgBase = YPG_BASE_EDEFAULT;
+  protected Integer ypgBase = YPG_BASE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXpgUnits() <em>Xpg Units</em>}' attribute.
@@ -92,7 +92,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected static final int XPG_UNITS_EDEFAULT = 0;
+  protected static final Integer XPG_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXpgUnits() <em>Xpg Units</em>}' attribute.
@@ -102,7 +102,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected int xpgUnits = XPG_UNITS_EDEFAULT;
+  protected Integer xpgUnits = XPG_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYpgUnits() <em>Ypg Units</em>}' attribute.
@@ -112,7 +112,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected static final int YPG_UNITS_EDEFAULT = 0;
+  protected static final Integer YPG_UNITS_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYpgUnits() <em>Ypg Units</em>}' attribute.
@@ -122,7 +122,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected int ypgUnits = YPG_UNITS_EDEFAULT;
+  protected Integer ypgUnits = YPG_UNITS_EDEFAULT;
 
   /**
    * The default value of the '{@link #getXpgSize() <em>Xpg Size</em>}' attribute.
@@ -132,7 +132,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected static final int XPG_SIZE_EDEFAULT = 0;
+  protected static final Integer XPG_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getXpgSize() <em>Xpg Size</em>}' attribute.
@@ -142,7 +142,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected int xpgSize = XPG_SIZE_EDEFAULT;
+  protected Integer xpgSize = XPG_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getYpgSize() <em>Ypg Size</em>}' attribute.
@@ -152,7 +152,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected static final int YPG_SIZE_EDEFAULT = 0;
+  protected static final Integer YPG_SIZE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getYpgSize() <em>Ypg Size</em>}' attribute.
@@ -162,7 +162,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected int ypgSize = YPG_SIZE_EDEFAULT;
+  protected Integer ypgSize = YPG_SIZE_EDEFAULT;
 
   /**
    * The default value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -172,7 +172,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected static final int RESERVED_EDEFAULT = 0;
+  protected static final Integer RESERVED_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getReserved() <em>Reserved</em>}' attribute.
@@ -182,7 +182,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    * @ordered
    */
-  protected int reserved = RESERVED_EDEFAULT;
+  protected Integer reserved = RESERVED_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -221,7 +221,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public int getXpgBase()
+  public Integer getXpgBase()
   {
     return xpgBase;
   }
@@ -232,9 +232,9 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public void setXpgBase(int newXpgBase)
+  public void setXpgBase(Integer newXpgBase)
   {
-    int oldXpgBase = xpgBase;
+    Integer oldXpgBase = xpgBase;
     xpgBase = newXpgBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGD__XPG_BASE, oldXpgBase, xpgBase));
@@ -246,7 +246,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public int getYpgBase()
+  public Integer getYpgBase()
   {
     return ypgBase;
   }
@@ -257,9 +257,9 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public void setYpgBase(int newYpgBase)
+  public void setYpgBase(Integer newYpgBase)
   {
-    int oldYpgBase = ypgBase;
+    Integer oldYpgBase = ypgBase;
     ypgBase = newYpgBase;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGD__YPG_BASE, oldYpgBase, ypgBase));
@@ -271,7 +271,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public int getXpgUnits()
+  public Integer getXpgUnits()
   {
     return xpgUnits;
   }
@@ -282,9 +282,9 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public void setXpgUnits(int newXpgUnits)
+  public void setXpgUnits(Integer newXpgUnits)
   {
-    int oldXpgUnits = xpgUnits;
+    Integer oldXpgUnits = xpgUnits;
     xpgUnits = newXpgUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGD__XPG_UNITS, oldXpgUnits, xpgUnits));
@@ -296,7 +296,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public int getYpgUnits()
+  public Integer getYpgUnits()
   {
     return ypgUnits;
   }
@@ -307,9 +307,9 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public void setYpgUnits(int newYpgUnits)
+  public void setYpgUnits(Integer newYpgUnits)
   {
-    int oldYpgUnits = ypgUnits;
+    Integer oldYpgUnits = ypgUnits;
     ypgUnits = newYpgUnits;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGD__YPG_UNITS, oldYpgUnits, ypgUnits));
@@ -321,7 +321,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public int getXpgSize()
+  public Integer getXpgSize()
   {
     return xpgSize;
   }
@@ -332,9 +332,9 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public void setXpgSize(int newXpgSize)
+  public void setXpgSize(Integer newXpgSize)
   {
-    int oldXpgSize = xpgSize;
+    Integer oldXpgSize = xpgSize;
     xpgSize = newXpgSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGD__XPG_SIZE, oldXpgSize, xpgSize));
@@ -346,7 +346,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public int getYpgSize()
+  public Integer getYpgSize()
   {
     return ypgSize;
   }
@@ -357,9 +357,9 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public void setYpgSize(int newYpgSize)
+  public void setYpgSize(Integer newYpgSize)
   {
-    int oldYpgSize = ypgSize;
+    Integer oldYpgSize = ypgSize;
     ypgSize = newYpgSize;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGD__YPG_SIZE, oldYpgSize, ypgSize));
@@ -371,7 +371,7 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public int getReserved()
+  public Integer getReserved()
   {
     return reserved;
   }
@@ -382,9 +382,9 @@ public class PGDImpl extends structuredFieldImpl implements PGD
    * @generated
    */
   @Override
-  public void setReserved(int newReserved)
+  public void setReserved(Integer newReserved)
   {
-    int oldReserved = reserved;
+    Integer oldReserved = reserved;
     reserved = newReserved;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PGD__RESERVED, oldReserved, reserved));
@@ -540,19 +540,19 @@ public class PGDImpl extends structuredFieldImpl implements PGD
     switch (featureID)
     {
       case AfpTextPackage.PGD__XPG_BASE:
-        return xpgBase != XPG_BASE_EDEFAULT;
+        return XPG_BASE_EDEFAULT == null ? xpgBase != null : !XPG_BASE_EDEFAULT.equals(xpgBase);
       case AfpTextPackage.PGD__YPG_BASE:
-        return ypgBase != YPG_BASE_EDEFAULT;
+        return YPG_BASE_EDEFAULT == null ? ypgBase != null : !YPG_BASE_EDEFAULT.equals(ypgBase);
       case AfpTextPackage.PGD__XPG_UNITS:
-        return xpgUnits != XPG_UNITS_EDEFAULT;
+        return XPG_UNITS_EDEFAULT == null ? xpgUnits != null : !XPG_UNITS_EDEFAULT.equals(xpgUnits);
       case AfpTextPackage.PGD__YPG_UNITS:
-        return ypgUnits != YPG_UNITS_EDEFAULT;
+        return YPG_UNITS_EDEFAULT == null ? ypgUnits != null : !YPG_UNITS_EDEFAULT.equals(ypgUnits);
       case AfpTextPackage.PGD__XPG_SIZE:
-        return xpgSize != XPG_SIZE_EDEFAULT;
+        return XPG_SIZE_EDEFAULT == null ? xpgSize != null : !XPG_SIZE_EDEFAULT.equals(xpgSize);
       case AfpTextPackage.PGD__YPG_SIZE:
-        return ypgSize != YPG_SIZE_EDEFAULT;
+        return YPG_SIZE_EDEFAULT == null ? ypgSize != null : !YPG_SIZE_EDEFAULT.equals(ypgSize);
       case AfpTextPackage.PGD__RESERVED:
-        return reserved != RESERVED_EDEFAULT;
+        return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
       case AfpTextPackage.PGD__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

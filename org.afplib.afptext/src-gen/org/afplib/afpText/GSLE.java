@@ -27,12 +27,12 @@ public interface GSLE extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LINEEND</em>' attribute.
-   * @see #setLINEEND(int)
+   * @see #setLINEEND(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getGSLE_LINEEND()
    * @model
    * @generated
    */
-  int getLINEEND();
+  Integer getLINEEND();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.GSLE#getLINEEND <em>LINEEND</em>}' attribute.
@@ -42,6 +42,6 @@ public interface GSLE extends triplet
    * @see #getLINEEND()
    * @generated
    */
-  void setLINEEND(int value);
+  void setLINEEND(Integer value);
 
 } // GSLE

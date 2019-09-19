@@ -35,7 +35,7 @@ public class GSLTImpl extends tripletImpl implements GSLT
    * @generated
    * @ordered
    */
-  protected static final int LINETYPE_EDEFAULT = 0;
+  protected static final Integer LINETYPE_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getLINETYPE() <em>LINETYPE</em>}' attribute.
@@ -45,7 +45,7 @@ public class GSLTImpl extends tripletImpl implements GSLT
    * @generated
    * @ordered
    */
-  protected int linetype = LINETYPE_EDEFAULT;
+  protected Integer linetype = LINETYPE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -74,7 +74,7 @@ public class GSLTImpl extends tripletImpl implements GSLT
    * @generated
    */
   @Override
-  public int getLINETYPE()
+  public Integer getLINETYPE()
   {
     return linetype;
   }
@@ -85,9 +85,9 @@ public class GSLTImpl extends tripletImpl implements GSLT
    * @generated
    */
   @Override
-  public void setLINETYPE(int newLINETYPE)
+  public void setLINETYPE(Integer newLINETYPE)
   {
-    int oldLINETYPE = linetype;
+    Integer oldLINETYPE = linetype;
     linetype = newLINETYPE;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.GSLT__LINETYPE, oldLINETYPE, linetype));
@@ -154,7 +154,7 @@ public class GSLTImpl extends tripletImpl implements GSLT
     switch (featureID)
     {
       case AfpTextPackage.GSLT__LINETYPE:
-        return linetype != LINETYPE_EDEFAULT;
+        return LINETYPE_EDEFAULT == null ? linetype != null : !LINETYPE_EDEFAULT.equals(linetype);
     }
     return super.eIsSet(featureID);
   }

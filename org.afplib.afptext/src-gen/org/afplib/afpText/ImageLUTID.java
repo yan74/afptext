@@ -27,12 +27,12 @@ public interface ImageLUTID extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>LUTID</em>' attribute.
-   * @see #setLUTID(int)
+   * @see #setLUTID(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getImageLUTID_LUTID()
    * @model
    * @generated
    */
-  int getLUTID();
+  Integer getLUTID();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ImageLUTID#getLUTID <em>LUTID</em>}' attribute.
@@ -42,6 +42,6 @@ public interface ImageLUTID extends triplet
    * @see #getLUTID()
    * @generated
    */
-  void setLUTID(int value);
+  void setLUTID(Integer value);
 
 } // ImageLUTID

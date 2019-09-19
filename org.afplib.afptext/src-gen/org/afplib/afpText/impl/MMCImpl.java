@@ -47,7 +47,7 @@ public class MMCImpl extends structuredFieldImpl implements MMC
    * @generated
    * @ordered
    */
-  protected static final int MM_CID_EDEFAULT = 0;
+  protected static final Integer MM_CID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getMMCid() <em>MM Cid</em>}' attribute.
@@ -57,7 +57,7 @@ public class MMCImpl extends structuredFieldImpl implements MMC
    * @generated
    * @ordered
    */
-  protected int mmCid = MM_CID_EDEFAULT;
+  protected Integer mmCid = MM_CID_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPARAMETER1() <em>PARAMETER1</em>}' attribute.
@@ -67,7 +67,7 @@ public class MMCImpl extends structuredFieldImpl implements MMC
    * @generated
    * @ordered
    */
-  protected static final int PARAMETER1_EDEFAULT = 0;
+  protected static final Integer PARAMETER1_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPARAMETER1() <em>PARAMETER1</em>}' attribute.
@@ -77,7 +77,7 @@ public class MMCImpl extends structuredFieldImpl implements MMC
    * @generated
    * @ordered
    */
-  protected int parameter1 = PARAMETER1_EDEFAULT;
+  protected Integer parameter1 = PARAMETER1_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
@@ -116,7 +116,7 @@ public class MMCImpl extends structuredFieldImpl implements MMC
    * @generated
    */
   @Override
-  public int getMMCid()
+  public Integer getMMCid()
   {
     return mmCid;
   }
@@ -127,9 +127,9 @@ public class MMCImpl extends structuredFieldImpl implements MMC
    * @generated
    */
   @Override
-  public void setMMCid(int newMMCid)
+  public void setMMCid(Integer newMMCid)
   {
-    int oldMMCid = mmCid;
+    Integer oldMMCid = mmCid;
     mmCid = newMMCid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MMC__MM_CID, oldMMCid, mmCid));
@@ -141,7 +141,7 @@ public class MMCImpl extends structuredFieldImpl implements MMC
    * @generated
    */
   @Override
-  public int getPARAMETER1()
+  public Integer getPARAMETER1()
   {
     return parameter1;
   }
@@ -152,9 +152,9 @@ public class MMCImpl extends structuredFieldImpl implements MMC
    * @generated
    */
   @Override
-  public void setPARAMETER1(int newPARAMETER1)
+  public void setPARAMETER1(Integer newPARAMETER1)
   {
-    int oldPARAMETER1 = parameter1;
+    Integer oldPARAMETER1 = parameter1;
     parameter1 = newPARAMETER1;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.MMC__PARAMETER1, oldPARAMETER1, parameter1));
@@ -270,9 +270,9 @@ public class MMCImpl extends structuredFieldImpl implements MMC
     switch (featureID)
     {
       case AfpTextPackage.MMC__MM_CID:
-        return mmCid != MM_CID_EDEFAULT;
+        return MM_CID_EDEFAULT == null ? mmCid != null : !MM_CID_EDEFAULT.equals(mmCid);
       case AfpTextPackage.MMC__PARAMETER1:
-        return parameter1 != PARAMETER1_EDEFAULT;
+        return PARAMETER1_EDEFAULT == null ? parameter1 != null : !PARAMETER1_EDEFAULT.equals(parameter1);
       case AfpTextPackage.MMC__RG:
         return rg != null && !rg.isEmpty();
     }

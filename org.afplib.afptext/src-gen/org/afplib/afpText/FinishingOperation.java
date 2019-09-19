@@ -31,12 +31,12 @@ public interface FinishingOperation extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FOp Type</em>' attribute.
-   * @see #setFOpType(int)
+   * @see #setFOpType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFinishingOperation_FOpType()
    * @model
    * @generated
    */
-  int getFOpType();
+  Integer getFOpType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FinishingOperation#getFOpType <em>FOp Type</em>}' attribute.
@@ -46,19 +46,19 @@ public interface FinishingOperation extends triplet
    * @see #getFOpType()
    * @generated
    */
-  void setFOpType(int value);
+  void setFOpType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ref Edge</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ref Edge</em>' attribute.
-   * @see #setRefEdge(int)
+   * @see #setRefEdge(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFinishingOperation_RefEdge()
    * @model
    * @generated
    */
-  int getRefEdge();
+  Integer getRefEdge();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FinishingOperation#getRefEdge <em>Ref Edge</em>}' attribute.
@@ -68,19 +68,19 @@ public interface FinishingOperation extends triplet
    * @see #getRefEdge()
    * @generated
    */
-  void setRefEdge(int value);
+  void setRefEdge(Integer value);
 
   /**
    * Returns the value of the '<em><b>FOp Cnt</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>FOp Cnt</em>' attribute.
-   * @see #setFOpCnt(int)
+   * @see #setFOpCnt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFinishingOperation_FOpCnt()
    * @model
    * @generated
    */
-  int getFOpCnt();
+  Integer getFOpCnt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FinishingOperation#getFOpCnt <em>FOp Cnt</em>}' attribute.
@@ -90,19 +90,19 @@ public interface FinishingOperation extends triplet
    * @see #getFOpCnt()
    * @generated
    */
-  void setFOpCnt(int value);
+  void setFOpCnt(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ax Offst</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ax Offst</em>' attribute.
-   * @see #setAxOffst(int)
+   * @see #setAxOffst(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getFinishingOperation_AxOffst()
    * @model
    * @generated
    */
-  int getAxOffst();
+  Integer getAxOffst();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.FinishingOperation#getAxOffst <em>Ax Offst</em>}' attribute.
@@ -112,7 +112,7 @@ public interface FinishingOperation extends triplet
    * @see #getAxOffst()
    * @generated
    */
-  void setAxOffst(int value);
+  void setAxOffst(Integer value);
 
   /**
    * Returns the value of the '<em><b>Op Pos</b></em>' attribute.

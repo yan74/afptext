@@ -46,7 +46,7 @@ public class PMCImpl extends structuredFieldImpl implements PMC
    * @generated
    * @ordered
    */
-  protected static final int PM_CID_EDEFAULT = 0;
+  protected static final Integer PM_CID_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPMCid() <em>PM Cid</em>}' attribute.
@@ -56,7 +56,7 @@ public class PMCImpl extends structuredFieldImpl implements PMC
    * @generated
    * @ordered
    */
-  protected int pmCid = PM_CID_EDEFAULT;
+  protected Integer pmCid = PM_CID_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -95,7 +95,7 @@ public class PMCImpl extends structuredFieldImpl implements PMC
    * @generated
    */
   @Override
-  public int getPMCid()
+  public Integer getPMCid()
   {
     return pmCid;
   }
@@ -106,9 +106,9 @@ public class PMCImpl extends structuredFieldImpl implements PMC
    * @generated
    */
   @Override
-  public void setPMCid(int newPMCid)
+  public void setPMCid(Integer newPMCid)
   {
-    int oldPMCid = pmCid;
+    Integer oldPMCid = pmCid;
     pmCid = newPMCid;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.PMC__PM_CID, oldPMCid, pmCid));
@@ -216,7 +216,7 @@ public class PMCImpl extends structuredFieldImpl implements PMC
     switch (featureID)
     {
       case AfpTextPackage.PMC__PM_CID:
-        return pmCid != PM_CID_EDEFAULT;
+        return PM_CID_EDEFAULT == null ? pmCid != null : !PM_CID_EDEFAULT.equals(pmCid);
       case AfpTextPackage.PMC__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

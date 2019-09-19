@@ -59,12 +59,12 @@ public interface IOB extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Obj Type</em>' attribute.
-   * @see #setObjType(int)
+   * @see #setObjType(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOB_ObjType()
    * @model
    * @generated
    */
-  int getObjType();
+  Integer getObjType();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOB#getObjType <em>Obj Type</em>}' attribute.
@@ -74,19 +74,19 @@ public interface IOB extends structuredField
    * @see #getObjType()
    * @generated
    */
-  void setObjType(int value);
+  void setObjType(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoa Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoa Oset</em>' attribute.
-   * @see #setXoaOset(int)
+   * @see #setXoaOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOB_XoaOset()
    * @model
    * @generated
    */
-  int getXoaOset();
+  Integer getXoaOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOB#getXoaOset <em>Xoa Oset</em>}' attribute.
@@ -96,19 +96,19 @@ public interface IOB extends structuredField
    * @see #getXoaOset()
    * @generated
    */
-  void setXoaOset(int value);
+  void setXoaOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoa Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoa Oset</em>' attribute.
-   * @see #setYoaOset(int)
+   * @see #setYoaOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOB_YoaOset()
    * @model
    * @generated
    */
-  int getYoaOset();
+  Integer getYoaOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOB#getYoaOset <em>Yoa Oset</em>}' attribute.
@@ -118,19 +118,19 @@ public interface IOB extends structuredField
    * @see #getYoaOset()
    * @generated
    */
-  void setYoaOset(int value);
+  void setYoaOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoa Orent</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoa Orent</em>' attribute.
-   * @see #setXoaOrent(int)
+   * @see #setXoaOrent(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOB_XoaOrent()
    * @model
    * @generated
    */
-  int getXoaOrent();
+  Integer getXoaOrent();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOB#getXoaOrent <em>Xoa Orent</em>}' attribute.
@@ -140,19 +140,19 @@ public interface IOB extends structuredField
    * @see #getXoaOrent()
    * @generated
    */
-  void setXoaOrent(int value);
+  void setXoaOrent(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoa Orent</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoa Orent</em>' attribute.
-   * @see #setYoaOrent(int)
+   * @see #setYoaOrent(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOB_YoaOrent()
    * @model
    * @generated
    */
-  int getYoaOrent();
+  Integer getYoaOrent();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOB#getYoaOrent <em>Yoa Orent</em>}' attribute.
@@ -162,19 +162,19 @@ public interface IOB extends structuredField
    * @see #getYoaOrent()
    * @generated
    */
-  void setYoaOrent(int value);
+  void setYoaOrent(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xoca Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xoca Oset</em>' attribute.
-   * @see #setXocaOset(int)
+   * @see #setXocaOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOB_XocaOset()
    * @model
    * @generated
    */
-  int getXocaOset();
+  Integer getXocaOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOB#getXocaOset <em>Xoca Oset</em>}' attribute.
@@ -184,19 +184,19 @@ public interface IOB extends structuredField
    * @see #getXocaOset()
    * @generated
    */
-  void setXocaOset(int value);
+  void setXocaOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Yoca Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Yoca Oset</em>' attribute.
-   * @see #setYocaOset(int)
+   * @see #setYocaOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOB_YocaOset()
    * @model
    * @generated
    */
-  int getYocaOset();
+  Integer getYocaOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOB#getYocaOset <em>Yoca Oset</em>}' attribute.
@@ -206,19 +206,19 @@ public interface IOB extends structuredField
    * @see #getYocaOset()
    * @generated
    */
-  void setYocaOset(int value);
+  void setYocaOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ref CSys</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ref CSys</em>' attribute.
-   * @see #setRefCSys(int)
+   * @see #setRefCSys(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getIOB_RefCSys()
    * @model
    * @generated
    */
-  int getRefCSys();
+  Integer getRefCSys();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.IOB#getRefCSys <em>Ref CSys</em>}' attribute.
@@ -228,7 +228,7 @@ public interface IOB extends structuredField
    * @see #getRefCSys()
    * @generated
    */
-  void setRefCSys(int value);
+  void setRefCSys(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

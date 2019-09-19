@@ -36,7 +36,7 @@ public class ObjectByteExtentImpl extends tripletImpl implements ObjectByteExten
    * @generated
    * @ordered
    */
-  protected static final int BYTE_EXT_EDEFAULT = 0;
+  protected static final Integer BYTE_EXT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getByteExt() <em>Byte Ext</em>}' attribute.
@@ -46,7 +46,7 @@ public class ObjectByteExtentImpl extends tripletImpl implements ObjectByteExten
    * @generated
    * @ordered
    */
-  protected int byteExt = BYTE_EXT_EDEFAULT;
+  protected Integer byteExt = BYTE_EXT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getByteExtHi() <em>Byte Ext Hi</em>}' attribute.
@@ -56,7 +56,7 @@ public class ObjectByteExtentImpl extends tripletImpl implements ObjectByteExten
    * @generated
    * @ordered
    */
-  protected static final int BYTE_EXT_HI_EDEFAULT = 0;
+  protected static final Integer BYTE_EXT_HI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getByteExtHi() <em>Byte Ext Hi</em>}' attribute.
@@ -66,7 +66,7 @@ public class ObjectByteExtentImpl extends tripletImpl implements ObjectByteExten
    * @generated
    * @ordered
    */
-  protected int byteExtHi = BYTE_EXT_HI_EDEFAULT;
+  protected Integer byteExtHi = BYTE_EXT_HI_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class ObjectByteExtentImpl extends tripletImpl implements ObjectByteExten
    * @generated
    */
   @Override
-  public int getByteExt()
+  public Integer getByteExt()
   {
     return byteExt;
   }
@@ -106,9 +106,9 @@ public class ObjectByteExtentImpl extends tripletImpl implements ObjectByteExten
    * @generated
    */
   @Override
-  public void setByteExt(int newByteExt)
+  public void setByteExt(Integer newByteExt)
   {
-    int oldByteExt = byteExt;
+    Integer oldByteExt = byteExt;
     byteExt = newByteExt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_BYTE_EXTENT__BYTE_EXT, oldByteExt, byteExt));
@@ -120,7 +120,7 @@ public class ObjectByteExtentImpl extends tripletImpl implements ObjectByteExten
    * @generated
    */
   @Override
-  public int getByteExtHi()
+  public Integer getByteExtHi()
   {
     return byteExtHi;
   }
@@ -131,9 +131,9 @@ public class ObjectByteExtentImpl extends tripletImpl implements ObjectByteExten
    * @generated
    */
   @Override
-  public void setByteExtHi(int newByteExtHi)
+  public void setByteExtHi(Integer newByteExtHi)
   {
-    int oldByteExtHi = byteExtHi;
+    Integer oldByteExtHi = byteExtHi;
     byteExtHi = newByteExtHi;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_BYTE_EXTENT__BYTE_EXT_HI, oldByteExtHi, byteExtHi));
@@ -208,9 +208,9 @@ public class ObjectByteExtentImpl extends tripletImpl implements ObjectByteExten
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_BYTE_EXTENT__BYTE_EXT:
-        return byteExt != BYTE_EXT_EDEFAULT;
+        return BYTE_EXT_EDEFAULT == null ? byteExt != null : !BYTE_EXT_EDEFAULT.equals(byteExt);
       case AfpTextPackage.OBJECT_BYTE_EXTENT__BYTE_EXT_HI:
-        return byteExtHi != BYTE_EXT_HI_EDEFAULT;
+        return BYTE_EXT_HI_EDEFAULT == null ? byteExtHi != null : !BYTE_EXT_HI_EDEFAULT.equals(byteExtHi);
     }
     return super.eIsSet(featureID);
   }

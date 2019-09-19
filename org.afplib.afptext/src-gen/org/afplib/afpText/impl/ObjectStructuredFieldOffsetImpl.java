@@ -36,7 +36,7 @@ public class ObjectStructuredFieldOffsetImpl extends tripletImpl implements Obje
    * @generated
    * @ordered
    */
-  protected static final int SF_OFF_EDEFAULT = 0;
+  protected static final Integer SF_OFF_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSFOff() <em>SF Off</em>}' attribute.
@@ -46,7 +46,7 @@ public class ObjectStructuredFieldOffsetImpl extends tripletImpl implements Obje
    * @generated
    * @ordered
    */
-  protected int sfOff = SF_OFF_EDEFAULT;
+  protected Integer sfOff = SF_OFF_EDEFAULT;
 
   /**
    * The default value of the '{@link #getSFOffHi() <em>SF Off Hi</em>}' attribute.
@@ -56,7 +56,7 @@ public class ObjectStructuredFieldOffsetImpl extends tripletImpl implements Obje
    * @generated
    * @ordered
    */
-  protected static final int SF_OFF_HI_EDEFAULT = 0;
+  protected static final Integer SF_OFF_HI_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getSFOffHi() <em>SF Off Hi</em>}' attribute.
@@ -66,7 +66,7 @@ public class ObjectStructuredFieldOffsetImpl extends tripletImpl implements Obje
    * @generated
    * @ordered
    */
-  protected int sfOffHi = SF_OFF_HI_EDEFAULT;
+  protected Integer sfOffHi = SF_OFF_HI_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -95,7 +95,7 @@ public class ObjectStructuredFieldOffsetImpl extends tripletImpl implements Obje
    * @generated
    */
   @Override
-  public int getSFOff()
+  public Integer getSFOff()
   {
     return sfOff;
   }
@@ -106,9 +106,9 @@ public class ObjectStructuredFieldOffsetImpl extends tripletImpl implements Obje
    * @generated
    */
   @Override
-  public void setSFOff(int newSFOff)
+  public void setSFOff(Integer newSFOff)
   {
-    int oldSFOff = sfOff;
+    Integer oldSFOff = sfOff;
     sfOff = newSFOff;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_STRUCTURED_FIELD_OFFSET__SF_OFF, oldSFOff, sfOff));
@@ -120,7 +120,7 @@ public class ObjectStructuredFieldOffsetImpl extends tripletImpl implements Obje
    * @generated
    */
   @Override
-  public int getSFOffHi()
+  public Integer getSFOffHi()
   {
     return sfOffHi;
   }
@@ -131,9 +131,9 @@ public class ObjectStructuredFieldOffsetImpl extends tripletImpl implements Obje
    * @generated
    */
   @Override
-  public void setSFOffHi(int newSFOffHi)
+  public void setSFOffHi(Integer newSFOffHi)
   {
-    int oldSFOffHi = sfOffHi;
+    Integer oldSFOffHi = sfOffHi;
     sfOffHi = newSFOffHi;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.OBJECT_STRUCTURED_FIELD_OFFSET__SF_OFF_HI, oldSFOffHi, sfOffHi));
@@ -208,9 +208,9 @@ public class ObjectStructuredFieldOffsetImpl extends tripletImpl implements Obje
     switch (featureID)
     {
       case AfpTextPackage.OBJECT_STRUCTURED_FIELD_OFFSET__SF_OFF:
-        return sfOff != SF_OFF_EDEFAULT;
+        return SF_OFF_EDEFAULT == null ? sfOff != null : !SF_OFF_EDEFAULT.equals(sfOff);
       case AfpTextPackage.OBJECT_STRUCTURED_FIELD_OFFSET__SF_OFF_HI:
-        return sfOffHi != SF_OFF_HI_EDEFAULT;
+        return SF_OFF_HI_EDEFAULT == null ? sfOffHi != null : !SF_OFF_HI_EDEFAULT.equals(sfOffHi);
     }
     return super.eIsSet(featureID);
   }

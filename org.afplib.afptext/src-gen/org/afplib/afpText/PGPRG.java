@@ -34,12 +34,12 @@ public interface PGPRG extends EObject
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>RG Length</em>' attribute.
-   * @see #setRGLength(int)
+   * @see #setRGLength(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGPRG_RGLength()
    * @model
    * @generated
    */
-  int getRGLength();
+  Integer getRGLength();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGPRG#getRGLength <em>RG Length</em>}' attribute.
@@ -49,19 +49,19 @@ public interface PGPRG extends EObject
    * @see #getRGLength()
    * @generated
    */
-  void setRGLength(int value);
+  void setRGLength(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xm Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xm Oset</em>' attribute.
-   * @see #setXmOset(int)
+   * @see #setXmOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGPRG_XmOset()
    * @model
    * @generated
    */
-  int getXmOset();
+  Integer getXmOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGPRG#getXmOset <em>Xm Oset</em>}' attribute.
@@ -71,19 +71,19 @@ public interface PGPRG extends EObject
    * @see #getXmOset()
    * @generated
    */
-  void setXmOset(int value);
+  void setXmOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ym Oset</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ym Oset</em>' attribute.
-   * @see #setYmOset(int)
+   * @see #setYmOset(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGPRG_YmOset()
    * @model
    * @generated
    */
-  int getYmOset();
+  Integer getYmOset();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGPRG#getYmOset <em>Ym Oset</em>}' attribute.
@@ -93,19 +93,19 @@ public interface PGPRG extends EObject
    * @see #getYmOset()
    * @generated
    */
-  void setYmOset(int value);
+  void setYmOset(Integer value);
 
   /**
    * Returns the value of the '<em><b>PGorient</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PGorient</em>' attribute.
-   * @see #setPGorient(int)
+   * @see #setPGorient(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGPRG_PGorient()
    * @model
    * @generated
    */
-  int getPGorient();
+  Integer getPGorient();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGPRG#getPGorient <em>PGorient</em>}' attribute.
@@ -115,19 +115,19 @@ public interface PGPRG extends EObject
    * @see #getPGorient()
    * @generated
    */
-  void setPGorient(int value);
+  void setPGorient(Integer value);
 
   /**
    * Returns the value of the '<em><b>SHside</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SHside</em>' attribute.
-   * @see #setSHside(int)
+   * @see #setSHside(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGPRG_SHside()
    * @model
    * @generated
    */
-  int getSHside();
+  Integer getSHside();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGPRG#getSHside <em>SHside</em>}' attribute.
@@ -137,19 +137,19 @@ public interface PGPRG extends EObject
    * @see #getSHside()
    * @generated
    */
-  void setSHside(int value);
+  void setSHside(Integer value);
 
   /**
    * Returns the value of the '<em><b>Pg Flgs</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Pg Flgs</em>' attribute.
-   * @see #setPgFlgs(int)
+   * @see #setPgFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGPRG_PgFlgs()
    * @model
    * @generated
    */
-  int getPgFlgs();
+  Integer getPgFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGPRG#getPgFlgs <em>Pg Flgs</em>}' attribute.
@@ -159,19 +159,19 @@ public interface PGPRG extends EObject
    * @see #getPgFlgs()
    * @generated
    */
-  void setPgFlgs(int value);
+  void setPgFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>PM Cid</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>PM Cid</em>' attribute.
-   * @see #setPMCid(int)
+   * @see #setPMCid(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getPGPRG_PMCid()
    * @model
    * @generated
    */
-  int getPMCid();
+  Integer getPMCid();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.PGPRG#getPMCid <em>PM Cid</em>}' attribute.
@@ -181,6 +181,6 @@ public interface PGPRG extends EObject
    * @see #getPMCid()
    * @generated
    */
-  void setPMCid(int value);
+  void setPMCid(Integer value);
 
 } // PGPRG

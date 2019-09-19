@@ -67,7 +67,7 @@ public class BDMImpl extends structuredFieldImpl implements BDM
    * @generated
    * @ordered
    */
-  protected static final int DAT_FMT_EDEFAULT = 0;
+  protected static final Integer DAT_FMT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDatFmt() <em>Dat Fmt</em>}' attribute.
@@ -77,7 +77,7 @@ public class BDMImpl extends structuredFieldImpl implements BDM
    * @generated
    * @ordered
    */
-  protected int datFmt = DAT_FMT_EDEFAULT;
+  protected Integer datFmt = DAT_FMT_EDEFAULT;
 
   /**
    * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
@@ -141,7 +141,7 @@ public class BDMImpl extends structuredFieldImpl implements BDM
    * @generated
    */
   @Override
-  public int getDatFmt()
+  public Integer getDatFmt()
   {
     return datFmt;
   }
@@ -152,9 +152,9 @@ public class BDMImpl extends structuredFieldImpl implements BDM
    * @generated
    */
   @Override
-  public void setDatFmt(int newDatFmt)
+  public void setDatFmt(Integer newDatFmt)
   {
-    int oldDatFmt = datFmt;
+    Integer oldDatFmt = datFmt;
     datFmt = newDatFmt;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.BDM__DAT_FMT, oldDatFmt, datFmt));
@@ -272,7 +272,7 @@ public class BDMImpl extends structuredFieldImpl implements BDM
       case AfpTextPackage.BDM__DM_NAME:
         return DM_NAME_EDEFAULT == null ? dmName != null : !DM_NAME_EDEFAULT.equals(dmName);
       case AfpTextPackage.BDM__DAT_FMT:
-        return datFmt != DAT_FMT_EDEFAULT;
+        return DAT_FMT_EDEFAULT == null ? datFmt != null : !DAT_FMT_EDEFAULT.equals(datFmt);
       case AfpTextPackage.BDM__TRIPLETS:
         return triplets != null && !triplets.isEmpty();
     }

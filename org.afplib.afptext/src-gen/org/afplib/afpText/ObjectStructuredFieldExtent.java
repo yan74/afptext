@@ -28,12 +28,12 @@ public interface ObjectStructuredFieldExtent extends triplet
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SF Ext</em>' attribute.
-   * @see #setSFExt(int)
+   * @see #setSFExt(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectStructuredFieldExtent_SFExt()
    * @model
    * @generated
    */
-  int getSFExt();
+  Integer getSFExt();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectStructuredFieldExtent#getSFExt <em>SF Ext</em>}' attribute.
@@ -43,19 +43,19 @@ public interface ObjectStructuredFieldExtent extends triplet
    * @see #getSFExt()
    * @generated
    */
-  void setSFExt(int value);
+  void setSFExt(Integer value);
 
   /**
    * Returns the value of the '<em><b>SF Ext Hi</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>SF Ext Hi</em>' attribute.
-   * @see #setSFExtHi(int)
+   * @see #setSFExtHi(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getObjectStructuredFieldExtent_SFExtHi()
    * @model
    * @generated
    */
-  int getSFExtHi();
+  Integer getSFExtHi();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.ObjectStructuredFieldExtent#getSFExtHi <em>SF Ext Hi</em>}' attribute.
@@ -65,6 +65,6 @@ public interface ObjectStructuredFieldExtent extends triplet
    * @see #getSFExtHi()
    * @generated
    */
-  void setSFExtHi(int value);
+  void setSFExtHi(Integer value);
 
 } // ObjectStructuredFieldExtent

@@ -35,12 +35,12 @@ public interface MDD extends structuredField
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xm Base</em>' attribute.
-   * @see #setXmBase(int)
+   * @see #setXmBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMDD_XmBase()
    * @model
    * @generated
    */
-  int getXmBase();
+  Integer getXmBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MDD#getXmBase <em>Xm Base</em>}' attribute.
@@ -50,19 +50,19 @@ public interface MDD extends structuredField
    * @see #getXmBase()
    * @generated
    */
-  void setXmBase(int value);
+  void setXmBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ym Base</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ym Base</em>' attribute.
-   * @see #setYmBase(int)
+   * @see #setYmBase(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMDD_YmBase()
    * @model
    * @generated
    */
-  int getYmBase();
+  Integer getYmBase();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MDD#getYmBase <em>Ym Base</em>}' attribute.
@@ -72,19 +72,19 @@ public interface MDD extends structuredField
    * @see #getYmBase()
    * @generated
    */
-  void setYmBase(int value);
+  void setYmBase(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xm Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xm Units</em>' attribute.
-   * @see #setXmUnits(int)
+   * @see #setXmUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMDD_XmUnits()
    * @model
    * @generated
    */
-  int getXmUnits();
+  Integer getXmUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MDD#getXmUnits <em>Xm Units</em>}' attribute.
@@ -94,19 +94,19 @@ public interface MDD extends structuredField
    * @see #getXmUnits()
    * @generated
    */
-  void setXmUnits(int value);
+  void setXmUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ym Units</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ym Units</em>' attribute.
-   * @see #setYmUnits(int)
+   * @see #setYmUnits(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMDD_YmUnits()
    * @model
    * @generated
    */
-  int getYmUnits();
+  Integer getYmUnits();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MDD#getYmUnits <em>Ym Units</em>}' attribute.
@@ -116,19 +116,19 @@ public interface MDD extends structuredField
    * @see #getYmUnits()
    * @generated
    */
-  void setYmUnits(int value);
+  void setYmUnits(Integer value);
 
   /**
    * Returns the value of the '<em><b>Xm Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Xm Size</em>' attribute.
-   * @see #setXmSize(int)
+   * @see #setXmSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMDD_XmSize()
    * @model
    * @generated
    */
-  int getXmSize();
+  Integer getXmSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MDD#getXmSize <em>Xm Size</em>}' attribute.
@@ -138,19 +138,19 @@ public interface MDD extends structuredField
    * @see #getXmSize()
    * @generated
    */
-  void setXmSize(int value);
+  void setXmSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>Ym Size</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>Ym Size</em>' attribute.
-   * @see #setYmSize(int)
+   * @see #setYmSize(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMDD_YmSize()
    * @model
    * @generated
    */
-  int getYmSize();
+  Integer getYmSize();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MDD#getYmSize <em>Ym Size</em>}' attribute.
@@ -160,19 +160,19 @@ public interface MDD extends structuredField
    * @see #getYmSize()
    * @generated
    */
-  void setYmSize(int value);
+  void setYmSize(Integer value);
 
   /**
    * Returns the value of the '<em><b>MDD Flgs</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the value of the '<em>MDD Flgs</em>' attribute.
-   * @see #setMDDFlgs(int)
+   * @see #setMDDFlgs(Integer)
    * @see org.afplib.afpText.AfpTextPackage#getMDD_MDDFlgs()
    * @model
    * @generated
    */
-  int getMDDFlgs();
+  Integer getMDDFlgs();
 
   /**
    * Sets the value of the '{@link org.afplib.afpText.MDD#getMDDFlgs <em>MDD Flgs</em>}' attribute.
@@ -182,7 +182,7 @@ public interface MDD extends structuredField
    * @see #getMDDFlgs()
    * @generated
    */
-  void setMDDFlgs(int value);
+  void setMDDFlgs(Integer value);
 
   /**
    * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.

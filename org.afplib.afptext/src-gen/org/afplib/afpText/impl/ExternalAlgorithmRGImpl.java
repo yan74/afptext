@@ -38,7 +38,7 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    * @ordered
    */
-  protected static final int DIRCTN_EDEFAULT = 0;
+  protected static final Integer DIRCTN_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getDIRCTN() <em>DIRCTN</em>}' attribute.
@@ -48,7 +48,7 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    * @ordered
    */
-  protected int dirctn = DIRCTN_EDEFAULT;
+  protected Integer dirctn = DIRCTN_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPADBDRY() <em>PADBDRY</em>}' attribute.
@@ -58,7 +58,7 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    * @ordered
    */
-  protected static final int PADBDRY_EDEFAULT = 0;
+  protected static final Integer PADBDRY_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPADBDRY() <em>PADBDRY</em>}' attribute.
@@ -68,7 +68,7 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    * @ordered
    */
-  protected int padbdry = PADBDRY_EDEFAULT;
+  protected Integer padbdry = PADBDRY_EDEFAULT;
 
   /**
    * The default value of the '{@link #getPADALMT() <em>PADALMT</em>}' attribute.
@@ -78,7 +78,7 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    * @ordered
    */
-  protected static final int PADALMT_EDEFAULT = 0;
+  protected static final Integer PADALMT_EDEFAULT = null;
 
   /**
    * The cached value of the '{@link #getPADALMT() <em>PADALMT</em>}' attribute.
@@ -88,7 +88,7 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    * @ordered
    */
-  protected int padalmt = PADALMT_EDEFAULT;
+  protected Integer padalmt = PADALMT_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -117,7 +117,7 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    */
   @Override
-  public int getDIRCTN()
+  public Integer getDIRCTN()
   {
     return dirctn;
   }
@@ -128,9 +128,9 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    */
   @Override
-  public void setDIRCTN(int newDIRCTN)
+  public void setDIRCTN(Integer newDIRCTN)
   {
-    int oldDIRCTN = dirctn;
+    Integer oldDIRCTN = dirctn;
     dirctn = newDIRCTN;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.EXTERNAL_ALGORITHM_RG__DIRCTN, oldDIRCTN, dirctn));
@@ -142,7 +142,7 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    */
   @Override
-  public int getPADBDRY()
+  public Integer getPADBDRY()
   {
     return padbdry;
   }
@@ -153,9 +153,9 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    */
   @Override
-  public void setPADBDRY(int newPADBDRY)
+  public void setPADBDRY(Integer newPADBDRY)
   {
-    int oldPADBDRY = padbdry;
+    Integer oldPADBDRY = padbdry;
     padbdry = newPADBDRY;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.EXTERNAL_ALGORITHM_RG__PADBDRY, oldPADBDRY, padbdry));
@@ -167,7 +167,7 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    */
   @Override
-  public int getPADALMT()
+  public Integer getPADALMT()
   {
     return padalmt;
   }
@@ -178,9 +178,9 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
    * @generated
    */
   @Override
-  public void setPADALMT(int newPADALMT)
+  public void setPADALMT(Integer newPADALMT)
   {
-    int oldPADALMT = padalmt;
+    Integer oldPADALMT = padalmt;
     padalmt = newPADALMT;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, AfpTextPackage.EXTERNAL_ALGORITHM_RG__PADALMT, oldPADALMT, padalmt));
@@ -263,11 +263,11 @@ public class ExternalAlgorithmRGImpl extends MinimalEObjectImpl.Container implem
     switch (featureID)
     {
       case AfpTextPackage.EXTERNAL_ALGORITHM_RG__DIRCTN:
-        return dirctn != DIRCTN_EDEFAULT;
+        return DIRCTN_EDEFAULT == null ? dirctn != null : !DIRCTN_EDEFAULT.equals(dirctn);
       case AfpTextPackage.EXTERNAL_ALGORITHM_RG__PADBDRY:
-        return padbdry != PADBDRY_EDEFAULT;
+        return PADBDRY_EDEFAULT == null ? padbdry != null : !PADBDRY_EDEFAULT.equals(padbdry);
       case AfpTextPackage.EXTERNAL_ALGORITHM_RG__PADALMT:
-        return padalmt != PADALMT_EDEFAULT;
+        return PADALMT_EDEFAULT == null ? padalmt != null : !PADALMT_EDEFAULT.equals(padalmt);
     }
     return super.eIsSet(featureID);
   }

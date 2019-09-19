@@ -1,11 +1,9 @@
 package org.afplib.generator;
 
 import java.io.BufferedInputStream;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
@@ -26,7 +24,6 @@ import org.eclipse.emf.ecore.EObject;
 
 public class AFP2Text extends InputStream {
 
-	private IFile input;
 	private SubMonitor monitor;
 	private AfpInputStream afp;
 	private String currentText;
@@ -39,7 +36,6 @@ public class AFP2Text extends InputStream {
 	}
 	
 	public AFP2Text(IFile input, Charset charset, IProgressMonitor monitor) throws FileNotFoundException {
-		this.input = input;
 		this.charset = charset;
 		File realfile = input.getRawLocation().makeAbsolute().toFile();
 	    int size = (int) (realfile.length() / 1024L);
@@ -113,6 +109,7 @@ public class AFP2Text extends InputStream {
 	}
 
 	private String rg2text(EObject eobj) {
+		@SuppressWarnings("unchecked")
 		String text = eobj.eClass().getEAllContainments().stream()
 		.filter(a -> a.getName().equalsIgnoreCase("rg") || a.getName().equalsIgnoreCase("FixedLengthRG"))
 		.map(a -> (List<Triplet>) eobj.eGet(a))
@@ -138,6 +135,7 @@ public class AFP2Text extends InputStream {
 	}
 
 	private String triplets2text(EObject eobj) {
+		@SuppressWarnings("unchecked")
 		String text = eobj.eClass().getEAllContainments().stream()
 		.filter(a -> !a.getName().equalsIgnoreCase("rg") && !a.getName().equalsIgnoreCase("FixedLengthRG"))
 		.map(a -> (List<Triplet>) eobj.eGet(a))

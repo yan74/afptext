@@ -1,9 +1,7 @@
 package org.afplib.generator;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.List;
 
 import javax.xml.bind.DatatypeConverter;
@@ -141,11 +139,13 @@ public class Text2AFP extends InputStream {
 		text.eClass().getEAllContainments().stream()
 			.filter(c -> c.getName().equalsIgnoreCase("triplets"))
 			.findAny().ifPresent(c -> {
+				@SuppressWarnings("unchecked")
 				List<EObject> triplets = (List<EObject>) text.eGet(c);
 				afp.eClass().getEAllContainments().stream()
 					.filter(c2 -> !c2.equals(BasePackage.eINSTANCE.getSF_Children()))
 					.filter(c2 -> !c2.getName().equalsIgnoreCase("rg") && !c2.getName().equalsIgnoreCase("FixedLengthRG"))
 					.findAny().ifPresent(c2 -> {
+						@SuppressWarnings("unchecked")
 						List<EObject> afpTriplets = (List<EObject>) afp.eGet(c2);
 						triplets.stream().map(Text2AFP::toTriplet)
 							.forEach(afpTriplets::add);
@@ -155,10 +155,12 @@ public class Text2AFP extends InputStream {
 		text.eClass().getEAllContainments().stream()
 			.filter(c -> c.getName().equalsIgnoreCase("rg"))
 				.forEach(c -> {
+					@SuppressWarnings("unchecked")
 					List<EObject> rg = (List<EObject>) text.eGet(c);
 					afp.eClass().getEAllContainments().stream()
 						.filter(c2 -> c2.getName().equalsIgnoreCase("rg") || c2.getName().equalsIgnoreCase("FixedLengthRG"))
 						.findAny().ifPresent(c2 -> {
+							@SuppressWarnings("unchecked")
 							List<EObject> afpRG = (List<EObject>) afp.eGet(c2);
 							rg.stream().map(Text2AFP::toTriplet)
 								.forEach(afpRG::add);

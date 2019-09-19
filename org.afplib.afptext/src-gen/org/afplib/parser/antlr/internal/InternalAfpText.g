@@ -38967,9 +38967,9 @@ ruleResourceUsageAttribute returns [EObject current=null]
 
 RULE_MODCASTRING : ('"' ('\\' .|~(('\\'|'"')))* '"'|'\'' ('\\' .|~(('\\'|'\'')))* '\'');
 
-RULE_EINTEGEROBJECT : ('0'..'9')+;
+RULE_EINTEGEROBJECT : '-'? ('0'..'9')+;
 
-RULE_EBYTEARRAY : ('a'..'z'|'A'..'Z'|'0'..'9')*;
+RULE_EBYTEARRAY : '[' ('a'..'z'|'A'..'Z'|'0'..'9')* ']';
 
 RULE_ID : '^'? ('a'..'z'|'A'..'Z'|'_') ('a'..'z'|'A'..'Z'|'_'|'0'..'9')*;
 

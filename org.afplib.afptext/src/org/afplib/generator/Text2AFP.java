@@ -81,6 +81,7 @@ public class Text2AFP {
 						value = ((String)value).substring(1, ((String)value).length() - 1); // remove "" or ''
 					}
 					if(value != null && a.getEType().getInstanceClass().equals(byte[].class)) {
+						value = ((String)value).substring(1, ((String)value).length() - 1); // remove [ and ]
 						value = DatatypeConverter.parseHexBinary((String) value);
 					}
 					afp.eSet(a, value);

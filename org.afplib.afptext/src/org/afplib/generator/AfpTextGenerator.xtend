@@ -25,6 +25,9 @@ class AfpTextGenerator extends AbstractGenerator {
 
 			for(sf : resource.allContents.toIterable.filter(typeof(structuredField))) {
 				text2Afp.add(sf)
+				if(context.cancelIndicator.canceled) {
+					return;
+				}
 			}
 			val stream = new ByteArrayInputStream(text2Afp.get())
 			fsa.generateFile(afpfile, stream)

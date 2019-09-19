@@ -22769,13 +22769,13 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//terminal EINTEGEROBJECT returns ecore::EInt:
-	//	'0'..'9'+;
+	//	'-'? '0'..'9'+;
 	public TerminalRule getEINTEGEROBJECTRule() {
 		return tEINTEGEROBJECT;
 	}
 	
 	//terminal EBYTEARRAY:
-	//	'a'..'z' | 'A'..'Z' | '0'..'9'*;
+	//	'[' ('a'..'z' | 'A'..'Z' | '0'..'9')* ']';
 	public TerminalRule getEBYTEARRAYRule() {
 		return tEBYTEARRAY;
 	}

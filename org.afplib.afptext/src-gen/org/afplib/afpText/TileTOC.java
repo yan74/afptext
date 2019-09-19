@@ -3,6 +3,7 @@
  */
 package org.afplib.afpText;
 
+import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -14,6 +15,7 @@ package org.afplib.afpText;
  * </p>
  * <ul>
  *   <li>{@link org.afplib.afpText.TileTOC#getReserved <em>Reserved</em>}</li>
+ *   <li>{@link org.afplib.afpText.TileTOC#getRg <em>Rg</em>}</li>
  * </ul>
  *
  * @see org.afplib.afpText.AfpTextPackage#getTileTOC()
@@ -43,5 +45,17 @@ public interface TileTOC extends triplet
    * @generated
    */
   void setReserved(int value);
+
+  /**
+   * Returns the value of the '<em><b>Rg</b></em>' containment reference list.
+   * The list contents are of type {@link org.afplib.afpText.TileTOCRG}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Rg</em>' containment reference list.
+   * @see org.afplib.afpText.AfpTextPackage#getTileTOC_Rg()
+   * @model containment="true"
+   * @generated
+   */
+  EList<TileTOCRG> getRg();
 
 } // TileTOC

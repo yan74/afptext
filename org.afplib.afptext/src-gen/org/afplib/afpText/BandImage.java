@@ -3,6 +3,7 @@
  */
 package org.afplib.afpText;
 
+import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -14,6 +15,7 @@ package org.afplib.afpText;
  * </p>
  * <ul>
  *   <li>{@link org.afplib.afpText.BandImage#getBCOUNT <em>BCOUNT</em>}</li>
+ *   <li>{@link org.afplib.afpText.BandImage#getRg <em>Rg</em>}</li>
  * </ul>
  *
  * @see org.afplib.afpText.AfpTextPackage#getBandImage()
@@ -43,5 +45,17 @@ public interface BandImage extends triplet
    * @generated
    */
   void setBCOUNT(int value);
+
+  /**
+   * Returns the value of the '<em><b>Rg</b></em>' containment reference list.
+   * The list contents are of type {@link org.afplib.afpText.BandImageRG}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Rg</em>' containment reference list.
+   * @see org.afplib.afpText.AfpTextPackage#getBandImage_Rg()
+   * @model containment="true"
+   * @generated
+   */
+  EList<BandImageRG> getRg();
 
 } // BandImage

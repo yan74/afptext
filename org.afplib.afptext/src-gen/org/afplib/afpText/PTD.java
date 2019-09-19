@@ -3,6 +3,7 @@
  */
 package org.afplib.afpText;
 
+import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -20,6 +21,7 @@ package org.afplib.afpText;
  *   <li>{@link org.afplib.afpText.PTD#getXPEXTENT <em>XPEXTENT</em>}</li>
  *   <li>{@link org.afplib.afpText.PTD#getYPEXTENT <em>YPEXTENT</em>}</li>
  *   <li>{@link org.afplib.afpText.PTD#getRESERVED <em>RESERVED</em>}</li>
+ *   <li>{@link org.afplib.afpText.PTD#getTriplets <em>Triplets</em>}</li>
  * </ul>
  *
  * @see org.afplib.afpText.AfpTextPackage#getPTD()
@@ -181,5 +183,17 @@ public interface PTD extends structuredField
    * @generated
    */
   void setRESERVED(int value);
+
+  /**
+   * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.
+   * The list contents are of type {@link org.afplib.afpText.triplet}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Triplets</em>' containment reference list.
+   * @see org.afplib.afpText.AfpTextPackage#getPTD_Triplets()
+   * @model containment="true"
+   * @generated
+   */
+  EList<triplet> getTriplets();
 
 } // PTD

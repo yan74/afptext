@@ -3,14 +3,24 @@
  */
 package org.afplib.afpText.impl;
 
+import java.util.Collection;
+
 import org.afplib.afpText.AfpTextPackage;
 import org.afplib.afpText.IDD;
+import org.afplib.afpText.triplet;
 
 import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -25,6 +35,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  *   <li>{@link org.afplib.afpText.impl.IDDImpl#getYRESOL <em>YRESOL</em>}</li>
  *   <li>{@link org.afplib.afpText.impl.IDDImpl#getXSIZE <em>XSIZE</em>}</li>
  *   <li>{@link org.afplib.afpText.impl.IDDImpl#getYSIZE <em>YSIZE</em>}</li>
+ *   <li>{@link org.afplib.afpText.impl.IDDImpl#getTriplets <em>Triplets</em>}</li>
  * </ul>
  *
  * @generated
@@ -130,6 +141,16 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @ordered
    */
   protected int ysize = YSIZE_EDEFAULT;
+
+  /**
+   * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getTriplets()
+   * @generated
+   * @ordered
+   */
+  protected EList<triplet> triplets;
 
   /**
    * <!-- begin-user-doc -->
@@ -283,6 +304,37 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * @generated
    */
   @Override
+  public EList<triplet> getTriplets()
+  {
+    if (triplets == null)
+    {
+      triplets = new EObjectContainmentEList<triplet>(triplet.class, this, AfpTextPackage.IDD__TRIPLETS);
+    }
+    return triplets;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+  {
+    switch (featureID)
+    {
+      case AfpTextPackage.IDD__TRIPLETS:
+        return ((InternalEList<?>)getTriplets()).basicRemove(otherEnd, msgs);
+    }
+    return super.eInverseRemove(otherEnd, featureID, msgs);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
     switch (featureID)
@@ -297,6 +349,8 @@ public class IDDImpl extends structuredFieldImpl implements IDD
         return getXSIZE();
       case AfpTextPackage.IDD__YSIZE:
         return getYSIZE();
+      case AfpTextPackage.IDD__TRIPLETS:
+        return getTriplets();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -306,6 +360,7 @@ public class IDDImpl extends structuredFieldImpl implements IDD
    * <!-- end-user-doc -->
    * @generated
    */
+  @SuppressWarnings("unchecked")
   @Override
   public void eSet(int featureID, Object newValue)
   {
@@ -325,6 +380,10 @@ public class IDDImpl extends structuredFieldImpl implements IDD
         return;
       case AfpTextPackage.IDD__YSIZE:
         setYSIZE((Integer)newValue);
+        return;
+      case AfpTextPackage.IDD__TRIPLETS:
+        getTriplets().clear();
+        getTriplets().addAll((Collection<? extends triplet>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -355,6 +414,9 @@ public class IDDImpl extends structuredFieldImpl implements IDD
       case AfpTextPackage.IDD__YSIZE:
         setYSIZE(YSIZE_EDEFAULT);
         return;
+      case AfpTextPackage.IDD__TRIPLETS:
+        getTriplets().clear();
+        return;
     }
     super.eUnset(featureID);
   }
@@ -379,6 +441,8 @@ public class IDDImpl extends structuredFieldImpl implements IDD
         return xsize != XSIZE_EDEFAULT;
       case AfpTextPackage.IDD__YSIZE:
         return ysize != YSIZE_EDEFAULT;
+      case AfpTextPackage.IDD__TRIPLETS:
+        return triplets != null && !triplets.isEmpty();
     }
     return super.eIsSet(featureID);
   }

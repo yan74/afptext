@@ -3,14 +3,24 @@
  */
 package org.afplib.afpText.impl;
 
+import java.util.Collection;
+
 import org.afplib.afpText.AfpTextPackage;
 import org.afplib.afpText.GRLINE;
+import org.afplib.afpText.GRLINERG;
 
 import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -22,6 +32,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  * <ul>
  *   <li>{@link org.afplib.afpText.impl.GRLINEImpl#getXPOS <em>XPOS</em>}</li>
  *   <li>{@link org.afplib.afpText.impl.GRLINEImpl#getYPOS <em>YPOS</em>}</li>
+ *   <li>{@link org.afplib.afpText.impl.GRLINEImpl#getRg <em>Rg</em>}</li>
  * </ul>
  *
  * @generated
@@ -67,6 +78,16 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @ordered
    */
   protected int ypos = YPOS_EDEFAULT;
+
+  /**
+   * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getRg()
+   * @generated
+   * @ordered
+   */
+  protected EList<GRLINERG> rg;
 
   /**
    * <!-- begin-user-doc -->
@@ -145,6 +166,37 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * @generated
    */
   @Override
+  public EList<GRLINERG> getRg()
+  {
+    if (rg == null)
+    {
+      rg = new EObjectContainmentEList<GRLINERG>(GRLINERG.class, this, AfpTextPackage.GRLINE__RG);
+    }
+    return rg;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+  {
+    switch (featureID)
+    {
+      case AfpTextPackage.GRLINE__RG:
+        return ((InternalEList<?>)getRg()).basicRemove(otherEnd, msgs);
+    }
+    return super.eInverseRemove(otherEnd, featureID, msgs);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
     switch (featureID)
@@ -153,6 +205,8 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
         return getXPOS();
       case AfpTextPackage.GRLINE__YPOS:
         return getYPOS();
+      case AfpTextPackage.GRLINE__RG:
+        return getRg();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -162,6 +216,7 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
    * <!-- end-user-doc -->
    * @generated
    */
+  @SuppressWarnings("unchecked")
   @Override
   public void eSet(int featureID, Object newValue)
   {
@@ -172,6 +227,10 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
         return;
       case AfpTextPackage.GRLINE__YPOS:
         setYPOS((Integer)newValue);
+        return;
+      case AfpTextPackage.GRLINE__RG:
+        getRg().clear();
+        getRg().addAll((Collection<? extends GRLINERG>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -193,6 +252,9 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
       case AfpTextPackage.GRLINE__YPOS:
         setYPOS(YPOS_EDEFAULT);
         return;
+      case AfpTextPackage.GRLINE__RG:
+        getRg().clear();
+        return;
     }
     super.eUnset(featureID);
   }
@@ -211,6 +273,8 @@ public class GRLINEImpl extends tripletImpl implements GRLINE
         return xpos != XPOS_EDEFAULT;
       case AfpTextPackage.GRLINE__YPOS:
         return ypos != YPOS_EDEFAULT;
+      case AfpTextPackage.GRLINE__RG:
+        return rg != null && !rg.isEmpty();
     }
     return super.eIsSet(featureID);
   }

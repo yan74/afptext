@@ -190,7 +190,10 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="triplets" upperBound="-1"
         eType="#//triplet" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="CFI" eSuperTypes="#//structuredField"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CFI" eSuperTypes="#//structuredField">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//CFIRG"
+        containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CPC" eSuperTypes="#//structuredField">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="DefCharID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="PrtFlags" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
@@ -405,6 +408,8 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GDD" eSuperTypes="#//structuredField">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="GOCAdes" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="triplets" upperBound="-1"
+        eType="#//triplet" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ICP" eSuperTypes="#//structuredField">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="XCOset" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
@@ -420,6 +425,8 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="YRESOL" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="XSIZE" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="YSIZE" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="triplets" upperBound="-1"
+        eType="#//triplet" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="IEL" eSuperTypes="#//structuredField">
     <eStructuralFeatures xsi:type="ecore:EReference" name="triplets" upperBound="-1"
@@ -609,6 +616,8 @@
   <eClassifiers xsi:type="ecore:EClass" name="MPS" eSuperTypes="#//structuredField">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="RGLength" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Reserved" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//MPSRG"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="MSU" eSuperTypes="#//structuredField">
     <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//MSURG"
@@ -683,6 +692,8 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="XPEXTENT" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="YPEXTENT" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="RESERVED" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="triplets" upperBound="-1"
+        eType="#//triplet" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="PTD1" eSuperTypes="#//structuredField">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="XPBASE" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
@@ -693,7 +704,10 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="YPEXTENT" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="RESERVED" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="PTX" eSuperTypes="#//structuredField"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PTX" eSuperTypes="#//structuredField">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="triplets" upperBound="-1"
+        eType="#//triplet" containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TLE" eSuperTypes="#//structuredField">
     <eStructuralFeatures xsi:type="ecore:EReference" name="triplets" upperBound="-1"
         eType="#//triplet" containment="true"/>
@@ -1217,6 +1231,8 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="BandImage" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="BCOUNT" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//BandImageRG"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="IDEStructure" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="FLAGS" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
@@ -1228,6 +1244,8 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ExternalAlgorithm" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="ALGTYPE" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//ExternalAlgorithmRG"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TilePosition" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="XOFFSET" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
@@ -1271,9 +1289,14 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="TIRID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ImageSubsampling" eSuperTypes="#//triplet"/>
-  <eClassifiers xsi:type="ecore:EClass" name="SamplingRatios" eSuperTypes="#//triplet"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SamplingRatios" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//SamplingRatiosRG"
+        containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TileTOC" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Reserved" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//TileTOCRG"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="FNNRG2" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="TSIDLen" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
@@ -1341,8 +1364,14 @@
   <eClassifiers xsi:type="ecore:EClass" name="GEPROL" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="RES" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="GFLT" eSuperTypes="#//triplet"/>
-  <eClassifiers xsi:type="ecore:EClass" name="GCFLT" eSuperTypes="#//triplet"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GFLT" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GFLTRG"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GCFLT" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GCFLTRG"
+        containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GFARC" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="XPOS" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="YPOS" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
@@ -1356,10 +1385,22 @@
   <eClassifiers xsi:type="ecore:EClass" name="GIMD" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="DATA" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="GLINE" eSuperTypes="#//triplet"/>
-  <eClassifiers xsi:type="ecore:EClass" name="GCLINE" eSuperTypes="#//triplet"/>
-  <eClassifiers xsi:type="ecore:EClass" name="GMRK" eSuperTypes="#//triplet"/>
-  <eClassifiers xsi:type="ecore:EClass" name="GCMRK" eSuperTypes="#//triplet"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GLINE" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GLINERG"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GCLINE" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GCLINERG"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GMRK" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GMRKRG"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GCMRK" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GCMRKRG"
+        containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GNOP1" eSuperTypes="#//triplet"/>
   <eClassifiers xsi:type="ecore:EClass" name="GPARC" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="XPOS" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
@@ -1382,8 +1423,13 @@
   <eClassifiers xsi:type="ecore:EClass" name="GRLINE" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="XPOS" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="YPOS" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GRLINERG"
+        containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="GCRLINE" eSuperTypes="#//triplet"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GCRLINE" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GCRLINERG"
+        containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GSGCH" eSuperTypes="#//triplet"/>
   <eClassifiers xsi:type="ecore:EClass" name="GSAP" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="P" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
@@ -1475,8 +1521,14 @@
   <eClassifiers xsi:type="ecore:EClass" name="GSLJ" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="LINEJOIN" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="GCBEZ" eSuperTypes="#//triplet"/>
-  <eClassifiers xsi:type="ecore:EClass" name="GCCBEZ" eSuperTypes="#//triplet"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GCBEZ" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GCBEZRG"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GCCBEZ" eSuperTypes="#//triplet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rg" upperBound="-1" eType="#//GCCBEZRG"
+        containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="WindowSpecification" eSuperTypes="#//triplet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="FLAGS" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="RES3" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>

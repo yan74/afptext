@@ -2488,12 +2488,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cCFIAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cCFIKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgCFIRGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//CFI:
-		//	{CFI} 'CFI';
+		//	{CFI} 'CFI' rg+=CFIRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{CFI} 'CFI'
+		//{CFI} 'CFI' rg+=CFIRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{CFI}
@@ -2501,6 +2503,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'CFI'
 		public Keyword getCFIKeyword_1() { return cCFIKeyword_1; }
+		
+		//rg+=CFIRG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//CFIRG
+		public RuleCall getRgCFIRGParserRuleCall_2_0() { return cRgCFIRGParserRuleCall_2_0; }
 	}
 	public class CPCElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.CPC");
@@ -4951,12 +4959,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cGOCAdesKeyword_2_0 = (Keyword)cGroup_2.eContents().get(0);
 		private final Assignment cGOCAdesAssignment_2_1 = (Assignment)cGroup_2.eContents().get(1);
 		private final RuleCall cGOCAdesEBYTEARRAYTerminalRuleCall_2_1_0 = (RuleCall)cGOCAdesAssignment_2_1.eContents().get(0);
+		private final Assignment cTripletsAssignment_3 = (Assignment)cGroup.eContents().get(3);
+		private final RuleCall cTripletsTripletParserRuleCall_3_0 = (RuleCall)cTripletsAssignment_3.eContents().get(0);
 		
 		//GDD:
-		//	{GDD} 'GDD' ('GOCAdes=' GOCAdes=EBYTEARRAY)?;
+		//	{GDD} 'GDD' ('GOCAdes=' GOCAdes=EBYTEARRAY)? triplets+=triplet*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GDD} 'GDD' ('GOCAdes=' GOCAdes=EBYTEARRAY)?
+		//{GDD} 'GDD' ('GOCAdes=' GOCAdes=EBYTEARRAY)? triplets+=triplet*
 		public Group getGroup() { return cGroup; }
 		
 		//{GDD}
@@ -4976,6 +4986,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//EBYTEARRAY
 		public RuleCall getGOCAdesEBYTEARRAYTerminalRuleCall_2_1_0() { return cGOCAdesEBYTEARRAYTerminalRuleCall_2_1_0; }
+		
+		//triplets+=triplet*
+		public Assignment getTripletsAssignment_3() { return cTripletsAssignment_3; }
+		
+		//triplet
+		public RuleCall getTripletsTripletParserRuleCall_3_0() { return cTripletsTripletParserRuleCall_3_0; }
 	}
 	public class ICPElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.ICP");
@@ -5127,14 +5143,16 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cYSIZEKeyword_2_4_0 = (Keyword)cGroup_2_4.eContents().get(0);
 		private final Assignment cYSIZEAssignment_2_4_1 = (Assignment)cGroup_2_4.eContents().get(1);
 		private final RuleCall cYSIZEEINTEGEROBJECTTerminalRuleCall_2_4_1_0 = (RuleCall)cYSIZEAssignment_2_4_1.eContents().get(0);
+		private final Assignment cTripletsAssignment_3 = (Assignment)cGroup.eContents().get(3);
+		private final RuleCall cTripletsTripletParserRuleCall_3_0 = (RuleCall)cTripletsAssignment_3.eContents().get(0);
 		
 		//IDD:
 		//	{IDD} 'IDD' (('UNITBASE=' UNITBASE=EINTEGEROBJECT)? & ('XRESOL=' XRESOL=EINTEGEROBJECT)? & ('YRESOL='
-		//	YRESOL=EINTEGEROBJECT)? & ('XSIZE=' XSIZE=EINTEGEROBJECT)? & ('YSIZE=' YSIZE=EINTEGEROBJECT)?);
+		//	YRESOL=EINTEGEROBJECT)? & ('XSIZE=' XSIZE=EINTEGEROBJECT)? & ('YSIZE=' YSIZE=EINTEGEROBJECT)?) triplets+=triplet*;
 		@Override public ParserRule getRule() { return rule; }
 		
 		//{IDD} 'IDD' (('UNITBASE=' UNITBASE=EINTEGEROBJECT)? & ('XRESOL=' XRESOL=EINTEGEROBJECT)? & ('YRESOL='
-		//YRESOL=EINTEGEROBJECT)? & ('XSIZE=' XSIZE=EINTEGEROBJECT)? & ('YSIZE=' YSIZE=EINTEGEROBJECT)?)
+		//YRESOL=EINTEGEROBJECT)? & ('XSIZE=' XSIZE=EINTEGEROBJECT)? & ('YSIZE=' YSIZE=EINTEGEROBJECT)?) triplets+=triplet*
 		public Group getGroup() { return cGroup; }
 		
 		//{IDD}
@@ -5206,6 +5224,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//EINTEGEROBJECT
 		public RuleCall getYSIZEEINTEGEROBJECTTerminalRuleCall_2_4_1_0() { return cYSIZEEINTEGEROBJECTTerminalRuleCall_2_4_1_0; }
+		
+		//triplets+=triplet*
+		public Assignment getTripletsAssignment_3() { return cTripletsAssignment_3; }
+		
+		//triplet
+		public RuleCall getTripletsTripletParserRuleCall_3_0() { return cTripletsTripletParserRuleCall_3_0; }
 	}
 	public class IELElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.IEL");
@@ -7287,12 +7311,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cReservedKeyword_2_1_0 = (Keyword)cGroup_2_1.eContents().get(0);
 		private final Assignment cReservedAssignment_2_1_1 = (Assignment)cGroup_2_1.eContents().get(1);
 		private final RuleCall cReservedEBYTEARRAYTerminalRuleCall_2_1_1_0 = (RuleCall)cReservedAssignment_2_1_1.eContents().get(0);
+		private final Assignment cRgAssignment_3 = (Assignment)cGroup.eContents().get(3);
+		private final RuleCall cRgMPSRGParserRuleCall_3_0 = (RuleCall)cRgAssignment_3.eContents().get(0);
 		
 		//MPS:
-		//	{MPS} 'MPS' (('RGLength=' RGLength=EINTEGEROBJECT)? & ('Reserved=' Reserved=EBYTEARRAY)?);
+		//	{MPS} 'MPS' (('RGLength=' RGLength=EINTEGEROBJECT)? & ('Reserved=' Reserved=EBYTEARRAY)?) rg+=MPSRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{MPS} 'MPS' (('RGLength=' RGLength=EINTEGEROBJECT)? & ('Reserved=' Reserved=EBYTEARRAY)?)
+		//{MPS} 'MPS' (('RGLength=' RGLength=EINTEGEROBJECT)? & ('Reserved=' Reserved=EBYTEARRAY)?) rg+=MPSRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{MPS}
@@ -7327,6 +7353,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//EBYTEARRAY
 		public RuleCall getReservedEBYTEARRAYTerminalRuleCall_2_1_1_0() { return cReservedEBYTEARRAYTerminalRuleCall_2_1_1_0; }
+		
+		//rg+=MPSRG*
+		public Assignment getRgAssignment_3() { return cRgAssignment_3; }
+		
+		//MPSRG
+		public RuleCall getRgMPSRGParserRuleCall_3_0() { return cRgMPSRGParserRuleCall_3_0; }
 	}
 	public class MSUElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.MSU");
@@ -8083,16 +8115,18 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cRESERVEDKeyword_2_6_0 = (Keyword)cGroup_2_6.eContents().get(0);
 		private final Assignment cRESERVEDAssignment_2_6_1 = (Assignment)cGroup_2_6.eContents().get(1);
 		private final RuleCall cRESERVEDEINTEGEROBJECTTerminalRuleCall_2_6_1_0 = (RuleCall)cRESERVEDAssignment_2_6_1.eContents().get(0);
+		private final Assignment cTripletsAssignment_3 = (Assignment)cGroup.eContents().get(3);
+		private final RuleCall cTripletsTripletParserRuleCall_3_0 = (RuleCall)cTripletsAssignment_3.eContents().get(0);
 		
 		//PTD:
 		//	{PTD} 'PTD' (('XPBASE=' XPBASE=EINTEGEROBJECT)? & ('YPBASE=' YPBASE=EINTEGEROBJECT)? & ('XPUNITVL='
 		//	XPUNITVL=EINTEGEROBJECT)? & ('YPUNITVL=' YPUNITVL=EINTEGEROBJECT)? & ('XPEXTENT=' XPEXTENT=EINTEGEROBJECT)? &
-		//	('YPEXTENT=' YPEXTENT=EINTEGEROBJECT)? & ('RESERVED=' RESERVED=EINTEGEROBJECT)?);
+		//	('YPEXTENT=' YPEXTENT=EINTEGEROBJECT)? & ('RESERVED=' RESERVED=EINTEGEROBJECT)?) triplets+=triplet*;
 		@Override public ParserRule getRule() { return rule; }
 		
 		//{PTD} 'PTD' (('XPBASE=' XPBASE=EINTEGEROBJECT)? & ('YPBASE=' YPBASE=EINTEGEROBJECT)? & ('XPUNITVL='
 		//XPUNITVL=EINTEGEROBJECT)? & ('YPUNITVL=' YPUNITVL=EINTEGEROBJECT)? & ('XPEXTENT=' XPEXTENT=EINTEGEROBJECT)? &
-		//('YPEXTENT=' YPEXTENT=EINTEGEROBJECT)? & ('RESERVED=' RESERVED=EINTEGEROBJECT)?)
+		//('YPEXTENT=' YPEXTENT=EINTEGEROBJECT)? & ('RESERVED=' RESERVED=EINTEGEROBJECT)?) triplets+=triplet*
 		public Group getGroup() { return cGroup; }
 		
 		//{PTD}
@@ -8189,6 +8223,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//EINTEGEROBJECT
 		public RuleCall getRESERVEDEINTEGEROBJECTTerminalRuleCall_2_6_1_0() { return cRESERVEDEINTEGEROBJECTTerminalRuleCall_2_6_1_0; }
+		
+		//triplets+=triplet*
+		public Assignment getTripletsAssignment_3() { return cTripletsAssignment_3; }
+		
+		//triplet
+		public RuleCall getTripletsTripletParserRuleCall_3_0() { return cTripletsTripletParserRuleCall_3_0; }
 	}
 	public class PTD1Elements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.PTD1");
@@ -8336,12 +8376,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cPTXAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cPTXKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cTripletsAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cTripletsTripletParserRuleCall_2_0 = (RuleCall)cTripletsAssignment_2.eContents().get(0);
 		
 		//PTX:
-		//	{PTX} 'PTX';
+		//	{PTX} 'PTX' triplets+=triplet*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{PTX} 'PTX'
+		//{PTX} 'PTX' triplets+=triplet*
 		public Group getGroup() { return cGroup; }
 		
 		//{PTX}
@@ -8349,6 +8391,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'PTX'
 		public Keyword getPTXKeyword_1() { return cPTXKeyword_1; }
+		
+		//triplets+=triplet*
+		public Assignment getTripletsAssignment_2() { return cTripletsAssignment_2; }
+		
+		//triplet
+		public RuleCall getTripletsTripletParserRuleCall_2_0() { return cTripletsTripletParserRuleCall_2_0; }
 	}
 	public class TLEElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.TLE");
@@ -16180,12 +16228,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cBCOUNTKeyword_2_0 = (Keyword)cGroup_2.eContents().get(0);
 		private final Assignment cBCOUNTAssignment_2_1 = (Assignment)cGroup_2.eContents().get(1);
 		private final RuleCall cBCOUNTEINTEGEROBJECTTerminalRuleCall_2_1_0 = (RuleCall)cBCOUNTAssignment_2_1.eContents().get(0);
+		private final Assignment cRgAssignment_3 = (Assignment)cGroup.eContents().get(3);
+		private final RuleCall cRgBandImageRGParserRuleCall_3_0 = (RuleCall)cRgAssignment_3.eContents().get(0);
 		
 		//BandImage:
-		//	{BandImage} 'BandImage' ('BCOUNT=' BCOUNT=EINTEGEROBJECT)?;
+		//	{BandImage} 'BandImage' ('BCOUNT=' BCOUNT=EINTEGEROBJECT)? rg+=BandImageRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{BandImage} 'BandImage' ('BCOUNT=' BCOUNT=EINTEGEROBJECT)?
+		//{BandImage} 'BandImage' ('BCOUNT=' BCOUNT=EINTEGEROBJECT)? rg+=BandImageRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{BandImage}
@@ -16205,6 +16255,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//EINTEGEROBJECT
 		public RuleCall getBCOUNTEINTEGEROBJECTTerminalRuleCall_2_1_0() { return cBCOUNTEINTEGEROBJECTTerminalRuleCall_2_1_0; }
+		
+		//rg+=BandImageRG*
+		public Assignment getRgAssignment_3() { return cRgAssignment_3; }
+		
+		//BandImageRG
+		public RuleCall getRgBandImageRGParserRuleCall_3_0() { return cRgBandImageRGParserRuleCall_3_0; }
 	}
 	public class IDEStructureElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.IDEStructure");
@@ -16339,12 +16395,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cALGTYPEKeyword_2_0 = (Keyword)cGroup_2.eContents().get(0);
 		private final Assignment cALGTYPEAssignment_2_1 = (Assignment)cGroup_2.eContents().get(1);
 		private final RuleCall cALGTYPEEINTEGEROBJECTTerminalRuleCall_2_1_0 = (RuleCall)cALGTYPEAssignment_2_1.eContents().get(0);
+		private final Assignment cRgAssignment_3 = (Assignment)cGroup.eContents().get(3);
+		private final RuleCall cRgExternalAlgorithmRGParserRuleCall_3_0 = (RuleCall)cRgAssignment_3.eContents().get(0);
 		
 		//ExternalAlgorithm:
-		//	{ExternalAlgorithm} 'ExternalAlgorithm' ('ALGTYPE=' ALGTYPE=EINTEGEROBJECT)?;
+		//	{ExternalAlgorithm} 'ExternalAlgorithm' ('ALGTYPE=' ALGTYPE=EINTEGEROBJECT)? rg+=ExternalAlgorithmRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{ExternalAlgorithm} 'ExternalAlgorithm' ('ALGTYPE=' ALGTYPE=EINTEGEROBJECT)?
+		//{ExternalAlgorithm} 'ExternalAlgorithm' ('ALGTYPE=' ALGTYPE=EINTEGEROBJECT)? rg+=ExternalAlgorithmRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{ExternalAlgorithm}
@@ -16364,6 +16422,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//EINTEGEROBJECT
 		public RuleCall getALGTYPEEINTEGEROBJECTTerminalRuleCall_2_1_0() { return cALGTYPEEINTEGEROBJECTTerminalRuleCall_2_1_0; }
+		
+		//rg+=ExternalAlgorithmRG*
+		public Assignment getRgAssignment_3() { return cRgAssignment_3; }
+		
+		//ExternalAlgorithmRG
+		public RuleCall getRgExternalAlgorithmRGParserRuleCall_3_0() { return cRgExternalAlgorithmRGParserRuleCall_3_0; }
 	}
 	public class TilePositionElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.TilePosition");
@@ -16982,12 +17046,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cSamplingRatiosAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cSamplingRatiosKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgSamplingRatiosRGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//SamplingRatios:
-		//	{SamplingRatios} 'SamplingRatios';
+		//	{SamplingRatios} 'SamplingRatios' rg+=SamplingRatiosRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{SamplingRatios} 'SamplingRatios'
+		//{SamplingRatios} 'SamplingRatios' rg+=SamplingRatiosRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{SamplingRatios}
@@ -16995,6 +17061,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'SamplingRatios'
 		public Keyword getSamplingRatiosKeyword_1() { return cSamplingRatiosKeyword_1; }
+		
+		//rg+=SamplingRatiosRG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//SamplingRatiosRG
+		public RuleCall getRgSamplingRatiosRGParserRuleCall_2_0() { return cRgSamplingRatiosRGParserRuleCall_2_0; }
 	}
 	public class TileTOCElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.TileTOC");
@@ -17005,12 +17077,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cReservedKeyword_2_0 = (Keyword)cGroup_2.eContents().get(0);
 		private final Assignment cReservedAssignment_2_1 = (Assignment)cGroup_2.eContents().get(1);
 		private final RuleCall cReservedEINTEGEROBJECTTerminalRuleCall_2_1_0 = (RuleCall)cReservedAssignment_2_1.eContents().get(0);
+		private final Assignment cRgAssignment_3 = (Assignment)cGroup.eContents().get(3);
+		private final RuleCall cRgTileTOCRGParserRuleCall_3_0 = (RuleCall)cRgAssignment_3.eContents().get(0);
 		
 		//TileTOC:
-		//	{TileTOC} 'TileTOC' ('Reserved=' Reserved=EINTEGEROBJECT)?;
+		//	{TileTOC} 'TileTOC' ('Reserved=' Reserved=EINTEGEROBJECT)? rg+=TileTOCRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{TileTOC} 'TileTOC' ('Reserved=' Reserved=EINTEGEROBJECT)?
+		//{TileTOC} 'TileTOC' ('Reserved=' Reserved=EINTEGEROBJECT)? rg+=TileTOCRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{TileTOC}
@@ -17030,6 +17104,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//EINTEGEROBJECT
 		public RuleCall getReservedEINTEGEROBJECTTerminalRuleCall_2_1_0() { return cReservedEINTEGEROBJECTTerminalRuleCall_2_1_0; }
+		
+		//rg+=TileTOCRG*
+		public Assignment getRgAssignment_3() { return cRgAssignment_3; }
+		
+		//TileTOCRG
+		public RuleCall getRgTileTOCRGParserRuleCall_3_0() { return cRgTileTOCRGParserRuleCall_3_0; }
 	}
 	public class FNNRG2Elements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.FNNRG2");
@@ -17974,12 +18054,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cGFLTAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cGFLTKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgGFLTRGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//GFLT:
-		//	{GFLT} 'GFLT';
+		//	{GFLT} 'GFLT' rg+=GFLTRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GFLT} 'GFLT'
+		//{GFLT} 'GFLT' rg+=GFLTRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GFLT}
@@ -17987,18 +18069,26 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'GFLT'
 		public Keyword getGFLTKeyword_1() { return cGFLTKeyword_1; }
+		
+		//rg+=GFLTRG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//GFLTRG
+		public RuleCall getRgGFLTRGParserRuleCall_2_0() { return cRgGFLTRGParserRuleCall_2_0; }
 	}
 	public class GCFLTElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.GCFLT");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cGCFLTAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cGCFLTKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgGCFLTRGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//GCFLT:
-		//	{GCFLT} 'GCFLT';
+		//	{GCFLT} 'GCFLT' rg+=GCFLTRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GCFLT} 'GCFLT'
+		//{GCFLT} 'GCFLT' rg+=GCFLTRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GCFLT}
@@ -18006,6 +18096,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'GCFLT'
 		public Keyword getGCFLTKeyword_1() { return cGCFLTKeyword_1; }
+		
+		//rg+=GCFLTRG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//GCFLTRG
+		public RuleCall getRgGCFLTRGParserRuleCall_2_0() { return cRgGCFLTRGParserRuleCall_2_0; }
 	}
 	public class GFARCElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.GFARC");
@@ -18192,12 +18288,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cGLINEAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cGLINEKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgGLINERGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//GLINE:
-		//	{GLINE} 'GLINE';
+		//	{GLINE} 'GLINE' rg+=GLINERG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GLINE} 'GLINE'
+		//{GLINE} 'GLINE' rg+=GLINERG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GLINE}
@@ -18205,18 +18303,26 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'GLINE'
 		public Keyword getGLINEKeyword_1() { return cGLINEKeyword_1; }
+		
+		//rg+=GLINERG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//GLINERG
+		public RuleCall getRgGLINERGParserRuleCall_2_0() { return cRgGLINERGParserRuleCall_2_0; }
 	}
 	public class GCLINEElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.GCLINE");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cGCLINEAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cGCLINEKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgGCLINERGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//GCLINE:
-		//	{GCLINE} 'GCLINE';
+		//	{GCLINE} 'GCLINE' rg+=GCLINERG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GCLINE} 'GCLINE'
+		//{GCLINE} 'GCLINE' rg+=GCLINERG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GCLINE}
@@ -18224,18 +18330,26 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'GCLINE'
 		public Keyword getGCLINEKeyword_1() { return cGCLINEKeyword_1; }
+		
+		//rg+=GCLINERG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//GCLINERG
+		public RuleCall getRgGCLINERGParserRuleCall_2_0() { return cRgGCLINERGParserRuleCall_2_0; }
 	}
 	public class GMRKElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.GMRK");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cGMRKAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cGMRKKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgGMRKRGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//GMRK:
-		//	{GMRK} 'GMRK';
+		//	{GMRK} 'GMRK' rg+=GMRKRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GMRK} 'GMRK'
+		//{GMRK} 'GMRK' rg+=GMRKRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GMRK}
@@ -18243,18 +18357,26 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'GMRK'
 		public Keyword getGMRKKeyword_1() { return cGMRKKeyword_1; }
+		
+		//rg+=GMRKRG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//GMRKRG
+		public RuleCall getRgGMRKRGParserRuleCall_2_0() { return cRgGMRKRGParserRuleCall_2_0; }
 	}
 	public class GCMRKElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.GCMRK");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cGCMRKAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cGCMRKKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgGCMRKRGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//GCMRK:
-		//	{GCMRK} 'GCMRK';
+		//	{GCMRK} 'GCMRK' rg+=GCMRKRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GCMRK} 'GCMRK'
+		//{GCMRK} 'GCMRK' rg+=GCMRKRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GCMRK}
@@ -18262,6 +18384,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'GCMRK'
 		public Keyword getGCMRKKeyword_1() { return cGCMRKKeyword_1; }
+		
+		//rg+=GCMRKRG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//GCMRKRG
+		public RuleCall getRgGCMRKRGParserRuleCall_2_0() { return cRgGCMRKRGParserRuleCall_2_0; }
 	}
 	public class GNOP1Elements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.GNOP1");
@@ -18575,12 +18703,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cYPOSKeyword_2_1_0 = (Keyword)cGroup_2_1.eContents().get(0);
 		private final Assignment cYPOSAssignment_2_1_1 = (Assignment)cGroup_2_1.eContents().get(1);
 		private final RuleCall cYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0 = (RuleCall)cYPOSAssignment_2_1_1.eContents().get(0);
+		private final Assignment cRgAssignment_3 = (Assignment)cGroup.eContents().get(3);
+		private final RuleCall cRgGRLINERGParserRuleCall_3_0 = (RuleCall)cRgAssignment_3.eContents().get(0);
 		
 		//GRLINE:
-		//	{GRLINE} 'GRLINE' (('XPOS=' XPOS=EINTEGEROBJECT)? & ('YPOS=' YPOS=EINTEGEROBJECT)?);
+		//	{GRLINE} 'GRLINE' (('XPOS=' XPOS=EINTEGEROBJECT)? & ('YPOS=' YPOS=EINTEGEROBJECT)?) rg+=GRLINERG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GRLINE} 'GRLINE' (('XPOS=' XPOS=EINTEGEROBJECT)? & ('YPOS=' YPOS=EINTEGEROBJECT)?)
+		//{GRLINE} 'GRLINE' (('XPOS=' XPOS=EINTEGEROBJECT)? & ('YPOS=' YPOS=EINTEGEROBJECT)?) rg+=GRLINERG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GRLINE}
@@ -18615,18 +18745,26 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//EINTEGEROBJECT
 		public RuleCall getYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0() { return cYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0; }
+		
+		//rg+=GRLINERG*
+		public Assignment getRgAssignment_3() { return cRgAssignment_3; }
+		
+		//GRLINERG
+		public RuleCall getRgGRLINERGParserRuleCall_3_0() { return cRgGRLINERGParserRuleCall_3_0; }
 	}
 	public class GCRLINEElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.GCRLINE");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cGCRLINEAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cGCRLINEKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgGCRLINERGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//GCRLINE:
-		//	{GCRLINE} 'GCRLINE';
+		//	{GCRLINE} 'GCRLINE' rg+=GCRLINERG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GCRLINE} 'GCRLINE'
+		//{GCRLINE} 'GCRLINE' rg+=GCRLINERG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GCRLINE}
@@ -18634,6 +18772,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'GCRLINE'
 		public Keyword getGCRLINEKeyword_1() { return cGCRLINEKeyword_1; }
+		
+		//rg+=GCRLINERG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//GCRLINERG
+		public RuleCall getRgGCRLINERGParserRuleCall_2_0() { return cRgGCRLINERGParserRuleCall_2_0; }
 	}
 	public class GSGCHElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.GSGCH");
@@ -19830,12 +19974,14 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cGCBEZAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cGCBEZKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgGCBEZRGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//GCBEZ:
-		//	{GCBEZ} 'GCBEZ';
+		//	{GCBEZ} 'GCBEZ' rg+=GCBEZRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GCBEZ} 'GCBEZ'
+		//{GCBEZ} 'GCBEZ' rg+=GCBEZRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GCBEZ}
@@ -19843,18 +19989,26 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'GCBEZ'
 		public Keyword getGCBEZKeyword_1() { return cGCBEZKeyword_1; }
+		
+		//rg+=GCBEZRG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//GCBEZRG
+		public RuleCall getRgGCBEZRGParserRuleCall_2_0() { return cRgGCBEZRGParserRuleCall_2_0; }
 	}
 	public class GCCBEZElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.GCCBEZ");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cGCCBEZAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cGCCBEZKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Assignment cRgAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cRgGCCBEZRGParserRuleCall_2_0 = (RuleCall)cRgAssignment_2.eContents().get(0);
 		
 		//GCCBEZ:
-		//	{GCCBEZ} 'GCCBEZ';
+		//	{GCCBEZ} 'GCCBEZ' rg+=GCCBEZRG*;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{GCCBEZ} 'GCCBEZ'
+		//{GCCBEZ} 'GCCBEZ' rg+=GCCBEZRG*
 		public Group getGroup() { return cGroup; }
 		
 		//{GCCBEZ}
@@ -19862,6 +20016,12 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 		
 		//'GCCBEZ'
 		public Keyword getGCCBEZKeyword_1() { return cGCCBEZKeyword_1; }
+		
+		//rg+=GCCBEZRG*
+		public Assignment getRgAssignment_2() { return cRgAssignment_2; }
+		
+		//GCCBEZRG
+		public RuleCall getRgGCCBEZRGParserRuleCall_2_0() { return cRgGCCBEZRGParserRuleCall_2_0; }
 	}
 	public class WindowSpecificationElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.afplib.AfpText.WindowSpecification");
@@ -23155,7 +23315,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//CFI:
-	//	{CFI} 'CFI';
+	//	{CFI} 'CFI' rg+=CFIRG*;
 	public CFIElements getCFIAccess() {
 		return pCFI;
 	}
@@ -23614,7 +23774,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GDD:
-	//	{GDD} 'GDD' ('GOCAdes=' GOCAdes=EBYTEARRAY)?;
+	//	{GDD} 'GDD' ('GOCAdes=' GOCAdes=EBYTEARRAY)? triplets+=triplet*;
 	public GDDElements getGDDAccess() {
 		return pGDD;
 	}
@@ -23637,7 +23797,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	
 	//IDD:
 	//	{IDD} 'IDD' (('UNITBASE=' UNITBASE=EINTEGEROBJECT)? & ('XRESOL=' XRESOL=EINTEGEROBJECT)? & ('YRESOL='
-	//	YRESOL=EINTEGEROBJECT)? & ('XSIZE=' XSIZE=EINTEGEROBJECT)? & ('YSIZE=' YSIZE=EINTEGEROBJECT)?);
+	//	YRESOL=EINTEGEROBJECT)? & ('XSIZE=' XSIZE=EINTEGEROBJECT)? & ('YSIZE=' YSIZE=EINTEGEROBJECT)?) triplets+=triplet*;
 	public IDDElements getIDDAccess() {
 		return pIDD;
 	}
@@ -23965,7 +24125,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//MPS:
-	//	{MPS} 'MPS' (('RGLength=' RGLength=EINTEGEROBJECT)? & ('Reserved=' Reserved=EBYTEARRAY)?);
+	//	{MPS} 'MPS' (('RGLength=' RGLength=EINTEGEROBJECT)? & ('Reserved=' Reserved=EBYTEARRAY)?) rg+=MPSRG*;
 	public MPSElements getMPSAccess() {
 		return pMPS;
 	}
@@ -24103,7 +24263,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	//PTD:
 	//	{PTD} 'PTD' (('XPBASE=' XPBASE=EINTEGEROBJECT)? & ('YPBASE=' YPBASE=EINTEGEROBJECT)? & ('XPUNITVL='
 	//	XPUNITVL=EINTEGEROBJECT)? & ('YPUNITVL=' YPUNITVL=EINTEGEROBJECT)? & ('XPEXTENT=' XPEXTENT=EINTEGEROBJECT)? &
-	//	('YPEXTENT=' YPEXTENT=EINTEGEROBJECT)? & ('RESERVED=' RESERVED=EINTEGEROBJECT)?);
+	//	('YPEXTENT=' YPEXTENT=EINTEGEROBJECT)? & ('RESERVED=' RESERVED=EINTEGEROBJECT)?) triplets+=triplet*;
 	public PTDElements getPTDAccess() {
 		return pPTD;
 	}
@@ -24125,7 +24285,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//PTX:
-	//	{PTX} 'PTX';
+	//	{PTX} 'PTX' triplets+=triplet*;
 	public PTXElements getPTXAccess() {
 		return pPTX;
 	}
@@ -25346,7 +25506,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//BandImage:
-	//	{BandImage} 'BandImage' ('BCOUNT=' BCOUNT=EINTEGEROBJECT)?;
+	//	{BandImage} 'BandImage' ('BCOUNT=' BCOUNT=EINTEGEROBJECT)? rg+=BandImageRG*;
 	public BandImageElements getBandImageAccess() {
 		return pBandImage;
 	}
@@ -25368,7 +25528,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//ExternalAlgorithm:
-	//	{ExternalAlgorithm} 'ExternalAlgorithm' ('ALGTYPE=' ALGTYPE=EINTEGEROBJECT)?;
+	//	{ExternalAlgorithm} 'ExternalAlgorithm' ('ALGTYPE=' ALGTYPE=EINTEGEROBJECT)? rg+=ExternalAlgorithmRG*;
 	public ExternalAlgorithmElements getExternalAlgorithmAccess() {
 		return pExternalAlgorithm;
 	}
@@ -25475,7 +25635,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//SamplingRatios:
-	//	{SamplingRatios} 'SamplingRatios';
+	//	{SamplingRatios} 'SamplingRatios' rg+=SamplingRatiosRG*;
 	public SamplingRatiosElements getSamplingRatiosAccess() {
 		return pSamplingRatios;
 	}
@@ -25485,7 +25645,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//TileTOC:
-	//	{TileTOC} 'TileTOC' ('Reserved=' Reserved=EINTEGEROBJECT)?;
+	//	{TileTOC} 'TileTOC' ('Reserved=' Reserved=EINTEGEROBJECT)? rg+=TileTOCRG*;
 	public TileTOCElements getTileTOCAccess() {
 		return pTileTOC;
 	}
@@ -25642,7 +25802,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GFLT:
-	//	{GFLT} 'GFLT';
+	//	{GFLT} 'GFLT' rg+=GFLTRG*;
 	public GFLTElements getGFLTAccess() {
 		return pGFLT;
 	}
@@ -25652,7 +25812,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GCFLT:
-	//	{GCFLT} 'GCFLT';
+	//	{GCFLT} 'GCFLT' rg+=GCFLTRG*;
 	public GCFLTElements getGCFLTAccess() {
 		return pGCFLT;
 	}
@@ -25693,7 +25853,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GLINE:
-	//	{GLINE} 'GLINE';
+	//	{GLINE} 'GLINE' rg+=GLINERG*;
 	public GLINEElements getGLINEAccess() {
 		return pGLINE;
 	}
@@ -25703,7 +25863,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GCLINE:
-	//	{GCLINE} 'GCLINE';
+	//	{GCLINE} 'GCLINE' rg+=GCLINERG*;
 	public GCLINEElements getGCLINEAccess() {
 		return pGCLINE;
 	}
@@ -25713,7 +25873,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GMRK:
-	//	{GMRK} 'GMRK';
+	//	{GMRK} 'GMRK' rg+=GMRKRG*;
 	public GMRKElements getGMRKAccess() {
 		return pGMRK;
 	}
@@ -25723,7 +25883,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GCMRK:
-	//	{GCMRK} 'GCMRK';
+	//	{GCMRK} 'GCMRK' rg+=GCMRKRG*;
 	public GCMRKElements getGCMRKAccess() {
 		return pGCMRK;
 	}
@@ -25766,7 +25926,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GRLINE:
-	//	{GRLINE} 'GRLINE' (('XPOS=' XPOS=EINTEGEROBJECT)? & ('YPOS=' YPOS=EINTEGEROBJECT)?);
+	//	{GRLINE} 'GRLINE' (('XPOS=' XPOS=EINTEGEROBJECT)? & ('YPOS=' YPOS=EINTEGEROBJECT)?) rg+=GRLINERG*;
 	public GRLINEElements getGRLINEAccess() {
 		return pGRLINE;
 	}
@@ -25776,7 +25936,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GCRLINE:
-	//	{GCRLINE} 'GCRLINE';
+	//	{GCRLINE} 'GCRLINE' rg+=GCRLINERG*;
 	public GCRLINEElements getGCRLINEAccess() {
 		return pGCRLINE;
 	}
@@ -26040,7 +26200,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GCBEZ:
-	//	{GCBEZ} 'GCBEZ';
+	//	{GCBEZ} 'GCBEZ' rg+=GCBEZRG*;
 	public GCBEZElements getGCBEZAccess() {
 		return pGCBEZ;
 	}
@@ -26050,7 +26210,7 @@ public class AfpTextGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//GCCBEZ:
-	//	{GCCBEZ} 'GCCBEZ';
+	//	{GCCBEZ} 'GCCBEZ' rg+=GCCBEZRG*;
 	public GCCBEZElements getGCCBEZAccess() {
 		return pGCCBEZ;
 	}

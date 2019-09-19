@@ -3,14 +3,24 @@
  */
 package org.afplib.afpText.impl;
 
+import java.util.Collection;
+
 import org.afplib.afpText.AfpTextPackage;
 import org.afplib.afpText.PTD;
+import org.afplib.afpText.triplet;
 
 import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -27,6 +37,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  *   <li>{@link org.afplib.afpText.impl.PTDImpl#getXPEXTENT <em>XPEXTENT</em>}</li>
  *   <li>{@link org.afplib.afpText.impl.PTDImpl#getYPEXTENT <em>YPEXTENT</em>}</li>
  *   <li>{@link org.afplib.afpText.impl.PTDImpl#getRESERVED <em>RESERVED</em>}</li>
+ *   <li>{@link org.afplib.afpText.impl.PTDImpl#getTriplets <em>Triplets</em>}</li>
  * </ul>
  *
  * @generated
@@ -172,6 +183,16 @@ public class PTDImpl extends structuredFieldImpl implements PTD
    * @ordered
    */
   protected int reserved = RESERVED_EDEFAULT;
+
+  /**
+   * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getTriplets()
+   * @generated
+   * @ordered
+   */
+  protected EList<triplet> triplets;
 
   /**
    * <!-- begin-user-doc -->
@@ -375,6 +396,37 @@ public class PTDImpl extends structuredFieldImpl implements PTD
    * @generated
    */
   @Override
+  public EList<triplet> getTriplets()
+  {
+    if (triplets == null)
+    {
+      triplets = new EObjectContainmentEList<triplet>(triplet.class, this, AfpTextPackage.PTD__TRIPLETS);
+    }
+    return triplets;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+  {
+    switch (featureID)
+    {
+      case AfpTextPackage.PTD__TRIPLETS:
+        return ((InternalEList<?>)getTriplets()).basicRemove(otherEnd, msgs);
+    }
+    return super.eInverseRemove(otherEnd, featureID, msgs);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
     switch (featureID)
@@ -393,6 +445,8 @@ public class PTDImpl extends structuredFieldImpl implements PTD
         return getYPEXTENT();
       case AfpTextPackage.PTD__RESERVED:
         return getRESERVED();
+      case AfpTextPackage.PTD__TRIPLETS:
+        return getTriplets();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -402,6 +456,7 @@ public class PTDImpl extends structuredFieldImpl implements PTD
    * <!-- end-user-doc -->
    * @generated
    */
+  @SuppressWarnings("unchecked")
   @Override
   public void eSet(int featureID, Object newValue)
   {
@@ -427,6 +482,10 @@ public class PTDImpl extends structuredFieldImpl implements PTD
         return;
       case AfpTextPackage.PTD__RESERVED:
         setRESERVED((Integer)newValue);
+        return;
+      case AfpTextPackage.PTD__TRIPLETS:
+        getTriplets().clear();
+        getTriplets().addAll((Collection<? extends triplet>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -463,6 +522,9 @@ public class PTDImpl extends structuredFieldImpl implements PTD
       case AfpTextPackage.PTD__RESERVED:
         setRESERVED(RESERVED_EDEFAULT);
         return;
+      case AfpTextPackage.PTD__TRIPLETS:
+        getTriplets().clear();
+        return;
     }
     super.eUnset(featureID);
   }
@@ -491,6 +553,8 @@ public class PTDImpl extends structuredFieldImpl implements PTD
         return ypextent != YPEXTENT_EDEFAULT;
       case AfpTextPackage.PTD__RESERVED:
         return reserved != RESERVED_EDEFAULT;
+      case AfpTextPackage.PTD__TRIPLETS:
+        return triplets != null && !triplets.isEmpty();
     }
     return super.eIsSet(featureID);
   }

@@ -3,6 +3,7 @@
  */
 package org.afplib.afpText;
 
+import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -15,6 +16,7 @@ package org.afplib.afpText;
  * <ul>
  *   <li>{@link org.afplib.afpText.GRLINE#getXPOS <em>XPOS</em>}</li>
  *   <li>{@link org.afplib.afpText.GRLINE#getYPOS <em>YPOS</em>}</li>
+ *   <li>{@link org.afplib.afpText.GRLINE#getRg <em>Rg</em>}</li>
  * </ul>
  *
  * @see org.afplib.afpText.AfpTextPackage#getGRLINE()
@@ -66,5 +68,17 @@ public interface GRLINE extends triplet
    * @generated
    */
   void setYPOS(int value);
+
+  /**
+   * Returns the value of the '<em><b>Rg</b></em>' containment reference list.
+   * The list contents are of type {@link org.afplib.afpText.GRLINERG}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Rg</em>' containment reference list.
+   * @see org.afplib.afpText.AfpTextPackage#getGRLINE_Rg()
+   * @model containment="true"
+   * @generated
+   */
+  EList<GRLINERG> getRg();
 
 } // GRLINE

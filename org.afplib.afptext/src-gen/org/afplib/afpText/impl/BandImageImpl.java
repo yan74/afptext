@@ -3,14 +3,24 @@
  */
 package org.afplib.afpText.impl;
 
+import java.util.Collection;
+
 import org.afplib.afpText.AfpTextPackage;
 import org.afplib.afpText.BandImage;
+import org.afplib.afpText.BandImageRG;
 
 import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -21,6 +31,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  * </p>
  * <ul>
  *   <li>{@link org.afplib.afpText.impl.BandImageImpl#getBCOUNT <em>BCOUNT</em>}</li>
+ *   <li>{@link org.afplib.afpText.impl.BandImageImpl#getRg <em>Rg</em>}</li>
  * </ul>
  *
  * @generated
@@ -46,6 +57,16 @@ public class BandImageImpl extends tripletImpl implements BandImage
    * @ordered
    */
   protected int bcount = BCOUNT_EDEFAULT;
+
+  /**
+   * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getRg()
+   * @generated
+   * @ordered
+   */
+  protected EList<BandImageRG> rg;
 
   /**
    * <!-- begin-user-doc -->
@@ -99,12 +120,45 @@ public class BandImageImpl extends tripletImpl implements BandImage
    * @generated
    */
   @Override
+  public EList<BandImageRG> getRg()
+  {
+    if (rg == null)
+    {
+      rg = new EObjectContainmentEList<BandImageRG>(BandImageRG.class, this, AfpTextPackage.BAND_IMAGE__RG);
+    }
+    return rg;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+  {
+    switch (featureID)
+    {
+      case AfpTextPackage.BAND_IMAGE__RG:
+        return ((InternalEList<?>)getRg()).basicRemove(otherEnd, msgs);
+    }
+    return super.eInverseRemove(otherEnd, featureID, msgs);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
     switch (featureID)
     {
       case AfpTextPackage.BAND_IMAGE__BCOUNT:
         return getBCOUNT();
+      case AfpTextPackage.BAND_IMAGE__RG:
+        return getRg();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -114,6 +168,7 @@ public class BandImageImpl extends tripletImpl implements BandImage
    * <!-- end-user-doc -->
    * @generated
    */
+  @SuppressWarnings("unchecked")
   @Override
   public void eSet(int featureID, Object newValue)
   {
@@ -121,6 +176,10 @@ public class BandImageImpl extends tripletImpl implements BandImage
     {
       case AfpTextPackage.BAND_IMAGE__BCOUNT:
         setBCOUNT((Integer)newValue);
+        return;
+      case AfpTextPackage.BAND_IMAGE__RG:
+        getRg().clear();
+        getRg().addAll((Collection<? extends BandImageRG>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -139,6 +198,9 @@ public class BandImageImpl extends tripletImpl implements BandImage
       case AfpTextPackage.BAND_IMAGE__BCOUNT:
         setBCOUNT(BCOUNT_EDEFAULT);
         return;
+      case AfpTextPackage.BAND_IMAGE__RG:
+        getRg().clear();
+        return;
     }
     super.eUnset(featureID);
   }
@@ -155,6 +217,8 @@ public class BandImageImpl extends tripletImpl implements BandImage
     {
       case AfpTextPackage.BAND_IMAGE__BCOUNT:
         return bcount != BCOUNT_EDEFAULT;
+      case AfpTextPackage.BAND_IMAGE__RG:
+        return rg != null && !rg.isEmpty();
     }
     return super.eIsSet(featureID);
   }

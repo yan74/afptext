@@ -168,7 +168,9 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//CFC/Retired1"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//CFC/triplets"/>
     </genClasses>
-    <genClasses ecoreClass="AfpText.ecore#//CFI"/>
+    <genClasses ecoreClass="AfpText.ecore#//CFI">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//CFI/rg"/>
+    </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//CPC">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//CPC/DefCharID"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//CPC/PrtFlags"/>
@@ -363,6 +365,7 @@
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//GDD">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GDD/GOCAdes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GDD/triplets"/>
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//ICP">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//ICP/XCOset"/>
@@ -378,6 +381,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//IDD/YRESOL"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//IDD/XSIZE"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//IDD/YSIZE"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//IDD/triplets"/>
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//IEL">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//IEL/triplets"/>
@@ -542,6 +546,7 @@
     <genClasses ecoreClass="AfpText.ecore#//MPS">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//MPS/RGLength"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//MPS/Reserved"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//MPS/rg"/>
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//MSU">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//MSU/rg"/>
@@ -608,6 +613,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//PTD/XPEXTENT"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//PTD/YPEXTENT"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//PTD/RESERVED"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//PTD/triplets"/>
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//PTD1">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//PTD1/XPBASE"/>
@@ -618,7 +624,9 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//PTD1/YPEXTENT"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//PTD1/RESERVED"/>
     </genClasses>
-    <genClasses ecoreClass="AfpText.ecore#//PTX"/>
+    <genClasses ecoreClass="AfpText.ecore#//PTX">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//PTX/triplets"/>
+    </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//TLE">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//TLE/triplets"/>
     </genClasses>
@@ -1128,6 +1136,7 @@
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//BandImage">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//BandImage/BCOUNT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//BandImage/rg"/>
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//IDEStructure">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//IDEStructure/FLAGS"/>
@@ -1139,6 +1148,7 @@
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//ExternalAlgorithm">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//ExternalAlgorithm/ALGTYPE"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//ExternalAlgorithm/rg"/>
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//TilePosition">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//TilePosition/XOFFSET"/>
@@ -1182,9 +1192,12 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//IncludeTile/TIRID"/>
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//ImageSubsampling"/>
-    <genClasses ecoreClass="AfpText.ecore#//SamplingRatios"/>
+    <genClasses ecoreClass="AfpText.ecore#//SamplingRatios">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//SamplingRatios/rg"/>
+    </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//TileTOC">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//TileTOC/Reserved"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//TileTOC/rg"/>
     </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//FNNRG2">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//FNNRG2/TSIDLen"/>
@@ -1252,8 +1265,12 @@
     <genClasses ecoreClass="AfpText.ecore#//GEPROL">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GEPROL/RES"/>
     </genClasses>
-    <genClasses ecoreClass="AfpText.ecore#//GFLT"/>
-    <genClasses ecoreClass="AfpText.ecore#//GCFLT"/>
+    <genClasses ecoreClass="AfpText.ecore#//GFLT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GFLT/rg"/>
+    </genClasses>
+    <genClasses ecoreClass="AfpText.ecore#//GCFLT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GCFLT/rg"/>
+    </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//GFARC">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GFARC/XPOS"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GFARC/YPOS"/>
@@ -1267,10 +1284,18 @@
     <genClasses ecoreClass="AfpText.ecore#//GIMD">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GIMD/DATA"/>
     </genClasses>
-    <genClasses ecoreClass="AfpText.ecore#//GLINE"/>
-    <genClasses ecoreClass="AfpText.ecore#//GCLINE"/>
-    <genClasses ecoreClass="AfpText.ecore#//GMRK"/>
-    <genClasses ecoreClass="AfpText.ecore#//GCMRK"/>
+    <genClasses ecoreClass="AfpText.ecore#//GLINE">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GLINE/rg"/>
+    </genClasses>
+    <genClasses ecoreClass="AfpText.ecore#//GCLINE">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GCLINE/rg"/>
+    </genClasses>
+    <genClasses ecoreClass="AfpText.ecore#//GMRK">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GMRK/rg"/>
+    </genClasses>
+    <genClasses ecoreClass="AfpText.ecore#//GCMRK">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GCMRK/rg"/>
+    </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//GNOP1"/>
     <genClasses ecoreClass="AfpText.ecore#//GPARC">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GPARC/XPOS"/>
@@ -1293,8 +1318,11 @@
     <genClasses ecoreClass="AfpText.ecore#//GRLINE">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GRLINE/XPOS"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GRLINE/YPOS"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GRLINE/rg"/>
     </genClasses>
-    <genClasses ecoreClass="AfpText.ecore#//GCRLINE"/>
+    <genClasses ecoreClass="AfpText.ecore#//GCRLINE">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GCRLINE/rg"/>
+    </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//GSGCH"/>
     <genClasses ecoreClass="AfpText.ecore#//GSAP">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GSAP/P"/>
@@ -1386,8 +1414,12 @@
     <genClasses ecoreClass="AfpText.ecore#//GSLJ">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//GSLJ/LINEJOIN"/>
     </genClasses>
-    <genClasses ecoreClass="AfpText.ecore#//GCBEZ"/>
-    <genClasses ecoreClass="AfpText.ecore#//GCCBEZ"/>
+    <genClasses ecoreClass="AfpText.ecore#//GCBEZ">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GCBEZ/rg"/>
+    </genClasses>
+    <genClasses ecoreClass="AfpText.ecore#//GCCBEZ">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AfpText.ecore#//GCCBEZ/rg"/>
+    </genClasses>
     <genClasses ecoreClass="AfpText.ecore#//WindowSpecification">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//WindowSpecification/FLAGS"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AfpText.ecore#//WindowSpecification/RES3"/>

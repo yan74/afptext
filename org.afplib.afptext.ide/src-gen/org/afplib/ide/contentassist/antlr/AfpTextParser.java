@@ -1240,6 +1240,7 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getCFCAccess().getCFIRGLenAssignment_2_0_1(), "rule__CFC__CFIRGLenAssignment_2_0_1");
 			builder.put(grammarAccess.getCFCAccess().getRetired1Assignment_2_1_1(), "rule__CFC__Retired1Assignment_2_1_1");
 			builder.put(grammarAccess.getCFCAccess().getTripletsAssignment_3(), "rule__CFC__TripletsAssignment_3");
+			builder.put(grammarAccess.getCFIAccess().getRgAssignment_2(), "rule__CFI__RgAssignment_2");
 			builder.put(grammarAccess.getCPCAccess().getDefCharIDAssignment_2_0_1(), "rule__CPC__DefCharIDAssignment_2_0_1");
 			builder.put(grammarAccess.getCPCAccess().getPrtFlagsAssignment_2_1_1(), "rule__CPC__PrtFlagsAssignment_2_1_1");
 			builder.put(grammarAccess.getCPCAccess().getCPIRGLenAssignment_2_2_1(), "rule__CPC__CPIRGLenAssignment_2_2_1");
@@ -1348,6 +1349,7 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getFNPAccess().getRgAssignment_2(), "rule__FNP__RgAssignment_2");
 			builder.put(grammarAccess.getGADAccess().getGOCAdatAssignment_2_1(), "rule__GAD__GOCAdatAssignment_2_1");
 			builder.put(grammarAccess.getGDDAccess().getGOCAdesAssignment_2_1(), "rule__GDD__GOCAdesAssignment_2_1");
+			builder.put(grammarAccess.getGDDAccess().getTripletsAssignment_3(), "rule__GDD__TripletsAssignment_3");
 			builder.put(grammarAccess.getICPAccess().getXCOsetAssignment_2_0_1(), "rule__ICP__XCOsetAssignment_2_0_1");
 			builder.put(grammarAccess.getICPAccess().getYCOsetAssignment_2_1_1(), "rule__ICP__YCOsetAssignment_2_1_1");
 			builder.put(grammarAccess.getICPAccess().getXCSizeAssignment_2_2_1(), "rule__ICP__XCSizeAssignment_2_2_1");
@@ -1359,6 +1361,7 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getIDDAccess().getYRESOLAssignment_2_2_1(), "rule__IDD__YRESOLAssignment_2_2_1");
 			builder.put(grammarAccess.getIDDAccess().getXSIZEAssignment_2_3_1(), "rule__IDD__XSIZEAssignment_2_3_1");
 			builder.put(grammarAccess.getIDDAccess().getYSIZEAssignment_2_4_1(), "rule__IDD__YSIZEAssignment_2_4_1");
+			builder.put(grammarAccess.getIDDAccess().getTripletsAssignment_3(), "rule__IDD__TripletsAssignment_3");
 			builder.put(grammarAccess.getIELAccess().getTripletsAssignment_2(), "rule__IEL__TripletsAssignment_2");
 			builder.put(grammarAccess.getIIDAccess().getConData1Assignment_2_0_1(), "rule__IID__ConData1Assignment_2_0_1");
 			builder.put(grammarAccess.getIIDAccess().getXBaseAssignment_2_1_1(), "rule__IID__XBaseAssignment_2_1_1");
@@ -1461,6 +1464,7 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getMPOAccess().getRgAssignment_2(), "rule__MPO__RgAssignment_2");
 			builder.put(grammarAccess.getMPSAccess().getRGLengthAssignment_2_0_1(), "rule__MPS__RGLengthAssignment_2_0_1");
 			builder.put(grammarAccess.getMPSAccess().getReservedAssignment_2_1_1(), "rule__MPS__ReservedAssignment_2_1_1");
+			builder.put(grammarAccess.getMPSAccess().getRgAssignment_3(), "rule__MPS__RgAssignment_3");
 			builder.put(grammarAccess.getMSUAccess().getRgAssignment_2(), "rule__MSU__RgAssignment_2");
 			builder.put(grammarAccess.getNOPAccess().getUndfDataAssignment_2_1(), "rule__NOP__UndfDataAssignment_2_1");
 			builder.put(grammarAccess.getOBDAccess().getTripletsAssignment_2(), "rule__OBD__TripletsAssignment_2");
@@ -1501,6 +1505,7 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getPTDAccess().getXPEXTENTAssignment_2_4_1(), "rule__PTD__XPEXTENTAssignment_2_4_1");
 			builder.put(grammarAccess.getPTDAccess().getYPEXTENTAssignment_2_5_1(), "rule__PTD__YPEXTENTAssignment_2_5_1");
 			builder.put(grammarAccess.getPTDAccess().getRESERVEDAssignment_2_6_1(), "rule__PTD__RESERVEDAssignment_2_6_1");
+			builder.put(grammarAccess.getPTDAccess().getTripletsAssignment_3(), "rule__PTD__TripletsAssignment_3");
 			builder.put(grammarAccess.getPTD1Access().getXPBASEAssignment_2_0_1(), "rule__PTD1__XPBASEAssignment_2_0_1");
 			builder.put(grammarAccess.getPTD1Access().getYPBASEAssignment_2_1_1(), "rule__PTD1__YPBASEAssignment_2_1_1");
 			builder.put(grammarAccess.getPTD1Access().getXPUNITVLAssignment_2_2_1(), "rule__PTD1__XPUNITVLAssignment_2_2_1");
@@ -1508,6 +1513,7 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getPTD1Access().getXPEXTENTAssignment_2_4_1(), "rule__PTD1__XPEXTENTAssignment_2_4_1");
 			builder.put(grammarAccess.getPTD1Access().getYPEXTENTAssignment_2_5_1(), "rule__PTD1__YPEXTENTAssignment_2_5_1");
 			builder.put(grammarAccess.getPTD1Access().getRESERVEDAssignment_2_6_1(), "rule__PTD1__RESERVEDAssignment_2_6_1");
+			builder.put(grammarAccess.getPTXAccess().getTripletsAssignment_2(), "rule__PTX__TripletsAssignment_2");
 			builder.put(grammarAccess.getTLEAccess().getTripletsAssignment_2(), "rule__TLE__TripletsAssignment_2");
 			builder.put(grammarAccess.getFGDAccess().getConDataAssignment_2_1(), "rule__FGD__ConDataAssignment_2_1");
 			builder.put(grammarAccess.getCPIRGAccess().getGCGIDAssignment_2_0_1(), "rule__CPIRG__GCGIDAssignment_2_0_1");
@@ -1799,6 +1805,7 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getIDESizeAccess().getIDESZAssignment_2_1(), "rule__IDESize__IDESZAssignment_2_1");
 			builder.put(grammarAccess.getImageLUTIDAccess().getLUTIDAssignment_2_1(), "rule__ImageLUTID__LUTIDAssignment_2_1");
 			builder.put(grammarAccess.getBandImageAccess().getBCOUNTAssignment_2_1(), "rule__BandImage__BCOUNTAssignment_2_1");
+			builder.put(grammarAccess.getBandImageAccess().getRgAssignment_3(), "rule__BandImage__RgAssignment_3");
 			builder.put(grammarAccess.getIDEStructureAccess().getFLAGSAssignment_2_0_1(), "rule__IDEStructure__FLAGSAssignment_2_0_1");
 			builder.put(grammarAccess.getIDEStructureAccess().getFORMATAssignment_2_1_1(), "rule__IDEStructure__FORMATAssignment_2_1_1");
 			builder.put(grammarAccess.getIDEStructureAccess().getSIZE1Assignment_2_2_1(), "rule__IDEStructure__SIZE1Assignment_2_2_1");
@@ -1806,6 +1813,7 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getIDEStructureAccess().getSIZE3Assignment_2_4_1(), "rule__IDEStructure__SIZE3Assignment_2_4_1");
 			builder.put(grammarAccess.getIDEStructureAccess().getSIZE4Assignment_2_5_1(), "rule__IDEStructure__SIZE4Assignment_2_5_1");
 			builder.put(grammarAccess.getExternalAlgorithmAccess().getALGTYPEAssignment_2_1(), "rule__ExternalAlgorithm__ALGTYPEAssignment_2_1");
+			builder.put(grammarAccess.getExternalAlgorithmAccess().getRgAssignment_3(), "rule__ExternalAlgorithm__RgAssignment_3");
 			builder.put(grammarAccess.getTilePositionAccess().getXOFFSETAssignment_2_0_1(), "rule__TilePosition__XOFFSETAssignment_2_0_1");
 			builder.put(grammarAccess.getTilePositionAccess().getYOFFSETAssignment_2_1_1(), "rule__TilePosition__YOFFSETAssignment_2_1_1");
 			builder.put(grammarAccess.getTileSizeAccess().getTHSIZEAssignment_2_0_1(), "rule__TileSize__THSIZEAssignment_2_0_1");
@@ -1831,7 +1839,9 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getBandImageDataAccess().getRESERVEDAssignment_2_1_1(), "rule__BandImageData__RESERVEDAssignment_2_1_1");
 			builder.put(grammarAccess.getBandImageDataAccess().getDATAAssignment_2_2_1(), "rule__BandImageData__DATAAssignment_2_2_1");
 			builder.put(grammarAccess.getIncludeTileAccess().getTIRIDAssignment_2_1(), "rule__IncludeTile__TIRIDAssignment_2_1");
+			builder.put(grammarAccess.getSamplingRatiosAccess().getRgAssignment_2(), "rule__SamplingRatios__RgAssignment_2");
 			builder.put(grammarAccess.getTileTOCAccess().getReservedAssignment_2_1(), "rule__TileTOC__ReservedAssignment_2_1");
+			builder.put(grammarAccess.getTileTOCAccess().getRgAssignment_3(), "rule__TileTOC__RgAssignment_3");
 			builder.put(grammarAccess.getFNNRG2Access().getTSIDLenAssignment_2_0_1(), "rule__FNNRG2__TSIDLenAssignment_2_0_1");
 			builder.put(grammarAccess.getFNNRG2Access().getTSIDAssignment_2_1_1(), "rule__FNNRG2__TSIDAssignment_2_1_1");
 			builder.put(grammarAccess.getBeginSegmentCommandAccess().getLENGTHAssignment_2_0_1(), "rule__BeginSegmentCommand__LENGTHAssignment_2_0_1");
@@ -1871,6 +1881,8 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getGEARAccess().getDATAAssignment_2_1(), "rule__GEAR__DATAAssignment_2_1");
 			builder.put(grammarAccess.getGEIMGAccess().getDATAAssignment_2_1(), "rule__GEIMG__DATAAssignment_2_1");
 			builder.put(grammarAccess.getGEPROLAccess().getRESAssignment_2_1(), "rule__GEPROL__RESAssignment_2_1");
+			builder.put(grammarAccess.getGFLTAccess().getRgAssignment_2(), "rule__GFLT__RgAssignment_2");
+			builder.put(grammarAccess.getGCFLTAccess().getRgAssignment_2(), "rule__GCFLT__RgAssignment_2");
 			builder.put(grammarAccess.getGFARCAccess().getXPOSAssignment_2_0_1(), "rule__GFARC__XPOSAssignment_2_0_1");
 			builder.put(grammarAccess.getGFARCAccess().getYPOSAssignment_2_1_1(), "rule__GFARC__YPOSAssignment_2_1_1");
 			builder.put(grammarAccess.getGFARCAccess().getMHAssignment_2_2_1(), "rule__GFARC__MHAssignment_2_2_1");
@@ -1878,6 +1890,10 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getGCFARCAccess().getMHAssignment_2_0_1(), "rule__GCFARC__MHAssignment_2_0_1");
 			builder.put(grammarAccess.getGCFARCAccess().getMFRAssignment_2_1_1(), "rule__GCFARC__MFRAssignment_2_1_1");
 			builder.put(grammarAccess.getGIMDAccess().getDATAAssignment_2_1(), "rule__GIMD__DATAAssignment_2_1");
+			builder.put(grammarAccess.getGLINEAccess().getRgAssignment_2(), "rule__GLINE__RgAssignment_2");
+			builder.put(grammarAccess.getGCLINEAccess().getRgAssignment_2(), "rule__GCLINE__RgAssignment_2");
+			builder.put(grammarAccess.getGMRKAccess().getRgAssignment_2(), "rule__GMRK__RgAssignment_2");
+			builder.put(grammarAccess.getGCMRKAccess().getRgAssignment_2(), "rule__GCMRK__RgAssignment_2");
 			builder.put(grammarAccess.getGPARCAccess().getXPOSAssignment_2_0_1(), "rule__GPARC__XPOSAssignment_2_0_1");
 			builder.put(grammarAccess.getGPARCAccess().getYPOSAssignment_2_1_1(), "rule__GPARC__YPOSAssignment_2_1_1");
 			builder.put(grammarAccess.getGPARCAccess().getXCENTAssignment_2_2_1(), "rule__GPARC__XCENTAssignment_2_2_1");
@@ -1894,6 +1910,8 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getGCPARCAccess().getSWEEPAssignment_2_5_1(), "rule__GCPARC__SWEEPAssignment_2_5_1");
 			builder.put(grammarAccess.getGRLINEAccess().getXPOSAssignment_2_0_1(), "rule__GRLINE__XPOSAssignment_2_0_1");
 			builder.put(grammarAccess.getGRLINEAccess().getYPOSAssignment_2_1_1(), "rule__GRLINE__YPOSAssignment_2_1_1");
+			builder.put(grammarAccess.getGRLINEAccess().getRgAssignment_3(), "rule__GRLINE__RgAssignment_3");
+			builder.put(grammarAccess.getGCRLINEAccess().getRgAssignment_2(), "rule__GCRLINE__RgAssignment_2");
 			builder.put(grammarAccess.getGSAPAccess().getPAssignment_2_0_1(), "rule__GSAP__PAssignment_2_0_1");
 			builder.put(grammarAccess.getGSAPAccess().getQAssignment_2_1_1(), "rule__GSAP__QAssignment_2_1_1");
 			builder.put(grammarAccess.getGSAPAccess().getRAssignment_2_2_1(), "rule__GSAP__RAssignment_2_2_1");
@@ -1936,6 +1954,8 @@ public class AfpTextParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getGSPCOLAccess().getCOLVALUEAssignment_2_7_1(), "rule__GSPCOL__COLVALUEAssignment_2_7_1");
 			builder.put(grammarAccess.getGSLEAccess().getLINEENDAssignment_2_1(), "rule__GSLE__LINEENDAssignment_2_1");
 			builder.put(grammarAccess.getGSLJAccess().getLINEJOINAssignment_2_1(), "rule__GSLJ__LINEJOINAssignment_2_1");
+			builder.put(grammarAccess.getGCBEZAccess().getRgAssignment_2(), "rule__GCBEZ__RgAssignment_2");
+			builder.put(grammarAccess.getGCCBEZAccess().getRgAssignment_2(), "rule__GCCBEZ__RgAssignment_2");
 			builder.put(grammarAccess.getWindowSpecificationAccess().getFLAGSAssignment_2_0_1(), "rule__WindowSpecification__FLAGSAssignment_2_0_1");
 			builder.put(grammarAccess.getWindowSpecificationAccess().getRES3Assignment_2_1_1(), "rule__WindowSpecification__RES3Assignment_2_1_1");
 			builder.put(grammarAccess.getWindowSpecificationAccess().getCFORMATAssignment_2_2_1(), "rule__WindowSpecification__CFORMATAssignment_2_2_1");

@@ -3,6 +3,7 @@
  */
 package org.afplib.afpText;
 
+import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -14,6 +15,7 @@ package org.afplib.afpText;
  * </p>
  * <ul>
  *   <li>{@link org.afplib.afpText.GDD#getGOCAdes <em>GOC Ades</em>}</li>
+ *   <li>{@link org.afplib.afpText.GDD#getTriplets <em>Triplets</em>}</li>
  * </ul>
  *
  * @see org.afplib.afpText.AfpTextPackage#getGDD()
@@ -43,5 +45,17 @@ public interface GDD extends structuredField
    * @generated
    */
   void setGOCAdes(String value);
+
+  /**
+   * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.
+   * The list contents are of type {@link org.afplib.afpText.triplet}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Triplets</em>' containment reference list.
+   * @see org.afplib.afpText.AfpTextPackage#getGDD_Triplets()
+   * @model containment="true"
+   * @generated
+   */
+  EList<triplet> getTriplets();
 
 } // GDD

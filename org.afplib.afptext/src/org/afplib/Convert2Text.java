@@ -52,6 +52,7 @@ public class Convert2Text extends AbstractHandler {
 				protected IStatus run(IProgressMonitor monitor) {
 					Charset charset = Charset.forName("UTF-8");
 					try {
+						afp.delete(true, monitor);
 						AFP2Text converter = new AFP2Text(file, charset , monitor);
 						afp.create(converter, true, null);
 						afp.setCharset(charset.name(), monitor);

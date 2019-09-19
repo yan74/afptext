@@ -57,7 +57,6 @@ public class Model2Grammar {
 			String params = clazz.getEAllAttributes().stream()
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Id()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Charset()))
-			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Children()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Length()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Number()))
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getSF_Offset()))
@@ -75,12 +74,13 @@ public class Model2Grammar {
 				System.out.print(" ("+params+")");
 			}
 			clazz.getEAllContainments().stream()
-			.filter(c -> c.getName().equalsIgnoreCase("triplets"))
+			.filter(c -> !c.equals(BasePackage.eINSTANCE.getSF_Children()))
+			.filter(c -> !c.getName().equalsIgnoreCase("rg") && !c.getName().equalsIgnoreCase("FixedLengthRG"))
 			.forEach(c -> {
 				System.out.print(" (triplets+=triplet)*");
 			});
 			clazz.getEAllContainments().stream()
-			.filter(c -> c.getName().equalsIgnoreCase("rg"))
+			.filter(c -> c.getName().equalsIgnoreCase("rg") || c.getName().equalsIgnoreCase("FixedLengthRG"))
 			.forEach(c -> {
 				System.out.print(" (rg+="+clazz.getName()+"RG)*");
 			});
@@ -115,7 +115,7 @@ public class Model2Grammar {
 				System.out.print(" ("+params+")");
 			}
 			clazz.getEAllContainments().stream()
-			.filter(c -> c.getName().equalsIgnoreCase("triplets"))
+			.filter(c -> !c.getName().equalsIgnoreCase("rg")  && !c.getName().equalsIgnoreCase("FixedLengthRG"))
 			.forEach(c -> {
 				System.out.print(" (triplets+=triplet)*");
 			});
@@ -162,6 +162,11 @@ public class Model2Grammar {
 			if(params!=null && params.length() > 0) {
 				System.out.print(" ("+params+")");
 			}
+			clazz.getEAllContainments().stream()
+			.filter(c -> c.getName().equalsIgnoreCase("rg") || c.getName().equalsIgnoreCase("FixedLengthRG"))
+			.forEach(c -> {
+				System.out.print(" (rg+="+clazz.getName()+"RG)*");
+			});
 			System.out.println(";");
 		});
 		

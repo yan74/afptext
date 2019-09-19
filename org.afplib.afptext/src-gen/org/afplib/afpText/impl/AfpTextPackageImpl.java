@@ -4046,6 +4046,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getCFI_Rg()
+  {
+        return (EReference)getCFI().getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getCPC()
   {
     if (cpcEClass == null)
@@ -5894,6 +5905,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getGDD_Triplets()
+  {
+        return (EReference)getGDD().getEStructuralFeatures().get(1);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getICP()
   {
     if (icpEClass == null)
@@ -6037,6 +6059,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
   public EAttribute getIDD_YSIZE()
   {
         return (EAttribute)getIDD().getEStructuralFeatures().get(4);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getIDD_Triplets()
+  {
+        return (EReference)getIDD().getEStructuralFeatures().get(5);
   }
 
   /**
@@ -7632,6 +7665,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getMPS_Rg()
+  {
+        return (EReference)getMPS().getEStructuralFeatures().get(2);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getMSU()
   {
     if (msuEClass == null)
@@ -8267,6 +8311,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getPTD_Triplets()
+  {
+        return (EReference)getPTD().getEStructuralFeatures().get(7);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getPTD1()
   {
     if (ptd1EClass == null)
@@ -8366,6 +8421,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
       ptxEClass = (EClass)EPackage.Registry.INSTANCE.getEPackage(AfpTextPackage.eNS_URI).getEClassifiers().get(129);
     }
     return ptxEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getPTX_Triplets()
+  {
+        return (EReference)getPTX().getEStructuralFeatures().get(0);
   }
 
   /**
@@ -13285,6 +13351,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getBandImage_Rg()
+  {
+        return (EReference)getBandImage().getEStructuralFeatures().get(1);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getIDEStructure()
   {
     if (ideStructureEClass == null)
@@ -13384,6 +13461,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
   public EAttribute getExternalAlgorithm_ALGTYPE()
   {
         return (EAttribute)getExternalAlgorithm().getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getExternalAlgorithm_Rg()
+  {
+        return (EReference)getExternalAlgorithm().getEStructuralFeatures().get(1);
   }
 
   /**
@@ -13817,6 +13905,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getSamplingRatios_Rg()
+  {
+        return (EReference)getSamplingRatios().getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getTileTOC()
   {
     if (tileTOCEClass == null)
@@ -13835,6 +13934,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
   public EAttribute getTileTOC_Reserved()
   {
         return (EAttribute)getTileTOC().getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getTileTOC_Rg()
+  {
+        return (EReference)getTileTOC().getEStructuralFeatures().get(1);
   }
 
   /**
@@ -14497,6 +14607,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getGFLT_Rg()
+  {
+        return (EReference)getGFLT().getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getGCFLT()
   {
     if (gcfltEClass == null)
@@ -14504,6 +14625,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
       gcfltEClass = (EClass)EPackage.Registry.INSTANCE.getEPackage(AfpTextPackage.eNS_URI).getEClassifiers().get(272);
     }
     return gcfltEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getGCFLT_Rg()
+  {
+        return (EReference)getGCFLT().getEStructuralFeatures().get(0);
   }
 
   /**
@@ -14649,6 +14781,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getGLINE_Rg()
+  {
+        return (EReference)getGLINE().getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getGCLINE()
   {
     if (gclineEClass == null)
@@ -14656,6 +14799,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
       gclineEClass = (EClass)EPackage.Registry.INSTANCE.getEPackage(AfpTextPackage.eNS_URI).getEClassifiers().get(277);
     }
     return gclineEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getGCLINE_Rg()
+  {
+        return (EReference)getGCLINE().getEStructuralFeatures().get(0);
   }
 
   /**
@@ -14679,6 +14833,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getGMRK_Rg()
+  {
+        return (EReference)getGMRK().getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getGCMRK()
   {
     if (gcmrkEClass == null)
@@ -14686,6 +14851,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
       gcmrkEClass = (EClass)EPackage.Registry.INSTANCE.getEPackage(AfpTextPackage.eNS_URI).getEClassifiers().get(279);
     }
     return gcmrkEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getGCMRK_Rg()
+  {
+        return (EReference)getGCMRK().getEStructuralFeatures().get(0);
   }
 
   /**
@@ -14930,6 +15106,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getGRLINE_Rg()
+  {
+        return (EReference)getGRLINE().getEStructuralFeatures().get(2);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getGCRLINE()
   {
     if (gcrlineEClass == null)
@@ -14937,6 +15124,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
       gcrlineEClass = (EClass)EPackage.Registry.INSTANCE.getEPackage(AfpTextPackage.eNS_URI).getEClassifiers().get(284);
     }
     return gcrlineEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getGCRLINE_Rg()
+  {
+        return (EReference)getGCRLINE().getEStructuralFeatures().get(0);
   }
 
   /**
@@ -15797,6 +15995,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
    * @generated
    */
   @Override
+  public EReference getGCBEZ_Rg()
+  {
+        return (EReference)getGCBEZ().getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EClass getGCCBEZ()
   {
     if (gccbezEClass == null)
@@ -15804,6 +16013,17 @@ public class AfpTextPackageImpl extends EPackageImpl implements AfpTextPackage
       gccbezEClass = (EClass)EPackage.Registry.INSTANCE.getEPackage(AfpTextPackage.eNS_URI).getEClassifiers().get(311);
     }
     return gccbezEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getGCCBEZ_Rg()
+  {
+        return (EReference)getGCCBEZ().getEStructuralFeatures().get(0);
   }
 
   /**

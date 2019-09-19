@@ -3,14 +3,24 @@
  */
 package org.afplib.afpText.impl;
 
+import java.util.Collection;
+
 import org.afplib.afpText.AfpTextPackage;
 import org.afplib.afpText.MPS;
+import org.afplib.afpText.MPSRG;
 
 import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -22,6 +32,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  * <ul>
  *   <li>{@link org.afplib.afpText.impl.MPSImpl#getRGLength <em>RG Length</em>}</li>
  *   <li>{@link org.afplib.afpText.impl.MPSImpl#getReserved <em>Reserved</em>}</li>
+ *   <li>{@link org.afplib.afpText.impl.MPSImpl#getRg <em>Rg</em>}</li>
  * </ul>
  *
  * @generated
@@ -67,6 +78,16 @@ public class MPSImpl extends structuredFieldImpl implements MPS
    * @ordered
    */
   protected String reserved = RESERVED_EDEFAULT;
+
+  /**
+   * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getRg()
+   * @generated
+   * @ordered
+   */
+  protected EList<MPSRG> rg;
 
   /**
    * <!-- begin-user-doc -->
@@ -145,6 +166,37 @@ public class MPSImpl extends structuredFieldImpl implements MPS
    * @generated
    */
   @Override
+  public EList<MPSRG> getRg()
+  {
+    if (rg == null)
+    {
+      rg = new EObjectContainmentEList<MPSRG>(MPSRG.class, this, AfpTextPackage.MPS__RG);
+    }
+    return rg;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+  {
+    switch (featureID)
+    {
+      case AfpTextPackage.MPS__RG:
+        return ((InternalEList<?>)getRg()).basicRemove(otherEnd, msgs);
+    }
+    return super.eInverseRemove(otherEnd, featureID, msgs);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
     switch (featureID)
@@ -153,6 +205,8 @@ public class MPSImpl extends structuredFieldImpl implements MPS
         return getRGLength();
       case AfpTextPackage.MPS__RESERVED:
         return getReserved();
+      case AfpTextPackage.MPS__RG:
+        return getRg();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -162,6 +216,7 @@ public class MPSImpl extends structuredFieldImpl implements MPS
    * <!-- end-user-doc -->
    * @generated
    */
+  @SuppressWarnings("unchecked")
   @Override
   public void eSet(int featureID, Object newValue)
   {
@@ -172,6 +227,10 @@ public class MPSImpl extends structuredFieldImpl implements MPS
         return;
       case AfpTextPackage.MPS__RESERVED:
         setReserved((String)newValue);
+        return;
+      case AfpTextPackage.MPS__RG:
+        getRg().clear();
+        getRg().addAll((Collection<? extends MPSRG>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -193,6 +252,9 @@ public class MPSImpl extends structuredFieldImpl implements MPS
       case AfpTextPackage.MPS__RESERVED:
         setReserved(RESERVED_EDEFAULT);
         return;
+      case AfpTextPackage.MPS__RG:
+        getRg().clear();
+        return;
     }
     super.eUnset(featureID);
   }
@@ -211,6 +273,8 @@ public class MPSImpl extends structuredFieldImpl implements MPS
         return rgLength != RG_LENGTH_EDEFAULT;
       case AfpTextPackage.MPS__RESERVED:
         return RESERVED_EDEFAULT == null ? reserved != null : !RESERVED_EDEFAULT.equals(reserved);
+      case AfpTextPackage.MPS__RG:
+        return rg != null && !rg.isEmpty();
     }
     return super.eIsSet(featureID);
   }

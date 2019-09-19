@@ -1929,7 +1929,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     BandImage returns BandImage
 	 *
 	 * Constraint:
-	 *     BCOUNT=EINTEGEROBJECT?
+	 *     (BCOUNT=EINTEGEROBJECT? rg+=BandImageRG*)
 	 */
 	protected void sequence_BandImage(ISerializationContext context, BandImage semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -2082,7 +2082,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     CFI returns CFI
 	 *
 	 * Constraint:
-	 *     {CFI}
+	 *     rg+=CFIRG*
 	 */
 	protected void sequence_CFI(ISerializationContext context, CFI semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -2890,7 +2890,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     ExternalAlgorithm returns ExternalAlgorithm
 	 *
 	 * Constraint:
-	 *     ALGTYPE=EINTEGEROBJECT?
+	 *     (ALGTYPE=EINTEGEROBJECT? rg+=ExternalAlgorithmRG*)
 	 */
 	protected void sequence_ExternalAlgorithm(ISerializationContext context, ExternalAlgorithm semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3372,7 +3372,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GCBEZ returns GCBEZ
 	 *
 	 * Constraint:
-	 *     {GCBEZ}
+	 *     rg+=GCBEZRG*
 	 */
 	protected void sequence_GCBEZ(ISerializationContext context, GCBEZ semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3423,7 +3423,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GCCBEZ returns GCCBEZ
 	 *
 	 * Constraint:
-	 *     {GCCBEZ}
+	 *     rg+=GCCBEZRG*
 	 */
 	protected void sequence_GCCBEZ(ISerializationContext context, GCCBEZ semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3474,7 +3474,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GCFLT returns GCFLT
 	 *
 	 * Constraint:
-	 *     {GCFLT}
+	 *     rg+=GCFLTRG*
 	 */
 	protected void sequence_GCFLT(ISerializationContext context, GCFLT semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3512,7 +3512,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GCLINE returns GCLINE
 	 *
 	 * Constraint:
-	 *     {GCLINE}
+	 *     rg+=GCLINERG*
 	 */
 	protected void sequence_GCLINE(ISerializationContext context, GCLINE semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3537,7 +3537,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GCMRK returns GCMRK
 	 *
 	 * Constraint:
-	 *     {GCMRK}
+	 *     rg+=GCMRKRG*
 	 */
 	protected void sequence_GCMRK(ISerializationContext context, GCMRK semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3595,7 +3595,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GCRLINE returns GCRLINE
 	 *
 	 * Constraint:
-	 *     {GCRLINE}
+	 *     rg+=GCRLINERG*
 	 */
 	protected void sequence_GCRLINE(ISerializationContext context, GCRLINE semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3608,7 +3608,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GDD returns GDD
 	 *
 	 * Constraint:
-	 *     GOCAdes=EBYTEARRAY?
+	 *     (GOCAdes=EBYTEARRAY? triplets+=triplet*)
 	 */
 	protected void sequence_GDD(ISerializationContext context, GDD semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3685,7 +3685,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GFLT returns GFLT
 	 *
 	 * Constraint:
-	 *     {GFLT}
+	 *     rg+=GFLTRG*
 	 */
 	protected void sequence_GFLT(ISerializationContext context, GFLT semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3723,7 +3723,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GLINE returns GLINE
 	 *
 	 * Constraint:
-	 *     {GLINE}
+	 *     rg+=GLINERG*
 	 */
 	protected void sequence_GLINE(ISerializationContext context, GLINE semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3748,7 +3748,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GMRK returns GMRK
 	 *
 	 * Constraint:
-	 *     {GMRK}
+	 *     rg+=GMRKRG*
 	 */
 	protected void sequence_GMRK(ISerializationContext context, GMRK semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -3808,7 +3808,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     GRLINE returns GRLINE
 	 *
 	 * Constraint:
-	 *     (XPOS=EINTEGEROBJECT | YPOS=EINTEGEROBJECT)*
+	 *     ((XPOS=EINTEGEROBJECT | YPOS=EINTEGEROBJECT)* rg+=GRLINERG*)
 	 */
 	protected void sequence_GRLINE(ISerializationContext context, GRLINE semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -4175,7 +4175,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     IDD returns IDD
 	 *
 	 * Constraint:
-	 *     (UNITBASE=EINTEGEROBJECT | XRESOL=EINTEGEROBJECT | YRESOL=EINTEGEROBJECT | XSIZE=EINTEGEROBJECT | YSIZE=EINTEGEROBJECT)*
+	 *     ((UNITBASE=EINTEGEROBJECT | XRESOL=EINTEGEROBJECT | YRESOL=EINTEGEROBJECT | XSIZE=EINTEGEROBJECT | YSIZE=EINTEGEROBJECT)* triplets+=triplet*)
 	 */
 	protected void sequence_IDD(ISerializationContext context, IDD semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -5074,7 +5074,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     MPS returns MPS
 	 *
 	 * Constraint:
-	 *     (RGLength=EINTEGEROBJECT | Reserved=EBYTEARRAY)*
+	 *     ((RGLength=EINTEGEROBJECT | Reserved=EBYTEARRAY)* rg+=MPSRG*)
 	 */
 	protected void sequence_MPS(ISerializationContext context, MPS semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -5622,14 +5622,17 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *
 	 * Constraint:
 	 *     (
-	 *         XPBASE=EINTEGEROBJECT | 
-	 *         YPBASE=EINTEGEROBJECT | 
-	 *         XPUNITVL=EINTEGEROBJECT | 
-	 *         YPUNITVL=EINTEGEROBJECT | 
-	 *         XPEXTENT=EINTEGEROBJECT | 
-	 *         YPEXTENT=EINTEGEROBJECT | 
-	 *         RESERVED=EINTEGEROBJECT
-	 *     )*
+	 *         (
+	 *             XPBASE=EINTEGEROBJECT | 
+	 *             YPBASE=EINTEGEROBJECT | 
+	 *             XPUNITVL=EINTEGEROBJECT | 
+	 *             YPUNITVL=EINTEGEROBJECT | 
+	 *             XPEXTENT=EINTEGEROBJECT | 
+	 *             YPEXTENT=EINTEGEROBJECT | 
+	 *             RESERVED=EINTEGEROBJECT
+	 *         )* 
+	 *         triplets+=triplet*
+	 *     )
 	 */
 	protected void sequence_PTD(ISerializationContext context, PTD semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -5642,7 +5645,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     PTX returns PTX
 	 *
 	 * Constraint:
-	 *     {PTX}
+	 *     triplets+=triplet*
 	 */
 	protected void sequence_PTX(ISerializationContext context, PTX semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -5968,7 +5971,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     SamplingRatios returns SamplingRatios
 	 *
 	 * Constraint:
-	 *     {SamplingRatios}
+	 *     rg+=SamplingRatiosRG*
 	 */
 	protected void sequence_SamplingRatios(ISerializationContext context, SamplingRatios semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -6129,7 +6132,7 @@ public class AfpTextSemanticSequencer extends AbstractDelegatingSemanticSequence
 	 *     TileTOC returns TileTOC
 	 *
 	 * Constraint:
-	 *     Reserved=EINTEGEROBJECT?
+	 *     (Reserved=EINTEGEROBJECT? rg+=TileTOCRG*)
 	 */
 	protected void sequence_TileTOC(ISerializationContext context, TileTOC semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);

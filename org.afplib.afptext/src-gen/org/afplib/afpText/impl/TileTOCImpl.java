@@ -3,14 +3,24 @@
  */
 package org.afplib.afpText.impl;
 
+import java.util.Collection;
+
 import org.afplib.afpText.AfpTextPackage;
 import org.afplib.afpText.TileTOC;
+import org.afplib.afpText.TileTOCRG;
 
 import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -21,6 +31,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  * </p>
  * <ul>
  *   <li>{@link org.afplib.afpText.impl.TileTOCImpl#getReserved <em>Reserved</em>}</li>
+ *   <li>{@link org.afplib.afpText.impl.TileTOCImpl#getRg <em>Rg</em>}</li>
  * </ul>
  *
  * @generated
@@ -46,6 +57,16 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
    * @ordered
    */
   protected int reserved = RESERVED_EDEFAULT;
+
+  /**
+   * The cached value of the '{@link #getRg() <em>Rg</em>}' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getRg()
+   * @generated
+   * @ordered
+   */
+  protected EList<TileTOCRG> rg;
 
   /**
    * <!-- begin-user-doc -->
@@ -99,12 +120,45 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
    * @generated
    */
   @Override
+  public EList<TileTOCRG> getRg()
+  {
+    if (rg == null)
+    {
+      rg = new EObjectContainmentEList<TileTOCRG>(TileTOCRG.class, this, AfpTextPackage.TILE_TOC__RG);
+    }
+    return rg;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+  {
+    switch (featureID)
+    {
+      case AfpTextPackage.TILE_TOC__RG:
+        return ((InternalEList<?>)getRg()).basicRemove(otherEnd, msgs);
+    }
+    return super.eInverseRemove(otherEnd, featureID, msgs);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
     switch (featureID)
     {
       case AfpTextPackage.TILE_TOC__RESERVED:
         return getReserved();
+      case AfpTextPackage.TILE_TOC__RG:
+        return getRg();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -114,6 +168,7 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
    * <!-- end-user-doc -->
    * @generated
    */
+  @SuppressWarnings("unchecked")
   @Override
   public void eSet(int featureID, Object newValue)
   {
@@ -121,6 +176,10 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
     {
       case AfpTextPackage.TILE_TOC__RESERVED:
         setReserved((Integer)newValue);
+        return;
+      case AfpTextPackage.TILE_TOC__RG:
+        getRg().clear();
+        getRg().addAll((Collection<? extends TileTOCRG>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -139,6 +198,9 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
       case AfpTextPackage.TILE_TOC__RESERVED:
         setReserved(RESERVED_EDEFAULT);
         return;
+      case AfpTextPackage.TILE_TOC__RG:
+        getRg().clear();
+        return;
     }
     super.eUnset(featureID);
   }
@@ -155,6 +217,8 @@ public class TileTOCImpl extends tripletImpl implements TileTOC
     {
       case AfpTextPackage.TILE_TOC__RESERVED:
         return reserved != RESERVED_EDEFAULT;
+      case AfpTextPackage.TILE_TOC__RG:
+        return rg != null && !rg.isEmpty();
     }
     return super.eIsSet(featureID);
   }

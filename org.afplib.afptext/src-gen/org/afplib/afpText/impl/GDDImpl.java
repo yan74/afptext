@@ -3,14 +3,24 @@
  */
 package org.afplib.afpText.impl;
 
+import java.util.Collection;
+
 import org.afplib.afpText.AfpTextPackage;
 import org.afplib.afpText.GDD;
+import org.afplib.afpText.triplet;
 
 import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -21,6 +31,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  * </p>
  * <ul>
  *   <li>{@link org.afplib.afpText.impl.GDDImpl#getGOCAdes <em>GOC Ades</em>}</li>
+ *   <li>{@link org.afplib.afpText.impl.GDDImpl#getTriplets <em>Triplets</em>}</li>
  * </ul>
  *
  * @generated
@@ -46,6 +57,16 @@ public class GDDImpl extends structuredFieldImpl implements GDD
    * @ordered
    */
   protected String gocAdes = GOC_ADES_EDEFAULT;
+
+  /**
+   * The cached value of the '{@link #getTriplets() <em>Triplets</em>}' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getTriplets()
+   * @generated
+   * @ordered
+   */
+  protected EList<triplet> triplets;
 
   /**
    * <!-- begin-user-doc -->
@@ -99,12 +120,45 @@ public class GDDImpl extends structuredFieldImpl implements GDD
    * @generated
    */
   @Override
+  public EList<triplet> getTriplets()
+  {
+    if (triplets == null)
+    {
+      triplets = new EObjectContainmentEList<triplet>(triplet.class, this, AfpTextPackage.GDD__TRIPLETS);
+    }
+    return triplets;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+  {
+    switch (featureID)
+    {
+      case AfpTextPackage.GDD__TRIPLETS:
+        return ((InternalEList<?>)getTriplets()).basicRemove(otherEnd, msgs);
+    }
+    return super.eInverseRemove(otherEnd, featureID, msgs);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
     switch (featureID)
     {
       case AfpTextPackage.GDD__GOC_ADES:
         return getGOCAdes();
+      case AfpTextPackage.GDD__TRIPLETS:
+        return getTriplets();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -114,6 +168,7 @@ public class GDDImpl extends structuredFieldImpl implements GDD
    * <!-- end-user-doc -->
    * @generated
    */
+  @SuppressWarnings("unchecked")
   @Override
   public void eSet(int featureID, Object newValue)
   {
@@ -121,6 +176,10 @@ public class GDDImpl extends structuredFieldImpl implements GDD
     {
       case AfpTextPackage.GDD__GOC_ADES:
         setGOCAdes((String)newValue);
+        return;
+      case AfpTextPackage.GDD__TRIPLETS:
+        getTriplets().clear();
+        getTriplets().addAll((Collection<? extends triplet>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -139,6 +198,9 @@ public class GDDImpl extends structuredFieldImpl implements GDD
       case AfpTextPackage.GDD__GOC_ADES:
         setGOCAdes(GOC_ADES_EDEFAULT);
         return;
+      case AfpTextPackage.GDD__TRIPLETS:
+        getTriplets().clear();
+        return;
     }
     super.eUnset(featureID);
   }
@@ -155,6 +217,8 @@ public class GDDImpl extends structuredFieldImpl implements GDD
     {
       case AfpTextPackage.GDD__GOC_ADES:
         return GOC_ADES_EDEFAULT == null ? gocAdes != null : !GOC_ADES_EDEFAULT.equals(gocAdes);
+      case AfpTextPackage.GDD__TRIPLETS:
+        return triplets != null && !triplets.isEmpty();
     }
     return super.eIsSet(featureID);
   }

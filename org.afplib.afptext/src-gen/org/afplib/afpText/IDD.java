@@ -3,6 +3,7 @@
  */
 package org.afplib.afpText;
 
+import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -18,6 +19,7 @@ package org.afplib.afpText;
  *   <li>{@link org.afplib.afpText.IDD#getYRESOL <em>YRESOL</em>}</li>
  *   <li>{@link org.afplib.afpText.IDD#getXSIZE <em>XSIZE</em>}</li>
  *   <li>{@link org.afplib.afpText.IDD#getYSIZE <em>YSIZE</em>}</li>
+ *   <li>{@link org.afplib.afpText.IDD#getTriplets <em>Triplets</em>}</li>
  * </ul>
  *
  * @see org.afplib.afpText.AfpTextPackage#getIDD()
@@ -135,5 +137,17 @@ public interface IDD extends structuredField
    * @generated
    */
   void setYSIZE(int value);
+
+  /**
+   * Returns the value of the '<em><b>Triplets</b></em>' containment reference list.
+   * The list contents are of type {@link org.afplib.afpText.triplet}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Triplets</em>' containment reference list.
+   * @see org.afplib.afpText.AfpTextPackage#getIDD_Triplets()
+   * @model containment="true"
+   * @generated
+   */
+  EList<triplet> getTriplets();
 
 } // IDD

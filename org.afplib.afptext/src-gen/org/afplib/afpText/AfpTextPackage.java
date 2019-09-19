@@ -1563,13 +1563,22 @@ public interface AfpTextPackage extends EPackage
   int CFI = 37;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int CFI__RG = STRUCTURED_FIELD_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>CFI</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int CFI_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 0;
+  int CFI_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.CPCImpl <em>CPC</em>}' class.
@@ -3371,13 +3380,22 @@ public interface AfpTextPackage extends EPackage
   int GDD__GOC_ADES = STRUCTURED_FIELD_FEATURE_COUNT + 0;
 
   /**
+   * The feature id for the '<em><b>Triplets</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GDD__TRIPLETS = STRUCTURED_FIELD_FEATURE_COUNT + 1;
+
+  /**
    * The number of structural features of the '<em>GDD</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GDD_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 1;
+  int GDD_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 2;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.ICPImpl <em>ICP</em>}' class.
@@ -3508,13 +3526,22 @@ public interface AfpTextPackage extends EPackage
   int IDD__YSIZE = STRUCTURED_FIELD_FEATURE_COUNT + 4;
 
   /**
+   * The feature id for the '<em><b>Triplets</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int IDD__TRIPLETS = STRUCTURED_FIELD_FEATURE_COUNT + 5;
+
+  /**
    * The number of structural features of the '<em>IDD</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int IDD_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 5;
+  int IDD_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 6;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.IELImpl <em>IEL</em>}' class.
@@ -5015,13 +5042,22 @@ public interface AfpTextPackage extends EPackage
   int MPS__RESERVED = STRUCTURED_FIELD_FEATURE_COUNT + 1;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int MPS__RG = STRUCTURED_FIELD_FEATURE_COUNT + 2;
+
+  /**
    * The number of structural features of the '<em>MPS</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int MPS_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 2;
+  int MPS_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 3;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.MSUImpl <em>MSU</em>}' class.
@@ -5622,13 +5658,22 @@ public interface AfpTextPackage extends EPackage
   int PTD__RESERVED = STRUCTURED_FIELD_FEATURE_COUNT + 6;
 
   /**
+   * The feature id for the '<em><b>Triplets</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int PTD__TRIPLETS = STRUCTURED_FIELD_FEATURE_COUNT + 7;
+
+  /**
    * The number of structural features of the '<em>PTD</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int PTD_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 7;
+  int PTD_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 8;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.PTD1Impl <em>PTD1</em>}' class.
@@ -5723,13 +5768,22 @@ public interface AfpTextPackage extends EPackage
   int PTX = 129;
 
   /**
+   * The feature id for the '<em><b>Triplets</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int PTX__TRIPLETS = STRUCTURED_FIELD_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>PTX</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int PTX_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 0;
+  int PTX_FEATURE_COUNT = STRUCTURED_FIELD_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.TLEImpl <em>TLE</em>}' class.
@@ -10508,13 +10562,22 @@ public interface AfpTextPackage extends EPackage
   int BAND_IMAGE__BCOUNT = TRIPLET_FEATURE_COUNT + 0;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int BAND_IMAGE__RG = TRIPLET_FEATURE_COUNT + 1;
+
+  /**
    * The number of structural features of the '<em>Band Image</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int BAND_IMAGE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
+  int BAND_IMAGE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 2;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.IDEStructureImpl <em>IDE Structure</em>}' class.
@@ -10609,13 +10672,22 @@ public interface AfpTextPackage extends EPackage
   int EXTERNAL_ALGORITHM__ALGTYPE = TRIPLET_FEATURE_COUNT + 0;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int EXTERNAL_ALGORITHM__RG = TRIPLET_FEATURE_COUNT + 1;
+
+  /**
    * The number of structural features of the '<em>External Algorithm</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int EXTERNAL_ALGORITHM_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
+  int EXTERNAL_ALGORITHM_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 2;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.TilePositionImpl <em>Tile Position</em>}' class.
@@ -11024,13 +11096,22 @@ public interface AfpTextPackage extends EPackage
   int SAMPLING_RATIOS = 255;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int SAMPLING_RATIOS__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>Sampling Ratios</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int SAMPLING_RATIOS_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int SAMPLING_RATIOS_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.TileTOCImpl <em>Tile TOC</em>}' class.
@@ -11052,13 +11133,22 @@ public interface AfpTextPackage extends EPackage
   int TILE_TOC__RESERVED = TRIPLET_FEATURE_COUNT + 0;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int TILE_TOC__RG = TRIPLET_FEATURE_COUNT + 1;
+
+  /**
    * The number of structural features of the '<em>Tile TOC</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int TILE_TOC_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
+  int TILE_TOC_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 2;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.FNNRG2Impl <em>FNNRG2</em>}' class.
@@ -11688,13 +11778,22 @@ public interface AfpTextPackage extends EPackage
   int GFLT = 271;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GFLT__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>GFLT</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GFLT_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int GFLT_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.GCFLTImpl <em>GCFLT</em>}' class.
@@ -11707,13 +11806,22 @@ public interface AfpTextPackage extends EPackage
   int GCFLT = 272;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GCFLT__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>GCFLT</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GCFLT_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int GCFLT_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.GFARCImpl <em>GFARC</em>}' class.
@@ -11846,13 +11954,22 @@ public interface AfpTextPackage extends EPackage
   int GLINE = 276;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GLINE__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>GLINE</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GLINE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int GLINE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.GCLINEImpl <em>GCLINE</em>}' class.
@@ -11865,13 +11982,22 @@ public interface AfpTextPackage extends EPackage
   int GCLINE = 277;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GCLINE__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>GCLINE</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GCLINE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int GCLINE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.GMRKImpl <em>GMRK</em>}' class.
@@ -11884,13 +12010,22 @@ public interface AfpTextPackage extends EPackage
   int GMRK = 278;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GMRK__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>GMRK</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GMRK_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int GMRK_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.GCMRKImpl <em>GCMRK</em>}' class.
@@ -11903,13 +12038,22 @@ public interface AfpTextPackage extends EPackage
   int GCMRK = 279;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GCMRK__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>GCMRK</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GCMRK_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int GCMRK_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.GNOP1Impl <em>GNOP1</em>}' class.
@@ -12123,13 +12267,22 @@ public interface AfpTextPackage extends EPackage
   int GRLINE__YPOS = TRIPLET_FEATURE_COUNT + 1;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GRLINE__RG = TRIPLET_FEATURE_COUNT + 2;
+
+  /**
    * The number of structural features of the '<em>GRLINE</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GRLINE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 2;
+  int GRLINE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 3;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.GCRLINEImpl <em>GCRLINE</em>}' class.
@@ -12142,13 +12295,22 @@ public interface AfpTextPackage extends EPackage
   int GCRLINE = 284;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GCRLINE__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>GCRLINE</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GCRLINE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int GCRLINE_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.GSGCHImpl <em>GSGCH</em>}' class.
@@ -13014,13 +13176,22 @@ public interface AfpTextPackage extends EPackage
   int GCBEZ = 310;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GCBEZ__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>GCBEZ</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GCBEZ_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int GCBEZ_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.GCCBEZImpl <em>GCCBEZ</em>}' class.
@@ -13033,13 +13204,22 @@ public interface AfpTextPackage extends EPackage
   int GCCBEZ = 311;
 
   /**
+   * The feature id for the '<em><b>Rg</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int GCCBEZ__RG = TRIPLET_FEATURE_COUNT + 0;
+
+  /**
    * The number of structural features of the '<em>GCCBEZ</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int GCCBEZ_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 0;
+  int GCCBEZ_FEATURE_COUNT = TRIPLET_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.afplib.afpText.impl.WindowSpecificationImpl <em>Window Specification</em>}' class.
@@ -15772,6 +15952,17 @@ public interface AfpTextPackage extends EPackage
   EClass getCFI();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.CFI#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.CFI#getRg()
+   * @see #getCFI()
+   * @generated
+   */
+  EReference getCFI_Rg();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.CPC <em>CPC</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -17400,6 +17591,17 @@ public interface AfpTextPackage extends EPackage
   EAttribute getGDD_GOCAdes();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GDD#getTriplets <em>Triplets</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Triplets</em>'.
+   * @see org.afplib.afpText.GDD#getTriplets()
+   * @see #getGDD()
+   * @generated
+   */
+  EReference getGDD_Triplets();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.ICP <em>ICP</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -17539,6 +17741,17 @@ public interface AfpTextPackage extends EPackage
    * @generated
    */
   EAttribute getIDD_YSIZE();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.IDD#getTriplets <em>Triplets</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Triplets</em>'.
+   * @see org.afplib.afpText.IDD#getTriplets()
+   * @see #getIDD()
+   * @generated
+   */
+  EReference getIDD_Triplets();
 
   /**
    * Returns the meta object for class '{@link org.afplib.afpText.IEL <em>IEL</em>}'.
@@ -18973,6 +19186,17 @@ public interface AfpTextPackage extends EPackage
   EAttribute getMPS_Reserved();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.MPS#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.MPS#getRg()
+   * @see #getMPS()
+   * @generated
+   */
+  EReference getMPS_Rg();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.MSU <em>MSU</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -19543,6 +19767,17 @@ public interface AfpTextPackage extends EPackage
   EAttribute getPTD_RESERVED();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.PTD#getTriplets <em>Triplets</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Triplets</em>'.
+   * @see org.afplib.afpText.PTD#getTriplets()
+   * @see #getPTD()
+   * @generated
+   */
+  EReference getPTD_Triplets();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.PTD1 <em>PTD1</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -19638,6 +19873,17 @@ public interface AfpTextPackage extends EPackage
    * @generated
    */
   EClass getPTX();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.PTX#getTriplets <em>Triplets</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Triplets</em>'.
+   * @see org.afplib.afpText.PTX#getTriplets()
+   * @see #getPTX()
+   * @generated
+   */
+  EReference getPTX_Triplets();
 
   /**
    * Returns the meta object for class '{@link org.afplib.afpText.TLE <em>TLE</em>}'.
@@ -23981,6 +24227,17 @@ public interface AfpTextPackage extends EPackage
   EAttribute getBandImage_BCOUNT();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.BandImage#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.BandImage#getRg()
+   * @see #getBandImage()
+   * @generated
+   */
+  EReference getBandImage_Rg();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.IDEStructure <em>IDE Structure</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -24076,6 +24333,17 @@ public interface AfpTextPackage extends EPackage
    * @generated
    */
   EAttribute getExternalAlgorithm_ALGTYPE();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.ExternalAlgorithm#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.ExternalAlgorithm#getRg()
+   * @see #getExternalAlgorithm()
+   * @generated
+   */
+  EReference getExternalAlgorithm_Rg();
 
   /**
    * Returns the meta object for class '{@link org.afplib.afpText.TilePosition <em>Tile Position</em>}'.
@@ -24453,6 +24721,17 @@ public interface AfpTextPackage extends EPackage
   EClass getSamplingRatios();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.SamplingRatios#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.SamplingRatios#getRg()
+   * @see #getSamplingRatios()
+   * @generated
+   */
+  EReference getSamplingRatios_Rg();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.TileTOC <em>Tile TOC</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -24472,6 +24751,17 @@ public interface AfpTextPackage extends EPackage
    * @generated
    */
   EAttribute getTileTOC_Reserved();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.TileTOC#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.TileTOC#getRg()
+   * @see #getTileTOC()
+   * @generated
+   */
+  EReference getTileTOC_Rg();
 
   /**
    * Returns the meta object for class '{@link org.afplib.afpText.FNNRG2 <em>FNNRG2</em>}'.
@@ -25053,6 +25343,17 @@ public interface AfpTextPackage extends EPackage
   EClass getGFLT();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GFLT#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GFLT#getRg()
+   * @see #getGFLT()
+   * @generated
+   */
+  EReference getGFLT_Rg();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.GCFLT <em>GCFLT</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -25061,6 +25362,17 @@ public interface AfpTextPackage extends EPackage
    * @generated
    */
   EClass getGCFLT();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GCFLT#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GCFLT#getRg()
+   * @see #getGCFLT()
+   * @generated
+   */
+  EReference getGCFLT_Rg();
 
   /**
    * Returns the meta object for class '{@link org.afplib.afpText.GFARC <em>GFARC</em>}'.
@@ -25180,6 +25492,17 @@ public interface AfpTextPackage extends EPackage
   EClass getGLINE();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GLINE#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GLINE#getRg()
+   * @see #getGLINE()
+   * @generated
+   */
+  EReference getGLINE_Rg();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.GCLINE <em>GCLINE</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -25188,6 +25511,17 @@ public interface AfpTextPackage extends EPackage
    * @generated
    */
   EClass getGCLINE();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GCLINE#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GCLINE#getRg()
+   * @see #getGCLINE()
+   * @generated
+   */
+  EReference getGCLINE_Rg();
 
   /**
    * Returns the meta object for class '{@link org.afplib.afpText.GMRK <em>GMRK</em>}'.
@@ -25200,6 +25534,17 @@ public interface AfpTextPackage extends EPackage
   EClass getGMRK();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GMRK#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GMRK#getRg()
+   * @see #getGMRK()
+   * @generated
+   */
+  EReference getGMRK_Rg();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.GCMRK <em>GCMRK</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -25208,6 +25553,17 @@ public interface AfpTextPackage extends EPackage
    * @generated
    */
   EClass getGCMRK();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GCMRK#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GCMRK#getRg()
+   * @see #getGCMRK()
+   * @generated
+   */
+  EReference getGCMRK_Rg();
 
   /**
    * Returns the meta object for class '{@link org.afplib.afpText.GNOP1 <em>GNOP1</em>}'.
@@ -25426,6 +25782,17 @@ public interface AfpTextPackage extends EPackage
   EAttribute getGRLINE_YPOS();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GRLINE#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GRLINE#getRg()
+   * @see #getGRLINE()
+   * @generated
+   */
+  EReference getGRLINE_Rg();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.GCRLINE <em>GCRLINE</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -25434,6 +25801,17 @@ public interface AfpTextPackage extends EPackage
    * @generated
    */
   EClass getGCRLINE();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GCRLINE#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GCRLINE#getRg()
+   * @see #getGCRLINE()
+   * @generated
+   */
+  EReference getGCRLINE_Rg();
 
   /**
    * Returns the meta object for class '{@link org.afplib.afpText.GSGCH <em>GSGCH</em>}'.
@@ -26158,6 +26536,17 @@ public interface AfpTextPackage extends EPackage
   EClass getGCBEZ();
 
   /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GCBEZ#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GCBEZ#getRg()
+   * @see #getGCBEZ()
+   * @generated
+   */
+  EReference getGCBEZ_Rg();
+
+  /**
    * Returns the meta object for class '{@link org.afplib.afpText.GCCBEZ <em>GCCBEZ</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -26166,6 +26555,17 @@ public interface AfpTextPackage extends EPackage
    * @generated
    */
   EClass getGCCBEZ();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link org.afplib.afpText.GCCBEZ#getRg <em>Rg</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Rg</em>'.
+   * @see org.afplib.afpText.GCCBEZ#getRg()
+   * @see #getGCCBEZ()
+   * @generated
+   */
+  EReference getGCCBEZ_Rg();
 
   /**
    * Returns the meta object for class '{@link org.afplib.afpText.WindowSpecification <em>Window Specification</em>}'.

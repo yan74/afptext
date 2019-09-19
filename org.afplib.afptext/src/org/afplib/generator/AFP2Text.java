@@ -114,7 +114,7 @@ public class AFP2Text extends InputStream {
 
 	private String rg2text(EObject eobj) {
 		String text = eobj.eClass().getEAllContainments().stream()
-		.filter(a -> a.getName().equalsIgnoreCase("rg"))
+		.filter(a -> a.getName().equalsIgnoreCase("rg") || a.getName().equalsIgnoreCase("FixedLengthRG"))
 		.map(a -> (List<Triplet>) eobj.eGet(a))
 		.flatMap(List::stream)
 		.map(rg -> {
@@ -139,7 +139,7 @@ public class AFP2Text extends InputStream {
 
 	private String triplets2text(EObject eobj) {
 		String text = eobj.eClass().getEAllContainments().stream()
-		.filter(a -> a.getName().equalsIgnoreCase("triplets"))
+		.filter(a -> !a.getName().equalsIgnoreCase("rg") && !a.getName().equalsIgnoreCase("FixedLengthRG"))
 		.map(a -> (List<Triplet>) eobj.eGet(a))
 		.flatMap(List::stream)
 		.map(t -> {
@@ -153,6 +153,8 @@ public class AFP2Text extends InputStream {
 			.filter(a -> !a.equals(BasePackage.eINSTANCE.getTriplet_TripletNumber()))
 			.map(a -> attribute2Text(t, a))
 			.collect(Collectors.joining());
+			
+			tripletText += rg2text(t);
 			return tripletText;
 		})
 		.collect(Collectors.joining());

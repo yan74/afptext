@@ -4683,6 +4683,25 @@ ruleCFI returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getCFIAccess().getCFIKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getCFIAccess().getRgCFIRGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleCFIRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getCFIRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.CFIRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -9037,6 +9056,25 @@ ruleGDD returns [EObject current=null]
 				)
 			)
 		)?
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGDDAccess().getTripletsTripletParserRuleCall_3_0());
+				}
+				lv_triplets_4_0=ruletriplet
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGDDRule());
+					}
+					add(
+						$current,
+						"triplets",
+						lv_triplets_4_0,
+						"org.afplib.AfpText.triplet");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -9488,6 +9526,25 @@ ruleIDD returns [EObject current=null]
 				  getUnorderedGroupHelper().leave(grammarAccess.getIDDAccess().getUnorderedGroup_2());
 				}
 		)
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getIDDAccess().getTripletsTripletParserRuleCall_3_0());
+				}
+				lv_triplets_13_0=ruletriplet
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getIDDRule());
+					}
+					add(
+						$current,
+						"triplets",
+						lv_triplets_13_0,
+						"org.afplib.AfpText.triplet");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -13548,6 +13605,25 @@ ruleMPS returns [EObject current=null]
 				  getUnorderedGroupHelper().leave(grammarAccess.getMPSAccess().getUnorderedGroup_2());
 				}
 		)
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getMPSAccess().getRgMPSRGParserRuleCall_3_0());
+				}
+				lv_rg_7_0=ruleMPSRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getMPSRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_7_0,
+						"org.afplib.AfpText.MPSRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -15157,6 +15233,25 @@ rulePTD returns [EObject current=null]
 				  getUnorderedGroupHelper().leave(grammarAccess.getPTDAccess().getUnorderedGroup_2());
 				}
 		)
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getPTDAccess().getTripletsTripletParserRuleCall_3_0());
+				}
+				lv_triplets_17_0=ruletriplet
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getPTDRule());
+					}
+					add(
+						$current,
+						"triplets",
+						lv_triplets_17_0,
+						"org.afplib.AfpText.triplet");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -15462,6 +15557,25 @@ rulePTX returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getPTXAccess().getPTXKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getPTXAccess().getTripletsTripletParserRuleCall_2_0());
+				}
+				lv_triplets_2_0=ruletriplet
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getPTXRule());
+					}
+					add(
+						$current,
+						"triplets",
+						lv_triplets_2_0,
+						"org.afplib.AfpText.triplet");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -15739,6 +15853,248 @@ ruleCPIRG returns [EObject current=null]
 			)
 				{ 
 				  getUnorderedGroupHelper().leave(grammarAccess.getCPIRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleCFIRG
+entryRuleCFIRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getCFIRGRule()); }
+	iv_ruleCFIRG=ruleCFIRG
+	{ $current=$iv_ruleCFIRG.current; }
+	EOF;
+
+// Rule CFIRG
+ruleCFIRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getCFIRGAccess().getCFIRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getCFIRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getCFIRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='FCSName='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getCFIRGAccess().getFCSNameKeyword_2_0_0());
+								}
+								(
+									(
+										lv_FCSName_4_0=RULE_MODCASTRING
+										{
+											newLeafNode(lv_FCSName_4_0, grammarAccess.getCFIRGAccess().getFCSNameMODCASTRINGTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getCFIRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"FCSName",
+												lv_FCSName_4_0,
+												"org.afplib.AfpText.MODCASTRING");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getCFIRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='CPName='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getCFIRGAccess().getCPNameKeyword_2_1_0());
+								}
+								(
+									(
+										lv_CPName_6_0=RULE_MODCASTRING
+										{
+											newLeafNode(lv_CPName_6_0, grammarAccess.getCFIRGAccess().getCPNameMODCASTRINGTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getCFIRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"CPName",
+												lv_CPName_6_0,
+												"org.afplib.AfpText.MODCASTRING");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getCFIRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 2)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 2);
+					}
+								({true}?=>(otherlv_7='SVSize='
+								{
+									newLeafNode(otherlv_7, grammarAccess.getCFIRGAccess().getSVSizeKeyword_2_2_0());
+								}
+								(
+									(
+										lv_SVSize_8_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_SVSize_8_0, grammarAccess.getCFIRGAccess().getSVSizeEINTEGEROBJECTTerminalRuleCall_2_2_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getCFIRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"SVSize",
+												lv_SVSize_8_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getCFIRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 3)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 3);
+					}
+								({true}?=>(otherlv_9='SHScale='
+								{
+									newLeafNode(otherlv_9, grammarAccess.getCFIRGAccess().getSHScaleKeyword_2_3_0());
+								}
+								(
+									(
+										lv_SHScale_10_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_SHScale_10_0, grammarAccess.getCFIRGAccess().getSHScaleEINTEGEROBJECTTerminalRuleCall_2_3_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getCFIRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"SHScale",
+												lv_SHScale_10_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getCFIRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 4)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 4);
+					}
+								({true}?=>(otherlv_11='Reserved='
+								{
+									newLeafNode(otherlv_11, grammarAccess.getCFIRGAccess().getReservedKeyword_2_4_0());
+								}
+								(
+									(
+										lv_Reserved_12_0=RULE_EBYTEARRAY
+										{
+											newLeafNode(lv_Reserved_12_0, grammarAccess.getCFIRGAccess().getReservedEBYTEARRAYTerminalRuleCall_2_4_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getCFIRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"Reserved",
+												lv_Reserved_12_0,
+												"org.afplib.AfpText.EBYTEARRAY");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getCFIRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 5)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getCFIRGAccess().getUnorderedGroup_2(), 5);
+					}
+								({true}?=>(otherlv_13='Section='
+								{
+									newLeafNode(otherlv_13, grammarAccess.getCFIRGAccess().getSectionKeyword_2_5_0());
+								}
+								(
+									(
+										lv_Section_14_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_Section_14_0, grammarAccess.getCFIRGAccess().getSectionEINTEGEROBJECTTerminalRuleCall_2_5_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getCFIRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"Section",
+												lv_Section_14_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getCFIRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getCFIRGAccess().getUnorderedGroup_2());
 				}
 		)
 	)
@@ -16420,6 +16776,116 @@ ruleLLERG returns [EObject current=null]
 				}
 			)
 		)*
+	)
+;
+
+// Entry rule entryRuleMPSRG
+entryRuleMPSRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getMPSRGRule()); }
+	iv_ruleMPSRG=ruleMPSRG
+	{ $current=$iv_ruleMPSRG.current; }
+	EOF;
+
+// Rule MPSRG
+ruleMPSRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getMPSRGAccess().getMPSRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getMPSRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getMPSRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getMPSRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getMPSRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='Reserved='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getMPSRGAccess().getReservedKeyword_2_0_0());
+								}
+								(
+									(
+										lv_Reserved_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_Reserved_4_0, grammarAccess.getMPSRGAccess().getReservedEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getMPSRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"Reserved",
+												lv_Reserved_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getMPSRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getMPSRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getMPSRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='PsegName='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getMPSRGAccess().getPsegNameKeyword_2_1_0());
+								}
+								(
+									(
+										lv_PsegName_6_0=RULE_MODCASTRING
+										{
+											newLeafNode(lv_PsegName_6_0, grammarAccess.getMPSRGAccess().getPsegNameMODCASTRINGTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getMPSRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"PsegName",
+												lv_PsegName_6_0,
+												"org.afplib.AfpText.MODCASTRING");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getMPSRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getMPSRGAccess().getUnorderedGroup_2());
+				}
+		)
 	)
 ;
 
@@ -18015,6 +18481,60 @@ ruleMMORG returns [EObject current=null]
 	)
 ;
 
+// Entry rule entryRuleBandImageRG
+entryRuleBandImageRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getBandImageRGRule()); }
+	iv_ruleBandImageRG=ruleBandImageRG
+	{ $current=$iv_ruleBandImageRG.current; }
+	EOF;
+
+// Rule BandImageRG
+ruleBandImageRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getBandImageRGAccess().getBandImageRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getBandImageRGAccess().getRgKeyword_1());
+		}
+		(
+			otherlv_2='BITCNT='
+			{
+				newLeafNode(otherlv_2, grammarAccess.getBandImageRGAccess().getBITCNTKeyword_2_0());
+			}
+			(
+				(
+					lv_BITCNT_3_0=RULE_EINTEGEROBJECT
+					{
+						newLeafNode(lv_BITCNT_3_0, grammarAccess.getBandImageRGAccess().getBITCNTEINTEGEROBJECTTerminalRuleCall_2_1_0());
+					}
+					{
+						if ($current==null) {
+							$current = createModelElement(grammarAccess.getBandImageRGRule());
+						}
+						setWithLastConsumed(
+							$current,
+							"BITCNT",
+							lv_BITCNT_3_0,
+							"org.afplib.AfpText.EINTEGEROBJECT");
+					}
+				)
+			)
+		)?
+	)
+;
+
 // Entry rule entryRuleMCF1RG
 entryRuleMCF1RG returns [EObject current=null]:
 	{ newCompositeNode(grammarAccess.getMCF1RGRule()); }
@@ -19275,6 +19795,1634 @@ ruleFNPRG returns [EObject current=null]
 			)
 				{ 
 				  getUnorderedGroupHelper().leave(grammarAccess.getFNPRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleTileTOCRG
+entryRuleTileTOCRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getTileTOCRGRule()); }
+	iv_ruleTileTOCRG=ruleTileTOCRG
+	{ $current=$iv_ruleTileTOCRG.current; }
+	EOF;
+
+// Rule TileTOCRG
+ruleTileTOCRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getTileTOCRGAccess().getTileTOCRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getTileTOCRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XOFFSET='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getTileTOCRGAccess().getXOFFSETKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XOFFSET_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XOFFSET_4_0, grammarAccess.getTileTOCRGAccess().getXOFFSETEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getTileTOCRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XOFFSET",
+												lv_XOFFSET_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YOFFSET='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getTileTOCRGAccess().getYOFFSETKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YOFFSET_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YOFFSET_6_0, grammarAccess.getTileTOCRGAccess().getYOFFSETEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getTileTOCRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YOFFSET",
+												lv_YOFFSET_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 2)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 2);
+					}
+								({true}?=>(otherlv_7='THSIZE='
+								{
+									newLeafNode(otherlv_7, grammarAccess.getTileTOCRGAccess().getTHSIZEKeyword_2_2_0());
+								}
+								(
+									(
+										lv_THSIZE_8_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_THSIZE_8_0, grammarAccess.getTileTOCRGAccess().getTHSIZEEINTEGEROBJECTTerminalRuleCall_2_2_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getTileTOCRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"THSIZE",
+												lv_THSIZE_8_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 3)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 3);
+					}
+								({true}?=>(otherlv_9='TVSIZE='
+								{
+									newLeafNode(otherlv_9, grammarAccess.getTileTOCRGAccess().getTVSIZEKeyword_2_3_0());
+								}
+								(
+									(
+										lv_TVSIZE_10_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_TVSIZE_10_0, grammarAccess.getTileTOCRGAccess().getTVSIZEEINTEGEROBJECTTerminalRuleCall_2_3_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getTileTOCRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"TVSIZE",
+												lv_TVSIZE_10_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 4)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 4);
+					}
+								({true}?=>(otherlv_11='RELRES='
+								{
+									newLeafNode(otherlv_11, grammarAccess.getTileTOCRGAccess().getRELRESKeyword_2_4_0());
+								}
+								(
+									(
+										lv_RELRES_12_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_RELRES_12_0, grammarAccess.getTileTOCRGAccess().getRELRESEINTEGEROBJECTTerminalRuleCall_2_4_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getTileTOCRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"RELRES",
+												lv_RELRES_12_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 5)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 5);
+					}
+								({true}?=>(otherlv_13='COMPR='
+								{
+									newLeafNode(otherlv_13, grammarAccess.getTileTOCRGAccess().getCOMPRKeyword_2_5_0());
+								}
+								(
+									(
+										lv_COMPR_14_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_COMPR_14_0, grammarAccess.getTileTOCRGAccess().getCOMPREINTEGEROBJECTTerminalRuleCall_2_5_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getTileTOCRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"COMPR",
+												lv_COMPR_14_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 6)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2(), 6);
+					}
+								({true}?=>(otherlv_15='DATAPOS='
+								{
+									newLeafNode(otherlv_15, grammarAccess.getTileTOCRGAccess().getDATAPOSKeyword_2_6_0());
+								}
+								(
+									(
+										lv_DATAPOS_16_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_DATAPOS_16_0, grammarAccess.getTileTOCRGAccess().getDATAPOSEINTEGEROBJECTTerminalRuleCall_2_6_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getTileTOCRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"DATAPOS",
+												lv_DATAPOS_16_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getTileTOCRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleSamplingRatiosRG
+entryRuleSamplingRatiosRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getSamplingRatiosRGRule()); }
+	iv_ruleSamplingRatiosRG=ruleSamplingRatiosRG
+	{ $current=$iv_ruleSamplingRatiosRG.current; }
+	EOF;
+
+// Rule SamplingRatiosRG
+ruleSamplingRatiosRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getSamplingRatiosRGAccess().getSamplingRatiosRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getSamplingRatiosRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getSamplingRatiosRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getSamplingRatiosRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getSamplingRatiosRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='HSAMPLE='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getSamplingRatiosRGAccess().getHSAMPLEKeyword_2_0_0());
+								}
+								(
+									(
+										lv_HSAMPLE_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_HSAMPLE_4_0, grammarAccess.getSamplingRatiosRGAccess().getHSAMPLEEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getSamplingRatiosRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"HSAMPLE",
+												lv_HSAMPLE_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getSamplingRatiosRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getSamplingRatiosRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getSamplingRatiosRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='VSAMPLE='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getSamplingRatiosRGAccess().getVSAMPLEKeyword_2_1_0());
+								}
+								(
+									(
+										lv_VSAMPLE_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_VSAMPLE_6_0, grammarAccess.getSamplingRatiosRGAccess().getVSAMPLEEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getSamplingRatiosRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"VSAMPLE",
+												lv_VSAMPLE_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getSamplingRatiosRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getSamplingRatiosRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleExternalAlgorithmRG
+entryRuleExternalAlgorithmRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getExternalAlgorithmRGRule()); }
+	iv_ruleExternalAlgorithmRG=ruleExternalAlgorithmRG
+	{ $current=$iv_ruleExternalAlgorithmRG.current; }
+	EOF;
+
+// Rule ExternalAlgorithmRG
+ruleExternalAlgorithmRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getExternalAlgorithmRGAccess().getExternalAlgorithmRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getExternalAlgorithmRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='DIRCTN='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getExternalAlgorithmRGAccess().getDIRCTNKeyword_2_0_0());
+								}
+								(
+									(
+										lv_DIRCTN_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_DIRCTN_4_0, grammarAccess.getExternalAlgorithmRGAccess().getDIRCTNEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getExternalAlgorithmRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"DIRCTN",
+												lv_DIRCTN_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='PADBDRY='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getExternalAlgorithmRGAccess().getPADBDRYKeyword_2_1_0());
+								}
+								(
+									(
+										lv_PADBDRY_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_PADBDRY_6_0, grammarAccess.getExternalAlgorithmRGAccess().getPADBDRYEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getExternalAlgorithmRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"PADBDRY",
+												lv_PADBDRY_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2(), 2)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2(), 2);
+					}
+								({true}?=>(otherlv_7='PADALMT='
+								{
+									newLeafNode(otherlv_7, grammarAccess.getExternalAlgorithmRGAccess().getPADALMTKeyword_2_2_0());
+								}
+								(
+									(
+										lv_PADALMT_8_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_PADALMT_8_0, grammarAccess.getExternalAlgorithmRGAccess().getPADALMTEINTEGEROBJECTTerminalRuleCall_2_2_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getExternalAlgorithmRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"PADALMT",
+												lv_PADALMT_8_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getExternalAlgorithmRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGCBEZRG
+entryRuleGCBEZRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGCBEZRGRule()); }
+	iv_ruleGCBEZRG=ruleGCBEZRG
+	{ $current=$iv_ruleGCBEZRG.current; }
+	EOF;
+
+// Rule GCBEZRG
+ruleGCBEZRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGCBEZRGAccess().getGCBEZRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGCBEZRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGCBEZRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCBEZRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCBEZRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XPOS='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGCBEZRGAccess().getXPOSKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XPOS_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XPOS_4_0, grammarAccess.getGCBEZRGAccess().getXPOSEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCBEZRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XPOS",
+												lv_XPOS_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCBEZRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCBEZRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCBEZRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YPOS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGCBEZRGAccess().getYPOSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YPOS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YPOS_6_0, grammarAccess.getGCBEZRGAccess().getYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCBEZRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YPOS",
+												lv_YPOS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCBEZRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGCBEZRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGCCBEZRG
+entryRuleGCCBEZRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGCCBEZRGRule()); }
+	iv_ruleGCCBEZRG=ruleGCCBEZRG
+	{ $current=$iv_ruleGCCBEZRG.current; }
+	EOF;
+
+// Rule GCCBEZRG
+ruleGCCBEZRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGCCBEZRGAccess().getGCCBEZRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGCCBEZRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGCCBEZRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCCBEZRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCCBEZRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XPOS='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGCCBEZRGAccess().getXPOSKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XPOS_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XPOS_4_0, grammarAccess.getGCCBEZRGAccess().getXPOSEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCCBEZRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XPOS",
+												lv_XPOS_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCCBEZRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCCBEZRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCCBEZRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YPOS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGCCBEZRGAccess().getYPOSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YPOS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YPOS_6_0, grammarAccess.getGCCBEZRGAccess().getYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCCBEZRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YPOS",
+												lv_YPOS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCCBEZRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGCCBEZRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGFLTRG
+entryRuleGFLTRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGFLTRGRule()); }
+	iv_ruleGFLTRG=ruleGFLTRG
+	{ $current=$iv_ruleGFLTRG.current; }
+	EOF;
+
+// Rule GFLTRG
+ruleGFLTRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGFLTRGAccess().getGFLTRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGFLTRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGFLTRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGFLTRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGFLTRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XPOS='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGFLTRGAccess().getXPOSKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XPOS_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XPOS_4_0, grammarAccess.getGFLTRGAccess().getXPOSEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGFLTRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XPOS",
+												lv_XPOS_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGFLTRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGFLTRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGFLTRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YPOS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGFLTRGAccess().getYPOSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YPOS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YPOS_6_0, grammarAccess.getGFLTRGAccess().getYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGFLTRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YPOS",
+												lv_YPOS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGFLTRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGFLTRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGCFLTRG
+entryRuleGCFLTRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGCFLTRGRule()); }
+	iv_ruleGCFLTRG=ruleGCFLTRG
+	{ $current=$iv_ruleGCFLTRG.current; }
+	EOF;
+
+// Rule GCFLTRG
+ruleGCFLTRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGCFLTRGAccess().getGCFLTRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGCFLTRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGCFLTRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCFLTRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCFLTRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XPOS='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGCFLTRGAccess().getXPOSKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XPOS_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XPOS_4_0, grammarAccess.getGCFLTRGAccess().getXPOSEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCFLTRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XPOS",
+												lv_XPOS_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCFLTRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCFLTRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCFLTRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YPOS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGCFLTRGAccess().getYPOSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YPOS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YPOS_6_0, grammarAccess.getGCFLTRGAccess().getYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCFLTRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YPOS",
+												lv_YPOS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCFLTRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGCFLTRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGLINERG
+entryRuleGLINERG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGLINERGRule()); }
+	iv_ruleGLINERG=ruleGLINERG
+	{ $current=$iv_ruleGLINERG.current; }
+	EOF;
+
+// Rule GLINERG
+ruleGLINERG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGLINERGAccess().getGLINERGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGLINERGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGLINERGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGLINERGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGLINERGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XPOS='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGLINERGAccess().getXPOSKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XPOS_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XPOS_4_0, grammarAccess.getGLINERGAccess().getXPOSEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGLINERGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XPOS",
+												lv_XPOS_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGLINERGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGLINERGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGLINERGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YPOS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGLINERGAccess().getYPOSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YPOS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YPOS_6_0, grammarAccess.getGLINERGAccess().getYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGLINERGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YPOS",
+												lv_YPOS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGLINERGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGLINERGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGCLINERG
+entryRuleGCLINERG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGCLINERGRule()); }
+	iv_ruleGCLINERG=ruleGCLINERG
+	{ $current=$iv_ruleGCLINERG.current; }
+	EOF;
+
+// Rule GCLINERG
+ruleGCLINERG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGCLINERGAccess().getGCLINERGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGCLINERGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGCLINERGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCLINERGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCLINERGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XPOS='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGCLINERGAccess().getXPOSKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XPOS_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XPOS_4_0, grammarAccess.getGCLINERGAccess().getXPOSEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCLINERGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XPOS",
+												lv_XPOS_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCLINERGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCLINERGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCLINERGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YPOS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGCLINERGAccess().getYPOSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YPOS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YPOS_6_0, grammarAccess.getGCLINERGAccess().getYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCLINERGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YPOS",
+												lv_YPOS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCLINERGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGCLINERGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGMRKRG
+entryRuleGMRKRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGMRKRGRule()); }
+	iv_ruleGMRKRG=ruleGMRKRG
+	{ $current=$iv_ruleGMRKRG.current; }
+	EOF;
+
+// Rule GMRKRG
+ruleGMRKRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGMRKRGAccess().getGMRKRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGMRKRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGMRKRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGMRKRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGMRKRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XPOS='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGMRKRGAccess().getXPOSKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XPOS_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XPOS_4_0, grammarAccess.getGMRKRGAccess().getXPOSEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGMRKRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XPOS",
+												lv_XPOS_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGMRKRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGMRKRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGMRKRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YPOS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGMRKRGAccess().getYPOSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YPOS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YPOS_6_0, grammarAccess.getGMRKRGAccess().getYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGMRKRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YPOS",
+												lv_YPOS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGMRKRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGMRKRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGCMRKRG
+entryRuleGCMRKRG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGCMRKRGRule()); }
+	iv_ruleGCMRKRG=ruleGCMRKRG
+	{ $current=$iv_ruleGCMRKRG.current; }
+	EOF;
+
+// Rule GCMRKRG
+ruleGCMRKRG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGCMRKRGAccess().getGCMRKRGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGCMRKRGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGCMRKRGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCMRKRGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCMRKRGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XPOS='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGCMRKRGAccess().getXPOSKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XPOS_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XPOS_4_0, grammarAccess.getGCMRKRGAccess().getXPOSEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCMRKRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XPOS",
+												lv_XPOS_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCMRKRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCMRKRGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCMRKRGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YPOS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGCMRKRGAccess().getYPOSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YPOS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YPOS_6_0, grammarAccess.getGCMRKRGAccess().getYPOSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCMRKRGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YPOS",
+												lv_YPOS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCMRKRGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGCMRKRGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGRLINERG
+entryRuleGRLINERG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGRLINERGRule()); }
+	iv_ruleGRLINERG=ruleGRLINERG
+	{ $current=$iv_ruleGRLINERG.current; }
+	EOF;
+
+// Rule GRLINERG
+ruleGRLINERG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGRLINERGAccess().getGRLINERGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGRLINERGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGRLINERGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGRLINERGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGRLINERGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XOSSF='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGRLINERGAccess().getXOSSFKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XOSSF_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XOSSF_4_0, grammarAccess.getGRLINERGAccess().getXOSSFEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGRLINERGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XOSSF",
+												lv_XOSSF_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGRLINERGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGRLINERGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGRLINERGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YOFFS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGRLINERGAccess().getYOFFSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YOFFS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YOFFS_6_0, grammarAccess.getGRLINERGAccess().getYOFFSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGRLINERGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YOFFS",
+												lv_YOFFS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGRLINERGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGRLINERGAccess().getUnorderedGroup_2());
+				}
+		)
+	)
+;
+
+// Entry rule entryRuleGCRLINERG
+entryRuleGCRLINERG returns [EObject current=null]:
+	{ newCompositeNode(grammarAccess.getGCRLINERGRule()); }
+	iv_ruleGCRLINERG=ruleGCRLINERG
+	{ $current=$iv_ruleGCRLINERG.current; }
+	EOF;
+
+// Rule GCRLINERG
+ruleGCRLINERG returns [EObject current=null]
+@init {
+	enterRule();
+}
+@after {
+	leaveRule();
+}:
+	(
+		(
+			{
+				$current = forceCreateModelElement(
+					grammarAccess.getGCRLINERGAccess().getGCRLINERGAction_0(),
+					$current);
+			}
+		)
+		otherlv_1='\n.rg'
+		{
+			newLeafNode(otherlv_1, grammarAccess.getGCRLINERGAccess().getRgKeyword_1());
+		}
+		(
+			(
+				{ 
+				  getUnorderedGroupHelper().enter(grammarAccess.getGCRLINERGAccess().getUnorderedGroup_2());
+				}
+				(
+					(
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCRLINERGAccess().getUnorderedGroup_2(), 0)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCRLINERGAccess().getUnorderedGroup_2(), 0);
+					}
+								({true}?=>(otherlv_3='XOSSF='
+								{
+									newLeafNode(otherlv_3, grammarAccess.getGCRLINERGAccess().getXOSSFKeyword_2_0_0());
+								}
+								(
+									(
+										lv_XOSSF_4_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_XOSSF_4_0, grammarAccess.getGCRLINERGAccess().getXOSSFEINTEGEROBJECTTerminalRuleCall_2_0_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCRLINERGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"XOSSF",
+												lv_XOSSF_4_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCRLINERGAccess().getUnorderedGroup_2());
+					}
+				)
+			)|
+			(
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getGCRLINERGAccess().getUnorderedGroup_2(), 1)}?=>(
+					{
+						getUnorderedGroupHelper().select(grammarAccess.getGCRLINERGAccess().getUnorderedGroup_2(), 1);
+					}
+								({true}?=>(otherlv_5='YOFFS='
+								{
+									newLeafNode(otherlv_5, grammarAccess.getGCRLINERGAccess().getYOFFSKeyword_2_1_0());
+								}
+								(
+									(
+										lv_YOFFS_6_0=RULE_EINTEGEROBJECT
+										{
+											newLeafNode(lv_YOFFS_6_0, grammarAccess.getGCRLINERGAccess().getYOFFSEINTEGEROBJECTTerminalRuleCall_2_1_1_0());
+										}
+										{
+											if ($current==null) {
+												$current = createModelElement(grammarAccess.getGCRLINERGRule());
+											}
+											setWithLastConsumed(
+												$current,
+												"YOFFS",
+												lv_YOFFS_6_0,
+												"org.afplib.AfpText.EINTEGEROBJECT");
+										}
+									)
+								)
+								))
+					{ 
+						getUnorderedGroupHelper().returnFromSelection(grammarAccess.getGCRLINERGAccess().getUnorderedGroup_2());
+					}
+				)
+			)
+					)*
+				)
+			)
+				{ 
+				  getUnorderedGroupHelper().leave(grammarAccess.getGCRLINERGAccess().getUnorderedGroup_2());
 				}
 		)
 	)
@@ -28150,6 +30298,25 @@ ruleBandImage returns [EObject current=null]
 				)
 			)
 		)?
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getBandImageAccess().getRgBandImageRGParserRuleCall_3_0());
+				}
+				lv_rg_4_0=ruleBandImageRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getBandImageRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_4_0,
+						"org.afplib.AfpText.BandImageRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -28446,6 +30613,25 @@ ruleExternalAlgorithm returns [EObject current=null]
 				)
 			)
 		)?
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getExternalAlgorithmAccess().getRgExternalAlgorithmRGParserRuleCall_3_0());
+				}
+				lv_rg_4_0=ruleExternalAlgorithmRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getExternalAlgorithmRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_4_0,
+						"org.afplib.AfpText.ExternalAlgorithmRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -29637,6 +31823,25 @@ ruleSamplingRatios returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getSamplingRatiosAccess().getSamplingRatiosKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getSamplingRatiosAccess().getRgSamplingRatiosRGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleSamplingRatiosRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getSamplingRatiosRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.SamplingRatiosRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -29691,6 +31896,25 @@ ruleTileTOC returns [EObject current=null]
 				)
 			)
 		)?
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getTileTOCAccess().getRgTileTOCRGParserRuleCall_3_0());
+				}
+				lv_rg_4_0=ruleTileTOCRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getTileTOCRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_4_0,
+						"org.afplib.AfpText.TileTOCRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -31472,6 +33696,25 @@ ruleGFLT returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getGFLTAccess().getGFLTKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGFLTAccess().getRgGFLTRGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleGFLTRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGFLTRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.GFLTRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -31502,6 +33745,25 @@ ruleGCFLT returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getGCFLTAccess().getGCFLTKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGCFLTAccess().getRgGCFLTRGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleGCFLTRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGCFLTRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.GCFLTRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -31872,6 +34134,25 @@ ruleGLINE returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getGLINEAccess().getGLINEKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGLINEAccess().getRgGLINERGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleGLINERG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGLINERule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.GLINERG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -31902,6 +34183,25 @@ ruleGCLINE returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getGCLINEAccess().getGCLINEKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGCLINEAccess().getRgGCLINERGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleGCLINERG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGCLINERule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.GCLINERG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -31932,6 +34232,25 @@ ruleGMRK returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getGMRKAccess().getGMRKKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGMRKAccess().getRgGMRKRGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleGMRKRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGMRKRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.GMRKRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -31962,6 +34281,25 @@ ruleGCMRK returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getGCMRKAccess().getGCMRKKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGCMRKAccess().getRgGCMRKRGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleGCMRKRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGCMRKRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.GCMRKRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -32652,6 +34990,25 @@ ruleGRLINE returns [EObject current=null]
 				  getUnorderedGroupHelper().leave(grammarAccess.getGRLINEAccess().getUnorderedGroup_2());
 				}
 		)
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGRLINEAccess().getRgGRLINERGParserRuleCall_3_0());
+				}
+				lv_rg_7_0=ruleGRLINERG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGRLINERule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_7_0,
+						"org.afplib.AfpText.GRLINERG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -32682,6 +35039,25 @@ ruleGCRLINE returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getGCRLINEAccess().getGCRLINEKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGCRLINEAccess().getRgGCRLINERGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleGCRLINERG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGCRLINERule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.GCRLINERG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -34816,6 +37192,25 @@ ruleGCBEZ returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getGCBEZAccess().getGCBEZKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGCBEZAccess().getRgGCBEZRGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleGCBEZRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGCBEZRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.GCBEZRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 
@@ -34846,6 +37241,25 @@ ruleGCCBEZ returns [EObject current=null]
 		{
 			newLeafNode(otherlv_1, grammarAccess.getGCCBEZAccess().getGCCBEZKeyword_1());
 		}
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getGCCBEZAccess().getRgGCCBEZRGParserRuleCall_2_0());
+				}
+				lv_rg_2_0=ruleGCCBEZRG
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getGCCBEZRule());
+					}
+					add(
+						$current,
+						"rg",
+						lv_rg_2_0,
+						"org.afplib.AfpText.GCCBEZRG");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)*
 	)
 ;
 

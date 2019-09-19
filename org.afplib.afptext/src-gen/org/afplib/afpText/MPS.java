@@ -3,6 +3,7 @@
  */
 package org.afplib.afpText;
 
+import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -15,6 +16,7 @@ package org.afplib.afpText;
  * <ul>
  *   <li>{@link org.afplib.afpText.MPS#getRGLength <em>RG Length</em>}</li>
  *   <li>{@link org.afplib.afpText.MPS#getReserved <em>Reserved</em>}</li>
+ *   <li>{@link org.afplib.afpText.MPS#getRg <em>Rg</em>}</li>
  * </ul>
  *
  * @see org.afplib.afpText.AfpTextPackage#getMPS()
@@ -66,5 +68,17 @@ public interface MPS extends structuredField
    * @generated
    */
   void setReserved(String value);
+
+  /**
+   * Returns the value of the '<em><b>Rg</b></em>' containment reference list.
+   * The list contents are of type {@link org.afplib.afpText.MPSRG}.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Rg</em>' containment reference list.
+   * @see org.afplib.afpText.AfpTextPackage#getMPS_Rg()
+   * @model containment="true"
+   * @generated
+   */
+  EList<MPSRG> getRg();
 
 } // MPS

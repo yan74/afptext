@@ -1,7 +1,7 @@
 # afptext
 Eclipse text editor for creating fully composed AFP
 
-Update Site: https://afpworx--builds.s3.eu-central-1.amazonaws.com/afptext/
+Update Site: https://afplib.org/afptext/
 
 AFPText is an eclipse feature that provides a text editor able to edit AFP (Advanced Function Presentation - https://en.wikipedia.org/wiki/Advanced_Function_Presentation) files. It "compiles" text to AFP and vice versa.
 
